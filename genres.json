@@ -1,0 +1,142 @@
+[
+	{
+		"continent": "The Rock Shield",
+		"colorFamily": "Reds",
+		"primaryGenres": [
+			"Rock",
+			"Punk",
+			"Heavy Metal",
+			"Grunge",
+			"Hard Rock",
+			"Psychedelic Rock",
+			"Progressive Rock",
+			"Alternative Rock",
+			"Indie Rock",
+			"Rock & Roll",
+			"Rockabilly",
+			"Surf Rock",
+			"Garage Rock",
+			"Post-Punk",
+			"New Wave",
+			"Shoegaze"
+		]
+	},
+	{
+		"continent": "The Electronic Frontier",
+		"colorFamily": "Blues",
+		"primaryGenres": [
+			"Electronic",
+			"Techno",
+			"House",
+			"Trance",
+			"Ambient",
+			"IDM",
+			"Drum and Bass",
+			"Jungle",
+			"Dubstep",
+			"Downtempo",
+			"Synth-pop",
+			"Electro",
+			"Industrial",
+			"Glitch",
+			"Eurodance",
+			"Hardstyle"
+		]
+	},
+	{
+		"continent": "The Hip-Hop Basin",
+		"colorFamily": "Yellows/Golds",
+		"primaryGenres": [
+			"Hip Hop",
+			"Rap",
+			"Trap",
+			"Boom Bap",
+			"Gangsta Rap",
+			"R&B",
+			"Soul",
+			"Funk",
+			"Disco",
+			"Motown",
+			"Neo Soul",
+			"G-Funk"
+		]
+	},
+	{
+		"continent": "The Jazz & Blues Delta",
+		"colorFamily": "Greens",
+		"primaryGenres": [
+			"Jazz",
+			"Blues",
+			"Swing",
+			"Bebop",
+			"Cool Jazz",
+			"Fusion",
+			"Ragtime",
+			"Hard Bop",
+			"Delta Blues",
+			"Chicago Blues",
+			"Soul Jazz",
+			"Bossa Nova"
+		]
+	},
+	{
+		"continent": "The Pop Archipelago",
+		"colorFamily": "Pinks",
+		"primaryGenres": [
+			"Pop",
+			"Teen Pop",
+			"Dance-Pop",
+			"Europop",
+			"K-Pop",
+			"J-Pop",
+			"Power Pop",
+			"Indie Pop",
+			"Dream Pop",
+			"Bubblegum Pop"
+		]
+	},
+	{
+		"continent": "The Folk & Roots Plains",
+		"colorFamily": "Oranges",
+		"primaryGenres": [
+			"Folk",
+			"Country",
+			"Bluegrass",
+			"Americana",
+			"Acoustic",
+			"Singer-Songwriter",
+			"World Music",
+			"Celtic",
+			"Flamenco",
+			"African",
+			"Latin"
+		]
+	},
+	{
+		"continent": "The Metal Peaks",
+		"colorFamily": "Purples/Greys",
+		"primaryGenres": [
+			"Black Metal",
+			"Death Metal",
+			"Thrash Metal",
+			"Doom Metal",
+			"Nu Metal",
+			"Sludge",
+			"Gothic Metal",
+			"Power Metal"
+		]
+	},
+	{
+		"continent": "The Avant-Garde Isles",
+		"colorFamily": "Teals",
+		"primaryGenres": [
+			"Experimental",
+			"Noise",
+			"Avant-Garde",
+			"Modern Classical",
+			"Minimalism",
+			"Drone",
+			"Dark Ambient"
+		]
+	}
+]
