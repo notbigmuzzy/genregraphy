@@ -1,11 +1,22 @@
 <template>
   <div>
-    <p>{{ message }}</p>
+    <h1>Genregraphy</h1>
+    <div class="charts-container">
+      <GenreChart />
+      <GenreGroupChart />
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
-const message = ref('Hello world!');
+import GenreChart from './components/GenreChart.vue';
+import GenreGroupChart from './components/GenreGroupChart.vue';
 </script>
+
+<style scoped>
+.charts-container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+</style>
