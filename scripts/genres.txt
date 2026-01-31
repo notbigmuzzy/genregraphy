@@ -1,0 +1,133 @@
+# The Rock Shield
+Rock
+Punk
+Heavy Metal
+Grunge
+Hard Rock
+Alternative Rock
+Psychedelic Rock
+Progressive Rock
+Indie Rock
+Rock & Roll
+Rockabilly
+Surf Rock
+Garage Rock
+Post-Punk
+New Wave
+Shoegaze
+Emo
+Pop-Punk
+Post-Rock
+Stoner Rock
+Hardcore
+
+# The Electronic Frontier
+Electronic
+Techno
+House
+Trance
+Ambient
+IDM
+Drum and Bass
+Jungle
+Dubstep
+Downtempo
+Synth-pop
+Electro
+Industrial
+Glitch
+Eurodance
+Hardstyle
+Synthwave
+Trip Hop
+Breakbeat
+Vaporwave
+Chiptune
+Chillout
+Lounge
+
+# The Hip-Hop Basin
+Hip Hop
+Trap
+Boom Bap
+Gangsta Rap
+R&B
+Soul
+Funk
+Disco
+Motown
+Neo Soul
+G-funk
+Lo-fi
+Mumble Rap
+
+# The Jazz & Blues Delta
+Jazz
+Blues
+Swing
+Bebop
+Cool Jazz
+Fusion
+Ragtime
+Hard bop
+Delta blues
+Chicago blues
+Soul jazz
+Bossa nova
+
+# The Pop Archipelago
+Pop
+Teen Pop
+Dance-pop
+Europop
+K-pop
+J-pop
+Power pop
+Indie pop
+Dream pop
+Bubblegum pop
+Traditional Pop
+
+# The Folk & Roots Plains
+Folk
+Country
+Bluegrass
+Americana
+Acoustic
+Singer-songwriter
+Celtic
+Flamenco
+Latin
+Afrobeat
+Gospel
+
+# The Metal Peaks
+Black Metal
+Death Metal
+Thrash Metal
+Doom Metal
+Nu Metal
+Sludge
+Gothic Metal
+Power Metal
+Metalcore
+Grindcore
+
+# The Tropical Pulse
+Reggae
+Ska
+Dub
+Rocksteady
+Dancehall
+Soca
+Reggaeton
+
+# The Avant-Garde Isles
+Experimental
+Noise
+Avant-garde
+Modern Classical
+Minimalism
+Drone
+Dark Ambient
+Soundtrack
