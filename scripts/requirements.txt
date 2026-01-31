@@ -1,0 +1,2 @@
+musicbrainzngs>=0.7.1
+tqdm>=4.66.0
