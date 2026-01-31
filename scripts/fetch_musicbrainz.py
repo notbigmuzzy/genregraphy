@@ -79,9 +79,14 @@ def fetch_count(genre, year, retries=3):
     """Fetch album count for a specific genre and year with retry logic"""
     for attempt in range(retries):
         try:
-            query = f'tag:{genre} AND date:{year} AND (type:album OR type:compilation OR type:live OR type:single)'
+            # Escape quotes in genre name and build proper query
+            genre_escaped = genre.replace('"', '\\"')
+            query = f'tag:"{genre_escaped}" AND date:{year} AND (type:album OR type:compilation OR type:live OR type:single)'
             result = musicbrainzngs.search_release_groups(query=query, limit=1)
-            return result['release-group-count']
+            count = result['release-group-count']
+            # Debug: print query and result
+            print(f"  Query: {query} → Count: {count}")
+            return count
         except Exception as e:
             if attempt < retries - 1:
                 time.sleep(2)  # Wait before retry
@@ -95,7 +100,7 @@ def fetch_examples(genre, year, limit=20, retries=3):
     """Fetch example albums for a specific genre and year with retry logic"""
     for attempt in range(retries):
         try:
-            query = f'tag:{genre} AND date:{year} AND (type:album OR type:compilation OR type:live OR type:single)'
+            query = f'tag:"{genre}" AND date:{year} AND (type:album OR type:compilation OR type:live OR type:single)'
             result = musicbrainzngs.search_release_groups(query=query, limit=limit)
             
             examples = []
