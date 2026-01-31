@@ -13,9 +13,8 @@ from pathlib import Path
 # Configuration
 musicbrainzngs.set_useragent("Genregraphy", "0.1", "notbigmuzzy@gmail.com")
 
-YEAR_START = 1994
-YEAR_END = 1994
-
+YEAR_START = 1995
+YEAR_END = 2000
 
 def load_genres():
     """Load genres from genres.txt file"""
@@ -32,7 +31,6 @@ def load_genres():
     
     return genres
 
-
 def load_genre_groups():
     """Load genre to group mapping from genre_groups.txt"""
     mapping_file = Path(__file__).parent / 'genre_groups.txt'
@@ -48,7 +46,6 @@ def load_genre_groups():
                     genre_to_group[genre.strip().lower()] = group.strip()
     
     return genre_to_group
-
 
 def load_genre_synonyms():
     """Load genre synonyms mapping"""
@@ -69,11 +66,9 @@ def load_genre_synonyms():
     
     return synonyms
 
-
 GENRES = load_genres()
 GENRE_GROUPS = load_genre_groups()
 GENRE_SYNONYMS = load_genre_synonyms()
-
 
 def fetch_count(genre, year, retries=3):
     """Fetch album count for a specific genre and year with retry logic"""
@@ -94,7 +89,6 @@ def fetch_count(genre, year, retries=3):
             else:
                 print(f"Error fetching {genre}/{year} after {retries} attempts: {e}")
                 return 0
-
 
 def fetch_examples(genre, year, limit=20, retries=3):
     """Fetch example albums for a specific genre and year with retry logic"""
@@ -121,17 +115,27 @@ def fetch_examples(genre, year, limit=20, retries=3):
                 print(f"Error fetching examples for {genre}/{year} after {retries} attempts: {e}")
                 return []
 
-
 def build_summary_data():
     """Phase A: Build summary map data (counts only) grouped by genre groups"""
     print("Phase A: Fetching summary counts...")
     
-    summary = {}
+    # Create years directory
+    years_dir = Path(__file__).parent.parent / 'src/api/years'
+    years_dir.mkdir(parents=True, exist_ok=True)
+    
     total_requests = len(GENRES) * (YEAR_END - YEAR_START + 1)
     
     with tqdm(total=total_requests, desc="Fetching counts") as pbar:
         for year in range(YEAR_START, YEAR_END + 1):
-            summary[str(year)] = {}
+            year_file = years_dir / f'{year}.json'
+            
+            # Skip if year file already exists
+            if year_file.exists():
+                print(f"  Skipping {year} (file already exists)")
+                pbar.update(len(GENRES))
+                continue
+            
+            year_data = {}
             
             for genre in GENRES:
                 count = fetch_count(genre, year)
@@ -143,28 +147,40 @@ def build_summary_data():
                 group = GENRE_GROUPS.get(actual_genre, "Other")
                 
                 # Initialize group if not exists
-                if group not in summary[str(year)]:
-                    summary[str(year)][group] = {}
+                if group not in year_data:
+                    year_data[group] = {}
                 
                 # Add or merge genre count to its group
-                if actual_genre not in summary[str(year)][group]:
-                    summary[str(year)][group][actual_genre] = 0
+                if actual_genre not in year_data[group]:
+                    year_data[group][actual_genre] = 0
                 
-                summary[str(year)][group][actual_genre] += count
+                year_data[group][actual_genre] += count
                 
                 pbar.update(1)
                 time.sleep(1.1)  # Rate limiting: 1 request per second
+            
+            # Save year file
+            with open(year_file, 'w', encoding='utf-8') as f:
+                json.dump(year_data, f, indent=2, ensure_ascii=False)
+            print(f"  ✓ Saved {year_file.name}")
     
-    # Save to file
+    print(f"✓ All year files saved to {years_dir}")
+    
+    # Merge all years into one genres.json
+    print("\nMerging all years into genres.json...")
+    merged = {}
+    for year in range(YEAR_START, YEAR_END + 1):
+        year_file = years_dir / f'{year}.json'
+        if year_file.exists():
+            with open(year_file, 'r', encoding='utf-8') as f:
+                merged[str(year)] = json.load(f)
+    
     output_path = Path(__file__).parent.parent / 'src/api/genres.json'
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(summary, f, indent=2, ensure_ascii=False)
+        json.dump(merged, f, indent=2, ensure_ascii=False)
     
-    print(f"✓ Summary data saved to {output_path}")
-    return summary
-
+    print(f"✓ Merged data saved to {output_path}")
+    return merged
 
 def build_detailed_data(top_n=10):
     """Phase B: Build detailed data with examples for top entries"""
@@ -188,7 +204,6 @@ def build_detailed_data(top_n=10):
     print(f"✓ Detailed data saved to {output_path}")
     return detailed
 
-
 def main():
     """Main execution"""
     print("Genregraphy Data Fetcher")
@@ -208,7 +223,6 @@ def main():
         build_detailed_data()
     else:
         print("Invalid choice")
-
 
 if __name__ == "__main__":
     main()

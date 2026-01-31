@@ -1,7 +1,6 @@
 # The Rock Shield
 Rock
 Punk
-Heavy Metal
 Grunge
 Hard Rock
 Alternative Rock
@@ -102,6 +101,8 @@ Afrobeat
 Gospel
 
 # The Metal Peaks
+Metal
+Heavy Metal
 Black Metal
 Death Metal
 Thrash Metal
