@@ -47,21 +47,23 @@ const allGroups = ref([]);
 onMounted(() => {
   const groupsSet = new Set();
   Object.values(genresData).forEach(yearData => {
-    Object.keys(yearData).forEach(group => {
-      groupsSet.add(group);
-    });
+    if (yearData.continents) {
+      Object.keys(yearData.continents).forEach(continent => {
+        groupsSet.add(continent);
+      });
+    }
   });
   allGroups.value = Array.from(groupsSet).sort();
 });
 
 const getCount = (year) => {
   const yearData = genreData.value[year];
-  if (!yearData) return 0;
+  if (!yearData || !yearData.continents) return 0;
   
-  const groupData = yearData[selectedGroup.value];
-  if (!groupData) return 0;
+  const continentData = yearData.continents[selectedGroup.value];
+  if (!continentData) return 0;
   
-  return Object.values(groupData).reduce((sum, count) => sum + count, 0);
+  return continentData.total;
 };
 
 const getBarHeight = (year) => {

@@ -48,11 +48,13 @@ const allGenres = ref([]);
 onMounted(() => {
   const genresSet = new Set();
   Object.values(genresData).forEach(yearData => {
-    Object.values(yearData).forEach(groupData => {
-      Object.keys(groupData).forEach(genre => {
-        genresSet.add(genre);
+    if (yearData.continents) {
+      Object.values(yearData.continents).forEach(continentData => {
+        Object.keys(continentData.genres).forEach(genre => {
+          genresSet.add(genre);
+        });
       });
-    });
+    }
   });
   allGenres.value = Array.from(genresSet).sort();
 });
@@ -60,11 +62,11 @@ onMounted(() => {
 // Nađi count za izabrani žanr i godinu
 const getCount = (year) => {
   const yearData = genreData.value[year];
-  if (!yearData) return 0;
+  if (!yearData || !yearData.continents) return 0;
   
-  for (const groupData of Object.values(yearData)) {
-    if (groupData[selectedGenre.value] !== undefined) {
-      return groupData[selectedGenre.value];
+  for (const continentData of Object.values(yearData.continents)) {
+    if (continentData.genres[selectedGenre.value] !== undefined) {
+      return continentData.genres[selectedGenre.value];
     }
   }
   return 0;

@@ -124,6 +124,7 @@ Soca
 Reggaeton
 
 # The Avant-Garde Isles
+Classical
 Experimental
 Noise
 Avant-garde

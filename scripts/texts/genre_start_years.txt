@@ -1,0 +1,139 @@
+# Genre Start Years
+# Format: genre -> year
+# Genres before their start year will have count set to 0
+
+# The Rock Shield
+rock -> 1950
+punk -> 1973
+grunge -> 1987
+hard rock -> 1968
+alternative rock -> 1980
+psychedelic rock -> 1965
+progressive rock -> 1968
+indie rock -> 1985
+rock & roll -> 1950
+rockabilly -> 1951
+surf rock -> 1961
+garage rock -> 1963
+post-punk -> 1978
+new wave -> 1978
+shoegaze -> 1988
+emo -> 1985
+pop-punk -> 1990
+post-rock -> 1991
+stoner rock -> 1990
+hardcore -> 1978
+
+# The Electronic Frontier
+electronic -> 1970
+techno -> 1985
+house -> 1984
+trance -> 1990
+ambient -> 1970
+idm -> 1992
+drum and bass -> 1992
+jungle -> 1992
+dubstep -> 1998
+downtempo -> 1990
+synth-pop -> 1978
+electro -> 1982
+industrial -> 1975
+glitch -> 1995
+eurodance -> 1987
+hardstyle -> 1998
+synthwave -> 2010
+trip hop -> 1990
+breakbeat -> 1990
+vaporwave -> 2010
+chiptune -> 2000
+chillout -> 1990
+lounge -> 1950
+
+# The Hip-Hop Basin
+hip hop -> 1979
+trap -> 2003
+boom bap -> 1987
+gangsta rap -> 1986
+r&b -> 1940
+soul -> 1955
+funk -> 1965
+disco -> 1971
+motown -> 1959
+neo soul -> 1990
+g-funk -> 1992
+lo-fi -> 2010
+mumble rap -> 2012
+
+# The Jazz & Blues Delta
+jazz -> 1920
+blues -> 1920
+swing -> 1930
+bebop -> 1940
+cool jazz -> 1948
+fusion -> 1968
+ragtime -> 1895
+hard bop -> 1951
+delta blues -> 1920
+chicago blues -> 1940
+soul jazz -> 1955
+bossa nova -> 1958
+
+# The Pop Archipelago
+pop -> 1950
+teen pop -> 1995
+dance-pop -> 1980
+europop -> 1970
+k-pop -> 1992
+j-pop -> 1989
+power pop -> 1970
+indie pop -> 1985
+dream pop -> 1986
+bubblegum pop -> 1967
+traditional pop -> 1930
+
+# The Folk & Roots Plains
+folk -> 1920
+country -> 1920
+bluegrass -> 1939
+americana -> 1990
+acoustic -> 1950
+singer-songwriter -> 1960
+celtic -> 1970
+flamenco -> 1920
+latin -> 1920
+afrobeat -> 1968
+gospel -> 1920
+
+# The Metal Peaks
+metal -> 1968
+heavy metal -> 1968
+black metal -> 1984
+death metal -> 1984
+thrash metal -> 1983
+doom metal -> 1970
+nu metal -> 1994
+sludge -> 1985
+gothic metal -> 1990
+power metal -> 1987
+metalcore -> 1998
+grindcore -> 1985
+
+# The Tropical Pulse
+reggae -> 1968
+ska -> 1960
+dub -> 1969
+rocksteady -> 1966
+dancehall -> 1979
+soca -> 1970
+reggaeton -> 1991
+
+# The Avant-Garde Isles
+classical -> 1700
+experimental -> 1950
+noise -> 1975
+avant-garde -> 1950
+modern classical -> 1960
+minimalism -> 1960
+drone -> 1970
+dark ambient -> 1980
+soundtrack -> 1930
