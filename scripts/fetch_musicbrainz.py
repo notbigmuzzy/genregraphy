@@ -13,12 +13,12 @@ from pathlib import Path
 # Configuration
 musicbrainzngs.set_useragent("Genregraphy", "0.1", "notbigmuzzy@gmail.com")
 
-YEAR_START = 1970
-YEAR_END = 1989
+YEAR_START = 1950
+YEAR_END = 1969
 
 def load_genres():
-    """Load genres from genres.txt file"""
-    genres_file = Path(__file__).parent / 'genres.txt'
+    """Load genres from texts/genres.txt file"""
+    genres_file = Path(__file__).parent / 'texts/genres.txt'
     genres = []
     
     with open(genres_file, 'r', encoding='utf-8') as f:
@@ -32,8 +32,8 @@ def load_genres():
     return genres
 
 def load_genre_groups():
-    """Load genre to group mapping from genre_groups.txt"""
-    mapping_file = Path(__file__).parent / 'genre_groups.txt'
+    """Load genre to group mapping from texts/genre_groups.txt"""
+    mapping_file = Path(__file__).parent / 'texts/genre_groups.txt'
     genre_to_group = {}
     
     with open(mapping_file, 'r', encoding='utf-8') as f:
@@ -49,7 +49,7 @@ def load_genre_groups():
 
 def load_genre_synonyms():
     """Load genre synonyms mapping"""
-    synonyms_file = Path(__file__).parent / 'genre_synonyms.txt'
+    synonyms_file = Path(__file__).parent / 'texts/genre_synonyms.txt'
     synonyms = {}
     
     if not synonyms_file.exists():

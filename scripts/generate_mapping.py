@@ -9,8 +9,8 @@ from pathlib import Path
 
 def generate_mapping():
     """Generate genre to group mapping from genres.txt structure"""
-    genres_file = Path(__file__).parent / 'genres.txt'
-    output_file = Path(__file__).parent / 'genre_groups.txt'
+    genres_file = Path(__file__).parent / 'texts/genres.txt'
+    output_file = Path(__file__).parent / 'texts/genre_groups.txt'
     
     current_group = None
     mappings = []
