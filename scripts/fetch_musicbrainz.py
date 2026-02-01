@@ -13,8 +13,8 @@ from pathlib import Path
 # Configuration
 musicbrainzngs.set_useragent("Genregraphy", "0.1", "notbigmuzzy@gmail.com")
 
-YEAR_START = 1950
-YEAR_END = 1969
+YEAR_START = 1981
+YEAR_END = 2000
 
 def load_genres():
     """Load genres from texts/genres.txt file"""
@@ -94,7 +94,7 @@ def fetch_examples(genre, year, limit=20, retries=3):
     """Fetch example albums for a specific genre and year with retry logic"""
     for attempt in range(retries):
         try:
-            query = f'tag:"{genre}" AND date:{year} AND (type:album OR type:compilation OR type:live OR type:single)'
+            query = f'tag:"{genre}" AND date:{year} AND (type:album OR type:ep OR type:single)'
             result = musicbrainzngs.search_release_groups(query=query, limit=limit)
             
             examples = []

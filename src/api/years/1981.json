@@ -14,6 +14,7 @@
     "garage rock": 8,
     "post-punk": 32,
     "new wave": 53,
+    "britpop": 1,
     "shoegaze": 3,
     "emo": 3,
     "pop-punk": 7,
@@ -58,8 +59,7 @@
     "motown": 0,
     "neo soul": 0,
     "g-funk": 1,
-    "lo-fi": 17,
-    "mumble rap": 0
+    "lo-fi": 17
   },
   "The Jazz & Blues Delta": {
     "jazz": 133,
@@ -98,8 +98,21 @@
     "celtic": 1,
     "flamenco": 1,
     "latin": 26,
-    "afrobeat": 2,
     "gospel": 0
+  },
+  "The Tropical Pulse": {
+    "afrobeats": 2,
+    "reggae": 15,
+    "ska": 5,
+    "dub": 7,
+    "rocksteady": 0,
+    "dancehall": 0,
+    "soca": 1,
+    "reggaeton": 2,
+    "calypso": 1,
+    "zouk": 0,
+    "merengue": 0,
+    "bachata": 0
   },
   "The Metal Peaks": {
     "metal": 37,
@@ -115,16 +128,8 @@
     "metalcore": 4,
     "grindcore": 1
   },
-  "The Tropical Pulse": {
-    "reggae": 15,
-    "ska": 5,
-    "dub": 7,
-    "rocksteady": 0,
-    "dancehall": 0,
-    "soca": 1,
-    "reggaeton": 2
-  },
   "The Avant-Garde Isles": {
+    "classical": 70,
     "experimental": 73,
     "noise": 12,
     "avant-garde": 18,
@@ -132,7 +137,6 @@
     "minimalism": 0,
     "drone": 5,
     "dark ambient": 4,
-    "soundtrack": 8,
-    "classical": 70
+    "soundtrack": 8
   }
 }

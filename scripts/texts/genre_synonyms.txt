@@ -87,6 +87,9 @@ chicago-blues -> chicago blues
 dub -> dub
 dancehall -> dancehall
 reggaeton -> reggaeton
+afro-beats -> afrobeats
+afrobeat -> afrobeats
+reggaetón -> reggaeton
 
 # Folk variations
 bluegrass -> bluegrass
@@ -100,7 +103,6 @@ avant garde -> avant-garde
 # Polishing additions
 r & b -> r&b
 rhythm & blues -> r&b
-mumble-rap -> mumble rap
 prog -> progressive rock
 progressive-rock -> progressive rock
 alt-rock -> alternative rock

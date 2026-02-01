@@ -13,6 +13,7 @@ Surf Rock
 Garage Rock
 Post-Punk
 New Wave
+Britpop
 Shoegaze
 Emo
 Pop-Punk
@@ -58,7 +59,6 @@ Motown
 Neo Soul
 G-funk
 Lo-fi
-Mumble Rap
 
 # The Jazz & Blues Delta
 Jazz
@@ -122,6 +122,11 @@ Rocksteady
 Dancehall
 Soca
 Reggaeton
+Calypso
+Afrobeats
+Zouk
+Merengue
+Bachata
 
 # The Avant-Garde Isles
 Classical

@@ -19,7 +19,8 @@
     "pop-punk": 7,
     "post-rock": 3,
     "stoner rock": 1,
-    "hardcore": 12
+    "hardcore": 12,
+    "britpop": 1
   },
   "The Electronic Frontier": {
     "electronic": 231,
@@ -58,8 +59,7 @@
     "motown": 0,
     "neo soul": 0,
     "g-funk": 1,
-    "lo-fi": 17,
-    "mumble rap": 0
+    "lo-fi": 17
   },
   "The Jazz & Blues Delta": {
     "jazz": 131,
@@ -98,8 +98,21 @@
     "celtic": 1,
     "flamenco": 2,
     "latin": 26,
-    "afrobeat": 1,
     "gospel": 2
+  },
+  "The Tropical Pulse": {
+    "afrobeats": 1,
+    "reggae": 28,
+    "ska": 8,
+    "dub": 12,
+    "rocksteady": 4,
+    "dancehall": 0,
+    "soca": 0,
+    "reggaeton": 2,
+    "calypso": 1,
+    "zouk": 0,
+    "merengue": 0,
+    "bachata": 0
   },
   "The Metal Peaks": {
     "metal": 31,
@@ -115,16 +128,8 @@
     "metalcore": 4,
     "grindcore": 1
   },
-  "The Tropical Pulse": {
-    "reggae": 28,
-    "ska": 8,
-    "dub": 12,
-    "rocksteady": 4,
-    "dancehall": 0,
-    "soca": 0,
-    "reggaeton": 2
-  },
   "The Avant-Garde Isles": {
+    "classical": 76,
     "experimental": 69,
     "noise": 9,
     "avant-garde": 17,
@@ -132,7 +137,6 @@
     "minimalism": 0,
     "drone": 4,
     "dark ambient": 5,
-    "soundtrack": 12,
-    "classical": 76
+    "soundtrack": 12
   }
 }

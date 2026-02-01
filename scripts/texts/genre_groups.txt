@@ -18,6 +18,7 @@ surf rock -> The Rock Shield
 garage rock -> The Rock Shield
 post-punk -> The Rock Shield
 new wave -> The Rock Shield
+britpop -> The Rock Shield
 shoegaze -> The Rock Shield
 emo -> The Rock Shield
 pop-punk -> The Rock Shield
@@ -63,7 +64,6 @@ motown -> The Hip-Hop Basin
 neo soul -> The Hip-Hop Basin
 g-funk -> The Hip-Hop Basin
 lo-fi -> The Hip-Hop Basin
-mumble rap -> The Hip-Hop Basin
 
 # The Jazz & Blues Delta
 jazz -> The Jazz & Blues Delta
@@ -127,8 +127,14 @@ rocksteady -> The Tropical Pulse
 dancehall -> The Tropical Pulse
 soca -> The Tropical Pulse
 reggaeton -> The Tropical Pulse
+calypso -> The Tropical Pulse
+afrobeats -> The Tropical Pulse
+zouk -> The Tropical Pulse
+merengue -> The Tropical Pulse
+bachata -> The Tropical Pulse
 
 # The Avant-Garde Isles
+classical -> The Avant-Garde Isles
 experimental -> The Avant-Garde Isles
 noise -> The Avant-Garde Isles
 avant-garde -> The Avant-Garde Isles

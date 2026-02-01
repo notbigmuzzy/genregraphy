@@ -17,6 +17,7 @@ surf rock -> 1961
 garage rock -> 1963
 post-punk -> 1978
 new wave -> 1978
+britpop -> 1992
 shoegaze -> 1988
 emo -> 1985
 pop-punk -> 1990
@@ -62,7 +63,6 @@ motown -> 1959
 neo soul -> 1990
 g-funk -> 1992
 lo-fi -> 2010
-mumble rap -> 2012
 
 # The Jazz & Blues Delta
 jazz -> 1920
@@ -126,6 +126,11 @@ rocksteady -> 1966
 dancehall -> 1979
 soca -> 1970
 reggaeton -> 1991
+calypso -> 1930
+afrobeats -> 2005
+zouk -> 1980
+merengue -> 1950
+bachata -> 1960
 
 # The Avant-Garde Isles
 classical -> 1700

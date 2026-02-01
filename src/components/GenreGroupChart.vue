@@ -11,10 +11,11 @@
 
     <div class="chart">
       <div class="y-axis">
-        <div class="y-label">1500</div>
-        <div class="y-label">1100</div>
-        <div class="y-label">700</div>
-        <div class="y-label">350</div>
+		<div class="y-label">1000</div>
+        <div class="y-label">800</div>
+        <div class="y-label">600</div>
+        <div class="y-label">400</div>
+        <div class="y-label">200</div>
         <div class="y-label">0</div>
       </div>
       <div class="bars">
@@ -68,6 +69,6 @@ const getCount = (year) => {
 
 const getBarHeight = (year) => {
   const count = getCount(year);
-  return Math.min((count / 1500) * 100, 100);
+  return Math.min((count / 1000) * 100, 100);
 };
 </script>

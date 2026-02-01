@@ -11,10 +11,11 @@
 
     <div class="chart">
       <div class="y-axis">
-        <div class="y-label">1000</div>
-        <div class="y-label">750</div>
-        <div class="y-label">500</div>
-        <div class="y-label">250</div>
+		<div class="y-label">500</div>
+        <div class="y-label">400</div>
+        <div class="y-label">300</div>
+        <div class="y-label">200</div>
+        <div class="y-label">100</div>
         <div class="y-label">0</div>
       </div>
       <div class="bars">
@@ -75,6 +76,6 @@ const getCount = (year) => {
 // Izračunaj visinu bara (maksimum 1000 = 100%)
 const getBarHeight = (year) => {
   const count = getCount(year);
-  return Math.min((count / 1000) * 100, 100);
+  return Math.min((count / 500) * 100, 100);
 };
 </script>
