@@ -11,10 +11,10 @@
 
     <div class="chart">
       <div class="y-axis">
-        <div class="y-label">1000</div>
-        <div class="y-label">750</div>
-        <div class="y-label">500</div>
-        <div class="y-label">250</div>
+        <div class="y-label">1200</div>
+        <div class="y-label">900</div>
+        <div class="y-label">600</div>
+        <div class="y-label">300</div>
         <div class="y-label">0</div>
       </div>
       <div class="bars">
@@ -39,7 +39,7 @@
 import { ref, onMounted } from 'vue';
 import genresData from '../api/genres.json';
 
-const years = [1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000];
+const years = [1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010];
 const selectedGroup = ref('The Rock Shield');
 const genreData = ref(genresData);
 const allGroups = ref([]);
@@ -66,6 +66,6 @@ const getCount = (year) => {
 
 const getBarHeight = (year) => {
   const count = getCount(year);
-  return Math.min((count / 1000) * 100, 100);
+  return Math.min((count / 1200) * 100, 100);
 };
 </script>
