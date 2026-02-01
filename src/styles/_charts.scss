@@ -14,7 +14,7 @@
 label {
 	font-weight: 600;
 	font-size: 1rem;
-	color: #333;
+	color: #9b9b9b;
 }
 
 select {
@@ -45,6 +45,9 @@ select:focus {
 	height: 90%;
 	overflow-y: hidden;
 	overflow-x: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #a4a4a4 #242424;
+	padding-bottom: 10px;
 }
 
 .y-axis {
