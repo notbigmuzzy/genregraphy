@@ -1,19 +1,16 @@
 <template>
-	<div class="charts-container">
-		<GenreChart />
-		<GenreGroupChart />
+
+
+	<div class="theMap">
+
+
 	</div>
+
+
+
+
 </template>
 
 <script setup>
-	import GenreChart from './components/GenreChart.vue';
-	import GenreGroupChart from './components/GenreGroupChart.vue';
+console.log("App.vue loaded");
 </script>
-
-<style scoped>
-	.charts-container {
-	display: flex;
-	gap: 3rem;
-	flex-wrap: wrap;
-	}
-</style>
