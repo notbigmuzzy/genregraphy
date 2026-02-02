@@ -48,7 +48,7 @@ breakbeat -> 1990
 vaporwave -> 2010
 chiptune -> 2000
 chillout -> 1990
-lounge -> 1950
+lounge -> 1994
 
 # The Hip-Hop Basin
 hip hop -> 1979

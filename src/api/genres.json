@@ -1,4 +1,5558 @@
 {
+  "1950": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 271,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 57,
+          "rock & roll": 45,
+          "rockabilly": 0,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 373
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 14,
+          "soul": 0,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 14
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 135,
+          "blues": 45,
+          "swing": 22,
+          "bebop": 4,
+          "cool jazz": 8,
+          "fusion": 0,
+          "ragtime": 1,
+          "hard bop": 0,
+          "delta blues": 1,
+          "chicago blues": 1,
+          "soul jazz": 0,
+          "bossa nova": 0
+        },
+        "total": 217
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 237,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 3
+        },
+        "total": 240
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 34,
+          "country": 27,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 4,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 0
+        },
+        "total": 86
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 1
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 70,
+          "experimental": 67,
+          "noise": 0,
+          "avant-garde": 11,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 13
+        },
+        "total": 161
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1092,
+      "peak_genres": [
+        "indie",
+        "r&b",
+        "bebop",
+        "pop",
+        "acoustic",
+        "soundtrack"
+      ]
+    }
+  },
+  "1951": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 214,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 30,
+          "rockabilly": 16,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 291
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 8,
+          "soul": 0,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 8
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 111,
+          "blues": 27,
+          "swing": 16,
+          "bebop": 1,
+          "cool jazz": 4,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 2,
+          "delta blues": 2,
+          "chicago blues": 3,
+          "soul jazz": 0,
+          "bossa nova": 0
+        },
+        "total": 166
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 177,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 178
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 22,
+          "country": 19,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 18,
+          "gospel": 0
+        },
+        "total": 62
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 68,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 8
+        },
+        "total": 136
+      }
+    ],
+    "metadata": {
+      "mapped_total": 841,
+      "peak_genres": [
+        "experimental"
+      ]
+    }
+  },
+  "1952": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 216,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 30,
+          "rockabilly": 17,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 294
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 5,
+          "soul": 0,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 5
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 137,
+          "blues": 22,
+          "swing": 22,
+          "bebop": 2,
+          "cool jazz": 6,
+          "fusion": 0,
+          "ragtime": 1,
+          "hard bop": 6,
+          "delta blues": 1,
+          "chicago blues": 1,
+          "soul jazz": 0,
+          "bossa nova": 0
+        },
+        "total": 198
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 180,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 181
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 23,
+          "country": 20,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 1
+        },
+        "total": 66
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 65,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 7,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 9
+        },
+        "total": 135
+      }
+    ],
+    "metadata": {
+      "mapped_total": 879,
+      "peak_genres": []
+    }
+  },
+  "1953": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 212,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 29,
+          "rockabilly": 16,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 288
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 6,
+          "soul": 0,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 6
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 143,
+          "blues": 15,
+          "swing": 24,
+          "bebop": 1,
+          "cool jazz": 5,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 3,
+          "delta blues": 0,
+          "chicago blues": 1,
+          "soul jazz": 0,
+          "bossa nova": 0
+        },
+        "total": 192
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 181,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 182
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 20,
+          "country": 19,
+          "bluegrass": 0,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 22,
+          "gospel": 0
+        },
+        "total": 62
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 75,
+          "experimental": 55,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 7
+        },
+        "total": 143
+      }
+    ],
+    "metadata": {
+      "mapped_total": 873,
+      "peak_genres": [
+        "jazz",
+        "swing",
+        "latin"
+      ]
+    }
+  },
+  "1954": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 217,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 30,
+          "rockabilly": 19,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 296
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 5,
+          "soul": 0,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 5
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 137,
+          "blues": 25,
+          "swing": 17,
+          "bebop": 2,
+          "cool jazz": 6,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 6,
+          "delta blues": 0,
+          "chicago blues": 3,
+          "soul jazz": 0,
+          "bossa nova": 0
+        },
+        "total": 196
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 184,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 2
+        },
+        "total": 186
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 21,
+          "country": 16,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 22,
+          "gospel": 1
+        },
+        "total": 62
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 1
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 77,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 7
+        },
+        "total": 144
+      }
+    ],
+    "metadata": {
+      "mapped_total": 890,
+      "peak_genres": [
+        "calypso"
+      ]
+    }
+  },
+  "1955": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 225,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 37,
+          "rockabilly": 18,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 311
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 5,
+          "soul": 10,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 15
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 127,
+          "blues": 24,
+          "swing": 16,
+          "bebop": 2,
+          "cool jazz": 8,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 5,
+          "delta blues": 0,
+          "chicago blues": 1,
+          "soul jazz": 2,
+          "bossa nova": 0
+        },
+        "total": 185
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 191,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 3
+        },
+        "total": 194
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 21,
+          "country": 18,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 1,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 20,
+          "gospel": 1
+        },
+        "total": 63
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 1
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 81,
+          "experimental": 57,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 154
+      }
+    ],
+    "metadata": {
+      "mapped_total": 923,
+      "peak_genres": [
+        "traditional pop",
+        "classical"
+      ]
+    }
+  },
+  "1956": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 232,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 44,
+          "rockabilly": 25,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 331
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 5,
+          "soul": 11,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 16
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 146,
+          "blues": 23,
+          "swing": 23,
+          "bebop": 1,
+          "cool jazz": 6,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 5,
+          "delta blues": 1,
+          "chicago blues": 0,
+          "soul jazz": 2,
+          "bossa nova": 0
+        },
+        "total": 207
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 195,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 196
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 19,
+          "country": 24,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 20,
+          "gospel": 5
+        },
+        "total": 70
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 70,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 141
+      }
+    ],
+    "metadata": {
+      "mapped_total": 961,
+      "peak_genres": [
+        "rockabilly",
+        "gospel"
+      ]
+    }
+  },
+  "1957": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 245,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 52,
+          "rockabilly": 23,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 350
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 5,
+          "soul": 10,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 15
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 125,
+          "blues": 22,
+          "swing": 13,
+          "bebop": 1,
+          "cool jazz": 6,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 7,
+          "delta blues": 0,
+          "chicago blues": 0,
+          "soul jazz": 2,
+          "bossa nova": 0
+        },
+        "total": 176
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 210,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 2
+        },
+        "total": 212
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 22,
+          "country": 22,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 2,
+          "latin": 22,
+          "gospel": 2
+        },
+        "total": 71
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 1
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 80,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 150
+      }
+    ],
+    "metadata": {
+      "mapped_total": 975,
+      "peak_genres": [
+        "rock & roll",
+        "flamenco"
+      ]
+    }
+  },
+  "1958": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 240,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 49,
+          "rockabilly": 23,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 342
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 13,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 22
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 147,
+          "blues": 23,
+          "swing": 15,
+          "bebop": 1,
+          "cool jazz": 7,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 17,
+          "delta blues": 1,
+          "chicago blues": 1,
+          "soul jazz": 3,
+          "bossa nova": 1
+        },
+        "total": 216
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 201,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 3
+        },
+        "total": 204
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 21,
+          "country": 24,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 2
+        },
+        "total": 68
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 1
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 80,
+          "experimental": 55,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 151
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1004,
+      "peak_genres": []
+    }
+  },
+  "1959": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 245,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 50,
+          "rockabilly": 20,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 346
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 6,
+          "soul": 13,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 19
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 132,
+          "blues": 23,
+          "swing": 16,
+          "bebop": 1,
+          "cool jazz": 6,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 5,
+          "delta blues": 2,
+          "chicago blues": 0,
+          "soul jazz": 2,
+          "bossa nova": 2
+        },
+        "total": 189
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 203,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 204
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 22,
+          "country": 27,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 0,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 1
+        },
+        "total": 72
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 0,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 1
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 82,
+          "experimental": 53,
+          "noise": 0,
+          "avant-garde": 6,
+          "modern classical": 0,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 152
+      }
+    ],
+    "metadata": {
+      "mapped_total": 983,
+      "peak_genres": []
+    }
+  },
+  "1960": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 253,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 55,
+          "rockabilly": 20,
+          "surf": 0,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 358
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 8,
+          "soul": 13,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 21
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 166,
+          "blues": 26,
+          "swing": 13,
+          "bebop": 1,
+          "cool jazz": 11,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 31,
+          "delta blues": 0,
+          "chicago blues": 1,
+          "soul jazz": 4,
+          "bossa nova": 2
+        },
+        "total": 255
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 209,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 2
+        },
+        "total": 211
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 23,
+          "country": 24,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 3,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 1
+        },
+        "total": 72
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 4,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 4
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 75,
+          "experimental": 55,
+          "noise": 0,
+          "avant-garde": 7,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 150
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1071,
+      "peak_genres": [
+        "cool jazz",
+        "hard bop",
+        "ska"
+      ]
+    }
+  },
+  "1961": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 246,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 53,
+          "rockabilly": 19,
+          "surf": 6,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 354
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 7,
+          "soul": 23,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 30
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 153,
+          "blues": 20,
+          "swing": 14,
+          "bebop": 1,
+          "cool jazz": 10,
+          "fusion": 0,
+          "ragtime": 1,
+          "hard bop": 22,
+          "delta blues": 0,
+          "chicago blues": 0,
+          "soul jazz": 4,
+          "bossa nova": 2
+        },
+        "total": 227
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 221,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 222
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 20,
+          "country": 20,
+          "bluegrass": 0,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 21,
+          "gospel": 1
+        },
+        "total": 65
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 3,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 3
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 72,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 11,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 151
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1052,
+      "peak_genres": [
+        "soul jazz"
+      ]
+    }
+  },
+  "1962": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 262,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 58,
+          "rockabilly": 19,
+          "surf": 7,
+          "garage rock": 0,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 377
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 20,
+          "funk": 0,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 29
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 150,
+          "blues": 25,
+          "swing": 19,
+          "bebop": 1,
+          "cool jazz": 7,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 13,
+          "delta blues": 1,
+          "chicago blues": 2,
+          "soul jazz": 3,
+          "bossa nova": 3
+        },
+        "total": 224
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 231,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 232
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 23,
+          "country": 26,
+          "bluegrass": 3,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 20,
+          "gospel": 3
+        },
+        "total": 78
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 4,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 5
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 73,
+          "experimental": 53,
+          "noise": 0,
+          "avant-garde": 7,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 145
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1090,
+      "peak_genres": []
+    }
+  },
+  "1963": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 265,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 51,
+          "rockabilly": 17,
+          "surf": 10,
+          "garage rock": 12,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 386
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 8,
+          "soul": 18,
+          "funk": 0,
+          "disco": 0,
+          "motown": 1,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 27
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 153,
+          "blues": 30,
+          "swing": 12,
+          "bebop": 1,
+          "cool jazz": 7,
+          "fusion": 0,
+          "ragtime": 1,
+          "hard bop": 17,
+          "delta blues": 2,
+          "chicago blues": 3,
+          "soul jazz": 2,
+          "bossa nova": 4
+        },
+        "total": 232
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 229,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 2
+        },
+        "total": 231
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 32,
+          "country": 30,
+          "bluegrass": 3,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 1
+        },
+        "total": 88
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 3,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 4
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 67,
+          "experimental": 54,
+          "noise": 0,
+          "avant-garde": 10,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 8
+        },
+        "total": 141
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1109,
+      "peak_genres": [
+        "bossa nova"
+      ]
+    }
+  },
+  "1964": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 285,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 0,
+          "progressive rock": 0,
+          "indie": 30,
+          "rock & roll": 63,
+          "rockabilly": 19,
+          "surf": 15,
+          "garage rock": 15,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 427
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 7,
+          "soul": 17,
+          "funk": 0,
+          "disco": 0,
+          "motown": 1,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 25
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 147,
+          "blues": 44,
+          "swing": 18,
+          "bebop": 1,
+          "cool jazz": 3,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 11,
+          "delta blues": 3,
+          "chicago blues": 5,
+          "soul jazz": 2,
+          "bossa nova": 4
+        },
+        "total": 238
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 241,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 242
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 32,
+          "country": 35,
+          "bluegrass": 3,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 23,
+          "gospel": 1
+        },
+        "total": 97
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 2,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 2
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 74,
+          "experimental": 57,
+          "noise": 0,
+          "avant-garde": 8,
+          "modern classical": 4,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 12
+        },
+        "total": 155
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1186,
+      "peak_genres": [
+        "chicago blues",
+        "country",
+        "surf"
+      ]
+    }
+  },
+  "1965": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 309,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 14,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 55,
+          "rockabilly": 16,
+          "surf": 8,
+          "garage rock": 18,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 451
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 27,
+          "funk": 16,
+          "disco": 0,
+          "motown": 1,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 53
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 145,
+          "blues": 42,
+          "swing": 15,
+          "bebop": 1,
+          "cool jazz": 5,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 13,
+          "delta blues": 5,
+          "chicago blues": 1,
+          "soul jazz": 4,
+          "bossa nova": 1
+        },
+        "total": 232
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 264,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 265
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 35,
+          "country": 29,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 1,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 2,
+          "latin": 22,
+          "gospel": 1
+        },
+        "total": 94
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 3,
+          "dub": 0,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 3
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 72,
+          "experimental": 53,
+          "noise": 0,
+          "avant-garde": 11,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 149
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1247,
+      "peak_genres": [
+        "delta blues"
+      ]
+    }
+  },
+  "1966": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 310,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 24,
+          "progressive rock": 0,
+          "indie": 31,
+          "rock & roll": 51,
+          "rockabilly": 16,
+          "surf": 7,
+          "garage rock": 23,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 462
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 7,
+          "soul": 32,
+          "funk": 20,
+          "disco": 0,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 59
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 142,
+          "blues": 40,
+          "swing": 12,
+          "bebop": 1,
+          "cool jazz": 3,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 3,
+          "delta blues": 1,
+          "chicago blues": 3,
+          "soul jazz": 3,
+          "bossa nova": 2
+        },
+        "total": 210
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 255,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 256
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 38,
+          "country": 31,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 3,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 19,
+          "gospel": 1
+        },
+        "total": 94
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 2,
+          "dub": 0,
+          "rocksteady": 1,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 3
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 69,
+          "experimental": 56,
+          "noise": 0,
+          "avant-garde": 13,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 151
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1235,
+      "peak_genres": [
+        "garage rock"
+      ]
+    }
+  },
+  "1967": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 328,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 0,
+          "alternative rock": 0,
+          "psychedelic rock": 52,
+          "progressive rock": 0,
+          "indie": 34,
+          "rock & roll": 47,
+          "rockabilly": 18,
+          "surf": 8,
+          "garage rock": 22,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 509
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 35,
+          "funk": 22,
+          "disco": 0,
+          "motown": 4,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 70
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 137,
+          "blues": 37,
+          "swing": 14,
+          "bebop": 1,
+          "cool jazz": 7,
+          "fusion": 0,
+          "ragtime": 0,
+          "hard bop": 5,
+          "delta blues": 1,
+          "chicago blues": 1,
+          "soul jazz": 4,
+          "bossa nova": 3
+        },
+        "total": 210
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 270,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 271
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 47,
+          "country": 26,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 1,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 2,
+          "latin": 23,
+          "gospel": 0
+        },
+        "total": 102
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 0,
+          "ska": 3,
+          "dub": 0,
+          "rocksteady": 5,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 8
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 0,
+          "heavy metal": 0,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 79,
+          "experimental": 63,
+          "noise": 0,
+          "avant-garde": 10,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 13
+        },
+        "total": 168
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1338,
+      "peak_genres": [
+        "folk",
+        "motown",
+        "psychedelic rock"
+      ]
+    }
+  },
+  "1968": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 374,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 24,
+          "alternative rock": 0,
+          "psychedelic rock": 57,
+          "progressive rock": 9,
+          "indie": 34,
+          "rock & roll": 44,
+          "rockabilly": 16,
+          "surf": 7,
+          "garage rock": 13,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 578
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 41,
+          "funk": 31,
+          "disco": 0,
+          "motown": 1,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 82
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 126,
+          "blues": 59,
+          "swing": 12,
+          "bebop": 1,
+          "cool jazz": 2,
+          "fusion": 7,
+          "ragtime": 0,
+          "hard bop": 4,
+          "delta blues": 0,
+          "chicago blues": 2,
+          "soul jazz": 3,
+          "bossa nova": 5
+        },
+        "total": 221
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 262,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 263
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 46,
+          "country": 24,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 3,
+          "singer-songwriter": 2,
+          "celtic": 0,
+          "flamenco": 1,
+          "latin": 32,
+          "gospel": 4
+        },
+        "total": 114
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 17,
+          "ska": 5,
+          "dub": 0,
+          "rocksteady": 7,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 29
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 29,
+          "heavy metal": 7,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 36
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 74,
+          "experimental": 72,
+          "noise": 0,
+          "avant-garde": 16,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 175
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1498,
+      "peak_genres": [
+        "avant-garde",
+        "soul",
+        "rocksteady"
+      ]
+    }
+  },
+  "1969": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 423,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 27,
+          "alternative rock": 0,
+          "psychedelic rock": 51,
+          "progressive rock": 11,
+          "indie": 34,
+          "rock & roll": 54,
+          "rockabilly": 18,
+          "surf": 6,
+          "garage rock": 16,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 640
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 0,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 0,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 0
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 6,
+          "soul": 33,
+          "funk": 24,
+          "disco": 0,
+          "motown": 1,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 64
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 152,
+          "blues": 78,
+          "swing": 13,
+          "bebop": 1,
+          "cool jazz": 3,
+          "fusion": 13,
+          "ragtime": 0,
+          "hard bop": 4,
+          "delta blues": 1,
+          "chicago blues": 2,
+          "soul jazz": 3,
+          "bossa nova": 4
+        },
+        "total": 274
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 277,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 0,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 0,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 278
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 44,
+          "country": 39,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 2,
+          "singer-songwriter": 3,
+          "celtic": 0,
+          "flamenco": 2,
+          "latin": 27,
+          "gospel": 3
+        },
+        "total": 122
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 13,
+          "ska": 4,
+          "dub": 2,
+          "rocksteady": 2,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 21
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 31,
+          "heavy metal": 10,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 41
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 75,
+          "experimental": 64,
+          "noise": 0,
+          "avant-garde": 10,
+          "modern classical": 3,
+          "minimalism": 1,
+          "drone": 0,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 164
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1604,
+      "peak_genres": [
+        "rock",
+        "blues",
+        "minimalism"
+      ]
+    }
+  },
+  "1970": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 442,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 35,
+          "alternative rock": 0,
+          "psychedelic rock": 61,
+          "progressive rock": 13,
+          "indie": 31,
+          "rock & roll": 53,
+          "rockabilly": 16,
+          "surf": 6,
+          "garage rock": 15,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 672
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 219,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 45,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 264
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 31,
+          "funk": 28,
+          "disco": 0,
+          "motown": 3,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 71
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 144,
+          "blues": 86,
+          "swing": 12,
+          "bebop": 1,
+          "cool jazz": 2,
+          "fusion": 11,
+          "ragtime": 0,
+          "hard bop": 5,
+          "delta blues": 1,
+          "chicago blues": 2,
+          "soul jazz": 4,
+          "bossa nova": 2
+        },
+        "total": 270
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 280,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 7,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 8,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 2
+        },
+        "total": 297
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 50,
+          "country": 36,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 2,
+          "singer-songwriter": 4,
+          "celtic": 1,
+          "flamenco": 1,
+          "latin": 26,
+          "gospel": 3
+        },
+        "total": 125
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 12,
+          "ska": 3,
+          "dub": 2,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 17
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 35,
+          "heavy metal": 15,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 4,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 54
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 75,
+          "experimental": 67,
+          "noise": 0,
+          "avant-garde": 13,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 3,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 170
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1940,
+      "peak_genres": []
+    }
+  },
+  "1971": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 382,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 26,
+          "alternative rock": 0,
+          "psychedelic rock": 37,
+          "progressive rock": 12,
+          "indie": 31,
+          "rock & roll": 44,
+          "rockabilly": 16,
+          "surf": 5,
+          "garage rock": 16,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 569
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 215,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 46,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 261
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 11,
+          "soul": 34,
+          "funk": 27,
+          "disco": 16,
+          "motown": 2,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 90
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 131,
+          "blues": 50,
+          "swing": 10,
+          "bebop": 1,
+          "cool jazz": 2,
+          "fusion": 10,
+          "ragtime": 0,
+          "hard bop": 2,
+          "delta blues": 1,
+          "chicago blues": 0,
+          "soul jazz": 3,
+          "bossa nova": 1
+        },
+        "total": 211
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 250,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 8,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 7,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 266
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 41,
+          "country": 27,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 1,
+          "singer-songwriter": 2,
+          "celtic": 1,
+          "flamenco": 2,
+          "latin": 27,
+          "gospel": 1
+        },
+        "total": 103
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 13,
+          "ska": 3,
+          "dub": 2,
+          "rocksteady": 3,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 21
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 32,
+          "heavy metal": 11,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 2,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 45
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 77,
+          "experimental": 64,
+          "noise": 0,
+          "avant-garde": 11,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 8,
+          "dark ambient": 0,
+          "soundtrack": 14
+        },
+        "total": 177
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1743,
+      "peak_genres": []
+    }
+  },
+  "1972": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 410,
+          "punk": 0,
+          "grunge": 0,
+          "hard rock": 30,
+          "alternative rock": 0,
+          "psychedelic rock": 24,
+          "progressive rock": 21,
+          "indie": 32,
+          "rock & roll": 42,
+          "rockabilly": 16,
+          "surf": 6,
+          "garage rock": 15,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 596
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 220,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 47,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 267
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 11,
+          "soul": 34,
+          "funk": 31,
+          "disco": 23,
+          "motown": 2,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 101
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 143,
+          "blues": 49,
+          "swing": 14,
+          "bebop": 1,
+          "cool jazz": 2,
+          "fusion": 12,
+          "ragtime": 3,
+          "hard bop": 6,
+          "delta blues": 1,
+          "chicago blues": 3,
+          "soul jazz": 2,
+          "bossa nova": 2
+        },
+        "total": 238
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 272,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 7,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 7,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 287
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 40,
+          "country": 31,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 2,
+          "singer-songwriter": 5,
+          "celtic": 1,
+          "flamenco": 1,
+          "latin": 25,
+          "gospel": 1
+        },
+        "total": 107
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 16,
+          "ska": 2,
+          "dub": 5,
+          "rocksteady": 1,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 24
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 28,
+          "heavy metal": 8,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 1,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 37
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 85,
+          "experimental": 69,
+          "noise": 0,
+          "avant-garde": 10,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 4,
+          "dark ambient": 0,
+          "soundtrack": 12
+        },
+        "total": 183
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1840,
+      "peak_genres": [
+        "ragtime",
+        "progressive rock"
+      ]
+    }
+  },
+  "1973": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 378,
+          "punk": 56,
+          "grunge": 0,
+          "hard rock": 36,
+          "alternative rock": 0,
+          "psychedelic rock": 23,
+          "progressive rock": 11,
+          "indie": 35,
+          "rock & roll": 43,
+          "rockabilly": 18,
+          "surf": 5,
+          "garage rock": 11,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 616
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 219,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 49,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 268
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 13,
+          "soul": 30,
+          "funk": 33,
+          "disco": 19,
+          "motown": 4,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 99
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 139,
+          "blues": 43,
+          "swing": 9,
+          "bebop": 1,
+          "cool jazz": 2,
+          "fusion": 10,
+          "ragtime": 0,
+          "hard bop": 2,
+          "delta blues": 0,
+          "chicago blues": 2,
+          "soul jazz": 3,
+          "bossa nova": 1
+        },
+        "total": 212
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 260,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 6,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 7,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 274
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 34,
+          "country": 27,
+          "bluegrass": 3,
+          "americana": 0,
+          "acoustic": 1,
+          "singer-songwriter": 2,
+          "celtic": 2,
+          "flamenco": 1,
+          "latin": 25,
+          "gospel": 1
+        },
+        "total": 96
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 19,
+          "ska": 2,
+          "dub": 6,
+          "rocksteady": 1,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 28
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 30,
+          "heavy metal": 11,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 1,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 42
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 75,
+          "experimental": 64,
+          "noise": 0,
+          "avant-garde": 11,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 3,
+          "dark ambient": 0,
+          "soundtrack": 12
+        },
+        "total": 168
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1803,
+      "peak_genres": []
+    }
+  },
+  "1974": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 414,
+          "punk": 59,
+          "grunge": 0,
+          "hard rock": 30,
+          "alternative rock": 0,
+          "psychedelic rock": 18,
+          "progressive rock": 13,
+          "indie": 34,
+          "rock & roll": 37,
+          "rockabilly": 16,
+          "surf": 6,
+          "garage rock": 12,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 639
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 236,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 45,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 0,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 281
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 28,
+          "funk": 33,
+          "disco": 30,
+          "motown": 2,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 102
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 140,
+          "blues": 41,
+          "swing": 9,
+          "bebop": 1,
+          "cool jazz": 2,
+          "fusion": 8,
+          "ragtime": 0,
+          "hard bop": 2,
+          "delta blues": 2,
+          "chicago blues": 3,
+          "soul jazz": 2,
+          "bossa nova": 4
+        },
+        "total": 214
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 248,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 7,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 6,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 262
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 48,
+          "country": 20,
+          "bluegrass": 2,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 2,
+          "celtic": 2,
+          "flamenco": 1,
+          "latin": 25,
+          "gospel": 3
+        },
+        "total": 103
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 13,
+          "ska": 3,
+          "dub": 5,
+          "rocksteady": 3,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 24
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 33,
+          "heavy metal": 13,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 1,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 47
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 69,
+          "experimental": 73,
+          "noise": 0,
+          "avant-garde": 12,
+          "modern classical": 6,
+          "minimalism": 0,
+          "drone": 6,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 176
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1848,
+      "peak_genres": []
+    }
+  },
+  "1975": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 433,
+          "punk": 59,
+          "grunge": 0,
+          "hard rock": 34,
+          "alternative rock": 0,
+          "psychedelic rock": 22,
+          "progressive rock": 16,
+          "indie": 50,
+          "rock & roll": 53,
+          "rockabilly": 18,
+          "surf": 5,
+          "garage rock": 10,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 700
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 239,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 50,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 12,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 301
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 8,
+          "soul": 29,
+          "funk": 26,
+          "disco": 36,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 99
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 145,
+          "blues": 47,
+          "swing": 13,
+          "bebop": 1,
+          "cool jazz": 6,
+          "fusion": 8,
+          "ragtime": 1,
+          "hard bop": 6,
+          "delta blues": 1,
+          "chicago blues": 1,
+          "soul jazz": 2,
+          "bossa nova": 5
+        },
+        "total": 236
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 293,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 6,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 7,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 307
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 36,
+          "country": 28,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 2,
+          "singer-songwriter": 6,
+          "celtic": 2,
+          "flamenco": 1,
+          "latin": 27,
+          "gospel": 0
+        },
+        "total": 103
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 17,
+          "ska": 3,
+          "dub": 4,
+          "rocksteady": 1,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 25
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 29,
+          "heavy metal": 10,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 1,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 40
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 75,
+          "experimental": 68,
+          "noise": 12,
+          "avant-garde": 12,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 4,
+          "dark ambient": 0,
+          "soundtrack": 13
+        },
+        "total": 186
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1997,
+      "peak_genres": []
+    }
+  },
+  "1976": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 387,
+          "punk": 69,
+          "grunge": 0,
+          "hard rock": 43,
+          "alternative rock": 0,
+          "psychedelic rock": 10,
+          "progressive rock": 15,
+          "indie": 31,
+          "rock & roll": 47,
+          "rockabilly": 17,
+          "surf": 7,
+          "garage rock": 11,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 637
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 234,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 50,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 13,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 297
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 10,
+          "soul": 34,
+          "funk": 48,
+          "disco": 47,
+          "motown": 1,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 140
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 155,
+          "blues": 43,
+          "swing": 12,
+          "bebop": 1,
+          "cool jazz": 5,
+          "fusion": 16,
+          "ragtime": 1,
+          "hard bop": 5,
+          "delta blues": 0,
+          "chicago blues": 2,
+          "soul jazz": 5,
+          "bossa nova": 3
+        },
+        "total": 248
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 276,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 8,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 7,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 292
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 34,
+          "country": 32,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 4,
+          "celtic": 2,
+          "flamenco": 1,
+          "latin": 27,
+          "gospel": 2
+        },
+        "total": 103
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 14,
+          "ska": 2,
+          "dub": 4,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 20
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 35,
+          "heavy metal": 14,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 1,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 50
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 72,
+          "experimental": 63,
+          "noise": 14,
+          "avant-garde": 10,
+          "modern classical": 2,
+          "minimalism": 1,
+          "drone": 3,
+          "dark ambient": 0,
+          "soundtrack": 10
+        },
+        "total": 175
+      }
+    ],
+    "metadata": {
+      "mapped_total": 1962,
+      "peak_genres": [
+        "funk",
+        "fusion",
+        "disco"
+      ]
+    }
+  },
+  "1977": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 444,
+          "punk": 106,
+          "grunge": 0,
+          "hard rock": 47,
+          "alternative rock": 0,
+          "psychedelic rock": 13,
+          "progressive rock": 9,
+          "indie": 36,
+          "rock & roll": 52,
+          "rockabilly": 19,
+          "surf": 5,
+          "garage rock": 14,
+          "post-punk": 0,
+          "new wave": 0,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 0
+        },
+        "total": 745
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 243,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 52,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 0,
+          "electro": 0,
+          "industrial": 15,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 310
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 9,
+          "soul": 23,
+          "funk": 27,
+          "disco": 37,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 96
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 140,
+          "blues": 40,
+          "swing": 11,
+          "bebop": 1,
+          "cool jazz": 3,
+          "fusion": 12,
+          "ragtime": 1,
+          "hard bop": 3,
+          "delta blues": 0,
+          "chicago blues": 0,
+          "soul jazz": 2,
+          "bossa nova": 2
+        },
+        "total": 215
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 271,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 8,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 13,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 293
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 38,
+          "country": 32,
+          "bluegrass": 0,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 4,
+          "celtic": 2,
+          "flamenco": 2,
+          "latin": 30,
+          "gospel": 0
+        },
+        "total": 108
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 20,
+          "ska": 3,
+          "dub": 7,
+          "rocksteady": 1,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 1,
+          "bachata": 0
+        },
+        "total": 32
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 40,
+          "heavy metal": 19,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 59
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 73,
+          "experimental": 65,
+          "noise": 15,
+          "avant-garde": 13,
+          "modern classical": 3,
+          "minimalism": 0,
+          "drone": 3,
+          "dark ambient": 0,
+          "soundtrack": 9
+        },
+        "total": 181
+      }
+    ],
+    "metadata": {
+      "mapped_total": 2039,
+      "peak_genres": [
+        "hard rock"
+      ]
+    }
+  },
+  "1978": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 445,
+          "punk": 95,
+          "grunge": 0,
+          "hard rock": 35,
+          "alternative rock": 0,
+          "psychedelic rock": 12,
+          "progressive rock": 16,
+          "indie": 38,
+          "rock & roll": 67,
+          "rockabilly": 20,
+          "surf": 7,
+          "garage rock": 11,
+          "post-punk": 19,
+          "new wave": 36,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 14
+        },
+        "total": 815
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 247,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 51,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 38,
+          "electro": 0,
+          "industrial": 13,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 349
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 0,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 6,
+          "soul": 27,
+          "funk": 26,
+          "disco": 43,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 102
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 150,
+          "blues": 47,
+          "swing": 11,
+          "bebop": 1,
+          "cool jazz": 3,
+          "fusion": 17,
+          "ragtime": 1,
+          "hard bop": 4,
+          "delta blues": 0,
+          "chicago blues": 1,
+          "soul jazz": 2,
+          "bossa nova": 2
+        },
+        "total": 239
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 284,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 6,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 16,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 307
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 33,
+          "country": 30,
+          "bluegrass": 0,
+          "americana": 0,
+          "acoustic": 1,
+          "singer-songwriter": 4,
+          "celtic": 1,
+          "flamenco": 1,
+          "latin": 28,
+          "gospel": 0
+        },
+        "total": 98
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 19,
+          "ska": 3,
+          "dub": 6,
+          "rocksteady": 0,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 0,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 28
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 36,
+          "heavy metal": 17,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 2,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 55
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 77,
+          "experimental": 73,
+          "noise": 14,
+          "avant-garde": 20,
+          "modern classical": 2,
+          "minimalism": 0,
+          "drone": 4,
+          "dark ambient": 0,
+          "soundtrack": 11
+        },
+        "total": 201
+      }
+    ],
+    "metadata": {
+      "mapped_total": 2194,
+      "peak_genres": []
+    }
+  },
+  "1979": {
+    "continents": [
+      {
+        "name": "The Rock Shield",
+        "genres": {
+          "rock": 450,
+          "punk": 121,
+          "grunge": 0,
+          "hard rock": 43,
+          "alternative rock": 0,
+          "psychedelic rock": 9,
+          "progressive rock": 12,
+          "indie": 56,
+          "rock & roll": 47,
+          "rockabilly": 21,
+          "surf": 7,
+          "garage rock": 19,
+          "post-punk": 34,
+          "new wave": 62,
+          "britpop": 0,
+          "shoegaze": 0,
+          "emo": 0,
+          "pop-punk": 0,
+          "post-rock": 0,
+          "stoner rock": 0,
+          "hardcore": 15
+        },
+        "total": 896
+      },
+      {
+        "name": "The Electronic Frontier",
+        "genres": {
+          "electronic": 289,
+          "techno": 0,
+          "house": 0,
+          "trance": 0,
+          "ambient": 58,
+          "idm": 0,
+          "drum and bass": 0,
+          "jungle": 0,
+          "dubstep": 0,
+          "downtempo": 0,
+          "synth-pop": 47,
+          "electro": 0,
+          "industrial": 23,
+          "glitch": 0,
+          "eurodance": 0,
+          "hardstyle": 0,
+          "synthwave": 0,
+          "trip hop": 0,
+          "breakbeat": 0,
+          "vaporwave": 0,
+          "chiptune": 0,
+          "chillout": 0,
+          "lounge": 0
+        },
+        "total": 417
+      },
+      {
+        "name": "The Hip-Hop Basin",
+        "genres": {
+          "hip hop": 41,
+          "trap": 0,
+          "boom bap": 0,
+          "gangsta rap": 0,
+          "r&b": 8,
+          "soul": 30,
+          "funk": 25,
+          "disco": 53,
+          "motown": 0,
+          "neo soul": 0,
+          "g-funk": 0,
+          "lo-fi": 0
+        },
+        "total": 157
+      },
+      {
+        "name": "The Jazz & Blues Delta",
+        "genres": {
+          "jazz": 139,
+          "blues": 39,
+          "swing": 10,
+          "bebop": 1,
+          "cool jazz": 6,
+          "fusion": 9,
+          "ragtime": 1,
+          "hard bop": 3,
+          "delta blues": 0,
+          "chicago blues": 3,
+          "soul jazz": 5,
+          "bossa nova": 4
+        },
+        "total": 220
+      },
+      {
+        "name": "The Pop Archipelago",
+        "genres": {
+          "pop": 299,
+          "teen pop": 0,
+          "dance-pop": 0,
+          "europop": 10,
+          "k-pop": 0,
+          "j-pop": 0,
+          "power pop": 16,
+          "indie pop": 0,
+          "dream pop": 0,
+          "traditional pop": 1
+        },
+        "total": 326
+      },
+      {
+        "name": "The Folk & Roots Plains",
+        "genres": {
+          "folk": 33,
+          "country": 24,
+          "bluegrass": 1,
+          "americana": 0,
+          "acoustic": 0,
+          "singer-songwriter": 4,
+          "celtic": 1,
+          "flamenco": 2,
+          "latin": 25,
+          "gospel": 2
+        },
+        "total": 92
+      },
+      {
+        "name": "The Tropical Pulse",
+        "genres": {
+          "afrobeats": 0,
+          "reggae": 28,
+          "ska": 8,
+          "dub": 13,
+          "rocksteady": 4,
+          "dancehall": 0,
+          "soca": 0,
+          "reggaeton": 0,
+          "calypso": 1,
+          "zouk": 0,
+          "merengue": 0,
+          "bachata": 0
+        },
+        "total": 54
+      },
+      {
+        "name": "The Metal Peaks",
+        "genres": {
+          "metal": 38,
+          "heavy metal": 18,
+          "black metal": 0,
+          "death metal": 0,
+          "thrash metal": 0,
+          "doom metal": 0,
+          "nu metal": 0,
+          "sludge": 0,
+          "gothic metal": 0,
+          "power metal": 0,
+          "metalcore": 0,
+          "grindcore": 0
+        },
+        "total": 56
+      },
+      {
+        "name": "The Avant-Garde Isles",
+        "genres": {
+          "classical": 78,
+          "experimental": 79,
+          "noise": 16,
+          "avant-garde": 18,
+          "modern classical": 5,
+          "minimalism": 0,
+          "drone": 4,
+          "dark ambient": 0,
+          "soundtrack": 12
+        },
+        "total": 212
+      }
+    ],
+    "metadata": {
+      "mapped_total": 2430,
+      "peak_genres": [
+        "reggae",
+        "dub"
+      ]
+    }
+  },
   "1980": {
     "continents": [
       {
@@ -53,9 +5607,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 467
+        "total": 466
       },
       {
         "name": "The Hip-Hop Basin",
@@ -178,7 +5732,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2562
+      "mapped_total": 2561,
+      "peak_genres": [
+        "post-punk",
+        "new wave"
+      ]
     }
   },
   "1981": {
@@ -235,9 +5793,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 439
+        "total": 438
       },
       {
         "name": "The Hip-Hop Basin",
@@ -360,7 +5918,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2414
+      "mapped_total": 2413,
+      "peak_genres": [
+        "punk"
+      ]
     }
   },
   "1982": {
@@ -417,9 +5978,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 500
+        "total": 499
       },
       {
         "name": "The Hip-Hop Basin",
@@ -542,7 +6103,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2476
+      "mapped_total": 2475,
+      "peak_genres": []
     }
   },
   "1983": {
@@ -599,9 +6161,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 2
+          "lounge": 0
         },
-        "total": 494
+        "total": 492
       },
       {
         "name": "The Hip-Hop Basin",
@@ -724,7 +6286,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2478
+      "mapped_total": 2476,
+      "peak_genres": [
+        "bluegrass"
+      ]
     }
   },
   "1984": {
@@ -781,9 +6346,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 607
+        "total": 606
       },
       {
         "name": "The Hip-Hop Basin",
@@ -906,7 +6471,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2594
+      "mapped_total": 2593,
+      "peak_genres": [
+        "synth-pop"
+      ]
     }
   },
   "1985": {
@@ -963,9 +6531,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 588
+        "total": 587
       },
       {
         "name": "The Hip-Hop Basin",
@@ -1088,7 +6656,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2413
+      "mapped_total": 2412,
+      "peak_genres": []
     }
   },
   "1986": {
@@ -1145,9 +6714,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 599
+        "total": 598
       },
       {
         "name": "The Hip-Hop Basin",
@@ -1270,7 +6839,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2430
+      "mapped_total": 2429,
+      "peak_genres": []
     }
   },
   "1987": {
@@ -1327,9 +6897,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 595
+        "total": 594
       },
       {
         "name": "The Hip-Hop Basin",
@@ -1452,7 +7022,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2572
+      "mapped_total": 2571,
+      "peak_genres": []
     }
   },
   "1988": {
@@ -1509,9 +7080,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 560
+        "total": 559
       },
       {
         "name": "The Hip-Hop Basin",
@@ -1634,7 +7205,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2540
+      "mapped_total": 2539,
+      "peak_genres": [
+        "heavy metal",
+        "thrash metal"
+      ]
     }
   },
   "1989": {
@@ -1691,9 +7266,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 0,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 595
+        "total": 594
       },
       {
         "name": "The Hip-Hop Basin",
@@ -1816,7 +7391,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2700
+      "mapped_total": 2699,
+      "peak_genres": []
     }
   },
   "1990": {
@@ -1873,9 +7449,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 5,
-          "lounge": 2
+          "lounge": 0
         },
-        "total": 695
+        "total": 693
       },
       {
         "name": "The Hip-Hop Basin",
@@ -1998,7 +7574,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2739
+      "mapped_total": 2737,
+      "peak_genres": []
     }
   },
   "1991": {
@@ -2055,9 +7632,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 5,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 703
+        "total": 702
       },
       {
         "name": "The Hip-Hop Basin",
@@ -2180,7 +7757,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3032
+      "mapped_total": 3031,
+      "peak_genres": [
+        "metal",
+        "death metal"
+      ]
     }
   },
   "1992": {
@@ -2237,9 +7818,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 6,
-          "lounge": 1
+          "lounge": 0
         },
-        "total": 714
+        "total": 713
       },
       {
         "name": "The Hip-Hop Basin",
@@ -2362,7 +7943,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2900
+      "mapped_total": 2899,
+      "peak_genres": []
     }
   },
   "1993": {
@@ -2419,9 +8001,9 @@
           "vaporwave": 0,
           "chiptune": 0,
           "chillout": 5,
-          "lounge": 2
+          "lounge": 0
         },
-        "total": 689
+        "total": 687
       },
       {
         "name": "The Hip-Hop Basin",
@@ -2544,7 +8126,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2794
+      "mapped_total": 2792,
+      "peak_genres": [
+        "grunge"
+      ]
     }
   },
   "1994": {
@@ -2726,7 +8311,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3227
+      "mapped_total": 3227,
+      "peak_genres": [
+        "emo"
+      ]
     }
   },
   "1995": {
@@ -2908,7 +8496,12 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3168
+      "mapped_total": 3168,
+      "peak_genres": [
+        "hardcore",
+        "alternative rock",
+        "gothic metal"
+      ]
     }
   },
   "1996": {
@@ -3090,7 +8683,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3023
+      "mapped_total": 3023,
+      "peak_genres": [
+        "lounge"
+      ]
     }
   },
   "1997": {
@@ -3272,7 +8868,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3079
+      "mapped_total": 3079,
+      "peak_genres": [
+        "power pop",
+        "britpop"
+      ]
     }
   },
   "1998": {
@@ -3454,7 +9054,12 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3168
+      "mapped_total": 3168,
+      "peak_genres": [
+        "soca",
+        "shoegaze",
+        "trip hop"
+      ]
     }
   },
   "1999": {
@@ -3636,7 +9241,12 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3533
+      "mapped_total": 3533,
+      "peak_genres": [
+        "gangsta rap",
+        "idm",
+        "g-funk"
+      ]
     }
   },
   "2000": {
@@ -3644,181 +9254,188 @@
       {
         "name": "The Rock Shield",
         "genres": {
-          "rock": 527,
-          "punk": 139,
-          "grunge": 18,
-          "hard rock": 53,
-          "alternative rock": 127,
-          "psychedelic rock": 30,
-          "progressive rock": 13,
-          "indie": 126,
-          "rock & roll": 50,
-          "rockabilly": 23,
-          "surf": 8,
-          "garage rock": 17,
-          "post-punk": 19,
-          "new wave": 32,
-          "britpop": 15,
-          "shoegaze": 5,
-          "emo": 17,
-          "pop-punk": 14,
-          "post-rock": 13,
-          "stoner rock": 1,
-          "hardcore": 44
+          "rock": 488,
+          "punk": 97,
+          "grunge": 12,
+          "hard rock": 37,
+          "alternative rock": 88,
+          "psychedelic rock": 21,
+          "progressive rock": 9,
+          "indie": 88,
+          "rock & roll": 35,
+          "rockabilly": 16,
+          "surf": 5,
+          "garage rock": 11,
+          "post-punk": 13,
+          "new wave": 22,
+          "britpop": 10,
+          "shoegaze": 3,
+          "emo": 11,
+          "pop-punk": 9,
+          "post-rock": 9,
+          "stoner rock": 0,
+          "hardcore": 30
         },
-        "total": 1291
+        "total": 1014
       },
       {
         "name": "The Electronic Frontier",
         "genres": {
-          "electronic": 694,
-          "techno": 165,
-          "house": 372,
-          "trance": 234,
-          "ambient": 113,
-          "idm": 28,
-          "drum and bass": 23,
-          "jungle": 15,
-          "dubstep": 7,
-          "downtempo": 77,
-          "synth-pop": 112,
-          "electro": 98,
-          "industrial": 55,
-          "glitch": 3,
-          "eurodance": 24,
-          "hardstyle": 2,
+          "electronic": 585,
+          "techno": 115,
+          "house": 260,
+          "trance": 163,
+          "ambient": 79,
+          "idm": 19,
+          "drum and bass": 16,
+          "jungle": 10,
+          "dubstep": 4,
+          "downtempo": 53,
+          "synth-pop": 78,
+          "electro": 68,
+          "industrial": 38,
+          "glitch": 2,
+          "eurodance": 16,
+          "hardstyle": 1,
           "synthwave": 0,
-          "trip hop": 14,
-          "breakbeat": 29,
+          "trip hop": 9,
+          "breakbeat": 20,
           "vaporwave": 0,
-          "chiptune": 10,
-          "chillout": 7,
-          "lounge": 7
+          "chiptune": 7,
+          "chillout": 4,
+          "lounge": 4
         },
-        "total": 2089
+        "total": 1551
       },
       {
         "name": "The Hip-Hop Basin",
         "genres": {
-          "hip hop": 229,
+          "hip hop": 160,
           "trap": 0,
-          "boom bap": 13,
-          "gangsta rap": 7,
-          "r&b": 23,
-          "soul": 36,
-          "funk": 46,
-          "disco": 69,
+          "boom bap": 9,
+          "gangsta rap": 4,
+          "r&b": 16,
+          "soul": 25,
+          "funk": 32,
+          "disco": 48,
           "motown": 0,
-          "neo soul": 1,
-          "g-funk": 4,
+          "neo soul": 0,
+          "g-funk": 2,
           "lo-fi": 0
         },
-        "total": 428
+        "total": 296
       },
       {
         "name": "The Jazz & Blues Delta",
         "genres": {
-          "jazz": 142,
-          "blues": 57,
-          "swing": 20,
-          "bebop": 1,
-          "cool jazz": 6,
-          "fusion": 13,
+          "jazz": 99,
+          "blues": 39,
+          "swing": 14,
+          "bebop": 0,
+          "cool jazz": 4,
+          "fusion": 9,
           "ragtime": 0,
-          "hard bop": 4,
+          "hard bop": 2,
           "delta blues": 0,
-          "chicago blues": 1,
-          "soul jazz": 4,
-          "bossa nova": 5
+          "chicago blues": 0,
+          "soul jazz": 2,
+          "bossa nova": 3
         },
-        "total": 253
+        "total": 172
       },
       {
         "name": "The Pop Archipelago",
         "genres": {
-          "pop": 474,
-          "teen pop": 1,
-          "dance-pop": 22,
-          "europop": 89,
-          "k-pop": 1,
-          "j-pop": 20,
-          "power pop": 15,
-          "indie pop": 15,
-          "dream pop": 5,
-          "traditional pop": 1
+          "pop": 431,
+          "teen pop": 0,
+          "dance-pop": 15,
+          "europop": 62,
+          "k-pop": 0,
+          "j-pop": 14,
+          "power pop": 10,
+          "indie pop": 10,
+          "dream pop": 3,
+          "traditional pop": 0
         },
-        "total": 643
+        "total": 545
       },
       {
         "name": "The Folk & Roots Plains",
         "genres": {
-          "folk": 63,
-          "country": 32,
-          "bluegrass": 2,
+          "folk": 44,
+          "country": 22,
+          "bluegrass": 1,
           "americana": 0,
-          "acoustic": 5,
-          "singer-songwriter": 4,
-          "celtic": 9,
-          "flamenco": 1,
-          "latin": 73,
-          "gospel": 6
+          "acoustic": 3,
+          "singer-songwriter": 2,
+          "celtic": 6,
+          "flamenco": 0,
+          "latin": 51,
+          "gospel": 4
         },
-        "total": 195
+        "total": 133
       },
       {
         "name": "The Tropical Pulse",
         "genres": {
           "afrobeats": 0,
-          "reggae": 39,
-          "ska": 11,
-          "dub": 17,
-          "rocksteady": 2,
-          "dancehall": 10,
-          "soca": 2,
-          "reggaeton": 4,
+          "reggae": 27,
+          "ska": 7,
+          "dub": 11,
+          "rocksteady": 1,
+          "dancehall": 7,
+          "soca": 1,
+          "reggaeton": 2,
           "calypso": 0,
           "zouk": 0,
-          "merengue": 5,
-          "bachata": 2
+          "merengue": 3,
+          "bachata": 1
         },
-        "total": 92
+        "total": 60
       },
       {
         "name": "The Metal Peaks",
         "genres": {
-          "metal": 140,
-          "heavy metal": 52,
-          "black metal": 21,
-          "death metal": 36,
-          "thrash metal": 5,
-          "doom metal": 6,
-          "nu metal": 15,
-          "sludge": 4,
-          "gothic metal": 3,
-          "power metal": 2,
-          "metalcore": 9,
-          "grindcore": 9
+          "metal": 98,
+          "heavy metal": 36,
+          "black metal": 14,
+          "death metal": 25,
+          "thrash metal": 3,
+          "doom metal": 4,
+          "nu metal": 10,
+          "sludge": 2,
+          "gothic metal": 2,
+          "power metal": 1,
+          "metalcore": 6,
+          "grindcore": 6
         },
-        "total": 302
+        "total": 207
       },
       {
         "name": "The Avant-Garde Isles",
         "genres": {
-          "classical": 101,
-          "experimental": 149,
-          "noise": 41,
-          "avant-garde": 28,
-          "modern classical": 13,
-          "minimalism": 1,
-          "drone": 7,
-          "dark ambient": 15,
-          "soundtrack": 21
+          "classical": 70,
+          "experimental": 104,
+          "noise": 28,
+          "avant-garde": 19,
+          "modern classical": 9,
+          "minimalism": 0,
+          "drone": 4,
+          "dark ambient": 10,
+          "soundtrack": 14
         },
-        "total": 376
+        "total": 258
       }
     ],
     "metadata": {
-      "mapped_total": 5669
+      "mapped_total": 4236,
+      "peak_genres": [
+        "europop",
+        "hip hop",
+        "house",
+        "techno",
+        "eurodance"
+      ]
     }
   },
   "2001": {
@@ -4000,7 +9617,13 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4842
+      "mapped_total": 4842,
+      "peak_genres": [
+        "electronic",
+        "merengue",
+        "breakbeat",
+        "nu metal"
+      ]
     }
   },
   "2002": {
@@ -4182,7 +9805,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4832
+      "mapped_total": 4832,
+      "peak_genres": [
+        "trance",
+        "downtempo"
+      ]
     }
   },
   "2003": {
@@ -4364,7 +9991,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4649
+      "mapped_total": 4649,
+      "peak_genres": [
+        "bachata"
+      ]
     }
   },
   "2004": {
@@ -4546,7 +10176,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4613
+      "mapped_total": 4613,
+      "peak_genres": []
     }
   },
   "2005": {
@@ -4728,7 +10359,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4831
+      "mapped_total": 4831,
+      "peak_genres": [
+        "modern classical",
+        "zouk"
+      ]
     }
   },
   "2006": {
@@ -4910,7 +10545,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4548
+      "mapped_total": 4548,
+      "peak_genres": [
+        "dancehall"
+      ]
     }
   },
   "2007": {
@@ -5092,7 +10730,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4646
+      "mapped_total": 4646,
+      "peak_genres": []
     }
   },
   "2008": {
@@ -5274,7 +10913,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4738
+      "mapped_total": 4738,
+      "peak_genres": [
+        "teen pop"
+      ]
     }
   },
   "2009": {
@@ -5456,7 +11098,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4657
+      "mapped_total": 4657,
+      "peak_genres": [
+        "electro"
+      ]
     }
   },
   "2010": {
@@ -5638,7 +11283,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4751
+      "mapped_total": 4751,
+      "peak_genres": [
+        "celtic",
+        "neo soul"
+      ]
     }
   },
   "2011": {
@@ -5820,7 +11469,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4501
+      "mapped_total": 4501,
+      "peak_genres": [
+        "post-rock"
+      ]
     }
   },
   "2012": {
@@ -6002,7 +11654,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4669
+      "mapped_total": 4669,
+      "peak_genres": [
+        "dubstep"
+      ]
     }
   },
   "2013": {
@@ -6184,7 +11839,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4400
+      "mapped_total": 4400,
+      "peak_genres": [
+        "stoner rock"
+      ]
     }
   },
   "2014": {
@@ -6366,7 +12024,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4264
+      "mapped_total": 4264,
+      "peak_genres": []
     }
   },
   "2015": {
@@ -6548,7 +12207,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4156
+      "mapped_total": 4156,
+      "peak_genres": [
+        "hardstyle"
+      ]
     }
   },
   "2016": {
@@ -6730,7 +12392,13 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4212
+      "mapped_total": 4212,
+      "peak_genres": [
+        "black metal",
+        "metalcore",
+        "chiptune",
+        "afrobeats"
+      ]
     }
   },
   "2017": {
@@ -6912,7 +12580,8 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3852
+      "mapped_total": 3852,
+      "peak_genres": []
     }
   },
   "2018": {
@@ -7094,7 +12763,13 @@
       }
     ],
     "metadata": {
-      "mapped_total": 4112
+      "mapped_total": 4112,
+      "peak_genres": [
+        "drone",
+        "grindcore",
+        "k-pop",
+        "glitch"
+      ]
     }
   },
   "2019": {
@@ -7276,7 +12951,14 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3979
+      "mapped_total": 3979,
+      "peak_genres": [
+        "doom metal",
+        "dream pop",
+        "sludge",
+        "reggaeton",
+        "synthwave"
+      ]
     }
   },
   "2020": {
@@ -7284,181 +12966,187 @@
       {
         "name": "The Rock Shield",
         "genres": {
-          "rock": 558,
-          "punk": 165,
-          "grunge": 12,
-          "hard rock": 38,
-          "alternative rock": 84,
-          "psychedelic rock": 29,
-          "progressive rock": 25,
-          "indie": 125,
-          "rock & roll": 46,
-          "rockabilly": 18,
-          "surf": 6,
-          "garage rock": 18,
-          "post-punk": 26,
-          "new wave": 28,
-          "britpop": 9,
-          "shoegaze": 10,
-          "emo": 13,
-          "pop-punk": 19,
-          "post-rock": 22,
-          "stoner rock": 14,
-          "hardcore": 58
+          "rock": 446,
+          "punk": 132,
+          "grunge": 9,
+          "hard rock": 30,
+          "alternative rock": 67,
+          "psychedelic rock": 23,
+          "progressive rock": 20,
+          "indie": 100,
+          "rock & roll": 36,
+          "rockabilly": 14,
+          "surf": 4,
+          "garage rock": 14,
+          "post-punk": 20,
+          "new wave": 22,
+          "britpop": 7,
+          "shoegaze": 8,
+          "emo": 10,
+          "pop-punk": 15,
+          "post-rock": 17,
+          "stoner rock": 11,
+          "hardcore": 46
         },
-        "total": 1323
+        "total": 1051
       },
       {
         "name": "The Electronic Frontier",
         "genres": {
-          "electronic": 639,
-          "techno": 106,
-          "house": 141,
-          "trance": 41,
-          "ambient": 149,
-          "idm": 34,
-          "drum and bass": 39,
-          "jungle": 15,
-          "dubstep": 20,
-          "downtempo": 47,
-          "synth-pop": 73,
-          "electro": 73,
-          "industrial": 55,
-          "glitch": 7,
-          "eurodance": 8,
-          "hardstyle": 17,
-          "synthwave": 19,
-          "trip hop": 8,
-          "breakbeat": 11,
-          "vaporwave": 39,
-          "chiptune": 13,
-          "chillout": 18,
-          "lounge": 1
+          "electronic": 511,
+          "techno": 84,
+          "house": 112,
+          "trance": 32,
+          "ambient": 119,
+          "idm": 27,
+          "drum and bass": 31,
+          "jungle": 12,
+          "dubstep": 16,
+          "downtempo": 37,
+          "synth-pop": 58,
+          "electro": 58,
+          "industrial": 44,
+          "glitch": 5,
+          "eurodance": 6,
+          "hardstyle": 13,
+          "synthwave": 15,
+          "trip hop": 6,
+          "breakbeat": 8,
+          "vaporwave": 31,
+          "chiptune": 10,
+          "chillout": 14,
+          "lounge": 0
         },
-        "total": 1573
+        "total": 1249
       },
       {
         "name": "The Hip-Hop Basin",
         "genres": {
-          "hip hop": 106,
-          "trap": 21,
-          "boom bap": 15,
-          "gangsta rap": 2,
-          "r&b": 23,
-          "soul": 34,
-          "funk": 39,
-          "disco": 40,
-          "motown": 1,
-          "neo soul": 7,
-          "g-funk": 1,
-          "lo-fi": 39
+          "hip hop": 84,
+          "trap": 16,
+          "boom bap": 12,
+          "gangsta rap": 1,
+          "r&b": 18,
+          "soul": 27,
+          "funk": 31,
+          "disco": 32,
+          "motown": 0,
+          "neo soul": 5,
+          "g-funk": 0,
+          "lo-fi": 31
         },
-        "total": 328
+        "total": 257
       },
       {
         "name": "The Jazz & Blues Delta",
         "genres": {
-          "jazz": 144,
-          "blues": 65,
-          "swing": 10,
-          "bebop": 3,
-          "cool jazz": 6,
-          "fusion": 8,
-          "ragtime": 2,
-          "hard bop": 6,
-          "delta blues": 1,
+          "jazz": 115,
+          "blues": 52,
+          "swing": 8,
+          "bebop": 2,
+          "cool jazz": 4,
+          "fusion": 6,
+          "ragtime": 1,
+          "hard bop": 4,
+          "delta blues": 0,
           "chicago blues": 0,
-          "soul jazz": 6,
-          "bossa nova": 2
+          "soul jazz": 4,
+          "bossa nova": 1
         },
-        "total": 253
+        "total": 197
       },
       {
         "name": "The Pop Archipelago",
         "genres": {
-          "pop": 441,
-          "teen pop": 1,
-          "dance-pop": 16,
-          "europop": 15,
-          "k-pop": 5,
-          "j-pop": 19,
-          "power pop": 12,
-          "indie pop": 41,
-          "dream pop": 8,
-          "traditional pop": 4
+          "pop": 352,
+          "teen pop": 0,
+          "dance-pop": 12,
+          "europop": 12,
+          "k-pop": 4,
+          "j-pop": 15,
+          "power pop": 9,
+          "indie pop": 32,
+          "dream pop": 6,
+          "traditional pop": 3
         },
-        "total": 562
+        "total": 445
       },
       {
         "name": "The Folk & Roots Plains",
         "genres": {
-          "folk": 85,
-          "country": 36,
-          "bluegrass": 1,
-          "americana": 6,
-          "acoustic": 8,
-          "singer-songwriter": 21,
-          "celtic": 3,
-          "flamenco": 1,
-          "latin": 30,
-          "gospel": 1
+          "folk": 68,
+          "country": 28,
+          "bluegrass": 0,
+          "americana": 4,
+          "acoustic": 6,
+          "singer-songwriter": 16,
+          "celtic": 2,
+          "flamenco": 0,
+          "latin": 24,
+          "gospel": 0
         },
-        "total": 192
+        "total": 148
       },
       {
         "name": "The Tropical Pulse",
         "genres": {
-          "afrobeats": 3,
-          "reggae": 19,
-          "ska": 5,
-          "dub": 12,
-          "rocksteady": 1,
-          "dancehall": 7,
-          "soca": 1,
-          "reggaeton": 6,
-          "calypso": 1,
-          "zouk": 1,
+          "afrobeats": 2,
+          "reggae": 15,
+          "ska": 4,
+          "dub": 9,
+          "rocksteady": 0,
+          "dancehall": 5,
+          "soca": 0,
+          "reggaeton": 4,
+          "calypso": 0,
+          "zouk": 0,
           "merengue": 0,
           "bachata": 0
         },
-        "total": 56
+        "total": 39
       },
       {
         "name": "The Metal Peaks",
         "genres": {
-          "metal": 136,
-          "heavy metal": 39,
-          "black metal": 29,
-          "death metal": 39,
-          "thrash metal": 11,
-          "doom metal": 8,
+          "metal": 108,
+          "heavy metal": 31,
+          "black metal": 23,
+          "death metal": 31,
+          "thrash metal": 8,
+          "doom metal": 6,
           "nu metal": 0,
-          "sludge": 4,
-          "gothic metal": 3,
-          "power metal": 5,
-          "metalcore": 11,
-          "grindcore": 11
+          "sludge": 3,
+          "gothic metal": 2,
+          "power metal": 4,
+          "metalcore": 8,
+          "grindcore": 8
         },
-        "total": 296
+        "total": 232
       },
       {
         "name": "The Avant-Garde Isles",
         "genres": {
-          "classical": 76,
-          "experimental": 205,
-          "noise": 61,
-          "avant-garde": 22,
-          "modern classical": 5,
-          "minimalism": 1,
-          "drone": 27,
-          "dark ambient": 21,
-          "soundtrack": 15
+          "classical": 60,
+          "experimental": 164,
+          "noise": 48,
+          "avant-garde": 17,
+          "modern classical": 4,
+          "minimalism": 0,
+          "drone": 21,
+          "dark ambient": 16,
+          "soundtrack": 12
         },
-        "total": 433
+        "total": 342
       }
     ],
     "metadata": {
-      "mapped_total": 5016
+      "mapped_total": 3960,
+      "peak_genres": [
+        "ambient",
+        "noise",
+        "indie pop",
+        "jungle"
+      ]
     }
   },
   "2021": {
@@ -7640,7 +13328,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3882
+      "mapped_total": 3882,
+      "peak_genres": [
+        "j-pop",
+        "pop-punk"
+      ]
     }
   },
   "2022": {
@@ -7822,7 +13514,13 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3366
+      "mapped_total": 3366,
+      "peak_genres": [
+        "power metal",
+        "chillout",
+        "drum and bass",
+        "lo-fi"
+      ]
     }
   },
   "2023": {
@@ -8004,7 +13702,11 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3351
+      "mapped_total": 3351,
+      "peak_genres": [
+        "industrial",
+        "boom bap"
+      ]
     }
   },
   "2024": {
@@ -8186,7 +13888,14 @@
       }
     ],
     "metadata": {
-      "mapped_total": 3204
+      "mapped_total": 3204,
+      "peak_genres": [
+        "singer-songwriter",
+        "dance-pop",
+        "dark ambient",
+        "americana",
+        "trap"
+      ]
     }
   },
   "2025": {
@@ -8368,7 +14077,10 @@
       }
     ],
     "metadata": {
-      "mapped_total": 2197
+      "mapped_total": 2197,
+      "peak_genres": [
+        "vaporwave"
+      ]
     }
   }
 }

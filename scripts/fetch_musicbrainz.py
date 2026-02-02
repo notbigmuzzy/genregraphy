@@ -13,8 +13,8 @@ from pathlib import Path
 # Configuration
 musicbrainzngs.set_useragent("Genregraphy", "0.1", "notbigmuzzy@gmail.com")
 
-YEAR_START = 2000
-YEAR_END = 2000
+YEAR_START = 1950
+YEAR_END = 1979
 
 def load_genres():
     """Load genres from texts/genres.txt file"""
