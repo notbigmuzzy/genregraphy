@@ -13,7 +13,7 @@ from pathlib import Path
 # Configuration
 musicbrainzngs.set_useragent("Genregraphy", "0.1", "notbigmuzzy@gmail.com")
 
-YEAR_START = 1981
+YEAR_START = 2000
 YEAR_END = 2000
 
 def load_genres():
@@ -76,7 +76,7 @@ def fetch_count(genre, year, retries=3):
         try:
             # Escape quotes in genre name and build proper query
             genre_escaped = genre.replace('"', '\\"')
-            query = f'tag:"{genre_escaped}" AND date:{year} AND (type:album OR type:compilation OR type:live OR type:single)'
+            query = f'tag:"{genre}" AND date:{year} AND (type:album OR type:ep OR type:single)'
             result = musicbrainzngs.search_release_groups(query=query, limit=1)
             count = result['release-group-count']
             # Debug: print query and result

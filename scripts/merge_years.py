@@ -40,7 +40,7 @@ for filename in sorted(os.listdir(years_dir)):
         data = json.load(f)
     
     # Filtriraj podatke prema start godinama žanrova
-    continents = {}
+    continents = []
     year_mapped_total = 0
     
     for group, genres in data.items():
@@ -59,11 +59,12 @@ for filename in sorted(os.listdir(years_dir)):
                 group_total += count
                 year_mapped_total += count
         
-        # Dodaj grupu sa žanrovima i totalom
-        continents[group] = {
+        # Dodaj kontinent kao objekat u niz
+        continents.append({
+            "name": group,
             "genres": group_genres,
             "total": group_total
-        }
+        })
     
     # Struktura za godinu
     year_data = {

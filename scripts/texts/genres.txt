@@ -6,10 +6,10 @@ Hard Rock
 Alternative Rock
 Psychedelic Rock
 Progressive Rock
-Indie Rock
+Indie
 Rock & Roll
 Rockabilly
-Surf Rock
+Surf
 Garage Rock
 Post-Punk
 New Wave
@@ -84,7 +84,6 @@ J-pop
 Power pop
 Indie pop
 Dream pop
-Bubblegum pop
 Traditional Pop
 
 # The Folk & Roots Plains

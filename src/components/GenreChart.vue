@@ -11,11 +11,10 @@
 
     <div class="chart">
       <div class="y-axis">
-		<div class="y-label">500</div>
+        <div class="y-label">800</div>
+        <div class="y-label">600</div>
         <div class="y-label">400</div>
-        <div class="y-label">300</div>
         <div class="y-label">200</div>
-        <div class="y-label">100</div>
         <div class="y-label">0</div>
       </div>
       <div class="bars">
@@ -49,8 +48,8 @@ const allGenres = ref([]);
 onMounted(() => {
   const genresSet = new Set();
   Object.values(genresData).forEach(yearData => {
-    if (yearData.continents) {
-      Object.values(yearData.continents).forEach(continentData => {
+    if (yearData.continents && Array.isArray(yearData.continents)) {
+      yearData.continents.forEach(continentData => {
         Object.keys(continentData.genres).forEach(genre => {
           genresSet.add(genre);
         });
@@ -65,7 +64,7 @@ const getCount = (year) => {
   const yearData = genreData.value[year];
   if (!yearData || !yearData.continents) return 0;
   
-  for (const continentData of Object.values(yearData.continents)) {
+  for (const continentData of yearData.continents) {
     if (continentData.genres[selectedGenre.value] !== undefined) {
       return continentData.genres[selectedGenre.value];
     }
@@ -76,6 +75,6 @@ const getCount = (year) => {
 // Izračunaj visinu bara (maksimum 1000 = 100%)
 const getBarHeight = (year) => {
   const count = getCount(year);
-  return Math.min((count / 500) * 100, 100);
+  return Math.min((count / 800) * 100, 100);
 };
 </script>

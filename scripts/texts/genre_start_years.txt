@@ -13,7 +13,7 @@ progressive rock -> 1968
 indie rock -> 1985
 rock & roll -> 1950
 rockabilly -> 1951
-surf rock -> 1961
+surf -> 1961
 garage rock -> 1963
 post-punk -> 1978
 new wave -> 1978

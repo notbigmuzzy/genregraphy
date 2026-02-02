@@ -11,11 +11,11 @@
 
     <div class="chart">
       <div class="y-axis">
-		<div class="y-label">1000</div>
-        <div class="y-label">800</div>
+		<div class="y-label">1500</div>
+        <div class="y-label">1200</div>
+        <div class="y-label">900</div>
         <div class="y-label">600</div>
-        <div class="y-label">400</div>
-        <div class="y-label">200</div>
+        <div class="y-label">300</div>
         <div class="y-label">0</div>
       </div>
       <div class="bars">
@@ -48,9 +48,9 @@ const allGroups = ref([]);
 onMounted(() => {
   const groupsSet = new Set();
   Object.values(genresData).forEach(yearData => {
-    if (yearData.continents) {
-      Object.keys(yearData.continents).forEach(continent => {
-        groupsSet.add(continent);
+    if (yearData.continents && Array.isArray(yearData.continents)) {
+      yearData.continents.forEach(continent => {
+        groupsSet.add(continent.name);
       });
     }
   });
@@ -61,7 +61,7 @@ const getCount = (year) => {
   const yearData = genreData.value[year];
   if (!yearData || !yearData.continents) return 0;
   
-  const continentData = yearData.continents[selectedGroup.value];
+  const continentData = yearData.continents.find(c => c.name === selectedGroup.value);
   if (!continentData) return 0;
   
   return continentData.total;
@@ -69,6 +69,6 @@ const getCount = (year) => {
 
 const getBarHeight = (year) => {
   const count = getCount(year);
-  return Math.min((count / 1000) * 100, 100);
+  return Math.min((count / 1500) * 100, 100);
 };
 </script>

@@ -11,10 +11,10 @@ hard rock -> The Rock Shield
 alternative rock -> The Rock Shield
 psychedelic rock -> The Rock Shield
 progressive rock -> The Rock Shield
-indie rock -> The Rock Shield
+indie -> The Rock Shield
 rock & roll -> The Rock Shield
 rockabilly -> The Rock Shield
-surf rock -> The Rock Shield
+surf -> The Rock Shield
 garage rock -> The Rock Shield
 post-punk -> The Rock Shield
 new wave -> The Rock Shield
@@ -89,7 +89,6 @@ j-pop -> The Pop Archipelago
 power pop -> The Pop Archipelago
 indie pop -> The Pop Archipelago
 dream pop -> The Pop Archipelago
-bubblegum pop -> The Pop Archipelago
 traditional pop -> The Pop Archipelago
 
 # The Folk & Roots Plains
