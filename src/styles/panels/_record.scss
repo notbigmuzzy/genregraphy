@@ -75,7 +75,13 @@
 			opacity: 0.05;
 
 			&.selected {
-				opacity: 1;
+				&.bar-bg {
+					opacity: 1;
+				}
+
+				&.bar-fg {
+					opacity: 1;
+				}
 			}
 		}
 

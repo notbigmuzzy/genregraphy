@@ -7,9 +7,11 @@
 				viewBox="-50 -50 100 100"
 				preserveAspectRatio="xMidYMid meet"
 			>
-				<g class="grooves"></g>
-				<g class="bars"></g>
-				<circle cx="0" cy="0" r="12" fill="#242424" stroke="lightcoral" stroke-width="0.5"/>
+				<g class="spin">
+					<g class="grooves"></g>
+					<g class="bars"></g>
+					<circle cx="0" cy="0" r="12" fill="#242424" stroke="lightcoral" stroke-width="0.5"/>
+				</g>
 			</svg>
 		</div>
 		
@@ -18,7 +20,7 @@
 			:min="1950"
 			:max="2025"
 			:step="1"
-			:lazy="false"
+			:lazy="true"
 			orientation="vertical"
 		/>
 	</div>
@@ -32,21 +34,32 @@ import genresData from '../api/genres.json'
 
 const yearValue = ref(1950)
 const chartSvg = ref(null)
-const currentRotation = ref(0)
-let svg, bars, grooves, innerRadius, outerRadius, continentColors, currentGenreData = []
+let svg, spinGroup, bars, grooves, innerRadius, outerRadius, continentColors, currentGenreData = []
 let selectedBar = null
 
+const spinDurationInMs = 45_000
+const spinDegPerMs = 360 / spinDurationInMs
+let spinAngleDeg = 0
+let isSpinPaused = false
+let spinTimer = null
+let prevElapsedMs = 0
+
+let pauseHover = false
+let pauseYearTransition = false
+let pauseSelection = false
+let yearPauseTimeout = null
+
 const updateChart = (year) => {
-	if (!svg) return
-	
 	const yearData = genresData[year.toString()]
-	if (!yearData) return
-	
+	const mappedTotal = yearData.metadata.mapped_total
+	const peakGenres = yearData.metadata.peak_genres
 	const genreData = []
+
 	for (const continent of yearData.continents) {
 		for (const [genre, count] of Object.entries(continent.genres)) {
 			if (count > 0) {
 				genreData.push({
+					id: `${continent.name}::${genre}`,
 					continent: continent.name,
 					genre,
 					count,
@@ -81,7 +94,7 @@ const updateChart = (year) => {
 		.endAngle((d, i) => angleScale(i + 1) - 0.005)
 	
 	bars.selectAll('path.bar-bg')
-		.data(genreData, d => d.genre)
+		.data(genreData, d => d.id)
 		.join(
 			enter => enter.append('path')
 				.attr('class', 'bar-bg')
@@ -111,7 +124,7 @@ const updateChart = (year) => {
 		)
 	
 	bars.selectAll('path.bar-fg')
-		.data(genreData, d => d.genre)
+		.data(genreData, d => d.id)
 		.join(
 			enter => enter.append('path')
 				.attr('class', 'bar-fg')
@@ -156,8 +169,15 @@ const props = defineProps({
 
 const emit = defineEmits(['update:isDescriptionVisible', 'year-change', 'bar-click'])
 
+const recomputeSpinPaused = () => {
+	isSpinPaused = pauseHover || pauseYearTransition || pauseSelection || props.isDescriptionVisible
+}
+
 const handleBarClick = (event, d) => {
-	const barIndex = currentGenreData.findIndex(item => item.genre === d.genre)
+	pauseSelection = true
+	recomputeSpinPaused()
+
+	const barIndex = currentGenreData.findIndex(item => item.id === d.id)
 	if (barIndex === -1) return
 
 	if (selectedBar) {
@@ -165,43 +185,74 @@ const handleBarClick = (event, d) => {
 	}
 	
 	selectedBar = event.currentTarget
-	d3.select(selectedBar).classed('selected', true)
+	if (bars) {
+		bars.selectAll('path').classed('selected', item => item?.id === d.id)
+	} else {
+		d3.select(selectedBar).classed('selected', true)
+	}
 
 	const numBars = currentGenreData.length
 	const anglePerBar = (2 * Math.PI) / numBars
 	const barMidAngle = (barIndex + 0.5) * anglePerBar
-	const targetAngle = Math.PI * 1.5
-	const rotationNeeded = targetAngle - barMidAngle
-	const rotationDegrees = (rotationNeeded * 180) / Math.PI
-	currentRotation.value = rotationDegrees
-	
-	grooves.transition()
+	const barMidDeg = (barMidAngle * 180) / Math.PI
+
+	const targetBarDeg = 270
+	const targetRotationDeg = targetBarDeg - barMidDeg
+	const delta = ((targetRotationDeg - spinAngleDeg + 540) % 360) - 180
+	const nextRotation = spinAngleDeg + delta
+
+	spinGroup?.interrupt()
+	spinGroup?.transition()
 		.duration(600)
-		.attr('transform', `rotate(${rotationDegrees})`)
-	
-	bars.transition()
-		.duration(600)
-		.attr('transform', `rotate(${rotationDegrees})`)
-	emit('update:isDescriptionVisible', !props.isDescriptionVisible);
+		.tween('rotate', () => {
+			const i = d3.interpolateNumber(spinAngleDeg, nextRotation)
+			return (t) => {
+				spinAngleDeg = i(t)
+				spinGroup.attr('transform', `rotate(${spinAngleDeg})`)
+			}
+		})
+		.on('end', () => {
+			spinAngleDeg = ((spinAngleDeg % 360) + 360) % 360
+			spinGroup.attr('transform', `rotate(${spinAngleDeg})`)
+		})
+
+	emit('update:isDescriptionVisible', true);
 	emit('bar-click', { continent: d.continent, genre: d.genre })
 }
 
 watch(yearValue, (newYear) => {
 	emit('year-change', newYear);
+
+	pauseYearTransition = true
+	recomputeSpinPaused()
+
 	updateChart(newYear);
+
+	if (yearPauseTimeout) yearPauseTimeout.stop()
+	yearPauseTimeout = d3.timeout(() => {
+		pauseYearTransition = false
+		recomputeSpinPaused()
+	}, 600)
 })
 
 watch(() => props.isDescriptionVisible, (newValue) => {
 	if (!newValue && selectedBar) {
-		d3.select(selectedBar).classed('selected', false)
+		if (bars) {
+			bars.selectAll('path').classed('selected', false)
+		} else {
+			d3.select(selectedBar).classed('selected', false)
+		}
 		selectedBar = null
+		pauseSelection = false
+		recomputeSpinPaused()
 	}
 })
 
 onMounted(async () => {
 	svg = d3.select(chartSvg.value)
-	
-	grooves = svg.select('g.grooves')
+	spinGroup = svg.select('g.spin')
+	grooves = spinGroup.select('g.grooves')
+
 	const numGrooves = 40
 	const minRadius = 12
 	const maxRadius = 48
@@ -232,9 +283,35 @@ onMounted(async () => {
 		'The Avant-Garde Isles': '#795548'
 	}
 	
-	bars = svg.select('g.bars')
+	bars = spinGroup.select('g.bars')
 	
 	updateChart(yearValue.value)
+
+	spinTimer?.stop?.()
+	prevElapsedMs = 0
+	spinTimer = d3.timer((elapsedMs) => {
+		if (prevElapsedMs === 0) {
+			prevElapsedMs = elapsedMs
+			return
+		}
+
+		const dt = elapsedMs - prevElapsedMs
+		prevElapsedMs = elapsedMs
+		if (isSpinPaused) return
+
+		spinAngleDeg = (spinAngleDeg + dt * spinDegPerMs) % 360
+		spinGroup.attr('transform', `rotate(${spinAngleDeg})`)
+	})
+
+	svg.on('mouseenter', () => {
+		pauseHover = true
+		recomputeSpinPaused()
+	})
+
+	svg.on('mouseleave', () => {
+		pauseHover = false
+		recomputeSpinPaused()
+	})
 })
 
 </script>

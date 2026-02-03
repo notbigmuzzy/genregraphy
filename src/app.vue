@@ -26,11 +26,11 @@
 	const isDescriptionVisible = ref(false)
 
 	const handleYear = (year) => {
-		console.log('Selected year:', year);
+		// console.log('Selected year:', year);
 	}
 
 	const handleBarClick = (data) => {
-		console.log('Continent:', data.continent)
-		console.log('Genre:', data.genre)
+		// console.log('Continent:', data.continent)
+		// console.log('Genre:', data.genre)
 	}
 </script>
