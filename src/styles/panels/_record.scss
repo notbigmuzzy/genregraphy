@@ -25,37 +25,17 @@
 			height: 100%;
 			border-radius: 50%;
 			background-color: rgb(20, 20, 20);
-			animation: spin 45s linear infinite;
 		}
 
-		.bars {
-			path {
-				&.bar-fg {
-					pointer-events: none;
-				}
-
-				&:hover {
-					opacity: 0.5;
-				}
+		.bars path {
+			&.bar-fg {
+				pointer-events: none;
 			}
-		}
 
-		&:hover {
-			cursor: pointer;
-
-			svg {
-				animation-play-state: paused;
+			&:hover {
+				cursor: pointer;
+				opacity: 0.5;
 			}
-		}
-	}
-
-	@keyframes spin {
-		from {
-			transform: rotate(0deg);
-		}
-
-		to {
-			transform: rotate(360deg);
 		}
 	}
 
@@ -90,8 +70,13 @@
 		left: initial;
 		transform: translateX(50%);
 
-		svg {
-			animation-play-state: paused;
+		path {
+			pointer-events: none;
+			opacity: 0.05;
+
+			&.selected {
+				opacity: 1;
+			}
 		}
 
 		@media screen and (max-width: 1024px) {

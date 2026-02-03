@@ -32,7 +32,9 @@ import genresData from '../api/genres.json'
 
 const yearValue = ref(1950)
 const chartSvg = ref(null)
-let svg, bars, innerRadius, outerRadius, continentColors
+const currentRotation = ref(0)
+let svg, bars, grooves, innerRadius, outerRadius, continentColors, currentGenreData = []
+let selectedBar = null
 
 const updateChart = (year) => {
 	if (!svg) return
@@ -61,6 +63,8 @@ const updateChart = (year) => {
 		}
 		return a.genre.localeCompare(b.genre)
 	})
+	
+	currentGenreData = genreData
 	
 	const numBars = genreData.length
 	const angleScale = d3.scaleLinear()
@@ -153,6 +157,31 @@ const props = defineProps({
 const emit = defineEmits(['update:isDescriptionVisible', 'year-change', 'bar-click'])
 
 const handleBarClick = (event, d) => {
+	const barIndex = currentGenreData.findIndex(item => item.genre === d.genre)
+	if (barIndex === -1) return
+
+	if (selectedBar) {
+		d3.select(selectedBar).classed('selected', false)
+	}
+	
+	selectedBar = event.currentTarget
+	d3.select(selectedBar).classed('selected', true)
+
+	const numBars = currentGenreData.length
+	const anglePerBar = (2 * Math.PI) / numBars
+	const barMidAngle = (barIndex + 0.5) * anglePerBar
+	const targetAngle = Math.PI * 1.5
+	const rotationNeeded = targetAngle - barMidAngle
+	const rotationDegrees = (rotationNeeded * 180) / Math.PI
+	currentRotation.value = rotationDegrees
+	
+	grooves.transition()
+		.duration(600)
+		.attr('transform', `rotate(${rotationDegrees})`)
+	
+	bars.transition()
+		.duration(600)
+		.attr('transform', `rotate(${rotationDegrees})`)
 	emit('update:isDescriptionVisible', !props.isDescriptionVisible);
 	emit('bar-click', { continent: d.continent, genre: d.genre })
 }
@@ -162,10 +191,17 @@ watch(yearValue, (newYear) => {
 	updateChart(newYear);
 })
 
+watch(() => props.isDescriptionVisible, (newValue) => {
+	if (!newValue && selectedBar) {
+		d3.select(selectedBar).classed('selected', false)
+		selectedBar = null
+	}
+})
+
 onMounted(async () => {
 	svg = d3.select(chartSvg.value)
 	
-	const grooves = svg.select('g.grooves')
+	grooves = svg.select('g.grooves')
 	const numGrooves = 40
 	const minRadius = 12
 	const maxRadius = 48
