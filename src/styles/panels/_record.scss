@@ -1,0 +1,71 @@
+.record-elements {
+
+	.the-record {
+		position: absolute;
+		top: 2.5%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		height: 95%;
+		aspect-ratio: 1 / 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 5px solid lightcoral;
+		border-radius: 50%;
+
+		@media screen and (max-width: 1024px) {
+			height: auto;
+			width: 95%;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+	}
+
+	.slider-target {
+		position: absolute;
+		right: 0.5%;
+		top: 2.5%;
+		height: 95%;
+		width: 2px;
+
+		.slider-base {
+			background-color: #242424;
+
+			.slider-connect {
+				background-color: lightcoral;
+			}
+
+			.slider-tooltip {
+				background-color: lightcoral;
+				border: 1px solid lightcoral;
+			}
+
+			.slider-handle {
+				background-color: lightcoral;
+			}
+		}
+	}
+}
+
+.record-wrapper.sided {
+	.the-record {
+		left: initial;
+		transform: translateX(50%);
+
+		button {
+			display: none;
+		}
+
+		@media screen and (max-width: 1024px) {
+			left: 0;
+			top: initial;
+			transform: translateY(50%);
+		}
+	}
+
+	.slider-target {
+		display: none;
+	}
+}

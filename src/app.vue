@@ -1,16 +1,30 @@
 <template>
-
-
-	<div class="theMap">
-
-
+	<div class="info-panel" :class="isIntroVisible || isDescriptionVisible ? 'show' : 'hide'">
+		<intro-screen
+			v-model:isIntroVisible="isIntroVisible"
+		/>
+		<description-panel
+			v-model:isDescriptionVisible="isDescriptionVisible"
+		/>
 	</div>
-
-
-
-
+	<div class="record-wrapper" :class="isIntroVisible || isDescriptionVisible ? 'sided' : 'centered'">
+		<record-panel
+			v-model:isDescriptionVisible="isDescriptionVisible"
+			@year-change="handleYear"
+		/>
+	</div>
 </template>
 
 <script setup>
-console.log("App.vue loaded");
+	import { ref } from 'vue'
+	import IntroScreen from './components/IntroScreen.vue'
+	import RecordPanel from './components/RecordPanel.vue'
+	import DescriptionPanel from './components/DescriptionPanel.vue'
+
+	const isIntroVisible = ref(true)
+	const isDescriptionVisible = ref(false)
+
+	const handleYear = (year) => {
+		console.log('Selected year:', year);
+	}
 </script>

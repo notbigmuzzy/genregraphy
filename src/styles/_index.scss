@@ -1,2 +1,7 @@
 @use '@/styles/basic/reset';
 @use '@/styles/basic/body';
+@use '@/styles/basic/layout';
+
+@use '@/styles/panels/intro';
+@use '@/styles/panels/description';
+@use '@/styles/panels/record';

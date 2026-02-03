@@ -1,0 +1,36 @@
+#app {
+	height: 100%;
+	width: 100%;
+	display: flex;
+
+	.info-panel {
+		position: absolute;
+		top: 2.5%;
+		left: 2.5%;
+		right: 37.5%;
+		height: 95%;
+		width: 62.5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 10;
+		border: 5px solid lightgreen;
+
+		&.hide {
+			display: none;
+		}
+
+		@media screen and (max-width: 1024px) {
+			right: 2.5%;
+			width: 95%;
+			height: 60%;
+		}
+	}
+
+	.record-wrapper {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+}
