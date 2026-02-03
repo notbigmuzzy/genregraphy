@@ -21,7 +21,7 @@
 	import RecordPanel from './components/RecordPanel.vue'
 	import DescriptionPanel from './components/DescriptionPanel.vue'
 
-	const isIntroVisible = ref(true)
+	const isIntroVisible = ref(false)
 	const isDescriptionVisible = ref(false)
 
 	const handleYear = (year) => {
