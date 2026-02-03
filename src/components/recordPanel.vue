@@ -101,7 +101,10 @@ const updateChart = (year) => {
 		.join(
 			enter => {
 				const g = enter.append('g')
-					.attr('class', d => d.isPeak ? 'bar-group peak' : 'bar-group')
+					.attr('class', d => {
+						const genreClass = d.genre.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+						return d.isPeak ? `bar-group peak genre-${genreClass}` : `bar-group genre-${genreClass}`
+					})
 					.attr('data-continent', d => d.continent)
 					.attr('data-genre', d => d.genre)
 					.attr('data-id', d => d.id)
@@ -149,7 +152,10 @@ const updateChart = (year) => {
 			},
 			update => {
 				update
-					.attr('class', d => d.isPeak ? 'bar-group peak' : 'bar-group')
+					.attr('class', d => {
+						const genreClass = d.genre.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+						return d.isPeak ? `bar-group peak genre-${genreClass}` : `bar-group genre-${genreClass}`
+					})
 					.attr('data-continent', d => d.continent)
 					.attr('data-genre', d => d.genre)
 					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
@@ -207,13 +213,18 @@ const props = defineProps({
 	isDescriptionVisible: {
 		type: Boolean,
 		required: true
+	},
+	isIntroVisible: {
+		type: Boolean,
+		required: false,
+		default: false
 	}
 })
 
-const emit = defineEmits(['update:isDescriptionVisible', 'year-change', 'bar-click'])
+const emit = defineEmits(['update:isDescriptionVisible', 'bar-click'])
 
 const recomputeSpinPaused = () => {
-	isSpinPaused = pauseHover || pauseYearTransition || pauseSelection || props.isDescriptionVisible
+	isSpinPaused = pauseHover || pauseYearTransition || pauseSelection || props.isDescriptionVisible || props.isIntroVisible
 }
 
 const handleBarClick = (event, d) => {
@@ -269,8 +280,11 @@ const handleBarClick = (event, d) => {
 	emit('bar-click', {
 		continent: d.continent,
 		genre: d.genre,
+		genreName: d.genre,
 		isPeak: d.isPeak,
 		year: yearValue.value,
+		count: d.count,
+		percentage: d.percentage
 	});
 }
 
@@ -304,7 +318,14 @@ watch(() => props.isDescriptionVisible, (newValue) => {
 	}
 })
 
+watch(() => props.isIntroVisible, () => {
+	recomputeSpinPaused()
+})
+
 onMounted(async () => {
+	// Initialize spin state based on intro visibility
+	recomputeSpinPaused()
+	
 	svg = d3.select(chartSvg.value)
 	spinGroup = svg.select('g.spin')
 	grooves = spinGroup.select('g.grooves')

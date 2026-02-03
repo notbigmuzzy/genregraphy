@@ -5,12 +5,13 @@
 		/>
 		<description-panel
 			v-model:isDescriptionVisible="isDescriptionVisible"
+			:content="descriptionContent"
 		/>
 	</div>
 	<div class="record-wrapper" :class="isIntroVisible || isDescriptionVisible ? 'sided' : 'centered'">
 		<record-panel
 			v-model:isDescriptionVisible="isDescriptionVisible"
-			@year-change="handleYear"
+			:is-intro-visible="isIntroVisible"
 			@bar-click="handleBarClick"
 		/>
 	</div>
@@ -24,16 +25,9 @@
 
 	const isIntroVisible = ref(false)
 	const isDescriptionVisible = ref(false)
-
-	const handleYear = (year) => {
-		// console.log('Selected year:', year);
-	}
+	const descriptionContent = ref(null)
 
 	const handleBarClick = (data) => {
-		console.log(data)
-		console.log('Continent:', data.continent)
-		console.log('Genre:', data.genre)
-		console.log('Is Peak Genre:', data.isPeak)
-		console.log('Year:', data.year)
+		descriptionContent.value = data;
 	}
 </script>

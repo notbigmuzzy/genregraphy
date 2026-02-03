@@ -87,6 +87,7 @@
 
 .record-wrapper.sided {
 	.the-record {
+		pointer-events: none;
 		left: initial;
 		transform: translateX(50%);
 

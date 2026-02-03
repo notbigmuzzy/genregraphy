@@ -9,48 +9,61 @@
 	&.hidden {
 		display: none;
 	}
+}
 
-	.intro-text-block {
-		padding: 2rem;
-		text-align: left;
+.panel-text-block {
+	padding: 2rem;
+	padding-bottom: 0;
+	text-align: left;
 
-		h2 {
-			font-size: 4rem;
-			margin-bottom: 2rem;
+	h2 {
+		font-size: 4rem;
+		margin-bottom: 2rem;
 
-			span {
-				display: block;
-
-				&:last-child {
-					margin-left: 10%;
-				}
-			}
-		}
-
-		hr {
+		span {
 			display: block;
-			width: 100%;
-			margin-bottom: 1rem;
-		}
 
-		p {
-			font-size: 1.2rem;
-			line-height: 1.5;
-			margin-bottom: 2rem;
-		}
-
-		button {
-			padding: 1rem 2rem;
-			font-size: 1.2rem;
-			background-color: #4caf50;
-			color: white;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-
-			&:hover {
-				background-color: #45a049;
+			&:last-child {
+				margin-left: 10%;
 			}
 		}
+	}
+
+	hr {
+		display: block;
+		width: 100%;
+		margin-bottom: 1rem;
+		border-style: dashed;
+	}
+
+	p {
+		font-size: 1.2rem;
+		line-height: 1.5;
+		margin-bottom: 2rem;
+	}
+
+	b {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
+
+	button {
+		padding: 1rem 2rem;
+		font-size: 1.2rem;
+		background-color: #4caf50;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #45a049;
+		}
+	}
+
+	audio {
+		display: block;
+		width: 100%;
 	}
 }

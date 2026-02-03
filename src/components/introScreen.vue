@@ -1,6 +1,6 @@
 <template>
 	<div class="intro-screen" :class="props.isIntroVisible ? 'visible' : 'hidden'">
-		<div class="intro-text-block">
+		<div class="panel-text-block">
 			<h2>
 				<span>Genre-</span>
 				<span>-graphy</span>
