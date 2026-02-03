@@ -34,5 +34,6 @@
 		console.log('Continent:', data.continent)
 		console.log('Genre:', data.genre)
 		console.log('Is Peak Genre:', data.isPeak)
+		console.log('Year:', data.year)
 	}
 </script>

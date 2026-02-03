@@ -28,7 +28,7 @@
 
 <script setup>
 import Slider from '@vueform/slider'
-import { ref, watch, onMounted } from 'vue'
+import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import * as d3 from 'd3'
 import genresData from '../api/genres.json'
 
@@ -189,6 +189,9 @@ const updateChart = (year) => {
 				.transition()
 				.duration(300)
 				.attr('opacity', 0)
+				.on('end', function() {
+					d3.select(this).on('click', null)
+				})
 				.remove()
 		)
 
@@ -263,7 +266,12 @@ const handleBarClick = (event, d) => {
 		})
 
 	emit('update:isDescriptionVisible', true);
-	emit('bar-click', { continent: d.continent, genre: d.genre, isPeak: d.isPeak });
+	emit('bar-click', {
+		continent: d.continent,
+		genre: d.genre,
+		isPeak: d.isPeak,
+		year: yearValue.value,
+	});
 }
 
 watch(yearValue, (newYear) => {
@@ -360,6 +368,36 @@ onMounted(async () => {
 		pauseHover = false
 		recomputeSpinPaused()
 	})
+})
+
+onBeforeUnmount(() => {
+	// Stop the spin timer
+	if (spinTimer) {
+		spinTimer.stop()
+		spinTimer = null
+	}
+	
+	// Clear the year pause timeout
+	if (yearPauseTimeout) {
+		yearPauseTimeout.stop()
+		yearPauseTimeout = null
+	}
+	
+	// Remove event listeners
+	if (svg) {
+		svg.on('mouseenter', null)
+		svg.on('mouseleave', null)
+	}
+	
+	// Remove click handlers from bars to prevent memory leaks
+	if (bars) {
+		bars.selectAll('g.bar-group').on('click', null)
+	}
+	
+	// Interrupt any ongoing transitions
+	if (spinGroup) {
+		spinGroup.interrupt()
+	}
 })
 
 </script>
