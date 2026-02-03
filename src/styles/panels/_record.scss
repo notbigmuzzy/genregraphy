@@ -27,14 +27,34 @@
 			background-color: rgb(20, 20, 20);
 		}
 
-		.bars path {
-			&.bar-fg {
+		.bar-group {
+
+
+			.bar-label {
+				pointer-events: none;
+				user-select: none;
+				fill: #fff;
+				font-size: 10%;
+				line-height: 1;
+				font-weight: bold;
+				opacity: 0.5;
 				pointer-events: none;
 			}
 
 			&:hover {
 				cursor: pointer;
-				opacity: 0.5;
+
+				.bar-bg {
+					opacity: 0.5;
+				}
+
+				.bar-fg {
+					opacity: 1;
+				}
+
+				.bar-label {
+					opacity: 1;
+				}
 			}
 		}
 	}
@@ -70,16 +90,38 @@
 		left: initial;
 		transform: translateX(50%);
 
-		path {
-			pointer-events: none;
-			opacity: 0.05;
+		.bar-group {
+
+			.bar-bg,
+			.bar-fg {
+				pointer-events: none;
+				opacity: 0.05;
+			}
+
+			.bar-label {
+				opacity: 0.05;
+			}
+
+			&.same-group {
+
+				.bar-bg,
+				.bar-fg {
+					opacity: 0.25;
+				}
+
+				.bar-label {
+					opacity: 0.25;
+				}
+			}
 
 			&.selected {
-				&.bar-bg {
+
+				.bar-bg,
+				.bar-fg {
 					opacity: 1;
 				}
 
-				&.bar-fg {
+				.bar-label {
 					opacity: 1;
 				}
 			}

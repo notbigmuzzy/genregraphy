@@ -10,7 +10,7 @@
 				<g class="spin">
 					<g class="grooves"></g>
 					<g class="bars"></g>
-					<circle cx="0" cy="0" r="12" fill="#242424" stroke="lightcoral" stroke-width="0.5"/>
+					<circle cx="0" cy="0" r="12" fill="transparent" stroke="lightcoral" stroke-width="0.5"/>
 				</g>
 			</svg>
 		</div>
@@ -34,8 +34,10 @@ import genresData from '../api/genres.json'
 
 const yearValue = ref(1950)
 const chartSvg = ref(null)
-let svg, spinGroup, bars, grooves, innerRadius, outerRadius, continentColors, currentGenreData = []
+let svg, spinGroup, bars, grooves, labels, innerRadius, outerRadius, continentColors, currentGenreData = []
 let selectedBar = null
+let selectedId = null
+let selectedContinent = null
 
 const spinDurationInMs = 45_000
 const spinDegPerMs = 360 / spinDurationInMs
@@ -51,7 +53,7 @@ let yearPauseTimeout = null
 
 const updateChart = (year) => {
 	const yearData = genresData[year.toString()]
-	const mappedTotal = yearData.metadata.mapped_total
+	const mappedTotalForTheYear = yearData.metadata.mapped_total
 	const peakGenres = yearData.metadata.peak_genres
 	const genreData = []
 
@@ -64,7 +66,8 @@ const updateChart = (year) => {
 					genre,
 					count,
 					total: continent.total,
-					percentage: continent.total > 0 ? count / continent.total : 0
+					percentage: continent.total > 0 ? count / continent.total : 0,
+					isPeak: peakGenres.includes(genre)
 				})
 			}
 		}
@@ -93,71 +96,108 @@ const updateChart = (year) => {
 		.startAngle((d, i) => angleScale(i))
 		.endAngle((d, i) => angleScale(i + 1) - 0.005)
 	
-	bars.selectAll('path.bar-bg')
+	const barGroups = bars.selectAll('g.bar-group')
 		.data(genreData, d => d.id)
 		.join(
-			enter => enter.append('path')
-				.attr('class', 'bar-bg')
-				.attr('data-continent', d => d.continent)
-				.attr('data-genre', d => d.genre)
-				.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
-				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
-				.attr('opacity', 0)
-				.on('click', handleBarClick)
-				.transition()
-				.duration(400)
-				.attr('opacity', 0.2),
-			update => update
-				.attr('data-continent', d => d.continent)
-				.attr('data-genre', d => d.genre)
-				.on('click', handleBarClick)
-				.transition()
-				.duration(400)
-				.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
-				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
-				.attr('opacity', 0.2),
+			enter => {
+				const g = enter.append('g')
+					.attr('class', d => d.isPeak ? 'bar-group peak' : 'bar-group')
+					.attr('data-continent', d => d.continent)
+					.attr('data-genre', d => d.genre)
+					.attr('data-id', d => d.id)
+					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
+					.on('click', handleBarClick)
+				
+				g.append('path')
+					.attr('class', 'bar-bg')
+					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
+					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('opacity', 0)
+					.transition()
+					.duration(400)
+					.attr('opacity', 0.2)
+				
+				g.append('path')
+					.attr('class', 'bar-fg')
+					.attr('d', (d, i) => {
+						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
+						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
+					})
+					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('opacity', 0)
+					.transition()
+					.duration(400)
+					.attr('opacity', 0.8)
+				
+				g.append('text')
+					.attr('class', 'bar-label')
+					.attr('text-anchor', 'start')
+					.attr('dominant-baseline', 'middle')
+					.attr('opacity', 0)
+					.text(d => d.genre)
+					.attr('transform', (d, i) => {
+						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
+						const angleDeg = (midAngle * 180) / Math.PI
+						const r = outerRadius - 0.8
+						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+					})
+					.transition()
+					.duration(400)
+					.attr('opacity', 1)
+				
+				return g
+			},
+			update => {
+				update
+					.attr('class', d => d.isPeak ? 'bar-group peak' : 'bar-group')
+					.attr('data-continent', d => d.continent)
+					.attr('data-genre', d => d.genre)
+					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
+				
+				update.select('path.bar-bg')
+					.transition()
+					.duration(400)
+					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
+					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('opacity', 0.2)
+				
+				update.select('path.bar-fg')
+					.transition()
+					.duration(400)
+					.attr('d', (d, i) => {
+						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
+						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
+					})
+					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('opacity', 0.8)
+				
+				update.select('text.bar-label')
+					.text(d => d.genre)
+					.transition()
+					.duration(400)
+					.attr('transform', (d, i) => {
+						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
+						const angleDeg = (midAngle * 180) / Math.PI
+						const r = outerRadius - 0.8
+						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+					})
+					.attr('opacity', 1)
+				
+				return update
+			},
 			exit => exit
 				.transition()
 				.duration(300)
 				.attr('opacity', 0)
 				.remove()
 		)
-	
-	bars.selectAll('path.bar-fg')
-		.data(genreData, d => d.id)
-		.join(
-			enter => enter.append('path')
-				.attr('class', 'bar-fg')
-				.attr('data-continent', d => d.continent)
-				.attr('data-genre', d => d.genre)
-				.attr('d', (d, i) => {
-					const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
-					return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
-				})
-				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
-				.attr('opacity', 0)
-				.on('click', handleBarClick)
-				.transition()
-				.duration(400)
-				.attr('opacity', 0.8),
-			update => update
-				.attr('data-continent', d => d.continent)
-				.attr('data-genre', d => d.genre)
-				.on('click', handleBarClick)
-				.transition()
-				.duration(400)
-				.attr('d', (d, i) => {
-					const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
-					return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
-				})
-				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
-				.attr('opacity', 0.8),
-			exit => exit
-				.transition()
-				.duration(300)
-				.attr('opacity', 0)
-				.remove()
-		)
+
+	if (selectedId) {
+		bars.selectAll('g.bar-group').classed('selected', item => item?.id === selectedId)
+	}
+	if (selectedContinent) {
+		bars.selectAll('g.bar-group').classed('same-group', item => item?.continent === selectedContinent)
+	}
 }
 
 const props = defineProps({
@@ -176,6 +216,8 @@ const recomputeSpinPaused = () => {
 const handleBarClick = (event, d) => {
 	pauseSelection = true
 	recomputeSpinPaused()
+	selectedId = d.id
+	selectedContinent = d.continent
 
 	const barIndex = currentGenreData.findIndex(item => item.id === d.id)
 	if (barIndex === -1) return
@@ -186,7 +228,11 @@ const handleBarClick = (event, d) => {
 	
 	selectedBar = event.currentTarget
 	if (bars) {
-		bars.selectAll('path').classed('selected', item => item?.id === d.id)
+		bars.selectAll('g.bar-group').classed('selected', false).classed('same-group', false)
+		
+		bars.selectAll('g.bar-group')
+			.classed('selected', item => item?.id === d.id)
+			.classed('same-group', item => item?.continent === d.continent)
 	} else {
 		d3.select(selectedBar).classed('selected', true)
 	}
@@ -217,7 +263,7 @@ const handleBarClick = (event, d) => {
 		})
 
 	emit('update:isDescriptionVisible', true);
-	emit('bar-click', { continent: d.continent, genre: d.genre })
+	emit('bar-click', { continent: d.continent, genre: d.genre, isPeak: d.isPeak });
 }
 
 watch(yearValue, (newYear) => {
@@ -232,17 +278,19 @@ watch(yearValue, (newYear) => {
 	yearPauseTimeout = d3.timeout(() => {
 		pauseYearTransition = false
 		recomputeSpinPaused()
-	}, 600)
+	}, 250)
 })
 
 watch(() => props.isDescriptionVisible, (newValue) => {
 	if (!newValue && selectedBar) {
 		if (bars) {
-			bars.selectAll('path').classed('selected', false)
+			bars.selectAll('g.bar-group').classed('selected', false).classed('same-group', false)
 		} else {
 			d3.select(selectedBar).classed('selected', false)
 		}
 		selectedBar = null
+		selectedId = null
+		selectedContinent = null
 		pauseSelection = false
 		recomputeSpinPaused()
 	}
@@ -252,6 +300,8 @@ onMounted(async () => {
 	svg = d3.select(chartSvg.value)
 	spinGroup = svg.select('g.spin')
 	grooves = spinGroup.select('g.grooves')
+	bars = spinGroup.select('g.bars')
+	labels = spinGroup.select('g.labels')
 
 	const numGrooves = 40
 	const minRadius = 12
@@ -269,7 +319,7 @@ onMounted(async () => {
 	}
 	
 	innerRadius = 12
-	outerRadius = 46
+	outerRadius = 47
 	
 	continentColors = {
 		'The Rock Shield': '#e74c3c',
@@ -282,8 +332,6 @@ onMounted(async () => {
 		'The Metal Peaks': '#607d8b',
 		'The Avant-Garde Isles': '#795548'
 	}
-	
-	bars = spinGroup.select('g.bars')
 	
 	updateChart(yearValue.value)
 

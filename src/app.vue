@@ -18,9 +18,9 @@
 
 <script setup>
 	import { ref } from 'vue'
-	import IntroScreen from './components/IntroScreen.vue'
-	import RecordPanel from './components/RecordPanel.vue'
-	import DescriptionPanel from './components/DescriptionPanel.vue'
+	import IntroScreen from './components/introScreen.vue'
+	import RecordPanel from './components/recordPanel.vue'
+	import DescriptionPanel from './components/descriptionPanel.vue'
 
 	const isIntroVisible = ref(false)
 	const isDescriptionVisible = ref(false)
@@ -30,7 +30,9 @@
 	}
 
 	const handleBarClick = (data) => {
-		// console.log('Continent:', data.continent)
-		// console.log('Genre:', data.genre)
+		console.log(data)
+		console.log('Continent:', data.continent)
+		console.log('Genre:', data.genre)
+		console.log('Is Peak Genre:', data.isPeak)
 	}
 </script>
