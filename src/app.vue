@@ -11,6 +11,7 @@
 		<record-panel
 			v-model:isDescriptionVisible="isDescriptionVisible"
 			@year-change="handleYear"
+			@bar-click="handleBarClick"
 		/>
 	</div>
 </template>
@@ -26,5 +27,10 @@
 
 	const handleYear = (year) => {
 		console.log('Selected year:', year);
+	}
+
+	const handleBarClick = (data) => {
+		console.log('Continent:', data.continent)
+		console.log('Genre:', data.genre)
 	}
 </script>

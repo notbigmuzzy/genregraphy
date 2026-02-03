@@ -1,5 +1,4 @@
 .record-elements {
-
 	.the-record {
 		position: absolute;
 		top: 2.5%;
@@ -26,14 +25,17 @@
 			height: 100%;
 			border-radius: 50%;
 			background-color: rgb(20, 20, 20);
-			animation: spin 30s linear infinite;
+			animation: spin 45s linear infinite;
 		}
 
 		.bars {
 			path {
+				&.bar-fg {
+					pointer-events: none;
+				}
+
 				&:hover {
-					opacity: 1;
-					border: 1px solid white;
+					opacity: 0.5;
 				}
 			}
 		}
@@ -88,8 +90,8 @@
 		left: initial;
 		transform: translateX(50%);
 
-		button {
-			display: none;
+		svg {
+			animation-play-state: paused;
 		}
 
 		@media screen and (max-width: 1024px) {

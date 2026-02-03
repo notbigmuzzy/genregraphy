@@ -7,13 +7,12 @@
 				viewBox="-50 -50 100 100"
 				preserveAspectRatio="xMidYMid meet"
 			>
+				<g class="grooves"></g>
+				<g class="bars"></g>
 				<circle cx="0" cy="0" r="12" fill="#242424" stroke="lightcoral" stroke-width="0.5"/>
 			</svg>
 		</div>
 		
-		
-		
-		<button @click="toggleDescription">See details</button>
 		<Slider 
 			v-model="yearValue"
 			:min="1950"
@@ -56,69 +55,91 @@ const updateChart = (year) => {
 		}
 	}
 	
+	genreData.sort((a, b) => {
+		if (a.continent !== b.continent) {
+			return a.continent.localeCompare(b.continent)
+		}
+		return a.genre.localeCompare(b.genre)
+	})
+	
 	const numBars = genreData.length
 	const angleScale = d3.scaleLinear()
 		.domain([0, numBars])
 		.range([0, 2 * Math.PI])
 	
+	const heightScale = d3.scaleLog()
+		.domain([0.001, 1])
+		.range([0, outerRadius - innerRadius])
+		.clamp(true)
+	
 	const arcGenerator = d3.arc()
 		.startAngle((d, i) => angleScale(i))
 		.endAngle((d, i) => angleScale(i + 1) - 0.005)
 	
-	// Update background bars
 	bars.selectAll('path.bar-bg')
 		.data(genreData, d => d.genre)
 		.join(
 			enter => enter.append('path')
 				.attr('class', 'bar-bg')
+				.attr('data-continent', d => d.continent)
+				.attr('data-genre', d => d.genre)
 				.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
 				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
 				.attr('opacity', 0)
-				.call(enter => enter.transition().duration(500)
-					.attr('opacity', 0.2)
-				),
+				.on('click', handleBarClick)
+				.transition()
+				.duration(400)
+				.attr('opacity', 0.2),
 			update => update
-				.interrupt()
-				.call(update => update.transition().duration(500)
-					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
-					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
-					.attr('opacity', 0.2)
-				),
-			exit => exit.call(exit => exit.transition().duration(500)
+				.attr('data-continent', d => d.continent)
+				.attr('data-genre', d => d.genre)
+				.on('click', handleBarClick)
+				.transition()
+				.duration(400)
+				.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
+				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+				.attr('opacity', 0.2),
+			exit => exit
+				.transition()
+				.duration(300)
 				.attr('opacity', 0)
 				.remove()
-			)
 		)
 	
-	// Update foreground bars
 	bars.selectAll('path.bar-fg')
 		.data(genreData, d => d.genre)
 		.join(
 			enter => enter.append('path')
 				.attr('class', 'bar-fg')
+				.attr('data-continent', d => d.continent)
+				.attr('data-genre', d => d.genre)
 				.attr('d', (d, i) => {
-					const barHeight = (outerRadius - innerRadius) * d.percentage
+					const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
 					return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
 				})
 				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
 				.attr('opacity', 0)
-				.call(enter => enter.transition().duration(500)
-					.attr('opacity', 0.8)
-				),
+				.on('click', handleBarClick)
+				.transition()
+				.duration(400)
+				.attr('opacity', 0.8),
 			update => update
-				.interrupt()
-				.call(update => update.transition().duration(500)
-					.attr('d', (d, i) => {
-						const barHeight = (outerRadius - innerRadius) * d.percentage
-						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
-					})
-					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
-					.attr('opacity', 0.8)
-				),
-			exit => exit.call(exit => exit.transition().duration(500)
+				.attr('data-continent', d => d.continent)
+				.attr('data-genre', d => d.genre)
+				.on('click', handleBarClick)
+				.transition()
+				.duration(400)
+				.attr('d', (d, i) => {
+					const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
+					return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
+				})
+				.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+				.attr('opacity', 0.8),
+			exit => exit
+				.transition()
+				.duration(300)
 				.attr('opacity', 0)
 				.remove()
-			)
 		)
 }
 
@@ -129,10 +150,11 @@ const props = defineProps({
 	}
 })
 
-const emit = defineEmits(['update:isDescriptionVisible', 'year-change'])
+const emit = defineEmits(['update:isDescriptionVisible', 'year-change', 'bar-click'])
 
-const toggleDescription = () => {
+const handleBarClick = (event, d) => {
 	emit('update:isDescriptionVisible', !props.isDescriptionVisible);
+	emit('bar-click', { continent: d.continent, genre: d.genre })
 }
 
 watch(yearValue, (newYear) => {
@@ -143,7 +165,7 @@ watch(yearValue, (newYear) => {
 onMounted(async () => {
 	svg = d3.select(chartSvg.value)
 	
-	const grooves = svg.append('g').attr('class', 'grooves')
+	const grooves = svg.select('g.grooves')
 	const numGrooves = 40
 	const minRadius = 12
 	const maxRadius = 48
@@ -174,12 +196,9 @@ onMounted(async () => {
 		'The Avant-Garde Isles': '#795548'
 	}
 	
-	bars = svg.append('g').attr('class', 'bars')
+	bars = svg.select('g.bars')
 	
-	// Initial render
 	updateChart(yearValue.value)
 })
 
 </script>
-
-<style src="@vueform/slider/themes/default.css"></style>
