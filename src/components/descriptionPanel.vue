@@ -29,25 +29,33 @@
 					can be placed here.
 				</p>
 				<hr/>
-				<div class="section">
-					<b>Top Artists in <span class="uppercase">{{ props.content?.genreName }}</span> for the year {{ props.content?.year }}</b>
-					<ul>
-						<li>1. Artist One</li>
-						<li>2. Artist Two</li>
-						<li>3. Artist Three</li>
-						<li>4. Artist Four</li>
-						<li>5. Artist Five</li>
+				<div v-if="props.content?.detailedData" class="section">
+					<b>
+						Notable Artists in
+						<span class="uppercase">
+							{{ props.content?.genreName }}
+						</span>
+							for the {{ props.content?.decade }}s
+					</b>
+					<ul v-if="props.content?.detailedData?.top_artists">
+						<li v-for="artist in props.content.detailedData.top_artists" :key="artist.name">
+							{{ artist.name }} - Wikipedia page <a :href="'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + encodeURIComponent(artist.name) + '+Band&limit=1&namespace=0&format=json'" target="_blank">(link)</a>
+						</li>
 					</ul>
 				</div>
 				<hr/>
-				<div class="section">
-					<b>Top Albums in <span class="uppercase">{{ props.content?.genreName }}</span> for the year {{ props.content?.year }}</b>
-					<ul>
-						<li>1. Album One</li>
-						<li>2. Album Two</li>
-						<li>3. Album Three</li>
-						<li>4. Album Four</li>
-						<li>5. Album Five</li>
+				<div v-if="props.content?.detailedData" class="section">
+					<b>
+						Popular Albums for genre
+						<span class="uppercase">
+							{{ props.content?.genreName }}
+						</span>
+							in the {{ props.content?.decade }}s
+					</b>
+					<ul v-if="props.content?.detailedData?.top_albums">
+						<li v-for="album in props.content.detailedData.top_albums" :key="album.name">
+							<strong>{{ album.name }}</strong> - {{ album.artist }} ({{ album.year }})
+						</li>
 					</ul>
 				</div>
 				<hr/>

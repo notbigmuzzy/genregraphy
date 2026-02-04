@@ -227,7 +227,7 @@ const recomputeSpinPaused = () => {
 	isSpinPaused = pauseHover || pauseYearTransition || pauseSelection || props.isDescriptionVisible || props.isIntroVisible
 }
 
-const handleBarClick = (event, d) => {
+const handleBarClick = async (event, d) => {
 	pauseSelection = true
 	recomputeSpinPaused()
 	selectedId = d.id
@@ -239,7 +239,7 @@ const handleBarClick = (event, d) => {
 	if (selectedBar) {
 		d3.select(selectedBar).classed('selected', false)
 	}
-	
+
 	selectedBar = event.currentTarget
 	if (bars) {
 		bars.selectAll('g.bar-group').classed('selected', false).classed('same-group', false)
@@ -276,6 +276,21 @@ const handleBarClick = (event, d) => {
 			spinGroup.attr('transform', `rotate(${spinAngleDeg})`)
 		})
 
+	const year = yearValue.value
+	const decade = Math.floor(year / 10) * 10
+	let detailedData = null
+	
+	try {
+		const decadeData = await import(`../api/decades/${decade}.json`)
+		if (decadeData.default?.[d.continent]?.[d.genre]) {
+			detailedData = decadeData.default[d.continent][d.genre]
+		} else {
+			console.warn(`Genre data not found for ${d.continent} > ${d.genre} in ${decade}s`)
+		}
+	} catch (error) {
+		console.error(`Failed to load detailed data for ${decade}:`, error)
+	}
+
 	emit('update:isDescriptionVisible', true);
 	emit('bar-click', {
 		continent: d.continent,
@@ -283,8 +298,10 @@ const handleBarClick = (event, d) => {
 		genreName: d.genre,
 		isPeak: d.isPeak,
 		year: yearValue.value,
+		decade: decade,
 		count: d.count,
-		percentage: d.percentage
+		percentage: d.percentage,
+		detailedData: detailedData
 	});
 }
 
@@ -320,7 +337,6 @@ watch(() => props.isIntroVisible, () => {
 })
 
 onMounted(async () => {
-	// Initialize spin state based on intro visibility
 	recomputeSpinPaused()
 	
 	svg = d3.select(chartSvg.value)
@@ -389,30 +405,25 @@ onMounted(async () => {
 })
 
 onBeforeUnmount(() => {
-	// Stop the spin timer
 	if (spinTimer) {
 		spinTimer.stop()
 		spinTimer = null
 	}
 	
-	// Clear the year pause timeout
 	if (yearPauseTimeout) {
 		yearPauseTimeout.stop()
 		yearPauseTimeout = null
 	}
 	
-	// Remove event listeners
 	if (svg) {
 		svg.on('mouseenter', null)
 		svg.on('mouseleave', null)
 	}
 	
-	// Remove click handlers from bars to prevent memory leaks
 	if (bars) {
 		bars.selectAll('g.bar-group').on('click', null)
 	}
 	
-	// Interrupt any ongoing transitions
 	if (spinGroup) {
 		spinGroup.interrupt()
 	}

@@ -725,54 +725,6 @@
 					"album": "Mambo Mania"
 				}
 			]
-		},
-		"flamenco": {
-			"top_artists": [
-				{
-					"name": "Paco de Luc\u00eda",
-					"album_count": 2
-				},
-				{
-					"name": "Camar\u00f3n de la Isla",
-					"album_count": 2
-				},
-				{
-					"name": "Sabicas",
-					"album_count": 2
-				},
-				{
-					"name": "Manolo Sanl\u00facar",
-					"album_count": 1
-				},
-				{
-					"name": "Pepe Marchena",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Flamenco Puro",
-					"artist": "Sabicas",
-					"year": "1956"
-				},
-				{
-					"name": "The Art of Flamenco",
-					"artist": "Sabicas",
-					"year": "1958"
-				},
-				{
-					"name": "Grandes Cantaores del Flamenco",
-					"artist": "Pepe Marchena",
-					"year": "1950"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Zapateado",
-					"artist": "Sabicas",
-					"album": "Flamenco Puro"
-				}
-			]
 		}
 	},
 	"The Avant-Garde Isles": {
@@ -1305,6 +1257,54 @@
 					"name": "Move On Up a Little Higher",
 					"artist": "Mahalia Jackson",
 					"album": "Move On Up a Little Higher"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Luc\u00eda",
+					"album_count": 2
+				},
+				{
+					"name": "Camar\u00f3n de la Isla",
+					"album_count": 2
+				},
+				{
+					"name": "Sabicas",
+					"album_count": 2
+				},
+				{
+					"name": "Manolo Sanl\u00facar",
+					"album_count": 1
+				},
+				{
+					"name": "Pepe Marchena",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Flamenco Puro",
+					"artist": "Sabicas",
+					"year": "1956"
+				},
+				{
+					"name": "The Art of Flamenco",
+					"artist": "Sabicas",
+					"year": "1958"
+				},
+				{
+					"name": "Grandes Cantaores del Flamenco",
+					"artist": "Pepe Marchena",
+					"year": "1950"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Zapateado",
+					"artist": "Sabicas",
+					"album": "Flamenco Puro"
 				}
 			]
 		}
