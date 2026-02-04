@@ -25,7 +25,7 @@
 	import RecordPanel from './components/recordPanel.vue'
 	import DescriptionPanel from './components/descriptionPanel.vue'
 
-	const isIntroVisible = ref(false)
+	const isIntroVisible = ref(true)
 	const isDescriptionVisible = ref(false)
 	const descriptionContent = ref(null)
 

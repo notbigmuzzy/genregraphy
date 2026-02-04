@@ -11,6 +11,7 @@
 					<g class="grooves"></g>
 					<g class="bars"></g>
 					<circle cx="0" cy="0" r="12" fill="transparent" stroke="lightcoral" stroke-width="0.5"/>
+					<text class="year-center" x="0" y="1" text-anchor="middle" dominant-baseline="middle">{{ yearValue }}</text>
 				</g>
 			</svg>
 		</div>

@@ -57,6 +57,19 @@
 				}
 			}
 		}
+
+		.bars+circle {
+			fill: rgb(55, 11, 77);
+		}
+
+		.year-center {
+			font-size: 4px;
+			fill: white;
+			font-weight: bold;
+			pointer-events: none;
+			user-select: none;
+			opacity: 0.8;
+		}
 	}
 
 	.slider-target {
@@ -138,4 +151,14 @@
 	.slider-target {
 		display: none;
 	}
+}
+
+\n.year-center {
+	font-size: 5px;
+	fill: white;
+	font-weight: bold;
+	pointer-events: none;
+	user-select: none;
+	opacity: 0.9;
+	font-family: monospace;
 }
