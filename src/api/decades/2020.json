@@ -1,0 +1,3380 @@
+{
+	"The Rock Shield": {
+		"rock": {
+			"top_artists": [
+				{
+					"name": "Greta Van Fleet",
+					"album_count": 3
+				},
+				{
+					"name": "The War on Drugs",
+					"album_count": 2
+				},
+				{
+					"name": "Fontaines D.C.",
+					"album_count": 2
+				},
+				{
+					"name": "King Gizzard & the Lizard Wizard",
+					"album_count": 2
+				},
+				{
+					"name": "Wet Leg",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "I Don't Live Here Anymore",
+					"artist": "The War on Drugs",
+					"year": "2021"
+				},
+				{
+					"name": "Skinty Fia",
+					"artist": "Fontaines D.C.",
+					"year": "2022"
+				},
+				{
+					"name": "Wet Leg",
+					"artist": "Wet Leg",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I Don't Live Here Anymore",
+					"artist": "The War on Drugs",
+					"album": "I Don't Live Here Anymore"
+				}
+			]
+		},
+		"indie rock": {
+			"top_artists": [
+				{
+					"name": "Phoebe Bridgers",
+					"album_count": 3
+				},
+				{
+					"name": "The 1975",
+					"album_count": 2
+				},
+				{
+					"name": "boygenius",
+					"album_count": 2
+				},
+				{
+					"name": "Fontaines D.C.",
+					"album_count": 2
+				},
+				{
+					"name": "Dry Cleaning",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Punisher",
+					"artist": "Phoebe Bridgers",
+					"year": "2020"
+				},
+				{
+					"name": "the record",
+					"artist": "boygenius",
+					"year": "2023"
+				},
+				{
+					"name": "Notes on a Conditional Form",
+					"artist": "The 1975",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Kyoto",
+					"artist": "Phoebe Bridgers",
+					"album": "Punisher"
+				}
+			]
+		},
+		"alternative rock": {
+			"top_artists": [
+				{
+					"name": "Twenty One Pilots",
+					"album_count": 3
+				},
+				{
+					"name": "Imagine Dragons",
+					"album_count": 2
+				},
+				{
+					"name": "Wallows",
+					"album_count": 2
+				},
+				{
+					"name": "Glass Animals",
+					"album_count": 2
+				},
+				{
+					"name": "Arctic Monkeys",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Scaled and Icy",
+					"artist": "Twenty One Pilots",
+					"year": "2021"
+				},
+				{
+					"name": "Dreamland",
+					"artist": "Glass Animals",
+					"year": "2020"
+				},
+				{
+					"name": "The Car",
+					"artist": "Arctic Monkeys",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Heat Waves",
+					"artist": "Glass Animals",
+					"album": "Dreamland"
+				}
+			]
+		},
+		"post-punk": {
+			"top_artists": [
+				{
+					"name": "IDLES",
+					"album_count": 3
+				},
+				{
+					"name": "Fontaines D.C.",
+					"album_count": 3
+				},
+				{
+					"name": "Shame",
+					"album_count": 2
+				},
+				{
+					"name": "Dry Cleaning",
+					"album_count": 2
+				},
+				{
+					"name": "Squid",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ultra Mono",
+					"artist": "IDLES",
+					"year": "2020"
+				},
+				{
+					"name": "Skinty Fia",
+					"artist": "Fontaines D.C.",
+					"year": "2022"
+				},
+				{
+					"name": "Bright Green Field",
+					"artist": "Squid",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Grounds",
+					"artist": "IDLES",
+					"album": "Ultra Mono"
+				}
+			]
+		},
+		"post-rock": {
+			"top_artists": [
+				{
+					"name": "Godspeed You! Black Emperor",
+					"album_count": 3
+				},
+				{
+					"name": "Mogwai",
+					"album_count": 2
+				},
+				{
+					"name": "Explosions in the Sky",
+					"album_count": 2
+				},
+				{
+					"name": "MONO",
+					"album_count": 2
+				},
+				{
+					"name": "Caspian",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "G_d's Pee AT STATE'S END!",
+					"artist": "Godspeed You! Black Emperor",
+					"year": "2021"
+				},
+				{
+					"name": "As the Love Continues",
+					"artist": "Mogwai",
+					"year": "2021"
+				},
+				{
+					"name": "Pilgrim's Alcove",
+					"artist": "Mono",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Fire at Static Valley",
+					"artist": "Godspeed You! Black Emperor",
+					"album": "G_d's Pee AT STATE'S END!"
+				}
+			]
+		},
+		"emo": {
+			"top_artists": [
+				{
+					"name": "oso oso",
+					"album_count": 3
+				},
+				{
+					"name": "Home Is Where",
+					"album_count": 2
+				},
+				{
+					"name": "Prince Daddy & The Hyena",
+					"album_count": 2
+				},
+				{
+					"name": "Jail Socks",
+					"album_count": 2
+				},
+				{
+					"name": "Origami Angel",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "sore thumb",
+					"artist": "oso oso",
+					"year": "2021"
+				},
+				{
+					"name": "i became birds",
+					"artist": "Home Is Where",
+					"year": "2021"
+				},
+				{
+					"name": "Somewhere Generous",
+					"artist": "Origami Angel",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "the view",
+					"artist": "oso oso",
+					"album": "sore thumb"
+				}
+			]
+		},
+		"pop-punk": {
+			"top_artists": [
+				{
+					"name": "Machine Gun Kelly",
+					"album_count": 3
+				},
+				{
+					"name": "YUNGBLUD",
+					"album_count": 2
+				},
+				{
+					"name": "Waterparks",
+					"album_count": 2
+				},
+				{
+					"name": "Stand Atlantic",
+					"album_count": 2
+				},
+				{
+					"name": "Meet Me @ the Altar",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Tickets to My Downfall",
+					"artist": "Machine Gun Kelly",
+					"year": "2020"
+				},
+				{
+					"name": "Weird!",
+					"artist": "YUNGBLUD",
+					"year": "2020"
+				},
+				{
+					"name": "Greatest Hits",
+					"artist": "Waterparks",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "my ex's best friend",
+					"artist": "Machine Gun Kelly",
+					"album": "Tickets to My Downfall"
+				}
+			]
+		},
+		"hardcore": {
+			"top_artists": [
+				{
+					"name": "Knocked Loose",
+					"album_count": 3
+				},
+				{
+					"name": "Turnstile",
+					"album_count": 2
+				},
+				{
+					"name": "Code Orange",
+					"album_count": 2
+				},
+				{
+					"name": "Gulch",
+					"album_count": 2
+				},
+				{
+					"name": "Jesus Piece",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "A Different Shade of Blue",
+					"artist": "Knocked Loose",
+					"year": "2019"
+				},
+				{
+					"name": "GLOW ON",
+					"artist": "Turnstile",
+					"year": "2021"
+				},
+				{
+					"name": "Underneath",
+					"artist": "Code Orange",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "...and still I wander south",
+					"artist": "Knocked Loose",
+					"album": "A Different Shade of Blue"
+				}
+			]
+		},
+		"shoegaze": {
+			"top_artists": [
+				{
+					"name": "Slowdive",
+					"album_count": 3
+				},
+				{
+					"name": "Whirr",
+					"album_count": 2
+				},
+				{
+					"name": "Gleemer",
+					"album_count": 2
+				},
+				{
+					"name": "Duster",
+					"album_count": 2
+				},
+				{
+					"name": "Narrow Head",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "everything is alive",
+					"artist": "Slowdive",
+					"year": "2023"
+				},
+				{
+					"name": "Down to a Sunless Sea",
+					"artist": "Gleemer",
+					"year": "2020"
+				},
+				{
+					"name": "12th House Rock",
+					"artist": "Narrow Head",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "kisses",
+					"artist": "Slowdive",
+					"album": "everything is alive"
+				}
+			]
+		},
+		"indie pop": {
+			"top_artists": [
+				{
+					"name": "Clairo",
+					"album_count": 3
+				},
+				{
+					"name": "HAIM",
+					"album_count": 2
+				},
+				{
+					"name": "Wallows",
+					"album_count": 2
+				},
+				{
+					"name": "beabadoobee",
+					"album_count": 2
+				},
+				{
+					"name": "Remi Wolf",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Immunity",
+					"artist": "Clairo",
+					"year": "2019"
+				},
+				{
+					"name": "Women in Music Pt. III",
+					"artist": "HAIM",
+					"year": "2020"
+				},
+				{
+					"name": "Beatopia",
+					"artist": "beabadoobee",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bags",
+					"artist": "Clairo",
+					"album": "Immunity"
+				}
+			]
+		},
+		"dream pop": {
+			"top_artists": [
+				{
+					"name": "Beach House",
+					"album_count": 3
+				},
+				{
+					"name": "Cigarettes After Sex",
+					"album_count": 2
+				},
+				{
+					"name": "Men I Trust",
+					"album_count": 2
+				},
+				{
+					"name": "The Marias",
+					"album_count": 2
+				},
+				{
+					"name": "Japanese Breakfast",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Once Twice Melody",
+					"artist": "Beach House",
+					"year": "2022"
+				},
+				{
+					"name": "Jubilee",
+					"artist": "Japanese Breakfast",
+					"year": "2021"
+				},
+				{
+					"name": "Cry",
+					"artist": "Cigarettes After Sex",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Superstar",
+					"artist": "Beach House",
+					"album": "Once Twice Melody"
+				}
+			]
+		},
+		"garage rock": {
+			"top_artists": [
+				{
+					"name": "King Gizzard & the Lizard Wizard",
+					"album_count": 3
+				},
+				{
+					"name": "Ty Segall",
+					"album_count": 3
+				},
+				{
+					"name": "Black Midi",
+					"album_count": 2
+				},
+				{
+					"name": "Osees",
+					"album_count": 2
+				},
+				{
+					"name": "Wet Leg",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Omnium Gatherum",
+					"artist": "King Gizzard & the Lizard Wizard",
+					"year": "2022"
+				},
+				{
+					"name": "Cavalcade",
+					"artist": "Black Midi",
+					"year": "2021"
+				},
+				{
+					"name": "Harmonizer",
+					"artist": "Ty Segall",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Dripping Tap",
+					"artist": "King Gizzard & the Lizard Wizard",
+					"album": "Omnium Gatherum"
+				}
+			]
+		},
+		"stoner rock": {
+			"top_artists": [
+				{
+					"name": "All Them Witches",
+					"album_count": 3
+				},
+				{
+					"name": "Elder",
+					"album_count": 2
+				},
+				{
+					"name": "King Buffalo",
+					"album_count": 2
+				},
+				{
+					"name": "Khruangbin",
+					"album_count": 2
+				},
+				{
+					"name": "Uncle Acid & the Deadbeats",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Nothing as the Ideal",
+					"artist": "All Them Witches",
+					"year": "2020"
+				},
+				{
+					"name": "Omens",
+					"artist": "Elder",
+					"year": "2020"
+				},
+				{
+					"name": "The Burden of Restlessness",
+					"artist": "King Buffalo",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "41",
+					"artist": "All Them Witches",
+					"album": "Nothing as the Ideal"
+				}
+			]
+		}
+	},
+	"The Electronic Frontier": {
+		"electronic": {
+			"top_artists": [
+				{
+					"name": "Disclosure",
+					"album_count": 3
+				},
+				{
+					"name": "Flume",
+					"album_count": 2
+				},
+				{
+					"name": "ODESZA",
+					"album_count": 2
+				},
+				{
+					"name": "Kaytranada",
+					"album_count": 2
+				},
+				{
+					"name": "Fred again..",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "ENERGY",
+					"artist": "Disclosure",
+					"year": "2020"
+				},
+				{
+					"name": "Palaces",
+					"artist": "Flume",
+					"year": "2022"
+				},
+				{
+					"name": "Actual Life 3",
+					"artist": "Fred again..",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "My High",
+					"artist": "Disclosure",
+					"album": "ENERGY"
+				}
+			]
+		},
+		"house": {
+			"top_artists": [
+				{
+					"name": "Disclosure",
+					"album_count": 3
+				},
+				{
+					"name": "Fred again..",
+					"album_count": 3
+				},
+				{
+					"name": "The Blessed Madonna",
+					"album_count": 2
+				},
+				{
+					"name": "Nora En Pure",
+					"album_count": 2
+				},
+				{
+					"name": "Purple Disco Machine",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Actual Life",
+					"artist": "Fred again..",
+					"year": "2021"
+				},
+				{
+					"name": "Actual Life 2",
+					"artist": "Fred again..",
+					"year": "2021"
+				},
+				{
+					"name": "Exotica",
+					"artist": "Purple Disco Machine",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Marea (We've Lost Dancing)",
+					"artist": "Fred again.. & The Blessed Madonna",
+					"album": "Actual Life"
+				}
+			]
+		},
+		"techno": {
+			"top_artists": [
+				{
+					"name": "Charlotte de Witte",
+					"album_count": 3
+				},
+				{
+					"name": "Amelie Lens",
+					"album_count": 2
+				},
+				{
+					"name": "I Hate Models",
+					"album_count": 2
+				},
+				{
+					"name": "ANNA",
+					"album_count": 2
+				},
+				{
+					"name": "Adam Beyer",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Vision",
+					"artist": "Charlotte de Witte",
+					"year": "2021"
+				},
+				{
+					"name": "Fabric Presents Charlotte de Witte",
+					"artist": "Charlotte de Witte",
+					"year": "2022"
+				},
+				{
+					"name": "Feel It",
+					"artist": "Amelie Lens",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Universal Consciousness",
+					"artist": "Charlotte de Witte",
+					"album": "Vision"
+				}
+			]
+		},
+		"trance": {
+			"top_artists": [
+				{
+					"name": "Armin van Buuren",
+					"album_count": 3
+				},
+				{
+					"name": "Above & Beyond",
+					"album_count": 2
+				},
+				{
+					"name": "Ferry Corsten",
+					"album_count": 2
+				},
+				{
+					"name": "Paul van Dyk",
+					"album_count": 2
+				},
+				{
+					"name": "Aly & Fila",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "A State of Trance Year Mix 2020",
+					"artist": "Armin van Buuren",
+					"year": "2020"
+				},
+				{
+					"name": "Flow State",
+					"artist": "Above & Beyond",
+					"year": "2019"
+				},
+				{
+					"name": "Unity",
+					"artist": "Ferry Corsten",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sail",
+					"artist": "Above & Beyond",
+					"album": "Flow State"
+				}
+			]
+		},
+		"dubstep": {
+			"top_artists": [
+				{
+					"name": "Skrillex",
+					"album_count": 3
+				},
+				{
+					"name": "Excision",
+					"album_count": 2
+				},
+				{
+					"name": "Virtual Riot",
+					"album_count": 2
+				},
+				{
+					"name": "Subtronics",
+					"album_count": 2
+				},
+				{
+					"name": "SVDDEN DEATH",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Quest For Fire",
+					"artist": "Skrillex",
+					"year": "2023"
+				},
+				{
+					"name": "Apex",
+					"artist": "Excision",
+					"year": "2018"
+				},
+				{
+					"name": "Simulation",
+					"artist": "Virtual Riot",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rumble",
+					"artist": "Skrillex & Fred again.. & Flowdan",
+					"album": "Quest For Fire"
+				}
+			]
+		},
+		"drum and bass": {
+			"top_artists": [
+				{
+					"name": "Netsky",
+					"album_count": 3
+				},
+				{
+					"name": "Pendulum",
+					"album_count": 2
+				},
+				{
+					"name": "Sub Focus",
+					"album_count": 2
+				},
+				{
+					"name": "Wilkinson",
+					"album_count": 2
+				},
+				{
+					"name": "Hybrid Minds",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Second Nature",
+					"artist": "Netsky",
+					"year": "2020"
+				},
+				{
+					"name": "Portals",
+					"artist": "Sub Focus",
+					"year": "2020"
+				},
+				{
+					"name": "Lazers Not Included",
+					"artist": "Wilkinson",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I Don't Even Know You Anymore",
+					"artist": "Netsky",
+					"album": "Second Nature"
+				}
+			]
+		},
+		"ambient": {
+			"top_artists": [
+				{
+					"name": "Tim Hecker",
+					"album_count": 3
+				},
+				{
+					"name": "Ólafur Arnalds",
+					"album_count": 3
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Eno",
+					"album_count": 2
+				},
+				{
+					"name": "Midori Takada",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Konoyo",
+					"artist": "Tim Hecker",
+					"year": "2018"
+				},
+				{
+					"name": "some kind of peace",
+					"artist": "Ólafur Arnalds",
+					"year": "2020"
+				},
+				{
+					"name": "Music for Psychedelic Therapy",
+					"artist": "Jon Hopkins",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "This Place Was a Shelter",
+					"artist": "Ólafur Arnalds",
+					"album": "some kind of peace"
+				}
+			]
+		},
+		"idm": {
+			"top_artists": [
+				{
+					"name": "Aphex Twin",
+					"album_count": 3
+				},
+				{
+					"name": "Four Tet",
+					"album_count": 3
+				},
+				{
+					"name": "Autechre",
+					"album_count": 2
+				},
+				{
+					"name": "Floating Points",
+					"album_count": 2
+				},
+				{
+					"name": "Arca",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Parallel",
+					"artist": "Four Tet",
+					"year": "2020"
+				},
+				{
+					"name": "There is Love in You",
+					"artist": "Four Tet",
+					"year": "2010"
+				},
+				{
+					"name": "Crush",
+					"artist": "Floating Points",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Baby",
+					"artist": "Four Tet",
+					"album": "Parallel"
+				}
+			]
+		},
+		"downtempo": {
+			"top_artists": [
+				{
+					"name": "Bonobo",
+					"album_count": 3
+				},
+				{
+					"name": "Tycho",
+					"album_count": 2
+				},
+				{
+					"name": "Emancipator",
+					"album_count": 2
+				},
+				{
+					"name": "Kiasmos",
+					"album_count": 2
+				},
+				{
+					"name": "Little People",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fragments",
+					"artist": "Bonobo",
+					"year": "2022"
+				},
+				{
+					"name": "Weather",
+					"artist": "Tycho",
+					"year": "2019"
+				},
+				{
+					"name": "Simulcast",
+					"artist": "Tycho",
+					"year": "2024"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rosewood",
+					"artist": "Bonobo",
+					"album": "Fragments"
+				}
+			]
+		},
+		"trip hop": {
+			"top_artists": [
+				{
+					"name": "Massive Attack",
+					"album_count": 2
+				},
+				{
+					"name": "Portishead",
+					"album_count": 2
+				},
+				{
+					"name": "Sneaker Pimps",
+					"album_count": 2
+				},
+				{
+					"name": "Thievery Corporation",
+					"album_count": 2
+				},
+				{
+					"name": "Morcheeba",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ritual Spirit",
+					"artist": "Massive Attack",
+					"year": "2016"
+				},
+				{
+					"name": "Live: Roseland NYC",
+					"artist": "Portishead",
+					"year": "1998"
+				},
+				{
+					"name": "Symphonik",
+					"artist": "Thievery Corporation",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Ritual Spirit",
+					"artist": "Massive Attack",
+					"album": "Ritual Spirit"
+				}
+			]
+		},
+		"industrial": {
+			"top_artists": [
+				{
+					"name": "Nine Inch Nails",
+					"album_count": 3
+				},
+				{
+					"name": "HEALTH",
+					"album_count": 3
+				},
+				{
+					"name": "3TEETH",
+					"album_count": 2
+				},
+				{
+					"name": "Youth Code",
+					"album_count": 2
+				},
+				{
+					"name": "Perturbator",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ghosts V: Together",
+					"artist": "Nine Inch Nails",
+					"year": "2020"
+				},
+				{
+					"name": "DISCO4 :: PART I",
+					"artist": "HEALTH",
+					"year": "2020"
+				},
+				{
+					"name": "Metawar",
+					"artist": "3TEETH",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Letting Go While Holding On",
+					"artist": "Nine Inch Nails",
+					"album": "Ghosts V: Together"
+				}
+			]
+		},
+		"synthwave": {
+			"top_artists": [
+				{
+					"name": "Perturbator",
+					"album_count": 3
+				},
+				{
+					"name": "Carpenter Brut",
+					"album_count": 2
+				},
+				{
+					"name": "Gunship",
+					"album_count": 2
+				},
+				{
+					"name": "The Midnight",
+					"album_count": 2
+				},
+				{
+					"name": "Timecop1983",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Lustful Sacraments",
+					"artist": "Perturbator",
+					"year": "2021"
+				},
+				{
+					"name": "Leather Teeth",
+					"artist": "Carpenter Brut",
+					"year": "2018"
+				},
+				{
+					"name": "Monsters in Heaven",
+					"artist": "The Midnight",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Excess",
+					"artist": "Perturbator",
+					"album": "Lustful Sacraments"
+				}
+			]
+		},
+		"vaporwave": {
+			"top_artists": [
+				{
+					"name": "猫 シ Corp.",
+					"album_count": 3
+				},
+				{
+					"name": "Blank Banshee",
+					"album_count": 2
+				},
+				{
+					"name": "Saint Pepsi",
+					"album_count": 2
+				},
+				{
+					"name": "George Clanton",
+					"album_count": 2
+				},
+				{
+					"name": "Windows96",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Palm Mall",
+					"artist": "猫 シ Corp.",
+					"year": "2014"
+				},
+				{
+					"name": "Mega",
+					"artist": "Blank Banshee",
+					"year": "2016"
+				},
+				{
+					"name": "Slide",
+					"artist": "George Clanton",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "ECO VIRTUAL",
+					"artist": "猫 シ Corp.",
+					"album": "Palm Mall"
+				}
+			]
+		},
+		"chillout": {
+			"top_artists": [
+				{
+					"name": "Tycho",
+					"album_count": 3
+				},
+				{
+					"name": "Bonobo",
+					"album_count": 2
+				},
+				{
+					"name": "Ott",
+					"album_count": 2
+				},
+				{
+					"name": "Shpongle",
+					"album_count": 2
+				},
+				{
+					"name": "Carbon Based Lifeforms",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Simulcast",
+					"artist": "Tycho",
+					"year": "2024"
+				},
+				{
+					"name": "Fragments",
+					"artist": "Bonobo",
+					"year": "2022"
+				},
+				{
+					"name": "Fairchildren",
+					"artist": "Ott",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Phantom",
+					"artist": "Tycho",
+					"album": "Simulcast"
+				}
+			]
+		},
+		"glitch": {
+			"top_artists": [
+				{
+					"name": "Arca",
+					"album_count": 3
+				},
+				{
+					"name": "Oneohtrix Point Never",
+					"album_count": 3
+				},
+				{
+					"name": "Tim Hecker",
+					"album_count": 2
+				},
+				{
+					"name": "Alva Noto",
+					"album_count": 2
+				},
+				{
+					"name": "Fennesz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "KiCk i",
+					"artist": "Arca",
+					"year": "2020"
+				},
+				{
+					"name": "Magic Oneohtrix Point Never",
+					"artist": "Oneohtrix Point Never",
+					"year": "2020"
+				},
+				{
+					"name": "Xerrox Vol. 4",
+					"artist": "Alva Noto",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mequetrefe",
+					"artist": "Arca",
+					"album": "KiCk i"
+				}
+			]
+		},
+		"hardstyle": {
+			"top_artists": [
+				{
+					"name": "Headhunterz",
+					"album_count": 3
+				},
+				{
+					"name": "Brennan Heart",
+					"album_count": 2
+				},
+				{
+					"name": "Wildstylez",
+					"album_count": 2
+				},
+				{
+					"name": "D-Block & S-te-Fan",
+					"album_count": 2
+				},
+				{
+					"name": "Sub Zero Project",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Headhunterz",
+					"artist": "Headhunterz",
+					"year": "2021"
+				},
+				{
+					"name": "We R Hardstyle",
+					"artist": "Brennan Heart",
+					"year": "2020"
+				},
+				{
+					"name": "Into the Madness",
+					"artist": "Sub Zero Project",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "United Kids of the World",
+					"artist": "Headhunterz",
+					"album": "Headhunterz"
+				}
+			]
+		},
+		"chiptune": {
+			"top_artists": [
+				{
+					"name": "Anamanaguchi",
+					"album_count": 3
+				},
+				{
+					"name": "Chipzel",
+					"album_count": 2
+				},
+				{
+					"name": "Disasterpeace",
+					"album_count": 2
+				},
+				{
+					"name": "Kubbi",
+					"album_count": 2
+				},
+				{
+					"name": "Kommisar",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "[USA]",
+					"artist": "Anamanaguchi",
+					"year": "2019"
+				},
+				{
+					"name": "Spectra",
+					"artist": "Chipzel",
+					"year": "2013"
+				},
+				{
+					"name": "Ember",
+					"artist": "Kubbi",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Lorem Ipsum (Arctic Anthem)",
+					"artist": "Anamanaguchi",
+					"album": "[USA]"
+				}
+			]
+		}
+	},
+	"The Hip-Hop Basin": {
+		"hip hop": {
+			"top_artists": [
+				{
+					"name": "Tyler, the Creator",
+					"album_count": 3
+				},
+				{
+					"name": "Kendrick Lamar",
+					"album_count": 3
+				},
+				{
+					"name": "J. Cole",
+					"album_count": 2
+				},
+				{
+					"name": "Baby Keem",
+					"album_count": 2
+				},
+				{
+					"name": "Denzel Curry",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Call Me If You Get Lost",
+					"artist": "Tyler, the Creator",
+					"year": "2021"
+				},
+				{
+					"name": "Mr. Morale & The Big Steppers",
+					"artist": "Kendrick Lamar",
+					"year": "2022"
+				},
+				{
+					"name": "The Off-Season",
+					"artist": "J. Cole",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "LEMONHEAD",
+					"artist": "Tyler, the Creator",
+					"album": "Call Me If You Get Lost"
+				}
+			]
+		},
+		"trap": {
+			"top_artists": [
+				{
+					"name": "Playboi Carti",
+					"album_count": 3
+				},
+				{
+					"name": "Lil Uzi Vert",
+					"album_count": 3
+				},
+				{
+					"name": "Young Thug",
+					"album_count": 2
+				},
+				{
+					"name": "Gunna",
+					"album_count": 2
+				},
+				{
+					"name": "Lil Baby",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Whole Lotta Red",
+					"artist": "Playboi Carti",
+					"year": "2020"
+				},
+				{
+					"name": "Eternal Atake",
+					"artist": "Lil Uzi Vert",
+					"year": "2020"
+				},
+				{
+					"name": "Punk",
+					"artist": "Young Thug",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sky",
+					"artist": "Playboi Carti",
+					"album": "Whole Lotta Red"
+				}
+			]
+		},
+		"boom bap": {
+			"top_artists": [
+				{
+					"name": "Griselda",
+					"album_count": 3
+				},
+				{
+					"name": "Freddie Gibbs",
+					"album_count": 3
+				},
+				{
+					"name": "Conway the Machine",
+					"album_count": 2
+				},
+				{
+					"name": "Westside Gunn",
+					"album_count": 2
+				},
+				{
+					"name": "Boldy James",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Pray for Paris",
+					"artist": "Westside Gunn",
+					"year": "2020"
+				},
+				{
+					"name": "Alfredo",
+					"artist": "Freddie Gibbs & The Alchemist",
+					"year": "2020"
+				},
+				{
+					"name": "From King to a GOD",
+					"artist": "Conway the Machine",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "327",
+					"artist": "Westside Gunn",
+					"album": "Pray for Paris"
+				}
+			]
+		},
+		"r&b": {
+			"top_artists": [
+				{
+					"name": "The Weeknd",
+					"album_count": 3
+				},
+				{
+					"name": "SZA",
+					"album_count": 3
+				},
+				{
+					"name": "Brent Faiyaz",
+					"album_count": 2
+				},
+				{
+					"name": "Summer Walker",
+					"album_count": 2
+				},
+				{
+					"name": "Giveon",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "After Hours",
+					"artist": "The Weeknd",
+					"year": "2020"
+				},
+				{
+					"name": "SOS",
+					"artist": "SZA",
+					"year": "2022"
+				},
+				{
+					"name": "Still Over It",
+					"artist": "Summer Walker",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blinding Lights",
+					"artist": "The Weeknd",
+					"album": "After Hours"
+				}
+			]
+		},
+		"neo soul": {
+			"top_artists": [
+				{
+					"name": "Anderson .Paak",
+					"album_count": 3
+				},
+				{
+					"name": "H.E.R.",
+					"album_count": 2
+				},
+				{
+					"name": "Lucky Daye",
+					"album_count": 2
+				},
+				{
+					"name": "Ari Lennox",
+					"album_count": 2
+				},
+				{
+					"name": "Jazmine Sullivan",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ventura",
+					"artist": "Anderson .Paak",
+					"year": "2019"
+				},
+				{
+					"name": "Candydrip",
+					"artist": "Lucky Daye",
+					"year": "2022"
+				},
+				{
+					"name": "age/sex/location",
+					"artist": "Ari Lennox",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Make It Better",
+					"artist": "Anderson .Paak",
+					"album": "Ventura"
+				}
+			]
+		},
+		"soul": {
+			"top_artists": [
+				{
+					"name": "Leon Bridges",
+					"album_count": 3
+				},
+				{
+					"name": "Michael Kiwanuka",
+					"album_count": 2
+				},
+				{
+					"name": "Celeste",
+					"album_count": 2
+				},
+				{
+					"name": "Durand Bernarr",
+					"album_count": 2
+				},
+				{
+					"name": "Curtis Harding",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Gold-Diggers Sound",
+					"artist": "Leon Bridges",
+					"year": "2021"
+				},
+				{
+					"name": "KIWANUKA",
+					"artist": "Michael Kiwanuka",
+					"year": "2019"
+				},
+				{
+					"name": "Not Your Muse",
+					"artist": "Celeste",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Motorbike",
+					"artist": "Leon Bridges",
+					"album": "Gold-Diggers Sound"
+				}
+			]
+		},
+		"funk": {
+			"top_artists": [
+				{
+					"name": "Anderson .Paak",
+					"album_count": 3
+				},
+				{
+					"name": "Silk Sonic",
+					"album_count": 2
+				},
+				{
+					"name": "Vulfpeck",
+					"album_count": 2
+				},
+				{
+					"name": "Thundercat",
+					"album_count": 2
+				},
+				{
+					"name": "Tom Misch",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "An Evening with Silk Sonic",
+					"artist": "Silk Sonic",
+					"year": "2021"
+				},
+				{
+					"name": "It Is What It Is",
+					"artist": "Thundercat",
+					"year": "2020"
+				},
+				{
+					"name": "What Kinda Music",
+					"artist": "Tom Misch & Yussef Dayes",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Leave the Door Open",
+					"artist": "Silk Sonic",
+					"album": "An Evening with Silk Sonic"
+				}
+			]
+		},
+		"lo-fi": {
+			"top_artists": [
+				{
+					"name": "Jinsang",
+					"album_count": 3
+				},
+				{
+					"name": "Idealism",
+					"album_count": 2
+				},
+				{
+					"name": "Tomppabeats",
+					"album_count": 2
+				},
+				{
+					"name": "SwuM",
+					"album_count": 2
+				},
+				{
+					"name": "Kupla",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Gratitude",
+					"artist": "Jinsang",
+					"year": "2019"
+				},
+				{
+					"name": "Hiraeth",
+					"artist": "Idealism",
+					"year": "2018"
+				},
+				{
+					"name": "Harbor",
+					"artist": "Tomppabeats",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Affection",
+					"artist": "Jinsang",
+					"album": "Gratitude"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"jazz": {
+			"top_artists": [
+				{
+					"name": "Kamasi Washington",
+					"album_count": 3
+				},
+				{
+					"name": "Robert Glasper",
+					"album_count": 3
+				},
+				{
+					"name": "Thundercat",
+					"album_count": 2
+				},
+				{
+					"name": "Shabaka Hutchings",
+					"album_count": 2
+				},
+				{
+					"name": "Makaya McCraven",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fearless Movement",
+					"artist": "Kamasi Washington",
+					"year": "2024"
+				},
+				{
+					"name": "It Is What It Is",
+					"artist": "Thundercat",
+					"year": "2020"
+				},
+				{
+					"name": "Black Radio III",
+					"artist": "Robert Glasper",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Asha the First",
+					"artist": "Kamasi Washington",
+					"album": "Fearless Movement"
+				}
+			]
+		},
+		"blues": {
+			"top_artists": [
+				{
+					"name": "Gary Clark Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "Christone \"Kingfish\" Ingram",
+					"album_count": 2
+				},
+				{
+					"name": "Fantastic Negrito",
+					"album_count": 2
+				},
+				{
+					"name": "Marcus King",
+					"album_count": 2
+				},
+				{
+					"name": "Larkin Poe",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "This Land",
+					"artist": "Gary Clark Jr.",
+					"year": "2019"
+				},
+				{
+					"name": "662",
+					"artist": "Christone \"Kingfish\" Ingram",
+					"year": "2021"
+				},
+				{
+					"name": "White Noise Ao Vivo",
+					"artist": "Fantastic Negrito",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "This Land",
+					"artist": "Gary Clark Jr.",
+					"album": "This Land"
+				}
+			]
+		},
+		"fusion": {
+			"top_artists": [
+				{
+					"name": "Snarky Puppy",
+					"album_count": 3
+				},
+				{
+					"name": "Thundercat",
+					"album_count": 3
+				},
+				{
+					"name": "GoGo Penguin",
+					"album_count": 2
+				},
+				{
+					"name": "Kamaal Williams",
+					"album_count": 2
+				},
+				{
+					"name": "Alfa Mist",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Immigrance",
+					"artist": "Snarky Puppy",
+					"year": "2019"
+				},
+				{
+					"name": "It Is What It Is",
+					"artist": "Thundercat",
+					"year": "2020"
+				},
+				{
+					"name": "GGP/RMX",
+					"artist": "GoGo Penguin",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Xavi",
+					"artist": "Snarky Puppy",
+					"album": "Immigrance"
+				}
+			]
+		}
+	},
+	"The Pop Archipelago": {
+		"pop": {
+			"top_artists": [
+				{
+					"name": "Taylor Swift",
+					"album_count": 3
+				},
+				{
+					"name": "Billie Eilish",
+					"album_count": 3
+				},
+				{
+					"name": "Olivia Rodrigo",
+					"album_count": 2
+				},
+				{
+					"name": "Dua Lipa",
+					"album_count": 2
+				},
+				{
+					"name": "Harry Styles",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "folklore",
+					"artist": "Taylor Swift",
+					"year": "2020"
+				},
+				{
+					"name": "Happier Than Ever",
+					"artist": "Billie Eilish",
+					"year": "2021"
+				},
+				{
+					"name": "SOUR",
+					"artist": "Olivia Rodrigo",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "cardigan",
+					"artist": "Taylor Swift",
+					"album": "folklore"
+				}
+			]
+		},
+		"teen pop": {
+			"top_artists": [
+				{
+					"name": "Olivia Rodrigo",
+					"album_count": 3
+				},
+				{
+					"name": "Billie Eilish",
+					"album_count": 2
+				},
+				{
+					"name": "Conan Gray",
+					"album_count": 2
+				},
+				{
+					"name": "Sabrina Carpenter",
+					"album_count": 2
+				},
+				{
+					"name": "Gracie Abrams",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "SOUR",
+					"artist": "Olivia Rodrigo",
+					"year": "2021"
+				},
+				{
+					"name": "GUTS",
+					"artist": "Olivia Rodrigo",
+					"year": "2023"
+				},
+				{
+					"name": "Superache",
+					"artist": "Conan Gray",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "drivers license",
+					"artist": "Olivia Rodrigo",
+					"album": "SOUR"
+				}
+			]
+		},
+		"dance-pop": {
+			"top_artists": [
+				{
+					"name": "Dua Lipa",
+					"album_count": 3
+				},
+				{
+					"name": "Lady Gaga",
+					"album_count": 2
+				},
+				{
+					"name": "Doja Cat",
+					"album_count": 2
+				},
+				{
+					"name": "Charli XCX",
+					"album_count": 2
+				},
+				{
+					"name": "Rina Sawayama",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Future Nostalgia",
+					"artist": "Dua Lipa",
+					"year": "2020"
+				},
+				{
+					"name": "Chromatica",
+					"artist": "Lady Gaga",
+					"year": "2020"
+				},
+				{
+					"name": "CRASH",
+					"artist": "Charli XCX",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Don't Start Now",
+					"artist": "Dua Lipa",
+					"album": "Future Nostalgia"
+				}
+			]
+		},
+		"k-pop": {
+			"top_artists": [
+				{
+					"name": "BTS",
+					"album_count": 3
+				},
+				{
+					"name": "BLACKPINK",
+					"album_count": 3
+				},
+				{
+					"name": "TWICE",
+					"album_count": 2
+				},
+				{
+					"name": "Stray Kids",
+					"album_count": 2
+				},
+				{
+					"name": "NewJeans",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Map of the Soul: 7",
+					"artist": "BTS",
+					"year": "2020"
+				},
+				{
+					"name": "THE ALBUM",
+					"artist": "BLACKPINK",
+					"year": "2020"
+				},
+				{
+					"name": "Formula of Love: O+T=<3",
+					"artist": "TWICE",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dynamite",
+					"artist": "BTS",
+					"album": "BE"
+				}
+			]
+		},
+		"j-pop": {
+			"top_artists": [
+				{
+					"name": "YOASOBI",
+					"album_count": 3
+				},
+				{
+					"name": "Official HIGE DANdism",
+					"album_count": 2
+				},
+				{
+					"name": "Ado",
+					"album_count": 2
+				},
+				{
+					"name": "King Gnu",
+					"album_count": 2
+				},
+				{
+					"name": "LiSA",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "THE BOOK",
+					"artist": "YOASOBI",
+					"year": "2021"
+				},
+				{
+					"name": "Kyogen",
+					"artist": "Ado",
+					"year": "2022"
+				},
+				{
+					"name": "CEREMONY",
+					"artist": "King Gnu",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Yoru ni Kakeru",
+					"artist": "YOASOBI",
+					"album": "THE BOOK"
+				}
+			]
+		}
+	},
+	"The Folk & Roots Plains": {
+		"folk": {
+			"top_artists": [
+				{
+					"name": "Bon Iver",
+					"album_count": 3
+				},
+				{
+					"name": "Fleet Foxes",
+					"album_count": 2
+				},
+				{
+					"name": "Big Thief",
+					"album_count": 2
+				},
+				{
+					"name": "The Lumineers",
+					"album_count": 2
+				},
+				{
+					"name": "Lord Huron",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Shore",
+					"artist": "Fleet Foxes",
+					"year": "2020"
+				},
+				{
+					"name": "Dragon New Warm Mountain I Believe in You",
+					"artist": "Big Thief",
+					"year": "2022"
+				},
+				{
+					"name": "III",
+					"artist": "The Lumineers",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sunblind",
+					"artist": "Fleet Foxes",
+					"album": "Shore"
+				}
+			]
+		},
+		"country": {
+			"top_artists": [
+				{
+					"name": "Morgan Wallen",
+					"album_count": 3
+				},
+				{
+					"name": "Chris Stapleton",
+					"album_count": 3
+				},
+				{
+					"name": "Luke Combs",
+					"album_count": 2
+				},
+				{
+					"name": "Kacey Musgraves",
+					"album_count": 2
+				},
+				{
+					"name": "Zach Bryan",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dangerous: The Double Album",
+					"artist": "Morgan Wallen",
+					"year": "2021"
+				},
+				{
+					"name": "Starting Over",
+					"artist": "Chris Stapleton",
+					"year": "2020"
+				},
+				{
+					"name": "star-crossed",
+					"artist": "Kacey Musgraves",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Starting Over",
+					"artist": "Chris Stapleton",
+					"album": "Starting Over"
+				}
+			]
+		},
+		"singer-songwriter": {
+			"top_artists": [
+				{
+					"name": "Phoebe Bridgers",
+					"album_count": 3
+				},
+				{
+					"name": "Sufjan Stevens",
+					"album_count": 2
+				},
+				{
+					"name": "boygenius",
+					"album_count": 2
+				},
+				{
+					"name": "Julien Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Lucy Dacus",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Punisher",
+					"artist": "Phoebe Bridgers",
+					"year": "2020"
+				},
+				{
+					"name": "the record",
+					"artist": "boygenius",
+					"year": "2023"
+				},
+				{
+					"name": "Little Oblivions",
+					"artist": "Julien Baker",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I Know the End",
+					"artist": "Phoebe Bridgers",
+					"album": "Punisher"
+				}
+			]
+		},
+		"americana": {
+			"top_artists": [
+				{
+					"name": "Jason Isbell",
+					"album_count": 3
+				},
+				{
+					"name": "Sturgill Simpson",
+					"album_count": 3
+				},
+				{
+					"name": "Tyler Childers",
+					"album_count": 2
+				},
+				{
+					"name": "Colter Wall",
+					"album_count": 2
+				},
+				{
+					"name": "Zach Bryan",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Reunions",
+					"artist": "Jason Isbell and the 400 Unit",
+					"year": "2020"
+				},
+				{
+					"name": "Cuttin' Grass",
+					"artist": "Sturgill Simpson",
+					"year": "2020"
+				},
+				{
+					"name": "American Heartbreak",
+					"artist": "Zach Bryan",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dreamsicle",
+					"artist": "Jason Isbell and the 400 Unit",
+					"album": "Reunions"
+				}
+			]
+		}
+	},
+	"The Metal Peaks": {
+		"metal": {
+			"top_artists": [
+				{
+					"name": "Gojira",
+					"album_count": 3
+				},
+				{
+					"name": "Mastodon",
+					"album_count": 2
+				},
+				{
+					"name": "Tool",
+					"album_count": 2
+				},
+				{
+					"name": "Opeth",
+					"album_count": 2
+				},
+				{
+					"name": "Spiritbox",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fortitude",
+					"artist": "Gojira",
+					"year": "2021"
+				},
+				{
+					"name": "Fear Inoculum",
+					"artist": "Tool",
+					"year": "2019"
+				},
+				{
+					"name": "Hushed and Grim",
+					"artist": "Mastodon",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Amazonia",
+					"artist": "Gojira",
+					"album": "Fortitude"
+				}
+			]
+		},
+		"heavy metal": {
+			"top_artists": [
+				{
+					"name": "Iron Maiden",
+					"album_count": 3
+				},
+				{
+					"name": "Judas Priest",
+					"album_count": 2
+				},
+				{
+					"name": "Ghost",
+					"album_count": 2
+				},
+				{
+					"name": "Unleash the Archers",
+					"album_count": 2
+				},
+				{
+					"name": "Visigoth",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Senjutsu",
+					"artist": "Iron Maiden",
+					"year": "2021"
+				},
+				{
+					"name": "Impera",
+					"artist": "Ghost",
+					"year": "2022"
+				},
+				{
+					"name": "Abyss",
+					"artist": "Unleash the Archers",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Writing on the Wall",
+					"artist": "Iron Maiden",
+					"album": "Senjutsu"
+				}
+			]
+		},
+		"thrash metal": {
+			"top_artists": [
+				{
+					"name": "Kreator",
+					"album_count": 3
+				},
+				{
+					"name": "Testament",
+					"album_count": 2
+				},
+				{
+					"name": "Overkill",
+					"album_count": 2
+				},
+				{
+					"name": "Power Trip",
+					"album_count": 2
+				},
+				{
+					"name": "Havok",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hate Über Alles",
+					"artist": "Kreator",
+					"year": "2022"
+				},
+				{
+					"name": "Titans of Creation",
+					"artist": "Testament",
+					"year": "2020"
+				},
+				{
+					"name": "Opening Fire: 2008-2014",
+					"artist": "Power Trip",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hate Über Alles",
+					"artist": "Kreator",
+					"album": "Hate Über Alles"
+				}
+			]
+		},
+		"black metal": {
+			"top_artists": [
+				{
+					"name": "Deafheaven",
+					"album_count": 3
+				},
+				{
+					"name": "Mgła",
+					"album_count": 2
+				},
+				{
+					"name": "Alcest",
+					"album_count": 2
+				},
+				{
+					"name": "Oranssi Pazuzu",
+					"album_count": 2
+				},
+				{
+					"name": "Wolves in the Throne Room",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Infinite Granite",
+					"artist": "Deafheaven",
+					"year": "2021"
+				},
+				{
+					"name": "Age Of",
+					"artist": "Mgła",
+					"year": "2019"
+				},
+				{
+					"name": "Spiritual Instinct",
+					"artist": "Alcest",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Great Mass of Color",
+					"artist": "Deafheaven",
+					"album": "Infinite Granite"
+				}
+			]
+		},
+		"death metal": {
+			"top_artists": [
+				{
+					"name": "Blood Incantation",
+					"album_count": 3
+				},
+				{
+					"name": "Tomb Mold",
+					"album_count": 2
+				},
+				{
+					"name": "Gatecreeper",
+					"album_count": 2
+				},
+				{
+					"name": "200 Stab Wounds",
+					"album_count": 2
+				},
+				{
+					"name": "Undeath",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hidden History of the Human Race",
+					"artist": "Blood Incantation",
+					"year": "2019"
+				},
+				{
+					"name": "Planetary Clairvoyance",
+					"artist": "Tomb Mold",
+					"year": "2019"
+				},
+				{
+					"name": "Deserted",
+					"artist": "Gatecreeper",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Inner Paths (to Outer Space)",
+					"artist": "Blood Incantation",
+					"album": "Hidden History of the Human Race"
+				}
+			]
+		},
+		"doom metal": {
+			"top_artists": [
+				{
+					"name": "Pallbearer",
+					"album_count": 3
+				},
+				{
+					"name": "Bell Witch",
+					"album_count": 2
+				},
+				{
+					"name": "Khemmis",
+					"album_count": 2
+				},
+				{
+					"name": "Spirit Adrift",
+					"album_count": 2
+				},
+				{
+					"name": "Sleep",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Forgotten Days",
+					"artist": "Pallbearer",
+					"year": "2020"
+				},
+				{
+					"name": "Stygian Bough Volume I",
+					"artist": "Bell Witch & Aerial Ruin",
+					"year": "2020"
+				},
+				{
+					"name": "Divided by Darkness",
+					"artist": "Spirit Adrift",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Forgotten Days",
+					"artist": "Pallbearer",
+					"album": "Forgotten Days"
+				}
+			]
+		},
+		"metalcore": {
+			"top_artists": [
+				{
+					"name": "Architects",
+					"album_count": 3
+				},
+				{
+					"name": "Knocked Loose",
+					"album_count": 3
+				},
+				{
+					"name": "Spiritbox",
+					"album_count": 2
+				},
+				{
+					"name": "Bad Omens",
+					"album_count": 2
+				},
+				{
+					"name": "Lorna Shore",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "For Those That Wish to Exist",
+					"artist": "Architects",
+					"year": "2021"
+				},
+				{
+					"name": "Eternal Blue",
+					"artist": "Spiritbox",
+					"year": "2021"
+				},
+				{
+					"name": "A Different Shade of Blue",
+					"artist": "Knocked Loose",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Animals",
+					"artist": "Architects",
+					"album": "For Those That Wish to Exist"
+				}
+			]
+		},
+		"sludge": {
+			"top_artists": [
+				{
+					"name": "Mastodon",
+					"album_count": 3
+				},
+				{
+					"name": "Baroness",
+					"album_count": 2
+				},
+				{
+					"name": "Yob",
+					"album_count": 2
+				},
+				{
+					"name": "The Ocean",
+					"album_count": 2
+				},
+				{
+					"name": "Neurosis",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hushed and Grim",
+					"artist": "Mastodon",
+					"year": "2021"
+				},
+				{
+					"name": "Gold & Grey",
+					"artist": "Baroness",
+					"year": "2019"
+				},
+				{
+					"name": "Our Raw Heart",
+					"artist": "Yob",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pushing the Tides",
+					"artist": "Mastodon",
+					"album": "Hushed and Grim"
+				}
+			]
+		},
+		"grindcore": {
+			"top_artists": [
+				{
+					"name": "Full of Hell",
+					"album_count": 3
+				},
+				{
+					"name": "Napalm Death",
+					"album_count": 2
+				},
+				{
+					"name": "Pig Destroyer",
+					"album_count": 2
+				},
+				{
+					"name": "Cloud Rat",
+					"album_count": 2
+				},
+				{
+					"name": "Gridlink",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Garden of Burning Apparitions",
+					"artist": "Full of Hell",
+					"year": "2021"
+				},
+				{
+					"name": "Throes of Joy in the Jaws of Defeatism",
+					"artist": "Napalm Death",
+					"year": "2020"
+				},
+				{
+					"name": "Head Cage",
+					"artist": "Pig Destroyer",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Derelict Satellite",
+					"artist": "Full of Hell",
+					"album": "Garden of Burning Apparitions"
+				}
+			]
+		},
+		"power metal": {
+			"top_artists": [
+				{
+					"name": "Sabaton",
+					"album_count": 3
+				},
+				{
+					"name": "Powerwolf",
+					"album_count": 3
+				},
+				{
+					"name": "Gloryhammer",
+					"album_count": 2
+				},
+				{
+					"name": "Unleash the Archers",
+					"album_count": 2
+				},
+				{
+					"name": "Beast in Black",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The War to End All Wars",
+					"artist": "Sabaton",
+					"year": "2022"
+				},
+				{
+					"name": "Call of the Wild",
+					"artist": "Powerwolf",
+					"year": "2021"
+				},
+				{
+					"name": "Abyss",
+					"artist": "Unleash the Archers",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Christmas Truce",
+					"artist": "Sabaton",
+					"album": "The War to End All Wars"
+				}
+			]
+		},
+		"gothic metal": {
+			"top_artists": [
+				{
+					"name": "Nightwish",
+					"album_count": 3
+				},
+				{
+					"name": "Epica",
+					"album_count": 2
+				},
+				{
+					"name": "Lacuna Coil",
+					"album_count": 2
+				},
+				{
+					"name": "Delain",
+					"album_count": 2
+				},
+				{
+					"name": "Within Temptation",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Human. :II: Nature.",
+					"artist": "Nightwish",
+					"year": "2020"
+				},
+				{
+					"name": "Omega",
+					"artist": "Epica",
+					"year": "2021"
+				},
+				{
+					"name": "Black Anima",
+					"artist": "Lacuna Coil",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Noise",
+					"artist": "Nightwish",
+					"album": "Human. :II: Nature."
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"reggae": {
+			"top_artists": [
+				{
+					"name": "Chronixx",
+					"album_count": 3
+				},
+				{
+					"name": "Protoje",
+					"album_count": 2
+				},
+				{
+					"name": "Koffee",
+					"album_count": 2
+				},
+				{
+					"name": "Buju Banton",
+					"album_count": 2
+				},
+				{
+					"name": "Stick Figure",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chronology",
+					"artist": "Chronixx",
+					"year": "2017"
+				},
+				{
+					"name": "In Search of Lost Time",
+					"artist": "Protoje",
+					"year": "2020"
+				},
+				{
+					"name": "Gifted",
+					"artist": "Koffee",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Same Prayer",
+					"artist": "Protoje",
+					"album": "In Search of Lost Time"
+				}
+			]
+		},
+		"dancehall": {
+			"top_artists": [
+				{
+					"name": "Popcaan",
+					"album_count": 3
+				},
+				{
+					"name": "Skillibeng",
+					"album_count": 2
+				},
+				{
+					"name": "Shenseea",
+					"album_count": 2
+				},
+				{
+					"name": "Intence",
+					"album_count": 2
+				},
+				{
+					"name": "Vybz Kartel",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "FIXTAPE",
+					"artist": "Popcaan",
+					"year": "2020"
+				},
+				{
+					"name": "ALPHA",
+					"artist": "Shenseea",
+					"year": "2022"
+				},
+				{
+					"name": "Crocodile Teeth",
+					"artist": "Skillibeng",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Twist & Turn",
+					"artist": "Popcaan",
+					"album": "FIXTAPE"
+				}
+			]
+		},
+		"reggaeton": {
+			"top_artists": [
+				{
+					"name": "Bad Bunny",
+					"album_count": 3
+				},
+				{
+					"name": "J Balvin",
+					"album_count": 3
+				},
+				{
+					"name": "Daddy Yankee",
+					"album_count": 2
+				},
+				{
+					"name": "Ozuna",
+					"album_count": 2
+				},
+				{
+					"name": "Rauw Alejandro",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "El Último Tour Del Mundo",
+					"artist": "Bad Bunny",
+					"year": "2020"
+				},
+				{
+					"name": "Un Verano Sin Ti",
+					"artist": "Bad Bunny",
+					"year": "2022"
+				},
+				{
+					"name": "Colores",
+					"artist": "J Balvin",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dakiti",
+					"artist": "Bad Bunny",
+					"album": "El Último Tour Del Mundo"
+				}
+			]
+		},
+		"dub": {
+			"top_artists": [
+				{
+					"name": "Mad Professor",
+					"album_count": 3
+				},
+				{
+					"name": "Radikal Guru",
+					"album_count": 2
+				},
+				{
+					"name": "Iration Steppas",
+					"album_count": 2
+				},
+				{
+					"name": "Vibronics",
+					"album_count": 2
+				},
+				{
+					"name": "Halcyonic",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dub Me Crazy",
+					"artist": "Mad Professor",
+					"year": "2020"
+				},
+				{
+					"name": "Kontrola",
+					"artist": "Radikal Guru",
+					"year": "2020"
+				},
+				{
+					"name": "Dub Champions",
+					"artist": "Iration Steppas",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dub Revolution",
+					"artist": "Mad Professor",
+					"album": "Dub Me Crazy"
+				}
+			]
+		},
+		"afrobeats": {
+			"top_artists": [
+				{
+					"name": "Burna Boy",
+					"album_count": 3
+				},
+				{
+					"name": "Wizkid",
+					"album_count": 3
+				},
+				{
+					"name": "Davido",
+					"album_count": 2
+				},
+				{
+					"name": "Tems",
+					"album_count": 2
+				},
+				{
+					"name": "Rema",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Twice as Tall",
+					"artist": "Burna Boy",
+					"year": "2020"
+				},
+				{
+					"name": "Made in Lagos",
+					"artist": "Wizkid",
+					"year": "2020"
+				},
+				{
+					"name": "A Better Time",
+					"artist": "Davido",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Essence",
+					"artist": "Wizkid",
+					"album": "Made in Lagos"
+				}
+			]
+		}
+	},
+	"The Avant-Garde Isles": {
+		"experimental": {
+			"top_artists": [
+				{
+					"name": "100 gecs",
+					"album_count": 3
+				},
+				{
+					"name": "Arca",
+					"album_count": 3
+				},
+				{
+					"name": "black midi",
+					"album_count": 2
+				},
+				{
+					"name": "Swans",
+					"album_count": 2
+				},
+				{
+					"name": "JPEGMAFIA",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "1000 gecs",
+					"artist": "100 gecs",
+					"year": "2019"
+				},
+				{
+					"name": "10,000 gecs",
+					"artist": "100 gecs",
+					"year": "2023"
+				},
+				{
+					"name": "KiCk i",
+					"artist": "Arca",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "money machine",
+					"artist": "100 gecs",
+					"album": "1000 gecs"
+				}
+			]
+		},
+		"noise": {
+			"top_artists": [
+				{
+					"name": "Merzbow",
+					"album_count": 3
+				},
+				{
+					"name": "Pharmakon",
+					"album_count": 2
+				},
+				{
+					"name": "The Body",
+					"album_count": 2
+				},
+				{
+					"name": "Full of Hell",
+					"album_count": 2
+				},
+				{
+					"name": "Lingua Ignota",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "2R0I2P0",
+					"artist": "Merzbow",
+					"year": "2020"
+				},
+				{
+					"name": "Devour",
+					"artist": "Pharmakon",
+					"year": "2019"
+				},
+				{
+					"name": "CALIGULA",
+					"artist": "Lingua Ignota",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Purity I: Laevatein",
+					"artist": "Merzbow",
+					"album": "2R0I2P0"
+				}
+			]
+		},
+		"dark ambient": {
+			"top_artists": [
+				{
+					"name": "Lustmord",
+					"album_count": 3
+				},
+				{
+					"name": "Atrium Carceri",
+					"album_count": 2
+				},
+				{
+					"name": "Northaunt",
+					"album_count": 2
+				},
+				{
+					"name": "Kammarheit",
+					"album_count": 2
+				},
+				{
+					"name": "Ugasanie",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Possessed",
+					"artist": "Lustmord",
+					"year": "2020"
+				},
+				{
+					"name": "Souyuan",
+					"artist": "Atrium Carceri",
+					"year": "2023"
+				},
+				{
+					"name": "Istok",
+					"artist": "Northaunt",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Exorcism",
+					"artist": "Lustmord",
+					"album": "Possessed"
+				}
+			]
+		},
+		"drone": {
+			"top_artists": [
+				{
+					"name": "Sunn O)))",
+					"album_count": 3
+				},
+				{
+					"name": "Earth",
+					"album_count": 2
+				},
+				{
+					"name": "The Haxan Cloak",
+					"album_count": 2
+				},
+				{
+					"name": "Grouper",
+					"album_count": 2
+				},
+				{
+					"name": "Tim Hecker",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Pyroclasts",
+					"artist": "Sunn O)))",
+					"year": "2019"
+				},
+				{
+					"name": "Full Upon Her Burning Lips",
+					"artist": "Earth",
+					"year": "2019"
+				},
+				{
+					"name": "Shade",
+					"artist": "Grouper",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pyroclasts I",
+					"artist": "Sunn O)))",
+					"album": "Pyroclasts"
+				}
+			]
+		}
+	}
+}

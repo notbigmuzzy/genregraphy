@@ -1,0 +1,3380 @@
+{
+	"The Rock Shield": {
+		"rock": {
+			"top_artists": [
+				{
+					"name": "Foo Fighters",
+					"album_count": 3
+				},
+				{
+					"name": "Queens of the Stone Age",
+					"album_count": 2
+				},
+				{
+					"name": "Arctic Monkeys",
+					"album_count": 2
+				},
+				{
+					"name": "The Black Keys",
+					"album_count": 2
+				},
+				{
+					"name": "Jack White",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Wasting Light",
+					"artist": "Foo Fighters",
+					"year": "2011"
+				},
+				{
+					"name": "AM",
+					"artist": "Arctic Monkeys",
+					"year": "2013"
+				},
+				{
+					"name": "...Like Clockwork",
+					"artist": "Queens of the Stone Age",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Do I Wanna Know?",
+					"artist": "Arctic Monkeys",
+					"album": "AM"
+				}
+			]
+		},
+		"indie rock": {
+			"top_artists": [
+				{
+					"name": "Tame Impala",
+					"album_count": 3
+				},
+				{
+					"name": "Vampire Weekend",
+					"album_count": 3
+				},
+				{
+					"name": "The National",
+					"album_count": 2
+				},
+				{
+					"name": "Arctic Monkeys",
+					"album_count": 2
+				},
+				{
+					"name": "MGMT",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Lonerism",
+					"artist": "Tame Impala",
+					"year": "2012"
+				},
+				{
+					"name": "Modern Vampires of the City",
+					"artist": "Vampire Weekend",
+					"year": "2013"
+				},
+				{
+					"name": "Trouble Will Find Me",
+					"artist": "The National",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Feels Like We Only Go Backwards",
+					"artist": "Tame Impala",
+					"album": "Lonerism"
+				}
+			]
+		},
+		"alternative rock": {
+			"top_artists": [
+				{
+					"name": "Radiohead",
+					"album_count": 3
+				},
+				{
+					"name": "The Black Keys",
+					"album_count": 2
+				},
+				{
+					"name": "Beck",
+					"album_count": 2
+				},
+				{
+					"name": "St. Vincent",
+					"album_count": 2
+				},
+				{
+					"name": "Father John Misty",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The King of Limbs",
+					"artist": "Radiohead",
+					"year": "2011"
+				},
+				{
+					"name": "El Camino",
+					"artist": "The Black Keys",
+					"year": "2011"
+				},
+				{
+					"name": "St. Vincent",
+					"artist": "St. Vincent",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Lotus Flower",
+					"artist": "Radiohead",
+					"album": "The King of Limbs"
+				}
+			]
+		},
+		"post-punk": {
+			"top_artists": [
+				{
+					"name": "Savages",
+					"album_count": 2
+				},
+				{
+					"name": "IDLES",
+					"album_count": 2
+				},
+				{
+					"name": "Protomartyr",
+					"album_count": 2
+				},
+				{
+					"name": "Preoccupations",
+					"album_count": 2
+				},
+				{
+					"name": "Parquet Courts",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Silence Yourself",
+					"artist": "Savages",
+					"year": "2013"
+				},
+				{
+					"name": "Joy as an Act of Resistance",
+					"artist": "IDLES",
+					"year": "2018"
+				},
+				{
+					"name": "The Agent Intellect",
+					"artist": "Protomartyr",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Husbands",
+					"artist": "Savages",
+					"album": "Silence Yourself"
+				}
+			]
+		},
+		"post-rock": {
+			"top_artists": [
+				{
+					"name": "Explosions in the Sky",
+					"album_count": 3
+				},
+				{
+					"name": "Godspeed You! Black Emperor",
+					"album_count": 2
+				},
+				{
+					"name": "This Will Destroy You",
+					"album_count": 2
+				},
+				{
+					"name": "Mogwai",
+					"album_count": 2
+				},
+				{
+					"name": "Russian Circles",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Take Care, Take Care, Take Care",
+					"artist": "Explosions in the Sky",
+					"year": "2011"
+				},
+				{
+					"name": "Allelujah! Don't Bend! Ascend!",
+					"artist": "Godspeed You! Black Emperor",
+					"year": "2012"
+				},
+				{
+					"name": "Tunnel Blanket",
+					"artist": "This Will Destroy You",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Trembling Hands",
+					"artist": "Explosions in the Sky",
+					"album": "Take Care, Take Care, Take Care"
+				}
+			]
+		},
+		"emo": {
+			"top_artists": [
+				{
+					"name": "The World Is a Beautiful Place & I Am No Longer Afraid to Die",
+					"album_count": 2
+				},
+				{
+					"name": "Modern Baseball",
+					"album_count": 2
+				},
+				{
+					"name": "The Hotelier",
+					"album_count": 2
+				},
+				{
+					"name": "Tigers Jaw",
+					"album_count": 2
+				},
+				{
+					"name": "The Wonder Years",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Home, Like Noplace Is There",
+					"artist": "The Hotelier",
+					"year": "2014"
+				},
+				{
+					"name": "You're Gonna Miss It All",
+					"artist": "Modern Baseball",
+					"year": "2014"
+				},
+				{
+					"name": "The Greatest Generation",
+					"artist": "The Wonder Years",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Your Deep Rest",
+					"artist": "The Hotelier",
+					"album": "Home, Like Noplace Is There"
+				}
+			]
+		},
+		"pop-punk": {
+			"top_artists": [
+				{
+					"name": "Paramore",
+					"album_count": 3
+				},
+				{
+					"name": "Fall Out Boy",
+					"album_count": 2
+				},
+				{
+					"name": "All Time Low",
+					"album_count": 2
+				},
+				{
+					"name": "The Wonder Years",
+					"album_count": 2
+				},
+				{
+					"name": "Neck Deep",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Riot!",
+					"artist": "Paramore",
+					"year": "2007"
+				},
+				{
+					"name": "Save Rock and Roll",
+					"artist": "Fall Out Boy",
+					"year": "2013"
+				},
+				{
+					"name": "Life's Not Out to Get You",
+					"artist": "Neck Deep",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Misery Business",
+					"artist": "Paramore",
+					"album": "Riot!"
+				}
+			]
+		},
+		"hardcore": {
+			"top_artists": [
+				{
+					"name": "Converge",
+					"album_count": 3
+				},
+				{
+					"name": "Code Orange",
+					"album_count": 2
+				},
+				{
+					"name": "Knocked Loose",
+					"album_count": 2
+				},
+				{
+					"name": "Turnstile",
+					"album_count": 2
+				},
+				{
+					"name": "Touché Amoré",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "All We Love We Leave Behind",
+					"artist": "Converge",
+					"year": "2012"
+				},
+				{
+					"name": "I Am King",
+					"artist": "Code Orange",
+					"year": "2014"
+				},
+				{
+					"name": "Pardon My French",
+					"artist": "Chunk! No, Captain Chunk!",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Aimless Arrow",
+					"artist": "Converge",
+					"album": "All We Love We Leave Behind"
+				}
+			]
+		},
+		"shoegaze": {
+			"top_artists": [
+				{
+					"name": "My Bloody Valentine",
+					"album_count": 2
+				},
+				{
+					"name": "Nothing",
+					"album_count": 2
+				},
+				{
+					"name": "Deafheaven",
+					"album_count": 2
+				},
+				{
+					"name": "A Place to Bury Strangers",
+					"album_count": 2
+				},
+				{
+					"name": "Whirr",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "m b v",
+					"artist": "My Bloody Valentine",
+					"year": "2013"
+				},
+				{
+					"name": "Sunbather",
+					"artist": "Deafheaven",
+					"year": "2013"
+				},
+				{
+					"name": "Guilty of Everything",
+					"artist": "Nothing",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "who sees you",
+					"artist": "My Bloody Valentine",
+					"album": "m b v"
+				}
+			]
+		},
+		"indie pop": {
+			"top_artists": [
+				{
+					"name": "CHVRCHES",
+					"album_count": 3
+				},
+				{
+					"name": "Passion Pit",
+					"album_count": 2
+				},
+				{
+					"name": "Two Door Cinema Club",
+					"album_count": 2
+				},
+				{
+					"name": "Phoenix",
+					"album_count": 2
+				},
+				{
+					"name": "Alvvays",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Bones of What You Believe",
+					"artist": "CHVRCHES",
+					"year": "2013"
+				},
+				{
+					"name": "Wolfgang Amadeus Phoenix",
+					"artist": "Phoenix",
+					"year": "2009"
+				},
+				{
+					"name": "Alvvays",
+					"artist": "Alvvays",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Mother We Share",
+					"artist": "CHVRCHES",
+					"album": "The Bones of What You Believe"
+				}
+			]
+		},
+		"dream pop": {
+			"top_artists": [
+				{
+					"name": "Beach House",
+					"album_count": 3
+				},
+				{
+					"name": "Washed Out",
+					"album_count": 2
+				},
+				{
+					"name": "Wild Nothing",
+					"album_count": 2
+				},
+				{
+					"name": "Purity Ring",
+					"album_count": 2
+				},
+				{
+					"name": "Slowdive",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Teen Dream",
+					"artist": "Beach House",
+					"year": "2010"
+				},
+				{
+					"name": "Bloom",
+					"artist": "Beach House",
+					"year": "2012"
+				},
+				{
+					"name": "Nocturne",
+					"artist": "Wild Nothing",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Myth",
+					"artist": "Beach House",
+					"album": "Bloom"
+				}
+			]
+		},
+		"garage rock": {
+			"top_artists": [
+				{
+					"name": "Ty Segall",
+					"album_count": 3
+				},
+				{
+					"name": "Thee Oh Sees",
+					"album_count": 3
+				},
+				{
+					"name": "King Gizzard & the Lizard Wizard",
+					"album_count": 2
+				},
+				{
+					"name": "FIDLAR",
+					"album_count": 2
+				},
+				{
+					"name": "Parquet Courts",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Melted",
+					"artist": "Ty Segall",
+					"year": "2010"
+				},
+				{
+					"name": "Nonagon Infinity",
+					"artist": "King Gizzard & the Lizard Wizard",
+					"year": "2016"
+				},
+				{
+					"name": "Carrion Crawler/The Dream",
+					"artist": "Thee Oh Sees",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Goodbye Bread",
+					"artist": "Ty Segall",
+					"album": "Melted"
+				}
+			]
+		},
+		"stoner rock": {
+			"top_artists": [
+				{
+					"name": "Queens of the Stone Age",
+					"album_count": 2
+				},
+				{
+					"name": "Kyuss Lives!",
+					"album_count": 2
+				},
+				{
+					"name": "Uncle Acid & the Deadbeats",
+					"album_count": 2
+				},
+				{
+					"name": "Earthless",
+					"album_count": 2
+				},
+				{
+					"name": "All Them Witches",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "...Like Clockwork",
+					"artist": "Queens of the Stone Age",
+					"year": "2013"
+				},
+				{
+					"name": "Blood Lust",
+					"artist": "Uncle Acid & the Deadbeats",
+					"year": "2011"
+				},
+				{
+					"name": "Dying Surfer Meets His Maker",
+					"artist": "All Them Witches",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I Sat Beside the Ocean",
+					"artist": "Queens of the Stone Age",
+					"album": "...Like Clockwork"
+				}
+			]
+		}
+	},
+	"The Electronic Frontier": {
+		"electronic": {
+			"top_artists": [
+				{
+					"name": "Daft Punk",
+					"album_count": 3
+				},
+				{
+					"name": "Skrillex",
+					"album_count": 3
+				},
+				{
+					"name": "Deadmau5",
+					"album_count": 2
+				},
+				{
+					"name": "Calvin Harris",
+					"album_count": 2
+				},
+				{
+					"name": "Avicii",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Random Access Memories",
+					"artist": "Daft Punk",
+					"year": "2013"
+				},
+				{
+					"name": "Bangarang",
+					"artist": "Skrillex",
+					"year": "2011"
+				},
+				{
+					"name": "18 Months",
+					"artist": "Calvin Harris",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Get Lucky",
+					"artist": "Daft Punk",
+					"album": "Random Access Memories"
+				}
+			]
+		},
+		"house": {
+			"top_artists": [
+				{
+					"name": "Disclosure",
+					"album_count": 3
+				},
+				{
+					"name": "Duke Dumont",
+					"album_count": 2
+				},
+				{
+					"name": "Tchami",
+					"album_count": 2
+				},
+				{
+					"name": "Oliver Heldens",
+					"album_count": 2
+				},
+				{
+					"name": "Gorgon City",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Settle",
+					"artist": "Disclosure",
+					"year": "2013"
+				},
+				{
+					"name": "Caracal",
+					"artist": "Disclosure",
+					"year": "2015"
+				},
+				{
+					"name": "Kingdom",
+					"artist": "Gorgon City",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Latch",
+					"artist": "Disclosure",
+					"album": "Settle"
+				}
+			]
+		},
+		"techno": {
+			"top_artists": [
+				{
+					"name": "Tale of Us",
+					"album_count": 2
+				},
+				{
+					"name": "Maceo Plex",
+					"album_count": 2
+				},
+				{
+					"name": "Adam Beyer",
+					"album_count": 2
+				},
+				{
+					"name": "Charlotte de Witte",
+					"album_count": 2
+				},
+				{
+					"name": "Nina Kraviz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fabric 77",
+					"artist": "Maceo Plex",
+					"year": "2014"
+				},
+				{
+					"name": "Endless",
+					"artist": "Tale of Us",
+					"year": "2017"
+				},
+				{
+					"name": "Life and Death",
+					"artist": "Tale of Us",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Solar",
+					"artist": "Maceo Plex",
+					"album": "Fabric 77"
+				}
+			]
+		},
+		"trance": {
+			"top_artists": [
+				{
+					"name": "Armin van Buuren",
+					"album_count": 3
+				},
+				{
+					"name": "Above & Beyond",
+					"album_count": 3
+				},
+				{
+					"name": "Aly & Fila",
+					"album_count": 2
+				},
+				{
+					"name": "Andrew Rayel",
+					"album_count": 2
+				},
+				{
+					"name": "Cosmic Gate",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Intense",
+					"artist": "Armin van Buuren",
+					"year": "2013"
+				},
+				{
+					"name": "We Are All We Need",
+					"artist": "Above & Beyond",
+					"year": "2015"
+				},
+				{
+					"name": "Group Therapy",
+					"artist": "Above & Beyond",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "This Is What It Feels Like",
+					"artist": "Armin van Buuren",
+					"album": "Intense"
+				}
+			]
+		},
+		"dubstep": {
+			"top_artists": [
+				{
+					"name": "Skrillex",
+					"album_count": 3
+				},
+				{
+					"name": "Burial",
+					"album_count": 2
+				},
+				{
+					"name": "James Blake",
+					"album_count": 2
+				},
+				{
+					"name": "Excision",
+					"album_count": 2
+				},
+				{
+					"name": "Zomboy",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Scary Monsters and Nice Sprites",
+					"artist": "Skrillex",
+					"year": "2010"
+				},
+				{
+					"name": "James Blake",
+					"artist": "James Blake",
+					"year": "2011"
+				},
+				{
+					"name": "Codex",
+					"artist": "Excision",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Scary Monsters and Nice Sprites",
+					"artist": "Skrillex",
+					"album": "Scary Monsters and Nice Sprites"
+				}
+			]
+		},
+		"drum and bass": {
+			"top_artists": [
+				{
+					"name": "Netsky",
+					"album_count": 3
+				},
+				{
+					"name": "Wilkinson",
+					"album_count": 2
+				},
+				{
+					"name": "Camo & Krooked",
+					"album_count": 2
+				},
+				{
+					"name": "Sub Focus",
+					"album_count": 2
+				},
+				{
+					"name": "Pendulum",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "2",
+					"artist": "Netsky",
+					"year": "2012"
+				},
+				{
+					"name": "Lazers Not Included",
+					"artist": "Wilkinson",
+					"year": "2013"
+				},
+				{
+					"name": "Torus",
+					"artist": "Sub Focus",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Afterglow",
+					"artist": "Wilkinson",
+					"album": "Lazers Not Included"
+				}
+			]
+		},
+		"ambient": {
+			"top_artists": [
+				{
+					"name": "Tim Hecker",
+					"album_count": 3
+				},
+				{
+					"name": "William Basinski",
+					"album_count": 2
+				},
+				{
+					"name": "Ólafur Arnalds",
+					"album_count": 2
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 2
+				},
+				{
+					"name": "Stars of the Lid",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ravedeath, 1972",
+					"artist": "Tim Hecker",
+					"year": "2011"
+				},
+				{
+					"name": "Virgins",
+					"artist": "Tim Hecker",
+					"year": "2013"
+				},
+				{
+					"name": "Spaces",
+					"artist": "Nils Frahm",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "In the Fog I",
+					"artist": "Tim Hecker",
+					"album": "Ravedeath, 1972"
+				}
+			]
+		},
+		"idm": {
+			"top_artists": [
+				{
+					"name": "Aphex Twin",
+					"album_count": 3
+				},
+				{
+					"name": "Flying Lotus",
+					"album_count": 3
+				},
+				{
+					"name": "Oneohtrix Point Never",
+					"album_count": 2
+				},
+				{
+					"name": "Arca",
+					"album_count": 2
+				},
+				{
+					"name": "Autechre",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Cosmogramma",
+					"artist": "Flying Lotus",
+					"year": "2010"
+				},
+				{
+					"name": "Syro",
+					"artist": "Aphex Twin",
+					"year": "2014"
+				},
+				{
+					"name": "R Plus Seven",
+					"artist": "Oneohtrix Point Never",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Do the Astral Plane",
+					"artist": "Flying Lotus",
+					"album": "Cosmogramma"
+				}
+			]
+		},
+		"downtempo": {
+			"top_artists": [
+				{
+					"name": "Bonobo",
+					"album_count": 3
+				},
+				{
+					"name": "Tycho",
+					"album_count": 3
+				},
+				{
+					"name": "Emancipator",
+					"album_count": 2
+				},
+				{
+					"name": "Kiasmos",
+					"album_count": 2
+				},
+				{
+					"name": "Thievery Corporation",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Sands",
+					"artist": "Bonobo",
+					"year": "2010"
+				},
+				{
+					"name": "The North Borders",
+					"artist": "Bonobo",
+					"year": "2013"
+				},
+				{
+					"name": "Dive",
+					"artist": "Tycho",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Kiara",
+					"artist": "Bonobo",
+					"album": "Black Sands"
+				}
+			]
+		},
+		"trip hop": {
+			"top_artists": [
+				{
+					"name": "Massive Attack",
+					"album_count": 2
+				},
+				{
+					"name": "Portishead",
+					"album_count": 2
+				},
+				{
+					"name": "UNKLE",
+					"album_count": 2
+				},
+				{
+					"name": "Tricky",
+					"album_count": 2
+				},
+				{
+					"name": "DJ Shadow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Heligoland",
+					"artist": "Massive Attack",
+					"year": "2010"
+				},
+				{
+					"name": "Third",
+					"artist": "Portishead",
+					"year": "2008"
+				},
+				{
+					"name": "The Road: Part I",
+					"artist": "UNKLE",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Paradise Circus",
+					"artist": "Massive Attack",
+					"album": "Heligoland"
+				}
+			]
+		},
+		"industrial": {
+			"top_artists": [
+				{
+					"name": "Nine Inch Nails",
+					"album_count": 3
+				},
+				{
+					"name": "HEALTH",
+					"album_count": 2
+				},
+				{
+					"name": "Youth Code",
+					"album_count": 2
+				},
+				{
+					"name": "3TEETH",
+					"album_count": 2
+				},
+				{
+					"name": "Author & Punisher",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hesitation Marks",
+					"artist": "Nine Inch Nails",
+					"year": "2013"
+				},
+				{
+					"name": "Death Magic",
+					"artist": "HEALTH",
+					"year": "2015"
+				},
+				{
+					"name": "Commitment to Complications",
+					"artist": "Youth Code",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Came Back Haunted",
+					"artist": "Nine Inch Nails",
+					"album": "Hesitation Marks"
+				}
+			]
+		},
+		"synthwave": {
+			"top_artists": [
+				{
+					"name": "Kavinsky",
+					"album_count": 3
+				},
+				{
+					"name": "Perturbator",
+					"album_count": 3
+				},
+				{
+					"name": "Carpenter Brut",
+					"album_count": 2
+				},
+				{
+					"name": "Lazerhawk",
+					"album_count": 2
+				},
+				{
+					"name": "Com Truise",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "OutRun",
+					"artist": "Kavinsky",
+					"year": "2013"
+				},
+				{
+					"name": "Dangerous Days",
+					"artist": "Perturbator",
+					"year": "2014"
+				},
+				{
+					"name": "Trilogy",
+					"artist": "Carpenter Brut",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Nightcall",
+					"artist": "Kavinsky",
+					"album": "OutRun"
+				}
+			]
+		},
+		"vaporwave": {
+			"top_artists": [
+				{
+					"name": "Macintosh Plus",
+					"album_count": 2
+				},
+				{
+					"name": "Saint Pepsi",
+					"album_count": 2
+				},
+				{
+					"name": "Blank Banshee",
+					"album_count": 2
+				},
+				{
+					"name": "ESPRIT 空想",
+					"album_count": 2
+				},
+				{
+					"name": "2 8 1 4",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Floral Shoppe",
+					"artist": "Macintosh Plus",
+					"year": "2011"
+				},
+				{
+					"name": "Blank Banshee 0",
+					"artist": "Blank Banshee",
+					"year": "2012"
+				},
+				{
+					"name": "Birth of a New Day",
+					"artist": "2 8 1 4",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "リサフランク420 / 現代のコンピュー",
+					"artist": "Macintosh Plus",
+					"album": "Floral Shoppe"
+				}
+			]
+		},
+		"chillout": {
+			"top_artists": [
+				{
+					"name": "Tycho",
+					"album_count": 3
+				},
+				{
+					"name": "Bonobo",
+					"album_count": 2
+				},
+				{
+					"name": "Ott",
+					"album_count": 2
+				},
+				{
+					"name": "Shpongle",
+					"album_count": 2
+				},
+				{
+					"name": "Carbon Based Lifeforms",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Awake",
+					"artist": "Tycho",
+					"year": "2014"
+				},
+				{
+					"name": "Migration",
+					"artist": "Bonobo",
+					"year": "2017"
+				},
+				{
+					"name": "Mir",
+					"artist": "Ott",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Awake",
+					"artist": "Tycho",
+					"album": "Awake"
+				}
+			]
+		},
+		"glitch": {
+			"top_artists": [
+				{
+					"name": "Oneohtrix Point Never",
+					"album_count": 3
+				},
+				{
+					"name": "Tim Hecker",
+					"album_count": 2
+				},
+				{
+					"name": "Alva Noto",
+					"album_count": 2
+				},
+				{
+					"name": "Fennesz",
+					"album_count": 2
+				},
+				{
+					"name": "Ryoji Ikeda",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Replica",
+					"artist": "Oneohtrix Point Never",
+					"year": "2011"
+				},
+				{
+					"name": "R Plus Seven",
+					"artist": "Oneohtrix Point Never",
+					"year": "2013"
+				},
+				{
+					"name": "Xerrox Vol. 3",
+					"artist": "Alva Noto",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Replica",
+					"artist": "Oneohtrix Point Never",
+					"album": "Replica"
+				}
+			]
+		},
+		"hardstyle": {
+			"top_artists": [
+				{
+					"name": "Headhunterz",
+					"album_count": 3
+				},
+				{
+					"name": "Brennan Heart",
+					"album_count": 2
+				},
+				{
+					"name": "Wildstylez",
+					"album_count": 2
+				},
+				{
+					"name": "Noisecontrollers",
+					"album_count": 2
+				},
+				{
+					"name": "Da Tweekaz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sacrifice",
+					"artist": "Headhunterz",
+					"year": "2012"
+				},
+				{
+					"name": "Musical Impressions",
+					"artist": "Brennan Heart",
+					"year": "2010"
+				},
+				{
+					"name": "E=NC²",
+					"artist": "Noisecontrollers",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dragonborn",
+					"artist": "Headhunterz",
+					"album": "Sacrifice"
+				}
+			]
+		},
+		"chiptune": {
+			"top_artists": [
+				{
+					"name": "Anamanaguchi",
+					"album_count": 3
+				},
+				{
+					"name": "Chipzel",
+					"album_count": 2
+				},
+				{
+					"name": "Disasterpeace",
+					"album_count": 2
+				},
+				{
+					"name": "Danimal Cannon",
+					"album_count": 2
+				},
+				{
+					"name": "Dubmood",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Endless Fantasy",
+					"artist": "Anamanaguchi",
+					"year": "2013"
+				},
+				{
+					"name": "Super Hexagon",
+					"artist": "Chipzel",
+					"year": "2012"
+				},
+				{
+					"name": "FEZ OST",
+					"artist": "Disasterpeace",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Prom Night",
+					"artist": "Anamanaguchi",
+					"album": "Endless Fantasy"
+				}
+			]
+		}
+	},
+	"The Hip-Hop Basin": {
+		"hip hop": {
+			"top_artists": [
+				{
+					"name": "Kendrick Lamar",
+					"album_count": 3
+				},
+				{
+					"name": "Drake",
+					"album_count": 3
+				},
+				{
+					"name": "J. Cole",
+					"album_count": 2
+				},
+				{
+					"name": "Kanye West",
+					"album_count": 2
+				},
+				{
+					"name": "Travis Scott",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "good kid, m.A.A.d city",
+					"artist": "Kendrick Lamar",
+					"year": "2012"
+				},
+				{
+					"name": "To Pimp a Butterfly",
+					"artist": "Kendrick Lamar",
+					"year": "2015"
+				},
+				{
+					"name": "Take Care",
+					"artist": "Drake",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Swimming Pools (Drank)",
+					"artist": "Kendrick Lamar",
+					"album": "good kid, m.A.A.d city"
+				}
+			]
+		},
+		"trap": {
+			"top_artists": [
+				{
+					"name": "Future",
+					"album_count": 3
+				},
+				{
+					"name": "Migos",
+					"album_count": 3
+				},
+				{
+					"name": "Travis Scott",
+					"album_count": 2
+				},
+				{
+					"name": "21 Savage",
+					"album_count": 2
+				},
+				{
+					"name": "Gucci Mane",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "DS2",
+					"artist": "Future",
+					"year": "2015"
+				},
+				{
+					"name": "Culture",
+					"artist": "Migos",
+					"year": "2017"
+				},
+				{
+					"name": "Rodeo",
+					"artist": "Travis Scott",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "March Madness",
+					"artist": "Future",
+					"album": "DS2"
+				}
+			]
+		},
+		"boom bap": {
+			"top_artists": [
+				{
+					"name": "Joey Bada$$",
+					"album_count": 3
+				},
+				{
+					"name": "Action Bronson",
+					"album_count": 2
+				},
+				{
+					"name": "Freddie Gibbs",
+					"album_count": 2
+				},
+				{
+					"name": "Roc Marciano",
+					"album_count": 2
+				},
+				{
+					"name": "Griselda",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "1999",
+					"artist": "Joey Bada$$",
+					"year": "2012"
+				},
+				{
+					"name": "B4.DA.$$",
+					"artist": "Joey Bada$$",
+					"year": "2015"
+				},
+				{
+					"name": "Piñata",
+					"artist": "Freddie Gibbs & Madlib",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Survival Tactics",
+					"artist": "Joey Bada$$",
+					"album": "1999"
+				}
+			]
+		},
+		"r&b": {
+			"top_artists": [
+				{
+					"name": "The Weeknd",
+					"album_count": 3
+				},
+				{
+					"name": "Frank Ocean",
+					"album_count": 3
+				},
+				{
+					"name": "Beyoncé",
+					"album_count": 2
+				},
+				{
+					"name": "Miguel",
+					"album_count": 2
+				},
+				{
+					"name": "SZA",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Channel Orange",
+					"artist": "Frank Ocean",
+					"year": "2012"
+				},
+				{
+					"name": "House of Balloons",
+					"artist": "The Weeknd",
+					"year": "2011"
+				},
+				{
+					"name": "Ctrl",
+					"artist": "SZA",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Thinkin Bout You",
+					"artist": "Frank Ocean",
+					"album": "Channel Orange"
+				}
+			]
+		},
+		"neo soul": {
+			"top_artists": [
+				{
+					"name": "Frank Ocean",
+					"album_count": 3
+				},
+				{
+					"name": "Solange",
+					"album_count": 2
+				},
+				{
+					"name": "Anderson .Paak",
+					"album_count": 2
+				},
+				{
+					"name": "Hiatus Kaiyote",
+					"album_count": 2
+				},
+				{
+					"name": "Jordan Rakei",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Blonde",
+					"artist": "Frank Ocean",
+					"year": "2016"
+				},
+				{
+					"name": "A Seat at the Table",
+					"artist": "Solange",
+					"year": "2016"
+				},
+				{
+					"name": "Malibu",
+					"artist": "Anderson .Paak",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Nikes",
+					"artist": "Frank Ocean",
+					"album": "Blonde"
+				}
+			]
+		},
+		"soul": {
+			"top_artists": [
+				{
+					"name": "Leon Bridges",
+					"album_count": 3
+				},
+				{
+					"name": "Nathaniel Rateliff & The Night Sweats",
+					"album_count": 2
+				},
+				{
+					"name": "Charles Bradley",
+					"album_count": 2
+				},
+				{
+					"name": "St. Paul & The Broken Bones",
+					"album_count": 2
+				},
+				{
+					"name": "Alabama Shakes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Coming Home",
+					"artist": "Leon Bridges",
+					"year": "2015"
+				},
+				{
+					"name": "Boys & Girls",
+					"artist": "Alabama Shakes",
+					"year": "2012"
+				},
+				{
+					"name": "Nathaniel Rateliff & The Night Sweats",
+					"artist": "Nathaniel Rateliff & The Night Sweats",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Coming Home",
+					"artist": "Leon Bridges",
+					"album": "Coming Home"
+				}
+			]
+		},
+		"funk": {
+			"top_artists": [
+				{
+					"name": "Anderson .Paak",
+					"album_count": 3
+				},
+				{
+					"name": "Vulfpeck",
+					"album_count": 2
+				},
+				{
+					"name": "Thundercat",
+					"album_count": 2
+				},
+				{
+					"name": "Cory Wong",
+					"album_count": 2
+				},
+				{
+					"name": "Lettuce",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Malibu",
+					"artist": "Anderson .Paak",
+					"year": "2016"
+				},
+				{
+					"name": "Drunk",
+					"artist": "Thundercat",
+					"year": "2017"
+				},
+				{
+					"name": "Thrill of the Arts",
+					"artist": "Vulfpeck",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Come Down",
+					"artist": "Anderson .Paak",
+					"album": "Malibu"
+				}
+			]
+		},
+		"lo-fi": {
+			"top_artists": [
+				{
+					"name": "Nujabes",
+					"album_count": 2
+				},
+				{
+					"name": "J Dilla",
+					"album_count": 2
+				},
+				{
+					"name": "Tomppabeats",
+					"album_count": 2
+				},
+				{
+					"name": "Idealism",
+					"album_count": 2
+				},
+				{
+					"name": "Jinsang",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Spiritual State",
+					"artist": "Nujabes",
+					"year": "2011"
+				},
+				{
+					"name": "Harbor",
+					"artist": "Tomppabeats",
+					"year": "2016"
+				},
+				{
+					"name": "Rainy Evening",
+					"artist": "Idealism",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Reflection Eternal",
+					"artist": "Nujabes",
+					"album": "Spiritual State"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"jazz": {
+			"top_artists": [
+				{
+					"name": "Kamasi Washington",
+					"album_count": 3
+				},
+				{
+					"name": "Robert Glasper",
+					"album_count": 3
+				},
+				{
+					"name": "Esperanza Spalding",
+					"album_count": 2
+				},
+				{
+					"name": "Christian Scott aTunde Adjuah",
+					"album_count": 2
+				},
+				{
+					"name": "Thundercat",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Epic",
+					"artist": "Kamasi Washington",
+					"year": "2015"
+				},
+				{
+					"name": "Black Radio",
+					"artist": "Robert Glasper Experiment",
+					"year": "2012"
+				},
+				{
+					"name": "Radio Music Society",
+					"artist": "Esperanza Spalding",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Change of the Guard",
+					"artist": "Kamasi Washington",
+					"album": "The Epic"
+				}
+			]
+		},
+		"blues": {
+			"top_artists": [
+				{
+					"name": "Gary Clark Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "The Black Keys",
+					"album_count": 2
+				},
+				{
+					"name": "Jack White",
+					"album_count": 2
+				},
+				{
+					"name": "Alabama Shakes",
+					"album_count": 2
+				},
+				{
+					"name": "Fantastic Negrito",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Blak and Blu",
+					"artist": "Gary Clark Jr.",
+					"year": "2012"
+				},
+				{
+					"name": "El Camino",
+					"artist": "The Black Keys",
+					"year": "2011"
+				},
+				{
+					"name": "The Last Man Alive",
+					"artist": "Fantastic Negrito",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bright Lights",
+					"artist": "Gary Clark Jr.",
+					"album": "Blak and Blu"
+				}
+			]
+		},
+		"fusion": {
+			"top_artists": [
+				{
+					"name": "Snarky Puppy",
+					"album_count": 3
+				},
+				{
+					"name": "Robert Glasper",
+					"album_count": 2
+				},
+				{
+					"name": "Thundercat",
+					"album_count": 2
+				},
+				{
+					"name": "GoGo Penguin",
+					"album_count": 2
+				},
+				{
+					"name": "The Bad Plus",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "We Like It Here",
+					"artist": "Snarky Puppy",
+					"year": "2014"
+				},
+				{
+					"name": "Drunk",
+					"artist": "Thundercat",
+					"year": "2017"
+				},
+				{
+					"name": "v2.0",
+					"artist": "GoGo Penguin",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Lingus",
+					"artist": "Snarky Puppy",
+					"album": "We Like It Here"
+				}
+			]
+		}
+	},
+	"The Pop Archipelago": {
+		"pop": {
+			"top_artists": [
+				{
+					"name": "Taylor Swift",
+					"album_count": 3
+				},
+				{
+					"name": "Katy Perry",
+					"album_count": 3
+				},
+				{
+					"name": "Bruno Mars",
+					"album_count": 2
+				},
+				{
+					"name": "Ariana Grande",
+					"album_count": 2
+				},
+				{
+					"name": "Ed Sheeran",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "1989",
+					"artist": "Taylor Swift",
+					"year": "2014"
+				},
+				{
+					"name": "Teenage Dream",
+					"artist": "Katy Perry",
+					"year": "2010"
+				},
+				{
+					"name": "÷",
+					"artist": "Ed Sheeran",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Shake It Off",
+					"artist": "Taylor Swift",
+					"album": "1989"
+				}
+			]
+		},
+		"teen pop": {
+			"top_artists": [
+				{
+					"name": "Justin Bieber",
+					"album_count": 3
+				},
+				{
+					"name": "Selena Gomez",
+					"album_count": 2
+				},
+				{
+					"name": "Ariana Grande",
+					"album_count": 2
+				},
+				{
+					"name": "Shawn Mendes",
+					"album_count": 2
+				},
+				{
+					"name": "Fifth Harmony",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Purpose",
+					"artist": "Justin Bieber",
+					"year": "2015"
+				},
+				{
+					"name": "My Everything",
+					"artist": "Ariana Grande",
+					"year": "2014"
+				},
+				{
+					"name": "Illuminate",
+					"artist": "Shawn Mendes",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sorry",
+					"artist": "Justin Bieber",
+					"album": "Purpose"
+				}
+			]
+		},
+		"dance-pop": {
+			"top_artists": [
+				{
+					"name": "Lady Gaga",
+					"album_count": 3
+				},
+				{
+					"name": "Rihanna",
+					"album_count": 3
+				},
+				{
+					"name": "Kesha",
+					"album_count": 2
+				},
+				{
+					"name": "Carly Rae Jepsen",
+					"album_count": 2
+				},
+				{
+					"name": "Charli XCX",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Born This Way",
+					"artist": "Lady Gaga",
+					"year": "2011"
+				},
+				{
+					"name": "Kiss",
+					"artist": "Carly Rae Jepsen",
+					"year": "2012"
+				},
+				{
+					"name": "ANTI",
+					"artist": "Rihanna",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Call Me Maybe",
+					"artist": "Carly Rae Jepsen",
+					"album": "Kiss"
+				}
+			]
+		},
+		"k-pop": {
+			"top_artists": [
+				{
+					"name": "BTS",
+					"album_count": 3
+				},
+				{
+					"name": "BLACKPINK",
+					"album_count": 3
+				},
+				{
+					"name": "EXO",
+					"album_count": 2
+				},
+				{
+					"name": "TWICE",
+					"album_count": 2
+				},
+				{
+					"name": "Red Velvet",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Wings",
+					"artist": "BTS",
+					"year": "2016"
+				},
+				{
+					"name": "The Most Beautiful Moment in Life, Part 2",
+					"artist": "BTS",
+					"year": "2015"
+				},
+				{
+					"name": "XOXO",
+					"artist": "EXO",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blood Sweat & Tears",
+					"artist": "BTS",
+					"album": "Wings"
+				}
+			]
+		},
+		"j-pop": {
+			"top_artists": [
+				{
+					"name": "Perfume",
+					"album_count": 3
+				},
+				{
+					"name": "AKB48",
+					"album_count": 3
+				},
+				{
+					"name": "Arashi",
+					"album_count": 2
+				},
+				{
+					"name": "Kyary Pamyu Pamyu",
+					"album_count": 2
+				},
+				{
+					"name": "ONE OK ROCK",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "LEVEL3",
+					"artist": "Perfume",
+					"year": "2013"
+				},
+				{
+					"name": "Pamyu Pamyu Revolution",
+					"artist": "Kyary Pamyu Pamyu",
+					"year": "2012"
+				},
+				{
+					"name": "Japonism",
+					"artist": "Arashi",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Magic of Love",
+					"artist": "Perfume",
+					"album": "LEVEL3"
+				}
+			]
+		}
+	},
+	"The Folk & Roots Plains": {
+		"folk": {
+			"top_artists": [
+				{
+					"name": "Bon Iver",
+					"album_count": 3
+				},
+				{
+					"name": "The Lumineers",
+					"album_count": 2
+				},
+				{
+					"name": "Mumford & Sons",
+					"album_count": 2
+				},
+				{
+					"name": "Father John Misty",
+					"album_count": 2
+				},
+				{
+					"name": "Fleet Foxes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bon Iver, Bon Iver",
+					"artist": "Bon Iver",
+					"year": "2011"
+				},
+				{
+					"name": "The Lumineers",
+					"artist": "The Lumineers",
+					"year": "2012"
+				},
+				{
+					"name": "I Love You, Honeybear",
+					"artist": "Father John Misty",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Holocene",
+					"artist": "Bon Iver",
+					"album": "Bon Iver, Bon Iver"
+				}
+			]
+		},
+		"country": {
+			"top_artists": [
+				{
+					"name": "Chris Stapleton",
+					"album_count": 3
+				},
+				{
+					"name": "Luke Bryan",
+					"album_count": 2
+				},
+				{
+					"name": "Carrie Underwood",
+					"album_count": 2
+				},
+				{
+					"name": "Kacey Musgraves",
+					"album_count": 2
+				},
+				{
+					"name": "Jason Aldean",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Traveller",
+					"artist": "Chris Stapleton",
+					"year": "2015"
+				},
+				{
+					"name": "Golden Hour",
+					"artist": "Kacey Musgraves",
+					"year": "2018"
+				},
+				{
+					"name": "Tailgates & Tanlines",
+					"artist": "Luke Bryan",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Tennessee Whiskey",
+					"artist": "Chris Stapleton",
+					"album": "Traveller"
+				}
+			]
+		},
+		"singer-songwriter": {
+			"top_artists": [
+				{
+					"name": "Bon Iver",
+					"album_count": 3
+				},
+				{
+					"name": "Sufjan Stevens",
+					"album_count": 2
+				},
+				{
+					"name": "Father John Misty",
+					"album_count": 2
+				},
+				{
+					"name": "Phoebe Bridgers",
+					"album_count": 2
+				},
+				{
+					"name": "Angel Olsen",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "22, A Million",
+					"artist": "Bon Iver",
+					"year": "2016"
+				},
+				{
+					"name": "Carrie & Lowell",
+					"artist": "Sufjan Stevens",
+					"year": "2015"
+				},
+				{
+					"name": "Stranger in the Alps",
+					"artist": "Phoebe Bridgers",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Should Have Known Better",
+					"artist": "Sufjan Stevens",
+					"album": "Carrie & Lowell"
+				}
+			]
+		},
+		"americana": {
+			"top_artists": [
+				{
+					"name": "Sturgill Simpson",
+					"album_count": 3
+				},
+				{
+					"name": "Jason Isbell",
+					"album_count": 3
+				},
+				{
+					"name": "Ryan Adams",
+					"album_count": 2
+				},
+				{
+					"name": "The Avett Brothers",
+					"album_count": 2
+				},
+				{
+					"name": "Nathaniel Rateliff",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Metamodern Sounds in Country Music",
+					"artist": "Sturgill Simpson",
+					"year": "2014"
+				},
+				{
+					"name": "Southeastern",
+					"artist": "Jason Isbell",
+					"year": "2013"
+				},
+				{
+					"name": "The Carpenter",
+					"artist": "The Avett Brothers",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Turtles All the Way Down",
+					"artist": "Sturgill Simpson",
+					"album": "Metamodern Sounds in Country Music"
+				}
+			]
+		}
+	},
+	"The Metal Peaks": {
+		"metal": {
+			"top_artists": [
+				{
+					"name": "Gojira",
+					"album_count": 3
+				},
+				{
+					"name": "Mastodon",
+					"album_count": 3
+				},
+				{
+					"name": "Opeth",
+					"album_count": 2
+				},
+				{
+					"name": "Tool",
+					"album_count": 2
+				},
+				{
+					"name": "Meshuggah",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "L'Enfant Sauvage",
+					"artist": "Gojira",
+					"year": "2012"
+				},
+				{
+					"name": "The Hunter",
+					"artist": "Mastodon",
+					"year": "2011"
+				},
+				{
+					"name": "Pale Communion",
+					"artist": "Opeth",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "L'Enfant Sauvage",
+					"artist": "Gojira",
+					"album": "L'Enfant Sauvage"
+				}
+			]
+		},
+		"heavy metal": {
+			"top_artists": [
+				{
+					"name": "Iron Maiden",
+					"album_count": 3
+				},
+				{
+					"name": "Judas Priest",
+					"album_count": 2
+				},
+				{
+					"name": "Ghost",
+					"album_count": 2
+				},
+				{
+					"name": "Enforcer",
+					"album_count": 2
+				},
+				{
+					"name": "Saxon",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Book of Souls",
+					"artist": "Iron Maiden",
+					"year": "2015"
+				},
+				{
+					"name": "Meliora",
+					"artist": "Ghost",
+					"year": "2015"
+				},
+				{
+					"name": "Redeemer of Souls",
+					"artist": "Judas Priest",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "If Eternity Should Fail",
+					"artist": "Iron Maiden",
+					"album": "The Book of Souls"
+				}
+			]
+		},
+		"thrash metal": {
+			"top_artists": [
+				{
+					"name": "Slayer",
+					"album_count": 3
+				},
+				{
+					"name": "Megadeth",
+					"album_count": 2
+				},
+				{
+					"name": "Testament",
+					"album_count": 2
+				},
+				{
+					"name": "Overkill",
+					"album_count": 2
+				},
+				{
+					"name": "Anthrax",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "World Painted Blood",
+					"artist": "Slayer",
+					"year": "2009"
+				},
+				{
+					"name": "Dystopia",
+					"artist": "Megadeth",
+					"year": "2016"
+				},
+				{
+					"name": "Brotherhood of the Snake",
+					"artist": "Testament",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "World Painted Blood",
+					"artist": "Slayer",
+					"album": "World Painted Blood"
+				}
+			]
+		},
+		"black metal": {
+			"top_artists": [
+				{
+					"name": "Deafheaven",
+					"album_count": 3
+				},
+				{
+					"name": "Wolves in the Throne Room",
+					"album_count": 2
+				},
+				{
+					"name": "Mgła",
+					"album_count": 2
+				},
+				{
+					"name": "Watain",
+					"album_count": 2
+				},
+				{
+					"name": "Alcest",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sunbather",
+					"artist": "Deafheaven",
+					"year": "2013"
+				},
+				{
+					"name": "New Bermuda",
+					"artist": "Deafheaven",
+					"year": "2015"
+				},
+				{
+					"name": "Exercises in Futility",
+					"artist": "Mgła",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dream House",
+					"artist": "Deafheaven",
+					"album": "Sunbather"
+				}
+			]
+		},
+		"death metal": {
+			"top_artists": [
+				{
+					"name": "Gorguts",
+					"album_count": 3
+				},
+				{
+					"name": "Blood Incantation",
+					"album_count": 2
+				},
+				{
+					"name": "Tomb Mold",
+					"album_count": 2
+				},
+				{
+					"name": "Horrendous",
+					"album_count": 2
+				},
+				{
+					"name": "Revocation",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Colored Sands",
+					"artist": "Gorguts",
+					"year": "2013"
+				},
+				{
+					"name": "Starspawn",
+					"artist": "Blood Incantation",
+					"year": "2016"
+				},
+				{
+					"name": "Manor of Infinite Forms",
+					"artist": "Tomb Mold",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Le Toit du Monde",
+					"artist": "Gorguts",
+					"album": "Colored Sands"
+				}
+			]
+		},
+		"doom metal": {
+			"top_artists": [
+				{
+					"name": "Electric Wizard",
+					"album_count": 3
+				},
+				{
+					"name": "Pallbearer",
+					"album_count": 2
+				},
+				{
+					"name": "Bell Witch",
+					"album_count": 2
+				},
+				{
+					"name": "Uncle Acid & the Deadbeats",
+					"album_count": 2
+				},
+				{
+					"name": "Sleep",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Masses",
+					"artist": "Electric Wizard",
+					"year": "2010"
+				},
+				{
+					"name": "Sorrow and Extinction",
+					"artist": "Pallbearer",
+					"year": "2012"
+				},
+				{
+					"name": "Mirror Reaper",
+					"artist": "Bell Witch",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Patterns of Evil",
+					"artist": "Electric Wizard",
+					"album": "Black Masses"
+				}
+			]
+		},
+		"metalcore": {
+			"top_artists": [
+				{
+					"name": "Architects",
+					"album_count": 3
+				},
+				{
+					"name": "August Burns Red",
+					"album_count": 3
+				},
+				{
+					"name": "Parkway Drive",
+					"album_count": 2
+				},
+				{
+					"name": "Killswitch Engage",
+					"album_count": 2
+				},
+				{
+					"name": "Converge",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Lost Forever // Lost Together",
+					"artist": "Architects",
+					"year": "2014"
+				},
+				{
+					"name": "Rescue & Restore",
+					"artist": "August Burns Red",
+					"year": "2013"
+				},
+				{
+					"name": "Atlas",
+					"artist": "Parkway Drive",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Naysayer",
+					"artist": "Architects",
+					"album": "Lost Forever // Lost Together"
+				}
+			]
+		},
+		"sludge": {
+			"top_artists": [
+				{
+					"name": "Mastodon",
+					"album_count": 3
+				},
+				{
+					"name": "Neurosis",
+					"album_count": 2
+				},
+				{
+					"name": "Yob",
+					"album_count": 2
+				},
+				{
+					"name": "Baroness",
+					"album_count": 2
+				},
+				{
+					"name": "The Ocean",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Once More 'Round the Sun",
+					"artist": "Mastodon",
+					"year": "2014"
+				},
+				{
+					"name": "Purple",
+					"artist": "Baroness",
+					"year": "2015"
+				},
+				{
+					"name": "Clearing the Path to Ascend",
+					"artist": "Yob",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Motherload",
+					"artist": "Mastodon",
+					"album": "Once More 'Round the Sun"
+				}
+			]
+		},
+		"grindcore": {
+			"top_artists": [
+				{
+					"name": "Pig Destroyer",
+					"album_count": 3
+				},
+				{
+					"name": "Napalm Death",
+					"album_count": 2
+				},
+				{
+					"name": "Phobia",
+					"album_count": 2
+				},
+				{
+					"name": "Full of Hell",
+					"album_count": 2
+				},
+				{
+					"name": "Insect Warfare",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Book Burner",
+					"artist": "Pig Destroyer",
+					"year": "2012"
+				},
+				{
+					"name": "Utilitarian",
+					"artist": "Napalm Death",
+					"year": "2012"
+				},
+				{
+					"name": "Trumpeting Ecstasy",
+					"artist": "Full of Hell",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Diplomat",
+					"artist": "Pig Destroyer",
+					"album": "Book Burner"
+				}
+			]
+		},
+		"power metal": {
+			"top_artists": [
+				{
+					"name": "Sabaton",
+					"album_count": 3
+				},
+				{
+					"name": "Blind Guardian",
+					"album_count": 2
+				},
+				{
+					"name": "Powerwolf",
+					"album_count": 2
+				},
+				{
+					"name": "DragonForce",
+					"album_count": 2
+				},
+				{
+					"name": "Gloryhammer",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Carolus Rex",
+					"artist": "Sabaton",
+					"year": "2012"
+				},
+				{
+					"name": "The Last Stand",
+					"artist": "Sabaton",
+					"year": "2016"
+				},
+				{
+					"name": "Maximum Overload",
+					"artist": "DragonForce",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Carolus Rex",
+					"artist": "Sabaton",
+					"album": "Carolus Rex"
+				}
+			]
+		},
+		"gothic metal": {
+			"top_artists": [
+				{
+					"name": "Nightwish",
+					"album_count": 3
+				},
+				{
+					"name": "Lacuna Coil",
+					"album_count": 2
+				},
+				{
+					"name": "Epica",
+					"album_count": 2
+				},
+				{
+					"name": "Delain",
+					"album_count": 2
+				},
+				{
+					"name": "Within Temptation",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Imaginaerum",
+					"artist": "Nightwish",
+					"year": "2011"
+				},
+				{
+					"name": "Endless Forms Most Beautiful",
+					"artist": "Nightwish",
+					"year": "2015"
+				},
+				{
+					"name": "The Quantum Enigma",
+					"artist": "Epica",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Storytime",
+					"artist": "Nightwish",
+					"album": "Imaginaerum"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"reggae": {
+			"top_artists": [
+				{
+					"name": "Chronixx",
+					"album_count": 3
+				},
+				{
+					"name": "Protoje",
+					"album_count": 2
+				},
+				{
+					"name": "Damian Marley",
+					"album_count": 2
+				},
+				{
+					"name": "Rebelution",
+					"album_count": 2
+				},
+				{
+					"name": "SOJA",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chronology",
+					"artist": "Chronixx",
+					"year": "2017"
+				},
+				{
+					"name": "Ancient Future",
+					"artist": "Protoje",
+					"year": "2015"
+				},
+				{
+					"name": "Stony Hill",
+					"artist": "Damian Marley",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Chronology",
+					"artist": "Chronixx",
+					"album": "Chronology"
+				}
+			]
+		},
+		"dancehall": {
+			"top_artists": [
+				{
+					"name": "Vybz Kartel",
+					"album_count": 3
+				},
+				{
+					"name": "Popcaan",
+					"album_count": 2
+				},
+				{
+					"name": "Alkaline",
+					"album_count": 2
+				},
+				{
+					"name": "Tommy Lee Sparta",
+					"album_count": 2
+				},
+				{
+					"name": "Mavado",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Kingston Story",
+					"artist": "Vybz Kartel",
+					"year": "2011"
+				},
+				{
+					"name": "Where We Come From",
+					"artist": "Popcaan",
+					"year": "2014"
+				},
+				{
+					"name": "New Level Unlocked",
+					"artist": "Alkaline",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Clarks",
+					"artist": "Vybz Kartel",
+					"album": "Kingston Story"
+				}
+			]
+		},
+		"reggaeton": {
+			"top_artists": [
+				{
+					"name": "J Balvin",
+					"album_count": 3
+				},
+				{
+					"name": "Daddy Yankee",
+					"album_count": 3
+				},
+				{
+					"name": "Ozuna",
+					"album_count": 2
+				},
+				{
+					"name": "Bad Bunny",
+					"album_count": 2
+				},
+				{
+					"name": "Maluma",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Energía",
+					"artist": "J Balvin",
+					"year": "2016"
+				},
+				{
+					"name": "Prestige",
+					"artist": "Daddy Yankee",
+					"year": "2012"
+				},
+				{
+					"name": "Odisea",
+					"artist": "Ozuna",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Ginza",
+					"artist": "J Balvin",
+					"album": "Energía"
+				}
+			]
+		},
+		"dub": {
+			"top_artists": [
+				{
+					"name": "Lee \"Scratch\" Perry",
+					"album_count": 2
+				},
+				{
+					"name": "Mad Professor",
+					"album_count": 2
+				},
+				{
+					"name": "Radikal Guru",
+					"album_count": 2
+				},
+				{
+					"name": "Iration Steppas",
+					"album_count": 2
+				},
+				{
+					"name": "Zion Train",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Revelation Dub",
+					"artist": "Lee Perry & Mad Professor",
+					"year": "2010"
+				},
+				{
+					"name": "Subconscious",
+					"artist": "Radikal Guru",
+					"year": "2011"
+				},
+				{
+					"name": "Inna Dub Style",
+					"artist": "Iration Steppas",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dub Revolution",
+					"artist": "Lee Perry & Mad Professor",
+					"album": "Revelation Dub"
+				}
+			]
+		},
+		"afrobeats": {
+			"top_artists": [
+				{
+					"name": "Wizkid",
+					"album_count": 3
+				},
+				{
+					"name": "Davido",
+					"album_count": 3
+				},
+				{
+					"name": "Burna Boy",
+					"album_count": 2
+				},
+				{
+					"name": "Mr Eazi",
+					"album_count": 2
+				},
+				{
+					"name": "Yemi Alade",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ayo",
+					"artist": "Wizkid",
+					"year": "2014"
+				},
+				{
+					"name": "A Good Time",
+					"artist": "Davido",
+					"year": "2019"
+				},
+				{
+					"name": "Outside",
+					"artist": "Burna Boy",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Ojuelegba",
+					"artist": "Wizkid",
+					"album": "Ayo"
+				}
+			]
+		}
+	},
+	"The Avant-Garde Isles": {
+		"experimental": {
+			"top_artists": [
+				{
+					"name": "Death Grips",
+					"album_count": 3
+				},
+				{
+					"name": "Swans",
+					"album_count": 3
+				},
+				{
+					"name": "Arca",
+					"album_count": 2
+				},
+				{
+					"name": "Oneohtrix Point Never",
+					"album_count": 2
+				},
+				{
+					"name": "The Knife",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Money Store",
+					"artist": "Death Grips",
+					"year": "2012"
+				},
+				{
+					"name": "To Be Kind",
+					"artist": "Swans",
+					"year": "2014"
+				},
+				{
+					"name": "Xen",
+					"artist": "Arca",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Get Got",
+					"artist": "Death Grips",
+					"album": "The Money Store"
+				}
+			]
+		},
+		"noise": {
+			"top_artists": [
+				{
+					"name": "Merzbow",
+					"album_count": 3
+				},
+				{
+					"name": "Prurient",
+					"album_count": 2
+				},
+				{
+					"name": "The Body",
+					"album_count": 2
+				},
+				{
+					"name": "Pharmakon",
+					"album_count": 2
+				},
+				{
+					"name": "Wolf Eyes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Takahe Collage",
+					"artist": "Merzbow",
+					"year": "2013"
+				},
+				{
+					"name": "Frozen Niagara Falls",
+					"artist": "Prurient",
+					"year": "2015"
+				},
+				{
+					"name": "Bestial Burden",
+					"artist": "Pharmakon",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Jigokuhen",
+					"artist": "Merzbow",
+					"album": "Takahe Collage"
+				}
+			]
+		},
+		"dark ambient": {
+			"top_artists": [
+				{
+					"name": "Lustmord",
+					"album_count": 3
+				},
+				{
+					"name": "Atrium Carceri",
+					"album_count": 2
+				},
+				{
+					"name": "Cryo Chamber",
+					"album_count": 2
+				},
+				{
+					"name": "Kammarheit",
+					"album_count": 2
+				},
+				{
+					"name": "Sabled Sun",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Dark Places of the Earth",
+					"artist": "Lustmord",
+					"year": "2015"
+				},
+				{
+					"name": "Metropolis",
+					"artist": "Atrium Carceri",
+					"year": "2015"
+				},
+				{
+					"name": "The Ashen City Cycle",
+					"artist": "Kammarheit",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Babel",
+					"artist": "Lustmord",
+					"album": "The Dark Places of the Earth"
+				}
+			]
+		},
+		"drone": {
+			"top_artists": [
+				{
+					"name": "Sunn O)))",
+					"album_count": 3
+				},
+				{
+					"name": "Earth",
+					"album_count": 2
+				},
+				{
+					"name": "Tim Hecker",
+					"album_count": 2
+				},
+				{
+					"name": "Grouper",
+					"album_count": 2
+				},
+				{
+					"name": "The Haxan Cloak",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Monoliths & Dimensions",
+					"artist": "Sunn O)))",
+					"year": "2009"
+				},
+				{
+					"name": "Angels of Darkness, Demons of Light 1",
+					"artist": "Earth",
+					"year": "2011"
+				},
+				{
+					"name": "Dragging a Dead Deer Up a Hill",
+					"artist": "Grouper",
+					"year": "2008"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Aghartha",
+					"artist": "Sunn O)))",
+					"album": "Monoliths & Dimensions"
+				}
+			]
+		}
+	}
+}

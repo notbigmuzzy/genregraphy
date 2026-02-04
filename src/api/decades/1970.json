@@ -1,0 +1,1940 @@
+{
+	"The Rock Shield": {
+		"rock": {
+			"top_artists": [
+				{
+					"name": "Led Zeppelin",
+					"album_count": 3
+				},
+				{
+					"name": "Pink Floyd",
+					"album_count": 3
+				},
+				{
+					"name": "The Rolling Stones",
+					"album_count": 2
+				},
+				{
+					"name": "Queen",
+					"album_count": 2
+				},
+				{
+					"name": "David Bowie",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Led Zeppelin IV",
+					"artist": "Led Zeppelin",
+					"year": "1971"
+				},
+				{
+					"name": "The Dark Side of the Moon",
+					"artist": "Pink Floyd",
+					"year": "1973"
+				},
+				{
+					"name": "Exile on Main St.",
+					"artist": "The Rolling Stones",
+					"year": "1972"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Stairway to Heaven",
+					"artist": "Led Zeppelin",
+					"album": "Led Zeppelin IV"
+				}
+			]
+		},
+		"punk": {
+			"top_artists": [
+				{
+					"name": "The Ramones",
+					"album_count": 3
+				},
+				{
+					"name": "Sex Pistols",
+					"album_count": 2
+				},
+				{
+					"name": "The Clash",
+					"album_count": 2
+				},
+				{
+					"name": "The Damned",
+					"album_count": 2
+				},
+				{
+					"name": "Television",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ramones",
+					"artist": "The Ramones",
+					"year": "1976"
+				},
+				{
+					"name": "Never Mind the Bollocks",
+					"artist": "Sex Pistols",
+					"year": "1977"
+				},
+				{
+					"name": "The Clash",
+					"artist": "The Clash",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blitzkrieg Bop",
+					"artist": "The Ramones",
+					"album": "Ramones"
+				}
+			]
+		},
+		"hard rock": {
+			"top_artists": [
+				{
+					"name": "AC/DC",
+					"album_count": 3
+				},
+				{
+					"name": "Aerosmith",
+					"album_count": 3
+				},
+				{
+					"name": "Deep Purple",
+					"album_count": 2
+				},
+				{
+					"name": "Thin Lizzy",
+					"album_count": 2
+				},
+				{
+					"name": "UFO",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Highway to Hell",
+					"artist": "AC/DC",
+					"year": "1979"
+				},
+				{
+					"name": "Toys in the Attic",
+					"artist": "Aerosmith",
+					"year": "1975"
+				},
+				{
+					"name": "Machine Head",
+					"artist": "Deep Purple",
+					"year": "1972"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Highway to Hell",
+					"artist": "AC/DC",
+					"album": "Highway to Hell"
+				}
+			]
+		},
+		"psychedelic rock": {
+			"top_artists": [
+				{
+					"name": "Pink Floyd",
+					"album_count": 3
+				},
+				{
+					"name": "Hawkwind",
+					"album_count": 2
+				},
+				{
+					"name": "Gong",
+					"album_count": 2
+				},
+				{
+					"name": "Amon Düül II",
+					"album_count": 2
+				},
+				{
+					"name": "Can",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Dark Side of the Moon",
+					"artist": "Pink Floyd",
+					"year": "1973"
+				},
+				{
+					"name": "Space Ritual",
+					"artist": "Hawkwind",
+					"year": "1973"
+				},
+				{
+					"name": "You",
+					"artist": "Gong",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Time",
+					"artist": "Pink Floyd",
+					"album": "The Dark Side of the Moon"
+				}
+			]
+		},
+		"progressive rock": {
+			"top_artists": [
+				{
+					"name": "Yes",
+					"album_count": 3
+				},
+				{
+					"name": "Genesis",
+					"album_count": 3
+				},
+				{
+					"name": "King Crimson",
+					"album_count": 2
+				},
+				{
+					"name": "Emerson, Lake & Palmer",
+					"album_count": 2
+				},
+				{
+					"name": "Jethro Tull",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Close to the Edge",
+					"artist": "Yes",
+					"year": "1972"
+				},
+				{
+					"name": "Selling England by the Pound",
+					"artist": "Genesis",
+					"year": "1973"
+				},
+				{
+					"name": "Brain Salad Surgery",
+					"artist": "Emerson, Lake & Palmer",
+					"year": "1973"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Close to the Edge",
+					"artist": "Yes",
+					"album": "Close to the Edge"
+				}
+			]
+		},
+		"post-punk": {
+			"top_artists": [
+				{
+					"name": "Joy Division",
+					"album_count": 2
+				},
+				{
+					"name": "Wire",
+					"album_count": 2
+				},
+				{
+					"name": "Magazine",
+					"album_count": 2
+				},
+				{
+					"name": "Gang of Four",
+					"album_count": 1
+				},
+				{
+					"name": "Public Image Ltd.",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Unknown Pleasures",
+					"artist": "Joy Division",
+					"year": "1979"
+				},
+				{
+					"name": "Pink Flag",
+					"artist": "Wire",
+					"year": "1977"
+				},
+				{
+					"name": "Entertainment!",
+					"artist": "Gang of Four",
+					"year": "1979"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Disorder",
+					"artist": "Joy Division",
+					"album": "Unknown Pleasures"
+				}
+			]
+		},
+		"new wave": {
+			"top_artists": [
+				{
+					"name": "Talking Heads",
+					"album_count": 3
+				},
+				{
+					"name": "Blondie",
+					"album_count": 2
+				},
+				{
+					"name": "The Cars",
+					"album_count": 2
+				},
+				{
+					"name": "Devo",
+					"album_count": 2
+				},
+				{
+					"name": "Elvis Costello",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fear of Music",
+					"artist": "Talking Heads",
+					"year": "1979"
+				},
+				{
+					"name": "Parallel Lines",
+					"artist": "Blondie",
+					"year": "1978"
+				},
+				{
+					"name": "The Cars",
+					"artist": "The Cars",
+					"year": "1978"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Life During Wartime",
+					"artist": "Talking Heads",
+					"album": "Fear of Music"
+				}
+			]
+		},
+		"hardcore": {
+			"top_artists": [
+				{
+					"name": "Bad Brains",
+					"album_count": 2
+				},
+				{
+					"name": "Black Flag",
+					"album_count": 2
+				},
+				{
+					"name": "Dead Kennedys",
+					"album_count": 1
+				},
+				{
+					"name": "Middle Class",
+					"album_count": 1
+				},
+				{
+					"name": "The Germs",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bad Brains",
+					"artist": "Bad Brains",
+					"year": "1982"
+				},
+				{
+					"name": "Nervous Breakdown",
+					"artist": "Black Flag",
+					"year": "1978"
+				},
+				{
+					"name": "(GI)",
+					"artist": "The Germs",
+					"year": "1979"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pay to Cum",
+					"artist": "Bad Brains",
+					"album": "Bad Brains"
+				}
+			]
+		}
+	},
+	"The Electronic Frontier": {
+		"electronic": {
+			"top_artists": [
+				{
+					"name": "Kraftwerk",
+					"album_count": 3
+				},
+				{
+					"name": "Tangerine Dream",
+					"album_count": 3
+				},
+				{
+					"name": "Jean-Michel Jarre",
+					"album_count": 2
+				},
+				{
+					"name": "Giorgio Moroder",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Eno",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Trans-Europe Express",
+					"artist": "Kraftwerk",
+					"year": "1977"
+				},
+				{
+					"name": "Phaedra",
+					"artist": "Tangerine Dream",
+					"year": "1974"
+				},
+				{
+					"name": "Oxygène",
+					"artist": "Jean-Michel Jarre",
+					"year": "1976"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Europe Endless",
+					"artist": "Kraftwerk",
+					"album": "Trans-Europe Express"
+				}
+			]
+		},
+		"ambient": {
+			"top_artists": [
+				{
+					"name": "Brian Eno",
+					"album_count": 3
+				},
+				{
+					"name": "Tangerine Dream",
+					"album_count": 2
+				},
+				{
+					"name": "Harold Budd",
+					"album_count": 2
+				},
+				{
+					"name": "Klaus Schulze",
+					"album_count": 2
+				},
+				{
+					"name": "Cluster",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ambient 1: Music for Airports",
+					"artist": "Brian Eno",
+					"year": "1978"
+				},
+				{
+					"name": "Phaedra",
+					"artist": "Tangerine Dream",
+					"year": "1974"
+				},
+				{
+					"name": "Timewind",
+					"artist": "Klaus Schulze",
+					"year": "1975"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "1/1",
+					"artist": "Brian Eno",
+					"album": "Ambient 1: Music for Airports"
+				}
+			]
+		},
+		"synth-pop": {
+			"top_artists": [
+				{
+					"name": "Gary Numan",
+					"album_count": 2
+				},
+				{
+					"name": "Kraftwerk",
+					"album_count": 2
+				},
+				{
+					"name": "Ultravox",
+					"album_count": 2
+				},
+				{
+					"name": "The Human League",
+					"album_count": 1
+				},
+				{
+					"name": "Orchestral Manoeuvres in the Dark",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Pleasure Principle",
+					"artist": "Gary Numan",
+					"year": "1979"
+				},
+				{
+					"name": "The Man-Machine",
+					"artist": "Kraftwerk",
+					"year": "1978"
+				},
+				{
+					"name": "Systems of Romance",
+					"artist": "Ultravox",
+					"year": "1978"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Cars",
+					"artist": "Gary Numan",
+					"album": "The Pleasure Principle"
+				}
+			]
+		},
+		"industrial": {
+			"top_artists": [
+				{
+					"name": "Throbbing Gristle",
+					"album_count": 3
+				},
+				{
+					"name": "Cabaret Voltaire",
+					"album_count": 2
+				},
+				{
+					"name": "SPK",
+					"album_count": 2
+				},
+				{
+					"name": "Chrome",
+					"album_count": 1
+				},
+				{
+					"name": "NON",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Second Annual Report",
+					"artist": "Throbbing Gristle",
+					"year": "1977"
+				},
+				{
+					"name": "Mix-Up",
+					"artist": "Cabaret Voltaire",
+					"year": "1979"
+				},
+				{
+					"name": "Alien Soundtracks",
+					"artist": "Chrome",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Slug Bait",
+					"artist": "Throbbing Gristle",
+					"album": "The Second Annual Report"
+				}
+			]
+		}
+	},
+	"The Hip-Hop Basin": {
+		"r&b": {
+			"top_artists": [
+				{
+					"name": "Stevie Wonder",
+					"album_count": 3
+				},
+				{
+					"name": "Marvin Gaye",
+					"album_count": 3
+				},
+				{
+					"name": "Curtis Mayfield",
+					"album_count": 2
+				},
+				{
+					"name": "Al Green",
+					"album_count": 2
+				},
+				{
+					"name": "Barry White",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Songs in the Key of Life",
+					"artist": "Stevie Wonder",
+					"year": "1976"
+				},
+				{
+					"name": "What's Going On",
+					"artist": "Marvin Gaye",
+					"year": "1971"
+				},
+				{
+					"name": "Let's Stay Together",
+					"artist": "Al Green",
+					"year": "1972"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sir Duke",
+					"artist": "Stevie Wonder",
+					"album": "Songs in the Key of Life"
+				}
+			]
+		},
+		"soul": {
+			"top_artists": [
+				{
+					"name": "Al Green",
+					"album_count": 3
+				},
+				{
+					"name": "Curtis Mayfield",
+					"album_count": 2
+				},
+				{
+					"name": "Isaac Hayes",
+					"album_count": 2
+				},
+				{
+					"name": "Bill Withers",
+					"album_count": 2
+				},
+				{
+					"name": "Donny Hathaway",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "I'm Still in Love with You",
+					"artist": "Al Green",
+					"year": "1972"
+				},
+				{
+					"name": "Hot Buttered Soul",
+					"artist": "Isaac Hayes",
+					"year": "1969"
+				},
+				{
+					"name": "Just as I Am",
+					"artist": "Bill Withers",
+					"year": "1971"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Let's Stay Together",
+					"artist": "Al Green",
+					"album": "I'm Still in Love with You"
+				}
+			]
+		},
+		"funk": {
+			"top_artists": [
+				{
+					"name": "Parliament",
+					"album_count": 3
+				},
+				{
+					"name": "Funkadelic",
+					"album_count": 3
+				},
+				{
+					"name": "Earth, Wind & Fire",
+					"album_count": 2
+				},
+				{
+					"name": "The Ohio Players",
+					"album_count": 2
+				},
+				{
+					"name": "Sly and the Family Stone",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mothership Connection",
+					"artist": "Parliament",
+					"year": "1975"
+				},
+				{
+					"name": "Maggot Brain",
+					"artist": "Funkadelic",
+					"year": "1971"
+				},
+				{
+					"name": "That's the Way of the World",
+					"artist": "Earth, Wind & Fire",
+					"year": "1975"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Give Up the Funk",
+					"artist": "Parliament",
+					"album": "Mothership Connection"
+				}
+			]
+		},
+		"disco": {
+			"top_artists": [
+				{
+					"name": "Bee Gees",
+					"album_count": 3
+				},
+				{
+					"name": "Donna Summer",
+					"album_count": 3
+				},
+				{
+					"name": "Chic",
+					"album_count": 2
+				},
+				{
+					"name": "KC and the Sunshine Band",
+					"album_count": 2
+				},
+				{
+					"name": "Gloria Gaynor",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Saturday Night Fever",
+					"artist": "Bee Gees",
+					"year": "1977"
+				},
+				{
+					"name": "Bad Girls",
+					"artist": "Donna Summer",
+					"year": "1979"
+				},
+				{
+					"name": "C'est Chic",
+					"artist": "Chic",
+					"year": "1978"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Stayin' Alive",
+					"artist": "Bee Gees",
+					"album": "Saturday Night Fever"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"jazz": {
+			"top_artists": [
+				{
+					"name": "Miles Davis",
+					"album_count": 3
+				},
+				{
+					"name": "Herbie Hancock",
+					"album_count": 3
+				},
+				{
+					"name": "Keith Jarrett",
+					"album_count": 2
+				},
+				{
+					"name": "McCoy Tyner",
+					"album_count": 2
+				},
+				{
+					"name": "Charles Mingus",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bitches Brew",
+					"artist": "Miles Davis",
+					"year": "1970"
+				},
+				{
+					"name": "Head Hunters",
+					"artist": "Herbie Hancock",
+					"year": "1973"
+				},
+				{
+					"name": "The Köln Concert",
+					"artist": "Keith Jarrett",
+					"year": "1975"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pharaoh's Dance",
+					"artist": "Miles Davis",
+					"album": "Bitches Brew"
+				}
+			]
+		},
+		"blues": {
+			"top_artists": [
+				{
+					"name": "B.B. King",
+					"album_count": 3
+				},
+				{
+					"name": "Albert King",
+					"album_count": 2
+				},
+				{
+					"name": "Muddy Waters",
+					"album_count": 2
+				},
+				{
+					"name": "John Lee Hooker",
+					"album_count": 2
+				},
+				{
+					"name": "Buddy Guy",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Live in Cook County Jail",
+					"artist": "B.B. King",
+					"year": "1971"
+				},
+				{
+					"name": "I'll Play the Blues for You",
+					"artist": "Albert King",
+					"year": "1972"
+				},
+				{
+					"name": "Hard Again",
+					"artist": "Muddy Waters",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Thrill Is Gone",
+					"artist": "B.B. King",
+					"album": "Live in Cook County Jail"
+				}
+			]
+		},
+		"fusion": {
+			"top_artists": [
+				{
+					"name": "Weather Report",
+					"album_count": 3
+				},
+				{
+					"name": "Return to Forever",
+					"album_count": 3
+				},
+				{
+					"name": "Mahavishnu Orchestra",
+					"album_count": 2
+				},
+				{
+					"name": "Herbie Hancock",
+					"album_count": 2
+				},
+				{
+					"name": "Pat Metheny",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Heavy Weather",
+					"artist": "Weather Report",
+					"year": "1977"
+				},
+				{
+					"name": "The Inner Mounting Flame",
+					"artist": "Mahavishnu Orchestra",
+					"year": "1971"
+				},
+				{
+					"name": "Romantic Warrior",
+					"artist": "Return to Forever",
+					"year": "1976"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Birdland",
+					"artist": "Weather Report",
+					"album": "Heavy Weather"
+				}
+			]
+		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Muddy Waters",
+					"album_count": 3
+				},
+				{
+					"name": "Howlin' Wolf",
+					"album_count": 2
+				},
+				{
+					"name": "Buddy Guy",
+					"album_count": 2
+				},
+				{
+					"name": "Junior Wells",
+					"album_count": 2
+				},
+				{
+					"name": "Magic Sam",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hard Again",
+					"artist": "Muddy Waters",
+					"year": "1977"
+				},
+				{
+					"name": "Stone Crazy",
+					"artist": "Buddy Guy",
+					"year": "1979"
+				},
+				{
+					"name": "Southside Blues Jam",
+					"artist": "Junior Wells",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mannish Boy",
+					"artist": "Muddy Waters",
+					"album": "Hard Again"
+				}
+			]
+		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Grover Washington Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "George Benson",
+					"album_count": 2
+				},
+				{
+					"name": "Ronnie Foster",
+					"album_count": 2
+				},
+				{
+					"name": "Donald Byrd",
+					"album_count": 2
+				},
+				{
+					"name": "Roy Ayers",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mister Magic",
+					"artist": "Grover Washington Jr.",
+					"year": "1975"
+				},
+				{
+					"name": "Breezin'",
+					"artist": "George Benson",
+					"year": "1976"
+				},
+				{
+					"name": "Black Byrd",
+					"artist": "Donald Byrd",
+					"year": "1973"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mister Magic",
+					"artist": "Grover Washington Jr.",
+					"album": "Mister Magic"
+				}
+			]
+		}
+	},
+	"The Pop Archipelago": {
+		"pop": {
+			"top_artists": [
+				{
+					"name": "ABBA",
+					"album_count": 3
+				},
+				{
+					"name": "Elton John",
+					"album_count": 3
+				},
+				{
+					"name": "Fleetwood Mac",
+					"album_count": 2
+				},
+				{
+					"name": "Billy Joel",
+					"album_count": 2
+				},
+				{
+					"name": "The Carpenters",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Arrival",
+					"artist": "ABBA",
+					"year": "1976"
+				},
+				{
+					"name": "Goodbye Yellow Brick Road",
+					"artist": "Elton John",
+					"year": "1973"
+				},
+				{
+					"name": "Rumours",
+					"artist": "Fleetwood Mac",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dancing Queen",
+					"artist": "ABBA",
+					"album": "Arrival"
+				}
+			]
+		},
+		"dance-pop": {
+			"top_artists": [
+				{
+					"name": "ABBA",
+					"album_count": 3
+				},
+				{
+					"name": "Bee Gees",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Ross",
+					"album_count": 2
+				},
+				{
+					"name": "Donna Summer",
+					"album_count": 2
+				},
+				{
+					"name": "KC and the Sunshine Band",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Arrival",
+					"artist": "ABBA",
+					"year": "1976"
+				},
+				{
+					"name": "Diana",
+					"artist": "Diana Ross",
+					"year": "1980"
+				},
+				{
+					"name": "I Feel Love",
+					"artist": "Donna Summer",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dancing Queen",
+					"artist": "ABBA",
+					"album": "Arrival"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "Big Star",
+					"album_count": 3
+				},
+				{
+					"name": "Cheap Trick",
+					"album_count": 2
+				},
+				{
+					"name": "The Raspberries",
+					"album_count": 2
+				},
+				{
+					"name": "Badfinger",
+					"album_count": 2
+				},
+				{
+					"name": "Nick Lowe",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "#1 Record",
+					"artist": "Big Star",
+					"year": "1972"
+				},
+				{
+					"name": "At Budokan",
+					"artist": "Cheap Trick",
+					"year": "1978"
+				},
+				{
+					"name": "No Dice",
+					"artist": "Badfinger",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "September Gurls",
+					"artist": "Big Star",
+					"album": "#1 Record"
+				}
+			]
+		},
+		"europop": {
+			"top_artists": [
+				{
+					"name": "ABBA",
+					"album_count": 3
+				},
+				{
+					"name": "Boney M.",
+					"album_count": 2
+				},
+				{
+					"name": "Baccara",
+					"album_count": 2
+				},
+				{
+					"name": "Eruption",
+					"album_count": 1
+				},
+				{
+					"name": "Silver Convention",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Album",
+					"artist": "ABBA",
+					"year": "1977"
+				},
+				{
+					"name": "Nightflight to Venus",
+					"artist": "Boney M.",
+					"year": "1978"
+				},
+				{
+					"name": "Baccara",
+					"artist": "Baccara",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Name of the Game",
+					"artist": "ABBA",
+					"album": "The Album"
+				}
+			]
+		}
+	},
+	"The Folk & Roots Plains": {
+		"folk": {
+			"top_artists": [
+				{
+					"name": "Bob Dylan",
+					"album_count": 3
+				},
+				{
+					"name": "Joan Baez",
+					"album_count": 2
+				},
+				{
+					"name": "Joni Mitchell",
+					"album_count": 2
+				},
+				{
+					"name": "Nick Drake",
+					"album_count": 2
+				},
+				{
+					"name": "Sandy Denny",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Blood on the Tracks",
+					"artist": "Bob Dylan",
+					"year": "1975"
+				},
+				{
+					"name": "Blue",
+					"artist": "Joni Mitchell",
+					"year": "1971"
+				},
+				{
+					"name": "Bryter Layter",
+					"artist": "Nick Drake",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Tangled Up in Blue",
+					"artist": "Bob Dylan",
+					"album": "Blood on the Tracks"
+				}
+			]
+		},
+		"country": {
+			"top_artists": [
+				{
+					"name": "Willie Nelson",
+					"album_count": 3
+				},
+				{
+					"name": "Waylon Jennings",
+					"album_count": 3
+				},
+				{
+					"name": "Dolly Parton",
+					"album_count": 2
+				},
+				{
+					"name": "Emmylou Harris",
+					"album_count": 2
+				},
+				{
+					"name": "Merle Haggard",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Red Headed Stranger",
+					"artist": "Willie Nelson",
+					"year": "1975"
+				},
+				{
+					"name": "Honky Tonk Heroes",
+					"artist": "Waylon Jennings",
+					"year": "1973"
+				},
+				{
+					"name": "Coat of Many Colors",
+					"artist": "Dolly Parton",
+					"year": "1971"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blue Eyes Crying in the Rain",
+					"artist": "Willie Nelson",
+					"album": "Red Headed Stranger"
+				}
+			]
+		},
+		"singer-songwriter": {
+			"top_artists": [
+				{
+					"name": "Joni Mitchell",
+					"album_count": 3
+				},
+				{
+					"name": "James Taylor",
+					"album_count": 3
+				},
+				{
+					"name": "Carole King",
+					"album_count": 2
+				},
+				{
+					"name": "Cat Stevens",
+					"album_count": 2
+				},
+				{
+					"name": "Jackson Browne",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Blue",
+					"artist": "Joni Mitchell",
+					"year": "1971"
+				},
+				{
+					"name": "Tapestry",
+					"artist": "Carole King",
+					"year": "1971"
+				},
+				{
+					"name": "Tea for the Tillerman",
+					"artist": "Cat Stevens",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "A Case of You",
+					"artist": "Joni Mitchell",
+					"album": "Blue"
+				}
+			]
+		},
+		"celtic": {
+			"top_artists": [
+				{
+					"name": "The Chieftains",
+					"album_count": 3
+				},
+				{
+					"name": "Planxty",
+					"album_count": 2
+				},
+				{
+					"name": "Fairport Convention",
+					"album_count": 2
+				},
+				{
+					"name": "Steeleye Span",
+					"album_count": 2
+				},
+				{
+					"name": "The Bothy Band",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chieftains 4",
+					"artist": "The Chieftains",
+					"year": "1973"
+				},
+				{
+					"name": "Planxty",
+					"artist": "Planxty",
+					"year": "1973"
+				},
+				{
+					"name": "Liège & Lief",
+					"artist": "Fairport Convention",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Women of Ireland",
+					"artist": "The Chieftains",
+					"album": "Chieftains 4"
+				}
+			]
+		},
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "Aretha Franklin",
+					"album_count": 3
+				},
+				{
+					"name": "Andraé Crouch",
+					"album_count": 2
+				},
+				{
+					"name": "The Staple Singers",
+					"album_count": 2
+				},
+				{
+					"name": "Mahalia Jackson",
+					"album_count": 2
+				},
+				{
+					"name": "Al Green",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Amazing Grace",
+					"artist": "Aretha Franklin",
+					"year": "1972"
+				},
+				{
+					"name": "Take Me Back",
+					"artist": "Andraé Crouch",
+					"year": "1975"
+				},
+				{
+					"name": "Be Altitude: Respect Yourself",
+					"artist": "The Staple Singers",
+					"year": "1972"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Amazing Grace",
+					"artist": "Aretha Franklin",
+					"album": "Amazing Grace"
+				}
+			]
+		},
+		"soca": {
+			"top_artists": [
+				{
+					"name": "Lord Shorty",
+					"album_count": 2
+				},
+				{
+					"name": "Mighty Sparrow",
+					"album_count": 2
+				},
+				{
+					"name": "Calypso Rose",
+					"album_count": 2
+				},
+				{
+					"name": "Arrow",
+					"album_count": 1
+				},
+				{
+					"name": "Lord Kitchener",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Endless Vibrations",
+					"artist": "Lord Shorty",
+					"year": "1974"
+				},
+				{
+					"name": "Hot and Sweet",
+					"artist": "Arrow",
+					"year": "1984"
+				},
+				{
+					"name": "Calypso King",
+					"artist": "Mighty Sparrow",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Endless Vibrations",
+					"artist": "Lord Shorty",
+					"album": "Endless Vibrations"
+				}
+			]
+		}
+	},
+	"The Metal Peaks": {
+		"metal": {
+			"top_artists": [
+				{
+					"name": "Black Sabbath",
+					"album_count": 3
+				},
+				{
+					"name": "Judas Priest",
+					"album_count": 3
+				},
+				{
+					"name": "Led Zeppelin",
+					"album_count": 2
+				},
+				{
+					"name": "Deep Purple",
+					"album_count": 2
+				},
+				{
+					"name": "Rainbow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Paranoid",
+					"artist": "Black Sabbath",
+					"year": "1970"
+				},
+				{
+					"name": "Sad Wings of Destiny",
+					"artist": "Judas Priest",
+					"year": "1976"
+				},
+				{
+					"name": "Rising",
+					"artist": "Rainbow",
+					"year": "1976"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Paranoid",
+					"artist": "Black Sabbath",
+					"album": "Paranoid"
+				}
+			]
+		},
+		"heavy metal": {
+			"top_artists": [
+				{
+					"name": "Black Sabbath",
+					"album_count": 3
+				},
+				{
+					"name": "Judas Priest",
+					"album_count": 3
+				},
+				{
+					"name": "Motörhead",
+					"album_count": 2
+				},
+				{
+					"name": "Rainbow",
+					"album_count": 2
+				},
+				{
+					"name": "Scorpions",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Paranoid",
+					"artist": "Black Sabbath",
+					"year": "1970"
+				},
+				{
+					"name": "Overkill",
+					"artist": "Motörhead",
+					"year": "1979"
+				},
+				{
+					"name": "Sin After Sin",
+					"artist": "Judas Priest",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Iron Man",
+					"artist": "Black Sabbath",
+					"album": "Paranoid"
+				}
+			]
+		},
+		"doom metal": {
+			"top_artists": [
+				{
+					"name": "Black Sabbath",
+					"album_count": 3
+				},
+				{
+					"name": "Pentagram",
+					"album_count": 2
+				},
+				{
+					"name": "Saint Vitus",
+					"album_count": 2
+				},
+				{
+					"name": "Witchfinder General",
+					"album_count": 1
+				},
+				{
+					"name": "Pagan Altar",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Sabbath",
+					"artist": "Black Sabbath",
+					"year": "1970"
+				},
+				{
+					"name": "Relentless",
+					"artist": "Pentagram",
+					"year": "1985"
+				},
+				{
+					"name": "Saint Vitus",
+					"artist": "Saint Vitus",
+					"year": "1984"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Black Sabbath",
+					"artist": "Black Sabbath",
+					"album": "Black Sabbath"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"reggae": {
+			"top_artists": [
+				{
+					"name": "Bob Marley & The Wailers",
+					"album_count": 3
+				},
+				{
+					"name": "Peter Tosh",
+					"album_count": 3
+				},
+				{
+					"name": "Burning Spear",
+					"album_count": 2
+				},
+				{
+					"name": "Toots and the Maytals",
+					"album_count": 2
+				},
+				{
+					"name": "Jimmy Cliff",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Exodus",
+					"artist": "Bob Marley & The Wailers",
+					"year": "1977"
+				},
+				{
+					"name": "Legalize It",
+					"artist": "Peter Tosh",
+					"year": "1976"
+				},
+				{
+					"name": "Marcus Garvey",
+					"artist": "Burning Spear",
+					"year": "1975"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "One Love/People Get Ready",
+					"artist": "Bob Marley & The Wailers",
+					"album": "Exodus"
+				}
+			]
+		},
+		"dub": {
+			"top_artists": [
+				{
+					"name": "King Tubby",
+					"album_count": 3
+				},
+				{
+					"name": "Lee \"Scratch\" Perry",
+					"album_count": 3
+				},
+				{
+					"name": "Augustus Pablo",
+					"album_count": 2
+				},
+				{
+					"name": "Scientist",
+					"album_count": 2
+				},
+				{
+					"name": "Mad Professor",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "King Tubby Meets Rockers Uptown",
+					"artist": "Augustus Pablo",
+					"year": "1976"
+				},
+				{
+					"name": "Super Ape",
+					"artist": "Lee Perry",
+					"year": "1976"
+				},
+				{
+					"name": "Scientist Rids the World of the Evil Curse of the Vampires",
+					"artist": "Scientist",
+					"year": "1981"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "King Tubby Meets Rockers Uptown",
+					"artist": "Augustus Pablo",
+					"album": "King Tubby Meets Rockers Uptown"
+				}
+			]
+		},
+		"dancehall": {
+			"top_artists": [
+				{
+					"name": "Yellowman",
+					"album_count": 2
+				},
+				{
+					"name": "Barrington Levy",
+					"album_count": 2
+				},
+				{
+					"name": "Eek-A-Mouse",
+					"album_count": 2
+				},
+				{
+					"name": "Sugar Minott",
+					"album_count": 1
+				},
+				{
+					"name": "Josey Wales",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Zungguzungguguzungguzeng",
+					"artist": "Yellowman",
+					"year": "1983"
+				},
+				{
+					"name": "Bounty Hunter",
+					"artist": "Barrington Levy",
+					"year": "1979"
+				},
+				{
+					"name": "Wa-Do-Dem",
+					"artist": "Eek-A-Mouse",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Here I Come",
+					"artist": "Barrington Levy",
+					"album": "Bounty Hunter"
+				}
+			]
+		}
+	},
+	"The Avant-Garde Isles": {
+		"experimental": {
+			"top_artists": [
+				{
+					"name": "Can",
+					"album_count": 3
+				},
+				{
+					"name": "Faust",
+					"album_count": 2
+				},
+				{
+					"name": "Neu!",
+					"album_count": 2
+				},
+				{
+					"name": "Suicide",
+					"album_count": 2
+				},
+				{
+					"name": "This Heat",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Tago Mago",
+					"artist": "Can",
+					"year": "1971"
+				},
+				{
+					"name": "Faust IV",
+					"artist": "Faust",
+					"year": "1973"
+				},
+				{
+					"name": "Neu!",
+					"artist": "Neu!",
+					"year": "1972"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Halleluwah",
+					"artist": "Can",
+					"album": "Tago Mago"
+				}
+			]
+		},
+		"noise": {
+			"top_artists": [
+				{
+					"name": "Throbbing Gristle",
+					"album_count": 2
+				},
+				{
+					"name": "Whitehouse",
+					"album_count": 2
+				},
+				{
+					"name": "NON",
+					"album_count": 2
+				},
+				{
+					"name": "Boyd Rice",
+					"album_count": 1
+				},
+				{
+					"name": "SPK",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "D.o.A: The Third and Final Report",
+					"artist": "Throbbing Gristle",
+					"year": "1978"
+				},
+				{
+					"name": "Erector",
+					"artist": "Whitehouse",
+					"year": "1981"
+				},
+				{
+					"name": "Pagan Muzak",
+					"artist": "NON",
+					"year": "1978"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Weeping",
+					"artist": "Throbbing Gristle",
+					"album": "D.o.A: The Third and Final Report"
+				}
+			]
+		},
+		"drone": {
+			"top_artists": [
+				{
+					"name": "La Monte Young",
+					"album_count": 2
+				},
+				{
+					"name": "Tangerine Dream",
+					"album_count": 2
+				},
+				{
+					"name": "Tony Conrad",
+					"album_count": 2
+				},
+				{
+					"name": "Cluster",
+					"album_count": 1
+				},
+				{
+					"name": "Éliane Radigue",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Well-Tuned Piano",
+					"artist": "La Monte Young",
+					"year": "1964"
+				},
+				{
+					"name": "Zeit",
+					"artist": "Tangerine Dream",
+					"year": "1972"
+				},
+				{
+					"name": "Outside the Dream Syndicate",
+					"artist": "Tony Conrad",
+					"year": "1973"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Birth of Liquid Plejades",
+					"artist": "Tangerine Dream",
+					"album": "Zeit"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,1938 @@
+{
+	"The Rock Shield": {
+		"rock": {
+			"top_artists": [
+				{
+					"name": "The Beatles",
+					"album_count": 3
+				},
+				{
+					"name": "The Rolling Stones",
+					"album_count": 3
+				},
+				{
+					"name": "The Who",
+					"album_count": 2
+				},
+				{
+					"name": "The Kinks",
+					"album_count": 2
+				},
+				{
+					"name": "Cream",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sgt. Pepper's Lonely Hearts Club Band",
+					"artist": "The Beatles",
+					"year": "1967"
+				},
+				{
+					"name": "Let It Bleed",
+					"artist": "The Rolling Stones",
+					"year": "1969"
+				},
+				{
+					"name": "Tommy",
+					"artist": "The Who",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "A Day in the Life",
+					"artist": "The Beatles",
+					"album": "Sgt. Pepper's Lonely Hearts Club Band"
+				}
+			]
+		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "Chuck Berry",
+					"album_count": 3
+				},
+				{
+					"name": "Little Richard",
+					"album_count": 2
+				},
+				{
+					"name": "Jerry Lee Lewis",
+					"album_count": 2
+				},
+				{
+					"name": "Gene Vincent",
+					"album_count": 2
+				},
+				{
+					"name": "Eddie Cochran",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chuck Berry Is on Top",
+					"artist": "Chuck Berry",
+					"year": "1959"
+				},
+				{
+					"name": "Live at the Star Club",
+					"artist": "Jerry Lee Lewis",
+					"year": "1964"
+				},
+				{
+					"name": "The Fabulous Little Richard",
+					"artist": "Little Richard",
+					"year": "1959"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Johnny B. Goode",
+					"artist": "Chuck Berry",
+					"album": "Chuck Berry Is on Top"
+				}
+			]
+		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "Carl Perkins",
+					"album_count": 3
+				},
+				{
+					"name": "Gene Vincent",
+					"album_count": 2
+				},
+				{
+					"name": "Eddie Cochran",
+					"album_count": 2
+				},
+				{
+					"name": "Wanda Jackson",
+					"album_count": 2
+				},
+				{
+					"name": "Johnny Burnette",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dance Album",
+					"artist": "Carl Perkins",
+					"year": "1957"
+				},
+				{
+					"name": "Singin' to My Baby",
+					"artist": "Eddie Cochran",
+					"year": "1957"
+				},
+				{
+					"name": "Rockin' With Wanda",
+					"artist": "Wanda Jackson",
+					"year": "1960"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blue Suede Shoes",
+					"artist": "Carl Perkins",
+					"album": "Dance Album"
+				}
+			]
+		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "The Beach Boys",
+					"album_count": 3
+				},
+				{
+					"name": "Dick Dale",
+					"album_count": 2
+				},
+				{
+					"name": "The Ventures",
+					"album_count": 2
+				},
+				{
+					"name": "Jan and Dean",
+					"album_count": 2
+				},
+				{
+					"name": "The Surfaris",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Pet Sounds",
+					"artist": "The Beach Boys",
+					"year": "1966"
+				},
+				{
+					"name": "Surfer's Choice",
+					"artist": "Dick Dale",
+					"year": "1962"
+				},
+				{
+					"name": "Surf Party",
+					"artist": "The Ventures",
+					"year": "1963"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "God Only Knows",
+					"artist": "The Beach Boys",
+					"album": "Pet Sounds"
+				}
+			]
+		},
+		"garage rock": {
+			"top_artists": [
+				{
+					"name": "The Sonics",
+					"album_count": 3
+				},
+				{
+					"name": "The Kingsmen",
+					"album_count": 2
+				},
+				{
+					"name": "The Standells",
+					"album_count": 2
+				},
+				{
+					"name": "The Seeds",
+					"album_count": 2
+				},
+				{
+					"name": "The 13th Floor Elevators",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Here Are The Sonics",
+					"artist": "The Sonics",
+					"year": "1965"
+				},
+				{
+					"name": "The Kingsmen in Person",
+					"artist": "The Kingsmen",
+					"year": "1963"
+				},
+				{
+					"name": "Dirty Water",
+					"artist": "The Standells",
+					"year": "1966"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Witch",
+					"artist": "The Sonics",
+					"album": "Here Are The Sonics"
+				}
+			]
+		},
+		"psychedelic rock": {
+			"top_artists": [
+				{
+					"name": "Pink Floyd",
+					"album_count": 3
+				},
+				{
+					"name": "The Jimi Hendrix Experience",
+					"album_count": 3
+				},
+				{
+					"name": "Jefferson Airplane",
+					"album_count": 2
+				},
+				{
+					"name": "The Doors",
+					"album_count": 2
+				},
+				{
+					"name": "Grateful Dead",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Piper at the Gates of Dawn",
+					"artist": "Pink Floyd",
+					"year": "1967"
+				},
+				{
+					"name": "Are You Experienced",
+					"artist": "The Jimi Hendrix Experience",
+					"year": "1967"
+				},
+				{
+					"name": "Surrealistic Pillow",
+					"artist": "Jefferson Airplane",
+					"year": "1967"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Astronomy Domine",
+					"artist": "Pink Floyd",
+					"album": "The Piper at the Gates of Dawn"
+				}
+			]
+		},
+		"hard rock": {
+			"top_artists": [
+				{
+					"name": "Led Zeppelin",
+					"album_count": 3
+				},
+				{
+					"name": "Cream",
+					"album_count": 2
+				},
+				{
+					"name": "The Jimi Hendrix Experience",
+					"album_count": 2
+				},
+				{
+					"name": "Steppenwolf",
+					"album_count": 2
+				},
+				{
+					"name": "Blue Cheer",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Led Zeppelin",
+					"artist": "Led Zeppelin",
+					"year": "1969"
+				},
+				{
+					"name": "Disraeli Gears",
+					"artist": "Cream",
+					"year": "1967"
+				},
+				{
+					"name": "Vincebus Eruptum",
+					"artist": "Blue Cheer",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dazed and Confused",
+					"artist": "Led Zeppelin",
+					"album": "Led Zeppelin"
+				}
+			]
+		},
+		"progressive rock": {
+			"top_artists": [
+				{
+					"name": "King Crimson",
+					"album_count": 3
+				},
+				{
+					"name": "Pink Floyd",
+					"album_count": 2
+				},
+				{
+					"name": "The Moody Blues",
+					"album_count": 2
+				},
+				{
+					"name": "Procol Harum",
+					"album_count": 2
+				},
+				{
+					"name": "The Nice",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "In the Court of the Crimson King",
+					"artist": "King Crimson",
+					"year": "1969"
+				},
+				{
+					"name": "Days of Future Passed",
+					"artist": "The Moody Blues",
+					"year": "1967"
+				},
+				{
+					"name": "A Saucerful of Secrets",
+					"artist": "Pink Floyd",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "21st Century Schizoid Man",
+					"artist": "King Crimson",
+					"album": "In the Court of the Crimson King"
+				}
+			]
+		}
+	},
+	"The Hip-Hop Basin": {
+		"r&b": {
+			"top_artists": [
+				{
+					"name": "Aretha Franklin",
+					"album_count": 3
+				},
+				{
+					"name": "Ray Charles",
+					"album_count": 3
+				},
+				{
+					"name": "James Brown",
+					"album_count": 2
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 2
+				},
+				{
+					"name": "Marvin Gaye",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "I Never Loved a Man the Way I Love You",
+					"artist": "Aretha Franklin",
+					"year": "1967"
+				},
+				{
+					"name": "Modern Sounds in Country and Western Music",
+					"artist": "Ray Charles",
+					"year": "1962"
+				},
+				{
+					"name": "Live at the Apollo",
+					"artist": "James Brown",
+					"year": "1963"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Respect",
+					"artist": "Aretha Franklin",
+					"album": "I Never Loved a Man the Way I Love You"
+				}
+			]
+		},
+		"soul": {
+			"top_artists": [
+				{
+					"name": "Otis Redding",
+					"album_count": 3
+				},
+				{
+					"name": "Sam Cooke",
+					"album_count": 3
+				},
+				{
+					"name": "Aretha Franklin",
+					"album_count": 2
+				},
+				{
+					"name": "Wilson Pickett",
+					"album_count": 2
+				},
+				{
+					"name": "Curtis Mayfield",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Otis Blue",
+					"artist": "Otis Redding",
+					"year": "1965"
+				},
+				{
+					"name": "A Change Is Gonna Come",
+					"artist": "Sam Cooke",
+					"year": "1964"
+				},
+				{
+					"name": "The Wicked Pickett",
+					"artist": "Wilson Pickett",
+					"year": "1967"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Respect",
+					"artist": "Otis Redding",
+					"album": "Otis Blue"
+				}
+			]
+		},
+		"funk": {
+			"top_artists": [
+				{
+					"name": "James Brown",
+					"album_count": 3
+				},
+				{
+					"name": "Sly and the Family Stone",
+					"album_count": 2
+				},
+				{
+					"name": "The Meters",
+					"album_count": 2
+				},
+				{
+					"name": "Dyke & the Blazers",
+					"album_count": 1
+				},
+				{
+					"name": "The J.B.'s",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Papa's Got a Brand New Bag",
+					"artist": "James Brown",
+					"year": "1965"
+				},
+				{
+					"name": "Stand!",
+					"artist": "Sly and the Family Stone",
+					"year": "1969"
+				},
+				{
+					"name": "The Meters",
+					"artist": "The Meters",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Papa's Got a Brand New Bag",
+					"artist": "James Brown",
+					"album": "Papa's Got a Brand New Bag"
+				}
+			]
+		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "The Supremes",
+					"album_count": 3
+				},
+				{
+					"name": "The Temptations",
+					"album_count": 3
+				},
+				{
+					"name": "Marvin Gaye",
+					"album_count": 2
+				},
+				{
+					"name": "Smokey Robinson & The Miracles",
+					"album_count": 2
+				},
+				{
+					"name": "The Four Tops",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Where Did Our Love Go",
+					"artist": "The Supremes",
+					"year": "1964"
+				},
+				{
+					"name": "Cloud Nine",
+					"artist": "The Temptations",
+					"year": "1969"
+				},
+				{
+					"name": "What's Going On",
+					"artist": "Marvin Gaye",
+					"year": "1971"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Where Did Our Love Go",
+					"artist": "The Supremes",
+					"album": "Where Did Our Love Go"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"jazz": {
+			"top_artists": [
+				{
+					"name": "John Coltrane",
+					"album_count": 3
+				},
+				{
+					"name": "Miles Davis",
+					"album_count": 3
+				},
+				{
+					"name": "Ornette Coleman",
+					"album_count": 2
+				},
+				{
+					"name": "Charles Mingus",
+					"album_count": 2
+				},
+				{
+					"name": "Thelonious Monk",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "A Love Supreme",
+					"artist": "John Coltrane",
+					"year": "1965"
+				},
+				{
+					"name": "Kind of Blue",
+					"artist": "Miles Davis",
+					"year": "1959"
+				},
+				{
+					"name": "The Shape of Jazz to Come",
+					"artist": "Ornette Coleman",
+					"year": "1959"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Acknowledgement",
+					"artist": "John Coltrane",
+					"album": "A Love Supreme"
+				}
+			]
+		},
+		"blues": {
+			"top_artists": [
+				{
+					"name": "B.B. King",
+					"album_count": 3
+				},
+				{
+					"name": "Muddy Waters",
+					"album_count": 2
+				},
+				{
+					"name": "Albert King",
+					"album_count": 2
+				},
+				{
+					"name": "Freddie King",
+					"album_count": 2
+				},
+				{
+					"name": "John Lee Hooker",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Live at the Regal",
+					"artist": "B.B. King",
+					"year": "1965"
+				},
+				{
+					"name": "Electric Mud",
+					"artist": "Muddy Waters",
+					"year": "1968"
+				},
+				{
+					"name": "Born Under a Bad Sign",
+					"artist": "Albert King",
+					"year": "1967"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "How Blue Can You Get",
+					"artist": "B.B. King",
+					"album": "Live at the Regal"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "Art Blakey",
+					"album_count": 3
+				},
+				{
+					"name": "Cannonball Adderley",
+					"album_count": 2
+				},
+				{
+					"name": "Sonny Rollins",
+					"album_count": 2
+				},
+				{
+					"name": "Horace Silver",
+					"album_count": 2
+				},
+				{
+					"name": "Lee Morgan",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Moanin'",
+					"artist": "Art Blakey",
+					"year": "1958"
+				},
+				{
+					"name": "Somethin' Else",
+					"artist": "Cannonball Adderley",
+					"year": "1958"
+				},
+				{
+					"name": "Saxophone Colossus",
+					"artist": "Sonny Rollins",
+					"year": "1956"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Moanin'",
+					"artist": "Art Blakey",
+					"album": "Moanin'"
+				}
+			]
+		},
+		"cool jazz": {
+			"top_artists": [
+				{
+					"name": "Dave Brubeck",
+					"album_count": 3
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 2
+				},
+				{
+					"name": "Bill Evans",
+					"album_count": 2
+				},
+				{
+					"name": "Chet Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Paul Desmond",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Time Out",
+					"artist": "Dave Brubeck",
+					"year": "1959"
+				},
+				{
+					"name": "Getz/Gilberto",
+					"artist": "Stan Getz",
+					"year": "1964"
+				},
+				{
+					"name": "Sunday at the Village Vanguard",
+					"artist": "Bill Evans",
+					"year": "1961"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Take Five",
+					"artist": "Dave Brubeck",
+					"album": "Time Out"
+				}
+			]
+		},
+		"fusion": {
+			"top_artists": [
+				{
+					"name": "Miles Davis",
+					"album_count": 3
+				},
+				{
+					"name": "Tony Williams",
+					"album_count": 2
+				},
+				{
+					"name": "Larry Coryell",
+					"album_count": 1
+				},
+				{
+					"name": "Gary Burton",
+					"album_count": 1
+				},
+				{
+					"name": "Soft Machine",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "In a Silent Way",
+					"artist": "Miles Davis",
+					"year": "1969"
+				},
+				{
+					"name": "Emergency!",
+					"artist": "Tony Williams",
+					"year": "1969"
+				},
+				{
+					"name": "The Soft Machine",
+					"artist": "Soft Machine",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Shhh/Peaceful",
+					"artist": "Miles Davis",
+					"album": "In a Silent Way"
+				}
+			]
+		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Muddy Waters",
+					"album_count": 3
+				},
+				{
+					"name": "Howlin' Wolf",
+					"album_count": 2
+				},
+				{
+					"name": "Buddy Guy",
+					"album_count": 2
+				},
+				{
+					"name": "Junior Wells",
+					"album_count": 2
+				},
+				{
+					"name": "Otis Rush",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Folk Singer",
+					"artist": "Muddy Waters",
+					"year": "1964"
+				},
+				{
+					"name": "Hoodoo Man Blues",
+					"artist": "Junior Wells",
+					"year": "1965"
+				},
+				{
+					"name": "A Man and the Blues",
+					"artist": "Buddy Guy",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "My Home Is in the Delta",
+					"artist": "Muddy Waters",
+					"album": "Folk Singer"
+				}
+			]
+		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Jimmy Smith",
+					"album_count": 3
+				},
+				{
+					"name": "Cannonball Adderley",
+					"album_count": 2
+				},
+				{
+					"name": "Grant Green",
+					"album_count": 2
+				},
+				{
+					"name": "Lou Donaldson",
+					"album_count": 2
+				},
+				{
+					"name": "Ramsey Lewis",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Sermon",
+					"artist": "Jimmy Smith",
+					"year": "1959"
+				},
+				{
+					"name": "Mercy, Mercy, Mercy!",
+					"artist": "Cannonball Adderley",
+					"year": "1966"
+				},
+				{
+					"name": "Idle Moments",
+					"artist": "Grant Green",
+					"year": "1963"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Sermon",
+					"artist": "Jimmy Smith",
+					"album": "The Sermon"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "João Gilberto",
+					"album_count": 3
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 2
+				},
+				{
+					"name": "Antonio Carlos Jobim",
+					"album_count": 2
+				},
+				{
+					"name": "Astrud Gilberto",
+					"album_count": 2
+				},
+				{
+					"name": "Sergio Mendes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Getz/Gilberto",
+					"artist": "Stan Getz & João Gilberto",
+					"year": "1964"
+				},
+				{
+					"name": "Chega de Saudade",
+					"artist": "João Gilberto",
+					"year": "1959"
+				},
+				{
+					"name": "The Composer of Desafinado Plays",
+					"artist": "Antonio Carlos Jobim",
+					"year": "1963"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Girl from Ipanema",
+					"artist": "Stan Getz & Astrud Gilberto",
+					"album": "Getz/Gilberto"
+				}
+			]
+		}
+	},
+	"The Pop Archipelago": {
+		"pop": {
+			"top_artists": [
+				{
+					"name": "The Beatles",
+					"album_count": 3
+				},
+				{
+					"name": "The Beach Boys",
+					"album_count": 2
+				},
+				{
+					"name": "Elvis Presley",
+					"album_count": 2
+				},
+				{
+					"name": "Roy Orbison",
+					"album_count": 2
+				},
+				{
+					"name": "The Everly Brothers",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Abbey Road",
+					"artist": "The Beatles",
+					"year": "1969"
+				},
+				{
+					"name": "Pet Sounds",
+					"artist": "The Beach Boys",
+					"year": "1966"
+				},
+				{
+					"name": "Blue Hawaii",
+					"artist": "Elvis Presley",
+					"year": "1961"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Come Together",
+					"artist": "The Beatles",
+					"album": "Abbey Road"
+				}
+			]
+		},
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Frank Sinatra",
+					"album_count": 3
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Nat King Cole",
+					"album_count": 2
+				},
+				{
+					"name": "Dean Martin",
+					"album_count": 2
+				},
+				{
+					"name": "Ella Fitzgerald",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "September of My Years",
+					"artist": "Frank Sinatra",
+					"year": "1965"
+				},
+				{
+					"name": "I Left My Heart in San Francisco",
+					"artist": "Tony Bennett",
+					"year": "1962"
+				},
+				{
+					"name": "L-O-V-E",
+					"artist": "Nat King Cole",
+					"year": "1965"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "It Was a Very Good Year",
+					"artist": "Frank Sinatra",
+					"album": "September of My Years"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "The Who",
+					"album_count": 3
+				},
+				{
+					"name": "The Byrds",
+					"album_count": 2
+				},
+				{
+					"name": "The Zombies",
+					"album_count": 2
+				},
+				{
+					"name": "The Small Faces",
+					"album_count": 1
+				},
+				{
+					"name": "The Easybeats",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "My Generation",
+					"artist": "The Who",
+					"year": "1965"
+				},
+				{
+					"name": "Odessey and Oracle",
+					"artist": "The Zombies",
+					"year": "1968"
+				},
+				{
+					"name": "Ogdens' Nut Gone Flake",
+					"artist": "The Small Faces",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "My Generation",
+					"artist": "The Who",
+					"album": "My Generation"
+				}
+			]
+		},
+		"bubblegum pop": {
+			"top_artists": [
+				{
+					"name": "The Archies",
+					"album_count": 2
+				},
+				{
+					"name": "The 1910 Fruitgum Company",
+					"album_count": 2
+				},
+				{
+					"name": "Ohio Express",
+					"album_count": 2
+				},
+				{
+					"name": "The Monkees",
+					"album_count": 1
+				},
+				{
+					"name": "Tommy James and the Shondells",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Everything's Archie",
+					"artist": "The Archies",
+					"year": "1969"
+				},
+				{
+					"name": "Simon Says",
+					"artist": "The 1910 Fruitgum Company",
+					"year": "1968"
+				},
+				{
+					"name": "Yummy Yummy Yummy",
+					"artist": "Ohio Express",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sugar, Sugar",
+					"artist": "The Archies",
+					"album": "Everything's Archie"
+				}
+			]
+		}
+	},
+	"The Folk & Roots Plains": {
+		"folk": {
+			"top_artists": [
+				{
+					"name": "Bob Dylan",
+					"album_count": 3
+				},
+				{
+					"name": "Joan Baez",
+					"album_count": 2
+				},
+				{
+					"name": "Pete Seeger",
+					"album_count": 2
+				},
+				{
+					"name": "Judy Collins",
+					"album_count": 2
+				},
+				{
+					"name": "Donovan",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Freewheelin' Bob Dylan",
+					"artist": "Bob Dylan",
+					"year": "1963"
+				},
+				{
+					"name": "Joan Baez",
+					"artist": "Joan Baez",
+					"year": "1960"
+				},
+				{
+					"name": "Sunshine Superman",
+					"artist": "Donovan",
+					"year": "1966"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blowin' in the Wind",
+					"artist": "Bob Dylan",
+					"album": "The Freewheelin' Bob Dylan"
+				}
+			]
+		},
+		"country": {
+			"top_artists": [
+				{
+					"name": "Johnny Cash",
+					"album_count": 3
+				},
+				{
+					"name": "Merle Haggard",
+					"album_count": 2
+				},
+				{
+					"name": "Loretta Lynn",
+					"album_count": 2
+				},
+				{
+					"name": "Buck Owens",
+					"album_count": 2
+				},
+				{
+					"name": "Patsy Cline",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "At Folsom Prison",
+					"artist": "Johnny Cash",
+					"year": "1968"
+				},
+				{
+					"name": "Okie from Muskogee",
+					"artist": "Merle Haggard",
+					"year": "1969"
+				},
+				{
+					"name": "Don't Come Home A-Drinkin'",
+					"artist": "Loretta Lynn",
+					"year": "1967"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Folsom Prison Blues",
+					"artist": "Johnny Cash",
+					"album": "At Folsom Prison"
+				}
+			]
+		},
+		"bluegrass": {
+			"top_artists": [
+				{
+					"name": "Bill Monroe",
+					"album_count": 3
+				},
+				{
+					"name": "Flatt & Scruggs",
+					"album_count": 2
+				},
+				{
+					"name": "The Stanley Brothers",
+					"album_count": 2
+				},
+				{
+					"name": "Del McCoury",
+					"album_count": 1
+				},
+				{
+					"name": "Jim & Jesse",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Foggy Mountain Banjo",
+					"artist": "Flatt & Scruggs",
+					"year": "1961"
+				},
+				{
+					"name": "Bluegrass Instrumentals",
+					"artist": "Bill Monroe",
+					"year": "1965"
+				},
+				{
+					"name": "The Stanley Brothers and the Clinch Mountain Boys",
+					"artist": "The Stanley Brothers",
+					"year": "1960"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Foggy Mountain Breakdown",
+					"artist": "Flatt & Scruggs",
+					"album": "Foggy Mountain Banjo"
+				}
+			]
+		},
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Nick Drake",
+					"album_count": 2
+				},
+				{
+					"name": "Bert Jansch",
+					"album_count": 2
+				},
+				{
+					"name": "John Fahey",
+					"album_count": 2
+				},
+				{
+					"name": "Davy Graham",
+					"album_count": 1
+				},
+				{
+					"name": "Jackson C. Frank",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Five Leaves Left",
+					"artist": "Nick Drake",
+					"year": "1969"
+				},
+				{
+					"name": "Bert Jansch",
+					"artist": "Bert Jansch",
+					"year": "1965"
+				},
+				{
+					"name": "The Transfiguration of Blind Joe Death",
+					"artist": "John Fahey",
+					"year": "1965"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "River Man",
+					"artist": "Nick Drake",
+					"album": "Five Leaves Left"
+				}
+			]
+		},
+		"singer-songwriter": {
+			"top_artists": [
+				{
+					"name": "Bob Dylan",
+					"album_count": 3
+				},
+				{
+					"name": "Joni Mitchell",
+					"album_count": 2
+				},
+				{
+					"name": "Leonard Cohen",
+					"album_count": 2
+				},
+				{
+					"name": "Tim Buckley",
+					"album_count": 2
+				},
+				{
+					"name": "Nick Drake",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Highway 61 Revisited",
+					"artist": "Bob Dylan",
+					"year": "1965"
+				},
+				{
+					"name": "Songs of Leonard Cohen",
+					"artist": "Leonard Cohen",
+					"year": "1967"
+				},
+				{
+					"name": "Clouds",
+					"artist": "Joni Mitchell",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Like a Rolling Stone",
+					"artist": "Bob Dylan",
+					"album": "Highway 61 Revisited"
+				}
+			]
+		},
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "Mahalia Jackson",
+					"album_count": 3
+				},
+				{
+					"name": "The Staple Singers",
+					"album_count": 2
+				},
+				{
+					"name": "Aretha Franklin",
+					"album_count": 2
+				},
+				{
+					"name": "Sister Rosetta Tharpe",
+					"album_count": 2
+				},
+				{
+					"name": "The Edwin Hawkins Singers",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Amazing Grace",
+					"artist": "Mahalia Jackson",
+					"year": "1967"
+				},
+				{
+					"name": "Freedom Highway",
+					"artist": "The Staple Singers",
+					"year": "1965"
+				},
+				{
+					"name": "Oh Happy Day",
+					"artist": "The Edwin Hawkins Singers",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "How I Got Over",
+					"artist": "Mahalia Jackson",
+					"album": "Amazing Grace"
+				}
+			]
+		},
+		"afrobeat": {
+			"top_artists": [
+				{
+					"name": "Fela Kuti",
+					"album_count": 3
+				},
+				{
+					"name": "Tony Allen",
+					"album_count": 2
+				},
+				{
+					"name": "Ebo Taylor",
+					"album_count": 1
+				},
+				{
+					"name": "Orlando Julius",
+					"album_count": 1
+				},
+				{
+					"name": "Geraldo Pino",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fela's London Scene",
+					"artist": "Fela Ransome-Kuti",
+					"year": "1969"
+				},
+				{
+					"name": "Super Afro Soul",
+					"artist": "Orlando Julius",
+					"year": "1969"
+				},
+				{
+					"name": "Progress",
+					"artist": "Tony Allen",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Je'nwi Temi (Don't Gag Me)",
+					"artist": "Fela Ransome-Kuti",
+					"album": "Fela's London Scene"
+				}
+			]
+		}
+	},
+	"The Metal Peaks": {
+		"metal": {
+			"top_artists": [
+				{
+					"name": "Black Sabbath",
+					"album_count": 2
+				},
+				{
+					"name": "Led Zeppelin",
+					"album_count": 2
+				},
+				{
+					"name": "Deep Purple",
+					"album_count": 2
+				},
+				{
+					"name": "Blue Cheer",
+					"album_count": 1
+				},
+				{
+					"name": "Iron Butterfly",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Sabbath",
+					"artist": "Black Sabbath",
+					"year": "1970"
+				},
+				{
+					"name": "Led Zeppelin II",
+					"artist": "Led Zeppelin",
+					"year": "1969"
+				},
+				{
+					"name": "In-A-Gadda-Da-Vida",
+					"artist": "Iron Butterfly",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Whole Lotta Love",
+					"artist": "Led Zeppelin",
+					"album": "Led Zeppelin II"
+				}
+			]
+		},
+		"heavy metal": {
+			"top_artists": [
+				{
+					"name": "Black Sabbath",
+					"album_count": 2
+				},
+				{
+					"name": "Led Zeppelin",
+					"album_count": 2
+				},
+				{
+					"name": "Deep Purple",
+					"album_count": 2
+				},
+				{
+					"name": "Blue Öyster Cult",
+					"album_count": 1
+				},
+				{
+					"name": "Steppenwolf",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Sabbath",
+					"artist": "Black Sabbath",
+					"year": "1970"
+				},
+				{
+					"name": "Led Zeppelin",
+					"artist": "Led Zeppelin",
+					"year": "1969"
+				},
+				{
+					"name": "Steppenwolf",
+					"artist": "Steppenwolf",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Communication Breakdown",
+					"artist": "Led Zeppelin",
+					"album": "Led Zeppelin"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"reggae": {
+			"top_artists": [
+				{
+					"name": "Bob Marley & The Wailers",
+					"album_count": 3
+				},
+				{
+					"name": "Toots and the Maytals",
+					"album_count": 2
+				},
+				{
+					"name": "Desmond Dekker",
+					"album_count": 2
+				},
+				{
+					"name": "The Pioneers",
+					"album_count": 1
+				},
+				{
+					"name": "Jimmy Cliff",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Wailing Wailers",
+					"artist": "The Wailers",
+					"year": "1965"
+				},
+				{
+					"name": "Sweet and Dandy",
+					"artist": "Toots and the Maytals",
+					"year": "1969"
+				},
+				{
+					"name": "Israelites",
+					"artist": "Desmond Dekker",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Simmer Down",
+					"artist": "The Wailers",
+					"album": "The Wailing Wailers"
+				}
+			]
+		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "The Skatalites",
+					"album_count": 3
+				},
+				{
+					"name": "Prince Buster",
+					"album_count": 2
+				},
+				{
+					"name": "Desmond Dekker",
+					"album_count": 2
+				},
+				{
+					"name": "The Maytals",
+					"album_count": 2
+				},
+				{
+					"name": "Laurel Aitken",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ska Authentic",
+					"artist": "The Skatalites",
+					"year": "1964"
+				},
+				{
+					"name": "Fabulous Greatest Hits",
+					"artist": "Prince Buster",
+					"year": "1967"
+				},
+				{
+					"name": "Never Grow Old",
+					"artist": "The Maytals",
+					"year": "1963"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Guns of Navarone",
+					"artist": "The Skatalites",
+					"album": "Ska Authentic"
+				}
+			]
+		},
+		"rocksteady": {
+			"top_artists": [
+				{
+					"name": "Alton Ellis",
+					"album_count": 3
+				},
+				{
+					"name": "The Paragons",
+					"album_count": 2
+				},
+				{
+					"name": "Ken Boothe",
+					"album_count": 2
+				},
+				{
+					"name": "Phyllis Dillon",
+					"album_count": 1
+				},
+				{
+					"name": "The Heptones",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mr. Soul of Jamaica",
+					"artist": "Alton Ellis",
+					"year": "1967"
+				},
+				{
+					"name": "On the Beach",
+					"artist": "The Paragons",
+					"year": "1967"
+				},
+				{
+					"name": "Mr. Rock Steady",
+					"artist": "Ken Boothe",
+					"year": "1968"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rock Steady",
+					"artist": "Alton Ellis",
+					"album": "Mr. Soul of Jamaica"
+				}
+			]
+		},
+		"dub": {
+			"top_artists": [
+				{
+					"name": "King Tubby",
+					"album_count": 2
+				},
+				{
+					"name": "Lee \"Scratch\" Perry",
+					"album_count": 2
+				},
+				{
+					"name": "Augustus Pablo",
+					"album_count": 1
+				},
+				{
+					"name": "The Upsetters",
+					"album_count": 1
+				},
+				{
+					"name": "Scientist",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Return of the Super Ape",
+					"artist": "Lee Perry",
+					"year": "1978"
+				},
+				{
+					"name": "King Tubby Meets Rockers Uptown",
+					"artist": "Augustus Pablo",
+					"year": "1976"
+				},
+				{
+					"name": "Blackboard Jungle Dub",
+					"artist": "Lee Perry",
+					"year": "1973"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "King Tubby Meets Rockers Uptown",
+					"artist": "Augustus Pablo",
+					"album": "King Tubby Meets Rockers Uptown"
+				}
+			]
+		}
+	},
+	"The Avant-Garde Isles": {
+		"experimental": {
+			"top_artists": [
+				{
+					"name": "The Velvet Underground",
+					"album_count": 3
+				},
+				{
+					"name": "Frank Zappa",
+					"album_count": 2
+				},
+				{
+					"name": "Captain Beefheart",
+					"album_count": 2
+				},
+				{
+					"name": "The Residents",
+					"album_count": 1
+				},
+				{
+					"name": "Silver Apples",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Velvet Underground & Nico",
+					"artist": "The Velvet Underground",
+					"year": "1967"
+				},
+				{
+					"name": "Trout Mask Replica",
+					"artist": "Captain Beefheart",
+					"year": "1969"
+				},
+				{
+					"name": "Freak Out!",
+					"artist": "The Mothers of Invention",
+					"year": "1966"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Heroin",
+					"artist": "The Velvet Underground",
+					"album": "The Velvet Underground & Nico"
+				}
+			]
+		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Karlheinz Stockhausen",
+					"album_count": 2
+				},
+				{
+					"name": "Pierre Boulez",
+					"album_count": 2
+				},
+				{
+					"name": "John Cage",
+					"album_count": 2
+				},
+				{
+					"name": "György Ligeti",
+					"album_count": 1
+				},
+				{
+					"name": "Luciano Berio",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Gesang der Jünglinge",
+					"artist": "Karlheinz Stockhausen",
+					"year": "1956"
+				},
+				{
+					"name": "Le Marteau sans maître",
+					"artist": "Pierre Boulez",
+					"year": "1957"
+				},
+				{
+					"name": "Atmosphères",
+					"artist": "György Ligeti",
+					"year": "1961"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Gesang der Jünglinge",
+					"artist": "Karlheinz Stockhausen",
+					"album": "Gesang der Jünglinge"
+				}
+			]
+		},
+		"minimalism": {
+			"top_artists": [
+				{
+					"name": "Terry Riley",
+					"album_count": 2
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 2
+				},
+				{
+					"name": "La Monte Young",
+					"album_count": 2
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 1
+				},
+				{
+					"name": "Tony Conrad",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "In C",
+					"artist": "Terry Riley",
+					"year": "1968"
+				},
+				{
+					"name": "The Well-Tuned Piano",
+					"artist": "La Monte Young",
+					"year": "1964"
+				},
+				{
+					"name": "Music in Fifths",
+					"artist": "Philip Glass",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "In C",
+					"artist": "Terry Riley",
+					"album": "In C"
+				}
+			]
+		}
+	}
+}

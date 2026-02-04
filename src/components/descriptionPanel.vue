@@ -29,7 +29,7 @@
 					can be placed here.
 				</p>
 				<hr/>
-				<p>
+				<div class="section">
 					<b>Top Artists in <span class="uppercase">{{ props.content?.genreName }}</span> for the year {{ props.content?.year }}</b>
 					<ul>
 						<li>1. Artist One</li>
@@ -38,9 +38,9 @@
 						<li>4. Artist Four</li>
 						<li>5. Artist Five</li>
 					</ul>
-				</p>
+				</div>
 				<hr/>
-				<p>
+				<div class="section">
 					<b>Top Albums in <span class="uppercase">{{ props.content?.genreName }}</span> for the year {{ props.content?.year }}</b>
 					<ul>
 						<li>1. Album One</li>
@@ -49,7 +49,7 @@
 						<li>4. Album Four</li>
 						<li>5. Album Five</li>
 					</ul>
-				</p>
+				</div>
 				<hr/>
 				<p>
 					<b>Sample Track from Top Album</b>
@@ -85,6 +85,7 @@ const emit = defineEmits(['update:isDescriptionVisible'])
 
 const hideDescription = () => {
 	document.getElementById('sample-player').src = "#";
+	document.querySelector('.scrollable-area').scrollTop = 0;
 	emit('update:isDescriptionVisible', false);
 };
 
