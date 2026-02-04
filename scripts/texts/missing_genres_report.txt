@@ -10,7 +10,7 @@ flamenco
 90 00 10 20
 lounge
 
-70 i 80
+70 80
 bluegrass
 
 00 10 20
@@ -18,9 +18,6 @@ eurodance
 
 80 90 00 10 20
 celtic
-
-70 80 90 00 10 20
-modern classical
 
 00 10 20
 g-funk
@@ -30,3 +27,8 @@ jungle
 
 70 80 90 00 10 20
 cool jazz
+surf
+modern classical
+
+10 20
+grunge
