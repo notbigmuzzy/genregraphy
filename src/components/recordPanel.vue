@@ -289,11 +289,8 @@ const handleBarClick = (event, d) => {
 }
 
 watch(yearValue, (newYear) => {
-	emit('year-change', newYear);
-
 	pauseYearTransition = true
 	recomputeSpinPaused()
-
 	updateChart(newYear);
 
 	if (yearPauseTimeout) yearPauseTimeout.stop()
