@@ -49,5 +49,17 @@
 		&:hover {
 			background-color: #45a049;
 		}
+
+		&.iframe-close {
+			right: auto;
+			left: 0;
+			top: -80px
+		}
 	}
+}
+
+.iframe-panel {
+	position: relative;
+	width: 100%;
+	height: 100%;
 }

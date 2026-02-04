@@ -62,6 +62,7 @@ let spinAngleDeg = 0
 let isSpinPaused = false
 let spinTimer = null
 let prevElapsedMs = 0
+let momentumVelocity = 0
 
 let pauseHover = false
 let pauseYearTransition = false
@@ -393,16 +394,38 @@ onMounted(async () => {
 
 		const dt = elapsedMs - prevElapsedMs
 		prevElapsedMs = elapsedMs
-		if (isSpinPaused) return
 
-		spinAngleDeg = (spinAngleDeg + dt * spinDegPerMs) % 360
-		spinGroup.attr('transform', `rotate(${spinAngleDeg})`)
+		if (momentumVelocity !== 0) {
+			momentumVelocity *= Math.pow(0.95, dt / 10)
+			if (Math.abs(momentumVelocity) < 0.001) momentumVelocity = 0
+		}
+
+		if (pauseYearTransition || pauseSelection || props.isDescriptionVisible || props.isIntroVisible) {
+			momentumVelocity = 0
+			return
+		}
+
+		let velocity = momentumVelocity
+		if (!pauseHover) {
+			velocity += spinDegPerMs
+		}
+
+		if (velocity !== 0) {
+			spinAngleDeg = (spinAngleDeg + velocity * dt) % 360
+			spinGroup.attr('transform', `rotate(${spinAngleDeg})`)
+		}
 	})
 
 	svg.on('mouseenter', () => {
 		pauseHover = true
 		recomputeSpinPaused()
 	})
+
+	svg.on('wheel', (event) => {
+		event.preventDefault()
+		const delta = event.deltaY
+		momentumVelocity -= delta * 0.0003
+	}, { passive: false })
 
 	svg.on('mouseleave', () => {
 		pauseHover = false
@@ -424,6 +447,7 @@ onBeforeUnmount(() => {
 	if (svg) {
 		svg.on('mouseenter', null)
 		svg.on('mouseleave', null)
+		svg.on('wheel', null)
 	}
 	
 	if (bars) {

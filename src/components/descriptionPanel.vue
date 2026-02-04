@@ -4,7 +4,7 @@
 			class="close-button"
 			@click="hideDescription"
 		>-></button>
-		<div class="scrollable-area">
+		<div class="scrollable-area" v-show="!wikiUrl">
 			<div class="panel-text-block">
 				<p v-if="props.content?.isPeak">
 					<strong>Peak year for this Genre !!!</strong>
@@ -40,7 +40,7 @@
 					<ul v-if="props.content?.detailedData?.top_artists">
 						<li v-for="artist in props.content.detailedData.top_artists" :key="artist.name">
 							{{ artist.name }} - 
-							<a :href="artistLinks[artist.name] || '#'" target="_blank" title="Wikipedia" class="wiki-link">
+							<a :href="artistLinks[artist.name] || '#'" @click.prevent="openWiki(artistLinks[artist.name])" title="Wikipedia" class="wiki-link">
 								<i>Wikipedia page</i>
 							</a>
 						</li>
@@ -72,7 +72,16 @@
 					</audio>
 				</p>
 			</div>
-			<!-- <iframe src="https://en.wikipedia.org/wiki/The_Beatles" style="width:100%; height:400px; border:none;" /> -->
+		</div>
+		<div class="iframe-panel" v-if="wikiUrl">
+			<button
+				class="close-button iframe-close"
+				@click="hideIframe"
+			>BACK</button>
+			<div v-if="iframeLoading" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">
+				Loading...
+			</div>
+			<iframe :src="wikiUrl" style="width:100%; height:100%; border:none;" @load="iframeLoading = false" />
 		</div>
 	</div>
 </template>
@@ -93,7 +102,24 @@ const props = defineProps({
 
 const emit = defineEmits(['update:isDescriptionVisible'])
 
+const wikiUrl = ref(null)
+const iframeLoading = ref(false)
+
+const openWiki = (url) => {
+	if (url && url !== '#') {
+		wikiUrl.value = url.replace('.wikipedia.org', '.m.wikipedia.org')
+		iframeLoading.value = true
+	}
+}
+
+const hideIframe = () => {
+	wikiUrl.value = null
+	iframeLoading.value = false
+}
+
 const hideDescription = () => {
+	wikiUrl.value = null
+	iframeLoading.value = false
 	document.getElementById('sample-player').src = "#";
 	document.querySelector('.scrollable-area').scrollTop = 0;
 	document.getElementById('sample-player').classList.remove('playing');
