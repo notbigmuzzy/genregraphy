@@ -51,10 +51,10 @@ const props = defineProps({
 
 const yearValue = ref(props.initialYear)
 const chartSvg = ref(null)
-let svg, spinGroup, bars, grooves, labels, innerRadius, outerRadius, continentColors, currentGenreData = []
+let svg, spinGroup, bars, grooves, labels, innerRadius, outerRadius, genre_groupColors, currentGenreData = []
 let selectedBar = null
 let selectedId = null
-let selectedContinent = null
+let selectedgenre_group = null
 
 const spinDurationInMs = 45_000
 const spinDegPerMs = 360 / spinDurationInMs
@@ -74,16 +74,16 @@ const updateChart = (year) => {
 	const peakGenres = yearData.metadata.peak_genres
 	const genreData = []
 
-	for (const continent of yearData.continents) {
-		for (const [genre, count] of Object.entries(continent.genres)) {
+	for (const genre_group of yearData.genre_group) {
+		for (const [genre, count] of Object.entries(genre_group.genres)) {
 			if (count > 0) {
 				genreData.push({
-					id: `${continent.name}::${genre}`,
-					continent: continent.name,
+					id: `${genre_group.name}::${genre}`,
+					genre_group: genre_group.name,
 					genre,
 					count,
-					total: continent.total,
-					percentage: continent.total > 0 ? count / continent.total : 0,
+					total: genre_group.total,
+					percentage: genre_group.total > 0 ? count / genre_group.total : 0,
 					isPeak: peakGenres.includes(genre)
 				})
 			}
@@ -91,8 +91,8 @@ const updateChart = (year) => {
 	}
 	
 	genreData.sort((a, b) => {
-		if (a.continent !== b.continent) {
-			return a.continent.localeCompare(b.continent)
+		if (a.genre_group !== b.genre_group) {
+			return a.genre_group.localeCompare(b.genre_group)
 		}
 		return a.genre.localeCompare(b.genre)
 	})
@@ -122,7 +122,7 @@ const updateChart = (year) => {
 						const genreClass = d.genre.toLowerCase().replace(/[^a-z0-9]+/g, '-')
 						return d.isPeak ? `bar-group peak genre-${genreClass}` : `bar-group genre-${genreClass}`
 					})
-					.attr('data-continent', d => d.continent)
+					.attr('data-genre_group', d => d.genre_group)
 					.attr('data-genre', d => d.genre)
 					.attr('data-id', d => d.id)
 					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
@@ -131,7 +131,7 @@ const updateChart = (year) => {
 				g.append('path')
 					.attr('class', 'bar-bg')
 					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
-					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0)
 					.transition()
 					.duration(400)
@@ -143,7 +143,7 @@ const updateChart = (year) => {
 						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
 						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
 					})
-					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0)
 					.transition()
 					.duration(400)
@@ -173,7 +173,7 @@ const updateChart = (year) => {
 						const genreClass = d.genre.toLowerCase().replace(/[^a-z0-9]+/g, '-')
 						return d.isPeak ? `bar-group peak genre-${genreClass}` : `bar-group genre-${genreClass}`
 					})
-					.attr('data-continent', d => d.continent)
+					.attr('data-genre_group', d => d.genre_group)
 					.attr('data-genre', d => d.genre)
 					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
 				
@@ -181,7 +181,7 @@ const updateChart = (year) => {
 					.transition()
 					.duration(400)
 					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
-					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0.2)
 				
 				update.select('path.bar-fg')
@@ -191,7 +191,7 @@ const updateChart = (year) => {
 						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
 						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
 					})
-					.attr('fill', d => continentColors[d.continent] || 'lightcoral')
+					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0.8)
 				
 				update.select('text.bar-label')
@@ -221,8 +221,8 @@ const updateChart = (year) => {
 	if (selectedId) {
 		bars.selectAll('g.bar-group').classed('selected', item => item?.id === selectedId)
 	}
-	if (selectedContinent) {
-		bars.selectAll('g.bar-group').classed('same-group', item => item?.continent === selectedContinent)
+	if (selectedgenre_group) {
+		bars.selectAll('g.bar-group').classed('same-group', item => item?.genre_group === selectedgenre_group)
 	}
 }
 
@@ -236,7 +236,7 @@ const handleBarClick = async (event, d) => {
 	pauseSelection = true
 	recomputeSpinPaused()
 	selectedId = d.id
-	selectedContinent = d.continent
+	selectedgenre_group = d.genre_group
 
 	const barIndex = currentGenreData.findIndex(item => item.id === d.id)
 	if (barIndex === -1) return
@@ -251,7 +251,7 @@ const handleBarClick = async (event, d) => {
 		
 		bars.selectAll('g.bar-group')
 			.classed('selected', item => item?.id === d.id)
-			.classed('same-group', item => item?.continent === d.continent)
+			.classed('same-group', item => item?.genre_group === d.genre_group)
 	} else {
 		d3.select(selectedBar).classed('selected', true)
 	}
@@ -287,10 +287,10 @@ const handleBarClick = async (event, d) => {
 	
 	try {
 		const decadeData = await import(`../api/decades/${decade}.json`)
-		if (decadeData.default?.[d.continent]?.[d.genre]) {
-			detailedData = decadeData.default[d.continent][d.genre]
+		if (decadeData.default?.[d.genre_group]?.[d.genre]) {
+			detailedData = decadeData.default[d.genre_group][d.genre]
 		} else {
-			console.warn(`Genre data not found for ${d.continent} > ${d.genre} in ${decade}s`)
+			console.warn(`Genre data not found for ${d.genre_group} > ${d.genre} in ${decade}s`)
 		}
 	} catch (error) {
 		console.error(`Failed to load detailed data for ${decade}:`, error)
@@ -298,7 +298,7 @@ const handleBarClick = async (event, d) => {
 
 	emit('update:isDescriptionVisible', true);
 	emit('bar-click', {
-		continent: d.continent,
+		genre_group: d.genre_group,
 		genre: d.genre,
 		genreName: d.genre,
 		isPeak: d.isPeak,
@@ -332,7 +332,7 @@ watch(() => props.isDescriptionVisible, (newValue) => {
 		}
 		selectedBar = null
 		selectedId = null
-		selectedContinent = null
+		selectedgenre_group = null
 		pauseSelection = false
 		recomputeSpinPaused()
 	}
@@ -369,7 +369,7 @@ onMounted(async () => {
 	innerRadius = 12
 	outerRadius = 47
 	
-	continentColors = {
+	genre_groupColors = {
 		'The Rock Shield': '#e74c3c',
 		'The Electronic Frontier': '#3498db',
 		'The Hip-Hop Basin': '#9b59b6',

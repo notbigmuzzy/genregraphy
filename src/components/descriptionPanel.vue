@@ -12,7 +12,7 @@
 				</p>
 				<h2 class="uppercase">{{ props.content?.genreName }}</h2>
 				<hr/>
-				<p><strong>Part of:</strong> {{ props.content?.continent }}</p>
+				<p><strong>Part of:</strong> {{ props.content?.genre_group }}</p>
 				<p><strong>Year:</strong> {{ props.content?.year }}</p>
 				<hr/>
 				<p class="description">
@@ -25,7 +25,7 @@
 					in
 					<strong>{{ props.content?.year }}</strong>
 					on
-					<strong>{{ props.content?.continent }}</strong>
+					<strong>{{ props.content?.genre_group }}</strong>
 					can be placed here.
 				</p>
 				<hr/>
@@ -62,12 +62,9 @@
 					</ul>
 				</div>
 				<hr/>
-				<p>
-					<b>Sample Track from {{ props.content?.detailedData?.sample_tracks[0]?.artist }}</b>
-				</p>
 				<p class="group">
 					<button @click="handleRecordClick(props.content?.detailedData?.sample_tracks[0]?.artist)">
-						Play Sample
+						Play Sample Track
 					</button>
 					<audio controls id="sample-player">
 						<source src="#" type="audio/mpeg">
@@ -98,6 +95,7 @@ const emit = defineEmits(['update:isDescriptionVisible'])
 const hideDescription = () => {
 	document.getElementById('sample-player').src = "#";
 	document.querySelector('.scrollable-area').scrollTop = 0;
+	document.getElementById('sample-player').classList.remove('playing');
 	emit('update:isDescriptionVisible', false);
 };
 
@@ -158,7 +156,6 @@ const getGenreAudioUrl = async (genre) => {
     }
 }
 
-
 const artistLinks = ref({});
 const fetchWikipediaLink = async (artistName) => {
     if (artistLinks.value[artistName]) return;
@@ -201,11 +198,11 @@ const handleRecordClick = async (name) => {
     const url = await getAudioUrl(name);
     if (url) {
         const audio = document.getElementById('sample-player');
-		audio.classList.add('playing');
         audio.src = url;
         audio.play();
+		audio.classList.add('playing');
     } else {
-        alert("No audio found for " + name);
+        console.log("No audio found for " + name);
     }
 }
 
