@@ -3471,6 +3471,442 @@
 					"album": "Black One"
 				}
 			]
+		},
+		"avant-garde": {
+			"top_artists": [
+				{
+					"name": "Björk",
+					"album_count": 3
+				},
+				{
+					"name": "John Zorn",
+					"album_count": 2
+				},
+				{
+					"name": "Diamanda Galás",
+					"album_count": 2
+				},
+				{
+					"name": "Laurie Anderson",
+					"album_count": 2
+				},
+				{
+					"name": "Merzbow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Medúlla",
+					"artist": "Björk",
+					"year": "2004"
+				},
+				{
+					"name": "The Book of Angels",
+					"artist": "John Zorn",
+					"year": "2005"
+				},
+				{
+					"name": "Defixiones",
+					"artist": "Diamanda Galás",
+					"year": "2003"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Oceania",
+					"artist": "Björk",
+					"album": "Medúlla"
+				}
+			]
+		},
+		"classical": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 3
+				},
+				{
+					"name": "Arvo Pärt",
+					"album_count": 2
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 2
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 2
+				},
+				{
+					"name": "John Adams",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Blue Notebooks",
+					"artist": "Max Richter",
+					"year": "2004"
+				},
+				{
+					"name": "Alina",
+					"artist": "Arvo Pärt",
+					"year": "1999"
+				},
+				{
+					"name": "Music in Twelve Parts",
+					"artist": "Philip Glass",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "On the Nature of Daylight",
+					"artist": "Max Richter",
+					"album": "The Blue Notebooks"
+				}
+			]
+		},
+		"soundtrack": {
+			"top_artists": [
+				{
+					"name": "Hans Zimmer",
+					"album_count": 3
+				},
+				{
+					"name": "Howard Shore",
+					"album_count": 3
+				},
+				{
+					"name": "John Williams",
+					"album_count": 2
+				},
+				{
+					"name": "Alexandre Desplat",
+					"album_count": 2
+				},
+				{
+					"name": "Thomas Newman",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Lord of the Rings",
+					"artist": "Howard Shore",
+					"year": "2001"
+				},
+				{
+					"name": "Gladiator",
+					"artist": "Hans Zimmer",
+					"year": "2000"
+				},
+				{
+					"name": "Amélie",
+					"artist": "Yann Tiersen",
+					"year": "2001"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Now We Are Free",
+					"artist": "Hans Zimmer",
+					"album": "Gladiator"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "R.L. Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Junior Kimbrough",
+					"album_count": 2
+				},
+				{
+					"name": "T-Model Ford",
+					"album_count": 2
+				},
+				{
+					"name": "Cedric Burnside",
+					"album_count": 2
+				},
+				{
+					"name": "Lightnin' Malcolm",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Wish I Was in Heaven Sitting Down",
+					"artist": "R.L. Burnside",
+					"year": "2000"
+				},
+				{
+					"name": "First Recordings",
+					"artist": "Junior Kimbrough",
+					"year": "1998"
+				},
+				{
+					"name": "Bad Man",
+					"artist": "T-Model Ford",
+					"year": "2002"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Poor Black Mattie",
+					"artist": "R.L. Burnside",
+					"album": "Wish I Was in Heaven Sitting Down"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "Frederick Hodges",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Holland",
+					"album_count": 2
+				},
+				{
+					"name": "Butch Thompson",
+					"album_count": 1
+				},
+				{
+					"name": "Carl Sonny Leyland",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"year": "1997"
+				},
+				{
+					"name": "Echoes of the Ragtime Era",
+					"artist": "Frederick Hodges",
+					"year": "2000"
+				},
+				{
+					"name": "Classic Ragtime",
+					"artist": "Brian Holland",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"album": "The Strongman"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Michael Bublé",
+					"album_count": 3
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 3
+				},
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 2
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Robbie Williams",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "It's Time",
+					"artist": "Michael Bublé",
+					"year": "2005"
+				},
+				{
+					"name": "The Look of Love",
+					"artist": "Diana Krall",
+					"year": "2001"
+				},
+				{
+					"name": "Duets: An American Classic",
+					"artist": "Tony Bennett",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Feeling Good",
+					"artist": "Michael Bublé",
+					"album": "It's Time"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 3
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 2
+				},
+				{
+					"name": "Fay-Ann Lyons",
+					"album_count": 2
+				},
+				{
+					"name": "Destra Garcia",
+					"album_count": 2
+				},
+				{
+					"name": "Patrice Roberts",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Charge",
+					"artist": "Machel Montano",
+					"year": "2007"
+				},
+				{
+					"name": "Global",
+					"artist": "Bunji Garlin",
+					"year": "2007"
+				},
+				{
+					"name": "Heavy T Bumpa",
+					"artist": "Fay-Ann Lyons",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Footsteps",
+					"artist": "Machel Montano",
+					"album": "Charge"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Shakira",
+					"album_count": 3
+				},
+				{
+					"name": "Marc Anthony",
+					"album_count": 3
+				},
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 2
+				},
+				{
+					"name": "Juanes",
+					"album_count": 2
+				},
+				{
+					"name": "Calle 13",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fijación Oral Vol. 1",
+					"artist": "Shakira",
+					"year": "2005"
+				},
+				{
+					"name": "Amar Sin Mentiras",
+					"artist": "Marc Anthony",
+					"year": "2004"
+				},
+				{
+					"name": "Mi Sangre",
+					"artist": "Juanes",
+					"year": "2004"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "La Tortura",
+					"artist": "Shakira",
+					"album": "Fijación Oral Vol. 1"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Lucía",
+					"album_count": 2
+				},
+				{
+					"name": "Vicente Amigo",
+					"album_count": 2
+				},
+				{
+					"name": "Diego El Cigala",
+					"album_count": 2
+				},
+				{
+					"name": "Tomatito",
+					"album_count": 2
+				},
+				{
+					"name": "Miguel Poveda",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Cositas Buenas",
+					"artist": "Paco de Lucía",
+					"year": "2004"
+				},
+				{
+					"name": "Lágrimas Negras",
+					"artist": "Diego El Cigala",
+					"year": "2003"
+				},
+				{
+					"name": "Ciudad de las Ideas",
+					"artist": "Vicente Amigo",
+					"year": "2000"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Cositas Buenas",
+					"artist": "Paco de Lucía",
+					"album": "Cositas Buenas"
+				}
+			]
 		}
 	}
 }

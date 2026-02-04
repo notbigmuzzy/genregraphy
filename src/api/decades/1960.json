@@ -1933,6 +1933,492 @@
 					"album": "In C"
 				}
 			]
+		},
+		"avant-garde": {
+			"top_artists": [
+				{
+					"name": "John Cage",
+					"album_count": 3
+				},
+				{
+					"name": "Karlheinz Stockhausen",
+					"album_count": 2
+				},
+				{
+					"name": "Pierre Boulez",
+					"album_count": 2
+				},
+				{
+					"name": "Edgard Varèse",
+					"album_count": 2
+				},
+				{
+					"name": "Olivier Messiaen",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fontana Mix",
+					"artist": "John Cage",
+					"year": "1958"
+				},
+				{
+					"name": "Le Marteau sans maître",
+					"artist": "Pierre Boulez",
+					"year": "1957"
+				},
+				{
+					"name": "Déserts",
+					"artist": "Edgard Varèse",
+					"year": "1954"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Fontana Mix",
+					"artist": "John Cage",
+					"album": "Fontana Mix"
+				}
+			]
+		},
+		"classical": {
+			"top_artists": [
+				{
+					"name": "Igor Stravinsky",
+					"album_count": 3
+				},
+				{
+					"name": "Leonard Bernstein",
+					"album_count": 3
+				},
+				{
+					"name": "Benjamin Britten",
+					"album_count": 2
+				},
+				{
+					"name": "Dmitri Shostakovich",
+					"album_count": 2
+				},
+				{
+					"name": "Aaron Copland",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "West Side Story",
+					"artist": "Leonard Bernstein",
+					"year": "1961"
+				},
+				{
+					"name": "The Rite of Spring",
+					"artist": "Igor Stravinsky",
+					"year": "1913"
+				},
+				{
+					"name": "War Requiem",
+					"artist": "Benjamin Britten",
+					"year": "1962"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "America",
+					"artist": "Leonard Bernstein",
+					"album": "West Side Story"
+				}
+			]
+		},
+		"soundtrack": {
+			"top_artists": [
+				{
+					"name": "Ennio Morricone",
+					"album_count": 3
+				},
+				{
+					"name": "Henry Mancini",
+					"album_count": 3
+				},
+				{
+					"name": "John Barry",
+					"album_count": 2
+				},
+				{
+					"name": "Elmer Bernstein",
+					"album_count": 2
+				},
+				{
+					"name": "Jerry Goldsmith",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Good, the Bad and the Ugly",
+					"artist": "Ennio Morricone",
+					"year": "1966"
+				},
+				{
+					"name": "Breakfast at Tiffany's",
+					"artist": "Henry Mancini",
+					"year": "1961"
+				},
+				{
+					"name": "Dr. No",
+					"artist": "John Barry",
+					"year": "1962"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Ecstasy of Gold",
+					"artist": "Ennio Morricone",
+					"album": "The Good, the Bad and the Ugly"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "John Lee Hooker",
+					"album_count": 3
+				},
+				{
+					"name": "Lightnin' Hopkins",
+					"album_count": 3
+				},
+				{
+					"name": "Son House",
+					"album_count": 2
+				},
+				{
+					"name": "Mississippi Fred McDowell",
+					"album_count": 2
+				},
+				{
+					"name": "Skip James",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Real Folk Blues",
+					"artist": "John Lee Hooker",
+					"year": "1966"
+				},
+				{
+					"name": "Lightnin' Hopkins",
+					"artist": "Lightnin' Hopkins",
+					"year": "1959"
+				},
+				{
+					"name": "Father of the Delta Blues",
+					"artist": "Son House",
+					"year": "1965"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Boom Boom",
+					"artist": "John Lee Hooker",
+					"album": "The Real Folk Blues"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Max Morath",
+					"album_count": 2
+				},
+				{
+					"name": "Joshua Rifkin",
+					"album_count": 2
+				},
+				{
+					"name": "Dick Hyman",
+					"album_count": 2
+				},
+				{
+					"name": "Eubie Blake",
+					"album_count": 1
+				},
+				{
+					"name": "William Bolcom",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Ragtime Era",
+					"artist": "Max Morath",
+					"year": "1960"
+				},
+				{
+					"name": "Scott Joplin: Piano Rags",
+					"artist": "Joshua Rifkin",
+					"year": "1969"
+				},
+				{
+					"name": "The Age of Ragtime",
+					"artist": "Dick Hyman",
+					"year": "1967"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Maple Leaf Rag",
+					"artist": "Max Morath",
+					"album": "The Ragtime Era"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Count Basie",
+					"album_count": 3
+				},
+				{
+					"name": "Duke Ellington",
+					"album_count": 3
+				},
+				{
+					"name": "Benny Goodman",
+					"album_count": 2
+				},
+				{
+					"name": "Ella Fitzgerald",
+					"album_count": 2
+				},
+				{
+					"name": "Frank Sinatra",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Atomic Mr. Basie",
+					"artist": "Count Basie",
+					"year": "1958"
+				},
+				{
+					"name": "Ellington at Newport",
+					"artist": "Duke Ellington",
+					"year": "1956"
+				},
+				{
+					"name": "Ella and Louis",
+					"artist": "Ella Fitzgerald",
+					"year": "1956"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "April in Paris",
+					"artist": "Count Basie",
+					"album": "The Atomic Mr. Basie"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Mighty Sparrow",
+					"album_count": 3
+				},
+				{
+					"name": "Lord Kitchener",
+					"album_count": 3
+				},
+				{
+					"name": "Harry Belafonte",
+					"album_count": 2
+				},
+				{
+					"name": "Lord Melody",
+					"album_count": 2
+				},
+				{
+					"name": "Roaring Lion",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Calypso",
+					"artist": "Harry Belafonte",
+					"year": "1956"
+				},
+				{
+					"name": "King Sparrow",
+					"artist": "Mighty Sparrow",
+					"year": "1962"
+				},
+				{
+					"name": "Kitch",
+					"artist": "Lord Kitchener",
+					"year": "1963"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Banana Boat Song",
+					"artist": "Harry Belafonte",
+					"album": "Calypso"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Tito Puente",
+					"album_count": 3
+				},
+				{
+					"name": "Celia Cruz",
+					"album_count": 3
+				},
+				{
+					"name": "Pérez Prado",
+					"album_count": 2
+				},
+				{
+					"name": "Eddie Palmieri",
+					"album_count": 2
+				},
+				{
+					"name": "Mongo Santamaría",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dance Mania",
+					"artist": "Tito Puente",
+					"year": "1958"
+				},
+				{
+					"name": "La Sonora Matancera",
+					"artist": "Celia Cruz",
+					"year": "1960"
+				},
+				{
+					"name": "Afro-Cuban",
+					"artist": "Eddie Palmieri",
+					"year": "1967"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Oye Como Va",
+					"artist": "Tito Puente",
+					"album": "Dance Mania"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Lucía",
+					"album_count": 2
+				},
+				{
+					"name": "Camarón de la Isla",
+					"album_count": 2
+				},
+				{
+					"name": "Sabicas",
+					"album_count": 2
+				},
+				{
+					"name": "Manolo Sanlúcar",
+					"album_count": 1
+				},
+				{
+					"name": "Niño Ricardo",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Flamenco Virtuoso",
+					"artist": "Sabicas",
+					"year": "1961"
+				},
+				{
+					"name": "Arte y Majestad",
+					"artist": "Paco de Lucía",
+					"year": "1967"
+				},
+				{
+					"name": "El Duende Flamenco de Camarón",
+					"artist": "Camarón de la Isla",
+					"year": "1969"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Entre Dos Aguas",
+					"artist": "Paco de Lucía",
+					"album": "Arte y Majestad"
+				}
+			]
+		}
+	},
+	"The Rock Shield": {
+		"indie": {
+			"top_artists": [
+				{
+					"name": "The Velvet Underground",
+					"album_count": 3
+				},
+				{
+					"name": "The Monks",
+					"album_count": 2
+				},
+				{
+					"name": "The 13th Floor Elevators",
+					"album_count": 2
+				},
+				{
+					"name": "The Seeds",
+					"album_count": 2
+				},
+				{
+					"name": "Love",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Velvet Underground & Nico",
+					"artist": "The Velvet Underground",
+					"year": "1967"
+				},
+				{
+					"name": "Black Monk Time",
+					"artist": "The Monks",
+					"year": "1966"
+				},
+				{
+					"name": "The Psychedelic Sounds",
+					"artist": "The 13th Floor Elevators",
+					"year": "1966"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I'm Waiting for the Man",
+					"artist": "The Velvet Underground",
+					"album": "The Velvet Underground & Nico"
+				}
+			]
 		}
 	}
 }

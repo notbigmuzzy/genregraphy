@@ -3423,6 +3423,442 @@
 					"album": "Earth 2"
 				}
 			]
+		},
+		"avant-garde": {
+			"top_artists": [
+				{
+					"name": "John Zorn",
+					"album_count": 3
+				},
+				{
+					"name": "Diamanda Galás",
+					"album_count": 2
+				},
+				{
+					"name": "Laurie Anderson",
+					"album_count": 2
+				},
+				{
+					"name": "Meredith Monk",
+					"album_count": 2
+				},
+				{
+					"name": "Björk",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Naked City",
+					"artist": "John Zorn",
+					"year": "1990"
+				},
+				{
+					"name": "The Singer",
+					"artist": "Diamanda Galás",
+					"year": "1992"
+				},
+				{
+					"name": "Bright Red",
+					"artist": "Laurie Anderson",
+					"year": "1994"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Batman",
+					"artist": "John Zorn",
+					"album": "Naked City"
+				}
+			]
+		},
+		"classical": {
+			"top_artists": [
+				{
+					"name": "Arvo Pärt",
+					"album_count": 3
+				},
+				{
+					"name": "Henryk Górecki",
+					"album_count": 2
+				},
+				{
+					"name": "John Adams",
+					"album_count": 2
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 2
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Symphony No. 3",
+					"artist": "Henryk Górecki",
+					"year": "1976"
+				},
+				{
+					"name": "Te Deum",
+					"artist": "Arvo Pärt",
+					"year": "1993"
+				},
+				{
+					"name": "The Hours",
+					"artist": "Philip Glass",
+					"year": "1998"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Symphony of Sorrowful Songs",
+					"artist": "Henryk Górecki",
+					"album": "Symphony No. 3"
+				}
+			]
+		},
+		"soundtrack": {
+			"top_artists": [
+				{
+					"name": "Hans Zimmer",
+					"album_count": 3
+				},
+				{
+					"name": "John Williams",
+					"album_count": 3
+				},
+				{
+					"name": "Danny Elfman",
+					"album_count": 2
+				},
+				{
+					"name": "James Horner",
+					"album_count": 2
+				},
+				{
+					"name": "Howard Shore",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Lion King",
+					"artist": "Hans Zimmer",
+					"year": "1994"
+				},
+				{
+					"name": "Jurassic Park",
+					"artist": "John Williams",
+					"year": "1993"
+				},
+				{
+					"name": "Edward Scissorhands",
+					"artist": "Danny Elfman",
+					"year": "1990"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Circle of Life",
+					"artist": "Hans Zimmer",
+					"album": "The Lion King"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "R.L. Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Junior Kimbrough",
+					"album_count": 3
+				},
+				{
+					"name": "T-Model Ford",
+					"album_count": 2
+				},
+				{
+					"name": "Jessie Mae Hemphill",
+					"album_count": 2
+				},
+				{
+					"name": "Cedric Burnside",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Too Bad Jim",
+					"artist": "R.L. Burnside",
+					"year": "1994"
+				},
+				{
+					"name": "Sad Days, Lonely Nights",
+					"artist": "Junior Kimbrough",
+					"year": "1994"
+				},
+				{
+					"name": "Pork Salad",
+					"artist": "T-Model Ford",
+					"year": "1997"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Goin' Down South",
+					"artist": "R.L. Burnside",
+					"album": "Too Bad Jim"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "William Bolcom",
+					"album_count": 2
+				},
+				{
+					"name": "Joshua Rifkin",
+					"album_count": 2
+				},
+				{
+					"name": "Max Morath",
+					"album_count": 1
+				},
+				{
+					"name": "Trebor Tichenor",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"year": "1997"
+				},
+				{
+					"name": "Euphonic Sounds",
+					"artist": "William Bolcom",
+					"year": "1971"
+				},
+				{
+					"name": "Scott Joplin Rags",
+					"artist": "Joshua Rifkin",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"album": "The Strongman"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 2
+				},
+				{
+					"name": "Big Bad Voodoo Daddy",
+					"album_count": 2
+				},
+				{
+					"name": "Squirrel Nut Zippers",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "When Harry Met Sally",
+					"artist": "Harry Connick Jr.",
+					"year": "1989"
+				},
+				{
+					"name": "Stepping Out",
+					"artist": "Tony Bennett",
+					"year": "1993"
+				},
+				{
+					"name": "All for You",
+					"artist": "Diana Krall",
+					"year": "1996"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "It Had to Be You",
+					"artist": "Harry Connick Jr.",
+					"album": "When Harry Met Sally"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "David Rudder",
+					"album_count": 3
+				},
+				{
+					"name": "Calypso Rose",
+					"album_count": 2
+				},
+				{
+					"name": "Machel Montano",
+					"album_count": 2
+				},
+				{
+					"name": "Mighty Sparrow",
+					"album_count": 2
+				},
+				{
+					"name": "Shadow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "1990",
+					"artist": "David Rudder",
+					"year": "1990"
+				},
+				{
+					"name": "Soca Dance Party",
+					"artist": "Calypso Rose",
+					"year": "1995"
+				},
+				{
+					"name": "Too Young to Soca",
+					"artist": "Machel Montano",
+					"year": "1991"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bahia Girl",
+					"artist": "David Rudder",
+					"album": "1990"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 3
+				},
+				{
+					"name": "Celia Cruz",
+					"album_count": 3
+				},
+				{
+					"name": "Marc Anthony",
+					"album_count": 2
+				},
+				{
+					"name": "Buena Vista Social Club",
+					"album_count": 2
+				},
+				{
+					"name": "Tito Puente",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bachata Rosa",
+					"artist": "Juan Luis Guerra",
+					"year": "1990"
+				},
+				{
+					"name": "Buena Vista Social Club",
+					"artist": "Buena Vista Social Club",
+					"year": "1997"
+				},
+				{
+					"name": "Contra la Corriente",
+					"artist": "Marc Anthony",
+					"year": "1997"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Burbujas de Amor",
+					"artist": "Juan Luis Guerra",
+					"album": "Bachata Rosa"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Lucía",
+					"album_count": 3
+				},
+				{
+					"name": "Tomatito",
+					"album_count": 3
+				},
+				{
+					"name": "Vicente Amigo",
+					"album_count": 2
+				},
+				{
+					"name": "Enrique Morente",
+					"album_count": 2
+				},
+				{
+					"name": "Diego El Cigala",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Zyryab",
+					"artist": "Paco de Lucía",
+					"year": "1990"
+				},
+				{
+					"name": "Barrio Negro",
+					"artist": "Tomatito",
+					"year": "1991"
+				},
+				{
+					"name": "De Mi Corazón al Aire",
+					"artist": "Vicente Amigo",
+					"year": "1991"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Zyryab",
+					"artist": "Paco de Lucía",
+					"album": "Zyryab"
+				}
+			]
 		}
 	}
 }

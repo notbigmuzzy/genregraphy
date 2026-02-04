@@ -3375,6 +3375,442 @@
 					"album": "Pyroclasts"
 				}
 			]
+		},
+		"avant-garde": {
+			"top_artists": [
+				{
+					"name": "Björk",
+					"album_count": 3
+				},
+				{
+					"name": "Laurie Anderson",
+					"album_count": 2
+				},
+				{
+					"name": "Holly Herndon",
+					"album_count": 2
+				},
+				{
+					"name": "Oneohtrix Point Never",
+					"album_count": 2
+				},
+				{
+					"name": "Arca",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fossora",
+					"artist": "Björk",
+					"year": "2022"
+				},
+				{
+					"name": "PROTO",
+					"artist": "Holly Herndon",
+					"year": "2019"
+				},
+				{
+					"name": "Magic Oneohtrix Point Never",
+					"artist": "Oneohtrix Point Never",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Atopos",
+					"artist": "Björk",
+					"album": "Fossora"
+				}
+			]
+		},
+		"classical": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 3
+				},
+				{
+					"name": "Ólafur Arnalds",
+					"album_count": 2
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 2
+				},
+				{
+					"name": "Ludovico Einaudi",
+					"album_count": 2
+				},
+				{
+					"name": "Anna Thorvaldsdottir",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Voices 2",
+					"artist": "Max Richter",
+					"year": "2020"
+				},
+				{
+					"name": "some kind of peace",
+					"artist": "Ólafur Arnalds",
+					"year": "2020"
+				},
+				{
+					"name": "Underwater",
+					"artist": "Ludovico Einaudi",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "On the Nature of Daylight (Entropy)",
+					"artist": "Max Richter",
+					"album": "Voices 2"
+				}
+			]
+		},
+		"soundtrack": {
+			"top_artists": [
+				{
+					"name": "Hans Zimmer",
+					"album_count": 3
+				},
+				{
+					"name": "Ludwig Göransson",
+					"album_count": 3
+				},
+				{
+					"name": "Hildur Guðnadóttir",
+					"album_count": 2
+				},
+				{
+					"name": "Alexandre Desplat",
+					"album_count": 2
+				},
+				{
+					"name": "Trent Reznor & Atticus Ross",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dune",
+					"artist": "Hans Zimmer",
+					"year": "2021"
+				},
+				{
+					"name": "Black Panther",
+					"artist": "Ludwig Göransson",
+					"year": "2018"
+				},
+				{
+					"name": "Joker",
+					"artist": "Hildur Guðnadóttir",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Herald of the Change",
+					"artist": "Hans Zimmer",
+					"album": "Dune"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "Cedric Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Lightnin' Malcolm",
+					"album_count": 2
+				},
+				{
+					"name": "Sharde Thomas",
+					"album_count": 2
+				},
+				{
+					"name": "Jimbo Mathus",
+					"album_count": 2
+				},
+				{
+					"name": "Cameron Kimbrough",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "I Be Trying",
+					"artist": "Cedric Burnside",
+					"year": "2021"
+				},
+				{
+					"name": "Bout Dat Time",
+					"artist": "Lightnin' Malcolm",
+					"year": "2019"
+				},
+				{
+					"name": "Rising Star Fife & Drum",
+					"artist": "Sharde Thomas",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "We Made It",
+					"artist": "Cedric Burnside",
+					"album": "I Be Trying"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Adam Swanson",
+					"album_count": 2
+				},
+				{
+					"name": "Frederick Hodges",
+					"album_count": 2
+				},
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Holland",
+					"album_count": 1
+				},
+				{
+					"name": "Virginia Eskin",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Genius of Scott Joplin",
+					"artist": "Adam Swanson",
+					"year": "2020"
+				},
+				{
+					"name": "Waltzing Ragtime",
+					"artist": "Frederick Hodges",
+					"year": "2018"
+				},
+				{
+					"name": "Sounds in Silhouette Vol. 2",
+					"artist": "Reginald Robinson",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Solace",
+					"artist": "Adam Swanson",
+					"album": "The Genius of Scott Joplin"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Michael Bublé",
+					"album_count": 3
+				},
+				{
+					"name": "Postmodern Jukebox",
+					"album_count": 2
+				},
+				{
+					"name": "Gregory Porter",
+					"album_count": 2
+				},
+				{
+					"name": "Cécile McLorin Salvant",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Higher",
+					"artist": "Michael Bublé",
+					"year": "2022"
+				},
+				{
+					"name": "All Rise",
+					"artist": "Gregory Porter",
+					"year": "2020"
+				},
+				{
+					"name": "The Window",
+					"artist": "Cécile McLorin Salvant",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Higher",
+					"artist": "Michael Bublé",
+					"album": "Higher"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 3
+				},
+				{
+					"name": "Nailah Blackman",
+					"album_count": 2
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 2
+				},
+				{
+					"name": "Patrice Roberts",
+					"album_count": 2
+				},
+				{
+					"name": "Skinny Fabulous",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Road March 2020",
+					"artist": "Machel Montano",
+					"year": "2020"
+				},
+				{
+					"name": "Sokah",
+					"artist": "Nailah Blackman",
+					"year": "2019"
+				},
+				{
+					"name": "Viking",
+					"artist": "Bunji Garlin",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "So Good",
+					"artist": "Machel Montano",
+					"album": "Road March 2020"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Bad Bunny",
+					"album_count": 3
+				},
+				{
+					"name": "J Balvin",
+					"album_count": 3
+				},
+				{
+					"name": "Rosalía",
+					"album_count": 2
+				},
+				{
+					"name": "Karol G",
+					"album_count": 2
+				},
+				{
+					"name": "Rauw Alejandro",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Un Verano Sin Ti",
+					"artist": "Bad Bunny",
+					"year": "2022"
+				},
+				{
+					"name": "Motomami",
+					"artist": "Rosalía",
+					"year": "2022"
+				},
+				{
+					"name": "Colores",
+					"artist": "J Balvin",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Tití Me Preguntó",
+					"artist": "Bad Bunny",
+					"album": "Un Verano Sin Ti"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Rosalía",
+					"album_count": 3
+				},
+				{
+					"name": "C. Tangana",
+					"album_count": 2
+				},
+				{
+					"name": "Diego El Cigala",
+					"album_count": 2
+				},
+				{
+					"name": "Vicente Amigo",
+					"album_count": 2
+				},
+				{
+					"name": "Niño de Elche",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Motomami",
+					"artist": "Rosalía",
+					"year": "2022"
+				},
+				{
+					"name": "El Madrileño",
+					"artist": "C. Tangana",
+					"year": "2021"
+				},
+				{
+					"name": "Indestructible",
+					"artist": "Diego El Cigala",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hentai",
+					"artist": "Rosalía",
+					"album": "Motomami"
+				}
+			]
 		}
 	}
 }

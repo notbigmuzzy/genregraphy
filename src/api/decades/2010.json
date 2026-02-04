@@ -3375,6 +3375,442 @@
 					"album": "Monoliths & Dimensions"
 				}
 			]
+		},
+		"avant-garde": {
+			"top_artists": [
+				{
+					"name": "Björk",
+					"album_count": 3
+				},
+				{
+					"name": "John Zorn",
+					"album_count": 2
+				},
+				{
+					"name": "Laurie Anderson",
+					"album_count": 2
+				},
+				{
+					"name": "Merzbow",
+					"album_count": 2
+				},
+				{
+					"name": "Matana Roberts",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Biophilia",
+					"artist": "Björk",
+					"year": "2011"
+				},
+				{
+					"name": "The Book Beri'ah",
+					"artist": "John Zorn",
+					"year": "2016"
+				},
+				{
+					"name": "Landfall",
+					"artist": "Laurie Anderson",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Crystalline",
+					"artist": "Björk",
+					"album": "Biophilia"
+				}
+			]
+		},
+		"classical": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 3
+				},
+				{
+					"name": "Ólafur Arnalds",
+					"album_count": 2
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 2
+				},
+				{
+					"name": "Ludovico Einaudi",
+					"album_count": 2
+				},
+				{
+					"name": "Johann Johannsson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sleep",
+					"artist": "Max Richter",
+					"year": "2015"
+				},
+				{
+					"name": "re:member",
+					"artist": "Ólafur Arnalds",
+					"year": "2018"
+				},
+				{
+					"name": "Spaces",
+					"artist": "Nils Frahm",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "On the Nature of Daylight",
+					"artist": "Max Richter",
+					"album": "Sleep"
+				}
+			]
+		},
+		"soundtrack": {
+			"top_artists": [
+				{
+					"name": "Hans Zimmer",
+					"album_count": 3
+				},
+				{
+					"name": "Trent Reznor & Atticus Ross",
+					"album_count": 3
+				},
+				{
+					"name": "Alexandre Desplat",
+					"album_count": 2
+				},
+				{
+					"name": "Johann Johannsson",
+					"album_count": 2
+				},
+				{
+					"name": "Jóhann Jóhannsson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Inception",
+					"artist": "Hans Zimmer",
+					"year": "2010"
+				},
+				{
+					"name": "The Social Network",
+					"artist": "Trent Reznor & Atticus Ross",
+					"year": "2010"
+				},
+				{
+					"name": "Arrival",
+					"artist": "Jóhann Jóhannsson",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Time",
+					"artist": "Hans Zimmer",
+					"album": "Inception"
+				}
+			]
+		}
+	},
+	"The Jazz & Blues Delta": {
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "Cedric Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Lightnin' Malcolm",
+					"album_count": 2
+				},
+				{
+					"name": "Jimbo Mathus",
+					"album_count": 2
+				},
+				{
+					"name": "Robert Belfour",
+					"album_count": 2
+				},
+				{
+					"name": "Sharde Thomas",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Descendants of Hill Country",
+					"artist": "Cedric Burnside",
+					"year": "2015"
+				},
+				{
+					"name": "Foot Soldier of the Blues",
+					"artist": "Lightnin' Malcolm",
+					"year": "2013"
+				},
+				{
+					"name": "Push and Shove",
+					"artist": "Robert Belfour",
+					"year": "2001"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Step In",
+					"artist": "Cedric Burnside",
+					"album": "Descendants of Hill Country"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "Frederick Hodges",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Holland",
+					"album_count": 2
+				},
+				{
+					"name": "Carl Sonny Leyland",
+					"album_count": 1
+				},
+				{
+					"name": "Adam Swanson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sounds in Silhouette",
+					"artist": "Reginald Robinson",
+					"year": "2010"
+				},
+				{
+					"name": "Rags to Riches",
+					"artist": "Frederick Hodges",
+					"year": "2012"
+				},
+				{
+					"name": "Classic Ragtime Piano",
+					"artist": "Adam Swanson",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Euphonic Sounds",
+					"artist": "Reginald Robinson",
+					"album": "Sounds in Silhouette"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Michael Bublé",
+					"album_count": 3
+				},
+				{
+					"name": "Lady Gaga & Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Postmodern Jukebox",
+					"album_count": 2
+				},
+				{
+					"name": "Gregory Porter",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Crazy Love",
+					"artist": "Michael Bublé",
+					"year": "2009"
+				},
+				{
+					"name": "Cheek to Cheek",
+					"artist": "Lady Gaga & Tony Bennett",
+					"year": "2014"
+				},
+				{
+					"name": "Liquid Spirit",
+					"artist": "Gregory Porter",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Haven't Met You Yet",
+					"artist": "Michael Bublé",
+					"album": "Crazy Love"
+				}
+			]
+		}
+	},
+	"The Tropical Pulse": {
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 3
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 2
+				},
+				{
+					"name": "Fay-Ann Lyons",
+					"album_count": 2
+				},
+				{
+					"name": "Destra Garcia",
+					"album_count": 2
+				},
+				{
+					"name": "Patrice Roberts",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Monk Monte",
+					"artist": "Machel Montano",
+					"year": "2016"
+				},
+				{
+					"name": "Differentology",
+					"artist": "Bunji Garlin",
+					"year": "2013"
+				},
+				{
+					"name": "Heavy T Bumpa",
+					"artist": "Fay-Ann Lyons",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Like Ah Boss",
+					"artist": "Machel Montano",
+					"album": "Monk Monte"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "J Balvin",
+					"album_count": 3
+				},
+				{
+					"name": "Bad Bunny",
+					"album_count": 3
+				},
+				{
+					"name": "Shakira",
+					"album_count": 2
+				},
+				{
+					"name": "Marc Anthony",
+					"album_count": 2
+				},
+				{
+					"name": "Maluma",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Energía",
+					"artist": "J Balvin",
+					"year": "2016"
+				},
+				{
+					"name": "X 100PRE",
+					"artist": "Bad Bunny",
+					"year": "2018"
+				},
+				{
+					"name": "El Dorado",
+					"artist": "Shakira",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mi Gente",
+					"artist": "J Balvin",
+					"album": "Energía"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Rosalía",
+					"album_count": 2
+				},
+				{
+					"name": "Vicente Amigo",
+					"album_count": 2
+				},
+				{
+					"name": "Diego El Cigala",
+					"album_count": 2
+				},
+				{
+					"name": "Tomatito",
+					"album_count": 2
+				},
+				{
+					"name": "Miguel Poveda",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Los Ángeles",
+					"artist": "Rosalía",
+					"year": "2017"
+				},
+				{
+					"name": "Tierra",
+					"artist": "Vicente Amigo",
+					"year": "2013"
+				},
+				{
+					"name": "Cigala & Tango",
+					"artist": "Diego El Cigala",
+					"year": "2010"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Catalina",
+					"artist": "Rosalía",
+					"album": "Los Ángeles"
+				}
+			]
 		}
 	}
 }
