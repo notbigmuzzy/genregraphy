@@ -419,7 +419,7 @@
 					"year": "1996"
 				},
 				{
-					"name": "F♯ A♯ ∞",
+					"name": "F\u266f A\u266f \u221e",
 					"artist": "Godspeed You! Black Emperor",
 					"year": "1997"
 				}
@@ -921,7 +921,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Tiësto",
+					"name": "Ti\u00ebsto",
 					"album_count": 2
 				},
 				{
@@ -945,7 +945,7 @@
 				},
 				{
 					"name": "In My Memory",
-					"artist": "Tiësto",
+					"artist": "Ti\u00ebsto",
 					"year": "2001"
 				},
 				{
@@ -1125,7 +1125,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "µ-Ziq",
+					"name": "\u00b5-Ziq",
 					"album_count": 1
 				}
 			],
@@ -1317,7 +1317,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Café del Mar",
+					"name": "Caf\u00e9 del Mar",
 					"album_count": 1
 				}
 			],
@@ -1461,7 +1461,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Björk",
+					"name": "Bj\u00f6rk",
 					"album_count": 1
 				}
 			],
@@ -1478,7 +1478,7 @@
 				},
 				{
 					"name": "Debut",
-					"artist": "Björk",
+					"artist": "Bj\u00f6rk",
 					"year": "1993"
 				}
 			],
@@ -1843,7 +1843,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tony! Toni! Toné!",
+					"name": "Tony! Toni! Ton\u00e9!",
 					"album_count": 2
 				},
 				{
@@ -1961,7 +1961,7 @@
 					"year": "1995"
 				},
 				{
-					"name": "The Köln Concert",
+					"name": "The K\u00f6ln Concert",
 					"artist": "Keith Jarrett",
 					"year": "1975"
 				}
@@ -2067,6 +2067,150 @@
 					"name": "Shaker Song",
 					"artist": "Medeski Martin & Wood",
 					"album": "Combustication"
+				}
+			]
+		},
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "R.L. Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Junior Kimbrough",
+					"album_count": 3
+				},
+				{
+					"name": "T-Model Ford",
+					"album_count": 2
+				},
+				{
+					"name": "Jessie Mae Hemphill",
+					"album_count": 2
+				},
+				{
+					"name": "Cedric Burnside",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Too Bad Jim",
+					"artist": "R.L. Burnside",
+					"year": "1994"
+				},
+				{
+					"name": "Sad Days, Lonely Nights",
+					"artist": "Junior Kimbrough",
+					"year": "1994"
+				},
+				{
+					"name": "Pork Salad",
+					"artist": "T-Model Ford",
+					"year": "1997"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Goin' Down South",
+					"artist": "R.L. Burnside",
+					"album": "Too Bad Jim"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "William Bolcom",
+					"album_count": 2
+				},
+				{
+					"name": "Joshua Rifkin",
+					"album_count": 2
+				},
+				{
+					"name": "Max Morath",
+					"album_count": 1
+				},
+				{
+					"name": "Trebor Tichenor",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"year": "1997"
+				},
+				{
+					"name": "Euphonic Sounds",
+					"artist": "William Bolcom",
+					"year": "1971"
+				},
+				{
+					"name": "Scott Joplin Rags",
+					"artist": "Joshua Rifkin",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"album": "The Strongman"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 2
+				},
+				{
+					"name": "Big Bad Voodoo Daddy",
+					"album_count": 2
+				},
+				{
+					"name": "Squirrel Nut Zippers",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "When Harry Met Sally",
+					"artist": "Harry Connick Jr.",
+					"year": "1989"
+				},
+				{
+					"name": "Stepping Out",
+					"artist": "Tony Bennett",
+					"year": "1993"
+				},
+				{
+					"name": "All for You",
+					"artist": "Diana Krall",
+					"year": "1996"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "It Had to Be You",
+					"artist": "Harry Connick Jr.",
+					"album": "When Harry Met Sally"
 				}
 			]
 		}
@@ -2543,7 +2687,7 @@
 					"year": "1991"
 				},
 				{
-					"name": "Ænima",
+					"name": "\u00c6nima",
 					"artist": "Tool",
 					"year": "1996"
 				}
@@ -2922,7 +3066,7 @@
 					"year": "1990"
 				},
 				{
-					"name": "Necroticism – Descanting the Insalubrious",
+					"name": "Necroticism \u2013 Descanting the Insalubrious",
 					"artist": "Carcass",
 					"year": "1991"
 				},
@@ -3193,7 +3337,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tego Calderón",
+					"name": "Tego Calder\u00f3n",
 					"album_count": 2
 				},
 				{
@@ -3218,7 +3362,7 @@
 				},
 				{
 					"name": "El Abayarde",
-					"artist": "Tego Calderón",
+					"artist": "Tego Calder\u00f3n",
 					"year": "2002"
 				}
 			],
@@ -3229,493 +3373,7 @@
 					"album": "El Cartel"
 				}
 			]
-		}
-	},
-	"The Avant-Garde Isles": {
-		"experimental": {
-			"top_artists": [
-				{
-					"name": "Björk",
-					"album_count": 3
-				},
-				{
-					"name": "Radiohead",
-					"album_count": 2
-				},
-				{
-					"name": "Aphex Twin",
-					"album_count": 2
-				},
-				{
-					"name": "Portishead",
-					"album_count": 2
-				},
-				{
-					"name": "Talk Talk",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Homogenic",
-					"artist": "Björk",
-					"year": "1997"
-				},
-				{
-					"name": "OK Computer",
-					"artist": "Radiohead",
-					"year": "1997"
-				},
-				{
-					"name": "Spirit of Eden",
-					"artist": "Talk Talk",
-					"year": "1988"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Jóga",
-					"artist": "Björk",
-					"album": "Homogenic"
-				}
-			]
 		},
-		"noise": {
-			"top_artists": [
-				{
-					"name": "Merzbow",
-					"album_count": 3
-				},
-				{
-					"name": "Masonna",
-					"album_count": 2
-				},
-				{
-					"name": "Whitehouse",
-					"album_count": 2
-				},
-				{
-					"name": "The Haters",
-					"album_count": 2
-				},
-				{
-					"name": "Prurient",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Venereology",
-					"artist": "Merzbow",
-					"year": "1994"
-				},
-				{
-					"name": "Pulse Demon",
-					"artist": "Merzbow",
-					"year": "1996"
-				},
-				{
-					"name": "Cruise",
-					"artist": "Whitehouse",
-					"year": "2001"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Autopsy",
-					"artist": "Merzbow",
-					"album": "Pulse Demon"
-				}
-			]
-		},
-		"dark ambient": {
-			"top_artists": [
-				{
-					"name": "Lustmord",
-					"album_count": 3
-				},
-				{
-					"name": "Coil",
-					"album_count": 2
-				},
-				{
-					"name": "Biosphere",
-					"album_count": 2
-				},
-				{
-					"name": "Raison d'être",
-					"album_count": 2
-				},
-				{
-					"name": "Atrium Carceri",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "The Place Where the Black Stars Hang",
-					"artist": "Lustmord",
-					"year": "1994"
-				},
-				{
-					"name": "Substrata",
-					"artist": "Biosphere",
-					"year": "1997"
-				},
-				{
-					"name": "Within the Depths of Silence and Phormations",
-					"artist": "Raison d'être",
-					"year": "1995"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Sublunar",
-					"artist": "Lustmord",
-					"album": "The Place Where the Black Stars Hang"
-				}
-			]
-		},
-		"drone": {
-			"top_artists": [
-				{
-					"name": "Earth",
-					"album_count": 3
-				},
-				{
-					"name": "Sunn O)))",
-					"album_count": 2
-				},
-				{
-					"name": "Stars of the Lid",
-					"album_count": 2
-				},
-				{
-					"name": "Earth",
-					"album_count": 1
-				},
-				{
-					"name": "Phill Niblock",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Earth 2",
-					"artist": "Earth",
-					"year": "1993"
-				},
-				{
-					"name": "The Tired Sounds of Stars of the Lid",
-					"artist": "Stars of the Lid",
-					"year": "2001"
-				},
-				{
-					"name": "G♭→A",
-					"artist": "Phill Niblock",
-					"year": "1995"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Seven Angels",
-					"artist": "Earth",
-					"album": "Earth 2"
-				}
-			]
-		},
-		"avant-garde": {
-			"top_artists": [
-				{
-					"name": "John Zorn",
-					"album_count": 3
-				},
-				{
-					"name": "Diamanda Galás",
-					"album_count": 2
-				},
-				{
-					"name": "Laurie Anderson",
-					"album_count": 2
-				},
-				{
-					"name": "Meredith Monk",
-					"album_count": 2
-				},
-				{
-					"name": "Björk",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Naked City",
-					"artist": "John Zorn",
-					"year": "1990"
-				},
-				{
-					"name": "The Singer",
-					"artist": "Diamanda Galás",
-					"year": "1992"
-				},
-				{
-					"name": "Bright Red",
-					"artist": "Laurie Anderson",
-					"year": "1994"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Batman",
-					"artist": "John Zorn",
-					"album": "Naked City"
-				}
-			]
-		},
-		"classical": {
-			"top_artists": [
-				{
-					"name": "Arvo Pärt",
-					"album_count": 3
-				},
-				{
-					"name": "Henryk Górecki",
-					"album_count": 2
-				},
-				{
-					"name": "John Adams",
-					"album_count": 2
-				},
-				{
-					"name": "Philip Glass",
-					"album_count": 2
-				},
-				{
-					"name": "Steve Reich",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Symphony No. 3",
-					"artist": "Henryk Górecki",
-					"year": "1976"
-				},
-				{
-					"name": "Te Deum",
-					"artist": "Arvo Pärt",
-					"year": "1993"
-				},
-				{
-					"name": "The Hours",
-					"artist": "Philip Glass",
-					"year": "1998"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Symphony of Sorrowful Songs",
-					"artist": "Henryk Górecki",
-					"album": "Symphony No. 3"
-				}
-			]
-		},
-		"soundtrack": {
-			"top_artists": [
-				{
-					"name": "Hans Zimmer",
-					"album_count": 3
-				},
-				{
-					"name": "John Williams",
-					"album_count": 3
-				},
-				{
-					"name": "Danny Elfman",
-					"album_count": 2
-				},
-				{
-					"name": "James Horner",
-					"album_count": 2
-				},
-				{
-					"name": "Howard Shore",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "The Lion King",
-					"artist": "Hans Zimmer",
-					"year": "1994"
-				},
-				{
-					"name": "Jurassic Park",
-					"artist": "John Williams",
-					"year": "1993"
-				},
-				{
-					"name": "Edward Scissorhands",
-					"artist": "Danny Elfman",
-					"year": "1990"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Circle of Life",
-					"artist": "Hans Zimmer",
-					"album": "The Lion King"
-				}
-			]
-		}
-	},
-	"The Jazz & Blues Delta": {
-		"delta blues": {
-			"top_artists": [
-				{
-					"name": "R.L. Burnside",
-					"album_count": 3
-				},
-				{
-					"name": "Junior Kimbrough",
-					"album_count": 3
-				},
-				{
-					"name": "T-Model Ford",
-					"album_count": 2
-				},
-				{
-					"name": "Jessie Mae Hemphill",
-					"album_count": 2
-				},
-				{
-					"name": "Cedric Burnside",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Too Bad Jim",
-					"artist": "R.L. Burnside",
-					"year": "1994"
-				},
-				{
-					"name": "Sad Days, Lonely Nights",
-					"artist": "Junior Kimbrough",
-					"year": "1994"
-				},
-				{
-					"name": "Pork Salad",
-					"artist": "T-Model Ford",
-					"year": "1997"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Goin' Down South",
-					"artist": "R.L. Burnside",
-					"album": "Too Bad Jim"
-				}
-			]
-		},
-		"ragtime": {
-			"top_artists": [
-				{
-					"name": "Reginald Robinson",
-					"album_count": 2
-				},
-				{
-					"name": "William Bolcom",
-					"album_count": 2
-				},
-				{
-					"name": "Joshua Rifkin",
-					"album_count": 2
-				},
-				{
-					"name": "Max Morath",
-					"album_count": 1
-				},
-				{
-					"name": "Trebor Tichenor",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "The Strongman",
-					"artist": "Reginald Robinson",
-					"year": "1997"
-				},
-				{
-					"name": "Euphonic Sounds",
-					"artist": "William Bolcom",
-					"year": "1971"
-				},
-				{
-					"name": "Scott Joplin Rags",
-					"artist": "Joshua Rifkin",
-					"year": "1970"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "The Strongman",
-					"artist": "Reginald Robinson",
-					"album": "The Strongman"
-				}
-			]
-		},
-		"swing": {
-			"top_artists": [
-				{
-					"name": "Harry Connick Jr.",
-					"album_count": 3
-				},
-				{
-					"name": "Tony Bennett",
-					"album_count": 2
-				},
-				{
-					"name": "Diana Krall",
-					"album_count": 2
-				},
-				{
-					"name": "Big Bad Voodoo Daddy",
-					"album_count": 2
-				},
-				{
-					"name": "Squirrel Nut Zippers",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "When Harry Met Sally",
-					"artist": "Harry Connick Jr.",
-					"year": "1989"
-				},
-				{
-					"name": "Stepping Out",
-					"artist": "Tony Bennett",
-					"year": "1993"
-				},
-				{
-					"name": "All for You",
-					"artist": "Diana Krall",
-					"year": "1996"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "It Had to Be You",
-					"artist": "Harry Connick Jr.",
-					"album": "When Harry Met Sally"
-				}
-			]
-		}
-	},
-	"The Tropical Pulse": {
 		"calypso": {
 			"top_artists": [
 				{
@@ -3815,7 +3473,7 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Lucía",
+					"name": "Paco de Luc\u00eda",
 					"album_count": 3
 				},
 				{
@@ -3838,7 +3496,7 @@
 			"top_albums": [
 				{
 					"name": "Zyryab",
-					"artist": "Paco de Lucía",
+					"artist": "Paco de Luc\u00eda",
 					"year": "1990"
 				},
 				{
@@ -3847,7 +3505,7 @@
 					"year": "1991"
 				},
 				{
-					"name": "De Mi Corazón al Aire",
+					"name": "De Mi Coraz\u00f3n al Aire",
 					"artist": "Vicente Amigo",
 					"year": "1991"
 				}
@@ -3855,8 +3513,346 @@
 			"sample_tracks": [
 				{
 					"name": "Zyryab",
-					"artist": "Paco de Lucía",
+					"artist": "Paco de Luc\u00eda",
 					"album": "Zyryab"
+				}
+			]
+		}
+	},
+	"The Avant-Garde Isles": {
+		"experimental": {
+			"top_artists": [
+				{
+					"name": "Bj\u00f6rk",
+					"album_count": 3
+				},
+				{
+					"name": "Radiohead",
+					"album_count": 2
+				},
+				{
+					"name": "Aphex Twin",
+					"album_count": 2
+				},
+				{
+					"name": "Portishead",
+					"album_count": 2
+				},
+				{
+					"name": "Talk Talk",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Homogenic",
+					"artist": "Bj\u00f6rk",
+					"year": "1997"
+				},
+				{
+					"name": "OK Computer",
+					"artist": "Radiohead",
+					"year": "1997"
+				},
+				{
+					"name": "Spirit of Eden",
+					"artist": "Talk Talk",
+					"year": "1988"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "J\u00f3ga",
+					"artist": "Bj\u00f6rk",
+					"album": "Homogenic"
+				}
+			]
+		},
+		"noise": {
+			"top_artists": [
+				{
+					"name": "Merzbow",
+					"album_count": 3
+				},
+				{
+					"name": "Masonna",
+					"album_count": 2
+				},
+				{
+					"name": "Whitehouse",
+					"album_count": 2
+				},
+				{
+					"name": "The Haters",
+					"album_count": 2
+				},
+				{
+					"name": "Prurient",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Venereology",
+					"artist": "Merzbow",
+					"year": "1994"
+				},
+				{
+					"name": "Pulse Demon",
+					"artist": "Merzbow",
+					"year": "1996"
+				},
+				{
+					"name": "Cruise",
+					"artist": "Whitehouse",
+					"year": "2001"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Autopsy",
+					"artist": "Merzbow",
+					"album": "Pulse Demon"
+				}
+			]
+		},
+		"dark ambient": {
+			"top_artists": [
+				{
+					"name": "Lustmord",
+					"album_count": 3
+				},
+				{
+					"name": "Coil",
+					"album_count": 2
+				},
+				{
+					"name": "Biosphere",
+					"album_count": 2
+				},
+				{
+					"name": "Raison d'\u00eatre",
+					"album_count": 2
+				},
+				{
+					"name": "Atrium Carceri",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Place Where the Black Stars Hang",
+					"artist": "Lustmord",
+					"year": "1994"
+				},
+				{
+					"name": "Substrata",
+					"artist": "Biosphere",
+					"year": "1997"
+				},
+				{
+					"name": "Within the Depths of Silence and Phormations",
+					"artist": "Raison d'\u00eatre",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sublunar",
+					"artist": "Lustmord",
+					"album": "The Place Where the Black Stars Hang"
+				}
+			]
+		},
+		"drone": {
+			"top_artists": [
+				{
+					"name": "Earth",
+					"album_count": 3
+				},
+				{
+					"name": "Sunn O)))",
+					"album_count": 2
+				},
+				{
+					"name": "Stars of the Lid",
+					"album_count": 2
+				},
+				{
+					"name": "Earth",
+					"album_count": 1
+				},
+				{
+					"name": "Phill Niblock",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Earth 2",
+					"artist": "Earth",
+					"year": "1993"
+				},
+				{
+					"name": "The Tired Sounds of Stars of the Lid",
+					"artist": "Stars of the Lid",
+					"year": "2001"
+				},
+				{
+					"name": "G\u266d\u2192A",
+					"artist": "Phill Niblock",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Seven Angels",
+					"artist": "Earth",
+					"album": "Earth 2"
+				}
+			]
+		},
+		"avant-garde": {
+			"top_artists": [
+				{
+					"name": "John Zorn",
+					"album_count": 3
+				},
+				{
+					"name": "Diamanda Gal\u00e1s",
+					"album_count": 2
+				},
+				{
+					"name": "Laurie Anderson",
+					"album_count": 2
+				},
+				{
+					"name": "Meredith Monk",
+					"album_count": 2
+				},
+				{
+					"name": "Bj\u00f6rk",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Naked City",
+					"artist": "John Zorn",
+					"year": "1990"
+				},
+				{
+					"name": "The Singer",
+					"artist": "Diamanda Gal\u00e1s",
+					"year": "1992"
+				},
+				{
+					"name": "Bright Red",
+					"artist": "Laurie Anderson",
+					"year": "1994"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Batman",
+					"artist": "John Zorn",
+					"album": "Naked City"
+				}
+			]
+		},
+		"classical": {
+			"top_artists": [
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 3
+				},
+				{
+					"name": "Henryk G\u00f3recki",
+					"album_count": 2
+				},
+				{
+					"name": "John Adams",
+					"album_count": 2
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 2
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Symphony No. 3",
+					"artist": "Henryk G\u00f3recki",
+					"year": "1976"
+				},
+				{
+					"name": "Te Deum",
+					"artist": "Arvo P\u00e4rt",
+					"year": "1993"
+				},
+				{
+					"name": "The Hours",
+					"artist": "Philip Glass",
+					"year": "1998"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Symphony of Sorrowful Songs",
+					"artist": "Henryk G\u00f3recki",
+					"album": "Symphony No. 3"
+				}
+			]
+		},
+		"soundtrack": {
+			"top_artists": [
+				{
+					"name": "Hans Zimmer",
+					"album_count": 3
+				},
+				{
+					"name": "John Williams",
+					"album_count": 3
+				},
+				{
+					"name": "Danny Elfman",
+					"album_count": 2
+				},
+				{
+					"name": "James Horner",
+					"album_count": 2
+				},
+				{
+					"name": "Howard Shore",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Lion King",
+					"artist": "Hans Zimmer",
+					"year": "1994"
+				},
+				{
+					"name": "Jurassic Park",
+					"artist": "John Williams",
+					"year": "1993"
+				},
+				{
+					"name": "Edward Scissorhands",
+					"artist": "Danny Elfman",
+					"year": "1990"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Circle of Life",
+					"artist": "Hans Zimmer",
+					"album": "The Lion King"
 				}
 			]
 		}

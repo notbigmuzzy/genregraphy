@@ -90,7 +90,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "California Über Alles",
+					"name": "California \u00dcber Alles",
 					"artist": "Dead Kennedys",
 					"album": "Fresh Fruit for Rotting Vegetables"
 				}
@@ -347,7 +347,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Hüsker Dü",
+					"name": "H\u00fcsker D\u00fc",
 					"album_count": 2
 				},
 				{
@@ -367,7 +367,7 @@
 				},
 				{
 					"name": "Zen Arcade",
-					"artist": "Hüsker Dü",
+					"artist": "H\u00fcsker D\u00fc",
 					"year": "1984"
 				},
 				{
@@ -621,6 +621,54 @@
 					"name": "Cherry-coloured Funk",
 					"artist": "Cocteau Twins",
 					"album": "Heaven or Las Vegas"
+				}
+			]
+		},
+		"indie": {
+			"top_artists": [
+				{
+					"name": "R.E.M.",
+					"album_count": 3
+				},
+				{
+					"name": "The Smiths",
+					"album_count": 3
+				},
+				{
+					"name": "Sonic Youth",
+					"album_count": 2
+				},
+				{
+					"name": "Pixies",
+					"album_count": 2
+				},
+				{
+					"name": "H\u00fcsker D\u00fc",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Murmur",
+					"artist": "R.E.M.",
+					"year": "1983"
+				},
+				{
+					"name": "The Queen Is Dead",
+					"artist": "The Smiths",
+					"year": "1986"
+				},
+				{
+					"name": "Daydream Nation",
+					"artist": "Sonic Youth",
+					"year": "1988"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Radio Free Europe",
+					"artist": "R.E.M.",
+					"album": "Murmur"
 				}
 			]
 		}
@@ -933,7 +981,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Einstürzende Neubauten",
+					"name": "Einst\u00fcrzende Neubauten",
 					"album_count": 1
 				}
 			],
@@ -1507,7 +1555,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Tony! Toni! Toné!",
+					"name": "Tony! Toni! Ton\u00e9!",
 					"album_count": 1
 				},
 				{
@@ -1683,6 +1731,150 @@
 					"name": "Are You Going with Me?",
 					"artist": "Pat Metheny Group",
 					"album": "Offramp"
+				}
+			]
+		},
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "R.L. Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Junior Kimbrough",
+					"album_count": 2
+				},
+				{
+					"name": "John Lee Hooker",
+					"album_count": 2
+				},
+				{
+					"name": "Jessie Mae Hemphill",
+					"album_count": 2
+				},
+				{
+					"name": "T-Model Ford",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bad Luck City",
+					"artist": "R.L. Burnside",
+					"year": "1982"
+				},
+				{
+					"name": "All Night Long",
+					"artist": "Junior Kimbrough",
+					"year": "1989"
+				},
+				{
+					"name": "The Healer",
+					"artist": "John Lee Hooker",
+					"year": "1989"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Poor Black Mattie",
+					"artist": "R.L. Burnside",
+					"album": "Bad Luck City"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "William Bolcom",
+					"album_count": 2
+				},
+				{
+					"name": "Joshua Rifkin",
+					"album_count": 2
+				},
+				{
+					"name": "Dick Hyman",
+					"album_count": 2
+				},
+				{
+					"name": "Max Morath",
+					"album_count": 1
+				},
+				{
+					"name": "Reginald Robinson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Heliotrope Bouquet",
+					"artist": "William Bolcom",
+					"year": "1971"
+				},
+				{
+					"name": "Scott Joplin: Piano Rags",
+					"artist": "Joshua Rifkin",
+					"year": "1970"
+				},
+				{
+					"name": "Piano Rags by Scott Joplin",
+					"artist": "Dick Hyman",
+					"year": "1975"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Heliotrope Bouquet",
+					"artist": "William Bolcom",
+					"album": "Heliotrope Bouquet"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Count Basie",
+					"album_count": 3
+				},
+				{
+					"name": "Frank Sinatra",
+					"album_count": 2
+				},
+				{
+					"name": "Ella Fitzgerald",
+					"album_count": 2
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "88 Basie Street",
+					"artist": "Count Basie",
+					"year": "1983"
+				},
+				{
+					"name": "L.A. Is My Lady",
+					"artist": "Frank Sinatra",
+					"year": "1984"
+				},
+				{
+					"name": "Speak Low",
+					"artist": "Ella Fitzgerald",
+					"year": "1980"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "New York, New York",
+					"artist": "Frank Sinatra",
+					"album": "L.A. Is My Lady"
 				}
 			]
 		}
@@ -2653,6 +2845,150 @@
 					"album": "Mister Yellowman"
 				}
 			]
+		},
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Arrow",
+					"album_count": 3
+				},
+				{
+					"name": "Mighty Sparrow",
+					"album_count": 2
+				},
+				{
+					"name": "Calypso Rose",
+					"album_count": 2
+				},
+				{
+					"name": "David Rudder",
+					"album_count": 2
+				},
+				{
+					"name": "Shadow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hot Hot Hot",
+					"artist": "Arrow",
+					"year": "1982"
+				},
+				{
+					"name": "Explosion",
+					"artist": "Mighty Sparrow",
+					"year": "1980"
+				},
+				{
+					"name": "So to Speak",
+					"artist": "Calypso Rose",
+					"year": "1985"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hot Hot Hot",
+					"artist": "Arrow",
+					"album": "Hot Hot Hot"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Rub\u00e9n Blades",
+					"album_count": 3
+				},
+				{
+					"name": "Celia Cruz",
+					"album_count": 3
+				},
+				{
+					"name": "Willie Col\u00f3n",
+					"album_count": 2
+				},
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 2
+				},
+				{
+					"name": "Tito Puente",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Buscando Am\u00e9rica",
+					"artist": "Rub\u00e9n Blades",
+					"year": "1984"
+				},
+				{
+					"name": "Mientras Tanto",
+					"artist": "Juan Luis Guerra",
+					"year": "1984"
+				},
+				{
+					"name": "Celia Cruz and Friends",
+					"artist": "Celia Cruz",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Buscando Am\u00e9rica",
+					"artist": "Rub\u00e9n Blades",
+					"album": "Buscando Am\u00e9rica"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Luc\u00eda",
+					"album_count": 3
+				},
+				{
+					"name": "Camar\u00f3n de la Isla",
+					"album_count": 3
+				},
+				{
+					"name": "Tomatito",
+					"album_count": 2
+				},
+				{
+					"name": "Enrique Morente",
+					"album_count": 2
+				},
+				{
+					"name": "Manolo Sanl\u00facar",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Friday Night in San Francisco",
+					"artist": "Paco de Luc\u00eda",
+					"year": "1981"
+				},
+				{
+					"name": "Como el Agua",
+					"artist": "Camar\u00f3n de la Isla",
+					"year": "1981"
+				},
+				{
+					"name": "Siroco",
+					"artist": "Paco de Luc\u00eda",
+					"year": "1987"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mediterranean Sundance",
+					"artist": "Paco de Luc\u00eda",
+					"album": "Friday Night in San Francisco"
+				}
+			]
 		}
 	},
 	"The Avant-Garde Isles": {
@@ -2667,7 +3003,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Einstürzende Neubauten",
+					"name": "Einst\u00fcrzende Neubauten",
 					"album_count": 2
 				},
 				{
@@ -2692,7 +3028,7 @@
 				},
 				{
 					"name": "Halber Mensch",
-					"artist": "Einstürzende Neubauten",
+					"artist": "Einst\u00fcrzende Neubauten",
 					"year": "1985"
 				}
 			],
@@ -2767,7 +3103,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Raison d'être",
+					"name": "Raison d'\u00eatre",
 					"album_count": 1
 				},
 				{
@@ -2851,7 +3187,7 @@
 		"classical": {
 			"top_artists": [
 				{
-					"name": "Arvo Pärt",
+					"name": "Arvo P\u00e4rt",
 					"album_count": 3
 				},
 				{
@@ -2859,7 +3195,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Henryk Górecki",
+					"name": "Henryk G\u00f3recki",
 					"album_count": 2
 				},
 				{
@@ -2874,12 +3210,12 @@
 			"top_albums": [
 				{
 					"name": "Symphony No. 3",
-					"artist": "Henryk Górecki",
+					"artist": "Henryk G\u00f3recki",
 					"year": "1976"
 				},
 				{
 					"name": "Tabula Rasa",
-					"artist": "Arvo Pärt",
+					"artist": "Arvo P\u00e4rt",
 					"year": "1977"
 				},
 				{
@@ -2891,7 +3227,7 @@
 			"sample_tracks": [
 				{
 					"name": "Symphony of Sorrowful Songs",
-					"artist": "Henryk Górecki",
+					"artist": "Henryk G\u00f3recki",
 					"album": "Symphony No. 3"
 				}
 			]
@@ -2941,348 +3277,6 @@
 					"name": "Main Title",
 					"artist": "Vangelis",
 					"album": "Blade Runner"
-				}
-			]
-		}
-	},
-	"The Jazz & Blues Delta": {
-		"delta blues": {
-			"top_artists": [
-				{
-					"name": "R.L. Burnside",
-					"album_count": 3
-				},
-				{
-					"name": "Junior Kimbrough",
-					"album_count": 2
-				},
-				{
-					"name": "John Lee Hooker",
-					"album_count": 2
-				},
-				{
-					"name": "Jessie Mae Hemphill",
-					"album_count": 2
-				},
-				{
-					"name": "T-Model Ford",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Bad Luck City",
-					"artist": "R.L. Burnside",
-					"year": "1982"
-				},
-				{
-					"name": "All Night Long",
-					"artist": "Junior Kimbrough",
-					"year": "1989"
-				},
-				{
-					"name": "The Healer",
-					"artist": "John Lee Hooker",
-					"year": "1989"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Poor Black Mattie",
-					"artist": "R.L. Burnside",
-					"album": "Bad Luck City"
-				}
-			]
-		},
-		"ragtime": {
-			"top_artists": [
-				{
-					"name": "William Bolcom",
-					"album_count": 2
-				},
-				{
-					"name": "Joshua Rifkin",
-					"album_count": 2
-				},
-				{
-					"name": "Dick Hyman",
-					"album_count": 2
-				},
-				{
-					"name": "Max Morath",
-					"album_count": 1
-				},
-				{
-					"name": "Reginald Robinson",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Heliotrope Bouquet",
-					"artist": "William Bolcom",
-					"year": "1971"
-				},
-				{
-					"name": "Scott Joplin: Piano Rags",
-					"artist": "Joshua Rifkin",
-					"year": "1970"
-				},
-				{
-					"name": "Piano Rags by Scott Joplin",
-					"artist": "Dick Hyman",
-					"year": "1975"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Heliotrope Bouquet",
-					"artist": "William Bolcom",
-					"album": "Heliotrope Bouquet"
-				}
-			]
-		},
-		"swing": {
-			"top_artists": [
-				{
-					"name": "Count Basie",
-					"album_count": 3
-				},
-				{
-					"name": "Frank Sinatra",
-					"album_count": 2
-				},
-				{
-					"name": "Ella Fitzgerald",
-					"album_count": 2
-				},
-				{
-					"name": "Tony Bennett",
-					"album_count": 2
-				},
-				{
-					"name": "Harry Connick Jr.",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "88 Basie Street",
-					"artist": "Count Basie",
-					"year": "1983"
-				},
-				{
-					"name": "L.A. Is My Lady",
-					"artist": "Frank Sinatra",
-					"year": "1984"
-				},
-				{
-					"name": "Speak Low",
-					"artist": "Ella Fitzgerald",
-					"year": "1980"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "New York, New York",
-					"artist": "Frank Sinatra",
-					"album": "L.A. Is My Lady"
-				}
-			]
-		}
-	},
-	"The Tropical Pulse": {
-		"calypso": {
-			"top_artists": [
-				{
-					"name": "Arrow",
-					"album_count": 3
-				},
-				{
-					"name": "Mighty Sparrow",
-					"album_count": 2
-				},
-				{
-					"name": "Calypso Rose",
-					"album_count": 2
-				},
-				{
-					"name": "David Rudder",
-					"album_count": 2
-				},
-				{
-					"name": "Shadow",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Hot Hot Hot",
-					"artist": "Arrow",
-					"year": "1982"
-				},
-				{
-					"name": "Explosion",
-					"artist": "Mighty Sparrow",
-					"year": "1980"
-				},
-				{
-					"name": "So to Speak",
-					"artist": "Calypso Rose",
-					"year": "1985"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Hot Hot Hot",
-					"artist": "Arrow",
-					"album": "Hot Hot Hot"
-				}
-			]
-		},
-		"latin": {
-			"top_artists": [
-				{
-					"name": "Rubén Blades",
-					"album_count": 3
-				},
-				{
-					"name": "Celia Cruz",
-					"album_count": 3
-				},
-				{
-					"name": "Willie Colón",
-					"album_count": 2
-				},
-				{
-					"name": "Juan Luis Guerra",
-					"album_count": 2
-				},
-				{
-					"name": "Tito Puente",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Buscando América",
-					"artist": "Rubén Blades",
-					"year": "1984"
-				},
-				{
-					"name": "Mientras Tanto",
-					"artist": "Juan Luis Guerra",
-					"year": "1984"
-				},
-				{
-					"name": "Celia Cruz and Friends",
-					"artist": "Celia Cruz",
-					"year": "1982"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Buscando América",
-					"artist": "Rubén Blades",
-					"album": "Buscando América"
-				}
-			]
-		},
-		"flamenco": {
-			"top_artists": [
-				{
-					"name": "Paco de Lucía",
-					"album_count": 3
-				},
-				{
-					"name": "Camarón de la Isla",
-					"album_count": 3
-				},
-				{
-					"name": "Tomatito",
-					"album_count": 2
-				},
-				{
-					"name": "Enrique Morente",
-					"album_count": 2
-				},
-				{
-					"name": "Manolo Sanlúcar",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Friday Night in San Francisco",
-					"artist": "Paco de Lucía",
-					"year": "1981"
-				},
-				{
-					"name": "Como el Agua",
-					"artist": "Camarón de la Isla",
-					"year": "1981"
-				},
-				{
-					"name": "Siroco",
-					"artist": "Paco de Lucía",
-					"year": "1987"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Mediterranean Sundance",
-					"artist": "Paco de Lucía",
-					"album": "Friday Night in San Francisco"
-				}
-			]
-		}
-	},
-	"The Rock Shield": {
-		"indie": {
-			"top_artists": [
-				{
-					"name": "R.E.M.",
-					"album_count": 3
-				},
-				{
-					"name": "The Smiths",
-					"album_count": 3
-				},
-				{
-					"name": "Sonic Youth",
-					"album_count": 2
-				},
-				{
-					"name": "Pixies",
-					"album_count": 2
-				},
-				{
-					"name": "Hüsker Dü",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Murmur",
-					"artist": "R.E.M.",
-					"year": "1983"
-				},
-				{
-					"name": "The Queen Is Dead",
-					"artist": "The Smiths",
-					"year": "1986"
-				},
-				{
-					"name": "Daydream Nation",
-					"artist": "Sonic Youth",
-					"year": "1988"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Radio Free Europe",
-					"artist": "R.E.M.",
-					"album": "Murmur"
 				}
 			]
 		}

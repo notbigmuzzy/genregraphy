@@ -255,7 +255,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Sigur Rós",
+					"name": "Sigur R\u00f3s",
 					"album_count": 2
 				},
 				{
@@ -270,8 +270,8 @@
 					"year": "2003"
 				},
 				{
-					"name": "Ágætis byrjun",
-					"artist": "Sigur Rós",
+					"name": "\u00c1g\u00e6tis byrjun",
+					"artist": "Sigur R\u00f3s",
 					"year": "1999"
 				},
 				{
@@ -531,7 +531,7 @@
 		"shoegaze": {
 			"top_artists": [
 				{
-					"name": "Sigur Rós",
+					"name": "Sigur R\u00f3s",
 					"album_count": 3
 				},
 				{
@@ -553,8 +553,8 @@
 			],
 			"top_albums": [
 				{
-					"name": "Ágætis byrjun",
-					"artist": "Sigur Rós",
+					"name": "\u00c1g\u00e6tis byrjun",
+					"artist": "Sigur R\u00f3s",
 					"year": "1999"
 				},
 				{
@@ -571,8 +571,8 @@
 			"sample_tracks": [
 				{
 					"name": "Svefn-g-englar",
-					"artist": "Sigur Rós",
-					"album": "Ágætis byrjun"
+					"artist": "Sigur R\u00f3s",
+					"album": "\u00c1g\u00e6tis byrjun"
 				}
 			]
 		},
@@ -635,7 +635,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Sigur Rós",
+					"name": "Sigur R\u00f3s",
 					"album_count": 2
 				},
 				{
@@ -693,7 +693,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Röyksopp",
+					"name": "R\u00f6yksopp",
 					"album_count": 1
 				}
 			],
@@ -704,7 +704,7 @@
 					"year": "2001"
 				},
 				{
-					"name": "†",
+					"name": "\u2020",
 					"artist": "Justice",
 					"year": "2007"
 				},
@@ -825,7 +825,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Tiësto",
+					"name": "Ti\u00ebsto",
 					"album_count": 3
 				},
 				{
@@ -844,7 +844,7 @@
 			"top_albums": [
 				{
 					"name": "Just Be",
-					"artist": "Tiësto",
+					"artist": "Ti\u00ebsto",
 					"year": "2004"
 				},
 				{
@@ -861,7 +861,7 @@
 			"sample_tracks": [
 				{
 					"name": "Adagio for Strings",
-					"artist": "Tiësto",
+					"artist": "Ti\u00ebsto",
 					"album": "Just Be"
 				}
 			]
@@ -1083,7 +1083,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "†",
+					"name": "\u2020",
 					"artist": "Justice",
 					"year": "2007"
 				},
@@ -1102,7 +1102,7 @@
 				{
 					"name": "D.A.N.C.E.",
 					"artist": "Justice",
-					"album": "†"
+					"album": "\u2020"
 				}
 			]
 		},
@@ -1317,7 +1317,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Röyksopp",
+					"name": "R\u00f6yksopp",
 					"album_count": 1
 				}
 			],
@@ -1334,7 +1334,7 @@
 				},
 				{
 					"name": "Melody A.M.",
-					"artist": "Röyksopp",
+					"artist": "R\u00f6yksopp",
 					"year": "2001"
 				}
 			],
@@ -1691,7 +1691,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Beyoncé",
+					"name": "Beyonc\u00e9",
 					"album_count": 3
 				},
 				{
@@ -1715,7 +1715,7 @@
 				},
 				{
 					"name": "Dangerously in Love",
-					"artist": "Beyoncé",
+					"artist": "Beyonc\u00e9",
 					"year": "2003"
 				},
 				{
@@ -2021,13 +2021,157 @@
 					"album": "Black Radio"
 				}
 			]
+		},
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "R.L. Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Junior Kimbrough",
+					"album_count": 2
+				},
+				{
+					"name": "T-Model Ford",
+					"album_count": 2
+				},
+				{
+					"name": "Cedric Burnside",
+					"album_count": 2
+				},
+				{
+					"name": "Lightnin' Malcolm",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Wish I Was in Heaven Sitting Down",
+					"artist": "R.L. Burnside",
+					"year": "2000"
+				},
+				{
+					"name": "First Recordings",
+					"artist": "Junior Kimbrough",
+					"year": "1998"
+				},
+				{
+					"name": "Bad Man",
+					"artist": "T-Model Ford",
+					"year": "2002"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Poor Black Mattie",
+					"artist": "R.L. Burnside",
+					"album": "Wish I Was in Heaven Sitting Down"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "Frederick Hodges",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Holland",
+					"album_count": 2
+				},
+				{
+					"name": "Butch Thompson",
+					"album_count": 1
+				},
+				{
+					"name": "Carl Sonny Leyland",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"year": "1997"
+				},
+				{
+					"name": "Echoes of the Ragtime Era",
+					"artist": "Frederick Hodges",
+					"year": "2000"
+				},
+				{
+					"name": "Classic Ragtime",
+					"artist": "Brian Holland",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Strongman",
+					"artist": "Reginald Robinson",
+					"album": "The Strongman"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Michael Bubl\u00e9",
+					"album_count": 3
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 3
+				},
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 2
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Robbie Williams",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "It's Time",
+					"artist": "Michael Bubl\u00e9",
+					"year": "2005"
+				},
+				{
+					"name": "The Look of Love",
+					"artist": "Diana Krall",
+					"year": "2001"
+				},
+				{
+					"name": "Duets: An American Classic",
+					"artist": "Tony Bennett",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Feeling Good",
+					"artist": "Michael Bubl\u00e9",
+					"album": "It's Time"
+				}
+			]
 		}
 	},
 	"The Pop Archipelago": {
 		"pop": {
 			"top_artists": [
 				{
-					"name": "Beyoncé",
+					"name": "Beyonc\u00e9",
 					"album_count": 3
 				},
 				{
@@ -2055,7 +2199,7 @@
 				},
 				{
 					"name": "Dangerously in Love",
-					"artist": "Beyoncé",
+					"artist": "Beyonc\u00e9",
 					"year": "2003"
 				},
 				{
@@ -2934,7 +3078,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Призрак",
+					"name": "\u041f\u0440\u0438\u0437\u0440\u0430\u043a",
 					"artist": "Pig Destroyer",
 					"album": "Prowler in the Yard"
 				}
@@ -3149,7 +3293,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tego Calderón",
+					"name": "Tego Calder\u00f3n",
 					"album_count": 2
 				},
 				{
@@ -3277,6 +3421,150 @@
 					"album": "Face 2 Face"
 				}
 			]
+		},
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 3
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 2
+				},
+				{
+					"name": "Fay-Ann Lyons",
+					"album_count": 2
+				},
+				{
+					"name": "Destra Garcia",
+					"album_count": 2
+				},
+				{
+					"name": "Patrice Roberts",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Charge",
+					"artist": "Machel Montano",
+					"year": "2007"
+				},
+				{
+					"name": "Global",
+					"artist": "Bunji Garlin",
+					"year": "2007"
+				},
+				{
+					"name": "Heavy T Bumpa",
+					"artist": "Fay-Ann Lyons",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Footsteps",
+					"artist": "Machel Montano",
+					"album": "Charge"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Shakira",
+					"album_count": 3
+				},
+				{
+					"name": "Marc Anthony",
+					"album_count": 3
+				},
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 2
+				},
+				{
+					"name": "Juanes",
+					"album_count": 2
+				},
+				{
+					"name": "Calle 13",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fijaci\u00f3n Oral Vol. 1",
+					"artist": "Shakira",
+					"year": "2005"
+				},
+				{
+					"name": "Amar Sin Mentiras",
+					"artist": "Marc Anthony",
+					"year": "2004"
+				},
+				{
+					"name": "Mi Sangre",
+					"artist": "Juanes",
+					"year": "2004"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "La Tortura",
+					"artist": "Shakira",
+					"album": "Fijaci\u00f3n Oral Vol. 1"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Luc\u00eda",
+					"album_count": 2
+				},
+				{
+					"name": "Vicente Amigo",
+					"album_count": 2
+				},
+				{
+					"name": "Diego El Cigala",
+					"album_count": 2
+				},
+				{
+					"name": "Tomatito",
+					"album_count": 2
+				},
+				{
+					"name": "Miguel Poveda",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Cositas Buenas",
+					"artist": "Paco de Luc\u00eda",
+					"year": "2004"
+				},
+				{
+					"name": "L\u00e1grimas Negras",
+					"artist": "Diego El Cigala",
+					"year": "2003"
+				},
+				{
+					"name": "Ciudad de las Ideas",
+					"artist": "Vicente Amigo",
+					"year": "2000"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Cositas Buenas",
+					"artist": "Paco de Luc\u00eda",
+					"album": "Cositas Buenas"
+				}
+			]
 		}
 	},
 	"The Avant-Garde Isles": {
@@ -3287,7 +3575,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Björk",
+					"name": "Bj\u00f6rk",
 					"album_count": 2
 				},
 				{
@@ -3311,7 +3599,7 @@
 				},
 				{
 					"name": "Vespertine",
-					"artist": "Björk",
+					"artist": "Bj\u00f6rk",
 					"year": "2001"
 				},
 				{
@@ -3387,7 +3675,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Raison d'être",
+					"name": "Raison d'\u00eatre",
 					"album_count": 2
 				},
 				{
@@ -3475,7 +3763,7 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "Björk",
+					"name": "Bj\u00f6rk",
 					"album_count": 3
 				},
 				{
@@ -3483,7 +3771,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Diamanda Galás",
+					"name": "Diamanda Gal\u00e1s",
 					"album_count": 2
 				},
 				{
@@ -3497,8 +3785,8 @@
 			],
 			"top_albums": [
 				{
-					"name": "Medúlla",
-					"artist": "Björk",
+					"name": "Med\u00falla",
+					"artist": "Bj\u00f6rk",
 					"year": "2004"
 				},
 				{
@@ -3508,15 +3796,15 @@
 				},
 				{
 					"name": "Defixiones",
-					"artist": "Diamanda Galás",
+					"artist": "Diamanda Gal\u00e1s",
 					"year": "2003"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Oceania",
-					"artist": "Björk",
-					"album": "Medúlla"
+					"artist": "Bj\u00f6rk",
+					"album": "Med\u00falla"
 				}
 			]
 		},
@@ -3527,7 +3815,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Arvo Pärt",
+					"name": "Arvo P\u00e4rt",
 					"album_count": 2
 				},
 				{
@@ -3551,7 +3839,7 @@
 				},
 				{
 					"name": "Alina",
-					"artist": "Arvo Pärt",
+					"artist": "Arvo P\u00e4rt",
 					"year": "1999"
 				},
 				{
@@ -3603,7 +3891,7 @@
 					"year": "2000"
 				},
 				{
-					"name": "Amélie",
+					"name": "Am\u00e9lie",
 					"artist": "Yann Tiersen",
 					"year": "2001"
 				}
@@ -3613,298 +3901,6 @@
 					"name": "Now We Are Free",
 					"artist": "Hans Zimmer",
 					"album": "Gladiator"
-				}
-			]
-		}
-	},
-	"The Jazz & Blues Delta": {
-		"delta blues": {
-			"top_artists": [
-				{
-					"name": "R.L. Burnside",
-					"album_count": 3
-				},
-				{
-					"name": "Junior Kimbrough",
-					"album_count": 2
-				},
-				{
-					"name": "T-Model Ford",
-					"album_count": 2
-				},
-				{
-					"name": "Cedric Burnside",
-					"album_count": 2
-				},
-				{
-					"name": "Lightnin' Malcolm",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Wish I Was in Heaven Sitting Down",
-					"artist": "R.L. Burnside",
-					"year": "2000"
-				},
-				{
-					"name": "First Recordings",
-					"artist": "Junior Kimbrough",
-					"year": "1998"
-				},
-				{
-					"name": "Bad Man",
-					"artist": "T-Model Ford",
-					"year": "2002"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Poor Black Mattie",
-					"artist": "R.L. Burnside",
-					"album": "Wish I Was in Heaven Sitting Down"
-				}
-			]
-		},
-		"ragtime": {
-			"top_artists": [
-				{
-					"name": "Reginald Robinson",
-					"album_count": 2
-				},
-				{
-					"name": "Frederick Hodges",
-					"album_count": 2
-				},
-				{
-					"name": "Brian Holland",
-					"album_count": 2
-				},
-				{
-					"name": "Butch Thompson",
-					"album_count": 1
-				},
-				{
-					"name": "Carl Sonny Leyland",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "The Strongman",
-					"artist": "Reginald Robinson",
-					"year": "1997"
-				},
-				{
-					"name": "Echoes of the Ragtime Era",
-					"artist": "Frederick Hodges",
-					"year": "2000"
-				},
-				{
-					"name": "Classic Ragtime",
-					"artist": "Brian Holland",
-					"year": "2005"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "The Strongman",
-					"artist": "Reginald Robinson",
-					"album": "The Strongman"
-				}
-			]
-		},
-		"swing": {
-			"top_artists": [
-				{
-					"name": "Michael Bublé",
-					"album_count": 3
-				},
-				{
-					"name": "Diana Krall",
-					"album_count": 3
-				},
-				{
-					"name": "Harry Connick Jr.",
-					"album_count": 2
-				},
-				{
-					"name": "Tony Bennett",
-					"album_count": 2
-				},
-				{
-					"name": "Robbie Williams",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "It's Time",
-					"artist": "Michael Bublé",
-					"year": "2005"
-				},
-				{
-					"name": "The Look of Love",
-					"artist": "Diana Krall",
-					"year": "2001"
-				},
-				{
-					"name": "Duets: An American Classic",
-					"artist": "Tony Bennett",
-					"year": "2006"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Feeling Good",
-					"artist": "Michael Bublé",
-					"album": "It's Time"
-				}
-			]
-		}
-	},
-	"The Tropical Pulse": {
-		"calypso": {
-			"top_artists": [
-				{
-					"name": "Machel Montano",
-					"album_count": 3
-				},
-				{
-					"name": "Bunji Garlin",
-					"album_count": 2
-				},
-				{
-					"name": "Fay-Ann Lyons",
-					"album_count": 2
-				},
-				{
-					"name": "Destra Garcia",
-					"album_count": 2
-				},
-				{
-					"name": "Patrice Roberts",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Charge",
-					"artist": "Machel Montano",
-					"year": "2007"
-				},
-				{
-					"name": "Global",
-					"artist": "Bunji Garlin",
-					"year": "2007"
-				},
-				{
-					"name": "Heavy T Bumpa",
-					"artist": "Fay-Ann Lyons",
-					"year": "2005"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Footsteps",
-					"artist": "Machel Montano",
-					"album": "Charge"
-				}
-			]
-		},
-		"latin": {
-			"top_artists": [
-				{
-					"name": "Shakira",
-					"album_count": 3
-				},
-				{
-					"name": "Marc Anthony",
-					"album_count": 3
-				},
-				{
-					"name": "Juan Luis Guerra",
-					"album_count": 2
-				},
-				{
-					"name": "Juanes",
-					"album_count": 2
-				},
-				{
-					"name": "Calle 13",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Fijación Oral Vol. 1",
-					"artist": "Shakira",
-					"year": "2005"
-				},
-				{
-					"name": "Amar Sin Mentiras",
-					"artist": "Marc Anthony",
-					"year": "2004"
-				},
-				{
-					"name": "Mi Sangre",
-					"artist": "Juanes",
-					"year": "2004"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "La Tortura",
-					"artist": "Shakira",
-					"album": "Fijación Oral Vol. 1"
-				}
-			]
-		},
-		"flamenco": {
-			"top_artists": [
-				{
-					"name": "Paco de Lucía",
-					"album_count": 2
-				},
-				{
-					"name": "Vicente Amigo",
-					"album_count": 2
-				},
-				{
-					"name": "Diego El Cigala",
-					"album_count": 2
-				},
-				{
-					"name": "Tomatito",
-					"album_count": 2
-				},
-				{
-					"name": "Miguel Poveda",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Cositas Buenas",
-					"artist": "Paco de Lucía",
-					"year": "2004"
-				},
-				{
-					"name": "Lágrimas Negras",
-					"artist": "Diego El Cigala",
-					"year": "2003"
-				},
-				{
-					"name": "Ciudad de las Ideas",
-					"artist": "Vicente Amigo",
-					"year": "2000"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Cositas Buenas",
-					"artist": "Paco de Lucía",
-					"album": "Cositas Buenas"
 				}
 			]
 		}

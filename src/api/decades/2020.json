@@ -921,7 +921,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ólafur Arnalds",
+					"name": "\u00d3lafur Arnalds",
 					"album_count": 3
 				},
 				{
@@ -945,7 +945,7 @@
 				},
 				{
 					"name": "some kind of peace",
-					"artist": "Ólafur Arnalds",
+					"artist": "\u00d3lafur Arnalds",
 					"year": "2020"
 				},
 				{
@@ -957,7 +957,7 @@
 			"sample_tracks": [
 				{
 					"name": "This Place Was a Shelter",
-					"artist": "Ólafur Arnalds",
+					"artist": "\u00d3lafur Arnalds",
 					"album": "some kind of peace"
 				}
 			]
@@ -1205,7 +1205,7 @@
 		"vaporwave": {
 			"top_artists": [
 				{
-					"name": "猫 シ Corp.",
+					"name": "\u732b \u30b7 Corp.",
 					"album_count": 3
 				},
 				{
@@ -1228,7 +1228,7 @@
 			"top_albums": [
 				{
 					"name": "Palm Mall",
-					"artist": "猫 シ Corp.",
+					"artist": "\u732b \u30b7 Corp.",
 					"year": "2014"
 				},
 				{
@@ -1245,7 +1245,7 @@
 			"sample_tracks": [
 				{
 					"name": "ECO VIRTUAL",
-					"artist": "猫 シ Corp.",
+					"artist": "\u732b \u30b7 Corp.",
 					"album": "Palm Mall"
 				}
 			]
@@ -1973,6 +1973,150 @@
 					"album": "Immigrance"
 				}
 			]
+		},
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "Cedric Burnside",
+					"album_count": 3
+				},
+				{
+					"name": "Lightnin' Malcolm",
+					"album_count": 2
+				},
+				{
+					"name": "Sharde Thomas",
+					"album_count": 2
+				},
+				{
+					"name": "Jimbo Mathus",
+					"album_count": 2
+				},
+				{
+					"name": "Cameron Kimbrough",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "I Be Trying",
+					"artist": "Cedric Burnside",
+					"year": "2021"
+				},
+				{
+					"name": "Bout Dat Time",
+					"artist": "Lightnin' Malcolm",
+					"year": "2019"
+				},
+				{
+					"name": "Rising Star Fife & Drum",
+					"artist": "Sharde Thomas",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "We Made It",
+					"artist": "Cedric Burnside",
+					"album": "I Be Trying"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Adam Swanson",
+					"album_count": 2
+				},
+				{
+					"name": "Frederick Hodges",
+					"album_count": 2
+				},
+				{
+					"name": "Reginald Robinson",
+					"album_count": 2
+				},
+				{
+					"name": "Brian Holland",
+					"album_count": 1
+				},
+				{
+					"name": "Virginia Eskin",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Genius of Scott Joplin",
+					"artist": "Adam Swanson",
+					"year": "2020"
+				},
+				{
+					"name": "Waltzing Ragtime",
+					"artist": "Frederick Hodges",
+					"year": "2018"
+				},
+				{
+					"name": "Sounds in Silhouette Vol. 2",
+					"artist": "Reginald Robinson",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Solace",
+					"artist": "Adam Swanson",
+					"album": "The Genius of Scott Joplin"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Michael Bubl\u00e9",
+					"album_count": 3
+				},
+				{
+					"name": "Postmodern Jukebox",
+					"album_count": 2
+				},
+				{
+					"name": "Gregory Porter",
+					"album_count": 2
+				},
+				{
+					"name": "C\u00e9cile McLorin Salvant",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Higher",
+					"artist": "Michael Bubl\u00e9",
+					"year": "2022"
+				},
+				{
+					"name": "All Rise",
+					"artist": "Gregory Porter",
+					"year": "2020"
+				},
+				{
+					"name": "The Window",
+					"artist": "C\u00e9cile McLorin Salvant",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Higher",
+					"artist": "Michael Bubl\u00e9",
+					"album": "Higher"
+				}
+			]
 		}
 	},
 	"The Pop Archipelago": {
@@ -2533,7 +2677,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Hate Über Alles",
+					"name": "Hate \u00dcber Alles",
 					"artist": "Kreator",
 					"year": "2022"
 				},
@@ -2550,9 +2694,9 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Hate Über Alles",
+					"name": "Hate \u00dcber Alles",
 					"artist": "Kreator",
-					"album": "Hate Über Alles"
+					"album": "Hate \u00dcber Alles"
 				}
 			]
 		},
@@ -2563,7 +2707,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Mgła",
+					"name": "Mg\u0142a",
 					"album_count": 2
 				},
 				{
@@ -2587,7 +2731,7 @@
 				},
 				{
 					"name": "Age Of",
-					"artist": "Mgła",
+					"artist": "Mg\u0142a",
 					"year": "2019"
 				},
 				{
@@ -3063,7 +3207,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "El Último Tour Del Mundo",
+					"name": "El \u00daltimo Tour Del Mundo",
 					"artist": "Bad Bunny",
 					"year": "2020"
 				},
@@ -3082,7 +3226,7 @@
 				{
 					"name": "Dakiti",
 					"artist": "Bad Bunny",
-					"album": "El Último Tour Del Mundo"
+					"album": "El \u00daltimo Tour Del Mundo"
 				}
 			]
 		},
@@ -3179,6 +3323,150 @@
 					"name": "Essence",
 					"artist": "Wizkid",
 					"album": "Made in Lagos"
+				}
+			]
+		},
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 3
+				},
+				{
+					"name": "Nailah Blackman",
+					"album_count": 2
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 2
+				},
+				{
+					"name": "Patrice Roberts",
+					"album_count": 2
+				},
+				{
+					"name": "Skinny Fabulous",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Road March 2020",
+					"artist": "Machel Montano",
+					"year": "2020"
+				},
+				{
+					"name": "Sokah",
+					"artist": "Nailah Blackman",
+					"year": "2019"
+				},
+				{
+					"name": "Viking",
+					"artist": "Bunji Garlin",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "So Good",
+					"artist": "Machel Montano",
+					"album": "Road March 2020"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Bad Bunny",
+					"album_count": 3
+				},
+				{
+					"name": "J Balvin",
+					"album_count": 3
+				},
+				{
+					"name": "Rosal\u00eda",
+					"album_count": 2
+				},
+				{
+					"name": "Karol G",
+					"album_count": 2
+				},
+				{
+					"name": "Rauw Alejandro",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Un Verano Sin Ti",
+					"artist": "Bad Bunny",
+					"year": "2022"
+				},
+				{
+					"name": "Motomami",
+					"artist": "Rosal\u00eda",
+					"year": "2022"
+				},
+				{
+					"name": "Colores",
+					"artist": "J Balvin",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Tit\u00ed Me Pregunt\u00f3",
+					"artist": "Bad Bunny",
+					"album": "Un Verano Sin Ti"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Rosal\u00eda",
+					"album_count": 3
+				},
+				{
+					"name": "C. Tangana",
+					"album_count": 2
+				},
+				{
+					"name": "Diego El Cigala",
+					"album_count": 2
+				},
+				{
+					"name": "Vicente Amigo",
+					"album_count": 2
+				},
+				{
+					"name": "Ni\u00f1o de Elche",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Motomami",
+					"artist": "Rosal\u00eda",
+					"year": "2022"
+				},
+				{
+					"name": "El Madrile\u00f1o",
+					"artist": "C. Tangana",
+					"year": "2021"
+				},
+				{
+					"name": "Indestructible",
+					"artist": "Diego El Cigala",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hentai",
+					"artist": "Rosal\u00eda",
+					"album": "Motomami"
 				}
 			]
 		}
@@ -3379,7 +3667,7 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "Björk",
+					"name": "Bj\u00f6rk",
 					"album_count": 3
 				},
 				{
@@ -3402,7 +3690,7 @@
 			"top_albums": [
 				{
 					"name": "Fossora",
-					"artist": "Björk",
+					"artist": "Bj\u00f6rk",
 					"year": "2022"
 				},
 				{
@@ -3419,7 +3707,7 @@
 			"sample_tracks": [
 				{
 					"name": "Atopos",
-					"artist": "Björk",
+					"artist": "Bj\u00f6rk",
 					"album": "Fossora"
 				}
 			]
@@ -3431,7 +3719,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ólafur Arnalds",
+					"name": "\u00d3lafur Arnalds",
 					"album_count": 2
 				},
 				{
@@ -3455,7 +3743,7 @@
 				},
 				{
 					"name": "some kind of peace",
-					"artist": "Ólafur Arnalds",
+					"artist": "\u00d3lafur Arnalds",
 					"year": "2020"
 				},
 				{
@@ -3479,11 +3767,11 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ludwig Göransson",
+					"name": "Ludwig G\u00f6ransson",
 					"album_count": 3
 				},
 				{
-					"name": "Hildur Guðnadóttir",
+					"name": "Hildur Gu\u00f0nad\u00f3ttir",
 					"album_count": 2
 				},
 				{
@@ -3503,12 +3791,12 @@
 				},
 				{
 					"name": "Black Panther",
-					"artist": "Ludwig Göransson",
+					"artist": "Ludwig G\u00f6ransson",
 					"year": "2018"
 				},
 				{
 					"name": "Joker",
-					"artist": "Hildur Guðnadóttir",
+					"artist": "Hildur Gu\u00f0nad\u00f3ttir",
 					"year": "2019"
 				}
 			],
@@ -3517,298 +3805,6 @@
 					"name": "Herald of the Change",
 					"artist": "Hans Zimmer",
 					"album": "Dune"
-				}
-			]
-		}
-	},
-	"The Jazz & Blues Delta": {
-		"delta blues": {
-			"top_artists": [
-				{
-					"name": "Cedric Burnside",
-					"album_count": 3
-				},
-				{
-					"name": "Lightnin' Malcolm",
-					"album_count": 2
-				},
-				{
-					"name": "Sharde Thomas",
-					"album_count": 2
-				},
-				{
-					"name": "Jimbo Mathus",
-					"album_count": 2
-				},
-				{
-					"name": "Cameron Kimbrough",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "I Be Trying",
-					"artist": "Cedric Burnside",
-					"year": "2021"
-				},
-				{
-					"name": "Bout Dat Time",
-					"artist": "Lightnin' Malcolm",
-					"year": "2019"
-				},
-				{
-					"name": "Rising Star Fife & Drum",
-					"artist": "Sharde Thomas",
-					"year": "2017"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "We Made It",
-					"artist": "Cedric Burnside",
-					"album": "I Be Trying"
-				}
-			]
-		},
-		"ragtime": {
-			"top_artists": [
-				{
-					"name": "Adam Swanson",
-					"album_count": 2
-				},
-				{
-					"name": "Frederick Hodges",
-					"album_count": 2
-				},
-				{
-					"name": "Reginald Robinson",
-					"album_count": 2
-				},
-				{
-					"name": "Brian Holland",
-					"album_count": 1
-				},
-				{
-					"name": "Virginia Eskin",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "The Genius of Scott Joplin",
-					"artist": "Adam Swanson",
-					"year": "2020"
-				},
-				{
-					"name": "Waltzing Ragtime",
-					"artist": "Frederick Hodges",
-					"year": "2018"
-				},
-				{
-					"name": "Sounds in Silhouette Vol. 2",
-					"artist": "Reginald Robinson",
-					"year": "2019"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Solace",
-					"artist": "Adam Swanson",
-					"album": "The Genius of Scott Joplin"
-				}
-			]
-		},
-		"swing": {
-			"top_artists": [
-				{
-					"name": "Michael Bublé",
-					"album_count": 3
-				},
-				{
-					"name": "Postmodern Jukebox",
-					"album_count": 2
-				},
-				{
-					"name": "Gregory Porter",
-					"album_count": 2
-				},
-				{
-					"name": "Cécile McLorin Salvant",
-					"album_count": 2
-				},
-				{
-					"name": "Diana Krall",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Higher",
-					"artist": "Michael Bublé",
-					"year": "2022"
-				},
-				{
-					"name": "All Rise",
-					"artist": "Gregory Porter",
-					"year": "2020"
-				},
-				{
-					"name": "The Window",
-					"artist": "Cécile McLorin Salvant",
-					"year": "2018"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Higher",
-					"artist": "Michael Bublé",
-					"album": "Higher"
-				}
-			]
-		}
-	},
-	"The Tropical Pulse": {
-		"calypso": {
-			"top_artists": [
-				{
-					"name": "Machel Montano",
-					"album_count": 3
-				},
-				{
-					"name": "Nailah Blackman",
-					"album_count": 2
-				},
-				{
-					"name": "Bunji Garlin",
-					"album_count": 2
-				},
-				{
-					"name": "Patrice Roberts",
-					"album_count": 2
-				},
-				{
-					"name": "Skinny Fabulous",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Road March 2020",
-					"artist": "Machel Montano",
-					"year": "2020"
-				},
-				{
-					"name": "Sokah",
-					"artist": "Nailah Blackman",
-					"year": "2019"
-				},
-				{
-					"name": "Viking",
-					"artist": "Bunji Garlin",
-					"year": "2020"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "So Good",
-					"artist": "Machel Montano",
-					"album": "Road March 2020"
-				}
-			]
-		},
-		"latin": {
-			"top_artists": [
-				{
-					"name": "Bad Bunny",
-					"album_count": 3
-				},
-				{
-					"name": "J Balvin",
-					"album_count": 3
-				},
-				{
-					"name": "Rosalía",
-					"album_count": 2
-				},
-				{
-					"name": "Karol G",
-					"album_count": 2
-				},
-				{
-					"name": "Rauw Alejandro",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Un Verano Sin Ti",
-					"artist": "Bad Bunny",
-					"year": "2022"
-				},
-				{
-					"name": "Motomami",
-					"artist": "Rosalía",
-					"year": "2022"
-				},
-				{
-					"name": "Colores",
-					"artist": "J Balvin",
-					"year": "2020"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Tití Me Preguntó",
-					"artist": "Bad Bunny",
-					"album": "Un Verano Sin Ti"
-				}
-			]
-		},
-		"flamenco": {
-			"top_artists": [
-				{
-					"name": "Rosalía",
-					"album_count": 3
-				},
-				{
-					"name": "C. Tangana",
-					"album_count": 2
-				},
-				{
-					"name": "Diego El Cigala",
-					"album_count": 2
-				},
-				{
-					"name": "Vicente Amigo",
-					"album_count": 2
-				},
-				{
-					"name": "Niño de Elche",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Motomami",
-					"artist": "Rosalía",
-					"year": "2022"
-				},
-				{
-					"name": "El Madrileño",
-					"artist": "C. Tangana",
-					"year": "2021"
-				},
-				{
-					"name": "Indestructible",
-					"artist": "Diego El Cigala",
-					"year": "2016"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Hentai",
-					"artist": "Rosalía",
-					"album": "Motomami"
 				}
 			]
 		}

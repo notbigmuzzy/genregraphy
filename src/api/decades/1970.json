@@ -159,7 +159,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Amon Düül II",
+					"name": "Amon D\u00fc\u00fcl II",
 					"album_count": 2
 				},
 				{
@@ -383,6 +383,54 @@
 					"album": "Bad Brains"
 				}
 			]
+		},
+		"indie": {
+			"top_artists": [
+				{
+					"name": "The Velvet Underground",
+					"album_count": 2
+				},
+				{
+					"name": "Big Star",
+					"album_count": 2
+				},
+				{
+					"name": "The Modern Lovers",
+					"album_count": 2
+				},
+				{
+					"name": "Television",
+					"album_count": 2
+				},
+				{
+					"name": "Wire",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Loaded",
+					"artist": "The Velvet Underground",
+					"year": "1970"
+				},
+				{
+					"name": "#1 Record",
+					"artist": "Big Star",
+					"year": "1972"
+				},
+				{
+					"name": "The Modern Lovers",
+					"artist": "The Modern Lovers",
+					"year": "1976"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Roadrunner",
+					"artist": "The Modern Lovers",
+					"album": "The Modern Lovers"
+				}
+			]
 		}
 	},
 	"The Electronic Frontier": {
@@ -421,7 +469,7 @@
 					"year": "1974"
 				},
 				{
-					"name": "Oxygène",
+					"name": "Oxyg\u00e8ne",
 					"artist": "Jean-Michel Jarre",
 					"year": "1976"
 				}
@@ -809,7 +857,7 @@
 					"year": "1973"
 				},
 				{
-					"name": "The Köln Concert",
+					"name": "The K\u00f6ln Concert",
 					"artist": "Keith Jarrett",
 					"year": "1975"
 				}
@@ -1011,6 +1059,150 @@
 					"name": "Mister Magic",
 					"artist": "Grover Washington Jr.",
 					"album": "Mister Magic"
+				}
+			]
+		},
+		"delta blues": {
+			"top_artists": [
+				{
+					"name": "John Lee Hooker",
+					"album_count": 3
+				},
+				{
+					"name": "Lightnin' Hopkins",
+					"album_count": 2
+				},
+				{
+					"name": "Mississippi Fred McDowell",
+					"album_count": 2
+				},
+				{
+					"name": "R.L. Burnside",
+					"album_count": 2
+				},
+				{
+					"name": "Junior Kimbrough",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hooker 'n Heat",
+					"artist": "John Lee Hooker",
+					"year": "1971"
+				},
+				{
+					"name": "I Do Not Play No Rock 'n' Roll",
+					"artist": "Mississippi Fred McDowell",
+					"year": "1969"
+				},
+				{
+					"name": "The Blues",
+					"artist": "Lightnin' Hopkins",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Boogie Chillen No. 2",
+					"artist": "John Lee Hooker",
+					"album": "Hooker 'n Heat"
+				}
+			]
+		},
+		"ragtime": {
+			"top_artists": [
+				{
+					"name": "Joshua Rifkin",
+					"album_count": 3
+				},
+				{
+					"name": "Dick Hyman",
+					"album_count": 2
+				},
+				{
+					"name": "William Bolcom",
+					"album_count": 2
+				},
+				{
+					"name": "Max Morath",
+					"album_count": 1
+				},
+				{
+					"name": "Eubie Blake",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Scott Joplin: Piano Rags Vol. 2",
+					"artist": "Joshua Rifkin",
+					"year": "1972"
+				},
+				{
+					"name": "The Entertainer",
+					"artist": "Marvin Hamlisch",
+					"year": "1974"
+				},
+				{
+					"name": "Heliotrope Bouquet",
+					"artist": "William Bolcom",
+					"year": "1971"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Entertainer",
+					"artist": "Marvin Hamlisch",
+					"album": "The Entertainer"
+				}
+			]
+		},
+		"swing": {
+			"top_artists": [
+				{
+					"name": "Count Basie",
+					"album_count": 3
+				},
+				{
+					"name": "Duke Ellington",
+					"album_count": 3
+				},
+				{
+					"name": "Benny Goodman",
+					"album_count": 2
+				},
+				{
+					"name": "Ella Fitzgerald",
+					"album_count": 2
+				},
+				{
+					"name": "Frank Sinatra",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Basie Jam",
+					"artist": "Count Basie",
+					"year": "1976"
+				},
+				{
+					"name": "The Afro-Eurasian Eclipse",
+					"artist": "Duke Ellington",
+					"year": "1971"
+				},
+				{
+					"name": "Ella in London",
+					"artist": "Ella Fitzgerald",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Shiny Stockings",
+					"artist": "Count Basie",
+					"album": "Basie Jam"
 				}
 			]
 		}
@@ -1389,7 +1581,7 @@
 					"year": "1973"
 				},
 				{
-					"name": "Liège & Lief",
+					"name": "Li\u00e8ge & Lief",
 					"artist": "Fairport Convention",
 					"year": "1969"
 				}
@@ -1409,7 +1601,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Andraé Crouch",
+					"name": "Andra\u00e9 Crouch",
 					"album_count": 2
 				},
 				{
@@ -1433,7 +1625,7 @@
 				},
 				{
 					"name": "Take Me Back",
-					"artist": "Andraé Crouch",
+					"artist": "Andra\u00e9 Crouch",
 					"year": "1975"
 				},
 				{
@@ -1559,7 +1751,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Motörhead",
+					"name": "Mot\u00f6rhead",
 					"album_count": 2
 				},
 				{
@@ -1579,7 +1771,7 @@
 				},
 				{
 					"name": "Overkill",
-					"artist": "Motörhead",
+					"artist": "Mot\u00f6rhead",
 					"year": "1979"
 				},
 				{
@@ -1789,6 +1981,150 @@
 					"album": "Bounty Hunter"
 				}
 			]
+		},
+		"calypso": {
+			"top_artists": [
+				{
+					"name": "Mighty Sparrow",
+					"album_count": 3
+				},
+				{
+					"name": "Lord Kitchener",
+					"album_count": 2
+				},
+				{
+					"name": "Calypso Rose",
+					"album_count": 2
+				},
+				{
+					"name": "Arrow",
+					"album_count": 2
+				},
+				{
+					"name": "Shadow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hot and Sweet",
+					"artist": "Mighty Sparrow",
+					"year": "1974"
+				},
+				{
+					"name": "Calypso King",
+					"artist": "Lord Kitchener",
+					"year": "1975"
+				},
+				{
+					"name": "Calypso Queen",
+					"artist": "Calypso Rose",
+					"year": "1978"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Obeah Wedding",
+					"artist": "Mighty Sparrow",
+					"album": "Hot and Sweet"
+				}
+			]
+		},
+		"latin": {
+			"top_artists": [
+				{
+					"name": "Fania All-Stars",
+					"album_count": 3
+				},
+				{
+					"name": "Celia Cruz",
+					"album_count": 3
+				},
+				{
+					"name": "Willie Col\u00f3n",
+					"album_count": 2
+				},
+				{
+					"name": "Rub\u00e9n Blades",
+					"album_count": 2
+				},
+				{
+					"name": "Eddie Palmieri",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Live at the Cheetah",
+					"artist": "Fania All-Stars",
+					"year": "1972"
+				},
+				{
+					"name": "Siembra",
+					"artist": "Willie Col\u00f3n & Rub\u00e9n Blades",
+					"year": "1978"
+				},
+				{
+					"name": "Celia & Johnny",
+					"artist": "Celia Cruz",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pedro Navaja",
+					"artist": "Rub\u00e9n Blades",
+					"album": "Siembra"
+				}
+			]
+		},
+		"flamenco": {
+			"top_artists": [
+				{
+					"name": "Paco de Luc\u00eda",
+					"album_count": 3
+				},
+				{
+					"name": "Camar\u00f3n de la Isla",
+					"album_count": 3
+				},
+				{
+					"name": "Tomatito",
+					"album_count": 2
+				},
+				{
+					"name": "Manolo Sanl\u00facar",
+					"album_count": 2
+				},
+				{
+					"name": "Enrique Morente",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fuente y Caudal",
+					"artist": "Paco de Luc\u00eda",
+					"year": "1973"
+				},
+				{
+					"name": "La Leyenda del Tiempo",
+					"artist": "Camar\u00f3n de la Isla",
+					"year": "1979"
+				},
+				{
+					"name": "Almoraima",
+					"artist": "Paco de Luc\u00eda",
+					"year": "1976"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Entre Dos Aguas",
+					"artist": "Paco de Luc\u00eda",
+					"album": "Fuente y Caudal"
+				}
+			]
 		}
 	},
 	"The Avant-Garde Isles": {
@@ -1907,7 +2243,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Éliane Radigue",
+					"name": "\u00c9liane Radigue",
 					"album_count": 1
 				}
 			],
@@ -1951,7 +2287,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "György Ligeti",
+					"name": "Gy\u00f6rgy Ligeti",
 					"album_count": 2
 				},
 				{
@@ -1999,7 +2335,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Arvo Pärt",
+					"name": "Arvo P\u00e4rt",
 					"album_count": 2
 				},
 				{
@@ -2020,7 +2356,7 @@
 				},
 				{
 					"name": "Tabula Rasa",
-					"artist": "Arvo Pärt",
+					"artist": "Arvo P\u00e4rt",
 					"year": "1977"
 				}
 			],
@@ -2077,348 +2413,6 @@
 					"name": "Main Title",
 					"artist": "John Williams",
 					"album": "Star Wars"
-				}
-			]
-		}
-	},
-	"The Jazz & Blues Delta": {
-		"delta blues": {
-			"top_artists": [
-				{
-					"name": "John Lee Hooker",
-					"album_count": 3
-				},
-				{
-					"name": "Lightnin' Hopkins",
-					"album_count": 2
-				},
-				{
-					"name": "Mississippi Fred McDowell",
-					"album_count": 2
-				},
-				{
-					"name": "R.L. Burnside",
-					"album_count": 2
-				},
-				{
-					"name": "Junior Kimbrough",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Hooker 'n Heat",
-					"artist": "John Lee Hooker",
-					"year": "1971"
-				},
-				{
-					"name": "I Do Not Play No Rock 'n' Roll",
-					"artist": "Mississippi Fred McDowell",
-					"year": "1969"
-				},
-				{
-					"name": "The Blues",
-					"artist": "Lightnin' Hopkins",
-					"year": "1970"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Boogie Chillen No. 2",
-					"artist": "John Lee Hooker",
-					"album": "Hooker 'n Heat"
-				}
-			]
-		},
-		"ragtime": {
-			"top_artists": [
-				{
-					"name": "Joshua Rifkin",
-					"album_count": 3
-				},
-				{
-					"name": "Dick Hyman",
-					"album_count": 2
-				},
-				{
-					"name": "William Bolcom",
-					"album_count": 2
-				},
-				{
-					"name": "Max Morath",
-					"album_count": 1
-				},
-				{
-					"name": "Eubie Blake",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Scott Joplin: Piano Rags Vol. 2",
-					"artist": "Joshua Rifkin",
-					"year": "1972"
-				},
-				{
-					"name": "The Entertainer",
-					"artist": "Marvin Hamlisch",
-					"year": "1974"
-				},
-				{
-					"name": "Heliotrope Bouquet",
-					"artist": "William Bolcom",
-					"year": "1971"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "The Entertainer",
-					"artist": "Marvin Hamlisch",
-					"album": "The Entertainer"
-				}
-			]
-		},
-		"swing": {
-			"top_artists": [
-				{
-					"name": "Count Basie",
-					"album_count": 3
-				},
-				{
-					"name": "Duke Ellington",
-					"album_count": 3
-				},
-				{
-					"name": "Benny Goodman",
-					"album_count": 2
-				},
-				{
-					"name": "Ella Fitzgerald",
-					"album_count": 2
-				},
-				{
-					"name": "Frank Sinatra",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Basie Jam",
-					"artist": "Count Basie",
-					"year": "1976"
-				},
-				{
-					"name": "The Afro-Eurasian Eclipse",
-					"artist": "Duke Ellington",
-					"year": "1971"
-				},
-				{
-					"name": "Ella in London",
-					"artist": "Ella Fitzgerald",
-					"year": "1974"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Shiny Stockings",
-					"artist": "Count Basie",
-					"album": "Basie Jam"
-				}
-			]
-		}
-	},
-	"The Tropical Pulse": {
-		"calypso": {
-			"top_artists": [
-				{
-					"name": "Mighty Sparrow",
-					"album_count": 3
-				},
-				{
-					"name": "Lord Kitchener",
-					"album_count": 2
-				},
-				{
-					"name": "Calypso Rose",
-					"album_count": 2
-				},
-				{
-					"name": "Arrow",
-					"album_count": 2
-				},
-				{
-					"name": "Shadow",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Hot and Sweet",
-					"artist": "Mighty Sparrow",
-					"year": "1974"
-				},
-				{
-					"name": "Calypso King",
-					"artist": "Lord Kitchener",
-					"year": "1975"
-				},
-				{
-					"name": "Calypso Queen",
-					"artist": "Calypso Rose",
-					"year": "1978"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Obeah Wedding",
-					"artist": "Mighty Sparrow",
-					"album": "Hot and Sweet"
-				}
-			]
-		},
-		"latin": {
-			"top_artists": [
-				{
-					"name": "Fania All-Stars",
-					"album_count": 3
-				},
-				{
-					"name": "Celia Cruz",
-					"album_count": 3
-				},
-				{
-					"name": "Willie Colón",
-					"album_count": 2
-				},
-				{
-					"name": "Rubén Blades",
-					"album_count": 2
-				},
-				{
-					"name": "Eddie Palmieri",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Live at the Cheetah",
-					"artist": "Fania All-Stars",
-					"year": "1972"
-				},
-				{
-					"name": "Siembra",
-					"artist": "Willie Colón & Rubén Blades",
-					"year": "1978"
-				},
-				{
-					"name": "Celia & Johnny",
-					"artist": "Celia Cruz",
-					"year": "1974"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Pedro Navaja",
-					"artist": "Rubén Blades",
-					"album": "Siembra"
-				}
-			]
-		},
-		"flamenco": {
-			"top_artists": [
-				{
-					"name": "Paco de Lucía",
-					"album_count": 3
-				},
-				{
-					"name": "Camarón de la Isla",
-					"album_count": 3
-				},
-				{
-					"name": "Tomatito",
-					"album_count": 2
-				},
-				{
-					"name": "Manolo Sanlúcar",
-					"album_count": 2
-				},
-				{
-					"name": "Enrique Morente",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Fuente y Caudal",
-					"artist": "Paco de Lucía",
-					"year": "1973"
-				},
-				{
-					"name": "La Leyenda del Tiempo",
-					"artist": "Camarón de la Isla",
-					"year": "1979"
-				},
-				{
-					"name": "Almoraima",
-					"artist": "Paco de Lucía",
-					"year": "1976"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Entre Dos Aguas",
-					"artist": "Paco de Lucía",
-					"album": "Fuente y Caudal"
-				}
-			]
-		}
-	},
-	"The Rock Shield": {
-		"indie": {
-			"top_artists": [
-				{
-					"name": "The Velvet Underground",
-					"album_count": 2
-				},
-				{
-					"name": "Big Star",
-					"album_count": 2
-				},
-				{
-					"name": "The Modern Lovers",
-					"album_count": 2
-				},
-				{
-					"name": "Television",
-					"album_count": 2
-				},
-				{
-					"name": "Wire",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Loaded",
-					"artist": "The Velvet Underground",
-					"year": "1970"
-				},
-				{
-					"name": "#1 Record",
-					"artist": "Big Star",
-					"year": "1972"
-				},
-				{
-					"name": "The Modern Lovers",
-					"artist": "The Modern Lovers",
-					"year": "1976"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Roadrunner",
-					"artist": "The Modern Lovers",
-					"album": "The Modern Lovers"
 				}
 			]
 		}

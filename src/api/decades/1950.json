@@ -95,6 +95,54 @@
 					"album": "Rocket 88"
 				}
 			]
+		},
+		"indie": {
+			"top_artists": [
+				{
+					"name": "The Weavers",
+					"album_count": 2
+				},
+				{
+					"name": "Woody Guthrie",
+					"album_count": 2
+				},
+				{
+					"name": "Pete Seeger",
+					"album_count": 2
+				},
+				{
+					"name": "Leadbelly",
+					"album_count": 1
+				},
+				{
+					"name": "Cisco Houston",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Goodnight Irene",
+					"artist": "The Weavers",
+					"year": "1950"
+				},
+				{
+					"name": "Dust Bowl Ballads",
+					"artist": "Woody Guthrie",
+					"year": "1950"
+				},
+				{
+					"name": "Goofing-Off Suite",
+					"artist": "Pete Seeger",
+					"year": "1954"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Goodnight Irene",
+					"artist": "The Weavers",
+					"album": "Goodnight Irene"
+				}
+			]
 		}
 	},
 	"The Hip-Hop Basin": {
@@ -641,7 +689,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Pérez Prado",
+					"name": "P\u00e9rez Prado",
 					"album_count": 2
 				},
 				{
@@ -649,7 +697,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tito Rodríguez",
+					"name": "Tito Rodr\u00edguez",
 					"album_count": 1
 				}
 			],
@@ -661,7 +709,7 @@
 				},
 				{
 					"name": "Mambo Mania",
-					"artist": "Pérez Prado",
+					"artist": "P\u00e9rez Prado",
 					"year": "1954"
 				},
 				{
@@ -673,7 +721,7 @@
 			"sample_tracks": [
 				{
 					"name": "Cherry Pink and Apple Blossom White",
-					"artist": "Pérez Prado",
+					"artist": "P\u00e9rez Prado",
 					"album": "Mambo Mania"
 				}
 			]
@@ -681,11 +729,11 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Lucía",
+					"name": "Paco de Luc\u00eda",
 					"album_count": 2
 				},
 				{
-					"name": "Camarón de la Isla",
+					"name": "Camar\u00f3n de la Isla",
 					"album_count": 2
 				},
 				{
@@ -693,7 +741,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Manolo Sanlúcar",
+					"name": "Manolo Sanl\u00facar",
 					"album_count": 1
 				},
 				{
@@ -743,7 +791,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Edgard Varèse",
+					"name": "Edgard Var\u00e8se",
 					"album_count": 2
 				},
 				{
@@ -758,12 +806,12 @@
 					"year": "1948"
 				},
 				{
-					"name": "Étude aux chemins de fer",
+					"name": "\u00c9tude aux chemins de fer",
 					"artist": "Pierre Schaeffer",
 					"year": "1948"
 				},
 				{
-					"name": "Musique Concrète",
+					"name": "Musique Concr\u00e8te",
 					"artist": "Pierre Schaeffer",
 					"year": "1950"
 				}
@@ -791,7 +839,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Edgard Varèse",
+					"name": "Edgard Var\u00e8se",
 					"album_count": 2
 				},
 				{
@@ -806,21 +854,21 @@
 					"year": "1948"
 				},
 				{
-					"name": "Le Marteau sans maître",
+					"name": "Le Marteau sans ma\u00eetre",
 					"artist": "Pierre Boulez",
 					"year": "1955"
 				},
 				{
-					"name": "Déserts",
-					"artist": "Edgard Varèse",
+					"name": "D\u00e9serts",
+					"artist": "Edgard Var\u00e8se",
 					"year": "1954"
 				}
 			],
 			"sample_tracks": [
 				{
-					"name": "Déserts",
-					"artist": "Edgard Varèse",
-					"album": "Déserts"
+					"name": "D\u00e9serts",
+					"artist": "Edgard Var\u00e8se",
+					"album": "D\u00e9serts"
 				}
 			]
 		},
@@ -917,56 +965,6 @@
 					"name": "The Ballad of High Noon",
 					"artist": "Dimitri Tiomkin",
 					"album": "High Noon"
-				}
-			]
-		}
-	},
-	"The Rock Shield": {
-		"indie": {
-			"top_artists": [
-				{
-					"name": "The Weavers",
-					"album_count": 2
-				},
-				{
-					"name": "Woody Guthrie",
-					"album_count": 2
-				},
-				{
-					"name": "Pete Seeger",
-					"album_count": 2
-				},
-				{
-					"name": "Leadbelly",
-					"album_count": 1
-				},
-				{
-					"name": "Cisco Houston",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Goodnight Irene",
-					"artist": "The Weavers",
-					"year": "1950"
-				},
-				{
-					"name": "Dust Bowl Ballads",
-					"artist": "Woody Guthrie",
-					"year": "1950"
-				},
-				{
-					"name": "Goofing-Off Suite",
-					"artist": "Pete Seeger",
-					"year": "1954"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Goodnight Irene",
-					"artist": "The Weavers",
-					"album": "Goodnight Irene"
 				}
 			]
 		}
