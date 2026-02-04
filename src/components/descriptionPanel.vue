@@ -39,7 +39,10 @@
 					</b>
 					<ul v-if="props.content?.detailedData?.top_artists">
 						<li v-for="artist in props.content.detailedData.top_artists" :key="artist.name">
-							{{ artist.name }} - Wikipedia page <a :href="'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + encodeURIComponent(artist.name) + '+Band&limit=1&namespace=0&format=json'" target="_blank">(link)</a>
+							{{ artist.name }} - 
+							<a :href="artistLinks[artist.name] || '#'" target="_blank" title="Wikipedia" class="wiki-link">
+								<i>Wikipedia page</i>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -60,23 +63,24 @@
 				</div>
 				<hr/>
 				<p>
-					<b>Sample Track from Top Album</b>
+					<b>Sample Track from {{ props.content?.detailedData?.sample_tracks[0]?.artist }}</b>
 				</p>
-				<p>
-					<button @click="handleRecordClick('beatles')">
-						Play Sample for Genre {{ props.content?.genreName }} from year {{ props.content?.year }}
+				<p class="group">
+					<button @click="handleRecordClick(props.content?.detailedData?.sample_tracks[0]?.artist)">
+						Play Sample
 					</button>
+					<audio controls id="sample-player">
+						<source src="#" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
 				</p>
-				<audio controls id="sample-player">
-					<source src="#" type="audio/mpeg">
-					Your browser does not support the audio element.
-				</audio>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script setup>
+import { ref, watch } from 'vue';
 
 const props = defineProps({
 	isDescriptionVisible: {
@@ -154,16 +158,55 @@ const getGenreAudioUrl = async (genre) => {
     }
 }
 
+
+const artistLinks = ref({});
+const fetchWikipediaLink = async (artistName) => {
+    if (artistLinks.value[artistName]) return;
+
+    try {
+        const searchTerm = encodeURIComponent(artistName + " music band");
+        const url = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${searchTerm}&limit=1&namespace=0&format=json&origin=*`;
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data[3] && data[3].length > 0) {
+            artistLinks.value[artistName] = data[3][0];
+        } else {
+            const simpleSearch = encodeURIComponent(artistName);
+            const simpleUrl = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${simpleSearch}&limit=1&namespace=0&format=json&origin=*`;
+            const simpleRes = await fetch(simpleUrl);
+            const simpleData = await simpleRes.json();
+            
+             if (simpleData[3] && simpleData[3].length > 0) {
+                artistLinks.value[artistName] = simpleData[3][0];
+            } else {
+                artistLinks.value[artistName] = '#';
+            }
+        }
+    } catch (error) {
+        console.error("Wikipedia fetch error", error);
+        artistLinks.value[artistName] = '#';
+    }
+}
+
+watch(() => props.content, (newVal) => {
+    if (newVal?.detailedData?.top_artists) {
+        newVal.detailedData.top_artists.forEach(artist => {
+            fetchWikipediaLink(artist.name);
+        });
+    }
+}, { immediate: true });
+
 const handleRecordClick = async (name) => {
     const url = await getAudioUrl(name);
     if (url) {
         const audio = document.getElementById('sample-player');
+		audio.classList.add('playing');
         audio.src = url;
         audio.play();
     } else {
         alert("No audio found for " + name);
     }
 }
-
 
 </script>

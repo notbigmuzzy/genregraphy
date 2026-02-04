@@ -38,7 +38,7 @@
 				line-height: 1;
 				font-weight: bold;
 				opacity: 0.5;
-				pointer-events: none;
+				will-change: opacity;
 			}
 
 			&:hover {
