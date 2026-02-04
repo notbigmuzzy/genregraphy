@@ -1537,6 +1537,102 @@
 					"album": "94diskont"
 				}
 			]
+		},
+		"dubstep": {
+			"top_artists": [
+				{
+					"name": "El-B",
+					"album_count": 0
+				},
+				{
+					"name": "Horsepower Productions",
+					"album_count": 1
+				},
+				{
+					"name": "Zed Bias",
+					"album_count": 1
+				},
+				{
+					"name": "Steve Gurley",
+					"album_count": 0
+				},
+				{
+					"name": "Groove Chronicles",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Stone Cold (EP)",
+					"artist": "Groove Chronicles",
+					"year": "1997"
+				},
+				{
+					"name": "Classic Horsepower",
+					"artist": "Horsepower Productions",
+					"year": "2000"
+				},
+				{
+					"name": "Sound of the 2-Step",
+					"artist": "Zed Bias",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Stone Cold",
+					"artist": "Groove Chronicles",
+					"album": "Stone Cold (EP)"
+				}
+			]
+		},
+		"hardstyle": {
+			"top_artists": [
+				{
+					"name": "The Prophet",
+					"album_count": 1
+				},
+				{
+					"name": "DJ Isaac",
+					"album_count": 1
+				},
+				{
+					"name": "Lady Dana",
+					"album_count": 0
+				},
+				{
+					"name": "Technoboy",
+					"album_count": 0
+				},
+				{
+					"name": "DJ Pavo",
+					"album_count": 0
+				}
+			],
+			"top_albums": [
+				{
+					"name": "In The Mix",
+					"artist": "The Prophet",
+					"year": "1996"
+				},
+				{
+					"name": "Face of a Killer",
+					"artist": "DJ Isaac",
+					"year": "1999"
+				},
+				{
+					"name": "Thunderdome '96",
+					"artist": "Various Artists",
+					"year": "1996"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bad Dreams",
+					"artist": "DJ Isaac",
+					"album": "Face of a Killer"
+				}
+			]
 		}
 	},
 	"The Hip-Hop Basin": {
@@ -3177,6 +3273,54 @@
 					"name": "The Last Time",
 					"artist": "Paradise Lost",
 					"album": "Draconian Times"
+				}
+			]
+		},
+		"metalcore": {
+			"top_artists": [
+				{
+					"name": "Earth Crisis",
+					"album_count": 1
+				},
+				{
+					"name": "Integrity",
+					"album_count": 1
+				},
+				{
+					"name": "Converge",
+					"album_count": 1
+				},
+				{
+					"name": "Hatebreed",
+					"album_count": 1
+				},
+				{
+					"name": "Shai Hulud",
+					"album_count": 0
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Destroy the Machines",
+					"artist": "Earth Crisis",
+					"year": "1995"
+				},
+				{
+					"name": "Those Who Fear Tomorrow",
+					"artist": "Integrity",
+					"year": "1991"
+				},
+				{
+					"name": "Petitioning the Empty Sky",
+					"artist": "Converge",
+					"year": "1996"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Firestorm",
+					"artist": "Earth Crisis",
+					"album": "Firestorm (EP)"
 				}
 			]
 		}

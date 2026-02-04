@@ -819,6 +819,54 @@
 					"album": "Saturday Night Fever"
 				}
 			]
+		},
+		"hip hop": {
+			"top_artists": [
+				{
+					"name": "DJ Kool Herc",
+					"album_count": 0
+				},
+				{
+					"name": "Grandmaster Flash",
+					"album_count": 0
+				},
+				{
+					"name": "Afrika Bambaataa",
+					"album_count": 0
+				},
+				{
+					"name": "The Sugarhill Gang",
+					"album_count": 1
+				},
+				{
+					"name": "Kurtis Blow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sugarhill Gang",
+					"artist": "The Sugarhill Gang",
+					"year": "1980"
+				},
+				{
+					"name": "Kurtis Blow",
+					"artist": "Kurtis Blow",
+					"year": "1980"
+				},
+				{
+					"name": "Wild Style Soundtrack",
+					"artist": "Various Artists",
+					"year": "1983"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rapper's Delight",
+					"artist": "The Sugarhill Gang",
+					"album": "Sugarhill Gang"
+				}
+			]
 		}
 	},
 	"The Jazz & Blues Delta": {

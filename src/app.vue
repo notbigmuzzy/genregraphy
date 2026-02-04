@@ -12,7 +12,9 @@
 		<record-panel
 			v-model:isDescriptionVisible="isDescriptionVisible"
 			:is-intro-visible="isIntroVisible"
+			:initial-year="initialYear"
 			@bar-click="handleBarClick"
+			@year-changed="handleYearChange"
 		/>
 	</div>
 </template>
@@ -27,7 +29,23 @@
 	const isDescriptionVisible = ref(false)
 	const descriptionContent = ref(null)
 
+	// URL parameter logic
+	const urlParams = new URLSearchParams(window.location.search);
+	const yearParam = parseInt(urlParams.get('year'));
+	const initialYear = ref(yearParam && yearParam >= 1950 && yearParam <= 2025 ? yearParam : 1950);
+
 	const handleBarClick = (data) => {
 		descriptionContent.value = data;
+	}
+
+	const handleYearChange = (year) => {
+		const url = new URL(window.location);
+		url.searchParams.set('year', year);
+		window.history.replaceState({}, '', url);
+
+		if (descriptionContent.value) {
+			isDescriptionVisible.value = false;
+			descriptionContent.value = null;
+		}
 	}
 </script>

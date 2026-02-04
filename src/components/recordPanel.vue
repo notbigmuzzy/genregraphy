@@ -32,7 +32,24 @@ import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import * as d3 from 'd3'
 import genresData from '../api/genres.json'
 
-const yearValue = ref(1950)
+const props = defineProps({
+	isDescriptionVisible: {
+		type: Boolean,
+		required: true
+	},
+	isIntroVisible: {
+		type: Boolean,
+		required: false,
+		default: false
+	},
+	initialYear: {
+		type: Number,
+		default: 1950,
+		required: false
+	}
+})
+
+const yearValue = ref(props.initialYear)
 const chartSvg = ref(null)
 let svg, spinGroup, bars, grooves, labels, innerRadius, outerRadius, continentColors, currentGenreData = []
 let selectedBar = null
@@ -209,19 +226,7 @@ const updateChart = (year) => {
 	}
 }
 
-const props = defineProps({
-	isDescriptionVisible: {
-		type: Boolean,
-		required: true
-	},
-	isIntroVisible: {
-		type: Boolean,
-		required: false,
-		default: false
-	}
-})
-
-const emit = defineEmits(['update:isDescriptionVisible', 'bar-click'])
+const emit = defineEmits(['update:isDescriptionVisible', 'bar-click', 'year-changed'])
 
 const recomputeSpinPaused = () => {
 	isSpinPaused = pauseHover || pauseYearTransition || pauseSelection || props.isDescriptionVisible || props.isIntroVisible
@@ -307,6 +312,7 @@ const handleBarClick = async (event, d) => {
 
 watch(yearValue, (newYear) => {
 	pauseYearTransition = true
+	emit('year-changed', newYear)
 	recomputeSpinPaused()
 	updateChart(newYear);
 
