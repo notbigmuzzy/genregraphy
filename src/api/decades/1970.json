@@ -1,5 +1,5 @@
 {
-	"The Rock Shield": {
+	"Rock & Overdrive": {
 		"rock": {
 			"top_artists": [
 				{
@@ -627,7 +627,7 @@
 			]
 		}
 	},
-	"The Hip-Hop Basin": {
+	"Hip-Hop & Groove": {
 		"r&b": {
 			"top_artists": [
 				{
@@ -869,7 +869,7 @@
 			]
 		}
 	},
-	"The Jazz & Blues Delta": {
+	"Jazz, Blues & Soul": {
 		"jazz": {
 			"top_artists": [
 				{
@@ -1255,7 +1255,7 @@
 			]
 		}
 	},
-	"The Pop Archipelago": {
+	"Pop & Melodies": {
 		"pop": {
 			"top_artists": [
 				{
@@ -1449,7 +1449,7 @@
 			]
 		}
 	},
-	"The Folk & Roots Plains": {
+	"Folk & Acoustics": {
 		"folk": {
 			"top_artists": [
 				{
@@ -1885,7 +1885,7 @@
 			]
 		}
 	},
-	"The Tropical Pulse": {
+	"Reggae & Global Beats": {
 		"reggae": {
 			"top_artists": [
 				{
@@ -2175,7 +2175,7 @@
 			]
 		}
 	},
-	"The Avant-Garde Isles": {
+	"Classical & Experimental": {
 		"experimental": {
 			"top_artists": [
 				{

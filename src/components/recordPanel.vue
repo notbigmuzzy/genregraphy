@@ -566,15 +566,15 @@ onMounted(async () => {
 	outerRadius = 47
 	
 	genre_groupColors = {
-		'The Rock Shield': '#e74c3c',
-		'The Electronic Frontier': '#3498db',
-		'The Hip-Hop Basin': '#9b59b6',
-		'The Jazz & Blues Delta': '#f39c12',
-		'The Pop Archipelago': '#e91e63',
-		'The Folk & Roots Plains': '#8bc34a',
-		'The Tropical Pulse': '#00bcd4',
-		'The Metal Peaks': '#607d8b',
-		'The Avant-Garde Isles': '#795548'
+		'Rock & Overdrive': '#e74c3c',
+		'Electronic & Synth': '#3498db',
+		'Hip-Hop & Groove': '#9b59b6',
+		'Jazz, Blues & Soul': '#f39c12',
+		'Pop & Melodies': '#e91e63',
+		'Folk & Acoustics': '#8bc34a',
+		'Reggae & Global Beats': '#00bcd4',
+		'Metal & Heavy': '#607d8b',
+		'Classical & Experimental': '#795548'
 	}
 	
 	updateChart(yearValue.value)

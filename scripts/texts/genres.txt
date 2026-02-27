@@ -1,4 +1,4 @@
-# The Rock Shield
+# Rock & Overdrive
 Rock
 Punk
 Grunge
@@ -21,7 +21,7 @@ Post-Rock
 Stoner Rock
 Hardcore
 
-# The Electronic Frontier
+# Electronic & Synth
 Electronic
 Techno
 House
@@ -46,7 +46,7 @@ Chiptune
 Chillout
 Lounge
 
-# The Hip-Hop Basin
+# Hip-Hop & Groove
 Hip Hop
 Trap
 Boom Bap
@@ -60,7 +60,7 @@ Neo Soul
 G-funk
 Lo-fi
 
-# The Jazz & Blues Delta
+# Jazz, Blues & Soul
 Jazz
 Blues
 Swing
@@ -74,7 +74,7 @@ Chicago blues
 Soul jazz
 Bossa nova
 
-# The Pop Archipelago
+# Pop & Melodies
 Pop
 Teen Pop
 Dance-pop
@@ -86,7 +86,7 @@ Indie pop
 Dream pop
 Traditional Pop
 
-# The Folk & Roots Plains
+# Folk & Acoustics
 Folk
 Country
 Bluegrass
@@ -99,7 +99,7 @@ Latin
 Afrobeat
 Gospel
 
-# The Metal Peaks
+# Metal & Heavy
 Metal
 Heavy Metal
 Black Metal
@@ -113,7 +113,7 @@ Power Metal
 Metalcore
 Grindcore
 
-# The Tropical Pulse
+# Reggae & Global Beats
 Reggae
 Ska
 Dub
@@ -127,7 +127,7 @@ Zouk
 Merengue
 Bachata
 
-# The Avant-Garde Isles
+# Classical & Experimental
 Classical
 Experimental
 Noise

@@ -3,142 +3,142 @@
 # Format: genre -> group name
 
 
-# The Rock Shield
-rock -> The Rock Shield
-punk -> The Rock Shield
-grunge -> The Rock Shield
-hard rock -> The Rock Shield
-alternative rock -> The Rock Shield
-psychedelic rock -> The Rock Shield
-progressive rock -> The Rock Shield
-indie -> The Rock Shield
-rock & roll -> The Rock Shield
-rockabilly -> The Rock Shield
-surf -> The Rock Shield
-garage rock -> The Rock Shield
-post-punk -> The Rock Shield
-new wave -> The Rock Shield
-britpop -> The Rock Shield
-shoegaze -> The Rock Shield
-emo -> The Rock Shield
-pop-punk -> The Rock Shield
-post-rock -> The Rock Shield
-stoner rock -> The Rock Shield
-hardcore -> The Rock Shield
+# Rock & Overdrive
+rock -> Rock & Overdrive
+punk -> Rock & Overdrive
+grunge -> Rock & Overdrive
+hard rock -> Rock & Overdrive
+alternative rock -> Rock & Overdrive
+psychedelic rock -> Rock & Overdrive
+progressive rock -> Rock & Overdrive
+indie -> Rock & Overdrive
+rock & roll -> Rock & Overdrive
+rockabilly -> Rock & Overdrive
+surf -> Rock & Overdrive
+garage rock -> Rock & Overdrive
+post-punk -> Rock & Overdrive
+new wave -> Rock & Overdrive
+britpop -> Rock & Overdrive
+shoegaze -> Rock & Overdrive
+emo -> Rock & Overdrive
+pop-punk -> Rock & Overdrive
+post-rock -> Rock & Overdrive
+stoner rock -> Rock & Overdrive
+hardcore -> Rock & Overdrive
 
-# The Electronic Frontier
-electronic -> The Electronic Frontier
-techno -> The Electronic Frontier
-house -> The Electronic Frontier
-trance -> The Electronic Frontier
-ambient -> The Electronic Frontier
-idm -> The Electronic Frontier
-drum and bass -> The Electronic Frontier
-jungle -> The Electronic Frontier
-dubstep -> The Electronic Frontier
-downtempo -> The Electronic Frontier
-synth-pop -> The Electronic Frontier
-electro -> The Electronic Frontier
-industrial -> The Electronic Frontier
-glitch -> The Electronic Frontier
-eurodance -> The Electronic Frontier
-hardstyle -> The Electronic Frontier
-synthwave -> The Electronic Frontier
-trip hop -> The Electronic Frontier
-breakbeat -> The Electronic Frontier
-vaporwave -> The Electronic Frontier
-chiptune -> The Electronic Frontier
-chillout -> The Electronic Frontier
-lounge -> The Electronic Frontier
+# Electronic & Synth
+electronic -> Electronic & Synth
+techno -> Electronic & Synth
+house -> Electronic & Synth
+trance -> Electronic & Synth
+ambient -> Electronic & Synth
+idm -> Electronic & Synth
+drum and bass -> Electronic & Synth
+jungle -> Electronic & Synth
+dubstep -> Electronic & Synth
+downtempo -> Electronic & Synth
+synth-pop -> Electronic & Synth
+electro -> Electronic & Synth
+industrial -> Electronic & Synth
+glitch -> Electronic & Synth
+eurodance -> Electronic & Synth
+hardstyle -> Electronic & Synth
+synthwave -> Electronic & Synth
+trip hop -> Electronic & Synth
+breakbeat -> Electronic & Synth
+vaporwave -> Electronic & Synth
+chiptune -> Electronic & Synth
+chillout -> Electronic & Synth
+lounge -> Electronic & Synth
 
-# The Hip-Hop Basin
-hip hop -> The Hip-Hop Basin
-trap -> The Hip-Hop Basin
-boom bap -> The Hip-Hop Basin
-gangsta rap -> The Hip-Hop Basin
-r&b -> The Hip-Hop Basin
-soul -> The Hip-Hop Basin
-funk -> The Hip-Hop Basin
-disco -> The Hip-Hop Basin
-motown -> The Hip-Hop Basin
-neo soul -> The Hip-Hop Basin
-g-funk -> The Hip-Hop Basin
-lo-fi -> The Hip-Hop Basin
+# Hip-Hop & Groove
+hip hop -> Hip-Hop & Groove
+trap -> Hip-Hop & Groove
+boom bap -> Hip-Hop & Groove
+gangsta rap -> Hip-Hop & Groove
+r&b -> Hip-Hop & Groove
+soul -> Hip-Hop & Groove
+funk -> Hip-Hop & Groove
+disco -> Hip-Hop & Groove
+motown -> Hip-Hop & Groove
+neo soul -> Hip-Hop & Groove
+g-funk -> Hip-Hop & Groove
+lo-fi -> Hip-Hop & Groove
 
-# The Jazz & Blues Delta
-jazz -> The Jazz & Blues Delta
-blues -> The Jazz & Blues Delta
-swing -> The Jazz & Blues Delta
-bebop -> The Jazz & Blues Delta
-cool jazz -> The Jazz & Blues Delta
-fusion -> The Jazz & Blues Delta
-ragtime -> The Jazz & Blues Delta
-hard bop -> The Jazz & Blues Delta
-delta blues -> The Jazz & Blues Delta
-chicago blues -> The Jazz & Blues Delta
-soul jazz -> The Jazz & Blues Delta
-bossa nova -> The Jazz & Blues Delta
+# Jazz, Blues & Soul
+jazz -> Jazz, Blues & Soul
+blues -> Jazz, Blues & Soul
+swing -> Jazz, Blues & Soul
+bebop -> Jazz, Blues & Soul
+cool jazz -> Jazz, Blues & Soul
+fusion -> Jazz, Blues & Soul
+ragtime -> Jazz, Blues & Soul
+hard bop -> Jazz, Blues & Soul
+delta blues -> Jazz, Blues & Soul
+chicago blues -> Jazz, Blues & Soul
+soul jazz -> Jazz, Blues & Soul
+bossa nova -> Jazz, Blues & Soul
 
-# The Pop Archipelago
-pop -> The Pop Archipelago
-teen pop -> The Pop Archipelago
-dance-pop -> The Pop Archipelago
-europop -> The Pop Archipelago
-k-pop -> The Pop Archipelago
-j-pop -> The Pop Archipelago
-power pop -> The Pop Archipelago
-indie pop -> The Pop Archipelago
-dream pop -> The Pop Archipelago
-traditional pop -> The Pop Archipelago
+# Pop & Melodies
+pop -> Pop & Melodies
+teen pop -> Pop & Melodies
+dance-pop -> Pop & Melodies
+europop -> Pop & Melodies
+k-pop -> Pop & Melodies
+j-pop -> Pop & Melodies
+power pop -> Pop & Melodies
+indie pop -> Pop & Melodies
+dream pop -> Pop & Melodies
+traditional pop -> Pop & Melodies
 
-# The Folk & Roots Plains
-folk -> The Folk & Roots Plains
-country -> The Folk & Roots Plains
-bluegrass -> The Folk & Roots Plains
-americana -> The Folk & Roots Plains
-acoustic -> The Folk & Roots Plains
-singer-songwriter -> The Folk & Roots Plains
-celtic -> The Folk & Roots Plains
-flamenco -> The Folk & Roots Plains
-latin -> The Folk & Roots Plains
-afrobeat -> The Folk & Roots Plains
-gospel -> The Folk & Roots Plains
+# Folk & Acoustics
+folk -> Folk & Acoustics
+country -> Folk & Acoustics
+bluegrass -> Folk & Acoustics
+americana -> Folk & Acoustics
+acoustic -> Folk & Acoustics
+singer-songwriter -> Folk & Acoustics
+celtic -> Folk & Acoustics
+flamenco -> Folk & Acoustics
+latin -> Folk & Acoustics
+afrobeat -> Folk & Acoustics
+gospel -> Folk & Acoustics
 
-# The Metal Peaks
-metal -> The Metal Peaks
-heavy metal -> The Metal Peaks
-black metal -> The Metal Peaks
-death metal -> The Metal Peaks
-thrash metal -> The Metal Peaks
-doom metal -> The Metal Peaks
-nu metal -> The Metal Peaks
-sludge -> The Metal Peaks
-gothic metal -> The Metal Peaks
-power metal -> The Metal Peaks
-metalcore -> The Metal Peaks
-grindcore -> The Metal Peaks
+# Metal & Heavy
+metal -> Metal & Heavy
+heavy metal -> Metal & Heavy
+black metal -> Metal & Heavy
+death metal -> Metal & Heavy
+thrash metal -> Metal & Heavy
+doom metal -> Metal & Heavy
+nu metal -> Metal & Heavy
+sludge -> Metal & Heavy
+gothic metal -> Metal & Heavy
+power metal -> Metal & Heavy
+metalcore -> Metal & Heavy
+grindcore -> Metal & Heavy
 
-# The Tropical Pulse
-reggae -> The Tropical Pulse
-ska -> The Tropical Pulse
-dub -> The Tropical Pulse
-rocksteady -> The Tropical Pulse
-dancehall -> The Tropical Pulse
-soca -> The Tropical Pulse
-reggaeton -> The Tropical Pulse
-calypso -> The Tropical Pulse
-afrobeats -> The Tropical Pulse
-zouk -> The Tropical Pulse
-merengue -> The Tropical Pulse
-bachata -> The Tropical Pulse
+# Reggae & Global Beats
+reggae -> Reggae & Global Beats
+ska -> Reggae & Global Beats
+dub -> Reggae & Global Beats
+rocksteady -> Reggae & Global Beats
+dancehall -> Reggae & Global Beats
+soca -> Reggae & Global Beats
+reggaeton -> Reggae & Global Beats
+calypso -> Reggae & Global Beats
+afrobeats -> Reggae & Global Beats
+zouk -> Reggae & Global Beats
+merengue -> Reggae & Global Beats
+bachata -> Reggae & Global Beats
 
-# The Avant-Garde Isles
-classical -> The Avant-Garde Isles
-experimental -> The Avant-Garde Isles
-noise -> The Avant-Garde Isles
-avant-garde -> The Avant-Garde Isles
-modern classical -> The Avant-Garde Isles
-minimalism -> The Avant-Garde Isles
-drone -> The Avant-Garde Isles
-dark ambient -> The Avant-Garde Isles
-soundtrack -> The Avant-Garde Isles
+# Classical & Experimental
+classical -> Classical & Experimental
+experimental -> Classical & Experimental
+noise -> Classical & Experimental
+avant-garde -> Classical & Experimental
+modern classical -> Classical & Experimental
+minimalism -> Classical & Experimental
+drone -> Classical & Experimental
+dark ambient -> Classical & Experimental
+soundtrack -> Classical & Experimental
