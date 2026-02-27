@@ -10,8 +10,12 @@
 				<g class="spin">
 					<g class="grooves"></g>
 					<g class="bars"></g>
-					<circle cx="0" cy="0" r="12" fill="transparent" stroke="lightcoral" stroke-width="0.5"/>
-					<text class="year-center" x="0" y="1" text-anchor="middle" dominant-baseline="middle">{{ yearValue }}</text>
+					<g class="center-button" @click="handleCenterClick" style="cursor: pointer;">
+						<circle cx="0" cy="0" r="12" fill="transparent" stroke="lightcoral" stroke-width="0.5"/>
+						<text class="year-center" x="0" y="1" text-anchor="middle" dominant-baseline="middle">
+							{{ hoveredPercentage !== null ? hoveredPercentage : (viewMode === 'groups' ? yearValue : 'Back') }}
+						</text>
+					</g>
 				</g>
 			</svg>
 		</div>
@@ -51,11 +55,15 @@ const props = defineProps({
 })
 
 const yearValue = ref(props.initialYear)
+const viewMode = ref('groups')
+const activeGroup = ref(null)
+const hoveredPercentage = ref(null)
 const chartSvg = ref(null)
 let svg, spinGroup, bars, grooves, labels, innerRadius, outerRadius, genre_groupColors, currentGenreData = []
 let selectedBar = null
 let selectedId = null
 let selectedgenre_group = null
+let lastClickedGroupAngle = { start: 0, end: 0 }
 
 const spinDurationInMs = 45_000
 const spinDegPerMs = 360 / spinDurationInMs
@@ -74,61 +82,98 @@ const updateChart = (year) => {
 	const yearData = genresData[year.toString()]
 	const mappedTotalForTheYear = yearData.metadata.mapped_total
 	const peakGenres = yearData.metadata.peak_genres
-	const genreData = []
+	const chartData = []
 
-	for (const genre_group of yearData.genre_group) {
-		for (const [genre, count] of Object.entries(genre_group.genres)) {
-			if (count > 0) {
-				genreData.push({
-					id: `${genre_group.name}::${genre}`,
+	if (viewMode.value === 'groups') {
+		for (const genre_group of yearData.genre_group) {
+			if (genre_group.total > 0) {
+				chartData.push({
+					id: `group::${genre_group.name}`,
+					type: 'group',
+					name: genre_group.name,
 					genre_group: genre_group.name,
-					genre,
-					count,
 					total: genre_group.total,
-					percentage: genre_group.total > 0 ? count / genre_group.total : 0,
-					isPeak: peakGenres.includes(genre)
+					percentage: genre_group.total / mappedTotalForTheYear,
+					isPeak: false
 				})
 			}
 		}
+		chartData.sort((a, b) => a.name.localeCompare(b.name))
+	} else {
+		const activeGroupData = yearData.genre_group.find(g => g.name === activeGroup.value)
+		if (activeGroupData) {
+			for (const [genre, count] of Object.entries(activeGroupData.genres)) {
+				if (count > 0) {
+					chartData.push({
+						id: `${activeGroupData.name}::${genre}`,
+						type: 'genre',
+						genre_group: activeGroupData.name,
+						genre,
+						name: genre,
+						count,
+						total: activeGroupData.total,
+						percentage: activeGroupData.total > 0 ? count / activeGroupData.total : 0,
+						isPeak: peakGenres.includes(genre)
+					})
+				}
+			}
+			chartData.sort((a, b) => a.genre.localeCompare(b.genre))
+		}
 	}
 	
-	genreData.sort((a, b) => {
-		if (a.genre_group !== b.genre_group) {
-			return a.genre_group.localeCompare(b.genre_group)
-		}
-		return a.genre.localeCompare(b.genre)
-	})
+	currentGenreData = chartData
 	
-	currentGenreData = genreData
+	const numBars = chartData.length
 	
-	const numBars = genreData.length
+	// Ako nema podataka (npr. prazna grupa u određenoj godini), izlazimo ranije
+	if (numBars === 0) {
+		bars.selectAll('g.bar-group')
+			.data([])
+			.exit()
+			.transition()
+			.duration(400)
+			.attr('opacity', 0)
+			.remove()
+		return
+	}
+
 	const angleScale = d3.scaleLinear()
 		.domain([0, numBars])
 		.range([0, 2 * Math.PI])
 	
-	const heightScale = d3.scaleLog()
-		.domain([0.001, 1])
+	const heightScale = d3.scaleLinear()
+		.domain([0, 1])
 		.range([0, outerRadius - innerRadius])
 		.clamp(true)
 	
 	const arcGenerator = d3.arc()
 		.startAngle((d, i) => angleScale(i))
-		.endAngle((d, i) => angleScale(i + 1) - 0.005)
+		.endAngle((d, i) => {
+			const end = angleScale(i + 1)
+			return numBars === 1 ? end - 0.001 : Math.max(angleScale(i) + 0.001, end - 0.005)
+		})
 	
 	const barGroups = bars.selectAll('g.bar-group')
-		.data(genreData, d => d.id)
+		.data(chartData, d => d.id)
 		.join(
 			enter => {
 				const g = enter.append('g')
 					.attr('class', d => {
-						const genreClass = d.genre.toLowerCase().replace(/[^a-z0-9]+/g, '-')
-						return d.isPeak ? `bar-group peak genre-${genreClass}` : `bar-group genre-${genreClass}`
+						const nameClass = d.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+						return d.isPeak ? `bar-group peak ${d.type}-${nameClass}` : `bar-group ${d.type}-${nameClass}`
 					})
+					.attr('data-type', d => d.type)
 					.attr('data-genre_group', d => d.genre_group)
-					.attr('data-genre', d => d.genre)
+					.attr('data-name', d => d.name)
 					.attr('data-id', d => d.id)
 					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
 					.on('click', handleBarClick)
+					.on('mouseenter', (event, d) => {
+						hoveredPercentage.value = `${(d.percentage * 100).toFixed(1)}%`
+					})
+					.on('mouseleave', () => {
+						hoveredPercentage.value = null
+					})
 				
 				g.append('path')
 					.attr('class', 'bar-bg')
@@ -136,7 +181,7 @@ const updateChart = (year) => {
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0)
 					.transition()
-					.duration(400)
+					.duration(600)
 					.attr('opacity', 0.2)
 				
 				g.append('path')
@@ -148,7 +193,7 @@ const updateChart = (year) => {
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0)
 					.transition()
-					.duration(400)
+					.duration(600)
 					.attr('opacity', 0.8)
 				
 				g.append('text')
@@ -156,15 +201,27 @@ const updateChart = (year) => {
 					.attr('text-anchor', 'start')
 					.attr('dominant-baseline', 'middle')
 					.attr('opacity', 0)
-					.text(d => d.genre)
+					.text(d => d.name)
 					.attr('transform', (d, i) => {
+						if (viewMode.value === 'genres' && lastClickedGroupAngle.start !== lastClickedGroupAngle.end) {
+							const midAngle = (lastClickedGroupAngle.start + lastClickedGroupAngle.end) / 2
+							const angleDeg = (midAngle * 180) / Math.PI
+							const r = outerRadius - 0.8
+							return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+						}
 						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
 						const angleDeg = (midAngle * 180) / Math.PI
 						const r = outerRadius - 0.8
 						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
 					})
 					.transition()
-					.duration(400)
+					.duration(600)
+					.attr('transform', (d, i) => {
+						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
+						const angleDeg = (midAngle * 180) / Math.PI
+						const r = outerRadius - 0.8
+						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+					})
 					.attr('opacity', 1)
 				
 				return g
@@ -172,32 +229,39 @@ const updateChart = (year) => {
 			update => {
 				update
 					.attr('class', d => {
-						const genreClass = d.genre.toLowerCase().replace(/[^a-z0-9]+/g, '-')
-						return d.isPeak ? `bar-group peak genre-${genreClass}` : `bar-group genre-${genreClass}`
+						const nameClass = d.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+						return d.isPeak ? `bar-group peak ${d.type}-${nameClass}` : `bar-group ${d.type}-${nameClass}`
 					})
+					.attr('data-type', d => d.type)
 					.attr('data-genre_group', d => d.genre_group)
-					.attr('data-genre', d => d.genre)
+					.attr('data-name', d => d.name)
 					.attr('data-is-peak', d => d.isPeak ? 'true' : 'false')
+					.on('mouseenter', (event, d) => {
+						hoveredPercentage.value = `${(d.percentage * 100).toFixed(1)}%`
+					})
+					.on('mouseleave', () => {
+						hoveredPercentage.value = null
+					})
 				
 				update.select('path.bar-bg')
+					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
 					.transition()
 					.duration(400)
-					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0.2)
 				
 				update.select('path.bar-fg')
-					.transition()
-					.duration(400)
 					.attr('d', (d, i) => {
 						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
 						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
 					})
+					.transition()
+					.duration(400)
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0.8)
 				
 				update.select('text.bar-label')
-					.text(d => d.genre)
+					.text(d => d.name)
 					.transition()
 					.duration(400)
 					.attr('transform', (d, i) => {
@@ -212,7 +276,7 @@ const updateChart = (year) => {
 			},
 			exit => exit
 				.transition()
-				.duration(300)
+				.duration(400)
 				.attr('opacity', 0)
 				.on('end', function() {
 					d3.select(this).on('click', null)
@@ -234,7 +298,32 @@ const recomputeSpinPaused = () => {
 	isSpinPaused = pauseHover || pauseYearTransition || pauseSelection || props.isDescriptionVisible || props.isIntroVisible
 }
 
+const handleCenterClick = () => {
+	if (viewMode.value === 'genres') {
+		viewMode.value = 'groups'
+		activeGroup.value = null
+		lastClickedGroupAngle = { start: 0, end: 0 }
+		emit('update:isDescriptionVisible', false)
+		updateChart(yearValue.value)
+	}
+}
+
 const handleBarClick = async (event, d) => {
+	if (d.type === 'group') {
+		const barIndex = currentGenreData.findIndex(item => item.id === d.id)
+		const numBars = currentGenreData.length
+		const anglePerBar = (2 * Math.PI) / numBars
+		lastClickedGroupAngle = {
+			start: barIndex * anglePerBar,
+			end: (barIndex + 1) * anglePerBar - 0.005
+		}
+
+		activeGroup.value = d.name
+		viewMode.value = 'genres'
+		updateChart(yearValue.value)
+		return
+	}
+
 	pauseSelection = true
 	recomputeSpinPaused()
 	selectedId = d.id
