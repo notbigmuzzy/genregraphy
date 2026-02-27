@@ -516,7 +516,7 @@ onMounted(async () => {
 	svg.on('wheel', (event) => {
 		event.preventDefault()
 		const delta = event.deltaY
-		momentumVelocity -= delta * 0.0003
+		momentumVelocity += delta * 0.0003
 	}, { passive: false })
 
 	svg.on('mouseleave', () => {
