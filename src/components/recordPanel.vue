@@ -13,7 +13,8 @@
 					<g class="center-button" @click="handleCenterClick" style="cursor: pointer;">
 						<circle cx="0" cy="0" r="12" fill="transparent" stroke="lightcoral" stroke-width="0.5"/>
 						<text class="year-center" x="0" y="1" text-anchor="middle" dominant-baseline="middle">
-							{{ hoveredPercentage !== null ? hoveredPercentage : (viewMode === 'groups' ? yearValue : 'Back') }}
+							{{ hoveredPercentage !== null ? yearValue : (viewMode === 'groups' ? yearValue : 'Back') }}
+							<!-- {{ hoveredPercentage !== null ? hoveredPercentage : (viewMode === 'groups' ? yearValue : 'Back') }} -->
 						</text>
 					</g>
 				</g>
@@ -141,7 +142,8 @@ const updateChart = (year) => {
 		.domain([0, numBars])
 		.range([0, 2 * Math.PI])
 	
-	const heightScale = d3.scaleLinear()
+	const heightScale = d3.scalePow()
+		.exponent(0.5)
 		.domain([0, 1])
 		.range([0, outerRadius - innerRadius])
 		.clamp(true)
