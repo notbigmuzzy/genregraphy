@@ -13,7 +13,7 @@
 					<g class="center-button" @click="handleCenterClick" style="cursor: pointer;">
 						<circle cx="0" cy="0" r="12" fill="transparent" stroke="lightcoral" stroke-width="0.5"/>
 						<text class="year-center" x="0" y="1" text-anchor="middle" dominant-baseline="middle">
-							{{ hoveredPercentage !== null ? yearValue : (viewMode === 'groups' ? yearValue : 'Back') }}
+							{{ yearValue }}
 							<!-- {{ hoveredPercentage !== null ? hoveredPercentage : (viewMode === 'groups' ? yearValue : 'Back') }} -->
 						</text>
 					</g>
@@ -149,14 +149,30 @@ const updateChart = (year) => {
 		.clamp(true)
 	
 	const arcGenerator = d3.arc()
-		.startAngle((d, i) => angleScale(i))
-		.endAngle((d, i) => {
-			const end = angleScale(i + 1)
-			return numBars === 1 ? end - 0.001 : Math.max(angleScale(i) + 0.001, end - 0.005)
-		})
+		.innerRadius(d => d.innerRadius)
+		.outerRadius(d => d.outerRadius)
+		.startAngle(d => d.startAngle)
+		.endAngle(d => d.endAngle)
+
+	const layoutData = chartData.map((d, i) => {
+		const startAngle = angleScale(i);
+		const endAngle = numBars === 1 ? angleScale(i + 1) - 0.001 : Math.max(angleScale(i) + 0.001, angleScale(i + 1) - 0.005);
+		const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))));
+		
+		return {
+			...d,
+			startAngle,
+			endAngle,
+			bgInnerRadius: innerRadius,
+			bgOuterRadius: outerRadius,
+			fgInnerRadius: outerRadius - barHeight,
+			fgOuterRadius: outerRadius,
+			midAngle: (startAngle + endAngle) / 2
+		};
+	});
 	
 	const barGroups = bars.selectAll('g.bar-group')
-		.data(chartData, d => d.id)
+		.data(layoutData, d => d.id)
 		.join(
 			enter => {
 				const g = enter.append('g')
@@ -179,24 +195,55 @@ const updateChart = (year) => {
 				
 				g.append('path')
 					.attr('class', 'bar-bg')
-					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
+					.each(function(d) { 
+						let initialStart = d.startAngle;
+						let initialEnd = d.endAngle;
+						if (viewMode.value === 'genres' && lastClickedGroupAngle.start !== lastClickedGroupAngle.end) {
+							const groupSpan = lastClickedGroupAngle.end - lastClickedGroupAngle.start;
+							initialStart = lastClickedGroupAngle.start + (d.startAngle / (2 * Math.PI)) * groupSpan;
+							initialEnd = lastClickedGroupAngle.start + (d.endAngle / (2 * Math.PI)) * groupSpan;
+						}
+						this._current = { ...d, innerRadius: d.bgInnerRadius, outerRadius: d.bgOuterRadius, startAngle: initialStart, endAngle: initialEnd }; 
+					})
+					.attr('d', function(d) { return arcGenerator(this._current); })
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0)
 					.transition()
-					.duration(600)
+					.duration(800)
+					.ease(d3.easeCubicOut)
 					.attr('opacity', 0.2)
+					.attrTween('d', function(d) {
+						const target = { ...d, innerRadius: d.bgInnerRadius, outerRadius: d.bgOuterRadius };
+						const i = d3.interpolate(this._current, target);
+						this._current = target;
+						return t => arcGenerator(i(t));
+					})
 				
 				g.append('path')
 					.attr('class', 'bar-fg')
-					.attr('d', (d, i) => {
-						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
-						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
+					.each(function(d) { 
+						let initialStart = d.startAngle;
+						let initialEnd = d.endAngle;
+						if (viewMode.value === 'genres' && lastClickedGroupAngle.start !== lastClickedGroupAngle.end) {
+							const groupSpan = lastClickedGroupAngle.end - lastClickedGroupAngle.start;
+							initialStart = lastClickedGroupAngle.start + (d.startAngle / (2 * Math.PI)) * groupSpan;
+							initialEnd = lastClickedGroupAngle.start + (d.endAngle / (2 * Math.PI)) * groupSpan;
+						}
+						this._current = { ...d, innerRadius: d.fgInnerRadius, outerRadius: d.fgOuterRadius, startAngle: initialStart, endAngle: initialEnd }; 
 					})
+					.attr('d', function(d) { return arcGenerator(this._current); })
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0)
 					.transition()
-					.duration(600)
+					.duration(800)
+					.ease(d3.easeCubicOut)
 					.attr('opacity', 0.8)
+					.attrTween('d', function(d) {
+						const target = { ...d, innerRadius: d.fgInnerRadius, outerRadius: d.fgOuterRadius };
+						const i = d3.interpolate(this._current, target);
+						this._current = target;
+						return t => arcGenerator(i(t));
+					})
 				
 				g.append('text')
 					.attr('class', 'bar-label')
@@ -204,25 +251,31 @@ const updateChart = (year) => {
 					.attr('dominant-baseline', 'middle')
 					.attr('opacity', 0)
 					.text(d => d.name)
-					.attr('transform', (d, i) => {
+					.each(function(d) {
+						let initialMid = d.midAngle;
 						if (viewMode.value === 'genres' && lastClickedGroupAngle.start !== lastClickedGroupAngle.end) {
-							const midAngle = (lastClickedGroupAngle.start + lastClickedGroupAngle.end) / 2
-							const angleDeg = (midAngle * 180) / Math.PI
-							const r = outerRadius - 0.8
-							return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+							const groupSpan = lastClickedGroupAngle.end - lastClickedGroupAngle.start;
+							initialMid = lastClickedGroupAngle.start + (d.midAngle / (2 * Math.PI)) * groupSpan;
 						}
-						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
-						const angleDeg = (midAngle * 180) / Math.PI
-						const r = outerRadius - 0.8
-						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+						this._currentAngle = initialMid;
+					})
+					.attr('transform', function(d) {
+						const angleDeg = (this._currentAngle * 180) / Math.PI;
+						const r = outerRadius - 0.8;
+						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`;
 					})
 					.transition()
-					.duration(600)
-					.attr('transform', (d, i) => {
-						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
-						const angleDeg = (midAngle * 180) / Math.PI
-						const r = outerRadius - 0.8
-						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+					.duration(800)
+					.ease(d3.easeCubicOut)
+					.attrTween('transform', function(d) {
+						const targetAngle = d.midAngle;
+						const i = d3.interpolate(this._currentAngle, targetAngle);
+						this._currentAngle = targetAngle;
+						return t => {
+							const angleDeg = (i(t) * 180) / Math.PI;
+							const r = outerRadius - 0.8;
+							return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`;
+						};
 					})
 					.attr('opacity', 1)
 				
@@ -246,31 +299,46 @@ const updateChart = (year) => {
 					})
 				
 				update.select('path.bar-bg')
-					.attr('d', (d, i) => arcGenerator.innerRadius(innerRadius).outerRadius(outerRadius)({ data: d }, i))
 					.transition()
-					.duration(400)
+					.duration(600)
+					.ease(d3.easeCubicOut)
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0.2)
+					.attrTween('d', function(d) {
+						const target = { ...d, innerRadius: d.bgInnerRadius, outerRadius: d.bgOuterRadius };
+						const i = d3.interpolate(this._current || target, target);
+						this._current = target;
+						return t => arcGenerator(i(t));
+					})
 				
 				update.select('path.bar-fg')
-					.attr('d', (d, i) => {
-						const barHeight = Math.max(1, Math.floor(heightScale(Math.max(d.percentage, 0.001))))
-						return arcGenerator.innerRadius(outerRadius - barHeight).outerRadius(outerRadius)({ data: d }, i)
-					})
 					.transition()
-					.duration(400)
+					.duration(600)
+					.ease(d3.easeCubicOut)
 					.attr('fill', d => genre_groupColors[d.genre_group] || 'lightcoral')
 					.attr('opacity', 0.8)
+					.attrTween('d', function(d) {
+						const target = { ...d, innerRadius: d.fgInnerRadius, outerRadius: d.fgOuterRadius };
+						const i = d3.interpolate(this._current || target, target);
+						this._current = target;
+						return t => arcGenerator(i(t));
+					})
 				
 				update.select('text.bar-label')
 					.text(d => d.name)
 					.transition()
-					.duration(400)
-					.attr('transform', (d, i) => {
-						const midAngle = (angleScale(i) + angleScale(i + 1)) / 2
-						const angleDeg = (midAngle * 180) / Math.PI
-						const r = outerRadius - 0.8
-						return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`
+					.duration(600)
+					.ease(d3.easeCubicOut)
+					.attrTween('transform', function(d) {
+						const targetAngle = d.midAngle;
+						const currentAngle = this._currentAngle !== undefined ? this._currentAngle : targetAngle;
+						const i = d3.interpolate(currentAngle, targetAngle);
+						this._currentAngle = targetAngle;
+						return t => {
+							const angleDeg = (i(t) * 180) / Math.PI;
+							const r = outerRadius - 0.8;
+							return `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`;
+						};
 					})
 					.attr('opacity', 1)
 				
@@ -278,8 +346,44 @@ const updateChart = (year) => {
 			},
 			exit => exit
 				.transition()
-				.duration(400)
+				.duration(600)
+				.ease(d3.easeCubicIn)
 				.attr('opacity', 0)
+				.tween('collapse', function(d) {
+					if (viewMode.value === 'groups' && lastClickedGroupAngle.start !== lastClickedGroupAngle.end) {
+						const groupSpan = lastClickedGroupAngle.end - lastClickedGroupAngle.start;
+						const targetStart = lastClickedGroupAngle.start + (d.startAngle / (2 * Math.PI)) * groupSpan;
+						const targetEnd = lastClickedGroupAngle.start + (d.endAngle / (2 * Math.PI)) * groupSpan;
+						
+						const bgPath = d3.select(this).select('path.bar-bg').node();
+						const fgPath = d3.select(this).select('path.bar-fg').node();
+						const textNode = d3.select(this).select('text.bar-label').node();
+						
+						const iStart = d3.interpolate(d.startAngle, targetStart);
+						const iEnd = d3.interpolate(d.endAngle, targetEnd);
+						const iMid = d3.interpolate(d.midAngle, (targetStart + targetEnd) / 2);
+						
+						return t => {
+							const s = iStart(t);
+							const e = iEnd(t);
+							if (bgPath && bgPath._current) {
+								bgPath._current.startAngle = s;
+								bgPath._current.endAngle = e;
+								d3.select(bgPath).attr('d', arcGenerator(bgPath._current));
+							}
+							if (fgPath && fgPath._current) {
+								fgPath._current.startAngle = s;
+								fgPath._current.endAngle = e;
+								d3.select(fgPath).attr('d', arcGenerator(fgPath._current));
+							}
+							if (textNode) {
+								const angleDeg = (iMid(t) * 180) / Math.PI;
+								const r = outerRadius - 0.8;
+								d3.select(textNode).attr('transform', `rotate(${angleDeg}) translate(0, -${r}) rotate(90)`);
+							}
+						};
+					}
+				})
 				.on('end', function() {
 					d3.select(this).on('click', null)
 				})
@@ -304,7 +408,6 @@ const handleCenterClick = () => {
 	if (viewMode.value === 'genres') {
 		viewMode.value = 'groups'
 		activeGroup.value = null
-		lastClickedGroupAngle = { start: 0, end: 0 }
 		emit('update:isDescriptionVisible', false)
 		updateChart(yearValue.value)
 	}
