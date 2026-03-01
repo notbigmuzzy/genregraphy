@@ -230,49 +230,78 @@ const drawMap = () => {
 
     const initialPath = d => `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
 
-    
-    groupContainers.select('.layer-outline').selectAll('.shape-outline')
-        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
+    const makeId = d => 'genre-path-' + (d.data.group + '-' + d.data.name).replace(/[^a-zA-Z0-9-]/g, '-').toLowerCase();
+
+    let defsPathsGroup = defs.select('g.genre-paths-defs');
+    if (defsPathsGroup.empty()) {
+        defsPathsGroup = defs.append('g').attr('class', 'genre-paths-defs');
+    }
+
+    const defPaths = defsPathsGroup.selectAll('path.genre-def-path')
+        .data(nodes, d => d.data.name)
         .join(
             enter => enter.append('path')
+                .attr('class', 'genre-def-path')
+                .attr('id', makeId)
+                .attr('d', initialPath),
+            update => update,
+            exit => exit.transition().duration(500).attr('d', initialPath).remove()
+        );
+
+    defPaths.transition()
+        .duration(750)
+        .attrTween("d", function(d) {
+            let previous = d3.select(this).attr("d");
+            if (!previous || previous === '' || previous.indexOf('M0,') >= 0 || previous.includes('NaN')) {
+                 previous = initialPath(d);
+            }
+            const index = nodes.indexOf(d);
+            const current = voronoi.renderCell(index);
+            return interpolatePath(previous, current || previous);
+        });
+
+    groupContainers.select('.layer-outline').selectAll('use.shape-outline')
+        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
+        .join(
+            enter => enter.append('use')
                .attr('class', 'shape-outline')
+               .attr('href', d => `#${makeId(d)}`)
                .attr('fill', 'none')
                .attr('stroke', '#fff')
                .attr('stroke-width', 22)  
                .attr('stroke-linejoin', 'round')
-               .attr('opacity', 0)
-               .attr('d', initialPath),
+               .attr('opacity', 0),
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
+        .transition().duration(750).style('opacity', 1);
 
-    
-    groupContainers.select('.layer-blob').selectAll('.shape-blob')
+    groupContainers.select('.layer-blob').selectAll('use.shape-blob')
         .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
         .join(
-            enter => enter.append('path')
+            enter => enter.append('use')
                .attr('class', 'shape-blob')
+               .attr('href', d => `#${makeId(d)}`)
                .attr('fill', d => colorScale(d.data.group))
                .attr('stroke', d => colorScale(d.data.group))
                .attr('stroke-width', 16)  
                .attr('stroke-linejoin', 'round')
-               .attr('opacity', 0)
-               .attr('d', initialPath),
+               .attr('opacity', 0),
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
+        .transition().duration(750).style('opacity', 0.9);
         
-    
-    groupContainers.select('.layer-internal').selectAll('.shape-internal')
+    groupContainers.select('.layer-internal').selectAll('use.shape-internal')
         .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
         .join(
-            enter => enter.append('path')
+            enter => enter.append('use')
                .attr('class', 'shape-internal')
+               .attr('href', d => `#${makeId(d)}`)
                .attr('fill', 'transparent')
                .attr('stroke', 'rgba(255, 255, 255, 0.4)')
                .attr('stroke-width', 0.5)
                .attr('opacity', 0) 
-               .attr('d', initialPath)
                .on('mouseenter', function(event, d) {
                     if (d.data.isDummy) return
                     d3.select(this)
@@ -289,6 +318,7 @@ const drawMap = () => {
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
+        .transition().duration(750).style('opacity', d => d.data.isDummy ? 0.1 : 1);
 
     const textsLayer = groupContainers.select('.genre-texts-layer');
     const textCells = textsLayer.selectAll('.genre-label')
@@ -353,26 +383,6 @@ const drawMap = () => {
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
-
-    const updatePathLayer = (selector, isDummyOpacityFn) => {
-        svgGroup.selectAll(selector).data(nodes, d => d.data.name)
-            .transition()
-            .duration(750)
-            .attrTween("d", function(d) {
-                let previous = d3.select(this).attr("d");
-                if (!previous || previous.indexOf('M0,0') === 0) {
-                     previous = `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
-                }
-                const index = nodes.indexOf(d);
-                const current = voronoi.renderCell(index);
-                return interpolatePath(previous, current || previous);
-            })
-            .attr('opacity', d => d.data.isDummy ? 0.1 : isDummyOpacityFn());
-    };
-
-    updatePathLayer('.shape-outline', () => 1);
-    updatePathLayer('.shape-blob', () => 0.9);
-    updatePathLayer('.shape-internal', () => 1); 
 
     const textsToUpdate = svgGroup.selectAll('.genre-label').data(nodes, d => d.data.name);
     
