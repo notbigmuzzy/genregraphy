@@ -190,10 +190,6 @@ const drawMap = () => {
         .join('path')
         .attr('class', 'continent-coast')
         .attr('d', d => d)
-        .attr('fill', '#f0f0f0') 
-        .attr('stroke', '#ccc')
-        .attr('stroke-width', 2)
-        .attr('opacity', 0.5)
 
     let svgGroup = svg.select('g.main-group')
     if (svgGroup.empty()) {
@@ -265,12 +261,7 @@ const drawMap = () => {
         .join(
             enter => enter.append('use')
                .attr('class', 'shape-outline')
-               .attr('href', d => `#${makeId(d)}`)
-               .attr('fill', 'none')
-               .attr('stroke', '#fff')
-               .attr('stroke-width', 22)  
-               .attr('stroke-linejoin', 'round')
-               .attr('opacity', 0),
+               .attr('href', d => `#${makeId(d)}`),
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
@@ -282,11 +273,9 @@ const drawMap = () => {
             enter => enter.append('use')
                .attr('class', 'shape-blob')
                .attr('href', d => `#${makeId(d)}`)
+               // Dynamic fill/stroke must stay in JS because it depends on the colorScale derived from the data
                .attr('fill', d => colorScale(d.data.group))
-               .attr('stroke', d => colorScale(d.data.group))
-               .attr('stroke-width', 16)  
-               .attr('stroke-linejoin', 'round')
-               .attr('opacity', 0),
+               .attr('stroke', d => colorScale(d.data.group)),
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
@@ -298,22 +287,13 @@ const drawMap = () => {
             enter => enter.append('use')
                .attr('class', 'shape-internal')
                .attr('href', d => `#${makeId(d)}`)
-               .attr('fill', 'transparent')
-               .attr('stroke', 'rgba(255, 255, 255, 0.4)')
-               .attr('stroke-width', 0.5)
-               .attr('opacity', 0) 
                .on('mouseenter', function(event, d) {
                     if (d.data.isDummy) return
-                    d3.select(this)
-                        .attr('stroke', '#fff')
-                        .attr('stroke-width', 2)
-                        .raise()
+                    d3.select(this).classed('is-hovered', true).raise()
                 })
                 .on('mouseleave', function(event, d) {
                     if (d.data.isDummy) return
-                    d3.select(this)
-                        .attr('stroke', 'rgba(255, 255, 255, 0.4)')
-                        .attr('stroke-width', 0.5)
+                    d3.select(this).classed('is-hovered', false)
                 }),
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
