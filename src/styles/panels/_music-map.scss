@@ -1,0 +1,14 @@
+.music-map {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    path {
+        transition: opacity 0.2s ease, stroke-width 0.2s ease;
+
+        &.hovered-cell {
+            opacity: 1 !important;
+            stroke-width: 3px !important;
+        }
+    }
+}
