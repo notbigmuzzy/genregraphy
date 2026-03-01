@@ -1,4 +1,4 @@
-export const getContinentPath = (width, height) => {
+export const continentShape = (width, height) => {
     const w = width;
     const h = height;
 

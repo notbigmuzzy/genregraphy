@@ -8,7 +8,7 @@
 import { ref, onMounted, onUnmounted, watch } from 'vue'
 import * as d3 from 'd3'
 import { interpolatePath } from 'd3-interpolate-path'
-import { getContinentPath } from '../utils/mapShapes.js'
+import { continentShape } from '../utils/defaultContinent.js'
 
 const props = defineProps({
     genres: {
@@ -23,6 +23,10 @@ const props = defineProps({
 
 const mapContainer = ref(null)
 let resizeObserver = null
+
+let cachedMapWidth = 0
+let cachedMapHeight = 0
+let cachedContinentPath = ''
 
 const drawMap = () => {
     if (!props.genres || !mapContainer.value) return
@@ -135,7 +139,12 @@ const drawMap = () => {
     const delaunay = d3.Delaunay.from(nodes, d => d.x, d => d.y)
     
     // Define continent shape
-    const continentPath = getContinentPath(width, height)
+    if (!cachedContinentPath || cachedMapWidth !== width || cachedMapHeight !== height) {
+        cachedContinentPath = continentShape(width, height)
+        cachedMapWidth = width
+        cachedMapHeight = height
+    }
+    const continentPath = cachedContinentPath
     
     // Instead of rectangular box, we use the continent shape for clipping visually
     // However, Delaunay still needs a bounding box for calculation.
@@ -150,6 +159,46 @@ const drawMap = () => {
     let defs = svg.select('defs')
     if (defs.empty()) {
         defs = svg.append('defs')
+    }
+
+    const groupOutlineFilter = defs.selectAll('#group-outline')
+        .data([1])
+        .join('filter')
+        .attr('id', 'group-outline')
+        .attr('x', '-10%')
+        .attr('y', '-10%')
+        .attr('width', '120%')
+        .attr('height', '120%')
+
+    if (groupOutlineFilter.select('feMorphology').empty()) {
+        groupOutlineFilter.append('feMorphology')
+            .attr('in', 'SourceAlpha')
+            .attr('operator', 'dilate')
+            .attr('radius', '3')
+            .attr('result', 'dilated')
+        
+        groupOutlineFilter.append('feFlood')
+            .attr('flood-color', '#fff')
+            .attr('flood-opacity', '1')
+            .attr('result', 'flood')
+            
+        groupOutlineFilter.append('feComposite')
+            .attr('in', 'flood')
+            .attr('in2', 'dilated')
+            .attr('operator', 'in')
+            .attr('result', 'outline')
+            
+        // Knock out the inner part so it's strictly a border 
+        // that doesn't affect the fill opacity of the source graphic
+        groupOutlineFilter.append('feComposite')
+            .attr('in', 'outline')
+            .attr('in2', 'SourceAlpha')
+            .attr('operator', 'out')
+            .attr('result', 'borderOnly')
+
+        const merge = groupOutlineFilter.append('feMerge')
+        merge.append('feMergeNode').attr('in', 'borderOnly')
+        merge.append('feMergeNode').attr('in', 'SourceGraphic')
     }
     
     const clipPath = defs.selectAll('#continent-clip')
@@ -191,7 +240,8 @@ const drawMap = () => {
         .join(
             enter => enter.append('g')
                 .attr('class', d => `genre-group-container genre-group-${d.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
-                .attr('data-group', d => d),
+                .attr('data-group', d => d)
+                .style('filter', 'url(#group-outline)'),
             update => update,
             exit => exit.remove()
         )
@@ -208,8 +258,8 @@ const drawMap = () => {
                 
                 g.append('path')
                    .attr('fill', d => colorScale(d.data.group))
-                   .attr('stroke', '#fff')
-                   .attr('stroke-width', 1.5)
+                   .attr('stroke', 'rgba(255, 255, 255, 0.4)')
+                   .attr('stroke-width', 0.5)
                    .attr('opacity', 0) 
                    .attr('d', d => {
                         
@@ -220,13 +270,15 @@ const drawMap = () => {
                         if (d.data.isDummy) return
                         d3.select(this)
                             .attr('opacity', 1)
-                            .attr('stroke-width', 3)
+                            .attr('stroke', '#fff')
+                            .attr('stroke-width', 2)
                     })
                     .on('mouseleave', function(event, d) {
                         if (d.data.isDummy) return
                         d3.select(this)
                             .attr('opacity', 0.9)
-                            .attr('stroke-width', 1.5)
+                            .attr('stroke', 'rgba(255, 255, 255, 0.4)')
+                            .attr('stroke-width', 0.5)
                     })
 
                 g.append('text')
