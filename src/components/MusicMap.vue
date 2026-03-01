@@ -111,7 +111,7 @@ const drawMap = () => {
         }
 
         const root = d3.hierarchy(hierarchyData)
-            .sum(d => d.value)
+            .sum(d => d.value > 0 ? Math.log(d.value + 1) : 0) // LOGARITAMSKA SKALA: Smanjuje rasejanje izmedju malih i velikih
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
 
         const pack = d3.pack()
