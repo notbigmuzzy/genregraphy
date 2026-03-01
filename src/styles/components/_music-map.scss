@@ -8,15 +8,25 @@
 
 .music-map {
     position: relative;
-    height: 100%;
-    width: 90%;
+    height: 90%;
+    width: 80%;
+    background-color: antiquewhite;
 
-    path {
+    .genre-shape {
+        overflow: hidden;
         transition: opacity 0.2s ease, stroke-width 0.2s ease;
 
         &.hovered-cell {
             opacity: 1 !important;
             stroke-width: 3px !important;
         }
+    }
+
+    .genre-label {
+        fill: rgb(255, 255, 255);
+        pointer-events: none;
+        font-weight: bold;
+        font-size: 10px !important;
+        opacity: 0;
     }
 }

@@ -76,8 +76,12 @@ const drawMap = () => {
 
     let nodes = []
     let globalLogTotal = 0
+    let globalTotal = 0
     yearData.genre_group.forEach(g => { 
-        if (g.total > 0) globalLogTotal += (Math.log(g.total + 1) * 2) + 4
+        if (g.total > 0) {
+            globalLogTotal += (Math.log(g.total + 1) * 2) + 4
+            globalTotal += g.total
+        }
     })
 
     macroNodes.forEach(macroNode => {
@@ -94,12 +98,13 @@ const drawMap = () => {
         }
 
         const groupTotal = groupMatch.total || 0
-        const groupLogTotal = groupTotal > 0 ? (Math.log(groupTotal + 1) * 2) + 4 : 0
-        const areaRatio = globalLogTotal > 0 ? groupLogTotal / globalLogTotal : 0.01 
+        const baseRatio = 0.05; 
+        const trueRatio = globalTotal > 0 ? (groupTotal / globalTotal) : 0;
+        const areaRatio = baseRatio + (trueRatio * (1 - baseRatio * 9));
 
         const scaleFactor = Math.sqrt(areaRatio)
         const maxDiameter = Math.min(width, height) * 0.95
-        const dynamicDiameter = Math.max(20, scaleFactor * maxDiameter) 
+        const dynamicDiameter = Math.max(40, scaleFactor * maxDiameter) 
 
         const hierarchyData = {
             name: groupName,
@@ -109,7 +114,10 @@ const drawMap = () => {
         }
 
         const root = d3.hierarchy(hierarchyData)
-            .sum(d => d.value > 0 ? (Math.log(d.value + 1) * 2) + 4 : 0) 
+            .sum(d => {
+                if (!d.value || d.value <= 0) return 0;
+                return 25 + (Math.log10(d.value) * 5);
+            }) 
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
 
         const pack = d3.pack()
@@ -253,13 +261,12 @@ const drawMap = () => {
                     })
                 
                 g.append('path')
+                   .attr('class', 'genre-shape')
                    .attr('fill', d => colorScale(d.data.group))
                    .attr('stroke', 'rgba(255, 255, 255, 0.4)')
                    .attr('stroke-width', 0.5)
                    .attr('opacity', 0) 
                    .attr('d', d => {
-                        
-                        
                         return `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`
                    })
                    .on('mouseenter', function(event, d) {
@@ -277,17 +284,59 @@ const drawMap = () => {
                             .attr('stroke-width', 0.5)
                     })
 
-                g.append('text')
+                const textEl = g.append('text')
+                    .attr('class', 'genre-label')
                     .attr('text-anchor', 'middle')
-                    .attr('dominant-baseline', 'middle')
-                    .style('fill', '#fff')
-                    .style('pointer-events', 'none')
-                    .style('font-weight', 'bold')
-                    .style('font-size', '11px')
-                    .text(d => d.data.isDummy ? d.data.group : d.data.name)
+                    .attr('dominant-baseline', 'central')
                     .style('opacity', 0) 
-                    .attr('x', d => d.x)
-                    .attr('y', d => d.y)
+                    .attr('x', d => {
+                        const polygon = voronoi.cellPolygon(nodes.indexOf(d));
+                        if (!polygon) return d.x;
+                        const centroid = d3.polygonCentroid(polygon);
+                        // Povlačenje centra prema unutrašnjem izvornom D3 pack čvoru da tekst ne bi odlutao previše na obode
+                        return centroid[0] * 0.4 + d.x * 0.6;
+                    })
+                    .attr('y', d => {
+                        const polygon = voronoi.cellPolygon(nodes.indexOf(d));
+                        if (!polygon) return d.y;
+                        const centroid = d3.polygonCentroid(polygon);
+                        return centroid[1] * 0.4 + d.y * 0.6;
+                    })
+
+                textEl.each(function(d) {
+                    const el = d3.select(this)
+                    const label = d.data.isDummy ? d.data.group : d.data.name
+                    if (!label) return
+
+                    const polygon = voronoi.cellPolygon(nodes.indexOf(d));
+                    let centerX = d.x;
+                    if (polygon) {
+                        const centroid = d3.polygonCentroid(polygon);
+                        centerX = centroid[0] * 0.4 + d.x * 0.6;
+                    }
+
+                    const words = label.split(/\s+/)
+                    if (words.length > 1) {
+                        const mid = Math.ceil(words.length / 2)
+                        const line1 = words.slice(0, mid).join(' ')
+                        const line2 = words.slice(mid).join(' ')
+                        
+                        el.append('tspan')
+                            .text(line1)
+                            .attr('x', centerX)
+                            .attr('dy', '-0.5em')
+                        
+                        el.append('tspan')
+                            .text(line2)
+                            .attr('x', centerX)
+                            .attr('dy', '1em')
+                    } else {
+                        el.append('tspan')
+                            .text(words[0])
+                            .attr('x', centerX)
+                            .attr('dy', '0')
+                    }
+                })
 
                 return g
             },
@@ -315,16 +364,34 @@ const drawMap = () => {
     genreCells.select('text')
         .transition()
         .duration(750)
-        .attr('x', d => d.x)
-        .attr('y', d => d.y)
+        .attr('x', d => {
+            const polygon = voronoi.cellPolygon(nodes.indexOf(d));
+            if (!polygon) return d.x;
+            const centroid = d3.polygonCentroid(polygon);
+            return centroid[0] * 0.4 + d.x * 0.6;
+        })
+        .attr('y', d => {
+            const polygon = voronoi.cellPolygon(nodes.indexOf(d));
+            if (!polygon) return d.y;
+            const centroid = d3.polygonCentroid(polygon);
+            return centroid[1] * 0.4 + d.y * 0.6;
+        })
         .style('opacity', d => d.data.isDummy ? 0.3 : 1)
+        .on('start', function(d) {
+             const polygon = voronoi.cellPolygon(nodes.indexOf(d));
+             let centerX = d.x;
+             if (polygon) {
+                 const centroid = d3.polygonCentroid(polygon);
+                 centerX = centroid[0] * 0.4 + d.x * 0.6;
+             }
+             d3.select(this).selectAll('tspan').attr('x', centerX)
+        })
         .end().then(() => {
-             
              genreCells.select('text').each(function(d) {
                 let textWidth = this.getBBox().width
                 let availableWidth = d.r * 2 - 4
                 if (textWidth > availableWidth && availableWidth > 0) {
-                    d3.select(this).style('font-size', `${Math.max(6, availableWidth / textWidth * 11)}px`)
+                    d3.select(this).style('font-size', `${Math.max(6, availableWidth / textWidth * 10)}px`)
                 }
             })
         }).catch(() => {}) 
