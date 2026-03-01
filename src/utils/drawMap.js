@@ -2,14 +2,11 @@ import * as d3 from 'd3'
 import { interpolatePath } from 'd3-interpolate-path'
 import { continentShape } from './defaultContinent.js'
 
-export const drawMap = (genres, year, container, cache) => {
+export const drawMap = (genres, year, container, cache, allowedGroups, globalTotal) => {
     if (!genres || !container) return
 
     const yearData = genres[year.toString()]
     if (!yearData || !yearData.genre_group) return
-
-    const groupsData = yearData.genre_group.filter(g => g.total > 0)
-    if (groupsData.length === 0) return
 
     const width = container.clientWidth
     const height = container.clientHeight
@@ -27,15 +24,41 @@ export const drawMap = (genres, year, container, cache) => {
     svg.attr('viewBox', `0 0 ${width} ${height}`)
         .attr('preserveAspectRatio', 'xMidYMid meet')
 
-    const allGroups = [
+    const allGroups = allowedGroups || [
         "Classical & Experimental", "Electronic & Synth", "Folk & Acoustics",
         "Hip-Hop & Groove", "Jazz, Blues & Soul", "Metal & Heavy",
         "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
     ]
 
+    // Check if any of our allowed groups have data
+    const allowedGroupsData = yearData.genre_group.filter(g => allGroups.includes(g.name) && g.total > 0)
+    if (allowedGroupsData.length === 0 && !allowedGroups) return
+
+    // When allowedGroups is set, use local continent total for proportions
+    // When no allowedGroups (single map), use passed globalTotal or compute from all groups
+    let computedGlobalTotal = 0
+    if (allowedGroups) {
+        yearData.genre_group.forEach(g => {
+            if (allGroups.includes(g.name) && g.total > 0) computedGlobalTotal += g.total
+        })
+    } else {
+        computedGlobalTotal = globalTotal || 0
+        if (!globalTotal) {
+            yearData.genre_group.forEach(g => {
+                if (g.total > 0) computedGlobalTotal += g.total
+            })
+        }
+    }
+
+    const baseRatio = 0.05
     const macroHierarchy = d3.hierarchy({
         name: 'root',
-        children: allGroups.map(name => ({ name, value: 1 }))
+        children: allGroups.map(name => {
+            const g = yearData.genre_group.find(g => g.name === name)
+            // Use small minimum so d3.pack always has a valid sum (avoids NaN positions)
+            const trueRatio = g && computedGlobalTotal > 0 ? (g.total / computedGlobalTotal) : 0
+            return { name, value: Math.max(0.001, trueRatio) }
+        })
     }).sum(d => d.value)
         .sort((a, b) => a.data.name.localeCompare(b.data.name))
 
@@ -45,14 +68,6 @@ export const drawMap = (genres, year, container, cache) => {
     const macroNodes = macroPack(macroHierarchy).leaves()
 
     let nodes = []
-    let globalLogTotal = 0
-    let globalTotal = 0
-    yearData.genre_group.forEach(g => {
-        if (g.total > 0) {
-            globalLogTotal += (Math.log(g.total + 1) * 2) + 4
-            globalTotal += g.total
-        }
-    })
 
     macroNodes.forEach(macroNode => {
         const groupName = macroNode.data.name
@@ -63,17 +78,18 @@ export const drawMap = (genres, year, container, cache) => {
             : []
 
         if (realGenres.length === 0) {
+            // No data yet — add one invisible placeholder node to hold position in layout
+            nodes.push({
+                x: macroNode.x,
+                y: macroNode.y,
+                r: 4,
+                data: { name: `__placeholder__${groupName}`, group: groupName, isDummy: true, isEmpty: true }
+            })
             return
         }
 
-        const groupTotal = groupMatch.total || 0
-        const baseRatio = 0.05
-        const trueRatio = globalTotal > 0 ? (groupTotal / globalTotal) : 0
-        const areaRatio = baseRatio + (trueRatio * (1 - baseRatio * 9))
-
-        const scaleFactor = Math.sqrt(areaRatio)
-        const maxDiameter = Math.min(width, height) * 0.95
-        const dynamicDiameter = Math.max(40, scaleFactor * maxDiameter)
+        const groupTotal = groupMatch ? groupMatch.total || 0 : 0
+        const maxFit = 2 * Math.min(macroNode.x, width - macroNode.x, macroNode.y, height - macroNode.y)
 
         const hierarchyData = {
             name: groupName,
@@ -85,9 +101,18 @@ export const drawMap = (genres, year, container, cache) => {
         const root = d3.hierarchy(hierarchyData)
             .sum(d => {
                 if (!d.value || d.value <= 0) return 0
-                return 25 + (Math.log10(d.value) * 5)
+                return 25 + (Math.log10(d.value) * 20)
             })
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
+
+        // Ensure minimum node radius of 18px after pack scaling
+        const minNodeR = 18
+        const leaves = root.leaves()
+        const totalSum = leaves.reduce((s, l) => s + (l.value || 0), 0)
+        const minValue = Math.min(...leaves.map(l => l.value || Infinity))
+        const minNeededDiameter = 2 * minNodeR * Math.sqrt(totalSum / Math.max(minValue, 1))
+        const baseDiameter = Math.max(40, Math.min(macroNode.r * 2, maxFit))
+        const dynamicDiameter = Math.max(baseDiameter, minNeededDiameter)
 
         const pack = d3.pack()
             .size([dynamicDiameter, dynamicDiameter])
@@ -97,11 +122,26 @@ export const drawMap = (genres, year, container, cache) => {
         const offsetX = macroNode.x - (dynamicDiameter / 2)
         const offsetY = macroNode.y - (dynamicDiameter / 2)
 
-        packedLeaves.forEach(leaf => {
-            leaf.x += offsetX
-            leaf.y += offsetY
-            nodes.push(leaf)
-        })
+        const isLandscape = width / height > 2
+
+        if (isLandscape) {
+            // Horizontal line layout for wide/flat containers
+            const cellWidth = width / realGenres.length
+            const cellHeight = height
+            const nodeR = Math.min(cellWidth, cellHeight) / 2 - 4
+            packedLeaves.forEach((leaf, i) => {
+                leaf.x = cellWidth * i + cellWidth / 2
+                leaf.y = height / 2
+                leaf.r = Math.max(nodeR, 8)
+                nodes.push(leaf)
+            })
+        } else {
+            packedLeaves.forEach(leaf => {
+                leaf.x += offsetX
+                leaf.y += offsetY
+                nodes.push(leaf)
+            })
+        }
     })
 
     if (nodes.length === 0) return
@@ -115,6 +155,8 @@ export const drawMap = (genres, year, container, cache) => {
 
     const delaunay = d3.Delaunay.from(nodes, d => d.x, d => d.y)
 
+    const voronoi = delaunay.voronoi([0, 0, width, height])
+
     if (!cache.continentPath || cache.width !== width || cache.height !== height) {
         cache.continentPath = continentShape(width, height)
         cache.width = width
@@ -122,10 +164,12 @@ export const drawMap = (genres, year, container, cache) => {
     }
     const continentPath = cache.continentPath
 
-    const voronoi = delaunay.voronoi([0, 0, width, height])
-
     const colorScale = d3.scaleOrdinal()
-        .domain(allGroups)
+        .domain([
+            "Classical & Experimental", "Electronic & Synth", "Folk & Acoustics",
+            "Hip-Hop & Groove", "Jazz, Blues & Soul", "Metal & Heavy",
+            "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
+        ])
         .range(d3.schemePaired)
 
     let defs = svg.select('defs')
@@ -133,10 +177,12 @@ export const drawMap = (genres, year, container, cache) => {
         defs = svg.append('defs')
     }
 
-    const clipPath = defs.selectAll('#continent-clip')
+    const clipId = 'continent-clip-' + allGroups[0].replace(/[^a-z0-9]/gi, '-').toLowerCase()
+
+    const clipPath = defs.selectAll(`#${clipId}`)
         .data([continentPath])
         .join('clipPath')
-        .attr('id', 'continent-clip')
+        .attr('id', clipId)
 
     clipPath.selectAll('path')
         .data([continentPath])
@@ -159,7 +205,7 @@ export const drawMap = (genres, year, container, cache) => {
         svgGroup = svg.append('g').attr('class', 'main-group')
     }
 
-    svgGroup.attr('clip-path', 'url(#continent-clip)')
+    svgGroup.attr('clip-path', `url(#${clipId})`)
 
     const groupContainers = svgGroup.selectAll('.genre-group-container')
         .data(allGroups)
@@ -221,7 +267,7 @@ export const drawMap = (genres, year, container, cache) => {
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
-        .transition().duration(750).style('opacity', 1)
+        .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0 : 1)
 
     groupContainers.select('.layer-blob').selectAll('use.shape-blob')
         .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
@@ -234,7 +280,7 @@ export const drawMap = (genres, year, container, cache) => {
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
-        .transition().duration(750).style('opacity', 0.9)
+        .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0.08 : 0.9)
 
     groupContainers.select('.layer-internal').selectAll('use.shape-internal')
         .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
@@ -253,7 +299,7 @@ export const drawMap = (genres, year, container, cache) => {
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
-        .transition().duration(750).style('opacity', d => d.data.isDummy ? 0.1 : 1)
+        .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0 : (d.data.isDummy ? 0.1 : 1))
 
     const textsLayer = groupContainers.select('.genre-texts-layer')
     const textCells = textsLayer.selectAll('.genre-label')
