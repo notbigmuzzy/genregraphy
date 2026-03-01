@@ -26,33 +26,32 @@
         stroke: #fff;
         stroke-width: 22px;
         stroke-linejoin: round;
-        opacity: 0; // default pre-transition
+        opacity: 0;
     }
 
     .shape-blob {
         stroke-width: 16px;
         stroke-linejoin: round;
-        opacity: 0; // default pre-transition
+        opacity: 0;
     }
 
     .shape-internal {
         fill: transparent;
-        stroke: rgba(255, 255, 255, 0.4);
-        stroke-width: 0.5px;
-        opacity: 0; // default pre-transition
-        transition: stroke 0.2s ease, stroke-width 0.2s ease;
+        stroke: rgba(255, 255, 255, 0);
+        stroke-width: 2px;
+        opacity: 0;
+        transition: stroke 0.25s ease;
         cursor: pointer;
 
         &:hover,
         &.is-hovered {
-            stroke: #fff;
-            stroke-width: 2px;
+            stroke: rgba(255, 255, 255, 0.5);
         }
     }
 
     .genre-shape {
         overflow: hidden;
-        transition: opacity 0.2s ease, stroke-width 0.2s ease;
+        transition: opacity 0.25s ease;
 
         &.hovered-cell {
             opacity: 1 !important;
@@ -61,7 +60,7 @@
     }
 
     .genre-label {
-        fill: rgb(255, 255, 255);
+        fill: #fff;
         pointer-events: none;
         font-weight: bold;
         font-size: 10px !important;
