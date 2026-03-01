@@ -6,6 +6,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, watch } from 'vue'
 import * as d3 from 'd3'
+import { interpolatePath } from 'd3-interpolate-path'
 
 const props = defineProps({
     genres: {
@@ -36,13 +37,15 @@ const drawMap = () => {
 
     if (width === 0 || height === 0) return
 
-    d3.select(mapContainer.value).selectAll('*').remove()
-
-    const svg = d3.select(mapContainer.value)
-        .append('svg')
-        .attr('width', '100%')
-        .attr('height', '100%')
-        .attr('viewBox', `0 0 ${width} ${height}`)
+    let svg = d3.select(mapContainer.value).select('svg')
+    if (svg.empty()) {
+        svg = d3.select(mapContainer.value)
+            .append('svg')
+            .attr('width', '100%')
+            .attr('height', '100%')
+    }
+    
+    svg.attr('viewBox', `0 0 ${width} ${height}`)
         .attr('preserveAspectRatio', 'xMidYMid meet')
 
     const allGroups = [
@@ -146,69 +149,107 @@ const drawMap = () => {
         .domain(allGroups)
         .range(d3.schemePaired)
 
-    const svgGroup = svg.append('g')
+    let svgGroup = svg.select('g.main-group')
+    if (svgGroup.empty()) {
+        svgGroup = svg.append('g').attr('class', 'main-group')
+    }
 
-    // Kreiramo prvo `<g>` kontejner za SVAKU GRUPU ZASEBNO na osnovu root-a grupe
     const groupContainers = svgGroup.selectAll('.genre-group-container')
         .data(allGroups)
-        .enter()
-        .append('g')
-        .attr('class', d => `genre-group-${d.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
-        .attr('data-group', d => d)
+        .join(
+            enter => enter.append('g')
+                .attr('class', d => `genre-group-container genre-group-${d.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
+                .attr('data-group', d => d),
+            update => update,
+            exit => exit.remove()
+        )
 
-    // A sada unutar svakog kontejnera stavljamo nase izracunate cvorove koji vaze samo za TU grupu!
     const genreCells = groupContainers.selectAll('.genre')
-        .data(groupName => nodes.filter(n => n.data.group === groupName))
-        .enter()
-        .append('g')
-        .attr('class', d => {
-            const nameClass = d.data.name ? d.data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'dummy'
-            return `genre ${nameClass}`
-        })
+        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name) 
+        .join(
+            enter => {
+                const g = enter.append('g')
+                    .attr('class', d => {
+                        const nameClass = d.data.name ? d.data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'dummy'
+                        return `genre ${nameClass}`
+                    })
+                
+                g.append('path')
+                   .attr('fill', d => colorScale(d.data.group))
+                   .attr('stroke', '#fff')
+                   .attr('stroke-width', 1.5)
+                   .attr('opacity', 0) // start invisible
+                   .attr('d', d => {
+                        // Initial small shape at target position - using a polygon (rhombus) 
+                        // instead of circle arc to make interpolation to Voronoi polygon smoother
+                        return `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`
+                   })
+                   .on('mouseenter', function(event, d) {
+                        if (d.data.isDummy) return
+                        d3.select(this)
+                            .attr('opacity', 1)
+                            .attr('stroke-width', 3)
+                    })
+                    .on('mouseleave', function(event, d) {
+                        if (d.data.isDummy) return
+                        d3.select(this)
+                            .attr('opacity', 0.9)
+                            .attr('stroke-width', 1.5)
+                    })
 
-    // U svakog zanrovskom <g> elementu, crtamo njegov Voronoi polygon path
-    genreCells.append('path')
-        .attr('d', d => {
-            const index = nodes.indexOf(d)
-            return voronoi.renderCell(index)
+                g.append('text')
+                    .attr('text-anchor', 'middle')
+                    .attr('dominant-baseline', 'middle')
+                    .style('fill', '#000')
+                    .style('pointer-events', 'none')
+                    .style('font-weight', 'bold')
+                    .style('font-size', '11px')
+                    .text(d => d.data.isDummy ? d.data.group : d.data.name)
+                    .style('opacity', 0) // start invisible
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y)
+
+                return g
+            },
+            update => update,
+            exit => exit.transition().duration(500).style('opacity', 0).remove()
+        )
+
+    // Update paths with smooth interpolation
+    genreCells.select('path')
+        .transition()
+        .duration(750)
+        .attrTween("d", function(d) {
+            let previous = d3.select(this).attr("d");
+            
+            // Fallback if previous is missing or weird, ensure we start from the node center
+            if (!previous || previous.indexOf('M0,0') === 0) {
+                 previous = `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
+            }
+
+            const index = nodes.indexOf(d);
+            const current = voronoi.renderCell(index);
+            return interpolatePath(previous, current || previous);
         })
-        .attr('fill', d => colorScale(d.data.group))
-        .attr('stroke', '#fff')
-        .attr('stroke-width', 1.5)
         .attr('opacity', d => d.data.isDummy ? 0.1 : 0.9)
-        .on('mouseenter', function(event, d) {
-            if (d.data.isDummy) return
-            d3.select(this)
-                .attr('opacity', 1)
-                .attr('stroke-width', 3)
-        })
-        .on('mouseleave', function(event, d) {
-            if (d.data.isDummy) return
-            d3.select(this)
-                .attr('opacity', 0.9)
-                .attr('stroke-width', 1.5)
-        })
 
-    // I u svakom zanrovskom <g> elementu, dodajemo string texta!
-    const texts = genreCells.append('text')
+    // Update texts
+    genreCells.select('text')
+        .transition()
+        .duration(750)
         .attr('x', d => d.x)
         .attr('y', d => d.y)
-        .attr('text-anchor', 'middle')
-        .attr('dominant-baseline', 'middle')
-        .style('fill', '#000')
-        .style('pointer-events', 'none')
-        .style('font-weight', 'bold')
-        .style('font-size', '11px')
-        .text(d => d.data.isDummy ? d.data.group : d.data.name)
         .style('opacity', d => d.data.isDummy ? 0.3 : 1)
-
-    texts.each(function(d) {
-        let textWidth = this.getBBox().width
-        let availableWidth = d.r * 2 - 4
-        if (textWidth > availableWidth && availableWidth > 0) {
-            d3.select(this).style('font-size', `${Math.max(6, availableWidth / textWidth * 11)}px`)
-        }
-    })
+        .end().then(() => {
+             // Font size adjustment
+             genreCells.select('text').each(function(d) {
+                let textWidth = this.getBBox().width
+                let availableWidth = d.r * 2 - 4
+                if (textWidth > availableWidth && availableWidth > 0) {
+                    d3.select(this).style('font-size', `${Math.max(6, availableWidth / textWidth * 11)}px`)
+                }
+            })
+        }).catch(() => {}) 
 }
 
 onMounted(() => {
