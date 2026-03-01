@@ -1,5 +1,6 @@
 <template>
-    <div id="musicMap" class="music-map" ref="mapContainer">
+    <div class="music-map-wrapper">
+        <div id="musicMap" class="music-map" ref="mapContainer"/>
     </div>
 </template>
 
@@ -54,8 +55,8 @@ const drawMap = () => {
         "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
     ]
 
-// 1. MACRO LAYOUT: Fiksne proporcije (value: 1) osiguravaju da makro-krugovi UVEK stoje 
-    // zakucani na idealnim apsolutnim koordinatama za svaku grupu, tako da nema zamene mesta.
+
+    
     const macroHierarchy = d3.hierarchy({
         name: 'root',
         children: allGroups.map(name => ({ name, value: 1 }))
@@ -69,13 +70,11 @@ const drawMap = () => {
     const macroNodes = macroPack(macroHierarchy).leaves()
 
     let nodes = []
-    
-    // Potreban nam je globalni total ove dekade da bismo izracunali prostor
-    let globalTotal = 0
-    yearData.genre_group.forEach(g => { globalTotal += g.total })
+    let globalLogTotal = 0
+    yearData.genre_group.forEach(g => { 
+        if (g.total > 0) globalLogTotal += (Math.log(g.total + 1) * 1.5) + 2
+    })
 
-    // 2. MICRO LAYOUT: I dok su centar svake grupe fiksni, velicina kojom mikropakovanje 
-    // zraci naokolo (i time pomera Voronoi zidove) zavisi isključivo od grupnjog totala.
     macroNodes.forEach(macroNode => {
         const groupName = macroNode.data.name
 
@@ -84,24 +83,18 @@ const drawMap = () => {
             ? Object.entries(groupMatch.genres).filter(([_, count]) => count > 0).sort((a, b) => a[0].localeCompare(b[0]))
             : []
 
-        // Prazne grupe preskacemo, njihovu teritoriju upiju ostale.
+        
         if (realGenres.length === 0) {
             return
         }
 
-        // Velicinu racunamo na osnovu root zapremine (ukupnih vrednosti dece = genre count).
-        // Voronoi ce posle to mapirati na podlogu, mada Voronoi granice najvise zavise od raseajnosti centara 
-        // a ne samo od precnika. 
         const groupTotal = groupMatch.total || 0
-        
-        // Racunamo razmeru povrsine: procenat koji grupa zauzima u godini u odnosu na apsolutno sve
-        const areaRatio = globalTotal > 0 ? groupTotal / globalTotal : 0.01 
-        
-        // Da bismo iz povrsine dobili dijagonalu za krug (pack radi po precnicima), 
-        // primenjujemo kvadratni koren proporcije pomnozen sa raspolozivim prostorom.
+        const groupLogTotal = groupTotal > 0 ? (Math.log(groupTotal + 1) * 1.5) + 2 : 0
+        const areaRatio = globalLogTotal > 0 ? groupLogTotal / globalLogTotal : 0.01 
+
         const scaleFactor = Math.sqrt(areaRatio)
         const maxDiameter = Math.min(width, height) * 0.95
-        const dynamicDiameter = Math.max(20, scaleFactor * maxDiameter) // min 20 da se ne izgubi potpuno
+        const dynamicDiameter = Math.max(20, scaleFactor * maxDiameter) 
 
         const hierarchyData = {
             name: groupName,
@@ -111,7 +104,7 @@ const drawMap = () => {
         }
 
         const root = d3.hierarchy(hierarchyData)
-            .sum(d => d.value > 0 ? Math.log(d.value + 1) : 0) // LOGARITAMSKA SKALA: Smanjuje rasejanje izmedju malih i velikih
+            .sum(d => d.value > 0 ? (Math.log(d.value + 1) * 1.5) + 2 : 0) 
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
 
         const pack = d3.pack()
@@ -119,8 +112,6 @@ const drawMap = () => {
             .padding(3)
 
         const packedLeaves = pack(root).leaves()
-
-        // Centriramo dinamicki spakovanu grupu tacno na onaj stabilni fiksni makro-centar
         const offsetX = macroNode.x - (dynamicDiameter / 2)
         const offsetY = macroNode.y - (dynamicDiameter / 2)
 
@@ -131,10 +122,8 @@ const drawMap = () => {
         })
     })
 
-    // U retkom slučaju da su svi žanrovi ikada ugašeni u ovoj godini, vraćamo odmah
     if (nodes.length === 0) return
 
-    // Obezbedjujemo konzistentan redosled zbog Voronoi algoritma
     nodes.sort((a, b) => {
         const indexA = allGroups.indexOf(a.data.group)
         const indexB = allGroups.indexOf(b.data.group)
@@ -178,10 +167,10 @@ const drawMap = () => {
                    .attr('fill', d => colorScale(d.data.group))
                    .attr('stroke', '#fff')
                    .attr('stroke-width', 1.5)
-                   .attr('opacity', 0) // start invisible
+                   .attr('opacity', 0) 
                    .attr('d', d => {
-                        // Initial small shape at target position - using a polygon (rhombus) 
-                        // instead of circle arc to make interpolation to Voronoi polygon smoother
+                        
+                        
                         return `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`
                    })
                    .on('mouseenter', function(event, d) {
@@ -205,7 +194,7 @@ const drawMap = () => {
                     .style('font-weight', 'bold')
                     .style('font-size', '11px')
                     .text(d => d.data.isDummy ? d.data.group : d.data.name)
-                    .style('opacity', 0) // start invisible
+                    .style('opacity', 0) 
                     .attr('x', d => d.x)
                     .attr('y', d => d.y)
 
@@ -215,14 +204,13 @@ const drawMap = () => {
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
 
-    // Update paths with smooth interpolation
     genreCells.select('path')
         .transition()
         .duration(750)
         .attrTween("d", function(d) {
             let previous = d3.select(this).attr("d");
             
-            // Fallback if previous is missing or weird, ensure we start from the node center
+            
             if (!previous || previous.indexOf('M0,0') === 0) {
                  previous = `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
             }
@@ -233,7 +221,6 @@ const drawMap = () => {
         })
         .attr('opacity', d => d.data.isDummy ? 0.1 : 0.9)
 
-    // Update texts
     genreCells.select('text')
         .transition()
         .duration(750)
@@ -241,7 +228,7 @@ const drawMap = () => {
         .attr('y', d => d.y)
         .style('opacity', d => d.data.isDummy ? 0.3 : 1)
         .end().then(() => {
-             // Font size adjustment
+             
              genreCells.select('text').each(function(d) {
                 let textWidth = this.getBBox().width
                 let availableWidth = d.r * 2 - 4
@@ -274,6 +261,5 @@ onUnmounted(() => {
     }
 })
 
-// Prati promene podataka ili promene godine kako bi se Voronoi refreshovao!
 watch([() => props.genres, () => props.year], drawMap, { deep: true })
 </script>
