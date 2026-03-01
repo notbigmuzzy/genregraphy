@@ -8,6 +8,7 @@
 import { ref, onMounted, onUnmounted, watch } from 'vue'
 import * as d3 from 'd3'
 import { interpolatePath } from 'd3-interpolate-path'
+import { getContinentPath } from '../utils/mapShapes.js'
 
 const props = defineProps({
     genres: {
@@ -132,16 +133,58 @@ const drawMap = () => {
     })
 
     const delaunay = d3.Delaunay.from(nodes, d => d.x, d => d.y)
+    
+    // Define continent shape
+    const continentPath = getContinentPath(width, height)
+    
+    // Instead of rectangular box, we use the continent shape for clipping visually
+    // However, Delaunay still needs a bounding box for calculation.
+    // Ideally we'd use a large enough box to encompass the shape.
     const voronoi = delaunay.voronoi([0, 0, width, height])
 
     const colorScale = d3.scaleOrdinal()
         .domain(allGroups)
         .range(d3.schemePaired)
 
+    // Add definitions for clip path
+    let defs = svg.select('defs')
+    if (defs.empty()) {
+        defs = svg.append('defs')
+    }
+    
+    const clipPath = defs.selectAll('#continent-clip')
+        .data([continentPath])
+        .join('clipPath')
+        .attr('id', 'continent-clip')
+    
+    clipPath.selectAll('path')
+        .data([continentPath])
+        .join('path')
+        .attr('d', d => d)
+
+    // Draw background shape (coastline)
+    let bgGroup = svg.select('g.background-group')
+    if (bgGroup.empty()) {
+        bgGroup = svg.insert('g', ':first-child').attr('class', 'background-group')
+    }
+    
+    bgGroup.selectAll('path.continent-coast')
+        .data([continentPath])
+        .join('path')
+        .attr('class', 'continent-coast')
+        .attr('d', d => d)
+        .attr('fill', '#f0f0f0') // Light background for the "land"
+        .attr('stroke', '#ccc')
+        .attr('stroke-width', 2)
+        .attr('opacity', 0.5)
+
     let svgGroup = svg.select('g.main-group')
     if (svgGroup.empty()) {
         svgGroup = svg.append('g').attr('class', 'main-group')
     }
+    
+    // Apply clip path to the main group
+    svgGroup.attr('clip-path', 'url(#continent-clip)')
 
     const groupContainers = svgGroup.selectAll('.genre-group-container')
         .data(allGroups)
