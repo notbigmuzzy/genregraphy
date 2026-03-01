@@ -41,7 +41,6 @@ export const drawMap = (genres, year, container, cache) => {
 
     const macroPack = d3.pack()
         .size([width, height])
-        .padding(10)
 
     const macroNodes = macroPack(macroHierarchy).leaves()
 
