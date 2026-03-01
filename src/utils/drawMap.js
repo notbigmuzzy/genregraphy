@@ -30,12 +30,12 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
     ]
 
-    // Check if any of our allowed groups have data
+
     const allowedGroupsData = yearData.genre_group.filter(g => allGroups.includes(g.name) && g.total > 0)
     if (allowedGroupsData.length === 0 && !allowedGroups) return
 
-    // When allowedGroups is set, use local continent total for proportions
-    // When no allowedGroups (single map), use passed globalTotal or compute from all groups
+
+
     let computedGlobalTotal = 0
     if (allowedGroups) {
         yearData.genre_group.forEach(g => {
@@ -50,12 +50,11 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         }
     }
 
-    const baseRatio = 0.05
     const macroHierarchy = d3.hierarchy({
         name: 'root',
         children: allGroups.map(name => {
             const g = yearData.genre_group.find(g => g.name === name)
-            // Use small minimum so d3.pack always has a valid sum (avoids NaN positions)
+
             const trueRatio = g && computedGlobalTotal > 0 ? (g.total / computedGlobalTotal) : 0
             return { name, value: Math.max(0.001, trueRatio) }
         })
@@ -78,7 +77,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             : []
 
         if (realGenres.length === 0) {
-            // No data yet — add one invisible placeholder node to hold position in layout
+
             nodes.push({
                 x: macroNode.x,
                 y: macroNode.y,
@@ -105,7 +104,6 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             })
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
 
-        // Ensure minimum node radius of 18px after pack scaling
         const minNodeR = 18
         const leaves = root.leaves()
         const totalSum = leaves.reduce((s, l) => s + (l.value || 0), 0)
@@ -125,7 +123,6 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         const isLandscape = width / height > 2
 
         if (isLandscape) {
-            // Horizontal line layout for wide/flat containers
             const cellWidth = width / realGenres.length
             const cellHeight = height
             const nodeR = Math.min(cellWidth, cellHeight) / 2 - 4
