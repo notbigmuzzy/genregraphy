@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
 import { interpolatePath } from 'd3-interpolate-path'
-import { continentShape } from './defaultContinent.js'
+import { continentShape, continentShapeEast, continentShapeNorth, continentShapeSouth } from './defaultContinent.js'
 
 export const drawMap = (genres, year, container, cache, allowedGroups, globalTotal) => {
     if (!genres || !container) return
@@ -154,8 +154,16 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
 
     const voronoi = delaunay.voronoi([0, 0, width, height])
 
+    const EAST_GROUPS = ['Rock & Overdrive', 'Jazz, Blues & Soul', 'Folk & Acoustics', 'Classical & Experimental']
+    const NORTH_GROUPS = ['Metal & Heavy']
+    const SOUTH_GROUPS = ['Reggae & Global Beats']
+    const isEast = allowedGroups && allowedGroups.some(g => EAST_GROUPS.includes(g))
+    const isNorth = allowedGroups && allowedGroups.some(g => NORTH_GROUPS.includes(g))
+    const isSouth = allowedGroups && allowedGroups.some(g => SOUTH_GROUPS.includes(g))
+    const shapeFunc = isEast ? continentShapeEast : isNorth ? continentShapeNorth : isSouth ? continentShapeSouth : continentShape
+
     if (!cache.continentPath || cache.width !== width || cache.height !== height) {
-        cache.continentPath = continentShape(width, height)
+        cache.continentPath = shapeFunc(width, height)
         cache.width = width
         cache.height = height
     }
