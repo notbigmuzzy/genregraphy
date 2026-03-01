@@ -45,8 +45,8 @@
         display: block;
         position: absolute;
         left: 0;
-        right: 15%;
-        bottom: 10%;
+        right: 17.5%;
+        bottom: 5%;
         margin: 0 auto;
         height: 30%;
         width: 15%;
@@ -109,5 +109,6 @@
         font-weight: bold;
         font-size: 10px !important;
         opacity: 0;
+        display: none;
     }
 }
