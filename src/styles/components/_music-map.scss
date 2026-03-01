@@ -12,7 +12,7 @@
 }
 
 .music-map-wrapper.continent {
-    &.continent--west {
+    &.continent-west {
         display: block;
         position: absolute;
         left: 10px;
@@ -21,7 +21,7 @@
         width: 32.5%;
     }
 
-    &.continent--east {
+    &.continent-east {
         display: block;
         position: absolute;
         right: 10px;
@@ -30,7 +30,7 @@
         width: 45%;
     }
 
-    &.continent--north {
+    &.continent-north {
         display: block;
         position: absolute;
         left: 0;
@@ -38,10 +38,10 @@
         top: -20px;
         margin: 0 auto;
         height: 10%;
-        width: 60%;
+        width: 70%;
     }
 
-    &.continent--south {
+    &.continent-south {
         display: block;
         position: absolute;
         left: 0;
@@ -110,4 +110,21 @@
         font-size: 10px !important;
         opacity: 0;
     }
+
+    .peak-genre {
+        &.shape-blob {
+            // stroke-width: 0 !important;
+            filter: brightness(1.2);
+        }
+
+        &.shape-internal {
+            stroke: darkgoldenrod;
+        }
+
+        &.genre-label {
+            font-size: 12px !important;
+            fill: #000;
+        }
+    }
+
 }

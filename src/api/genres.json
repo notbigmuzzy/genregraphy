@@ -136,7 +136,7 @@
           "dancehall": 0,
           "soca": 0,
           "reggaeton": 0,
-          "calypso": 1,
+          "calypso": 0,
           "zouk": 0,
           "merengue": 0,
           "bachata": 0
@@ -5364,7 +5364,9 @@
     ],
     "metadata": {
       "mapped_total": 2194,
-      "peak_genres": []
+      "peak_genres": [
+        "punk"
+      ]
     }
   },
   "1979": {
@@ -5919,9 +5921,7 @@
     ],
     "metadata": {
       "mapped_total": 2413,
-      "peak_genres": [
-        "punk"
-      ]
+      "peak_genres": []
     }
   },
   "1982": {

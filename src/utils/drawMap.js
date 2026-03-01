@@ -171,6 +171,8 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
     }
     const continentPath = cache.continentPath
 
+    const peakGenres = new Set((yearData.metadata && yearData.metadata.peak_genres) ? yearData.metadata.peak_genres : [])
+
     const colorScale = d3.scaleOrdinal()
         .domain([
             "Classical & Experimental", "Electronic & Synth", "Folk & Acoustics",
@@ -287,6 +289,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
+        .classed('peak-genre', d => peakGenres.has(d.data.name))
         .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0.08 : 0.9)
 
     groupContainers.select('.layer-internal').selectAll('use.shape-internal')
@@ -306,6 +309,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
+        .classed('peak-genre', d => peakGenres.has(d.data.name))
         .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0 : (d.data.isDummy ? 0.1 : 1))
 
     const textsLayer = groupContainers.select('.genre-texts-layer')
@@ -361,6 +365,8 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
+
+    svgGroup.selectAll('.genre-label').classed('peak-genre', d => peakGenres.has(d.data.name))
 
     const textsToUpdate = svgGroup.selectAll('.genre-label').data(nodes, d => d.data.name)
 

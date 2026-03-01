@@ -74,6 +74,11 @@ export const continentShape = (width, height) => buildPath([
     [0.36, 0.96],
     [0.32, 0.98],
     [0.20, 0.88],
+    [0.14, 0.86],  // bay BL — mouth top
+    [0.22, 0.84],  // bay indent
+    [0.30, 0.82],  // bay depth
+    [0.26, 0.78],  // bay inner wall
+    [0.14, 0.80],  // bay exit
     [0.08, 0.80],
     [0.04, 0.68],
     [0.02, 0.56],
@@ -90,6 +95,10 @@ export const continentShape = (width, height) => buildPath([
 
 export const continentShapeEast = (width, height) => buildPath([
     [0.18, 0.02],
+    [0.10, 0.06],  // bay TL — mouth left
+    [0.06, 0.12],  // bay depth
+    [0.12, 0.16],  // bay exit
+    [0.20, 0.10],  // back to coast
     [0.34, 0.01],
     [0.52, 0.04],
     [0.60, 0.08],
@@ -146,10 +155,14 @@ export const continentShapeNorth = (width, height) => buildPath([
     [0.84, 0.80],
     [0.76, 0.76],
     [0.68, 0.82],
-    [0.60, 0.78],
-    [0.52, 0.81],
-    [0.44, 0.76],
-    [0.36, 0.82],
+    [0.62, 0.86],
+    [0.58, 0.91],
+    [0.54, 0.94],  // middle bulge deepest
+    [0.50, 0.96],
+    [0.46, 0.94],
+    [0.42, 0.91],
+    [0.38, 0.87],
+    [0.34, 0.82],
     [0.28, 0.78],
     [0.20, 0.80],
     [0.12, 0.76],
