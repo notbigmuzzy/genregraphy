@@ -138,7 +138,6 @@ const drawMap = () => {
 
     const delaunay = d3.Delaunay.from(nodes, d => d.x, d => d.y)
     
-    // Define continent shape
     if (!cachedContinentPath || cachedMapWidth !== width || cachedMapHeight !== height) {
         cachedContinentPath = continentShape(width, height)
         cachedMapWidth = width
@@ -146,16 +145,13 @@ const drawMap = () => {
     }
     const continentPath = cachedContinentPath
     
-    // Instead of rectangular box, we use the continent shape for clipping visually
-    // However, Delaunay still needs a bounding box for calculation.
-    // Ideally we'd use a large enough box to encompass the shape.
     const voronoi = delaunay.voronoi([0, 0, width, height])
 
     const colorScale = d3.scaleOrdinal()
         .domain(allGroups)
         .range(d3.schemePaired)
 
-    // Add definitions for clip path
+    
     let defs = svg.select('defs')
     if (defs.empty()) {
         defs = svg.append('defs')
@@ -188,8 +184,8 @@ const drawMap = () => {
             .attr('operator', 'in')
             .attr('result', 'outline')
             
-        // Knock out the inner part so it's strictly a border 
-        // that doesn't affect the fill opacity of the source graphic
+        
+        
         groupOutlineFilter.append('feComposite')
             .attr('in', 'outline')
             .attr('in2', 'SourceAlpha')
@@ -211,7 +207,7 @@ const drawMap = () => {
         .join('path')
         .attr('d', d => d)
 
-    // Draw background shape (coastline)
+    
     let bgGroup = svg.select('g.background-group')
     if (bgGroup.empty()) {
         bgGroup = svg.insert('g', ':first-child').attr('class', 'background-group')
@@ -222,7 +218,7 @@ const drawMap = () => {
         .join('path')
         .attr('class', 'continent-coast')
         .attr('d', d => d)
-        .attr('fill', '#f0f0f0') // Light background for the "land"
+        .attr('fill', '#f0f0f0') 
         .attr('stroke', '#ccc')
         .attr('stroke-width', 2)
         .attr('opacity', 0.5)
@@ -232,7 +228,7 @@ const drawMap = () => {
         svgGroup = svg.append('g').attr('class', 'main-group')
     }
     
-    // Apply clip path to the main group
+    
     svgGroup.attr('clip-path', 'url(#continent-clip)')
 
     const groupContainers = svgGroup.selectAll('.genre-group-container')
@@ -284,7 +280,7 @@ const drawMap = () => {
                 g.append('text')
                     .attr('text-anchor', 'middle')
                     .attr('dominant-baseline', 'middle')
-                    .style('fill', '#000')
+                    .style('fill', '#fff')
                     .style('pointer-events', 'none')
                     .style('font-weight', 'bold')
                     .style('font-size', '11px')
