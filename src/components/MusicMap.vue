@@ -164,46 +164,10 @@ const drawMap = () => {
     if (defs.empty()) {
         defs = svg.append('defs')
     }
-
-    const groupOutlineFilter = defs.selectAll('#group-outline')
-        .data([1])
-        .join('filter')
-        .attr('id', 'group-outline')
-        .attr('x', '-10%')
-        .attr('y', '-10%')
-        .attr('width', '120%')
-        .attr('height', '120%')
-
-    if (groupOutlineFilter.select('feMorphology').empty()) {
-        groupOutlineFilter.append('feMorphology')
-            .attr('in', 'SourceAlpha')
-            .attr('operator', 'dilate')
-            .attr('radius', '3')
-            .attr('result', 'dilated')
-        
-        groupOutlineFilter.append('feFlood')
-            .attr('flood-color', '#fff')
-            .attr('flood-opacity', '1')
-            .attr('result', 'flood')
-            
-        groupOutlineFilter.append('feComposite')
-            .attr('in', 'flood')
-            .attr('in2', 'dilated')
-            .attr('operator', 'in')
-            .attr('result', 'outline')
-            
-        
-        
-        groupOutlineFilter.append('feComposite')
-            .attr('in', 'outline')
-            .attr('in2', 'SourceAlpha')
-            .attr('operator', 'out')
-            .attr('result', 'borderOnly')
-
-        const merge = groupOutlineFilter.append('feMerge')
-        merge.append('feMergeNode').attr('in', 'borderOnly')
-        merge.append('feMergeNode').attr('in', 'SourceGraphic')
-    }
+    
+    
+    
+    
     
     const clipPath = defs.selectAll('#continent-clip')
         .data([continentPath])
@@ -242,49 +206,96 @@ const drawMap = () => {
     const groupContainers = svgGroup.selectAll('.genre-group-container')
         .data(allGroups)
         .join(
-            enter => enter.append('g')
-                .attr('class', d => `genre-group-container genre-group-${d.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
-                .attr('data-group', d => d)
-                .style('filter', 'url(#group-outline)'),
+            enter => {
+                const g = enter.append('g')
+                    .attr('class', d => `genre-group-container genre-group-${d.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
+                    .attr('data-group', d => d);
+                
+                
+                
+                g.append('g').attr('class', 'layer-outline');
+                
+                g.append('g').attr('class', 'layer-blob');
+                
+                g.append('g').attr('class', 'layer-internal');
+
+                
+                g.append('g').attr('class', 'genre-texts-layer');
+                    
+                return g;
+            },
             update => update,
             exit => exit.remove()
         )
 
-    const genreCells = groupContainers.selectAll('.genre')
-        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name) 
+    const initialPath = d => `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
+
+    
+    groupContainers.select('.layer-outline').selectAll('.shape-outline')
+        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
+        .join(
+            enter => enter.append('path')
+               .attr('class', 'shape-outline')
+               .attr('fill', 'none')
+               .attr('stroke', '#fff')
+               .attr('stroke-width', 22)  
+               .attr('stroke-linejoin', 'round')
+               .attr('opacity', 0)
+               .attr('d', initialPath),
+            update => update,
+            exit => exit.transition().duration(500).style('opacity', 0).remove()
+        )
+
+    
+    groupContainers.select('.layer-blob').selectAll('.shape-blob')
+        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
+        .join(
+            enter => enter.append('path')
+               .attr('class', 'shape-blob')
+               .attr('fill', d => colorScale(d.data.group))
+               .attr('stroke', d => colorScale(d.data.group))
+               .attr('stroke-width', 16)  
+               .attr('stroke-linejoin', 'round')
+               .attr('opacity', 0)
+               .attr('d', initialPath),
+            update => update,
+            exit => exit.transition().duration(500).style('opacity', 0).remove()
+        )
+        
+    
+    groupContainers.select('.layer-internal').selectAll('.shape-internal')
+        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
+        .join(
+            enter => enter.append('path')
+               .attr('class', 'shape-internal')
+               .attr('fill', 'transparent')
+               .attr('stroke', 'rgba(255, 255, 255, 0.4)')
+               .attr('stroke-width', 0.5)
+               .attr('opacity', 0) 
+               .attr('d', initialPath)
+               .on('mouseenter', function(event, d) {
+                    if (d.data.isDummy) return
+                    d3.select(this)
+                        .attr('stroke', '#fff')
+                        .attr('stroke-width', 2)
+                        .raise()
+                })
+                .on('mouseleave', function(event, d) {
+                    if (d.data.isDummy) return
+                    d3.select(this)
+                        .attr('stroke', 'rgba(255, 255, 255, 0.4)')
+                        .attr('stroke-width', 0.5)
+                }),
+            update => update,
+            exit => exit.transition().duration(500).style('opacity', 0).remove()
+        )
+
+    const textsLayer = groupContainers.select('.genre-texts-layer');
+    const textCells = textsLayer.selectAll('.genre-label')
+        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
         .join(
             enter => {
-                const g = enter.append('g')
-                    .attr('class', d => {
-                        const nameClass = d.data.name ? d.data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'dummy'
-                        return `genre ${nameClass}`
-                    })
-                
-                g.append('path')
-                   .attr('class', 'genre-shape')
-                   .attr('fill', d => colorScale(d.data.group))
-                   .attr('stroke', 'rgba(255, 255, 255, 0.4)')
-                   .attr('stroke-width', 0.5)
-                   .attr('opacity', 0) 
-                   .attr('d', d => {
-                        return `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`
-                   })
-                   .on('mouseenter', function(event, d) {
-                        if (d.data.isDummy) return
-                        d3.select(this)
-                            .attr('opacity', 1)
-                            .attr('stroke', '#fff')
-                            .attr('stroke-width', 2)
-                    })
-                    .on('mouseleave', function(event, d) {
-                        if (d.data.isDummy) return
-                        d3.select(this)
-                            .attr('opacity', 0.9)
-                            .attr('stroke', 'rgba(255, 255, 255, 0.4)')
-                            .attr('stroke-width', 0.5)
-                    })
-
-                const textEl = g.append('text')
+                const textEl = enter.append('text')
                     .attr('class', 'genre-label')
                     .attr('text-anchor', 'middle')
                     .attr('dominant-baseline', 'central')
@@ -293,7 +304,6 @@ const drawMap = () => {
                         const polygon = voronoi.cellPolygon(nodes.indexOf(d));
                         if (!polygon) return d.x;
                         const centroid = d3.polygonCentroid(polygon);
-                        // Povlačenje centra prema unutrašnjem izvornom D3 pack čvoru da tekst ne bi odlutao previše na obode
                         return centroid[0] * 0.4 + d.x * 0.6;
                     })
                     .attr('y', d => {
@@ -338,30 +348,35 @@ const drawMap = () => {
                     }
                 })
 
-                return g
+                return textEl;
             },
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()
         )
 
-    genreCells.select('path')
-        .transition()
-        .duration(750)
-        .attrTween("d", function(d) {
-            let previous = d3.select(this).attr("d");
-            
-            
-            if (!previous || previous.indexOf('M0,0') === 0) {
-                 previous = `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
-            }
+    const updatePathLayer = (selector, isDummyOpacityFn) => {
+        svgGroup.selectAll(selector).data(nodes, d => d.data.name)
+            .transition()
+            .duration(750)
+            .attrTween("d", function(d) {
+                let previous = d3.select(this).attr("d");
+                if (!previous || previous.indexOf('M0,0') === 0) {
+                     previous = `M${d.x},${d.y-1}L${d.x+1},${d.y}L${d.x},${d.y+1}L${d.x-1},${d.y}Z`;
+                }
+                const index = nodes.indexOf(d);
+                const current = voronoi.renderCell(index);
+                return interpolatePath(previous, current || previous);
+            })
+            .attr('opacity', d => d.data.isDummy ? 0.1 : isDummyOpacityFn());
+    };
 
-            const index = nodes.indexOf(d);
-            const current = voronoi.renderCell(index);
-            return interpolatePath(previous, current || previous);
-        })
-        .attr('opacity', d => d.data.isDummy ? 0.1 : 0.9)
+    updatePathLayer('.shape-outline', () => 1);
+    updatePathLayer('.shape-blob', () => 0.9);
+    updatePathLayer('.shape-internal', () => 1); 
 
-    genreCells.select('text')
+    const textsToUpdate = svgGroup.selectAll('.genre-label').data(nodes, d => d.data.name);
+    
+    textsToUpdate
         .transition()
         .duration(750)
         .attr('x', d => {
@@ -387,7 +402,7 @@ const drawMap = () => {
              d3.select(this).selectAll('tspan').attr('x', centerX)
         })
         .end().then(() => {
-             genreCells.select('text').each(function(d) {
+             textsToUpdate.each(function(d) {
                 let textWidth = this.getBBox().width
                 let availableWidth = d.r * 2 - 4
                 if (textWidth > availableWidth && availableWidth > 0) {
