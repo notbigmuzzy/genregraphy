@@ -51,8 +51,8 @@ const drawMap = () => {
         "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
     ]
 
-    // 1. MACRO LAYOUT: Fiksiramo 9 glavnih grupa u nezavisne, fiksne krugove
-    // koji nikada ne smeju menjati poziciju niti velicinu kroz godine!
+// 1. MACRO LAYOUT: Fiksne proporcije (value: 1) osiguravaju da makro-krugovi UVEK stoje 
+    // zakucani na idealnim apsolutnim koordinatama za svaku grupu, tako da nema zamene mesta.
     const macroHierarchy = d3.hierarchy({
         name: 'root',
         children: allGroups.map(name => ({ name, value: 1 }))
@@ -66,23 +66,40 @@ const drawMap = () => {
     const macroNodes = macroPack(macroHierarchy).leaves()
 
     let nodes = []
+    
+    // Potreban nam je globalni total ove dekade da bismo izracunali prostor
+    let globalTotal = 0
+    yearData.genre_group.forEach(g => { globalTotal += g.total })
 
-    // 2. MICRO LAYOUT: Svaka grupa pakuje SVOJE zanrove ISKLJUCIVO unutar svog dodeljenog fiksnog kruga
+    // 2. MICRO LAYOUT: I dok su centar svake grupe fiksni, velicina kojom mikropakovanje 
+    // zraci naokolo (i time pomera Voronoi zidove) zavisi isključivo od grupnjog totala.
     macroNodes.forEach(macroNode => {
         const groupName = macroNode.data.name
-        
+
         const groupMatch = yearData.genre_group.find(g => g.name === groupName)
         const realGenres = groupMatch 
             ? Object.entries(groupMatch.genres).filter(([_, count]) => count > 0).sort((a, b) => a[0].localeCompare(b[0]))
             : []
 
-        // Ako u potpunosti nema žanrova, ne ubacujemo ovu grupu u nodes zaVoronoi mapu UOPŠTE. 
-        // Voronoi prosto nastavlja granice ostalih aktivnih preko te teritorije.
+        // Prazne grupe preskacemo, njihovu teritoriju upiju ostale.
         if (realGenres.length === 0) {
             return
         }
 
-        const diameter = Math.floor(macroNode.r * 2)
+        // Velicinu racunamo na osnovu root zapremine (ukupnih vrednosti dece = genre count).
+        // Voronoi ce posle to mapirati na podlogu, mada Voronoi granice najvise zavise od raseajnosti centara 
+        // a ne samo od precnika. 
+        const groupTotal = groupMatch.total || 0
+        
+        // Racunamo razmeru povrsine: procenat koji grupa zauzima u godini u odnosu na apsolutno sve
+        const areaRatio = globalTotal > 0 ? groupTotal / globalTotal : 0.01 
+        
+        // Da bismo iz povrsine dobili dijagonalu za krug (pack radi po precnicima), 
+        // primenjujemo kvadratni koren proporcije pomnozen sa raspolozivim prostorom.
+        const scaleFactor = Math.sqrt(areaRatio)
+        const maxDiameter = Math.min(width, height) * 0.95
+        const dynamicDiameter = Math.max(20, scaleFactor * maxDiameter) // min 20 da se ne izgubi potpuno
+
         const hierarchyData = {
             name: groupName,
             children: realGenres.map(([name, count]) => ({
@@ -95,13 +112,14 @@ const drawMap = () => {
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
 
         const pack = d3.pack()
-            .size([diameter, diameter])
+            .size([dynamicDiameter, dynamicDiameter])
             .padding(3)
 
         const packedLeaves = pack(root).leaves()
 
-        const offsetX = macroNode.x - macroNode.r
-        const offsetY = macroNode.y - macroNode.r
+        // Centriramo dinamicki spakovanu grupu tacno na onaj stabilni fiksni makro-centar
+        const offsetX = macroNode.x - (dynamicDiameter / 2)
+        const offsetY = macroNode.y - (dynamicDiameter / 2)
 
         packedLeaves.forEach(leaf => {
             leaf.x += offsetX
@@ -128,20 +146,32 @@ const drawMap = () => {
         .domain(allGroups)
         .range(d3.schemePaired)
 
-    const cells = svg.append('g')
-        .selectAll('g')
-        .data(nodes)
+    const svgGroup = svg.append('g')
+
+    // Kreiramo prvo `<g>` kontejner za SVAKU GRUPU ZASEBNO na osnovu root-a grupe
+    const groupContainers = svgGroup.selectAll('.genre-group-container')
+        .data(allGroups)
+        .enter()
+        .append('g')
+        .attr('class', d => `genre-group-${d.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)
+        .attr('data-group', d => d)
+
+    // A sada unutar svakog kontejnera stavljamo nase izracunate cvorove koji vaze samo za TU grupu!
+    const genreCells = groupContainers.selectAll('.genre')
+        .data(groupName => nodes.filter(n => n.data.group === groupName))
         .enter()
         .append('g')
         .attr('class', d => {
-            const groupClass = `genre-group-${d.data.group.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
             const nameClass = d.data.name ? d.data.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'dummy'
-            return `${groupClass} genre ${nameClass}`
+            return `genre ${nameClass}`
         })
-        .attr('data-group', d => d.data.group)
 
-    cells.append('path')
-        .attr('d', (d, i) => voronoi.renderCell(i))
+    // U svakog zanrovskom <g> elementu, crtamo njegov Voronoi polygon path
+    genreCells.append('path')
+        .attr('d', d => {
+            const index = nodes.indexOf(d)
+            return voronoi.renderCell(index)
+        })
         .attr('fill', d => colorScale(d.data.group))
         .attr('stroke', '#fff')
         .attr('stroke-width', 1.5)
@@ -159,7 +189,8 @@ const drawMap = () => {
                 .attr('stroke-width', 1.5)
         })
 
-    const texts = cells.append('text')
+    // I u svakom zanrovskom <g> elementu, dodajemo string texta!
+    const texts = genreCells.append('text')
         .attr('x', d => d.x)
         .attr('y', d => d.y)
         .attr('text-anchor', 'middle')
