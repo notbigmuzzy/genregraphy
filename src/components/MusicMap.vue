@@ -72,7 +72,7 @@ const drawMap = () => {
     let nodes = []
     let globalLogTotal = 0
     yearData.genre_group.forEach(g => { 
-        if (g.total > 0) globalLogTotal += (Math.log(g.total + 1) * 1.5) + 2
+        if (g.total > 0) globalLogTotal += (Math.log(g.total + 1) * 2) + 4
     })
 
     macroNodes.forEach(macroNode => {
@@ -89,7 +89,7 @@ const drawMap = () => {
         }
 
         const groupTotal = groupMatch.total || 0
-        const groupLogTotal = groupTotal > 0 ? (Math.log(groupTotal + 1) * 1.5) + 2 : 0
+        const groupLogTotal = groupTotal > 0 ? (Math.log(groupTotal + 1) * 2) + 4 : 0
         const areaRatio = globalLogTotal > 0 ? groupLogTotal / globalLogTotal : 0.01 
 
         const scaleFactor = Math.sqrt(areaRatio)
@@ -104,7 +104,7 @@ const drawMap = () => {
         }
 
         const root = d3.hierarchy(hierarchyData)
-            .sum(d => d.value > 0 ? (Math.log(d.value + 1) * 1.5) + 2 : 0) 
+            .sum(d => d.value > 0 ? (Math.log(d.value + 1) * 2) + 4 : 0) 
             .sort((a, b) => (a.data.name || '').localeCompare(b.data.name || ''))
 
         const pack = d3.pack()
