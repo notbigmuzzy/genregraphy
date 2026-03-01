@@ -123,13 +123,15 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         const isLandscape = width / height > 2
 
         if (isLandscape) {
-            const cellWidth = width / realGenres.length
-            const cellHeight = height
-            const nodeR = Math.min(cellWidth, cellHeight) / 2 - 4
-            packedLeaves.forEach((leaf, i) => {
-                leaf.x = cellWidth * i + cellWidth / 2
+            const totalValue = packedLeaves.reduce((s, l) => s + (l.value || 1), 0)
+            let cursor = 0
+            packedLeaves.forEach((leaf) => {
+                const share = (leaf.value || 1) / totalValue
+                const cellW = width * share
+                leaf.x = cursor + cellW / 2
                 leaf.y = height / 2
-                leaf.r = Math.max(nodeR, 8)
+                leaf.r = Math.max(cellW / 2 - 4, 8)
+                cursor += cellW
                 nodes.push(leaf)
             })
         } else {
