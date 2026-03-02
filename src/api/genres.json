@@ -179,13 +179,7 @@
     ],
     "metadata": {
       "mapped_total": 1092,
-      "peak_genres": [
-        "r&b",
-        "bebop",
-        "pop",
-        "acoustic",
-        "soundtrack"
-      ]
+      "peak_genres": []
     }
   },
   "1951": {
@@ -368,7 +362,10 @@
     ],
     "metadata": {
       "mapped_total": 841,
-      "peak_genres": []
+      "peak_genres": [
+        "bebop",
+        "pop"
+      ]
     }
   },
   "1952": {
@@ -551,7 +548,10 @@
     ],
     "metadata": {
       "mapped_total": 879,
-      "peak_genres": []
+      "peak_genres": [
+        "r&b",
+        "acoustic"
+      ]
     }
   },
   "1953": {
@@ -922,7 +922,8 @@
     "metadata": {
       "mapped_total": 890,
       "peak_genres": [
-        "calypso"
+        "calypso",
+        "soundtrack"
       ]
     }
   },
