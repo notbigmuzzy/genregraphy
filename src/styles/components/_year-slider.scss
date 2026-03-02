@@ -105,9 +105,9 @@
 
 .slider-vertical .slider-handle {
     bottom: calc(var(--slider-handle-width, 16px)/2*-1);
-    height: var(--slider-handle-width, 16px);
+    // height: var(--slider-handle-width, 16px);
     right: calc((var(--slider-handle-height, 16px) - var(--slider-height, 6px))/2*-1 + -1px);
-    width: var(--slider-handle-height, 16px)
+    // width: var(--slider-handle-height, 16px)
 }
 
 .slider-txt-dir-rtl.slider-horizontal .slider-handle {
@@ -138,14 +138,15 @@
 }
 
 .slider-handle {
-    background: var(--slider-handle-bg, #fff);
+    background: #644905;
     border: var(--slider-handle-border, 0);
     border-radius: var(--slider-handle-radius, 9999px);
     box-shadow: var(--slider-handle-shadow, .5px .5px 2px 1px rgba(0, 0, 0, .32));
     cursor: -webkit-grab;
     cursor: grab;
-    height: var(--slider-handle-height, 16px);
-    width: var(--slider-handle-width, 16px)
+    width: 16px;
+    height: 16px;
+    box-shadow: none !important;
 }
 
 .slider-handle:focus {
