@@ -9,12 +9,25 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 import MusicMap from './components/MusicMap.vue'
 import YearSlider from './components/YearSlider.vue'
 
 const genres = ref(null)
-const currentYear = ref(1950)
+
+const getYearFromUrl = () => {
+    const params = new URLSearchParams(window.location.search)
+    const y = parseInt(params.get('year'))
+    return y >= 1950 && y <= 2025 ? y : 1950
+}
+
+const currentYear = ref(getYearFromUrl())
+
+watch(currentYear, (y) => {
+    const params = new URLSearchParams(window.location.search)
+    params.set('year', y)
+    history.replaceState(null, '', '?' + params.toString())
+})
 
 const continents = {
     west:  ['Electronic & Synth', 'Hip-Hop & Groove', 'Pop & Melodies'],
