@@ -37,7 +37,7 @@
     transform-origin: 0 0;
     -webkit-transform-style: preserve-3d;
     transform-style: flat;
-    width: 100%;
+    width: 50%;
     will-change: transform;
     z-index: 1
 }
@@ -116,7 +116,7 @@
 }
 
 .slider-base {
-    background-color: var(--slider-bg, #d1d5db)
+    background-color: transparent
 }
 
 .slider-base,
@@ -125,7 +125,7 @@
 }
 
 .slider-connect {
-    background: var(--slider-connect-bg, darkgoldenrod);
+    background: var(--slider-connect-bg, #644905);
     cursor: pointer
 }
 
@@ -175,8 +175,8 @@
 }
 
 .slider-tooltip {
-    background: var(--slider-tooltip-bg, darkgoldenrod);
-    border: 1px solid var(--slider-tooltip-bg, darkgoldenrod);
+    background: var(--slider-tooltip-bg, #644905);
+    border: 1px solid var(--slider-tooltip-bg, #644905);
     border-radius: var(--slider-tooltip-radius, 5px);
     color: var(--slider-tooltip-color, #fff);
     display: block;
@@ -300,5 +300,52 @@
 
     .slider-vertical {
         height: 100%;
+    }
+
+    .slider-pips-vertical {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        left: -68px;
+        width: 64px;
+        box-sizing: border-box;
+        pointer-events: none;
+    }
+
+    .slider-marker-vertical {
+        position: absolute;
+        right: 0;
+        height: 1px;
+        transform: translateY(-50%);
+        background: #644905;
+    }
+
+    .slider-marker-vertical.slider-marker-sub {
+        width: 8px;
+    }
+
+    .slider-marker-vertical.slider-marker-large {
+        width: 8px;
+        height: 1px;
+        background: #644905;
+        box-shadow: 0 0 5px rgba(184, 134, 11, 0.55);
+    }
+
+    .slider-value-vertical {
+        position: absolute;
+        right: 10px;
+        white-space: nowrap;
+        transform: translateY(-50%);
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: transparent;
+    }
+
+    .slider-value-vertical.slider-value-large {
+        color: #644905;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.08em;
+        text-shadow: 0 0 6px rgba(184, 134, 11, 0.4);
     }
 }

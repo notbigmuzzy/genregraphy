@@ -7,6 +7,7 @@
             :max="2025"
             :step="1"
             :lazy="true"
+            :options="sliderOptions"
         />
     </div>
 </template>
@@ -33,4 +34,16 @@ watch(internalYear, (newValue) => {
 watch(() => props.modelValue, (newValue) => {
     internalYear.value = newValue
 })
+
+const sliderOptions = {
+    pips: {
+        mode: 'steps',
+        density: 2,
+        filter: (value) => {
+            if (value % 10 === 0) return 1   // MEGA — label + velika crtica
+            if (value % 5 === 0) return 2    // mini — mala crtica, bez labele
+            return 0
+        }
+    }
+}
 </script>
