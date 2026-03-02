@@ -180,7 +180,6 @@
     "metadata": {
       "mapped_total": 1092,
       "peak_genres": [
-        "indie",
         "r&b",
         "bebop",
         "pop",
@@ -369,9 +368,7 @@
     ],
     "metadata": {
       "mapped_total": 841,
-      "peak_genres": [
-        "experimental"
-      ]
+      "peak_genres": []
     }
   },
   "1952": {
@@ -2961,7 +2958,8 @@
     "metadata": {
       "mapped_total": 1247,
       "peak_genres": [
-        "delta blues"
+        "delta blues",
+        "indie"
       ]
     }
   },
@@ -3333,7 +3331,8 @@
       "peak_genres": [
         "folk",
         "motown",
-        "psychedelic rock"
+        "psychedelic rock",
+        "experimental"
       ]
     }
   },
@@ -4443,7 +4442,9 @@
     ],
     "metadata": {
       "mapped_total": 1803,
-      "peak_genres": []
+      "peak_genres": [
+        "bluegrass"
+      ]
     }
   },
   "1974": {
@@ -6287,9 +6288,7 @@
     ],
     "metadata": {
       "mapped_total": 2476,
-      "peak_genres": [
-        "bluegrass"
-      ]
+      "peak_genres": []
     }
   },
   "1984": {
@@ -7575,7 +7574,9 @@
     ],
     "metadata": {
       "mapped_total": 2737,
-      "peak_genres": []
+      "peak_genres": [
+        "shoegaze"
+      ]
     }
   },
   "1991": {
@@ -9057,7 +9058,6 @@
       "mapped_total": 3168,
       "peak_genres": [
         "soca",
-        "shoegaze",
         "trip hop"
       ]
     }
