@@ -1,4 +1,5 @@
 <template>
+    <h1><span>Genregraphy</span></h1>
     <div class="world-map" v-if="genres">
         <MusicMap class="continent continent-west" :genres="genres" :year="currentYear" :allowedGroups="continents.west" />
         <MusicMap class="continent continent-east" :genres="genres" :year="currentYear" :allowedGroups="continents.east" />

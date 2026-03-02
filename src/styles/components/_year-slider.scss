@@ -184,10 +184,12 @@
     font-weight: var(--slider-tooltip-font-weight, 600);
     line-height: var(--slider-tooltip-line-height, 1.25rem);
     min-width: var(--slider-tooltip-min-width, 20px);
-    padding: 8px 4px;
+    padding: 8px 6px;
     position: absolute;
     text-align: center;
-    white-space: nowrap
+    white-space: nowrap;
+    border-radius: 50%;
+    font-size: 12px;
 }
 
 .slider-horizontal .slider-tooltip-top {
