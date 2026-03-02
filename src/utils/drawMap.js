@@ -30,11 +30,8 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
     ]
 
-
     const allowedGroupsData = yearData.genre_group.filter(g => allGroups.includes(g.name) && g.total > 0)
     if (allowedGroupsData.length === 0 && !allowedGroups) return
-
-
 
     let computedGlobalTotal = 0
     if (allowedGroups) {
@@ -87,7 +84,6 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             return
         }
 
-        const groupTotal = groupMatch ? groupMatch.total || 0 : 0
         const maxFit = 2 * Math.min(macroNode.x, width - macroNode.x, macroNode.y, height - macroNode.y)
 
         const hierarchyData = {
@@ -128,7 +124,6 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                 const share = (leaf.value || 1) / totalValue
                 const cellW = width * share
                 leaf.x = cursor + cellW / 2
-                // stagger y with a sine wave so voronoi boundaries are diagonal
                 leaf.y = height / 2 + Math.sin(i * 1.9) * maxYOffset
                 leaf.r = Math.max(cellW / 2 - 4, 8)
                 cursor += cellW
@@ -190,7 +185,17 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             "Hip-Hop & Groove", "Jazz, Blues & Soul", "Metal & Heavy",
             "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
         ])
-        .range(d3.schemePaired)
+        .range([
+            '#4539e6', // Classical & Experimental
+            '#9d4587', // Electronic & Synth
+            '#2a9d8f', // Folk & Acoustics
+            '#e9c46a', // Hip-Hop & Groove
+            '#f4a261', // Jazz, Blues & Soul
+            '#8bbce4', // Metal & Heavy
+            '#2a6b4a', // Pop & Melodies
+            '#99724e', // Reggae & Global Beats
+            '#e63946', // Rock & Overdrive
+        ])
 
     let defs = svg.select('defs')
     if (defs.empty()) {
