@@ -152,6 +152,13 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         return (a.data.name || '').localeCompare(b.data.name || '')
     })
 
+    d3.forceSimulation(nodes)
+        .force('collide', d3.forceCollide(d => Math.max(d.r, 30) + 2))
+        .force('x', d3.forceX(d => d.x).strength(0.4))
+        .force('y', d3.forceY(d => d.y).strength(0.4))
+        .stop()
+        .tick(30)
+
     const delaunay = d3.Delaunay.from(nodes, d => d.x, d => d.y)
 
     const voronoi = delaunay.voronoi([0, 0, width, height])
