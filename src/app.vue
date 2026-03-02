@@ -1,6 +1,7 @@
 <template>
     <h1><span>Genregraphy</span></h1>
     <div class="world-map" v-if="genres">
+        <OceanOverlay />
         <MusicMap class="continent continent-west" :genres="genres" :year="currentYear" :allowedGroups="continents.west" />
         <MusicMap class="continent continent-east" :genres="genres" :year="currentYear" :allowedGroups="continents.east" />
         <MusicMap class="continent continent-north" :genres="genres" :year="currentYear" :allowedGroups="continents.north" />
@@ -13,6 +14,7 @@
 import { ref, watch, onMounted } from 'vue'
 import MusicMap from './components/MusicMap.vue'
 import YearSlider from './components/YearSlider.vue'
+import OceanOverlay from './components/OceanOverlay.vue'
 
 const genres = ref(null)
 
