@@ -5,10 +5,10 @@
     align-items: center;
     height: 90%;
     width: 90%;
-    background-color: #3d6e82;
+    background-color: #41585d;
     overflow: hidden;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-    border: 4px ridge darkgoldenrod;
+    border: 6px ridge darkgoldenrod;
 
     &::before {
         content: '';
@@ -74,7 +74,7 @@
 
     svg {
         overflow: visible;
-        // filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.25));
+        filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.25));
     }
 
     .continent-coast {
@@ -82,8 +82,7 @@
         stroke: transparent;
         stroke-width: 6px;
         opacity: 0.8;
-        filter:
-            drop-shadow(0 0 18px #7abdd4) drop-shadow(0 0 40px #5aacc6) drop-shadow(0 0 70px rgba(90, 172, 198, 0.35));
+        // filter: drop-shadow(0 0 18px #7abdd4) drop-shadow(0 0 40px #5aacc6) drop-shadow(0 0 70px rgba(90, 172, 198, 0.35));
     }
 
     .shape-outline {
@@ -130,6 +129,13 @@
         font-weight: bold;
         font-size: 10px !important;
         opacity: 0;
+
+        &.terra-incognita {
+            fill: #2b1f0e;
+            font-style: italic;
+            font-size: 8px !important;
+            letter-spacing: 0.12em;
+        }
     }
 
     .peak-genre {
