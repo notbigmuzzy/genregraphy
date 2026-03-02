@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 95%;
     width: 90%;
     background-color: #41585d;
     overflow: hidden;
@@ -91,6 +91,12 @@
         stroke-width: 10px;
         stroke-linejoin: round;
         opacity: 0;
+    }
+
+    .genre-group-metal-heavy {
+        .shape-outline {
+            stroke-width: 1px;
+        }
     }
 
     .shape-blob {
