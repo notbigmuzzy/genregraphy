@@ -120,9 +120,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         const offsetX = macroNode.x - (dynamicDiameter / 2)
         const offsetY = macroNode.y - (dynamicDiameter / 2)
 
-        const isLandscape = width / height > 2
-
-        if (isLandscape) {
+        if (width / height > 2) {
             const totalValue = packedLeaves.reduce((s, l) => s + (l.value || 1), 0)
             let cursor = 0
             packedLeaves.forEach((leaf) => {
@@ -152,12 +150,16 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         return (a.data.name || '').localeCompare(b.data.name || '')
     })
 
-    d3.forceSimulation(nodes)
-        .force('collide', d3.forceCollide(d => Math.max(d.r, 30) + 2))
-        .force('x', d3.forceX(d => d.x).strength(0.4))
-        .force('y', d3.forceY(d => d.y).strength(0.4))
-        .stop()
-        .tick(30)
+    const isLandscape = width / height > 2
+
+    if (!isLandscape) {
+        d3.forceSimulation(nodes)
+            .force('collide', d3.forceCollide(d => Math.max(d.r, 30) + 2))
+            .force('x', d3.forceX(d => d.x).strength(0.4))
+            .force('y', d3.forceY(d => d.y).strength(0.4))
+            .stop()
+            .tick(30)
+    }
 
     const delaunay = d3.Delaunay.from(nodes, d => d.x, d => d.y)
 
@@ -248,7 +250,8 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
 
     const initialPath = d => `M${d.x},${d.y - 1}L${d.x + 1},${d.y}L${d.x},${d.y + 1}L${d.x - 1},${d.y}Z`
 
-    const makeId = d => 'genre-path-' + (d.data.group + '-' + d.data.name).replace(/[^a-zA-Z0-9-]/g, '-').toLowerCase()
+    const instancePrefix = allGroups[0].replace(/[^a-z0-9]/gi, '-').toLowerCase()
+    const makeId = d => instancePrefix + '-genre-path-' + (d.data.group + '-' + d.data.name).replace(/[^a-zA-Z0-9-]/g, '-').toLowerCase()
 
     let defsPathsGroup = defs.select('g.genre-paths-defs')
     if (defsPathsGroup.empty()) {
