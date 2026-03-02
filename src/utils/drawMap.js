@@ -123,11 +123,13 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         if (width / height > 2) {
             const totalValue = packedLeaves.reduce((s, l) => s + (l.value || 1), 0)
             let cursor = 0
-            packedLeaves.forEach((leaf) => {
+            const maxYOffset = height * 0.28
+            packedLeaves.forEach((leaf, i) => {
                 const share = (leaf.value || 1) / totalValue
                 const cellW = width * share
                 leaf.x = cursor + cellW / 2
-                leaf.y = height / 2
+                // stagger y with a sine wave so voronoi boundaries are diagonal
+                leaf.y = height / 2 + Math.sin(i * 1.9) * maxYOffset
                 leaf.r = Math.max(cellW / 2 - 4, 8)
                 cursor += cellW
                 nodes.push(leaf)
