@@ -186,15 +186,15 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
         ])
         .range([
-            '#4539e6', // Classical & Experimental
-            '#9d4587', // Electronic & Synth
-            '#2a9d8f', // Folk & Acoustics
-            '#e9c46a', // Hip-Hop & Groove
-            '#f4a261', // Jazz, Blues & Soul
-            '#8bbce4', // Metal & Heavy
-            '#2a6b4a', // Pop & Melodies
-            '#99724e', // Reggae & Global Beats
-            '#e63946', // Rock & Overdrive
+            '#7b6b9e', // Classical & Experimental
+            '#4a7fa5', // Electronic & Synth
+            '#6b8f5e', // Folk & Acoustics
+            '#c9963e', // Hip-Hop & Groove
+            '#b85c3a', // Jazz, Blues & Soul
+            '#a1b4d1', // Metal & Heavy
+            '#b86b89', // Pop & Melodies
+            '#3ac4a6', // Reggae & Global Beats
+            '#a04040', // Rock & Overdrive
         ])
 
     let defs = svg.select('defs')
