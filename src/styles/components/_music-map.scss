@@ -125,4 +125,11 @@
         }
     }
 
+    .empty-group {
+        pointer-events: none;
+
+        .layer-blob {
+            opacity: 0;
+        }
+    }
 }

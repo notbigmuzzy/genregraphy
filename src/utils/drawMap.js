@@ -234,6 +234,10 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             update => update,
             exit => exit.remove()
         )
+        .classed('empty-group', d => {
+            const g = yearData.genre_group.find(g => g.name === d)
+            return !g || !Object.values(g.genres || {}).some(count => count > 0)
+        })
 
     const initialPath = d => `M${d.x},${d.y - 1}L${d.x + 1},${d.y}L${d.x},${d.y + 1}L${d.x - 1},${d.y}Z`
 
