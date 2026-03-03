@@ -1,5 +1,5 @@
 <template>
-    <div class="year-slider-container">
+    <div class="year-slider-container" :class="loaded ? '' : 'disabled'">
         <Slider
             v-model="internalYear"
             orientation="vertical"
@@ -20,6 +20,10 @@ const props = defineProps({
     modelValue: {
         type: Number,
         default: 1950
+    },
+    loaded: {
+        type: Boolean,
+        default: false
     }
 })
 

@@ -1,0 +1,24 @@
+.world-map {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #41585d;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image:
+            url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='555' height='435'%3E%3Cg stroke='%23a8d8ea' stroke-width='1.4' fill='none' stroke-linecap='round'%3E%3Cpath d='M28,74 C32,70 38,70 42,74 C46,78 52,78 56,74'/%3E%3Cpath d='M28,80 C32,76 38,76 42,80 C46,84 52,84 56,80'/%3E%3Cpath d='M210,38 C214,34 220,34 224,38 C228,42 234,42 238,38'/%3E%3Cpath d='M210,44 C214,40 220,40 224,44 C228,48 234,48 238,44'/%3E%3Cpath d='M300,200 C304,196 310,196 314,200 C318,204 324,204 328,200'/%3E%3Cpath d='M300,206 C304,202 310,202 314,206 C318,210 324,210 328,206'/%3E%3C/g%3E%3C/svg%3E"),
+            url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='765' height='300'%3E%3Cg stroke='%23a8d8ea' stroke-width='1.4' fill='none' stroke-linecap='round'%3E%3Cpath d='M100,55 C104,51 110,51 114,55 C118,59 124,59 128,55'/%3E%3Cpath d='M100,61 C104,57 110,57 114,61 C118,65 124,65 128,61'/%3E%3Cpath d='M380,130 C384,126 390,126 394,130 C398,134 404,134 408,130'/%3E%3Cpath d='M380,136 C384,132 390,132 394,136 C398,140 404,140 408,136'/%3E%3C/g%3E%3C/svg%3E"),
+            url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='645' height='525'%3E%3Cg stroke='%23a8d8ea' stroke-width='1.4' fill='none' stroke-linecap='round'%3E%3Cpath d='M60,180 C64,176 70,176 74,180 C78,184 84,184 88,180'/%3E%3Cpath d='M60,186 C64,182 70,182 74,186 C78,190 84,190 88,186'/%3E%3Cpath d='M320,80 C324,76 330,76 334,80 C338,84 344,84 348,80'/%3E%3Cpath d='M320,86 C324,82 330,82 334,86 C338,90 344,90 348,86'/%3E%3C/g%3E%3C/svg%3E");
+        background-size: 555px 435px, 765px 300px, 645px 525px;
+        opacity: 0.45;
+        pointer-events: none;
+        z-index: 0;
+    }
+}

@@ -299,6 +299,11 @@
     height: calc(100% - 20px);
     z-index: 1000;
 
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
     .slider-vertical {
         height: 100%;
     }

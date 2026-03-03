@@ -1,0 +1,13 @@
+.the-frame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 90%;
+    background-color: #41585d;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 6px ridge darkgoldenrod;
+    z-index: 9999;
+}

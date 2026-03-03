@@ -1,15 +1,32 @@
 <template>
-    <h1><span>Genregraphy</span></h1>
-    <WorldMap :genres="genres" :currentYear="currentYear" :continents="continents" />
-    <YearSlider v-model="currentYear" />
+    <PageTitle />
+    <div class="the-frame">
+        <LoadPagePanel
+            v-if="!loaded"
+            @loaded="loaded = $event"
+        />
+        <WorldMap
+            v-if="genres && loaded"
+            :genres="genres"
+            :currentYear="currentYear"
+            :continents="continents"
+        />
+    </div>
+    <YearSlider
+        v-model="currentYear"
+        :loaded="loaded"
+    />
 </template>
 
 <script setup>
 import { ref, watch, onMounted } from 'vue'
+import PageTitle from './components/PageTitle.vue'
 import WorldMap from './components/WorldMap.vue'
 import YearSlider from './components/YearSlider.vue'
+import LoadPagePanel from './components/LoadPagePanel.vue'
 
 const genres = ref(null)
+const loaded = ref(false)
 
 const getYearFromUrl = () => {
     const params = new URLSearchParams(window.location.search)
@@ -19,18 +36,18 @@ const getYearFromUrl = () => {
 
 const currentYear = ref(getYearFromUrl())
 
-watch(currentYear, (y) => {
-    const params = new URLSearchParams(window.location.search)
-    params.set('year', y)
-    history.replaceState(null, '', '?' + params.toString())
-})
-
 const continents = {
     west:  ['Electronic & Synth', 'Hip-Hop & Groove', 'Pop & Melodies'],
     east:  ['Rock & Overdrive', 'Jazz, Blues & Soul', 'Folk & Acoustics', 'Classical & Experimental'],
     north: ['Metal & Heavy'],
     south: ['Reggae & Global Beats'],
 }
+
+watch(currentYear, (y) => {
+    const params = new URLSearchParams(window.location.search)
+    params.set('year', y)
+    history.replaceState(null, '', '?' + params.toString())
+})
 
 onMounted(async () => {
     const response = await import('./api/genres.json')

@@ -187,7 +187,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         ])
         .range([
             '#7b6b9e', // Classical & Experimental
-            '#4a7fa5', // Electronic & Synth
+            '#4a5fa5', // Electronic & Synth
             '#6b8f5e', // Folk & Acoustics
             '#c9963e', // Hip-Hop & Groove
             '#b85c3a', // Jazz, Blues & Soul
