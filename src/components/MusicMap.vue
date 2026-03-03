@@ -23,6 +23,8 @@ const props = defineProps({
     }
 })
 
+const emit = defineEmits(['genre-click'])
+
 const mapContainer = ref(null)
 let resizeObserver = null
 
@@ -37,7 +39,16 @@ const getGlobalTotal = () => {
 
 const draw = () => {
     if (!props.genres || !mapContainer.value) return
-    drawMap(props.genres, props.year, mapContainer.value, cache, props.allowedGroups, getGlobalTotal())
+
+    drawMap(
+        props.genres,
+        props.year,
+        mapContainer.value,
+        cache,
+        props.allowedGroups,
+        getGlobalTotal(),
+        (genreName) => emit('genre-click', genreName)
+    )
 }
 
 onMounted(() => {

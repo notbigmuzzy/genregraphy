@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 import { interpolatePath } from 'd3-interpolate-path'
 import { continentShape, continentShapeEast, continentShapeNorth, continentShapeSouth } from './defaultContinent.js'
 
-export const drawMap = (genres, year, container, cache, allowedGroups, globalTotal) => {
+export const drawMap = (genres, year, container, cache, allowedGroups, globalTotal, onGenreClick) => {
     if (!genres || !container) return
 
     const yearData = genres[year.toString()]
@@ -326,6 +326,10 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                 .on('mouseleave', function (event, d) {
                     if (d.data.isDummy) return
                     d3.select(this).classed('is-hovered', false)
+                })
+                .on('click', function (event, d) {
+                    if (d.data.isDummy || d.data.isEmpty) return
+                    if (onGenreClick) onGenreClick(d.data.name)
                 }),
             update => update,
             exit => exit.transition().duration(500).style('opacity', 0).remove()

@@ -1,6 +1,6 @@
 <template>
     <div class="load-page-panel">
-        <h2>Welcome to Genregraphy!</h2>
+        <h2>Welcome to genregraphy!</h2>
         <div class="loadpanel-section">
             <p>Genregraphy is a music genre visualization tool that allows you to explore the evolution of music genres across the world from 1950 to 2025.</p>
         </div>

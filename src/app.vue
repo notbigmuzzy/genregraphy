@@ -8,17 +8,26 @@
                 @loaded="loaded = $event"
             />
             <WorldMap
-                v-else-if="genres"
+                v-else-if="genres && !showDetails"
                 key="world-map"
                 :genres="genres"
                 :currentYear="currentYear"
                 :continents="continents"
+                @genre-click="selectedGenre = $event; showDetails = true"
+            />
+            <DetailsPanel
+                v-else-if="showDetails"
+                key="details-panel"
+                :genre="selectedGenre"
+                :year="currentYear"
+                @close="showDetails = false"
             />
         </Transition>
     </div>
     <YearSlider
         v-model="currentYear"
         :loaded="loaded"
+        :showDetails="showDetails"
     />
 </template>
 
@@ -28,9 +37,12 @@ import PageTitle from './components/PageTitle.vue'
 import WorldMap from './components/WorldMap.vue'
 import YearSlider from './components/YearSlider.vue'
 import LoadPagePanel from './components/LoadPagePanel.vue'
+import DetailsPanel from './components/DetailsPanel.vue'
 
 const genres = ref(null)
-const loaded = ref(false)
+const loaded = ref(true)
+const selectedGenre = ref(null)
+const showDetails = ref(false)
 
 const getYearFromUrl = () => {
     const params = new URLSearchParams(window.location.search)
@@ -57,4 +69,5 @@ onMounted(async () => {
     const response = await import('./api/genres.json')
     genres.value = response.default
 })
+
 </script>
