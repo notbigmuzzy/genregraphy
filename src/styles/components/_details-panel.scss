@@ -5,7 +5,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 40px 20px;
+    padding: 20px;
     background-color: #41585d;
     background-image: radial-gradient(#ffffff2e 1px, transparent 1px);
     background-size: 30px 30px;
@@ -81,7 +81,11 @@
         height: 0;
         border: none;
         border-radius: 10px;
-        background-color: #fff;
+        background-color: #d6cdbe;
+
+        iframe {
+            filter: grayscale(1) sepia(0.3);
+        }
 
         &.is-open {
             height: 600px;
@@ -160,7 +164,6 @@
         height: 100%;
         border: none;
         border-radius: 10px;
-        background-color: #fff;
     }
 
     button {

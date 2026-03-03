@@ -183,7 +183,7 @@ const openWiki = (name) => {
             const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki')
             if (scrollParent && wikiSection) {
                 scrollParent.scrollTo({
-                    top: wikiSection.offsetTop - 80,
+                    top: wikiSection.offsetTop - 50,
                     behavior: 'smooth'
                 })
             }
