@@ -4,7 +4,6 @@
             <button @click="$emit('close')">← Back</button>
         </div>
         <br />
-
         <div class="details-area">
             <div class="detailspanel-section title center">
                 <span><p>Genre <b>{{ genre }}</b> in the year <b>{{ year }}</b></p></span>
@@ -16,9 +15,7 @@
             <div class="detailspanel-section">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias, saepe distinctio numquam voluptas pariatur, voluptatem, sequi molestias ex corrupti architecto eius. Minima quos, totam necessitatibus quidem enim fugiat ipsam?</p>
             </div>
-
             <hr />
-
             <template v-if="genreData">
                 <div class="detailspanel-section wiki">
                     <h3>Top Artists for {{ decade }}s in {{ genre }}</h3>
@@ -42,19 +39,21 @@
                 </div>
                 <hr />
                 <div class="detailspanel-section preview">
-                    <button @click="handleRecordClick(genreData.sample_tracks[0]?.artist)">
-						Play Sample Track
-					</button>
-					<audio controls id="samplePlayer">
-						<source src="#" type="audio/mpeg">
-						Your browser does not support the audio element.
-					</audio>
+                    <h3>Sample tracks</h3>
+                    <div class="player-wrap">
+                        <button @click="handleRecordClick(genreData.sample_tracks[0]?.artist)">
+                            Play Sample Track
+                        </button>
+                        <audio controls id="samplePlayer">
+                            <source src="#" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
                 </div>
             </template>
             <template v-else>
                 <div class="detailspanel-section"><p>No data available for the {{ decade }}s.</p></div>
             </template>
-
             <hr />
         </div>
     </div>

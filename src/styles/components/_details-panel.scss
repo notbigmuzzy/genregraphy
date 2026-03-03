@@ -52,9 +52,27 @@
         }
 
         &.preview {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
+
+
+            .player-wrap {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            button {
+                background-color: rgba(255, 255, 255, 0.15);
+                border: none;
+                outline: none;
+                padding: 0.75em 1.25em;
+                border-radius: 20px;
+                font-size: 14px;
+                color: #fff;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.25);
+                }
+            }
         }
     }
 
