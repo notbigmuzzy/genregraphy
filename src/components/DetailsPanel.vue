@@ -3,13 +3,12 @@
         <div class="detailspanel-section">
             <button @click="$emit('close')">← Back</button>
         </div>
-        <br /><br />
+        <br />
 
         <div class="details-area">
             <div class="detailspanel-section title center">
                 <span><p>Genre <b>{{ genre }}</b> in the year <b>{{ year }}</b></p></span>
             </div>
-
             <div class="detailspanel-section">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias, saepe distinctio numquam voluptas pariatur, voluptatem, sequi molestias ex corrupti architecto eius. Minima quos, totam necessitatibus quidem enim fugiat ipsam?</p>
                 <p>Sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas . Voluptatibus dignissimos autem nihil consequatur!</p>
@@ -21,23 +20,35 @@
             <hr />
 
             <template v-if="genreData">
-                <div class="detailspanel-section">
+                <div class="detailspanel-section wiki">
                     <h3>Top Artists for {{ decade }}s in {{ genre }}</h3>
                     <ul>
                         <li v-for="artist in genreData.top_artists" :key="artist.name">
-                            <span>{{ artist.name }}</span>
+                            <button>{{ artist.name }}</button>
                         </li>
                     </ul>
                 </div>
                 <hr />
-                <div class="detailspanel-section">
+                <div class="detailspanel-section albums">
                     <h3>Top Albums — {{ decade }}s</h3>
                     <ul>
                         <li v-for="album in genreData.top_albums" :key="album.name + album.artist">
-                            <em>{{ album.name }}</em> — {{ album.artist }}
-                            <span class="details-count">({{ album.year }})</span>
+                            <button>
+                                <em>{{ album.name }}</em> — {{ album.artist }}
+                                <span class="details-count">({{ album.year }})</span>
+                            </button>
                         </li>
                     </ul>
+                </div>
+                <hr />
+                <div class="detailspanel-section preview">
+                    <button @click="handleRecordClick(genreData.sample_tracks[0]?.artist)">
+						Play Sample Track
+					</button>
+					<audio controls id="samplePlayer">
+						<source src="#" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
                 </div>
             </template>
             <template v-else>
@@ -92,6 +103,45 @@ const loadDecadeData = async () => {
         genreData.value = null
     } finally {
         loading.value = false
+    }
+}
+
+const handleRecordClick = async (name) => {
+    const url = await getAudioUrl(name);
+    if (url) {
+        const audio = document.getElementById('samplePlayer');
+        audio.src = url;
+        audio.play();
+		audio.classList.add('playing');
+    } else {
+        console.log("No audio found for " + name);
+    }
+}
+
+const getAudioUrl = async (artist) => {
+    try {
+        const searchUrl = `https://archive.org/advancedsearch.php?q=creator%3A(${encodeURIComponent(artist)})+AND+mediatype%3A(audio)&fl[]=identifier&output=json`;
+        
+        const searchRes = await fetch(searchUrl);
+        const searchData = await searchRes.json();
+        const docs = searchData.response.docs;
+
+        if (!docs || docs.length === 0) return null;
+
+        const identifier = docs.length > 1 ? docs[1].identifier : docs[0].identifier;
+        const metaUrl = `https://archive.org/metadata/${identifier}`;
+        const metaRes = await fetch(metaUrl);
+        const metaData = await metaRes.json();
+        const mp3File = metaData.files.find(f => f.name.endsWith('.mp3'));
+
+        if (mp3File) {
+            return `https://archive.org/download/${identifier}/${mp3File.name}`;
+        }
+        
+        return null;
+    } catch (error) {
+        console.error("No sample for this Artist", error);
+        return null;
     }
 }
 
