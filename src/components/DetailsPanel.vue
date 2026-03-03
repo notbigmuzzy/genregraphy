@@ -21,10 +21,17 @@
                     <h3>Top Artists for {{ decade }}s in {{ genre }}</h3>
                     <ul>
                         <li v-for="artist in genreData.top_artists" :key="artist.name">
-                            <button>{{ artist.name }}</button>
+                            <button
+                                @click.prevent="openWiki(artist.name)"
+                                :class="{ 'is-active': activeWikiArtist === artist.name }"
+                            >
+                                {{ artist.name }}
+                                <span v-if="activeWikiArtist === artist.name"> ✕</span>
+                            </button>
                         </li>
                     </ul>
                 </div>
+                <div class="wikipedia-iframe" :class="{ 'is-open': wikiOpen }" ref="wikiContainer"/>
                 <hr />
                 <div class="detailspanel-section albums">
                     <h3>Top Albums — {{ decade }}s</h3>
@@ -142,6 +149,46 @@ const getAudioUrl = async (artist) => {
         console.error("No sample for this Artist", error);
         return null;
     }
+}
+
+const wikiUrl = ref(null)
+const wikiOpen = ref(false)
+const wikiContainer = ref(null)
+const activeWikiArtist = ref(null)
+
+const closeWiki = () => {
+    wikiContainer.value.innerHTML = ''
+	wikiOpen.value = false
+	activeWikiArtist.value = null
+}
+
+const openWiki = (name) => {
+	if (!name) return
+
+	if (activeWikiArtist.value === name) {
+		closeWiki()
+		return
+	}
+
+    const pageUrl = `https://en.m.wikipedia.org/wiki/${encodeURIComponent(name)}`
+    wikiUrl.value = pageUrl
+	wikiOpen.value = true
+	activeWikiArtist.value = name
+
+	if (wikiContainer.value) {
+		wikiContainer.value.innerHTML = `<iframe src="${pageUrl}" style="width:100%;height:600px;border:none;" loading="lazy"></iframe>`
+
+		setTimeout(() => {
+            const scrollParent = wikiContainer.value.closest('.details-area')
+            const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki')
+            if (scrollParent && wikiSection) {
+                scrollParent.scrollTo({
+                    top: wikiSection.offsetTop - 80,
+                    behavior: 'smooth'
+                })
+            }
+		}, 400)
+	}
 }
 
 watch([() => props.genre, () => props.year], loadDecadeData, { immediate: true })
