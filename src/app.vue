@@ -14,6 +14,7 @@
                 :currentYear="currentYear"
                 :continents="continents"
                 @genre-click="selectedGenre = $event; showDetails = true"
+                @wheel.prevent="onMapScroll"
             />
             <DetailsPanel
                 v-else-if="showDetails"
@@ -57,6 +58,15 @@ const continents = {
     east:  ['Rock & Overdrive', 'Jazz, Blues & Soul', 'Folk & Acoustics', 'Classical & Experimental'],
     north: ['Metal & Heavy'],
     south: ['Reggae & Global Beats'],
+}
+
+let lastScrollTime = 0
+const onMapScroll = (e) => {
+    const now = Date.now()
+    if (now - lastScrollTime < 750) return
+    lastScrollTime = now
+    const dir = e.deltaY > 0 ? 1 : -1
+    currentYear.value = Math.min(2025, Math.max(1950, currentYear.value + dir))
 }
 
 watch(currentYear, (y) => {
