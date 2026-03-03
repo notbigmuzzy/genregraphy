@@ -1,16 +1,20 @@
 <template>
     <PageTitle />
     <div class="the-frame">
-        <LoadPagePanel
-            v-if="!loaded"
-            @loaded="loaded = $event"
-        />
-        <WorldMap
-            v-if="genres && loaded"
-            :genres="genres"
-            :currentYear="currentYear"
-            :continents="continents"
-        />
+        <Transition name="frame" mode="out-in">
+            <LoadPagePanel
+                v-if="!loaded"
+                key="load-panel"
+                @loaded="loaded = $event"
+            />
+            <WorldMap
+                v-else-if="genres"
+                key="world-map"
+                :genres="genres"
+                :currentYear="currentYear"
+                :continents="continents"
+            />
+        </Transition>
     </div>
     <YearSlider
         v-model="currentYear"
