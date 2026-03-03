@@ -1,9 +1,6 @@
 <template>
     <div class="details-panel">
-        <div class="detailspanel-section">
-            <button @click="$emit('close')">← Back</button>
-        </div>
-        <br />
+        <button class="close-panel" @click="$emit('close')">← Back</button>
         <div class="details-area">
             <div class="detailspanel-section title center">
                 <span><p>Genre <b>{{ genre }}</b> in the year <b>{{ year }}</b></p></span>
@@ -180,10 +177,10 @@ const openWiki = (name) => {
 
 		setTimeout(() => {
             const scrollParent = wikiContainer.value.closest('.details-area')
-            const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki')
+            const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki ul')
             if (scrollParent && wikiSection) {
                 scrollParent.scrollTo({
-                    top: wikiSection.offsetTop - 50,
+                    top: wikiSection.offsetTop - 30,
                     behavior: 'smooth'
                 })
             }
