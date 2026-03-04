@@ -23,12 +23,3 @@ flamenco
 
 70 80 90 00 10 20
 cool jazz
-
-70 80 90 00 10 20
-surf
-
-70 80 90 00 10 20
-modern classical
-
-80 90 00 10 20
-celtic

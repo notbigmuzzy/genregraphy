@@ -1928,6 +1928,45 @@
 				}
 			]
 		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "The Beach Boys",
+					"album_count": 2
+				},
+				{
+					"name": "The Ventures",
+					"album_count": 2
+				},
+				{
+					"name": "Agent Orange",
+					"album_count": 1
+				},
+				{
+					"name": "The Barracudas",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Living in Darkness",
+					"artist": "Agent Orange",
+					"year": "1981"
+				},
+				{
+					"name": "Drop Out with The Barracudas",
+					"artist": "The Barracudas",
+					"year": "1981"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bloodstains",
+					"artist": "Agent Orange",
+					"album": "Living in Darkness"
+				}
+			]
+		},
 		"dance-pop": {
 			"top_artists": [
 				{

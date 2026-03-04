@@ -2408,6 +2408,50 @@
 				}
 			]
 		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "The Mermen",
+					"album_count": 2
+				},
+				{
+					"name": "Man or Astro-man?",
+					"album_count": 2
+				},
+				{
+					"name": "Dick Dale",
+					"album_count": 1
+				},
+				{
+					"name": "The Trashmen",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "A Glorious Chorus",
+					"artist": "The Mermen",
+					"year": "1995"
+				},
+				{
+					"name": "Pulp Fiction (Music from the Motion Picture)",
+					"artist": "Various Artists",
+					"year": "1994"
+				},
+				{
+					"name": "Tribal Thunder",
+					"artist": "Dick Dale",
+					"year": "1993"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Misirlou",
+					"artist": "Dick Dale & His Del-Tones",
+					"album": "Pulp Fiction"
+				}
+			]
+		},
 		"teen pop": {
 			"top_artists": [
 				{

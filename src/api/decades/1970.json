@@ -1304,6 +1304,50 @@
 				}
 			]
 		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "The Beach Boys",
+					"album_count": 3
+				},
+				{
+					"name": "The Ventures",
+					"album_count": 2
+				},
+				{
+					"name": "Dick Dale",
+					"album_count": 1
+				},
+				{
+					"name": "The Shadows",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Endless Summer",
+					"artist": "The Beach Boys",
+					"year": "1974"
+				},
+				{
+					"name": "15 Big Ones",
+					"artist": "The Beach Boys",
+					"year": "1976"
+				},
+				{
+					"name": "Theme from the Deer Hunter",
+					"artist": "The Shadows",
+					"year": "1979"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Kokomo",
+					"artist": "The Beach Boys",
+					"album": "Still Cruisin'"
+				}
+			]
+		},
 		"dance-pop": {
 			"top_artists": [
 				{

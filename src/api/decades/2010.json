@@ -2391,6 +2391,50 @@
 				}
 			]
 		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "La Luz",
+					"album_count": 3
+				},
+				{
+					"name": "The Growlers",
+					"album_count": 2
+				},
+				{
+					"name": "Allah-Las",
+					"album_count": 2
+				},
+				{
+					"name": "Surfer Blood",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "It's Alive",
+					"artist": "La Luz",
+					"year": "2013"
+				},
+				{
+					"name": "Allah-Las",
+					"artist": "Allah-Las",
+					"year": "2012"
+				},
+				{
+					"name": "Astro Coast",
+					"artist": "Surfer Blood",
+					"year": "2010"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Sure as Spring",
+					"artist": "La Luz",
+					"album": "It's Alive"
+				}
+			]
+		},
 		"teen pop": {
 			"top_artists": [
 				{

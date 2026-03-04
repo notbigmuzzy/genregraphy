@@ -2404,6 +2404,45 @@
 				}
 			]
 		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "Man or Astro-man?",
+					"album_count": 2
+				},
+				{
+					"name": "Los Straitjackets",
+					"album_count": 2
+				},
+				{
+					"name": "The Bambi Molesters",
+					"album_count": 2
+				},
+				{
+					"name": "The Ghastly Ones",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sonic Rock and Roll",
+					"artist": "The Bambi Molesters",
+					"year": "2001"
+				},
+				{
+					"name": "The Velvet Touch of Los Straitjackets",
+					"artist": "Los Straitjackets",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Malague\u00f1a",
+					"artist": "The Bambi Molesters",
+					"album": "Sonic Rock and Roll"
+				}
+			]
+		},
 		"teen pop": {
 			"top_artists": [
 				{

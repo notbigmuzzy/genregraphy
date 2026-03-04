@@ -2386,6 +2386,41 @@
 				}
 			]
 		},
+		"surf": {
+			"top_artists": [
+				{
+					"name": "La Luz",
+					"album_count": 2
+				},
+				{
+					"name": "Khruangbin",
+					"album_count": 2
+				},
+				{
+					"name": "The Surfrajettes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Floating Features",
+					"artist": "La Luz",
+					"year": "2018"
+				},
+				{
+					"name": "Roller Skating Child",
+					"artist": "The Surfrajettes",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Breeze",
+					"artist": "La Luz",
+					"album": "Floating Features"
+				}
+			]
+		},
 		"teen pop": {
 			"top_artists": [
 				{
