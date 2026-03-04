@@ -7,6 +7,7 @@
     width: 100%;
     background-color: #41585d;
     overflow: hidden;
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Ccircle cx='32' cy='32' r='30' fill='black' fill-opacity='0.4' stroke='white' stroke-width='1.5'/%3E%3Ctext x='32' y='22' text-anchor='middle' fill='white' font-size='11' font-family='sans-serif'%3E%E2%86%91%3C/text%3E%3Ctext x='32' y='36' text-anchor='middle' fill='white' font-size='7' font-family='sans-serif' letter-spacing='1.5'%3ESCROLL%3C/text%3E%3Ctext x='32' y='50' text-anchor='middle' fill='white' font-size='11' font-family='sans-serif'%3E%E2%86%93%3C/text%3E%3C/svg%3E") 32 32, auto;
 
     &::before {
         content: '';
