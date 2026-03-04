@@ -2,7 +2,7 @@
 # Format: genre -> year
 # Genres before their start year will have count set to 0
 
-# The Rock Shield
+# Rock & Overdrive
 rock -> 1950
 punk -> 1973
 grunge -> 1987
@@ -25,7 +25,7 @@ post-rock -> 1991
 stoner rock -> 1990
 hardcore -> 1978
 
-# The Electronic Frontier
+# Electronic & Synth
 electronic -> 1970
 techno -> 1985
 house -> 1984
@@ -50,7 +50,7 @@ chiptune -> 2000
 chillout -> 1990
 lounge -> 1994
 
-# The Hip-Hop Basin
+# Hip-Hop & Groove
 hip hop -> 1979
 trap -> 2003
 boom bap -> 1987
@@ -64,7 +64,7 @@ neo soul -> 1990
 g-funk -> 1992
 lo-fi -> 2010
 
-# The Jazz & Blues Delta
+# Jazz, Blues & Soul
 jazz -> 1920
 blues -> 1920
 swing -> 1930
@@ -78,7 +78,7 @@ chicago blues -> 1940
 soul jazz -> 1955
 bossa nova -> 1958
 
-# The Pop Archipelago
+# Pop & Melodies
 pop -> 1950
 teen pop -> 1995
 dance-pop -> 1980
@@ -91,7 +91,7 @@ dream pop -> 1986
 bubblegum pop -> 1967
 traditional pop -> 1930
 
-# The Folk & Roots Plains
+# Folk & Acoustics
 folk -> 1920
 country -> 1920
 bluegrass -> 1939
@@ -104,7 +104,7 @@ latin -> 1920
 afrobeat -> 1968
 gospel -> 1920
 
-# The Metal Peaks
+# Metal & Heavy
 metal -> 1968
 heavy metal -> 1968
 black metal -> 1984
@@ -118,7 +118,7 @@ power metal -> 1987
 metalcore -> 1998
 grindcore -> 1985
 
-# The Tropical Pulse
+# Reggae & Global Beats
 reggae -> 1968
 ska -> 1960
 dub -> 1969
@@ -132,7 +132,7 @@ zouk -> 1980
 merengue -> 1950
 bachata -> 1960
 
-# The Avant-Garde Isles
+# Classical & Experimental
 classical -> 1700
 experimental -> 1950
 noise -> 1975
