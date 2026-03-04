@@ -96,6 +96,32 @@
 				}
 			]
 		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "The Detroit Cobras",
+					"album_count": 2
+				},
+				{
+					"name": "Wanda Jackson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mink, Rat or Rabbit",
+					"artist": "The Detroit Cobras",
+					"year": "2004"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Shakin' All Over",
+					"artist": "The Detroit Cobras",
+					"album": "Mink, Rat or Rabbit"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{
@@ -192,6 +218,41 @@
 				}
 			]
 		},
+		"punk": {
+			"top_artists": [
+				{
+					"name": "The Distillers",
+					"album_count": 2
+				},
+				{
+					"name": "Against Me!",
+					"album_count": 2
+				},
+				{
+					"name": "Bad Religion",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sing Sing Death House",
+					"artist": "The Distillers",
+					"year": "2002"
+				},
+				{
+					"name": "Searching for a Former Clarity",
+					"artist": "Against Me!",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "City of Angels",
+					"artist": "The Distillers",
+					"album": "Sing Sing Death House"
+				}
+			]
+		},
 		"garage rock": {
 			"top_artists": [
 				{
@@ -285,6 +346,50 @@
 					"name": "Obstacle 1",
 					"artist": "Interpol",
 					"album": "Turn On the Bright Lights"
+				}
+			]
+		},
+		"new wave": {
+			"top_artists": [
+				{
+					"name": "The Killers",
+					"album_count": 3
+				},
+				{
+					"name": "Metric",
+					"album_count": 3
+				},
+				{
+					"name": "Shiny Toy Guns",
+					"album_count": 2
+				},
+				{
+					"name": "The Bravery",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hot Fuss",
+					"artist": "The Killers",
+					"year": "2004"
+				},
+				{
+					"name": "Old World Underground, Where Are You Now?",
+					"artist": "Metric",
+					"year": "2003"
+				},
+				{
+					"name": "We Are Pilots",
+					"artist": "Shiny Toy Guns",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mr. Brightside",
+					"artist": "The Killers",
+					"album": "Hot Fuss"
 				}
 			]
 		},
@@ -2671,6 +2776,46 @@
 		}
 	},
 	"Pop & Melodies": {
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Michael Bubl\u00e9",
+					"album_count": 4
+				},
+				{
+					"name": "Josh Groban",
+					"album_count": 3
+				},
+				{
+					"name": "Norah Jones",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "It's Time",
+					"artist": "Michael Bubl\u00e9",
+					"year": "2005"
+				},
+				{
+					"name": "Come Away with Me",
+					"artist": "Norah Jones",
+					"year": "2002"
+				},
+				{
+					"name": "Closer",
+					"artist": "Josh Groban",
+					"year": "2003"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Home",
+					"artist": "Michael Bubl\u00e9",
+					"album": "It's Time"
+				}
+			]
+		},
 		"pop": {
 			"top_artists": [
 				{
@@ -2854,6 +2999,45 @@
 				}
 			]
 		},
+		"europop": {
+			"top_artists": [
+				{
+					"name": "O-Zone",
+					"album_count": 1
+				},
+				{
+					"name": "Basshunter",
+					"album_count": 1
+				},
+				{
+					"name": "September",
+					"album_count": 2
+				},
+				{
+					"name": "Aliz\u00e9e",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Gourmandises",
+					"artist": "Aliz\u00e9e",
+					"year": "2000"
+				},
+				{
+					"name": "DiscO-Zone",
+					"artist": "O-Zone",
+					"year": "2004"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dragostea Din Tei",
+					"artist": "O-Zone",
+					"album": "DiscO-Zone"
+				}
+			]
+		},
 		"dance-pop": {
 			"top_artists": [
 				{
@@ -3000,6 +3184,45 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Jack Johnson",
+					"album_count": 3
+				},
+				{
+					"name": "Jason Mraz",
+					"album_count": 2
+				},
+				{
+					"name": "Jose Gonzalez",
+					"album_count": 2
+				},
+				{
+					"name": "Andy McKee",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Brushfire Fairytales",
+					"artist": "Jack Johnson",
+					"year": "2001"
+				},
+				{
+					"name": "Veneer",
+					"artist": "Jose Gonzalez",
+					"year": "2003"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Better Together",
+					"artist": "Jack Johnson",
+					"album": "In Between Dreams"
+				}
+			]
+		},
 		"folk": {
 			"top_artists": [
 				{

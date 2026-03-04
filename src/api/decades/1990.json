@@ -144,6 +144,32 @@
 				}
 			]
 		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "Little Richard",
+					"album_count": 1
+				},
+				{
+					"name": "Chuck Berry",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Dirty Boogie",
+					"artist": "The Brian Setzer Orchestra",
+					"year": "1998"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Great Balls of Fire (Live)",
+					"artist": "Jerry Lee Lewis",
+					"album": "Live at the Vredenburg"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{
@@ -2631,6 +2657,50 @@
 		}
 	},
 	"Pop & Melodies": {
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 5
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 3
+				},
+				{
+					"name": "Diana Krall",
+					"album_count": 2
+				},
+				{
+					"name": "Natalie Cole",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Unforgettable... with Love",
+					"artist": "Natalie Cole",
+					"year": "1991"
+				},
+				{
+					"name": "MTV Unplugged",
+					"artist": "Tony Bennett",
+					"year": "1994"
+				},
+				{
+					"name": "When I Look in Your Eyes",
+					"artist": "Diana Krall",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Unforgettable",
+					"artist": "Natalie Cole",
+					"album": "Unforgettable... with Love"
+				}
+			]
+		},
 		"pop": {
 			"top_artists": [
 				{
@@ -2819,6 +2889,45 @@
 				}
 			]
 		},
+		"europop": {
+			"top_artists": [
+				{
+					"name": "Ace of Base",
+					"album_count": 3
+				},
+				{
+					"name": "Aqua",
+					"album_count": 1
+				},
+				{
+					"name": "E-Type",
+					"album_count": 2
+				},
+				{
+					"name": "Vengaboys",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Happy Nation",
+					"artist": "Ace of Base",
+					"year": "1992"
+				},
+				{
+					"name": "Aquarium",
+					"artist": "Aqua",
+					"year": "1997"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "All That She Wants",
+					"artist": "Ace of Base",
+					"album": "Happy Nation"
+				}
+			]
+		},
 		"dance-pop": {
 			"top_artists": [
 				{
@@ -2965,6 +3074,50 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Jeff Buckley",
+					"album_count": 1
+				},
+				{
+					"name": "Elliott Smith",
+					"album_count": 3
+				},
+				{
+					"name": "Dave Matthews Band",
+					"album_count": 2
+				},
+				{
+					"name": "Jewel",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Grace",
+					"artist": "Jeff Buckley",
+					"year": "1994"
+				},
+				{
+					"name": "Either/Or",
+					"artist": "Elliott Smith",
+					"year": "1997"
+				},
+				{
+					"name": "Pieces of You",
+					"artist": "Jewel",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hallelujah",
+					"artist": "Jeff Buckley",
+					"album": "Grace"
+				}
+			]
+		},
 		"folk": {
 			"top_artists": [
 				{

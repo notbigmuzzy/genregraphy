@@ -144,6 +144,41 @@
 				}
 			]
 		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "Chuck Berry",
+					"album_count": 2
+				},
+				{
+					"name": "Jerry Lee Lewis",
+					"album_count": 2
+				},
+				{
+					"name": "Sha Na Na",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "London Chuck Berry Sessions",
+					"artist": "Chuck Berry",
+					"year": "1972"
+				},
+				{
+					"name": "The Session",
+					"artist": "Jerry Lee Lewis",
+					"year": "1973"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Johnny B. Goode (Live)",
+					"artist": "Chuck Berry",
+					"album": "The London Chuck Berry Sessions"
+				}
+			]
+		},
 		"hard rock": {
 			"top_artists": [
 				{
@@ -1540,6 +1575,50 @@
 		}
 	},
 	"Pop & Melodies": {
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Frank Sinatra",
+					"album_count": 5
+				},
+				{
+					"name": "The Carpenters",
+					"album_count": 4
+				},
+				{
+					"name": "Barbra Streisand",
+					"album_count": 3
+				},
+				{
+					"name": "Barry Manilow",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Trilogy: Past Present Future",
+					"artist": "Frank Sinatra",
+					"year": "1980"
+				},
+				{
+					"name": "Close to You",
+					"artist": "The Carpenters",
+					"year": "1970"
+				},
+				{
+					"name": "The Way We Were",
+					"artist": "Barbra Streisand",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "(They Long to Be) Close to You",
+					"artist": "The Carpenters",
+					"album": "Close to You"
+				}
+			]
+		},
 		"pop": {
 			"top_artists": [
 				{
@@ -1778,6 +1857,50 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Jim Croce",
+					"album_count": 3
+				},
+				{
+					"name": "James Taylor",
+					"album_count": 3
+				},
+				{
+					"name": "Carly Simon",
+					"album_count": 2
+				},
+				{
+					"name": "Cat Stevens",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "You Don't Mess Around with Jim",
+					"artist": "Jim Croce",
+					"year": "1972"
+				},
+				{
+					"name": "Sweet Baby James",
+					"artist": "James Taylor",
+					"year": "1970"
+				},
+				{
+					"name": "Teaser and the Firecat",
+					"artist": "Cat Stevens",
+					"year": "1971"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Time in a Bottle",
+					"artist": "Jim Croce",
+					"album": "You Don't Mess Around with Jim"
+				}
+			]
+		},
 		"bluegrass": {
 			"top_artists": [
 				{

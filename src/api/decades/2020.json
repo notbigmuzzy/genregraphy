@@ -96,6 +96,32 @@
 				}
 			]
 		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "J.D. McPherson",
+					"album_count": 1
+				},
+				{
+					"name": "The Detroit Cobras",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Warm Covers Vol. 2",
+					"artist": "J.D. McPherson",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "North Side Gal (Live)",
+					"artist": "J.D. McPherson",
+					"album": "The Warm Covers Vol. 2"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{
@@ -189,6 +215,41 @@
 					"name": "Grounds",
 					"artist": "IDLES",
 					"album": "Ultra Mono"
+				}
+			]
+		},
+		"new wave": {
+			"top_artists": [
+				{
+					"name": "The Killers",
+					"album_count": 2
+				},
+				{
+					"name": "Nation of Language",
+					"album_count": 2
+				},
+				{
+					"name": "Dayglow",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Pressure Machine",
+					"artist": "The Killers",
+					"year": "2021"
+				},
+				{
+					"name": "Strange Disciple",
+					"artist": "Nation of Language",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Across That Fine Line",
+					"artist": "Nation of Language",
+					"album": "A Way Forward"
 				}
 			]
 		},
@@ -573,6 +634,41 @@
 					"name": "Superstar",
 					"artist": "Beach House",
 					"album": "Once Twice Melody"
+				}
+			]
+		},
+		"punk": {
+			"top_artists": [
+				{
+					"name": "The Chats",
+					"album_count": 1
+				},
+				{
+					"name": "Amyl and the Sniffers",
+					"album_count": 1
+				},
+				{
+					"name": "IDLES",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Get Fucked",
+					"artist": "The Chats",
+					"year": "2022"
+				},
+				{
+					"name": "Comfort to Me",
+					"artist": "Amyl and the Sniffers",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hertz",
+					"artist": "Amyl and the Sniffers",
+					"album": "Comfort to Me"
 				}
 			]
 		},
@@ -1890,6 +1986,50 @@
 				}
 			]
 		},
+		"gangsta rap": {
+			"top_artists": [
+				{
+					"name": "Freddie Gibbs",
+					"album_count": 2
+				},
+				{
+					"name": "Benny the Butcher",
+					"album_count": 3
+				},
+				{
+					"name": "21 Savage",
+					"album_count": 2
+				},
+				{
+					"name": "Pusha T",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Alfredo",
+					"artist": "Freddie Gibbs & Alchemist",
+					"year": "2020"
+				},
+				{
+					"name": "Savage Mode II",
+					"artist": "21 Savage & Metro Boomin",
+					"year": "2020"
+				},
+				{
+					"name": "It's Almost Dry",
+					"artist": "Pusha T",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Runnin",
+					"artist": "21 Savage & Metro Boomin",
+					"album": "Savage Mode II"
+				}
+			]
+		},
 		"boom bap": {
 			"top_artists": [
 				{
@@ -2693,6 +2833,46 @@
 		}
 	},
 	"Pop & Melodies": {
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Michael Bubl\u00e9",
+					"album_count": 2
+				},
+				{
+					"name": "Laufey",
+					"album_count": 2
+				},
+				{
+					"name": "Samara Joy",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bewitched",
+					"artist": "Laufey",
+					"year": "2023"
+				},
+				{
+					"name": "Linger Awhile",
+					"artist": "Samara Joy",
+					"year": "2022"
+				},
+				{
+					"name": "Higher",
+					"artist": "Michael Bubl\u00e9",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "From The Start",
+					"artist": "Laufey",
+					"album": "Bewitched"
+				}
+			]
+		},
 		"pop": {
 			"top_artists": [
 				{
@@ -2872,6 +3052,45 @@
 				}
 			]
 		},
+		"europop": {
+			"top_artists": [
+				{
+					"name": "Dua Lipa",
+					"album_count": 2
+				},
+				{
+					"name": "Kim Petras",
+					"album_count": 2
+				},
+				{
+					"name": "M\u00e5neskin",
+					"album_count": 2
+				},
+				{
+					"name": "Rosal\u00eda",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Future Nostalgia",
+					"artist": "Dua Lipa",
+					"year": "2020"
+				},
+				{
+					"name": "MOTOMAMI",
+					"artist": "Rosal\u00eda",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Physical",
+					"artist": "Dua Lipa",
+					"album": "Future Nostalgia"
+				}
+			]
+		},
 		"dance-pop": {
 			"top_artists": [
 				{
@@ -3018,6 +3237,32 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Sungha Jung",
+					"album_count": 2
+				},
+				{
+					"name": "Ichika Nito",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dreaming",
+					"artist": "Sungha Jung",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dreaming",
+					"artist": "Sungha Jung",
+					"album": "Dreaming"
+				}
+			]
+		},
 		"folk": {
 			"top_artists": [
 				{

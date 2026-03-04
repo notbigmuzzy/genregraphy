@@ -144,6 +144,37 @@
 				}
 			]
 		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "J.D. McPherson",
+					"album_count": 2
+				},
+				{
+					"name": "Nick Waterhouse",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Signs & Signifiers",
+					"artist": "J.D. McPherson",
+					"year": "2010"
+				},
+				{
+					"name": "Holly",
+					"artist": "Nick Waterhouse",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "North Side Gal",
+					"artist": "J.D. McPherson",
+					"album": "Signs & Signifiers"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{
@@ -237,6 +268,50 @@
 					"name": "Husbands",
 					"artist": "Savages",
 					"album": "Silence Yourself"
+				}
+			]
+		},
+		"new wave": {
+			"top_artists": [
+				{
+					"name": "The Naked and Famous",
+					"album_count": 3
+				},
+				{
+					"name": "Twin Shadow",
+					"album_count": 3
+				},
+				{
+					"name": "Foster The People",
+					"album_count": 2
+				},
+				{
+					"name": "Wild Nothing",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Passive Me, Aggressive You",
+					"artist": "The Naked and Famous",
+					"year": "2010"
+				},
+				{
+					"name": "Confess",
+					"artist": "Twin Shadow",
+					"year": "2012"
+				},
+				{
+					"name": "Torches",
+					"artist": "Foster The People",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Young Blood",
+					"artist": "The Naked and Famous",
+					"album": "Passive Me, Aggressive You"
 				}
 			]
 		},
@@ -573,6 +648,41 @@
 					"name": "Myth",
 					"artist": "Beach House",
 					"album": "Bloom"
+				}
+			]
+		},
+		"punk": {
+			"top_artists": [
+				{
+					"name": "The Chats",
+					"album_count": 1
+				},
+				{
+					"name": "IDLES",
+					"album_count": 2
+				},
+				{
+					"name": "PUP",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Joy as an Act of Resistance.",
+					"artist": "IDLES",
+					"year": "2018"
+				},
+				{
+					"name": "The Dream Is Over",
+					"artist": "PUP",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Smoko",
+					"artist": "The Chats",
+					"album": "Get This in Ya"
 				}
 			]
 		},
@@ -1899,6 +2009,50 @@
 				}
 			]
 		},
+		"gangsta rap": {
+			"top_artists": [
+				{
+					"name": "Freddie Gibbs",
+					"album_count": 4
+				},
+				{
+					"name": "Schoolboy Q",
+					"album_count": 3
+				},
+				{
+					"name": "YG",
+					"album_count": 3
+				},
+				{
+					"name": "Pusha T",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Pi\u00f1ata",
+					"artist": "Freddie Gibbs & Madlib",
+					"year": "2014"
+				},
+				{
+					"name": "Oxymoron",
+					"artist": "Schoolboy Q",
+					"year": "2014"
+				},
+				{
+					"name": "My Krazy Life",
+					"artist": "YG",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Collard Greens",
+					"artist": "Schoolboy Q",
+					"album": "Oxymoron"
+				}
+			]
+		},
 		"boom bap": {
 			"top_artists": [
 				{
@@ -2697,6 +2851,45 @@
 		}
 	},
 	"Pop & Melodies": {
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Michael Bubl\u00e9",
+					"album_count": 4
+				},
+				{
+					"name": "Lana Del Rey",
+					"album_count": 2
+				},
+				{
+					"name": "Gregory Porter",
+					"album_count": 3
+				},
+				{
+					"name": "Seth MacFarlane",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Liquid Spirit",
+					"artist": "Gregory Porter",
+					"year": "2013"
+				},
+				{
+					"name": "To Be Loved",
+					"artist": "Michael Bubl\u00e9",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Feeling Good",
+					"artist": "Michael Bubl\u00e9",
+					"album": "To Be Loved"
+				}
+			]
+		},
 		"pop": {
 			"top_artists": [
 				{
@@ -2885,6 +3078,45 @@
 				}
 			]
 		},
+		"europop": {
+			"top_artists": [
+				{
+					"name": "Lykke Li",
+					"album_count": 2
+				},
+				{
+					"name": "Robyn",
+					"album_count": 3
+				},
+				{
+					"name": "Zara Larsson",
+					"album_count": 2
+				},
+				{
+					"name": "Stromae",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Body Talk",
+					"artist": "Robyn",
+					"year": "2010"
+				},
+				{
+					"name": "Racine carr\u00e9e",
+					"artist": "Stromae",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Dancing On My Own",
+					"artist": "Robyn",
+					"album": "Body Talk"
+				}
+			]
+		},
 		"dance-pop": {
 			"top_artists": [
 				{
@@ -3031,6 +3263,32 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Sungha Jung",
+					"album_count": 5
+				},
+				{
+					"name": "Tommy Emmanuel",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Painted Sky",
+					"artist": "Sungha Jung",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "River Flows in You",
+					"artist": "Sungha Jung",
+					"album": "The Duets"
+				}
+			]
+		},
 		"folk": {
 			"top_artists": [
 				{

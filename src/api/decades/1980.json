@@ -192,6 +192,36 @@
 				}
 			]
 		},
+		"rock & roll": {
+			"top_artists": [
+				{
+					"name": "Chuck Berry",
+					"album_count": 1
+				},
+				{
+					"name": "Jerry Lee Lewis",
+					"album_count": 1
+				},
+				{
+					"name": "The Stray Cats",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Built for Speed",
+					"artist": "The Stray Cats",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rock This Town",
+					"artist": "The Stray Cats",
+					"album": "Built for Speed"
+				}
+			]
+		},
 		"hard rock": {
 			"top_artists": [
 				{
@@ -2111,6 +2141,41 @@
 		}
 	},
 	"Pop & Melodies": {
+		"traditional pop": {
+			"top_artists": [
+				{
+					"name": "Linda Ronstadt",
+					"album_count": 3
+				},
+				{
+					"name": "Frank Sinatra",
+					"album_count": 2
+				},
+				{
+					"name": "Barbra Streisand",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "What's New",
+					"artist": "Linda Ronstadt",
+					"year": "1983"
+				},
+				{
+					"name": "Duets",
+					"artist": "Frank Sinatra",
+					"year": "1993"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "What's New",
+					"artist": "Linda Ronstadt",
+					"album": "What's New"
+				}
+			]
+		},
 		"pop": {
 			"top_artists": [
 				{
@@ -2243,6 +2308,50 @@
 					"name": "What I Like About You",
 					"artist": "The Romantics",
 					"album": "The Romantics"
+				}
+			]
+		},
+		"europop": {
+			"top_artists": [
+				{
+					"name": "ABBA",
+					"album_count": 2
+				},
+				{
+					"name": "A-ha",
+					"album_count": 3
+				},
+				{
+					"name": "Modern Talking",
+					"album_count": 4
+				},
+				{
+					"name": "Roxette",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hunting High and Low",
+					"artist": "A-ha",
+					"year": "1985"
+				},
+				{
+					"name": "The First Album",
+					"artist": "Modern Talking",
+					"year": "1985"
+				},
+				{
+					"name": "Look Sharp!",
+					"artist": "Roxette",
+					"year": "1988"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Take on Me",
+					"artist": "A-ha",
+					"album": "Hunting High and Low"
 				}
 			]
 		},
@@ -2392,6 +2501,50 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"acoustic": {
+			"top_artists": [
+				{
+					"name": "Tracy Chapman",
+					"album_count": 1
+				},
+				{
+					"name": "Suzanne Vega",
+					"album_count": 2
+				},
+				{
+					"name": "Leo Kottke",
+					"album_count": 2
+				},
+				{
+					"name": "Michael Hedges",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Tracy Chapman",
+					"artist": "Tracy Chapman",
+					"year": "1988"
+				},
+				{
+					"name": "Solitude Standing",
+					"artist": "Suzanne Vega",
+					"year": "1987"
+				},
+				{
+					"name": "Aerial Boundaries",
+					"artist": "Michael Hedges",
+					"year": "1984"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Fast Car",
+					"artist": "Tracy Chapman",
+					"album": "Tracy Chapman"
+				}
+			]
+		},
 		"bluegrass": {
 			"top_artists": [
 				{
