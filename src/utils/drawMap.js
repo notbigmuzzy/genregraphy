@@ -191,7 +191,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             '#6b8f5e', // Folk & Acoustics
             '#c9963e', // Hip-Hop & Groove
             '#b85c3a', // Jazz, Blues & Soul
-            '#a1b4d1', // Metal & Heavy
+            '#1a1a1a', // Metal & Heavy
             '#b86b89', // Pop & Melodies
             '#3ac4a6', // Reggae & Global Beats
             '#a04040', // Rock & Overdrive

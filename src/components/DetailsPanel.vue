@@ -2,7 +2,7 @@
     <div class="details-panel">
         <button class="close-panel" @click="$emit('close')">← Back</button>
         <div class="details-area">
-            <div class="detailspanel-section title center">
+            <div class="detailspanel-section title">
                 <span><p>Genre <b>{{ genre }}</b> in the year <b>{{ year }}</b></p></span>
             </div>
             <div class="detailspanel-section">
@@ -179,13 +179,16 @@ const openYoutube = (albumName, artist) => {
 		const scrollParent = youtubeContainer.value?.closest('.details-area')
 		const albumsSection = scrollParent?.querySelector('.detailspanel-section.albums ul')
 		if (scrollParent && albumsSection) {
-			scrollParent.scrollTo({ top: albumsSection.offsetTop - 30, behavior: 'smooth' })
+			scrollParent.scrollTo({
+                top: albumsSection.offsetTop - 20,
+                behavior: 'smooth'
+            })
 		}
 	}, 50)
 
 	const query = encodeURIComponent(`${albumName} ${artist}`)
 	const iframe = document.createElement('iframe')
-	iframe.src = `https://www.bing.com/videos/riverview/relatedvideo?q=${query}`
+	iframe.src = `https://www.bing.com/videos/riverview/relatedvideo?q=${query}+album`
 	iframe.style.cssText = 'width:100%;height:500px;border:none;'
 	iframe.allowFullscreen = true
 	youtubeContainer.value.innerHTML = ''
@@ -237,7 +240,7 @@ const openWiki = async (name) => {
 		const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki ul')
 		if (scrollParent && wikiSection) {
 			scrollParent.scrollTo({
-				top: wikiSection.offsetTop - 30,
+				top: wikiSection.offsetTop - 20,
 				behavior: 'smooth'
 			})
 		}

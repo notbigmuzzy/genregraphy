@@ -58,19 +58,9 @@
         }
 
         &.title {
-            font-size: 2em;
-            margin-bottom: 1em;
+            font-size: 2.5em;
             line-height: 1.25;
-
-            span {
-                display: inline-block;
-                padding: 0.25em 0.75em;
-                background-color: rgba(255, 255, 255, 0.75);
-
-                p {
-                    color: #243438;
-                }
-            }
+            margin-bottom: 20px;
         }
 
         &.center {
