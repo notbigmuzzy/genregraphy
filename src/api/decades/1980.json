@@ -1686,6 +1686,45 @@
 				}
 			]
 		},
+		"cool jazz": {
+			"top_artists": [
+				{
+					"name": "Miles Davis",
+					"album_count": 2
+				},
+				{
+					"name": "Chet Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Bill Evans",
+					"album_count": 1
+				},
+				{
+					"name": "Dave Brubeck",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chet Baker in Tokyo",
+					"artist": "Chet Baker",
+					"year": "1988"
+				},
+				{
+					"name": "The Paris Concert: Edition One",
+					"artist": "Bill Evans",
+					"year": "1983"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Almost Blue",
+					"artist": "Chet Baker",
+					"album": "Let's Get Lost"
+				}
+			]
+		},
 		"fusion": {
 			"top_artists": [
 				{

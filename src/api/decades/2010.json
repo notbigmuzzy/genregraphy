@@ -2149,6 +2149,37 @@
 				}
 			]
 		},
+		"cool jazz": {
+			"top_artists": [
+				{
+					"name": "Chet Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Thrill Is Gone",
+					"artist": "Chet Baker",
+					"year": "2010"
+				},
+				{
+					"name": "The Complete Trio Sessions",
+					"artist": "Bill Evans",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Autumn Leaves",
+					"artist": "Stan Getz",
+					"album": "Live in Italy"
+				}
+			]
+		},
 		"fusion": {
 			"top_artists": [
 				{

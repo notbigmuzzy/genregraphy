@@ -2166,6 +2166,37 @@
 				}
 			]
 		},
+		"cool jazz": {
+			"top_artists": [
+				{
+					"name": "Chet Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Thrill Is Gone",
+					"artist": "Chet Baker",
+					"year": "1994"
+				},
+				{
+					"name": "Bluebird",
+					"artist": "Stan Getz",
+					"year": "1994"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bluebird",
+					"artist": "Stan Getz",
+					"album": "Bluebird"
+				}
+			]
+		},
 		"fusion": {
 			"top_artists": [
 				{
@@ -2790,7 +2821,6 @@
 				}
 			]
 		},
-```
 		"singer-songwriter": {
 			"top_artists": [
 				{

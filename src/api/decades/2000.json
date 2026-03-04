@@ -2162,6 +2162,37 @@
 				}
 			]
 		},
+		"cool jazz": {
+			"top_artists": [
+				{
+					"name": "Chet Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Thrill Is Gone",
+					"artist": "Chet Baker",
+					"year": "2002"
+				},
+				{
+					"name": "Bossas & Ballads",
+					"artist": "Stan Getz",
+					"year": "2003"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bluebird",
+					"artist": "Stan Getz",
+					"album": "The Best of the Roumanian Years"
+				}
+			]
+		},
 		"fusion": {
 			"top_artists": [
 				{

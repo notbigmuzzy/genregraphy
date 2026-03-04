@@ -1062,6 +1062,50 @@
 				}
 			]
 		},
+		"cool jazz": {
+			"top_artists": [
+				{
+					"name": "Bill Evans",
+					"album_count": 3
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 2
+				},
+				{
+					"name": "Chet Baker",
+					"album_count": 2
+				},
+				{
+					"name": "Paul Desmond",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Tony Bennett Bill Evans Album",
+					"artist": "Bill Evans",
+					"year": "1975"
+				},
+				{
+					"name": "The Peacocks",
+					"artist": "Stan Getz",
+					"year": "1977"
+				},
+				{
+					"name": "She Was Too Good to Me",
+					"artist": "Chet Baker",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Peacocks",
+					"artist": "Stan Getz",
+					"album": "The Peacocks"
+				}
+			]
+		},
 		"soul jazz": {
 			"top_artists": [
 				{
