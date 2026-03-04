@@ -52,23 +52,43 @@
 			"top_artists": [
 				{
 					"name": "Nirvana",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Pearl Jam",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Soundgarden",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Alice in Chains",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Stone Temple Pilots",
-					"album_count": 1
+					"album_count": 4
+				},
+				{
+					"name": "Mudhoney",
+					"album_count": 5
+				},
+				{
+					"name": "Screaming Trees",
+					"album_count": 3
+				},
+				{
+					"name": "Melvins",
+					"album_count": 8
+				},
+				{
+					"name": "L7",
+					"album_count": 3
+				},
+				{
+					"name": "The Smashing Pumpkins",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -83,8 +103,18 @@
 					"year": "1991"
 				},
 				{
+					"name": "Dirt",
+					"artist": "Alice in Chains",
+					"year": "1992"
+				},
+				{
 					"name": "Superunknown",
 					"artist": "Soundgarden",
+					"year": "1994"
+				},
+				{
+					"name": "Purple",
+					"artist": "Stone Temple Pilots",
 					"year": "1994"
 				}
 			],
@@ -244,23 +274,43 @@
 			"top_artists": [
 				{
 					"name": "Radiohead",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "R.E.M.",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Beck",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Smashing Pumpkins",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Pavement",
-					"album_count": 1
+					"album_count": 4
+				},
+				{
+					"name": "Sonic Youth",
+					"album_count": 6
+				},
+				{
+					"name": "Pixies",
+					"album_count": 3
+				},
+				{
+					"name": "The Cure",
+					"album_count": 4
+				},
+				{
+					"name": "PJ Harvey",
+					"album_count": 4
+				},
+				{
+					"name": "Björk",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -278,6 +328,16 @@
 					"name": "Mellon Collie and the Infinite Sadness",
 					"artist": "Smashing Pumpkins",
 					"year": "1995"
+				},
+				{
+					"name": "Odelay",
+					"artist": "Beck",
+					"year": "1996"
+				},
+				{
+					"name": "Crooked Rain, Crooked Rain",
+					"artist": "Pavement",
+					"year": "1994"
 				}
 			],
 			"sample_tracks": [
@@ -296,19 +356,39 @@
 				},
 				{
 					"name": "Blur",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Pulp",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Suede",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Elastica",
-					"album_count": 1
+					"album_count": 2
+				},
+				{
+					"name": "The Verve",
+					"album_count": 3
+				},
+				{
+					"name": "Supergrass",
+					"album_count": 3
+				},
+				{
+					"name": "Manic Street Preachers",
+					"album_count": 5
+				},
+				{
+					"name": "The Stone Roses",
+					"album_count": 2
+				},
+				{
+					"name": "Ocean Colour Scene",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -326,6 +406,16 @@
 					"name": "Different Class",
 					"artist": "Pulp",
 					"year": "1995"
+				},
+				{
+					"name": "Urban Hymns",
+					"artist": "The Verve",
+					"year": "1997"
+				},
+				{
+					"name": "Dog Man Star",
+					"artist": "Suede",
+					"year": "1994"
 				}
 			],
 			"sample_tracks": [
@@ -540,15 +630,35 @@
 				},
 				{
 					"name": "Godspeed You! Black Emperor",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Mogwai",
+					"album_count": 3
+				},
+				{
+					"name": "Sigur R\u00f3s",
 					"album_count": 2
 				},
 				{
 					"name": "Bark Psychosis",
+					"album_count": 2
+				},
+				{
+					"name": "Talk Talk",
 					"album_count": 1
+				},
+				{
+					"name": "Labradford",
+					"album_count": 4
+				},
+				{
+					"name": "Dirty Three",
+					"album_count": 4
+				},
+				{
+					"name": "Low",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -566,6 +676,16 @@
 					"name": "F\u266f A\u266f \u221e",
 					"artist": "Godspeed You! Black Emperor",
 					"year": "1997"
+				},
+				{
+					"name": "Young Team",
+					"artist": "Mogwai",
+					"year": "1997"
+				},
+				{
+					"name": "\u00c1g\u00e6tis byrjun",
+					"artist": "Sigur R\u00f3s",
+					"year": "1999"
 				}
 			],
 			"sample_tracks": [
@@ -584,19 +704,39 @@
 				},
 				{
 					"name": "Slowdive",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Ride",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Lush",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Swervedriver",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Catherine Wheel",
+					"album_count": 4
+				},
+				{
+					"name": "Chapterhouse",
+					"album_count": 2
+				},
+				{
+					"name": "Pale Saints",
+					"album_count": 3
+				},
+				{
+					"name": "The Verve",
+					"album_count": 2
+				},
+				{
+					"name": "Medicine",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -614,6 +754,16 @@
 					"name": "Nowhere",
 					"artist": "Ride",
 					"year": "1990"
+				},
+				{
+					"name": "Ferment",
+					"artist": "Catherine Wheel",
+					"year": "1992"
+				},
+				{
+					"name": "Spooky",
+					"artist": "Lush",
+					"year": "1992"
 				}
 			],
 			"sample_tracks": [
@@ -680,18 +830,38 @@
 				},
 				{
 					"name": "Converge",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Earth Crisis",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Integrity",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Snapcase",
+					"album_count": 3
+				},
+				{
+					"name": "Sick of It All",
+					"album_count": 5
+				},
+				{
+					"name": "Madball",
+					"album_count": 4
+				},
+				{
+					"name": "Strife",
+					"album_count": 3
+				},
+				{
+					"name": "Agnostic Front",
+					"album_count": 2
+				},
+				{
+					"name": "Hatebreed",
 					"album_count": 1
 				}
 			],
@@ -710,6 +880,16 @@
 					"name": "Destroy the Machines",
 					"artist": "Earth Crisis",
 					"year": "1995"
+				},
+				{
+					"name": "Scratch the Surface",
+					"artist": "Sick of It All",
+					"year": "1994"
+				},
+				{
+					"name": "Set It Off",
+					"artist": "Madball",
+					"year": "1994"
 				}
 			],
 			"sample_tracks": [
@@ -1062,23 +1242,43 @@
 			"top_artists": [
 				{
 					"name": "Paul van Dyk",
+					"album_count": 4
+				},
+				{
+					"name": "Tiësto",
 					"album_count": 3
 				},
 				{
-					"name": "Ti\u00ebsto",
-					"album_count": 2
+					"name": "Sven Väth",
+					"album_count": 5
 				},
 				{
-					"name": "Armin van Buuren",
+					"name": "Robert Miles",
 					"album_count": 2
 				},
 				{
 					"name": "Ferry Corsten",
+					"album_count": 4
+				},
+				{
+					"name": "Armin van Buuren",
+					"album_count": 3
+				},
+				{
+					"name": "BT",
+					"album_count": 4
+				},
+				{
+					"name": "Chicane",
 					"album_count": 2
 				},
 				{
-					"name": "ATB",
-					"album_count": 1
+					"name": "Paul Oakenfold",
+					"album_count": 3
+				},
+				{
+					"name": "Astral Projection",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -1088,14 +1288,24 @@
 					"year": "1996"
 				},
 				{
-					"name": "In My Memory",
-					"artist": "Ti\u00ebsto",
-					"year": "2001"
+					"name": "Dreamland",
+					"artist": "Robert Miles",
+					"year": "1996"
 				},
 				{
-					"name": "Movinmelody",
-					"artist": "ATB",
-					"year": "1999"
+					"name": "Accident in Paradise",
+					"artist": "Sven Väth",
+					"year": "1992"
+				},
+				{
+					"name": "Ima",
+					"artist": "BT",
+					"year": "1995"
+				},
+				{
+					"name": "Trust in Trance",
+					"artist": "Astral Projection",
+					"year": "1996"
 				}
 			],
 			"sample_tracks": [
@@ -1114,7 +1324,7 @@
 				},
 				{
 					"name": "Roni Size",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "LTJ Bukem",
@@ -1126,7 +1336,27 @@
 				},
 				{
 					"name": "4 Hero",
+					"album_count": 3
+				},
+				{
+					"name": "Bad Company UK",
 					"album_count": 1
+				},
+				{
+					"name": "Adam F",
+					"album_count": 2
+				},
+				{
+					"name": "Ed Rush",
+					"album_count": 3
+				},
+				{
+					"name": "Optical",
+					"album_count": 3
+				},
+				{
+					"name": "Grooverider",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -1144,6 +1374,16 @@
 					"name": "Modus Operandi",
 					"artist": "Photek",
 					"year": "1997"
+				},
+				{
+					"name": "Wormhole",
+					"artist": "Ed Rush & Optical",
+					"year": "1998"
+				},
+				{
+					"name": "Logical Progression",
+					"artist": "LTJ Bukem",
+					"year": "1996"
 				}
 			],
 			"sample_tracks": [
@@ -1158,23 +1398,43 @@
 			"top_artists": [
 				{
 					"name": "Goldie",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Shy FX",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Omni Trio",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Congo Natty",
-					"album_count": 2
+					"album_count": 4
+				},
+				{
+					"name": "LTJ Bukem",
+					"album_count": 4
+				},
+				{
+					"name": "Roni Size",
+					"album_count": 3
 				},
 				{
 					"name": "DJ Zinc",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Photek",
+					"album_count": 2
+				},
+				{
+					"name": "Source Direct",
+					"album_count": 2
+				},
+				{
+					"name": "4hero",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -1184,14 +1444,24 @@
 					"year": "1995"
 				},
 				{
+					"name": "New Forms",
+					"artist": "Roni Size / Reprazent",
+					"year": "1997"
+				},
+				{
+					"name": "Logical Progression",
+					"artist": "LTJ Bukem",
+					"year": "1996"
+				},
+				{
 					"name": "Don't Hold Back",
 					"artist": "Shy FX",
 					"year": "1995"
 				},
 				{
-					"name": "Volume 1",
-					"artist": "Omni Trio",
-					"year": "1994"
+					"name": "Modus Operandi",
+					"artist": "Photek",
+					"year": "1997"
 				}
 			],
 			"sample_tracks": [
@@ -1205,41 +1475,71 @@
 		"trip hop": {
 			"top_artists": [
 				{
-					"name": "Portishead",
-					"album_count": 3
+					"name": "Massive Attack",
+					"album_count": 5
 				},
 				{
-					"name": "Massive Attack",
-					"album_count": 3
+					"name": "Portishead",
+					"album_count": 4
 				},
 				{
 					"name": "Tricky",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "DJ Shadow",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Morcheeba",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Nightmares on Wax",
+					"album_count": 4
+				},
+				{
+					"name": "Sneaker Pimps",
+					"album_count": 2
+				},
+				{
+					"name": "Archive",
+					"album_count": 2
+				},
+				{
+					"name": "Hooverphonic",
+					"album_count": 2
+				},
+				{
+					"name": "Lamb",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
+				{
+					"name": "Blue Lines",
+					"artist": "Massive Attack",
+					"year": "1991"
+				},
+				{
+					"name": "Mezzanine",
+					"artist": "Massive Attack",
+					"year": "1998"
+				},
 				{
 					"name": "Dummy",
 					"artist": "Portishead",
 					"year": "1994"
 				},
 				{
+					"name": "Maxinquaye",
+					"artist": "Tricky",
+					"year": "1995"
+				},
+				{
 					"name": "Endtroducing.....",
 					"artist": "DJ Shadow",
 					"year": "1996"
-				},
-				{
-					"name": "Mezzanine",
-					"artist": "Massive Attack",
-					"year": "1998"
 				}
 			],
 			"sample_tracks": [
@@ -1254,23 +1554,43 @@
 			"top_artists": [
 				{
 					"name": "Aphex Twin",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Autechre",
-					"album_count": 3
+					"album_count": 10
 				},
 				{
 					"name": "Boards of Canada",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Squarepusher",
-					"album_count": 2
+					"album_count": 7
 				},
 				{
-					"name": "\u00b5-Ziq",
-					"album_count": 1
+					"name": "µ-Ziq",
+					"album_count": 6
+				},
+				{
+					"name": "The Orb",
+					"album_count": 5
+				},
+				{
+					"name": "Plaid",
+					"album_count": 4
+				},
+				{
+					"name": "Mouse on Mars",
+					"album_count": 5
+				},
+				{
+					"name": "Luke Vibert",
+					"album_count": 4
+				},
+				{
+					"name": "LFO",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -1288,6 +1608,16 @@
 					"name": "Tri Repetae",
 					"artist": "Autechre",
 					"year": "1995"
+				},
+				{
+					"name": "Richard D. James Album",
+					"artist": "Aphex Twin",
+					"year": "1996"
+				},
+				{
+					"name": "Feed Me Weird Things",
+					"artist": "Squarepusher",
+					"year": "1996"
 				}
 			],
 			"sample_tracks": [
@@ -1594,7 +1924,7 @@
 				},
 				{
 					"name": "Snap!",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Haddaway",
@@ -1602,14 +1932,39 @@
 				},
 				{
 					"name": "Culture Beat",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Corona",
-					"album_count": 1
+					"album_count": 2
+				},
+				{
+					"name": "Ace of Base",
+					"album_count": 3
+				},
+				{
+					"name": "La Bouche",
+					"album_count": 2
+				},
+				{
+					"name": "Real McCoy",
+					"album_count": 2
+				},
+				{
+					"name": "Captain Hollywood Project",
+					"album_count": 2
+				},
+				{
+					"name": "E-Type",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
+				{
+					"name": "The Sign",
+					"artist": "Ace of Base",
+					"year": "1993"
+				},
 				{
 					"name": "Get Ready!",
 					"artist": "2 Unlimited",
@@ -1624,6 +1979,11 @@
 					"name": "Serenity",
 					"artist": "Culture Beat",
 					"year": "1993"
+				},
+				{
+					"name": "Sweet Dreams",
+					"artist": "La Bouche",
+					"year": "1995"
 				}
 			],
 			"sample_tracks": [
@@ -1832,23 +2192,43 @@
 			"top_artists": [
 				{
 					"name": "Wu-Tang Clan",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Nas",
-					"album_count": 3
-				},
-				{
-					"name": "The Notorious B.I.G.",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "2Pac",
-					"album_count": 2
+					"album_count": 6
+				},
+				{
+					"name": "The Notorious B.I.G.",
+					"album_count": 4
 				},
 				{
 					"name": "A Tribe Called Quest",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Jay-Z",
+					"album_count": 4
+				},
+				{
+					"name": "OutKast",
+					"album_count": 4
+				},
+				{
+					"name": "Mobb Deep",
+					"album_count": 3
+				},
+				{
+					"name": "Dr. Dre",
+					"album_count": 3
+				},
+				{
+					"name": "Snoop Dogg",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -1863,9 +2243,19 @@
 					"year": "1994"
 				},
 				{
+					"name": "The Don Killuminati: The 7 Day Theory",
+					"artist": "2Pac",
+					"year": "1996"
+				},
+				{
 					"name": "Ready to Die",
 					"artist": "The Notorious B.I.G.",
 					"year": "1994"
+				},
+				{
+					"name": "The Low End Theory",
+					"artist": "A Tribe Called Quest",
+					"year": "1991"
 				}
 			],
 			"sample_tracks": [
@@ -1880,30 +2270,50 @@
 			"top_artists": [
 				{
 					"name": "Gang Starr",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Pete Rock & CL Smooth",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Black Moon",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Jeru the Damaja",
-					"album_count": 2
+					"album_count": 5
+				},
+				{
+					"name": "The Roots",
+					"album_count": 4
+				},
+				{
+					"name": "Redman",
+					"album_count": 4
+				},
+				{
+					"name": "KRS-One",
+					"album_count": 6
 				},
 				{
 					"name": "O.C.",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Big L",
+					"album_count": 2
+				},
+				{
+					"name": "Showbiz & AG",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
 				{
-					"name": "Daily Operation",
+					"name": "Moment of Truth",
 					"artist": "Gang Starr",
-					"year": "1992"
+					"year": "1998"
 				},
 				{
 					"name": "Mecca and the Soul Brother",
@@ -1913,6 +2323,16 @@
 				{
 					"name": "The Sun Rises in the East",
 					"artist": "Jeru the Damaja",
+					"year": "1994"
+				},
+				{
+					"name": "Enta da Stage",
+					"artist": "Black Moon",
+					"year": "1993"
+				},
+				{
+					"name": "Word...Life",
+					"artist": "O.C.",
 					"year": "1994"
 				}
 			],
@@ -1976,23 +2396,43 @@
 			"top_artists": [
 				{
 					"name": "Dr. Dre",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Snoop Dogg",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Warren G",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Nate Dogg",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "DJ Quik",
-					"album_count": 1
+					"album_count": 8
+				},
+				{
+					"name": "Tha Dogg Pound",
+					"album_count": 4
+				},
+				{
+					"name": "Eazy-E",
+					"album_count": 3
+				},
+				{
+					"name": "Above the Law",
+					"album_count": 5
+				},
+				{
+					"name": "Kurupt",
+					"album_count": 2
+				},
+				{
+					"name": "Daz Dillinger",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -2010,6 +2450,16 @@
 					"name": "Regulate...G Funk Era",
 					"artist": "Warren G",
 					"year": "1994"
+				},
+				{
+					"name": "G-Funk Classics, Vol. 1 & 2",
+					"artist": "Nate Dogg",
+					"year": "1998"
+				},
+				{
+					"name": "Safe + Sound",
+					"artist": "DJ Quik",
+					"year": "1995"
 				}
 			],
 			"sample_tracks": [
@@ -3604,23 +4054,43 @@
 			"top_artists": [
 				{
 					"name": "Mayhem",
-					"album_count": 3
+					"album_count": 2
 				},
 				{
 					"name": "Darkthrone",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Burzum",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Emperor",
+					"album_count": 3
+				},
+				{
+					"name": "Immortal",
+					"album_count": 5
+				},
+				{
+					"name": "Enslaved",
+					"album_count": 5
+				},
+				{
+					"name": "Satyricon",
+					"album_count": 4
+				},
+				{
+					"name": "Dissection",
 					"album_count": 2
 				},
 				{
-					"name": "Bathory",
-					"album_count": 1
+					"name": "Cradle of Filth",
+					"album_count": 4
+				},
+				{
+					"name": "Dimmu Borgir",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -3638,6 +4108,16 @@
 					"name": "In the Nightside Eclipse",
 					"artist": "Emperor",
 					"year": "1994"
+				},
+				{
+					"name": "Pure Holocaust",
+					"artist": "Immortal",
+					"year": "1993"
+				},
+				{
+					"name": "Storm of the Light's Bane",
+					"artist": "Dissection",
+					"year": "1995"
 				}
 			],
 			"sample_tracks": [
@@ -3652,23 +4132,43 @@
 			"top_artists": [
 				{
 					"name": "Death",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Cannibal Corpse",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Morbid Angel",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Obituary",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Deicide",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Carcass",
+					"album_count": 4
+				},
+				{
+					"name": "At the Gates",
+					"album_count": 4
+				},
+				{
+					"name": "In Flames",
+					"album_count": 4
+				},
+				{
+					"name": "Dark Tranquillity",
+					"album_count": 4
+				},
+				{
+					"name": "Entombed",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -3686,6 +4186,16 @@
 					"name": "Covenant",
 					"artist": "Morbid Angel",
 					"year": "1993"
+				},
+				{
+					"name": "Slaughter of the Soul",
+					"artist": "At the Gates",
+					"year": "1995"
+				},
+				{
+					"name": "Left Hand Path",
+					"artist": "Entombed",
+					"year": "1990"
 				}
 			],
 			"sample_tracks": [
@@ -3700,11 +4210,11 @@
 			"top_artists": [
 				{
 					"name": "Cathedral",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Electric Wizard",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Sleep",
@@ -3712,11 +4222,31 @@
 				},
 				{
 					"name": "My Dying Bride",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Paradise Lost",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Anathema",
+					"album_count": 5
+				},
+				{
+					"name": "Type O Negative",
+					"album_count": 4
+				},
+				{
+					"name": "Saint Vitus",
+					"album_count": 4
+				},
+				{
+					"name": "Candlemass",
+					"album_count": 3
+				},
+				{
+					"name": "Katatonia",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -3734,6 +4264,16 @@
 					"name": "Turn Loose the Swans",
 					"artist": "My Dying Bride",
 					"year": "1993"
+				},
+				{
+					"name": "August and Everything After",
+					"artist": "Paradise Lost",
+					"year": "1991"
+				},
+				{
+					"name": "Bloody Kisses",
+					"artist": "Type O Negative",
+					"year": "1993"
 				}
 			],
 			"sample_tracks": [
@@ -3748,23 +4288,43 @@
 			"top_artists": [
 				{
 					"name": "Korn",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Deftones",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Limp Bizkit",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "System of a Down",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Slipknot",
-					"album_count": 1
+					"album_count": 2
+				},
+				{
+					"name": "Coal Chamber",
+					"album_count": 2
+				},
+				{
+					"name": "Static-X",
+					"album_count": 2
+				},
+				{
+					"name": "Incubus",
+					"album_count": 3
+				},
+				{
+					"name": "P.O.D.",
+					"album_count": 3
+				},
+				{
+					"name": "Orgy",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -3782,6 +4342,16 @@
 					"name": "Slipknot",
 					"artist": "Slipknot",
 					"year": "1999"
+				},
+				{
+					"name": "Significant Other",
+					"artist": "Limp Bizkit",
+					"year": "1999"
+				},
+				{
+					"name": "System of a Down",
+					"artist": "System of a Down",
+					"year": "1998"
 				}
 			],
 			"sample_tracks": [
@@ -4470,23 +5040,43 @@
 			"top_artists": [
 				{
 					"name": "Paco de Luc\u00eda",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Tomatito",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Vicente Amigo",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Enrique Morente",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Diego El Cigala",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Ni\u00f1a Pastori",
+					"album_count": 3
+				},
+				{
+					"name": "Ketama",
+					"album_count": 5
+				},
+				{
+					"name": "Pata Negra",
+					"album_count": 2
+				},
+				{
+					"name": "Duquende",
+					"album_count": 3
+				},
+				{
+					"name": "Camar\u00f3n de la Isla",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -4504,6 +5094,16 @@
 					"name": "De Mi Coraz\u00f3n al Aire",
 					"artist": "Vicente Amigo",
 					"year": "1991"
+				},
+				{
+					"name": "Omega",
+					"artist": "Enrique Morente",
+					"year": "1996"
+				},
+				{
+					"name": "Entre dos aguas",
+					"artist": "Paco de Luc\u00eda",
+					"year": "1973"
 				}
 			],
 			"sample_tracks": [
@@ -4520,23 +5120,43 @@
 			"top_artists": [
 				{
 					"name": "Bj\u00f6rk",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Radiohead",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Aphex Twin",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Portishead",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Talk Talk",
-					"album_count": 1
+					"album_count": 2
+				},
+				{
+					"name": "Sonic Youth",
+					"album_count": 5
+				},
+				{
+					"name": "John Zorn",
+					"album_count": 12
+				},
+				{
+					"name": "Diamanda Gal\u00e1s",
+					"album_count": 4
+				},
+				{
+					"name": "Nurse With Wound",
+					"album_count": 6
+				},
+				{
+					"name": "Merzbow",
+					"album_count": 20
 				}
 			],
 			"top_albums": [
@@ -4554,6 +5174,16 @@
 					"name": "Spirit of Eden",
 					"artist": "Talk Talk",
 					"year": "1988"
+				},
+				{
+					"name": "Selected Ambient Works Volume II",
+					"artist": "Aphex Twin",
+					"year": "1994"
+				},
+				{
+					"name": "Dummy",
+					"artist": "Portishead",
+					"year": "1994"
 				}
 			],
 			"sample_tracks": [
@@ -4808,26 +5438,51 @@
 			"top_artists": [
 				{
 					"name": "Philip Glass",
-					"album_count": 5
+					"album_count": 8
 				},
 				{
 					"name": "Steve Reich",
-					"album_count": 4
+					"album_count": 6
 				},
 				{
 					"name": "Arvo P\u00e4rt",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "John Adams",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Michael Nyman",
-					"album_count": 3
+					"album_count": 6
+				},
+				{
+					"name": "Terry Riley",
+					"album_count": 4
+				},
+				{
+					"name": "Max Richter",
+					"album_count": 2
+				},
+				{
+					"name": "Gavin Bryars",
+					"album_count": 4
+				},
+				{
+					"name": "Wim Mertens",
+					"album_count": 6
+				},
+				{
+					"name": "La Monte Young",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
+				{
+					"name": "The Piano",
+					"artist": "Michael Nyman",
+					"year": "1993"
+				},
 				{
 					"name": "Heroes Symphony",
 					"artist": "Philip Glass",
@@ -4839,9 +5494,14 @@
 					"year": "1995"
 				},
 				{
-					"name": "The Piano",
-					"artist": "Michael Nyman",
+					"name": "Jesus' Blood Never Failed Me Yet",
+					"artist": "Gavin Bryars",
 					"year": "1993"
+				},
+				{
+					"name": "Naqoyqatsi",
+					"artist": "Philip Glass",
+					"year": "2002"
 				}
 			],
 			"sample_tracks": [
@@ -4856,23 +5516,43 @@
 			"top_artists": [
 				{
 					"name": "Arvo P\u00e4rt",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Henryk G\u00f3recki",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "John Adams",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Philip Glass",
-					"album_count": 2
+					"album_count": 7
 				},
 				{
 					"name": "Steve Reich",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Krzysztof Penderecki",
+					"album_count": 4
+				},
+				{
+					"name": "Giya Kancheli",
+					"album_count": 5
+				},
+				{
+					"name": "Alfred Schnittke",
+					"album_count": 6
+				},
+				{
+					"name": "Einojuhani Rautavaara",
+					"album_count": 4
+				},
+				{
+					"name": "Sofia Gubaidulina",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -4890,6 +5570,16 @@
 					"name": "The Hours",
 					"artist": "Philip Glass",
 					"year": "1998"
+				},
+				{
+					"name": "Angel of Light",
+					"artist": "Einojuhani Rautavaara",
+					"year": "1994"
+				},
+				{
+					"name": "Vasks: Distant Light",
+					"artist": "P\u0113teris Vasks",
+					"year": "1997"
 				}
 			],
 			"sample_tracks": [
