@@ -770,6 +770,46 @@
 				}
 			]
 		},
+		"synth-pop": {
+			"top_artists": [
+				{
+					"name": "The Weeknd",
+					"album_count": 2
+				},
+				{
+					"name": "Magdalena Bay",
+					"album_count": 2
+				},
+				{
+					"name": "Nation of Language",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "After Hours",
+					"artist": "The Weeknd",
+					"year": "2020"
+				},
+				{
+					"name": "Mercurial World",
+					"artist": "Magdalena Bay",
+					"year": "2021"
+				},
+				{
+					"name": "A Way Forward",
+					"artist": "Nation of Language",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blinding Lights",
+					"artist": "The Weeknd",
+					"album": "After Hours"
+				}
+			]
+		},
 		"eurodance": {
 			"top_artists": [
 				{
@@ -1657,6 +1697,50 @@
 					"name": "Lorem Ipsum (Arctic Anthem)",
 					"artist": "Anamanaguchi",
 					"album": "[USA]"
+				}
+			]
+		},
+		"breakbeat": {
+			"top_artists": [
+				{
+					"name": "Overmono",
+					"album_count": 2
+				},
+				{
+					"name": "Bicep",
+					"album_count": 1
+				},
+				{
+					"name": "Skee Mask",
+					"album_count": 1
+				},
+				{
+					"name": "Special Request",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Good Lies",
+					"artist": "Overmono",
+					"year": "2023"
+				},
+				{
+					"name": "Isles",
+					"artist": "Bicep",
+					"year": "2021"
+				},
+				{
+					"name": "Pool",
+					"artist": "Skee Mask",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "So U Kno",
+					"artist": "Overmono",
+					"album": "Good Lies"
 				}
 			]
 		}

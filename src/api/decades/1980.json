@@ -1249,54 +1249,6 @@
 					"album": "Blue Lines"
 				}
 			]
-		},
-		"breakbeat": {
-			"top_artists": [
-				{
-					"name": "The Prodigy",
-					"album_count": 2
-				},
-				{
-					"name": "The Chemical Brothers",
-					"album_count": 1
-				},
-				{
-					"name": "Orbital",
-					"album_count": 1
-				},
-				{
-					"name": "Leftfield",
-					"album_count": 1
-				},
-				{
-					"name": "Meat Beat Manifesto",
-					"album_count": 1
-				}
-			],
-			"top_albums": [
-				{
-					"name": "Experience",
-					"artist": "The Prodigy",
-					"year": "1992"
-				},
-				{
-					"name": "Exit Planet Dust",
-					"artist": "The Chemical Brothers",
-					"year": "1995"
-				},
-				{
-					"name": "Storm the Studio",
-					"artist": "Meat Beat Manifesto",
-					"year": "1989"
-				}
-			],
-			"sample_tracks": [
-				{
-					"name": "Out of Space",
-					"artist": "The Prodigy",
-					"album": "Experience"
-				}
-			]
 		}
 	},
 	"Hip-Hop & Groove": {

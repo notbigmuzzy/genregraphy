@@ -770,6 +770,50 @@
 				}
 			]
 		},
+		"synth-pop": {
+			"top_artists": [
+				{
+					"name": "CHVRCHES",
+					"album_count": 3
+				},
+				{
+					"name": "Future Islands",
+					"album_count": 2
+				},
+				{
+					"name": "Purity Ring",
+					"album_count": 2
+				},
+				{
+					"name": "M83",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Bones of What You Believe",
+					"artist": "CHVRCHES",
+					"year": "2013"
+				},
+				{
+					"name": "Singles",
+					"artist": "Future Islands",
+					"year": "2014"
+				},
+				{
+					"name": "Hurry Up, We're Dreaming",
+					"artist": "M83",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Mother We Share",
+					"artist": "CHVRCHES",
+					"album": "The Bones of What You Believe"
+				}
+			]
+		},
 		"eurodance": {
 			"top_artists": [
 				{
@@ -1662,6 +1706,50 @@
 					"name": "Prom Night",
 					"artist": "Anamanaguchi",
 					"album": "Endless Fantasy"
+				}
+			]
+		},
+		"breakbeat": {
+			"top_artists": [
+				{
+					"name": "The Prodigy",
+					"album_count": 2
+				},
+				{
+					"name": "The Chemical Brothers",
+					"album_count": 2
+				},
+				{
+					"name": "Bicep",
+					"album_count": 1
+				},
+				{
+					"name": "Skee Mask",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Day Is My Enemy",
+					"artist": "The Prodigy",
+					"year": "2015"
+				},
+				{
+					"name": "No Geography",
+					"artist": "The Chemical Brothers",
+					"year": "2019"
+				},
+				{
+					"name": "Compro",
+					"artist": "Skee Mask",
+					"year": "2018"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Glue",
+					"artist": "Bicep",
+					"album": "Bicep"
 				}
 			]
 		}

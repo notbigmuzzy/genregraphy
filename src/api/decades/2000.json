@@ -770,6 +770,50 @@
 				}
 			]
 		},
+		"synth-pop": {
+			"top_artists": [
+				{
+					"name": "Ladytron",
+					"album_count": 4
+				},
+				{
+					"name": "La Roux",
+					"album_count": 1
+				},
+				{
+					"name": "Cut Copy",
+					"album_count": 2
+				},
+				{
+					"name": "Goldfrapp",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Witching Hour",
+					"artist": "Ladytron",
+					"year": "2005"
+				},
+				{
+					"name": "La Roux",
+					"artist": "La Roux",
+					"year": "2009"
+				},
+				{
+					"name": "In Ghost Colours",
+					"artist": "Cut Copy",
+					"year": "2008"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bulletproof",
+					"artist": "La Roux",
+					"album": "La Roux"
+				}
+			]
+		},
 		"eurodance": {
 			"top_artists": [
 				{
