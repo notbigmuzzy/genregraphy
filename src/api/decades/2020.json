@@ -2419,6 +2419,41 @@
 				}
 			]
 		},
+		"disco": {
+			"top_artists": [
+				{
+					"name": "Dua Lipa",
+					"album_count": 2
+				},
+				{
+					"name": "Jessie Ware",
+					"album_count": 2
+				},
+				{
+					"name": "Kylie Minogue",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Future Nostalgia",
+					"artist": "Dua Lipa",
+					"year": "2020"
+				},
+				{
+					"name": "What's Your Pleasure?",
+					"artist": "Jessie Ware",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Levitating",
+					"artist": "Dua Lipa",
+					"album": "Future Nostalgia"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

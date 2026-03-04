@@ -2414,6 +2414,41 @@
 				}
 			]
 		},
+		"disco": {
+			"top_artists": [
+				{
+					"name": "Daft Punk",
+					"album_count": 2
+				},
+				{
+					"name": "Scissor Sisters",
+					"album_count": 2
+				},
+				{
+					"name": "Madonna",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Discovery",
+					"artist": "Daft Punk",
+					"year": "2001"
+				},
+				{
+					"name": "Confessions on a Dance Floor",
+					"artist": "Madonna",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "One More Time",
+					"artist": "Daft Punk",
+					"album": "Discovery"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

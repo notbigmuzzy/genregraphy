@@ -2260,6 +2260,32 @@
 				}
 			]
 		},
+		"disco": {
+			"top_artists": [
+				{
+					"name": "Jamiroquai",
+					"album_count": 3
+				},
+				{
+					"name": "Brand New Heavies",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Travelling Without Moving",
+					"artist": "Jamiroquai",
+					"year": "1996"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Cosmic Girl",
+					"artist": "Jamiroquai",
+					"album": "Travelling Without Moving"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

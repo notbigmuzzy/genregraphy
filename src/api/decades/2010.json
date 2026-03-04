@@ -2442,6 +2442,41 @@
 				}
 			]
 		},
+		"disco": {
+			"top_artists": [
+				{
+					"name": "Daft Punk",
+					"album_count": 1
+				},
+				{
+					"name": "Nile Rodgers",
+					"album_count": 1
+				},
+				{
+					"name": "Todd Terje",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Random Access Memories",
+					"artist": "Daft Punk",
+					"year": "2013"
+				},
+				{
+					"name": "It's Album Time",
+					"artist": "Todd Terje",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Get Lucky",
+					"artist": "Daft Punk",
+					"album": "Random Access Memories"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

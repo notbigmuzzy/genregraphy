@@ -1653,6 +1653,41 @@
 				}
 			]
 		},
+		"disco": {
+			"top_artists": [
+				{
+					"name": "Chic",
+					"album_count": 2
+				},
+				{
+					"name": "Diana Ross",
+					"album_count": 1
+				},
+				{
+					"name": "Kool & the Gang",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Diana",
+					"artist": "Diana Ross",
+					"year": "1980"
+				},
+				{
+					"name": "Celebrate!",
+					"artist": "Kool & the Gang",
+					"year": "1980"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Upside Down",
+					"artist": "Diana Ross",
+					"album": "Diana"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
