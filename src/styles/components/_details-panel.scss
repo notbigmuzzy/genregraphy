@@ -5,7 +5,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 20px 80px;
+    padding: 10px 70px;
     background-color: #41585d;
     background-image: radial-gradient(#ffffff2e 1px, transparent 1px);
     background-size: 30px 30px;
@@ -25,6 +25,8 @@
         transition: background-color 0.3s ease;
         border: none;
         border-radius: 0;
+        font-size: 14px;
+        line-height: 1;
 
         &:hover {
             background-color: rgba(255, 255, 255, 0.15);
@@ -112,6 +114,19 @@
 
         iframe {
             filter: grayscale(1) sepia(0.3);
+        }
+    }
+
+    .video-iframe-wrap {
+        position: relative;
+        width: 100%;
+        max-width: 860px;
+        height: 0;
+        border-radius: 10px;
+        background-color: #fff;
+
+        &.is-open {
+            min-height: 500px;
         }
     }
 

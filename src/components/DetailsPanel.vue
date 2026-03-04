@@ -34,13 +34,15 @@
                     <h3>Top Albums — {{ decade }}s</h3>
                     <ul>
                         <li v-for="album in genreData.top_albums" :key="album.name + album.artist">
-                            <button>
+                            <button @click="openYoutube(album.name, album.artist)" :class="{ 'is-active': activeYoutubeAlbum === album.name }">
                                 <em>{{ album.name }}</em> — {{ album.artist }}
                                 <span class="details-count">({{ album.year }})</span>
+                                <span v-if="activeYoutubeAlbum === album.name"> ✕</span>
                             </button>
                         </li>
                     </ul>
                 </div>
+                <div class="video-iframe-wrap" :class="{ 'is-open': youtubeOpen }" ref="youtubeContainer"></div>
                 <hr />
                 <div class="detailspanel-section preview">
                     <h3>Sample tracks</h3>
@@ -153,6 +155,42 @@ const wikiLoading = ref(false)
 const wikiContainer = ref(null)
 const activeWikiArtist = ref(null)
 const artistLinks = ref({})
+
+const youtubeOpen = ref(false)
+const youtubeContainer = ref(null)
+const activeYoutubeAlbum = ref(null)
+
+const closeYoutube = () => {
+	youtubeContainer.value.innerHTML = ''
+	youtubeOpen.value = false
+	activeYoutubeAlbum.value = null
+}
+
+const openYoutube = (albumName, artist) => {
+	if (activeYoutubeAlbum.value === albumName) {
+		closeYoutube()
+		return
+	}
+
+	activeYoutubeAlbum.value = albumName
+	youtubeOpen.value = true
+
+	setTimeout(() => {
+		const scrollParent = youtubeContainer.value?.closest('.details-area')
+		const albumsSection = scrollParent?.querySelector('.detailspanel-section.albums ul')
+		if (scrollParent && albumsSection) {
+			scrollParent.scrollTo({ top: albumsSection.offsetTop - 30, behavior: 'smooth' })
+		}
+	}, 50)
+
+	const query = encodeURIComponent(`${albumName} ${artist}`)
+	const iframe = document.createElement('iframe')
+	iframe.src = `https://www.bing.com/videos/riverview/relatedvideo?q=${query}`
+	iframe.style.cssText = 'width:100%;height:500px;border:none;'
+	iframe.allowFullscreen = true
+	youtubeContainer.value.innerHTML = ''
+	youtubeContainer.value.appendChild(iframe)
+}
 
 const fetchWikipediaLink = async (artistName) => {
     if (artistLinks.value[artistName]) return;
