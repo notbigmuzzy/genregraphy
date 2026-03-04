@@ -3597,6 +3597,45 @@
 		}
 	},
 	"The Metal Peaks": {
+		"nu metal": {
+			"top_artists": [
+				{
+					"name": "Korn",
+					"album_count": 1
+				},
+				{
+					"name": "Deftones",
+					"album_count": 1
+				},
+				{
+					"name": "Nova Twins",
+					"album_count": 1
+				},
+				{
+					"name": "Spiritbox",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Requiem",
+					"artist": "Korn",
+					"year": "2022"
+				},
+				{
+					"name": "Ohms",
+					"artist": "Deftones",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Start the Healing",
+					"artist": "Korn",
+					"album": "Requiem"
+				}
+			]
+		},
 		"metal": {
 			"top_artists": [
 				{

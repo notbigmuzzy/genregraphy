@@ -3623,6 +3623,45 @@
 		}
 	},
 	"The Metal Peaks": {
+		"nu metal": {
+			"top_artists": [
+				{
+					"name": "Linkin Park",
+					"album_count": 2
+				},
+				{
+					"name": "Korn",
+					"album_count": 3
+				},
+				{
+					"name": "Deftones",
+					"album_count": 2
+				},
+				{
+					"name": "Bring Me the Horizon",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Living Things",
+					"artist": "Linkin Park",
+					"year": "2012"
+				},
+				{
+					"name": "The Serenity of Suffering",
+					"artist": "Korn",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Burn It Down",
+					"artist": "Linkin Park",
+					"album": "The Living Things"
+				}
+			]
+		},
 		"metal": {
 			"top_artists": [
 				{
