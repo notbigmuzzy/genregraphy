@@ -7,7 +7,7 @@ This is an interactive music genre visualization tool built with Python and D3.j
 ### Check it out at:
 https://notbigmuzzy.github.io/genregraphy/
 
---
+---
 
 ## Tech Stack
 - **Vite + Vue 3** — component architecture and state
@@ -23,5 +23,8 @@ Click any genre territory to open a details panel with deeper information about 
 
 The underlying data was assembled from **MusicBrainz** and **Last.fm** via a set of Python scraping and processing scripts.
 
+---
 
+<img width="1304" height="802" alt="image" src="https://github.com/user-attachments/assets/609111b2-0b0b-4881-a622-256ef7e1a8ef" />
 
+---
