@@ -962,6 +962,45 @@
 				}
 			]
 		},
+		"jungle": {
+			"top_artists": [
+				{
+					"name": "Nia Archives",
+					"album_count": 3
+				},
+				{
+					"name": "Coco Bryce",
+					"album_count": 2
+				},
+				{
+					"name": "Tim Reaper",
+					"album_count": 2
+				},
+				{
+					"name": "Sherelle",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Silence Is Loud",
+					"artist": "Nia Archives",
+					"year": "2024"
+				},
+				{
+					"name": "City 2 City",
+					"artist": "Coco Bryce",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Forbidden Feelingz",
+					"artist": "Nia Archives",
+					"album": "Forbidden Feelingz EP"
+				}
+			]
+		},
 		"ambient": {
 			"top_artists": [
 				{
@@ -1492,6 +1531,54 @@
 		}
 	},
 	"Hip-Hop & Groove": {
+		"g-funk": {
+			"top_artists": [
+				{
+					"name": "Dâm-Funk",
+					"album_count": 1
+				},
+				{
+					"name": "Snoop Dogg",
+					"album_count": 1
+				},
+				{
+					"name": "Kokane",
+					"album_count": 1
+				},
+				{
+					"name": "Warren G",
+					"album_count": 1
+				},
+				{
+					"name": "DJ Quik",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Above the Fray",
+					"artist": "Dâm-Funk",
+					"year": "2021"
+				},
+				{
+					"name": "From tha Streets 2 tha Suites",
+					"artist": "Snoop Dogg",
+					"year": "2021"
+				},
+				{
+					"name": "Finger Roll",
+					"artist": "Kokane",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "City Stars",
+					"artist": "Dâm-Funk",
+					"album": "Above the Fray"
+				}
+			]
+		},
 		"hip hop": {
 			"top_artists": [
 				{

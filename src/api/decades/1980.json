@@ -2074,6 +2074,54 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"bluegrass": {
+			"top_artists": [
+				{
+					"name": "Alison Krauss",
+					"album_count": 2
+				},
+				{
+					"name": "Béla Fleck",
+					"album_count": 2
+				},
+				{
+					"name": "The Johnson Mountain Boys",
+					"album_count": 1
+				},
+				{
+					"name": "Hot Rize",
+					"album_count": 1
+				},
+				{
+					"name": "Tony Rice",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Too Late to Cry",
+					"artist": "Alison Krauss",
+					"year": "1987"
+				},
+				{
+					"name": "Drive",
+					"artist": "Béla Fleck",
+					"year": "1988"
+				},
+				{
+					"name": "Walls of Time",
+					"artist": "Tony Rice",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Too Late to Cry",
+					"artist": "Alison Krauss",
+					"album": "Too Late to Cry"
+				}
+			]
+		},
 		"folk": {
 			"top_artists": [
 				{

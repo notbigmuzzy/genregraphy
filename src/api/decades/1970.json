@@ -1450,6 +1450,54 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"bluegrass": {
+			"top_artists": [
+				{
+					"name": "New Grass Revival",
+					"album_count": 2
+				},
+				{
+					"name": "The Seldom Scene",
+					"album_count": 2
+				},
+				{
+					"name": "Tony Rice",
+					"album_count": 1
+				},
+				{
+					"name": "J.D. Crowe & The New South",
+					"album_count": 1
+				},
+				{
+					"name": "The Country Gentlemen",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fly Through the Country",
+					"artist": "New Grass Revival",
+					"year": "1975"
+				},
+				{
+					"name": "Act I",
+					"artist": "The Seldom Scene",
+					"year": "1972"
+				},
+				{
+					"name": "Manzanita",
+					"artist": "Tony Rice",
+					"year": "1979"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Fly Through the Country",
+					"artist": "New Grass Revival",
+					"album": "Fly Through the Country"
+				}
+			]
+		},
 		"folk": {
 			"top_artists": [
 				{

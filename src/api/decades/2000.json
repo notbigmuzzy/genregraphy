@@ -962,6 +962,50 @@
 				}
 			]
 		},
+		"jungle": {
+			"top_artists": [
+				{
+					"name": "Congo Natty",
+					"album_count": 2
+				},
+				{
+					"name": "Shy FX",
+					"album_count": 2
+				},
+				{
+					"name": "LTJ Bukem",
+					"album_count": 1
+				},
+				{
+					"name": "Aphrodite",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Diary of a Digital Soundboy",
+					"artist": "Shy FX",
+					"year": "2005"
+				},
+				{
+					"name": "Journey Inwards",
+					"artist": "LTJ Bukem",
+					"year": "2000"
+				},
+				{
+					"name": "Aftershock",
+					"artist": "Aphrodite",
+					"year": "2002"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Feeling U",
+					"artist": "Shy FX",
+					"album": "Diary of a Digital Soundboy"
+				}
+			]
+		},
 		"idm": {
 			"top_artists": [
 				{
@@ -1585,6 +1629,54 @@
 					"name": "In da Club",
 					"artist": "50 Cent",
 					"album": "Get Rich or Die Tryin'"
+				}
+			]
+		},
+		"g-funk": {
+			"top_artists": [
+				{
+					"name": "Dr. Dre",
+					"album_count": 2
+				},
+				{
+					"name": "Snoop Dogg",
+					"album_count": 2
+				},
+				{
+					"name": "Warren G",
+					"album_count": 1
+				},
+				{
+					"name": "DJ Quik",
+					"album_count": 1
+				},
+				{
+					"name": "Xzibit",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "2001",
+					"artist": "Dr. Dre",
+					"year": "1999"
+				},
+				{
+					"name": "The Last Meal",
+					"artist": "Snoop Dogg",
+					"year": "2000"
+				},
+				{
+					"name": "Restless",
+					"artist": "Xzibit",
+					"year": "2000"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Still D.R.E.",
+					"artist": "Dr. Dre",
+					"album": "2001"
 				}
 			]
 		},

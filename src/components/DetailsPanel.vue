@@ -31,7 +31,7 @@
                 <div class="wikipedia-iframe-wrap" :class="{ 'is-open': wikiOpen }" ref="wikiContainer"></div>
                 <hr />
                 <div class="detailspanel-section albums">
-                    <h3>Top Albums — {{ decade }}s</h3>
+                    <h3>Top Albums for {{ decade }}s</h3>
                     <ul>
                         <li v-for="album in genreData.top_albums" :key="album.name + album.artist">
                             <button @click="openYoutube(album.name, album.artist)" :class="{ 'is-active': activeYoutubeAlbum === album.name }">

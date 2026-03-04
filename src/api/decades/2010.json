@@ -962,6 +962,50 @@
 				}
 			]
 		},
+		"jungle": {
+			"top_artists": [
+				{
+					"name": "Congo Natty",
+					"album_count": 3
+				},
+				{
+					"name": "Chopstick Dubplate",
+					"album_count": 2
+				},
+				{
+					"name": "Sully",
+					"album_count": 1
+				},
+				{
+					"name": "Coco Bryce",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Jungle Revolution",
+					"artist": "Congo Natty",
+					"year": "2013"
+				},
+				{
+					"name": "Tonight",
+					"artist": "Chopstick Dubplate",
+					"year": "2015"
+				},
+				{
+					"name": "Blue Black",
+					"artist": "Sully",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "UK All Stars",
+					"artist": "Congo Natty",
+					"album": "Jungle Revolution"
+				}
+			]
+		},
 		"ambient": {
 			"top_artists": [
 				{
@@ -1492,6 +1536,54 @@
 		}
 	},
 	"Hip-Hop & Groove": {
+		"g-funk": {
+			"top_artists": [
+				{
+					"name": "Snoop Dogg",
+					"album_count": 1
+				},
+				{
+					"name": "Dâm-Funk",
+					"album_count": 1
+				},
+				{
+					"name": "Kokane",
+					"album_count": 1
+				},
+				{
+					"name": "Warren G",
+					"album_count": 1
+				},
+				{
+					"name": "DJ Quik",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "7 Days of Funk",
+					"artist": "Dâm-Funk & Snoop Dogg",
+					"year": "2013"
+				},
+				{
+					"name": "The Book of David",
+					"artist": "DJ Quik",
+					"year": "2011"
+				},
+				{
+					"name": "G-Funk Classics, Vol. 1 & 2",
+					"artist": "Kokane",
+					"year": "2010"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Faden Away",
+					"artist": "Dâm-Funk & Snoop Dogg",
+					"album": "7 Days of Funk"
+				}
+			]
+		},
 		"hip hop": {
 			"top_artists": [
 				{
