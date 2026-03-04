@@ -4,23 +4,43 @@
 			"top_artists": [
 				{
 					"name": "Led Zeppelin",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Pink Floyd",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "The Rolling Stones",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Queen",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "David Bowie",
-					"album_count": 1
+					"album_count": 6
+				},
+				{
+					"name": "Fleetwood Mac",
+					"album_count": 3
+				},
+				{
+					"name": "The Who",
+					"album_count": 3
+				},
+				{
+					"name": "Elton John",
+					"album_count": 5
+				},
+				{
+					"name": "Steely Dan",
+					"album_count": 4
+				},
+				{
+					"name": "Bruce Springsteen",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -52,22 +72,42 @@
 			"top_artists": [
 				{
 					"name": "The Ramones",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Sex Pistols",
-					"album_count": 2
+					"album_count": 1
 				},
 				{
 					"name": "The Clash",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Damned",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Television",
+					"album_count": 2
+				},
+				{
+					"name": "The Stooges",
+					"album_count": 2
+				},
+				{
+					"name": "Buzzcocks",
+					"album_count": 2
+				},
+				{
+					"name": "The Saints",
+					"album_count": 2
+				},
+				{
+					"name": "Dead Boys",
+					"album_count": 1
+				},
+				{
+					"name": "Richard Hell & The Voidoids",
 					"album_count": 1
 				}
 			],
@@ -183,23 +223,43 @@
 			"top_artists": [
 				{
 					"name": "AC/DC",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Aerosmith",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Deep Purple",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Thin Lizzy",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "UFO",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Kiss",
+					"album_count": 4
+				},
+				{
+					"name": "Van Halen",
+					"album_count": 2
+				},
+				{
+					"name": "Blue \u00d6yster Cult",
+					"album_count": 3
+				},
+				{
+					"name": "Status Quo",
+					"album_count": 3
+				},
+				{
+					"name": "Bad Company",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -279,23 +339,43 @@
 			"top_artists": [
 				{
 					"name": "Yes",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Genesis",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "King Crimson",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Emerson, Lake & Palmer",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Jethro Tull",
-					"album_count": 1
+					"album_count": 4
+				},
+				{
+					"name": "Rush",
+					"album_count": 4
+				},
+				{
+					"name": "Gentle Giant",
+					"album_count": 3
+				},
+				{
+					"name": "Camel",
+					"album_count": 3
+				},
+				{
+					"name": "Van der Graaf Generator",
+					"album_count": 3
+				},
+				{
+					"name": "Mike Oldfield",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -331,7 +411,7 @@
 				},
 				{
 					"name": "Wire",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Magazine",
@@ -339,10 +419,30 @@
 				},
 				{
 					"name": "Gang of Four",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "Public Image Ltd.",
+					"album_count": 2
+				},
+				{
+					"name": "The Fall",
+					"album_count": 2
+				},
+				{
+					"name": "Siouxsie and the Banshees",
+					"album_count": 2
+				},
+				{
+					"name": "The Pop Group",
+					"album_count": 1
+				},
+				{
+					"name": "The Raincoats",
+					"album_count": 1
+				},
+				{
+					"name": "A Certain Ratio",
 					"album_count": 1
 				}
 			],
@@ -379,7 +479,7 @@
 				},
 				{
 					"name": "Blondie",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "The Cars",
@@ -391,7 +491,27 @@
 				},
 				{
 					"name": "Elvis Costello",
+					"album_count": 3
+				},
+				{
+					"name": "The Police",
+					"album_count": 2
+				},
+				{
+					"name": "The B-52's",
 					"album_count": 1
+				},
+				{
+					"name": "Joe Jackson",
+					"album_count": 2
+				},
+				{
+					"name": "The Knack",
+					"album_count": 1
+				},
+				{
+					"name": "XTC",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -521,22 +641,42 @@
 			"top_artists": [
 				{
 					"name": "Kraftwerk",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Tangerine Dream",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Jean-Michel Jarre",
-					"album_count": 2
+					"album_count": 4
+				},
+				{
+					"name": "Vangelis",
+					"album_count": 5
 				},
 				{
 					"name": "Giorgio Moroder",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Brian Eno",
+					"album_count": 4
+				},
+				{
+					"name": "Klaus Schulze",
+					"album_count": 7
+				},
+				{
+					"name": "Yellow Magic Orchestra",
+					"album_count": 2
+				},
+				{
+					"name": "Isao Tomita",
+					"album_count": 4
+				},
+				{
+					"name": "Suicide",
 					"album_count": 1
 				}
 			],
@@ -569,11 +709,11 @@
 			"top_artists": [
 				{
 					"name": "Brian Eno",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Tangerine Dream",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Harold Budd",
@@ -581,10 +721,30 @@
 				},
 				{
 					"name": "Klaus Schulze",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Cluster",
+					"album_count": 4
+				},
+				{
+					"name": "Ash Ra Tempel",
+					"album_count": 3
+				},
+				{
+					"name": "Popol Vuh",
+					"album_count": 5
+				},
+				{
+					"name": "Robert Fripp",
+					"album_count": 2
+				},
+				{
+					"name": "Jon Hassell",
+					"album_count": 2
+				},
+				{
+					"name": "Laraaji",
 					"album_count": 1
 				}
 			],
@@ -665,11 +825,15 @@
 			"top_artists": [
 				{
 					"name": "Throbbing Gristle",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Cabaret Voltaire",
-					"album_count": 2
+					"album_count": 3
+				},
+				{
+					"name": "Einst\u00fcrzende Neubauten",
+					"album_count": 1
 				},
 				{
 					"name": "SPK",
@@ -677,10 +841,26 @@
 				},
 				{
 					"name": "Chrome",
-					"album_count": 1
+					"album_count": 3
 				},
 				{
 					"name": "NON",
+					"album_count": 1
+				},
+				{
+					"name": "Monte Cazazza",
+					"album_count": 1
+				},
+				{
+					"name": "Whitehouse",
+					"album_count": 1
+				},
+				{
+					"name": "Nurse With Wound",
+					"album_count": 2
+				},
+				{
+					"name": "Clock DVA",
 					"album_count": 1
 				}
 			],
@@ -715,23 +895,43 @@
 			"top_artists": [
 				{
 					"name": "Stevie Wonder",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Marvin Gaye",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Curtis Mayfield",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Al Green",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Barry White",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "The Isley Brothers",
+					"album_count": 3
+				},
+				{
+					"name": "Bill Withers",
+					"album_count": 3
+				},
+				{
+					"name": "Donny Hathaway",
+					"album_count": 2
+				},
+				{
+					"name": "Aretha Franklin",
+					"album_count": 2
+				},
+				{
+					"name": "Earth, Wind & Fire",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -763,23 +963,43 @@
 			"top_artists": [
 				{
 					"name": "Al Green",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Curtis Mayfield",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Isaac Hayes",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Bill Withers",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Donny Hathaway",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Bobby Womack",
+					"album_count": 3
+				},
+				{
+					"name": "Millie Jackson",
+					"album_count": 3
+				},
+				{
+					"name": "Ann Peebles",
+					"album_count": 2
+				},
+				{
+					"name": "Terry Callier",
+					"album_count": 2
+				},
+				{
+					"name": "Syl Johnson",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -907,23 +1127,43 @@
 			"top_artists": [
 				{
 					"name": "Parliament",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Funkadelic",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Earth, Wind & Fire",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "The Ohio Players",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Sly and the Family Stone",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Kool & The Gang",
+					"album_count": 4
+				},
+				{
+					"name": "The Meters",
+					"album_count": 3
+				},
+				{
+					"name": "Bootsy's Rubber Band",
+					"album_count": 3
+				},
+				{
+					"name": "Tower of Power",
+					"album_count": 2
+				},
+				{
+					"name": "Graham Central Station",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -955,23 +1195,43 @@
 			"top_artists": [
 				{
 					"name": "Bee Gees",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Donna Summer",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Chic",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "KC and the Sunshine Band",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Gloria Gaynor",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Sister Sledge",
+					"album_count": 2
+				},
+				{
+					"name": "The Village People",
+					"album_count": 3
+				},
+				{
+					"name": "Boney M.",
+					"album_count": 3
+				},
+				{
+					"name": "Earth, Wind & Fire",
+					"album_count": 2
+				},
+				{
+					"name": "Giorgio Moroder",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -1053,23 +1313,43 @@
 			"top_artists": [
 				{
 					"name": "Miles Davis",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Herbie Hancock",
-					"album_count": 3
+					"album_count": 9
 				},
 				{
 					"name": "Keith Jarrett",
-					"album_count": 2
+					"album_count": 7
 				},
 				{
 					"name": "McCoy Tyner",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Charles Mingus",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Chick Corea",
+					"album_count": 6
+				},
+				{
+					"name": "Pharoah Sanders",
+					"album_count": 5
+				},
+				{
+					"name": "Rahsaan Roland Kirk",
+					"album_count": 4
+				},
+				{
+					"name": "Freddie Hubbard",
+					"album_count": 5
+				},
+				{
+					"name": "Sun Ra",
+					"album_count": 10
 				}
 			],
 			"top_albums": [
@@ -1245,22 +1525,42 @@
 			"top_artists": [
 				{
 					"name": "Weather Report",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Return to Forever",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Mahavishnu Orchestra",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Herbie Hancock",
-					"album_count": 2
+					"album_count": 7
 				},
 				{
 					"name": "Pat Metheny",
+					"album_count": 4
+				},
+				{
+					"name": "Billy Cobham",
+					"album_count": 4
+				},
+				{
+					"name": "Jean-Luc Ponty",
+					"album_count": 5
+				},
+				{
+					"name": "Frank Zappa",
+					"album_count": 6
+				},
+				{
+					"name": "Jeff Beck",
+					"album_count": 2
+				},
+				{
+					"name": "Jacobs Pastorius",
 					"album_count": 1
 				}
 			],
@@ -2243,23 +2543,43 @@
 			"top_artists": [
 				{
 					"name": "Black Sabbath",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Judas Priest",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Led Zeppelin",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Deep Purple",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Rainbow",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "Mot\u00f6rhead",
+					"album_count": 3
+				},
+				{
+					"name": "Scorpions",
+					"album_count": 4
+				},
+				{
+					"name": "Blue \u00d6yster Cult",
+					"album_count": 3
+				},
+				{
+					"name": "Rush",
+					"album_count": 2
+				},
+				{
+					"name": "Budgie",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -2389,23 +2709,43 @@
 			"top_artists": [
 				{
 					"name": "Bob Marley & The Wailers",
-					"album_count": 3
+					"album_count": 9
 				},
 				{
 					"name": "Peter Tosh",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Burning Spear",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Toots and the Maytals",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Jimmy Cliff",
+					"album_count": 4
+				},
+				{
+					"name": "The Abyssinians",
+					"album_count": 2
+				},
+				{
+					"name": "The Congos",
 					"album_count": 1
+				},
+				{
+					"name": "Culture",
+					"album_count": 3
+				},
+				{
+					"name": "The Melodians",
+					"album_count": 2
+				},
+				{
+					"name": "Black Uhuru",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -2448,12 +2788,32 @@
 					"album_count": 2
 				},
 				{
-					"name": "The Skatalites",
+					"name": "The Beat",
 					"album_count": 1
 				},
 				{
-					"name": "Desmond Dekker",
+					"name": "Bad Manners",
 					"album_count": 1
+				},
+				{
+					"name": "The Skatalites",
+					"album_count": 4
+				},
+				{
+					"name": "Desmond Dekker",
+					"album_count": 5
+				},
+				{
+					"name": "Prince Buster",
+					"album_count": 3
+				},
+				{
+					"name": "The Maytals",
+					"album_count": 5
+				},
+				{
+					"name": "Judge Dread",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -2485,23 +2845,43 @@
 			"top_artists": [
 				{
 					"name": "King Tubby",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Lee \"Scratch\" Perry",
-					"album_count": 3
+					"album_count": 10
 				},
 				{
 					"name": "Augustus Pablo",
-					"album_count": 2
+					"album_count": 7
 				},
 				{
 					"name": "Scientist",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Mad Professor",
 					"album_count": 1
+				},
+				{
+					"name": "Sly & Robbie",
+					"album_count": 6
+				},
+				{
+					"name": "The Upsetters",
+					"album_count": 5
+				},
+				{
+					"name": "Prince Far I",
+					"album_count": 4
+				},
+				{
+					"name": "Linton Kwesi Johnson",
+					"album_count": 3
+				},
+				{
+					"name": "Errol Thompson",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -2581,23 +2961,43 @@
 			"top_artists": [
 				{
 					"name": "Mighty Sparrow",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Lord Kitchener",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Calypso Rose",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Arrow",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Shadow",
+					"album_count": 4
+				},
+				{
+					"name": "Lord Shorty",
+					"album_count": 3
+				},
+				{
+					"name": "The Growler",
 					"album_count": 1
+				},
+				{
+					"name": "Roaring Lion",
+					"album_count": 1
+				},
+				{
+					"name": "Kitchener",
+					"album_count": 5
+				},
+				{
+					"name": "Lord Melody",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -2823,23 +3223,43 @@
 			"top_artists": [
 				{
 					"name": "Can",
-					"album_count": 3
+					"album_count": 8
 				},
 				{
 					"name": "Faust",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Neu!",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Suicide",
-					"album_count": 2
+					"album_count": 1
 				},
 				{
 					"name": "This Heat",
 					"album_count": 1
+				},
+				{
+					"name": "Art Bears",
+					"album_count": 2
+				},
+				{
+					"name": "Henry Cow",
+					"album_count": 5
+				},
+				{
+					"name": "The Residents",
+					"album_count": 6
+				},
+				{
+					"name": "Magma",
+					"album_count": 5
+				},
+				{
+					"name": "Cluster",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -3104,6 +3524,54 @@
 					"name": "Spiegel im Spiegel",
 					"artist": "Arvo P\u00e4rt",
 					"album": "Tabula Rasa"
+				}
+			]
+		},
+		"minimalism": {
+			"top_artists": [
+				{
+					"name": "Steve Reich",
+					"album_count": 3
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 3
+				},
+				{
+					"name": "Terry Riley",
+					"album_count": 2
+				},
+				{
+					"name": "La Monte Young",
+					"album_count": 1
+				},
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Music for 18 Musicians",
+					"artist": "Steve Reich",
+					"year": "1978"
+				},
+				{
+					"name": "Einstein on the Beach",
+					"artist": "Philip Glass",
+					"year": "1976"
+				},
+				{
+					"name": "Glassworks",
+					"artist": "Philip Glass",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Music for 18 Musicians: Section VI",
+					"artist": "Steve Reich",
+					"album": "Music for 18 Musicians"
 				}
 			]
 		},

@@ -12,14 +12,34 @@
 				},
 				{
 					"name": "The Who",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Kinks",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Cream",
+					"album_count": 2
+				},
+				{
+					"name": "The Yardbirds",
+					"album_count": 2
+				},
+				{
+					"name": "The Animals",
+					"album_count": 2
+				},
+				{
+					"name": "The Byrds",
+					"album_count": 2
+				},
+				{
+					"name": "Steppenwolf",
+					"album_count": 1
+				},
+				{
+					"name": "The Guess Who",
 					"album_count": 1
 				}
 			],
@@ -56,7 +76,7 @@
 				},
 				{
 					"name": "Little Richard",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Jerry Lee Lewis",
@@ -68,6 +88,26 @@
 				},
 				{
 					"name": "Eddie Cochran",
+					"album_count": 2
+				},
+				{
+					"name": "Bo Diddley",
+					"album_count": 2
+				},
+				{
+					"name": "Brenda Lee",
+					"album_count": 2
+				},
+				{
+					"name": "Roy Orbison",
+					"album_count": 2
+				},
+				{
+					"name": "The Everly Brothers",
+					"album_count": 1
+				},
+				{
+					"name": "Fats Domino",
 					"album_count": 1
 				}
 			],
@@ -116,6 +156,26 @@
 				},
 				{
 					"name": "Johnny Burnette",
+					"album_count": 2
+				},
+				{
+					"name": "Link Wray",
+					"album_count": 1
+				},
+				{
+					"name": "Dale Hawkins",
+					"album_count": 1
+				},
+				{
+					"name": "Charlie Feathers",
+					"album_count": 1
+				},
+				{
+					"name": "Billy Riley",
+					"album_count": 1
+				},
+				{
+					"name": "Conway Twitty",
 					"album_count": 1
 				}
 			],
@@ -152,11 +212,11 @@
 				},
 				{
 					"name": "Dick Dale",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Ventures",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Jan and Dean",
@@ -164,6 +224,26 @@
 				},
 				{
 					"name": "The Surfaris",
+					"album_count": 2
+				},
+				{
+					"name": "The Chantays",
+					"album_count": 1
+				},
+				{
+					"name": "The Astronauts",
+					"album_count": 1
+				},
+				{
+					"name": "The Trashmen",
+					"album_count": 1
+				},
+				{
+					"name": "The Rivieras",
+					"album_count": 1
+				},
+				{
+					"name": "The Bel-Airs",
 					"album_count": 1
 				}
 			],
@@ -200,11 +280,11 @@
 				},
 				{
 					"name": "The Kingsmen",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Standells",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Seeds",
@@ -212,6 +292,26 @@
 				},
 				{
 					"name": "The 13th Floor Elevators",
+					"album_count": 2
+				},
+				{
+					"name": "The Monks",
+					"album_count": 2
+				},
+				{
+					"name": "The Music Machine",
+					"album_count": 1
+				},
+				{
+					"name": "The Troggs",
+					"album_count": 1
+				},
+				{
+					"name": "Count Five",
+					"album_count": 1
+				},
+				{
+					"name": "Question Mark & the Mysterians",
 					"album_count": 1
 				}
 			],
@@ -252,14 +352,34 @@
 				},
 				{
 					"name": "Jefferson Airplane",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Doors",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Grateful Dead",
+					"album_count": 2
+				},
+				{
+					"name": "Cream",
+					"album_count": 2
+				},
+				{
+					"name": "Love",
+					"album_count": 2
+				},
+				{
+					"name": "The Velvet Underground",
+					"album_count": 2
+				},
+				{
+					"name": "Quicksilver Messenger Service",
+					"album_count": 1
+				},
+				{
+					"name": "Iron Butterfly",
 					"album_count": 1
 				}
 			],
@@ -296,11 +416,11 @@
 				},
 				{
 					"name": "Cream",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Jimi Hendrix Experience",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Steppenwolf",
@@ -308,6 +428,26 @@
 				},
 				{
 					"name": "Blue Cheer",
+					"album_count": 2
+				},
+				{
+					"name": "Deep Purple",
+					"album_count": 1
+				},
+				{
+					"name": "Iron Butterfly",
+					"album_count": 1
+				},
+				{
+					"name": "Vanilla Fudge",
+					"album_count": 1
+				},
+				{
+					"name": "Grand Funk Railroad",
+					"album_count": 1
+				},
+				{
+					"name": "The Jeff Beck Group",
 					"album_count": 1
 				}
 			],
@@ -344,11 +484,11 @@
 				},
 				{
 					"name": "Pink Floyd",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Moody Blues",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Procol Harum",
@@ -356,6 +496,26 @@
 				},
 				{
 					"name": "The Nice",
+					"album_count": 2
+				},
+				{
+					"name": "Soft Machine",
+					"album_count": 2
+				},
+				{
+					"name": "Frank Zappa",
+					"album_count": 2
+				},
+				{
+					"name": "Yes",
+					"album_count": 1
+				},
+				{
+					"name": "Genesis",
+					"album_count": 1
+				},
+				{
+					"name": "Jethro Tull",
 					"album_count": 1
 				}
 			],
@@ -404,6 +564,26 @@
 				},
 				{
 					"name": "Love",
+					"album_count": 2
+				},
+				{
+					"name": "The Silver Apples",
+					"album_count": 1
+				},
+				{
+					"name": "The Shaggs",
+					"album_count": 1
+				},
+				{
+					"name": "The United States of America",
+					"album_count": 1
+				},
+				{
+					"name": "The Fugs",
+					"album_count": 1
+				},
+				{
+					"name": "The Holy Modal Rounders",
 					"album_count": 1
 				}
 			],
@@ -446,7 +626,7 @@
 				},
 				{
 					"name": "James Brown",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Stevie Wonder",
@@ -454,6 +634,26 @@
 				},
 				{
 					"name": "Marvin Gaye",
+					"album_count": 2
+				},
+				{
+					"name": "Otis Redding",
+					"album_count": 2
+				},
+				{
+					"name": "Sam Cooke",
+					"album_count": 2
+				},
+				{
+					"name": "Wilson Pickett",
+					"album_count": 1
+				},
+				{
+					"name": "Etta James",
+					"album_count": 1
+				},
+				{
+					"name": "Ike & Tina Turner",
 					"album_count": 1
 				}
 			],
@@ -494,7 +694,7 @@
 				},
 				{
 					"name": "Aretha Franklin",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Wilson Pickett",
@@ -502,6 +702,26 @@
 				},
 				{
 					"name": "Curtis Mayfield",
+					"album_count": 2
+				},
+				{
+					"name": "The Impressions",
+					"album_count": 2
+				},
+				{
+					"name": "Dusty Springfield",
+					"album_count": 2
+				},
+				{
+					"name": "Solomon Burke",
+					"album_count": 1
+				},
+				{
+					"name": "Percy Sledge",
+					"album_count": 1
+				},
+				{
+					"name": "Al Green",
 					"album_count": 1
 				}
 			],
@@ -538,7 +758,7 @@
 				},
 				{
 					"name": "Sly and the Family Stone",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Meters",
@@ -546,10 +766,30 @@
 				},
 				{
 					"name": "Dyke & the Blazers",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "The J.B.'s",
+					"album_count": 2
+				},
+				{
+					"name": "The Bar-Kays",
+					"album_count": 1
+				},
+				{
+					"name": "Isley Brothers",
+					"album_count": 1
+				},
+				{
+					"name": "Tower of Power",
+					"album_count": 1
+				},
+				{
+					"name": "The Watts 103rd Street Rhythm Band",
+					"album_count": 1
+				},
+				{
+					"name": "Eddie Bo",
 					"album_count": 1
 				}
 			],
@@ -590,7 +830,7 @@
 				},
 				{
 					"name": "Marvin Gaye",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Smokey Robinson & The Miracles",
@@ -598,6 +838,26 @@
 				},
 				{
 					"name": "The Four Tops",
+					"album_count": 2
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 2
+				},
+				{
+					"name": "Martha and the Vandellas",
+					"album_count": 2
+				},
+				{
+					"name": "The Jackson 5",
+					"album_count": 1
+				},
+				{
+					"name": "Mary Wells",
+					"album_count": 1
+				},
+				{
+					"name": "Edwin Starr",
 					"album_count": 1
 				}
 			],
@@ -640,7 +900,7 @@
 				},
 				{
 					"name": "Ornette Coleman",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Charles Mingus",
@@ -648,6 +908,26 @@
 				},
 				{
 					"name": "Thelonious Monk",
+					"album_count": 2
+				},
+				{
+					"name": "Herbie Hancock",
+					"album_count": 2
+				},
+				{
+					"name": "Bill Evans",
+					"album_count": 2
+				},
+				{
+					"name": "Archie Shepp",
+					"album_count": 1
+				},
+				{
+					"name": "Sun Ra",
+					"album_count": 1
+				},
+				{
+					"name": "Pharoah Sanders",
 					"album_count": 1
 				}
 			],
@@ -684,7 +964,7 @@
 				},
 				{
 					"name": "Muddy Waters",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Albert King",
@@ -696,6 +976,26 @@
 				},
 				{
 					"name": "John Lee Hooker",
+					"album_count": 2
+				},
+				{
+					"name": "Howlin' Wolf",
+					"album_count": 2
+				},
+				{
+					"name": "Buddy Guy",
+					"album_count": 2
+				},
+				{
+					"name": "Junior Wells",
+					"album_count": 1
+				},
+				{
+					"name": "Otis Rush",
+					"album_count": 1
+				},
+				{
+					"name": "Magic Sam",
 					"album_count": 1
 				}
 			],
@@ -732,11 +1032,11 @@
 				},
 				{
 					"name": "Cannonball Adderley",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Sonny Rollins",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Horace Silver",
@@ -744,6 +1044,26 @@
 				},
 				{
 					"name": "Lee Morgan",
+					"album_count": 2
+				},
+				{
+					"name": "Dizzy Gillespie",
+					"album_count": 2
+				},
+				{
+					"name": "Dexter Gordon",
+					"album_count": 2
+				},
+				{
+					"name": "Freddie Hubbard",
+					"album_count": 1
+				},
+				{
+					"name": "Jackie McLean",
+					"album_count": 1
+				},
+				{
+					"name": "Wayne Shorter",
 					"album_count": 1
 				}
 			],
@@ -780,11 +1100,11 @@
 				},
 				{
 					"name": "Stan Getz",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Bill Evans",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Chet Baker",
@@ -792,6 +1112,26 @@
 				},
 				{
 					"name": "Paul Desmond",
+					"album_count": 2
+				},
+				{
+					"name": "Jim Hall",
+					"album_count": 2
+				},
+				{
+					"name": "The Modern Jazz Quartet",
+					"album_count": 2
+				},
+				{
+					"name": "Gerry Mulligan",
+					"album_count": 1
+				},
+				{
+					"name": "Astrud Gilberto",
+					"album_count": 1
+				},
+				{
+					"name": "Vince Guaraldi",
 					"album_count": 1
 				}
 			],
@@ -841,6 +1181,26 @@
 				{
 					"name": "Joe Henderson",
 					"album_count": 3
+				},
+				{
+					"name": "Hank Mobley",
+					"album_count": 3
+				},
+				{
+					"name": "Grant Green",
+					"album_count": 2
+				},
+				{
+					"name": "McCoy Tyner",
+					"album_count": 2
+				},
+				{
+					"name": "Bobby Hutcherson",
+					"album_count": 2
+				},
+				{
+					"name": "Donald Byrd",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -876,18 +1236,38 @@
 				},
 				{
 					"name": "Tony Williams",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Larry Coryell",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "Gary Burton",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "Soft Machine",
+					"album_count": 2
+				},
+				{
+					"name": "Frank Zappa",
+					"album_count": 2
+				},
+				{
+					"name": "John McLaughlin",
+					"album_count": 2
+				},
+				{
+					"name": "Chick Corea",
+					"album_count": 1
+				},
+				{
+					"name": "The Free Spirits",
+					"album_count": 1
+				},
+				{
+					"name": "Jeremy Steig",
 					"album_count": 1
 				}
 			],
@@ -936,6 +1316,26 @@
 				},
 				{
 					"name": "Otis Rush",
+					"album_count": 2
+				},
+				{
+					"name": "Magic Sam",
+					"album_count": 2
+				},
+				{
+					"name": "Paul Butterfield",
+					"album_count": 2
+				},
+				{
+					"name": "Little Walter",
+					"album_count": 1
+				},
+				{
+					"name": "Willie Dixon",
+					"album_count": 1
+				},
+				{
+					"name": "Koko Taylor",
 					"album_count": 1
 				}
 			],
@@ -972,7 +1372,7 @@
 				},
 				{
 					"name": "Cannonball Adderley",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Grant Green",
@@ -984,6 +1384,26 @@
 				},
 				{
 					"name": "Ramsey Lewis",
+					"album_count": 2
+				},
+				{
+					"name": "Eddie Harris",
+					"album_count": 1
+				},
+				{
+					"name": "Les McCann",
+					"album_count": 1
+				},
+				{
+					"name": "Shirley Scott",
+					"album_count": 1
+				},
+				{
+					"name": "Jack McDuff",
+					"album_count": 1
+				},
+				{
+					"name": "Richard 'Groove' Holmes",
 					"album_count": 1
 				}
 			],
@@ -1408,11 +1828,11 @@
 				},
 				{
 					"name": "Joan Baez",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Pete Seeger",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Judy Collins",
@@ -1420,6 +1840,26 @@
 				},
 				{
 					"name": "Donovan",
+					"album_count": 2
+				},
+				{
+					"name": "Phil Ochs",
+					"album_count": 2
+				},
+				{
+					"name": "The Kingston Trio",
+					"album_count": 2
+				},
+				{
+					"name": "Peter, Paul and Mary",
+					"album_count": 2
+				},
+				{
+					"name": "Simon & Garfunkel",
+					"album_count": 1
+				},
+				{
+					"name": "Fairport Convention",
 					"album_count": 1
 				}
 			],
@@ -1456,11 +1896,11 @@
 				},
 				{
 					"name": "Merle Haggard",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Loretta Lynn",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Buck Owens",
@@ -1468,6 +1908,26 @@
 				},
 				{
 					"name": "Patsy Cline",
+					"album_count": 2
+				},
+				{
+					"name": "Tammy Wynette",
+					"album_count": 2
+				},
+				{
+					"name": "George Jones",
+					"album_count": 2
+				},
+				{
+					"name": "Glen Campbell",
+					"album_count": 2
+				},
+				{
+					"name": "Roger Miller",
+					"album_count": 1
+				},
+				{
+					"name": "Dolly Parton",
 					"album_count": 1
 				}
 			],
@@ -1548,22 +2008,42 @@
 			"top_artists": [
 				{
 					"name": "Nick Drake",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Bert Jansch",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "John Fahey",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Davy Graham",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "Jackson C. Frank",
+					"album_count": 2
+				},
+				{
+					"name": "The Incredible String Band",
+					"album_count": 2
+				},
+				{
+					"name": "Tim Buckley",
+					"album_count": 2
+				},
+				{
+					"name": "Pentangle",
+					"album_count": 1
+				},
+				{
+					"name": "John Renbourn",
+					"album_count": 1
+				},
+				{
+					"name": "Dave Van Ronk",
 					"album_count": 1
 				}
 			],
@@ -1600,11 +2080,11 @@
 				},
 				{
 					"name": "Joni Mitchell",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Leonard Cohen",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Tim Buckley",
@@ -1612,6 +2092,26 @@
 				},
 				{
 					"name": "Nick Drake",
+					"album_count": 2
+				},
+				{
+					"name": "Fred Neil",
+					"album_count": 2
+				},
+				{
+					"name": "Phil Ochs",
+					"album_count": 2
+				},
+				{
+					"name": "Laura Nyro",
+					"album_count": 1
+				},
+				{
+					"name": "Randy Newman",
+					"album_count": 1
+				},
+				{
+					"name": "Van Morrison",
 					"album_count": 1
 				}
 			],
@@ -1844,18 +2344,38 @@
 				},
 				{
 					"name": "Toots and the Maytals",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Desmond Dekker",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "The Pioneers",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "Jimmy Cliff",
+					"album_count": 2
+				},
+				{
+					"name": "Prince Buster",
+					"album_count": 2
+				},
+				{
+					"name": "Alton Ellis",
+					"album_count": 2
+				},
+				{
+					"name": "The Abyssinians",
+					"album_count": 1
+				},
+				{
+					"name": "The Melodians",
+					"album_count": 1
+				},
+				{
+					"name": "The Heptones",
 					"album_count": 1
 				}
 			],

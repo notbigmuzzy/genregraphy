@@ -4804,6 +4804,54 @@
 				}
 			]
 		},
+		"minimalism": {
+			"top_artists": [
+				{
+					"name": "Philip Glass",
+					"album_count": 5
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 4
+				},
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 3
+				},
+				{
+					"name": "John Adams",
+					"album_count": 2
+				},
+				{
+					"name": "Michael Nyman",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Heroes Symphony",
+					"artist": "Philip Glass",
+					"year": "1996"
+				},
+				{
+					"name": "City Life",
+					"artist": "Steve Reich",
+					"year": "1995"
+				},
+				{
+					"name": "The Piano",
+					"artist": "Michael Nyman",
+					"year": "1993"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Heart Asks Pleasure First",
+					"artist": "Michael Nyman",
+					"album": "The Piano"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{

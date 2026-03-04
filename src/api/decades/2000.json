@@ -4992,6 +4992,54 @@
 				}
 			]
 		},
+		"minimalism": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 4
+				},
+				{
+					"name": "Johann Johannsson",
+					"album_count": 4
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 3
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 3
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Blue Notebooks",
+					"artist": "Max Richter",
+					"year": "2004"
+				},
+				{
+					"name": "Fordlandia",
+					"artist": "Johann Johannsson",
+					"year": "2008"
+				},
+				{
+					"name": "Different Trains (Live)",
+					"artist": "Steve Reich",
+					"year": "2001"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "On the Nature of Daylight",
+					"artist": "Max Richter",
+					"album": "The Blue Notebooks"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{

@@ -4009,6 +4009,54 @@
 				}
 			]
 		},
+		"minimalism": {
+			"top_artists": [
+				{
+					"name": "Philip Glass",
+					"album_count": 5
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 4
+				},
+				{
+					"name": "John Adams",
+					"album_count": 3
+				},
+				{
+					"name": "Michael Nyman",
+					"album_count": 3
+				},
+				{
+					"name": "Wim Mertens",
+					"album_count": 4
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Glassworks",
+					"artist": "Philip Glass",
+					"year": "1982"
+				},
+				{
+					"name": "The Desert Music",
+					"artist": "Steve Reich",
+					"year": "1984"
+				},
+				{
+					"name": "Struggle for Pleasure",
+					"artist": "Wim Mertens",
+					"year": "1983"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Opening",
+					"artist": "Philip Glass",
+					"album": "Glassworks"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{
