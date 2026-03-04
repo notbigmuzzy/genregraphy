@@ -4001,6 +4001,54 @@
 				}
 			]
 		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 3
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 3
+				},
+				{
+					"name": "Henryk G\u00f3recki",
+					"album_count": 2
+				},
+				{
+					"name": "John Adams",
+					"album_count": 2
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Te Deum",
+					"artist": "Arvo P\u00e4rt",
+					"year": "1993"
+				},
+				{
+					"name": "Symphony No. 3",
+					"artist": "Henryk G\u00f3recki",
+					"year": "1976"
+				},
+				{
+					"name": "The Hours",
+					"artist": "Philip Glass",
+					"year": "1998"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Te Deum",
+					"artist": "Arvo P\u00e4rt",
+					"album": "Te Deum"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{

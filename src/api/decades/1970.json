@@ -2464,6 +2464,54 @@
 				}
 			]
 		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 3
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 3
+				},
+				{
+					"name": "Philip Glass",
+					"album_count": 3
+				},
+				{
+					"name": "John Adams",
+					"album_count": 2
+				},
+				{
+					"name": "Henryk G\u00f3recki",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Tabula Rasa",
+					"artist": "Arvo P\u00e4rt",
+					"year": "1977"
+				},
+				{
+					"name": "Music for 18 Musicians",
+					"artist": "Steve Reich",
+					"year": "1978"
+				},
+				{
+					"name": "Einstein on the Beach",
+					"artist": "Philip Glass",
+					"year": "1976"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Spiegel im Spiegel",
+					"artist": "Arvo P\u00e4rt",
+					"album": "Tabula Rasa"
+				}
+			]
+		},
 		"soundtrack": {
 			"top_artists": [
 				{

@@ -4035,6 +4035,54 @@
 				}
 			]
 		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 3
+				},
+				{
+					"name": "Max Richter",
+					"album_count": 2
+				},
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 2
+				},
+				{
+					"name": "Johann Johannsson",
+					"album_count": 2
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Blue Notebooks",
+					"artist": "Max Richter",
+					"year": "2004"
+				},
+				{
+					"name": "IBM 1401, A User's Manual",
+					"artist": "Johann Johannsson",
+					"year": "2006"
+				},
+				{
+					"name": "V\u00edtri\u00f0",
+					"artist": "\u00d3lafur Arnalds",
+					"year": "2007"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "On the Nature of Daylight",
+					"artist": "Max Richter",
+					"album": "The Blue Notebooks"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{

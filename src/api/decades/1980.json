@@ -3280,6 +3280,50 @@
 				}
 			]
 		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Philip Glass",
+					"album_count": 3
+				},
+				{
+					"name": "Steve Reich",
+					"album_count": 3
+				},
+				{
+					"name": "Arvo P\u00e4rt",
+					"album_count": 3
+				},
+				{
+					"name": "John Adams",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Glassworks",
+					"artist": "Philip Glass",
+					"year": "1982"
+				},
+				{
+					"name": "Harmonielehre",
+					"artist": "John Adams",
+					"year": "1985"
+				},
+				{
+					"name": "Cantus in Memoriam Benjamin Britten",
+					"artist": "Arvo P\u00e4rt",
+					"year": "1980"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Glassworks: Opening",
+					"artist": "Philip Glass",
+					"album": "Glassworks"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{

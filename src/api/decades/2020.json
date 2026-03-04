@@ -3969,6 +3969,54 @@
 				}
 			]
 		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 3
+				},
+				{
+					"name": "\u00d3lafur Arnalds",
+					"album_count": 3
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 3
+				},
+				{
+					"name": "Anna Thorvaldsdottir",
+					"album_count": 2
+				},
+				{
+					"name": "Hildur Gu\u00f0nad\u00f3ttir",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "some kind of peace",
+					"artist": "\u00d3lafur Arnalds",
+					"year": "2020"
+				},
+				{
+					"name": "Voices 2",
+					"artist": "Max Richter",
+					"year": "2021"
+				},
+				{
+					"name": "ARCHAORA",
+					"artist": "Anna Thorvaldsdottir",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Woven Song",
+					"artist": "\u00d3lafur Arnalds",
+					"album": "some kind of peace"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{

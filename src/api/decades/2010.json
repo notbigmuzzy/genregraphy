@@ -3974,6 +3974,54 @@
 				}
 			]
 		},
+		"modern classical": {
+			"top_artists": [
+				{
+					"name": "Max Richter",
+					"album_count": 3
+				},
+				{
+					"name": "Nils Frahm",
+					"album_count": 3
+				},
+				{
+					"name": "\u00d3lafur Arnalds",
+					"album_count": 3
+				},
+				{
+					"name": "Johann Johannsson",
+					"album_count": 2
+				},
+				{
+					"name": "Ludovico Einaudi",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sleep",
+					"artist": "Max Richter",
+					"year": "2015"
+				},
+				{
+					"name": "Spaces",
+					"artist": "Nils Frahm",
+					"year": "2013"
+				},
+				{
+					"name": "Orph\u00e9e",
+					"artist": "Johann Johannsson",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "On the Nature of Daylight",
+					"artist": "Max Richter",
+					"album": "The Blue Notebooks"
+				}
+			]
+		},
 		"classical": {
 			"top_artists": [
 				{
