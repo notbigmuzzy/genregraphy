@@ -2681,6 +2681,45 @@
 				}
 			]
 		},
+		"celtic": {
+			"top_artists": [
+				{
+					"name": "Julie Fowlis",
+					"album_count": 2
+				},
+				{
+					"name": "Talisk",
+					"album_count": 1
+				},
+				{
+					"name": "B\u00e9la Fleck",
+					"album_count": 1
+				},
+				{
+					"name": "The Gloaming",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Gach Sgeul",
+					"artist": "Julie Fowlis",
+					"year": "2014"
+				},
+				{
+					"name": "The Gloaming",
+					"artist": "The Gloaming",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Touch the Sky",
+					"artist": "Julie Fowlis",
+					"album": "Brave (Original Motion Picture Soundtrack)"
+				}
+			]
+		},
 		"singer-songwriter": {
 			"top_artists": [
 				{

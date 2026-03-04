@@ -2698,6 +2698,55 @@
 				}
 			]
 		},
+		"celtic": {
+			"top_artists": [
+				{
+					"name": "The Corrs",
+					"album_count": 3
+				},
+				{
+					"name": "Enya",
+					"album_count": 3
+				},
+				{
+					"name": "The Cranberries",
+					"album_count": 2
+				},
+				{
+					"name": "Loreena McKennitt",
+					"album_count": 2
+				},
+				{
+					"name": "Riverdance",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Talk on Corners",
+					"artist": "The Corrs",
+					"year": "1997"
+				},
+				{
+					"name": "The Memory of Trees",
+					"artist": "Enya",
+					"year": "1995"
+				},
+				{
+					"name": "The Visit",
+					"artist": "Loreena McKennitt",
+					"year": "1991"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Breathless",
+					"artist": "The Corrs",
+					"album": "In Blue"
+				}
+			]
+		},
+```
 		"singer-songwriter": {
 			"top_artists": [
 				{

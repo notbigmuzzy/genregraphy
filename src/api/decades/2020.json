@@ -2676,6 +2676,45 @@
 				}
 			]
 		},
+		"celtic": {
+			"top_artists": [
+				{
+					"name": "Talisk",
+					"album_count": 2
+				},
+				{
+					"name": "Elephant Sessions",
+					"album_count": 2
+				},
+				{
+					"name": "Nia Archives",
+					"album_count": 1
+				},
+				{
+					"name": "Julie Fowlis",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Dawn",
+					"artist": "Talisk",
+					"year": "2022"
+				},
+				{
+					"name": "For the Night",
+					"artist": "Elephant Sessions",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Echoes",
+					"artist": "Talisk",
+					"album": "Dawn"
+				}
+			]
+		},
 		"singer-songwriter": {
 			"top_artists": [
 				{

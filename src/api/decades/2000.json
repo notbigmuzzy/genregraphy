@@ -2694,6 +2694,45 @@
 				}
 			]
 		},
+		"celtic": {
+			"top_artists": [
+				{
+					"name": "Celtic Woman",
+					"album_count": 3
+				},
+				{
+					"name": "Celtic Thunder",
+					"album_count": 2
+				},
+				{
+					"name": "The High Kings",
+					"album_count": 2
+				},
+				{
+					"name": "Julie Fowlis",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Celtic Woman",
+					"artist": "Celtic Woman",
+					"year": "2005"
+				},
+				{
+					"name": "The High Kings",
+					"artist": "The High Kings",
+					"year": "2008"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "You Raise Me Up",
+					"artist": "Celtic Woman",
+					"album": "Celtic Woman"
+				}
+			]
+		},
 		"singer-songwriter": {
 			"top_artists": [
 				{

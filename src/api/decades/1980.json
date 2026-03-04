@@ -2170,6 +2170,54 @@
 				}
 			]
 		},
+		"celtic": {
+			"top_artists": [
+				{
+					"name": "Enya",
+					"album_count": 3
+				},
+				{
+					"name": "The Pogues",
+					"album_count": 3
+				},
+				{
+					"name": "Clannad",
+					"album_count": 2
+				},
+				{
+					"name": "The Chieftains",
+					"album_count": 2
+				},
+				{
+					"name": "The Waterboys",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Watermark",
+					"artist": "Enya",
+					"year": "1988"
+				},
+				{
+					"name": "If I Should Fall from Grace with God",
+					"artist": "The Pogues",
+					"year": "1988"
+				},
+				{
+					"name": "Magical Ring",
+					"artist": "Clannad",
+					"year": "1983"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Orinoco Flow",
+					"artist": "Enya",
+					"album": "Watermark"
+				}
+			]
+		},
 		"country": {
 			"top_artists": [
 				{
