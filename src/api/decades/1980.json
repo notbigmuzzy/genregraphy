@@ -4,23 +4,43 @@
 			"top_artists": [
 				{
 					"name": "U2",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "R.E.M.",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "The Police",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Bruce Springsteen",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Dire Straits",
-					"album_count": 1
+					"album_count": 4
+				},
+				{
+					"name": "The Smiths",
+					"album_count": 4
+				},
+				{
+					"name": "Talking Heads",
+					"album_count": 5
+				},
+				{
+					"name": "Tom Petty and the Heartbreakers",
+					"album_count": 4
+				},
+				{
+					"name": "John Mellencamp",
+					"album_count": 5
+				},
+				{
+					"name": "The Cure",
+					"album_count": 7
 				}
 			],
 			"top_albums": [
@@ -52,23 +72,43 @@
 			"top_artists": [
 				{
 					"name": "Dead Kennedys",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Black Flag",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Minor Threat",
-					"album_count": 2
+					"album_count": 1
+				},
+				{
+					"name": "Bad Brains",
+					"album_count": 4
 				},
 				{
 					"name": "The Exploited",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Circle Jerks",
+					"album_count": 4
+				},
+				{
+					"name": "Descendents",
+					"album_count": 3
+				},
+				{
+					"name": "H\u00fcsker D\u00fc",
+					"album_count": 6
+				},
+				{
+					"name": "Fugazi",
 					"album_count": 1
+				},
+				{
+					"name": "Social Distortion",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -226,23 +266,43 @@
 			"top_artists": [
 				{
 					"name": "Guns N' Roses",
-					"album_count": 3
+					"album_count": 2
 				},
 				{
 					"name": "Van Halen",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "AC/DC",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Def Leppard",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Bon Jovi",
-					"album_count": 1
+					"album_count": 4
+				},
+				{
+					"name": "Aerosmith",
+					"album_count": 3
+				},
+				{
+					"name": "Scorpions",
+					"album_count": 5
+				},
+				{
+					"name": "Whitesnake",
+					"album_count": 3
+				},
+				{
+					"name": "M\u00f6tley Cr\u00fce",
+					"album_count": 5
+				},
+				{
+					"name": "ZZ Top",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -309,15 +369,15 @@
 			"top_artists": [
 				{
 					"name": "R.E.M.",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "The Smiths",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Sonic Youth",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "Pixies",
@@ -325,7 +385,27 @@
 				},
 				{
 					"name": "The Cure",
-					"album_count": 1
+					"album_count": 7
+				},
+				{
+					"name": "The Replacements",
+					"album_count": 5
+				},
+				{
+					"name": "Jane's Addiction",
+					"album_count": 2
+				},
+				{
+					"name": "Red Hot Chili Peppers",
+					"album_count": 4
+				},
+				{
+					"name": "Violent Femmes",
+					"album_count": 3
+				},
+				{
+					"name": "H\u00fcsker D\u00fc",
+					"album_count": 6
 				}
 			],
 			"top_albums": [
@@ -357,23 +437,43 @@
 			"top_artists": [
 				{
 					"name": "Joy Division",
-					"album_count": 2
+					"album_count": 1
 				},
 				{
 					"name": "New Order",
-					"album_count": 3
-				},
-				{
-					"name": "Bauhaus",
-					"album_count": 2
-				},
-				{
-					"name": "Siouxsie and the Banshees",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "The Cure",
-					"album_count": 1
+					"album_count": 7
+				},
+				{
+					"name": "The Smiths",
+					"album_count": 4
+				},
+				{
+					"name": "Siouxsie and the Banshees",
+					"album_count": 6
+				},
+				{
+					"name": "Bauhaus",
+					"album_count": 4
+				},
+				{
+					"name": "Echo & the Bunnymen",
+					"album_count": 4
+				},
+				{
+					"name": "Killing Joke",
+					"album_count": 5
+				},
+				{
+					"name": "The Fall",
+					"album_count": 8
+				},
+				{
+					"name": "The Psychedelic Furs",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -405,23 +505,43 @@
 			"top_artists": [
 				{
 					"name": "The Cure",
-					"album_count": 3
+					"album_count": 7
 				},
 				{
 					"name": "Depeche Mode",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Duran Duran",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
-					"name": "The Psychedelic Furs",
-					"album_count": 2
+					"name": "The Police",
+					"album_count": 3
 				},
 				{
-					"name": "Echo & the Bunnymen",
-					"album_count": 1
+					"name": "Elvis Costello & The Attractions",
+					"album_count": 6
+				},
+				{
+					"name": "The Cars",
+					"album_count": 4
+				},
+				{
+					"name": "Talking Heads",
+					"album_count": 5
+				},
+				{
+					"name": "Eurythmics",
+					"album_count": 4
+				},
+				{
+					"name": "Human League",
+					"album_count": 3
+				},
+				{
+					"name": "Tears for Fears",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -839,28 +959,48 @@
 			"top_artists": [
 				{
 					"name": "Juan Atkins",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Derrick May",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Kevin Saunderson",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Model 500",
-					"album_count": 1
+					"album_count": 4
 				},
 				{
 					"name": "Cybotron",
+					"album_count": 2
+				},
+				{
+					"name": "Rhythm Is Rhythm",
+					"album_count": 3
+				},
+				{
+					"name": "The Belleville Three",
+					"album_count": 2
+				},
+				{
+					"name": "A Guy Called Gerald",
+					"album_count": 2
+				},
+				{
+					"name": "Dave Clarke",
+					"album_count": 1
+				},
+				{
+					"name": "LFO",
 					"album_count": 1
 				}
 			],
 			"top_albums": [
 				{
-					"name": "Clear",
+					"name": "Enter",
 					"artist": "Cybotron",
 					"year": "1983"
 				},
@@ -873,6 +1013,16 @@
 					"name": "Nude Photo",
 					"artist": "Rhythm Is Rhythm",
 					"year": "1987"
+				},
+				{
+					"name": "Strings of Life",
+					"artist": "Rhythm Is Rhythm",
+					"year": "1987"
+				},
+				{
+					"name": "Techno! The New Dance Sound of Detroit",
+					"artist": "Various Artists",
+					"year": "1988"
 				}
 			],
 			"sample_tracks": [
@@ -887,23 +1037,43 @@
 			"top_artists": [
 				{
 					"name": "Frankie Knuckles",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Marshall Jefferson",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Larry Heard",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Farley \"Jackmaster\" Funk",
-					"album_count": 1
+					"album_count": 2
 				},
 				{
 					"name": "Steve \"Silk\" Hurley",
+					"album_count": 2
+				},
+				{
+					"name": "Jesse Saunders",
+					"album_count": 2
+				},
+				{
+					"name": "Phuture",
+					"album_count": 2
+				},
+				{
+					"name": "Ron Hardy",
 					"album_count": 1
+				},
+				{
+					"name": "Todd Terry",
+					"album_count": 3
+				},
+				{
+					"name": "Inner City",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -918,9 +1088,19 @@
 					"year": "1986"
 				},
 				{
-					"name": "Can You Feel It",
+					"name": "Amnesia",
 					"artist": "Mr. Fingers",
-					"year": "1986"
+					"year": "1988"
+				},
+				{
+					"name": "Big Fun",
+					"artist": "Inner City",
+					"year": "1988"
+				},
+				{
+					"name": "Acid Tracks",
+					"artist": "Phuture",
+					"year": "1987"
 				}
 			],
 			"sample_tracks": [
@@ -983,35 +1163,65 @@
 			"top_artists": [
 				{
 					"name": "Depeche Mode",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "New Order",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Pet Shop Boys",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Erasure",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "Soft Cell",
-					"album_count": 1
+					"album_count": 3
+				},
+				{
+					"name": "The Human League",
+					"album_count": 2
+				},
+				{
+					"name": "Yazoo",
+					"album_count": 2
+				},
+				{
+					"name": "Tears for Fears",
+					"album_count": 3
+				},
+				{
+					"name": "Ultravox",
+					"album_count": 5
+				},
+				{
+					"name": "Japan",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
 				{
-					"name": "Speak & Spell",
+					"name": "Music for the Masses",
 					"artist": "Depeche Mode",
-					"year": "1981"
+					"year": "1987"
+				},
+				{
+					"name": "Power, Corruption & Lies",
+					"artist": "New Order",
+					"year": "1983"
 				},
 				{
 					"name": "Please",
 					"artist": "Pet Shop Boys",
 					"year": "1986"
+				},
+				{
+					"name": "Dare",
+					"artist": "The Human League",
+					"year": "1981"
 				},
 				{
 					"name": "Non-Stop Erotic Cabaret",
@@ -1079,23 +1289,43 @@
 			"top_artists": [
 				{
 					"name": "Ministry",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Skinny Puppy",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Front 242",
-					"album_count": 2
-				},
-				{
-					"name": "Nitzer Ebb",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Einst\u00fcrzende Neubauten",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Nitzer Ebb",
+					"album_count": 3
+				},
+				{
+					"name": "Laibach",
+					"album_count": 4
+				},
+				{
+					"name": "KMFDM",
+					"album_count": 3
+				},
+				{
+					"name": "Test Dept",
+					"album_count": 3
+				},
+				{
+					"name": "Coil",
+					"album_count": 2
+				},
+				{
+					"name": "Psychic TV",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -1105,13 +1335,23 @@
 					"year": "1988"
 				},
 				{
-					"name": "Too Dark Park",
+					"name": "Mind: The Perpetual Intercourse",
 					"artist": "Skinny Puppy",
-					"year": "1990"
+					"year": "1986"
 				},
 				{
 					"name": "Official Version",
 					"artist": "Front 242",
+					"year": "1987"
+				},
+				{
+					"name": "Halber Mensch",
+					"artist": "Einst\u00fcrzende Neubauten",
+					"year": "1985"
+				},
+				{
+					"name": "Opus Dei",
+					"artist": "Laibach",
 					"year": "1987"
 				}
 			],
@@ -1321,23 +1561,43 @@
 			"top_artists": [
 				{
 					"name": "Public Enemy",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Eric B. & Rakim",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Run-D.M.C.",
-					"album_count": 2
+					"album_count": 6
 				},
 				{
 					"name": "N.W.A",
-					"album_count": 2
+					"album_count": 3
 				},
 				{
 					"name": "LL Cool J",
-					"album_count": 1
+					"album_count": 4
+				},
+				{
+					"name": "Beastie Boys",
+					"album_count": 4
+				},
+				{
+					"name": "Slick Rick",
+					"album_count": 2
+				},
+				{
+					"name": "Boogie Down Productions",
+					"album_count": 3
+				},
+				{
+					"name": "Big Daddy Kane",
+					"album_count": 2
+				},
+				{
+					"name": "De La Soul",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -1355,6 +1615,16 @@
 					"name": "Straight Outta Compton",
 					"artist": "N.W.A",
 					"year": "1988"
+				},
+				{
+					"name": "Raising Hell",
+					"artist": "Run-D.M.C.",
+					"year": "1986"
+				},
+				{
+					"name": "Licensed to Ill",
+					"artist": "Beastie Boys",
+					"year": "1986"
 				}
 			],
 			"sample_tracks": [
@@ -1790,23 +2060,43 @@
 			"top_artists": [
 				{
 					"name": "Wynton Marsalis",
-					"album_count": 3
+					"album_count": 12
 				},
 				{
 					"name": "Pat Metheny",
-					"album_count": 3
+					"album_count": 10
 				},
 				{
 					"name": "Keith Jarrett",
-					"album_count": 2
+					"album_count": 15
 				},
 				{
 					"name": "Chick Corea",
-					"album_count": 2
+					"album_count": 8
 				},
 				{
 					"name": "Miles Davis",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Branford Marsalis",
+					"album_count": 6
+				},
+				{
+					"name": "Wayne Shorter",
+					"album_count": 4
+				},
+				{
+					"name": "John Scofield",
+					"album_count": 7
+				},
+				{
+					"name": "Michael Brecker",
+					"album_count": 3
+				},
+				{
+					"name": "Dave Holland",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -1824,6 +2114,16 @@
 					"name": "Tutu",
 					"artist": "Miles Davis",
 					"year": "1986"
+				},
+				{
+					"name": "Standard Vol. 1",
+					"artist": "Keith Jarrett",
+					"year": "1983"
+				},
+				{
+					"name": "Michael Brecker",
+					"artist": "Michael Brecker",
+					"year": "1987"
 				}
 			],
 			"sample_tracks": [
@@ -2250,15 +2550,15 @@
 			"top_artists": [
 				{
 					"name": "Michael Jackson",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Madonna",
-					"album_count": 3
+					"album_count": 4
 				},
 				{
 					"name": "Prince",
-					"album_count": 2
+					"album_count": 10
 				},
 				{
 					"name": "George Michael",
@@ -2266,7 +2566,27 @@
 				},
 				{
 					"name": "Whitney Houston",
-					"album_count": 1
+					"album_count": 2
+				},
+				{
+					"name": "Phil Collins",
+					"album_count": 4
+				},
+				{
+					"name": "Lionel Richie",
+					"album_count": 3
+				},
+				{
+					"name": "Tina Turner",
+					"album_count": 3
+				},
+				{
+					"name": "Cyndi Lauper",
+					"album_count": 2
+				},
+				{
+					"name": "Hall & Oates",
+					"album_count": 6
 				}
 			],
 			"top_albums": [
@@ -2274,6 +2594,11 @@
 					"name": "Thriller",
 					"artist": "Michael Jackson",
 					"year": "1982"
+				},
+				{
+					"name": "Purple Rain",
+					"artist": "Prince",
+					"year": "1984"
 				},
 				{
 					"name": "Like a Virgin",
@@ -2284,6 +2609,11 @@
 					"name": "Faith",
 					"artist": "George Michael",
 					"year": "1987"
+				},
+				{
+					"name": "Private Dancer",
+					"artist": "Tina Turner",
+					"year": "1984"
 				}
 			],
 			"sample_tracks": [
@@ -2909,22 +3239,42 @@
 			"top_artists": [
 				{
 					"name": "Metallica",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "Iron Maiden",
-					"album_count": 3
+					"album_count": 7
 				},
 				{
 					"name": "Slayer",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Megadeth",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Anthrax",
+					"album_count": 3
+				},
+				{
+					"name": "Sepultura",
+					"album_count": 3
+				},
+				{
+					"name": "King Diamond",
+					"album_count": 4
+				},
+				{
+					"name": "Death",
+					"album_count": 3
+				},
+				{
+					"name": "Mercyful Fate",
+					"album_count": 2
+				},
+				{
+					"name": "Morbid Angel",
 					"album_count": 1
 				}
 			],
@@ -2935,14 +3285,24 @@
 					"year": "1986"
 				},
 				{
-					"name": "The Number of the Beast",
-					"artist": "Iron Maiden",
-					"year": "1982"
-				},
-				{
 					"name": "Reign in Blood",
 					"artist": "Slayer",
 					"year": "1986"
+				},
+				{
+					"name": "Peace Sells... but Who's Buying?",
+					"artist": "Megadeth",
+					"year": "1986"
+				},
+				{
+					"name": "Seventh Son of a Seventh Son",
+					"artist": "Iron Maiden",
+					"year": "1988"
+				},
+				{
+					"name": "Among the Living",
+					"artist": "Anthrax",
+					"year": "1987"
 				}
 			],
 			"sample_tracks": [
@@ -2957,23 +3317,43 @@
 			"top_artists": [
 				{
 					"name": "Iron Maiden",
-					"album_count": 3
+					"album_count": 7
 				},
 				{
 					"name": "Judas Priest",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Dio",
-					"album_count": 2
+					"album_count": 5
 				},
 				{
 					"name": "Saxon",
-					"album_count": 2
+					"album_count": 8
 				},
 				{
 					"name": "Accept",
-					"album_count": 1
+					"album_count": 6
+				},
+				{
+					"name": "Ozzy Osbourne",
+					"album_count": 5
+				},
+				{
+					"name": "Scorpions",
+					"album_count": 4
+				},
+				{
+					"name": "W.A.S.P.",
+					"album_count": 4
+				},
+				{
+					"name": "Manowar",
+					"album_count": 6
+				},
+				{
+					"name": "Black Sabbath",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -2991,6 +3371,16 @@
 					"name": "Holy Diver",
 					"artist": "Dio",
 					"year": "1983"
+				},
+				{
+					"name": "Balls to the Wall",
+					"artist": "Accept",
+					"year": "1983"
+				},
+				{
+					"name": "Blizzard of Ozz",
+					"artist": "Ozzy Osbourne",
+					"year": "1980"
 				}
 			],
 			"sample_tracks": [
@@ -4013,23 +4403,43 @@
 			"top_artists": [
 				{
 					"name": "Philip Glass",
-					"album_count": 5
+					"album_count": 12
 				},
 				{
 					"name": "Steve Reich",
-					"album_count": 4
+					"album_count": 8
 				},
 				{
 					"name": "John Adams",
-					"album_count": 3
+					"album_count": 7
 				},
 				{
 					"name": "Michael Nyman",
-					"album_count": 3
+					"album_count": 6
 				},
 				{
 					"name": "Wim Mertens",
+					"album_count": 9
+				},
+				{
+					"name": "Arvo Pärt",
+					"album_count": 5
+				},
+				{
+					"name": "Simeon ten Holt",
+					"album_count": 3
+				},
+				{
+					"name": "La Monte Young",
+					"album_count": 2
+				},
+				{
+					"name": "Terry Riley",
 					"album_count": 4
+				},
+				{
+					"name": "Harold Budd",
+					"album_count": 6
 				}
 			],
 			"top_albums": [
@@ -4047,6 +4457,16 @@
 					"name": "Struggle for Pleasure",
 					"artist": "Wim Mertens",
 					"year": "1983"
+				},
+				{
+					"name": "Mishima",
+					"artist": "Philip Glass",
+					"year": "1985"
+				},
+				{
+					"name": "Canto Ostinato",
+					"artist": "Simeon ten Holt",
+					"year": "1984"
 				}
 			],
 			"sample_tracks": [
