@@ -3833,6 +3833,54 @@
 				}
 			]
 		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "The Mighty Mighty Bosstones",
+					"album_count": 3
+				},
+				{
+					"name": "Reel Big Fish",
+					"album_count": 3
+				},
+				{
+					"name": "No Doubt",
+					"album_count": 2
+				},
+				{
+					"name": "Save Ferris",
+					"album_count": 2
+				},
+				{
+					"name": "Less Than Jake",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Let's Face It",
+					"artist": "The Mighty Mighty Bosstones",
+					"year": "1997"
+				},
+				{
+					"name": "Turn the Radio Off",
+					"artist": "Reel Big Fish",
+					"year": "1996"
+				},
+				{
+					"name": "Tragic Kingdom",
+					"artist": "No Doubt",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Impression That I Get",
+					"artist": "The Mighty Mighty Bosstones",
+					"album": "Let's Face It"
+				}
+			]
+		},
 		"dub": {
 			"top_artists": [
 				{

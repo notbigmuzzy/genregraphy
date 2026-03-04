@@ -3911,6 +3911,54 @@
 				}
 			]
 		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "Streetlight Manifesto",
+					"album_count": 3
+				},
+				{
+					"name": "The Aggrolites",
+					"album_count": 3
+				},
+				{
+					"name": "The Slackers",
+					"album_count": 2
+				},
+				{
+					"name": "The Planet Smashers",
+					"album_count": 2
+				},
+				{
+					"name": "Westbound Train",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Everything Goes Numb",
+					"artist": "Streetlight Manifesto",
+					"year": "2003"
+				},
+				{
+					"name": "The Aggrolites",
+					"artist": "The Aggrolites",
+					"year": "2006"
+				},
+				{
+					"name": "Peculiar",
+					"artist": "The Slackers",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Point/Counterpoint",
+					"artist": "Streetlight Manifesto",
+					"album": "Everything Goes Numb"
+				}
+			]
+		},
 		"dub": {
 			"top_artists": [
 				{

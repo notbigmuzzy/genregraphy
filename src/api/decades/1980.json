@@ -3212,6 +3212,54 @@
 				}
 			]
 		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "The Toasters",
+					"album_count": 3
+				},
+				{
+					"name": "The Untouchables",
+					"album_count": 2
+				},
+				{
+					"name": "Fishbone",
+					"album_count": 2
+				},
+				{
+					"name": "The Specials",
+					"album_count": 1
+				},
+				{
+					"name": "Bad Manners",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ska Face",
+					"artist": "The Toasters",
+					"year": "1988"
+				},
+				{
+					"name": "Wild Child",
+					"artist": "The Untouchables",
+					"year": "1985"
+				},
+				{
+					"name": "In Your Face",
+					"artist": "Fishbone",
+					"year": "1986"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pool Shark",
+					"artist": "The Toasters",
+					"album": "Ska Face"
+				}
+			]
+		},
 		"dub": {
 			"top_artists": [
 				{

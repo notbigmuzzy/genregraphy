@@ -2310,6 +2310,54 @@
 				}
 			]
 		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "The Specials",
+					"album_count": 2
+				},
+				{
+					"name": "The Selecter",
+					"album_count": 2
+				},
+				{
+					"name": "Madness",
+					"album_count": 2
+				},
+				{
+					"name": "The Skatalites",
+					"album_count": 1
+				},
+				{
+					"name": "Desmond Dekker",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Specials",
+					"artist": "The Specials",
+					"year": "1979"
+				},
+				{
+					"name": "Too Much Pressure",
+					"artist": "The Selecter",
+					"year": "1980"
+				},
+				{
+					"name": "One Step Beyond...",
+					"artist": "Madness",
+					"year": "1979"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "A Message to You, Rudy",
+					"artist": "The Specials",
+					"album": "Specials"
+				}
+			]
+		},
 		"dub": {
 			"top_artists": [
 				{

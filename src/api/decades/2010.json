@@ -3850,6 +3850,41 @@
 				}
 			]
 		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "The Interrupters",
+					"album_count": 3
+				},
+				{
+					"name": "Streetlight Manifesto",
+					"album_count": 1
+				},
+				{
+					"name": "Tokyo Ska Paradise Orchestra",
+					"album_count": 4
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Fight the Good Fight",
+					"artist": "The Interrupters",
+					"year": "2018"
+				},
+				{
+					"name": "The Hands That Thieve",
+					"artist": "Streetlight Manifesto",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "She's Kerosene",
+					"artist": "The Interrupters",
+					"album": "Fight the Good Fight"
+				}
+			]
+		},
 		"dub": {
 			"top_artists": [
 				{

@@ -3841,6 +3841,41 @@
 				}
 			]
 		},
+		"ska": {
+			"top_artists": [
+				{
+					"name": "The Interrupters",
+					"album_count": 1
+				},
+				{
+					"name": "Bad Operation",
+					"album_count": 1
+				},
+				{
+					"name": "The Slackers",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bad Operation",
+					"artist": "Bad Operation",
+					"year": "2020"
+				},
+				{
+					"name": "Don't Let the Sunlight Fool Ya",
+					"artist": "The Slackers",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "In the Mirror",
+					"artist": "The Interrupters",
+					"album": "In the Wild"
+				}
+			]
+		},
 		"dub": {
 			"top_artists": [
 				{
