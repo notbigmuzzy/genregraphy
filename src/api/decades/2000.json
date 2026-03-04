@@ -144,6 +144,54 @@
 				}
 			]
 		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "The HorrorPops",
+					"album_count": 3
+				},
+				{
+					"name": "Nekromantix",
+					"album_count": 3
+				},
+				{
+					"name": "Imelda May",
+					"album_count": 2
+				},
+				{
+					"name": "Tiger Army",
+					"album_count": 2
+				},
+				{
+					"name": "JD McPherson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hell Yeah!",
+					"artist": "The HorrorPops",
+					"year": "2004"
+				},
+				{
+					"name": "Lovehound",
+					"artist": "Imelda May",
+					"year": "2008"
+				},
+				{
+					"name": "Return of the Loving Dead",
+					"artist": "Nekromantix",
+					"year": "2002"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Julia",
+					"artist": "The HorrorPops",
+					"album": "Hell Yeah!"
+				}
+			]
+		},
 		"garage rock": {
 			"top_artists": [
 				{
@@ -2064,6 +2112,54 @@
 				}
 			]
 		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "The RH Factor",
+					"album_count": 2
+				},
+				{
+					"name": "Robert Glasper",
+					"album_count": 2
+				},
+				{
+					"name": "Soulive",
+					"album_count": 2
+				},
+				{
+					"name": "Lizz Wright",
+					"album_count": 1
+				},
+				{
+					"name": "Meshell Ndegeocello",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hard Groove",
+					"artist": "The RH Factor",
+					"year": "2003"
+				},
+				{
+					"name": "Canvas",
+					"artist": "Robert Glasper",
+					"year": "2005"
+				},
+				{
+					"name": "Soulive",
+					"artist": "Soulive",
+					"year": "2003"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Forget Regret",
+					"artist": "The RH Factor",
+					"album": "Hard Groove"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
@@ -2238,6 +2334,102 @@
 					"name": "Bluebird",
 					"artist": "Stan Getz",
 					"album": "The Best of the Roumanian Years"
+				}
+			]
+		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Roy Hargrove",
+					"album_count": 4
+				},
+				{
+					"name": "The SFJAZZ Collective",
+					"album_count": 3
+				},
+				{
+					"name": "Terence Blanchard",
+					"album_count": 2
+				},
+				{
+					"name": "Christian McBride",
+					"album_count": 2
+				},
+				{
+					"name": "Eric Alexander",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Earfood",
+					"artist": "Roy Hargrove",
+					"year": "2008"
+				},
+				{
+					"name": "A Tale of God's Will (A Requiem for Katrina)",
+					"artist": "Terence Blanchard",
+					"year": "2007"
+				},
+				{
+					"name": "The Christian McBride Band: Live at Tonic",
+					"artist": "Christian McBride",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Strasbourg/St. Denis",
+					"artist": "Roy Hargrove",
+					"album": "Earfood"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "Roy Hargrove",
+					"album_count": 2
+				},
+				{
+					"name": "The Dizzy Gillespie All-Star Big Band",
+					"album_count": 1
+				},
+				{
+					"name": "James Moody",
+					"album_count": 1
+				},
+				{
+					"name": "Antonio Hart",
+					"album_count": 1
+				},
+				{
+					"name": "Roberta Gambarini",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Nothing Serious",
+					"artist": "Roy Hargrove",
+					"year": "2006"
+				},
+				{
+					"name": "Dizzy's Business",
+					"artist": "The Dizzy Gillespie All-Star Big Band",
+					"year": "2006"
+				},
+				{
+					"name": "Easy to Love",
+					"artist": "Roberta Gambarini",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Nothing Serious",
+					"artist": "Roy Hargrove",
+					"album": "Nothing Serious"
 				}
 			]
 		},
@@ -2519,6 +2711,54 @@
 					"name": "Malague\u00f1a",
 					"artist": "The Bambi Molesters",
 					"album": "Sonic Rock and Roll"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "The New Pornographers",
+					"album_count": 3
+				},
+				{
+					"name": "Fountains of Wayne",
+					"album_count": 2
+				},
+				{
+					"name": "The Shins",
+					"album_count": 2
+				},
+				{
+					"name": "The All-American Rejects",
+					"album_count": 2
+				},
+				{
+					"name": "OK Go",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mass Romantic",
+					"artist": "The New Pornographers",
+					"year": "2000"
+				},
+				{
+					"name": "Welcome Interstate Managers",
+					"artist": "Fountains of Wayne",
+					"year": "2003"
+				},
+				{
+					"name": "Oh, Inverted World",
+					"artist": "The Shins",
+					"year": "2001"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Stacy's Mom",
+					"artist": "Fountains of Wayne",
+					"album": "Welcome Interstate Managers"
 				}
 			]
 		},
@@ -3812,6 +4052,102 @@
 					"name": "Footsteps",
 					"artist": "Machel Montano",
 					"album": "Charge"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Eddy Herrera",
+					"album_count": 5
+				},
+				{
+					"name": "Tito El Bambino",
+					"album_count": 3
+				},
+				{
+					"name": "Milly Quezada",
+					"album_count": 3
+				},
+				{
+					"name": "To\u00f1o Rosario",
+					"album_count": 2
+				},
+				{
+					"name": "Elvis Crespo",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "\u00c9xitos de Eddy Herrera",
+					"artist": "Eddy Herrera",
+					"year": "2005"
+				},
+				{
+					"name": "Pienso en Ti",
+					"artist": "Milly Quezada",
+					"year": "2002"
+				},
+				{
+					"name": "En Vivo desde El Auditorio Nacional",
+					"artist": "Elvis Crespo",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "P\u00e9game tu Vicio",
+					"artist": "Eddy Herrera",
+					"album": "Amor de Locos"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "Bebel Gilberto",
+					"album_count": 4
+				},
+				{
+					"name": "Ceu",
+					"album_count": 3
+				},
+				{
+					"name": "Sergio Mendes",
+					"album_count": 3
+				},
+				{
+					"name": "Nouvelle Vague",
+					"album_count": 2
+				},
+				{
+					"name": "Vanessa da Mata",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bebel Gilberto",
+					"artist": "Bebel Gilberto",
+					"year": "2004"
+				},
+				{
+					"name": "C\u00e9U",
+					"artist": "Ceu",
+					"year": "2005"
+				},
+				{
+					"name": "Timeless",
+					"artist": "Sergio Mendes",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Baby",
+					"artist": "Bebel Gilberto",
+					"album": "Bebel Gilberto"
 				}
 			]
 		},

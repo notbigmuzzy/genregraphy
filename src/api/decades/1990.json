@@ -96,6 +96,54 @@
 				}
 			]
 		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "The Brian Setzer Orchestra",
+					"album_count": 3
+				},
+				{
+					"name": "The Reverend Horton Heat",
+					"album_count": 3
+				},
+				{
+					"name": "Social Distortion",
+					"album_count": 2
+				},
+				{
+					"name": "Southern Culture on the Skids",
+					"album_count": 2
+				},
+				{
+					"name": "The Living End",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Dirty Boogie",
+					"artist": "The Brian Setzer Orchestra",
+					"year": "1998"
+				},
+				{
+					"name": "Liquor in the Front",
+					"artist": "The Reverend Horton Heat",
+					"year": "1994"
+				},
+				{
+					"name": "Somewhere Between Heaven and Hell",
+					"artist": "Social Distortion",
+					"year": "1992"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Jump, Jive an' Wail",
+					"artist": "The Brian Setzer Orchestra",
+					"album": "The Dirty Boogie"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{
@@ -2068,6 +2116,54 @@
 				}
 			]
 		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Buckshot LeFonque",
+					"album_count": 2
+				},
+				{
+					"name": "The Brand New Heavies",
+					"album_count": 2
+				},
+				{
+					"name": "Incognito",
+					"album_count": 2
+				},
+				{
+					"name": "Grover Washington Jr.",
+					"album_count": 1
+				},
+				{
+					"name": "George Benson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Buckshot LeFonque",
+					"artist": "Buckshot LeFonque",
+					"year": "1994"
+				},
+				{
+					"name": "Brother Sitting on a Corner",
+					"artist": "The Brand New Heavies",
+					"year": "1994"
+				},
+				{
+					"name": "Poseidon",
+					"artist": "Incognito",
+					"year": "1993"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Breakfast @ Denny's",
+					"artist": "Buckshot LeFonque",
+					"album": "Buckshot LeFonque"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
@@ -2242,6 +2338,102 @@
 					"name": "Bluebird",
 					"artist": "Stan Getz",
 					"album": "Bluebird"
+				}
+			]
+		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Joe Henderson",
+					"album_count": 3
+				},
+				{
+					"name": "Wynton Marsalis",
+					"album_count": 3
+				},
+				{
+					"name": "Joshua Redman",
+					"album_count": 2
+				},
+				{
+					"name": "Christian McBride",
+					"album_count": 2
+				},
+				{
+					"name": "Kenny Garrett",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Lush Life: The Music of Billy Strayhorn",
+					"artist": "Joe Henderson",
+					"year": "1992"
+				},
+				{
+					"name": "Live at the Village Vanguard",
+					"artist": "Wynton Marsalis",
+					"year": "1999"
+				},
+				{
+					"name": "MoodSwing",
+					"artist": "Joshua Redman",
+					"year": "1994"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Lush Life",
+					"artist": "Joe Henderson",
+					"album": "Lush Life"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "Dizzy Gillespie",
+					"album_count": 1
+				},
+				{
+					"name": "James Moody",
+					"album_count": 1
+				},
+				{
+					"name": "Jon Faddis",
+					"album_count": 1
+				},
+				{
+					"name": "Nicholas Payton",
+					"album_count": 1
+				},
+				{
+					"name": "Antonio Hart",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "To Bird with Love",
+					"artist": "Dizzy Gillespie",
+					"year": "1992"
+				},
+				{
+					"name": "Young Lions & Old Masters",
+					"artist": "Various Artists",
+					"year": "1992"
+				},
+				{
+					"name": "The Fire Continued",
+					"artist": "Jon Faddis",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Confirmation",
+					"artist": "Dizzy Gillespie",
+					"album": "To Bird with Love"
 				}
 			]
 		},
@@ -2528,6 +2720,54 @@
 					"name": "Misirlou",
 					"artist": "Dick Dale & His Del-Tones",
 					"album": "Pulp Fiction"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "The Posies",
+					"album_count": 3
+				},
+				{
+					"name": "Teenage Fanclub",
+					"album_count": 3
+				},
+				{
+					"name": "Matthew Sweet",
+					"album_count": 2
+				},
+				{
+					"name": "Gigolo Aunts",
+					"album_count": 2
+				},
+				{
+					"name": "The Gin Blossoms",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bandwagonesque",
+					"artist": "Teenage Fanclub",
+					"year": "1991"
+				},
+				{
+					"name": "Girlfriend",
+					"artist": "Matthew Sweet",
+					"year": "1991"
+				},
+				{
+					"name": "Frosting on the Beater",
+					"artist": "The Posies",
+					"year": "1993"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Girlfriend",
+					"artist": "Matthew Sweet",
+					"album": "Girlfriend"
 				}
 			]
 		},
@@ -3782,6 +4022,102 @@
 					"name": "Bahia Girl",
 					"artist": "David Rudder",
 					"album": "1990"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 5
+				},
+				{
+					"name": "Elvis Crespo",
+					"album_count": 3
+				},
+				{
+					"name": "Milly Quezada",
+					"album_count": 3
+				},
+				{
+					"name": "Wilfrido Vargas",
+					"album_count": 1
+				},
+				{
+					"name": "Kinito M\u00e9ndez",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bachata Rosa",
+					"artist": "Juan Luis Guerra",
+					"year": "1990"
+				},
+				{
+					"name": "Suavemente",
+					"artist": "Elvis Crespo",
+					"year": "1998"
+				},
+				{
+					"name": "Vive",
+					"artist": "Milly Quezada",
+					"year": "1998"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Suavemente",
+					"artist": "Elvis Crespo",
+					"album": "Suavemente"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "Bebel Gilberto",
+					"album_count": 4
+				},
+				{
+					"name": "Marisa Monte",
+					"album_count": 3
+				},
+				{
+					"name": "Caetano Veloso",
+					"album_count": 3
+				},
+				{
+					"name": "Vinicius Cantu\u00e1ria",
+					"album_count": 2
+				},
+				{
+					"name": "Jo\u00e3o Gilberto",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Tanto Tempo",
+					"artist": "Bebel Gilberto",
+					"year": "2000"
+				},
+				{
+					"name": "Verde, Anil, Amarelo, Cor-de-Rosa e Carv\u00e3o",
+					"artist": "Marisa Monte",
+					"year": "1994"
+				},
+				{
+					"name": "Livro",
+					"artist": "Caetano Veloso",
+					"year": "1997"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Samba e Amor",
+					"artist": "Bebel Gilberto",
+					"album": "Tanto Tempo"
 				}
 			]
 		},

@@ -96,6 +96,54 @@
 				}
 			]
 		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "Robert Gordon",
+					"album_count": 3
+				},
+				{
+					"name": "The Cramps",
+					"album_count": 2
+				},
+				{
+					"name": "The Meteors",
+					"album_count": 1
+				},
+				{
+					"name": "Matchbox",
+					"album_count": 1
+				},
+				{
+					"name": "Shakin' Stevens",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Robert Gordon with Link Wray",
+					"artist": "Robert Gordon",
+					"year": "1977"
+				},
+				{
+					"name": "Songs the Lord Taught Us",
+					"artist": "The Cramps",
+					"year": "1980"
+				},
+				{
+					"name": "Fresh Fish Special",
+					"artist": "Robert Gordon",
+					"year": "1978"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Red Hot",
+					"artist": "Robert Gordon",
+					"album": "Robert Gordon with Link Wray"
+				}
+			]
+		},
 		"hard rock": {
 			"top_artists": [
 				{
@@ -772,6 +820,54 @@
 				}
 			]
 		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Grant Green",
+					"album_count": 3
+				},
+				{
+					"name": "Grover Washington Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "Donald Byrd",
+					"album_count": 2
+				},
+				{
+					"name": "Ramsey Lewis",
+					"album_count": 2
+				},
+				{
+					"name": "George Benson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mister Magic",
+					"artist": "Grover Washington Jr.",
+					"year": "1975"
+				},
+				{
+					"name": "Black Byrd",
+					"artist": "Donald Byrd",
+					"year": "1973"
+				},
+				{
+					"name": "Live at the Lighthouse",
+					"artist": "Grant Green",
+					"year": "1972"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Mister Magic",
+					"artist": "Grover Washington Jr.",
+					"album": "Mister Magic"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
@@ -1011,6 +1107,102 @@
 					"name": "The Thrill Is Gone",
 					"artist": "B.B. King",
 					"album": "Live in Cook County Jail"
+				}
+			]
+		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Art Blakey",
+					"album_count": 3
+				},
+				{
+					"name": "Cedar Walton",
+					"album_count": 2
+				},
+				{
+					"name": "Woody Shaw",
+					"album_count": 2
+				},
+				{
+					"name": "Dexter Gordon",
+					"album_count": 2
+				},
+				{
+					"name": "Freddie Hubbard",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Anthenagin",
+					"artist": "Art Blakey",
+					"year": "1973"
+				},
+				{
+					"name": "Homecoming: Live at the Village Vanguard",
+					"artist": "Dexter Gordon",
+					"year": "1976"
+				},
+				{
+					"name": "The Moontrane",
+					"artist": "Woody Shaw",
+					"year": "1974"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Anthenagin",
+					"artist": "Art Blakey",
+					"album": "Anthenagin"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "Dizzy Gillespie",
+					"album_count": 2
+				},
+				{
+					"name": "Max Roach",
+					"album_count": 2
+				},
+				{
+					"name": "James Moody",
+					"album_count": 1
+				},
+				{
+					"name": "Charles McPherson",
+					"album_count": 1
+				},
+				{
+					"name": "Sonny Stitt",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Giant",
+					"artist": "Dizzy Gillespie",
+					"year": "1973"
+				},
+				{
+					"name": "M'Boom",
+					"artist": "Max Roach",
+					"year": "1979"
+				},
+				{
+					"name": "Tribute to Charlie Parker",
+					"artist": "Various Artists",
+					"year": "1971"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Giant",
+					"artist": "Dizzy Gillespie",
+					"album": "The Giant"
 				}
 			]
 		},
@@ -2259,6 +2451,102 @@
 					"name": "Obeah Wedding",
 					"artist": "Mighty Sparrow",
 					"album": "Hot and Sweet"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Johnny Ventura",
+					"album_count": 5
+				},
+				{
+					"name": "Wilfrido Vargas",
+					"album_count": 4
+				},
+				{
+					"name": "Cuco Valoy",
+					"album_count": 3
+				},
+				{
+					"name": "Fefita la Grande",
+					"album_count": 2
+				},
+				{
+					"name": "Conjunto Quisqueya",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "\u00bfQu\u00e9 Pasa, Papo?",
+					"artist": "Johnny Ventura",
+					"year": "1971"
+				},
+				{
+					"name": "El B\u00e1rbaro del Ritmo",
+					"artist": "Wilfrido Vargas",
+					"year": "1978"
+				},
+				{
+					"name": "Cuco Valoy y sus Virtuosos",
+					"artist": "Cuco Valoy",
+					"year": "1975"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Patac\u00f3n Pisao",
+					"artist": "Johnny Ventura",
+					"album": "\u00bfQu\u00e9 Pasa, Papo?"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "Ant\u00f4nio Carlos Jobim",
+					"album_count": 3
+				},
+				{
+					"name": "Elis Regina",
+					"album_count": 3
+				},
+				{
+					"name": "Jorge Ben Jor",
+					"album_count": 2
+				},
+				{
+					"name": "Jo\u00e3o Gilberto",
+					"album_count": 2
+				},
+				{
+					"name": "Stan Getz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Elis & Tom",
+					"artist": "Elis Regina & Ant\u00f4nio Carlos Jobim",
+					"year": "1974"
+				},
+				{
+					"name": "A T\u00e1bua de Esmeralda",
+					"artist": "Jorge Ben",
+					"year": "1974"
+				},
+				{
+					"name": "Jo\u00e3o Gilberto",
+					"artist": "Jo\u00e3o Gilberto",
+					"year": "1973"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Aguas de Mar\u00e7o",
+					"artist": "Elis Regina & Ant\u00f4nio Carlos Jobim",
+					"album": "Elis & Tom"
 				}
 			]
 		},

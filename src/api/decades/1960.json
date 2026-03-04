@@ -820,6 +820,54 @@
 				}
 			]
 		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Art Blakey & The Jazz Messengers",
+					"album_count": 5
+				},
+				{
+					"name": "Lee Morgan",
+					"album_count": 4
+				},
+				{
+					"name": "Freddie Hubbard",
+					"album_count": 4
+				},
+				{
+					"name": "Wayne Shorter",
+					"album_count": 3
+				},
+				{
+					"name": "Joe Henderson",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Sidewinder",
+					"artist": "Lee Morgan",
+					"year": "1964"
+				},
+				{
+					"name": "Maiden Voyage",
+					"artist": "Herbie Hancock",
+					"year": "1965"
+				},
+				{
+					"name": "Speak No Evil",
+					"artist": "Wayne Shorter",
+					"year": "1966"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Sidewinder",
+					"artist": "Lee Morgan",
+					"album": "The Sidewinder"
+				}
+			]
+		},
 		"fusion": {
 			"top_artists": [
 				{
@@ -2025,6 +2073,54 @@
 					"name": "Banana Boat Song",
 					"artist": "Harry Belafonte",
 					"album": "Calypso"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Jose\u00edto Mateo",
+					"album_count": 3
+				},
+				{
+					"name": "El Ciego de Nagua",
+					"album_count": 2
+				},
+				{
+					"name": "Luis Alberti",
+					"album_count": 2
+				},
+				{
+					"name": "Dioris Valladares",
+					"album_count": 2
+				},
+				{
+					"name": "Rafael Solano",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "El Rey del Merengue",
+					"artist": "Jose\u00edto Mateo",
+					"year": "1964"
+				},
+				{
+					"name": "Merengue T\u00edpico",
+					"artist": "El Ciego de Nagua",
+					"year": "1966"
+				},
+				{
+					"name": "Dioris Valladares y su Conjunto",
+					"artist": "Dioris Valladares",
+					"year": "1962"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Ca\u00f1a Brava",
+					"artist": "Jose\u00edto Mateo",
+					"album": "El Rey del Merengue"
 				}
 			]
 		},

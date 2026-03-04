@@ -484,6 +484,54 @@
 				}
 			]
 		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Art Blakey & The Jazz Messengers",
+					"album_count": 5
+				},
+				{
+					"name": "Horace Silver",
+					"album_count": 4
+				},
+				{
+					"name": "Sonny Rollins",
+					"album_count": 4
+				},
+				{
+					"name": "Clifford Brown",
+					"album_count": 3
+				},
+				{
+					"name": "Miles Davis",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Moanin'",
+					"artist": "Art Blakey & The Jazz Messengers",
+					"year": "1958"
+				},
+				{
+					"name": "Saxophone Colossus",
+					"artist": "Sonny Rollins",
+					"year": "1956"
+				},
+				{
+					"name": "Song for My Father",
+					"artist": "Horace Silver",
+					"year": "1964"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Moanin'",
+					"artist": "Art Blakey & The Jazz Messengers",
+					"album": "Moanin'"
+				}
+			]
+		},
 		"chicago blues": {
 			"top_artists": [
 				{
@@ -723,6 +771,54 @@
 					"name": "Kitch",
 					"artist": "Lord Kitchener",
 					"album": "Kitch"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Jose\u00edto Mateo",
+					"album_count": 3
+				},
+				{
+					"name": "Luis Alberti",
+					"album_count": 2
+				},
+				{
+					"name": "Tona la Negra",
+					"album_count": 2
+				},
+				{
+					"name": "Dioris Valladares",
+					"album_count": 1
+				},
+				{
+					"name": "Angel Viloria y su Conjunto T\u00edpico Cibae\u00f1o",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Merengues",
+					"artist": "Angel Viloria y su Conjunto T\u00edpico Cibae\u00f1o",
+					"year": "1954"
+				},
+				{
+					"name": "Ca\u00f1a Brava",
+					"artist": "Jose\u00edto Mateo",
+					"year": "1955"
+				},
+				{
+					"name": "Luis Alberti y su Orquesta",
+					"artist": "Luis Alberti",
+					"year": "1950"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Ca\u00f1a Brava",
+					"artist": "Jose\u00edto Mateo",
+					"album": "Ca\u00f1a Brava"
 				}
 			]
 		},

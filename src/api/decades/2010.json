@@ -624,6 +624,54 @@
 				}
 			]
 		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "JD McPherson",
+					"album_count": 3
+				},
+				{
+					"name": "Imelda May",
+					"album_count": 2
+				},
+				{
+					"name": "The Bellfuries",
+					"album_count": 1
+				},
+				{
+					"name": "Pokey LaFarge",
+					"album_count": 1
+				},
+				{
+					"name": "Kim Lenz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Signs & Signifiers",
+					"artist": "JD McPherson",
+					"year": "2010"
+				},
+				{
+					"name": "Tribal",
+					"artist": "Imelda May",
+					"year": "2014"
+				},
+				{
+					"name": "Workingman's Blues",
+					"artist": "The Bellfuries",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "North Side Gal",
+					"artist": "JD McPherson",
+					"album": "Signs & Signifiers"
+				}
+			]
+		},
 		"stoner rock": {
 			"top_artists": [
 				{
@@ -2003,6 +2051,54 @@
 				}
 			]
 		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Robert Glasper Experiment",
+					"album_count": 3
+				},
+				{
+					"name": "Kamasi Washington",
+					"album_count": 2
+				},
+				{
+					"name": "Gregory Porter",
+					"album_count": 2
+				},
+				{
+					"name": "Snarky Puppy",
+					"album_count": 2
+				},
+				{
+					"name": "Christian Scott aTunde Adjuah",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Radio",
+					"artist": "Robert Glasper Experiment",
+					"year": "2012"
+				},
+				{
+					"name": "The Epic",
+					"artist": "Kamasi Washington",
+					"year": "2015"
+				},
+				{
+					"name": "Liquid Spirit",
+					"artist": "Gregory Porter",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Afro Blue",
+					"artist": "Robert Glasper Experiment",
+					"album": "Black Radio"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
@@ -2225,6 +2321,97 @@
 					"name": "Autumn Leaves",
 					"artist": "Stan Getz",
 					"album": "Live in Italy"
+				}
+			]
+		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Christian McBride",
+					"album_count": 5
+				},
+				{
+					"name": "Kamasi Washington",
+					"album_count": 3
+				},
+				{
+					"name": "Ambrose Akinmusire",
+					"album_count": 3
+				},
+				{
+					"name": "Makaya McCraven",
+					"album_count": 2
+				},
+				{
+					"name": "C\u00e9cile McLorin Salvant",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Epic",
+					"artist": "Kamasi Washington",
+					"year": "2015"
+				},
+				{
+					"name": "Bringin' It",
+					"artist": "Christian McBride",
+					"year": "2017"
+				},
+				{
+					"name": "When the Heart Emerges Glistening",
+					"artist": "Ambrose Akinmusire",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Epic",
+					"artist": "Kamasi Washington",
+					"album": "The Epic"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "The Dizzy Gillespie All-Star Big Band",
+					"album_count": 1
+				},
+				{
+					"name": "Roberta Gambarini",
+					"album_count": 1
+				},
+				{
+					"name": "James Moody",
+					"album_count": 1
+				},
+				{
+					"name": "Christian McBride",
+					"album_count": 1
+				},
+				{
+					"name": "Roy Hargrove",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Moody 4A",
+					"artist": "James Moody",
+					"year": "2010"
+				},
+				{
+					"name": "The Shadow of Your Smile",
+					"artist": "Roberta Gambarini",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Moody's Mood for Love",
+					"artist": "James Moody",
+					"album": "Moody 4A"
 				}
 			]
 		},
@@ -2511,6 +2698,54 @@
 					"name": "Sure as Spring",
 					"artist": "La Luz",
 					"album": "It's Alive"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "The New Pornographers",
+					"album_count": 3
+				},
+				{
+					"name": "Best Coast",
+					"album_count": 2
+				},
+				{
+					"name": "White Reaper",
+					"album_count": 2
+				},
+				{
+					"name": "Charly Bliss",
+					"album_count": 1
+				},
+				{
+					"name": "Beach Slang",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Brill Bruisers",
+					"artist": "The New Pornographers",
+					"year": "2014"
+				},
+				{
+					"name": "Crazy for You",
+					"artist": "Best Coast",
+					"year": "2010"
+				},
+				{
+					"name": "Guppy",
+					"artist": "Charly Bliss",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Boyish",
+					"artist": "Charly Bliss",
+					"album": "Guppy"
 				}
 			]
 		},
@@ -3756,6 +3991,102 @@
 					"name": "Like Ah Boss",
 					"artist": "Machel Montano",
 					"album": "Monk Monte"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 5
+				},
+				{
+					"name": "Milly Quezada",
+					"album_count": 3
+				},
+				{
+					"name": "Eddy Herrera",
+					"album_count": 3
+				},
+				{
+					"name": "Omega",
+					"album_count": 2
+				},
+				{
+					"name": "Hector Acosta",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "A Son de Guerra",
+					"artist": "Juan Luis Guerra",
+					"year": "2010"
+				},
+				{
+					"name": "Aqu\u00ed Estoy Yo",
+					"artist": "Milly Quezada",
+					"year": "2011"
+				},
+				{
+					"name": "El Merengue de Hoy",
+					"artist": "Omega",
+					"year": "2011"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "La Guagua",
+					"artist": "Juan Luis Guerra",
+					"album": "A Son de Guerra"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "Bebel Gilberto",
+					"album_count": 3
+				},
+				{
+					"name": "Ceu",
+					"album_count": 3
+				},
+				{
+					"name": "Eliane Elias",
+					"album_count": 3
+				},
+				{
+					"name": "Marisa Monte",
+					"album_count": 2
+				},
+				{
+					"name": "Nouvelle Vague",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Tudo",
+					"artist": "Bebel Gilberto",
+					"year": "2014"
+				},
+				{
+					"name": "Tropix",
+					"artist": "Ceu",
+					"year": "2016"
+				},
+				{
+					"name": "Quietly Yours",
+					"artist": "Eliane Elias",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Tudo",
+					"artist": "Bebel Gilberto",
+					"album": "Tudo"
 				}
 			]
 		},

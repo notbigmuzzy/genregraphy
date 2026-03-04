@@ -624,6 +624,54 @@
 				}
 			]
 		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "The Delta Bombers",
+					"album_count": 2
+				},
+				{
+					"name": "JD McPherson",
+					"album_count": 1
+				},
+				{
+					"name": "Imelda May",
+					"album_count": 1
+				},
+				{
+					"name": "The Surfrajettes",
+					"album_count": 1
+				},
+				{
+					"name": "The Deslondes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Neon Slums",
+					"artist": "The Delta Bombers",
+					"year": "2020"
+				},
+				{
+					"name": "11 Past the Hour",
+					"artist": "Imelda May",
+					"year": "2021"
+				},
+				{
+					"name": "Roller Derby Saved My Soul",
+					"artist": "The Surfrajettes",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Give It All",
+					"artist": "The Delta Bombers",
+					"album": "Neon Slums"
+				}
+			]
+		},
 		"stoner rock": {
 			"top_artists": [
 				{
@@ -1998,6 +2046,54 @@
 				}
 			]
 		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Sault",
+					"album_count": 3
+				},
+				{
+					"name": "Nubya Garcia",
+					"album_count": 2
+				},
+				{
+					"name": "Butcher Brown",
+					"album_count": 2
+				},
+				{
+					"name": "Robert Glasper",
+					"album_count": 2
+				},
+				{
+					"name": "Yussef Dayes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Untitled (Rise)",
+					"artist": "Sault",
+					"year": "2020"
+				},
+				{
+					"name": "Source",
+					"artist": "Nubya Garcia",
+					"year": "2020"
+				},
+				{
+					"name": "Solar Music",
+					"artist": "Butcher Brown",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Free",
+					"artist": "Sault",
+					"album": "Untitled (Rise)"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
@@ -2220,6 +2316,102 @@
 					"name": "Bluebird",
 					"artist": "Stan Getz",
 					"album": "The Best of the Roumanian Years"
+				}
+			]
+		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Christian McBride",
+					"album_count": 3
+				},
+				{
+					"name": "Immanuel Wilkins",
+					"album_count": 2
+				},
+				{
+					"name": "Makaya McCraven",
+					"album_count": 2
+				},
+				{
+					"name": "Joel Ross",
+					"album_count": 2
+				},
+				{
+					"name": "Nubya Garcia",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The 7th Hand",
+					"artist": "Immanuel Wilkins",
+					"year": "2022"
+				},
+				{
+					"name": "Deciphering the Message",
+					"artist": "Makaya McCraven",
+					"year": "2021"
+				},
+				{
+					"name": "The Long Gone",
+					"artist": "Joshua Redman",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Emanation",
+					"artist": "Immanuel Wilkins",
+					"album": "The 7th Hand"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "Christian McBride",
+					"album_count": 2
+				},
+				{
+					"name": "Immanuel Wilkins",
+					"album_count": 1
+				},
+				{
+					"name": "Veronica Swift",
+					"album_count": 1
+				},
+				{
+					"name": "Pasquale Grasso",
+					"album_count": 1
+				},
+				{
+					"name": "Beno\u00eet \u00c9tienne",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Live at Vanguard",
+					"artist": "Christian McBride",
+					"year": "2021"
+				},
+				{
+					"name": "This Bitter Earth",
+					"artist": "Veronica Swift",
+					"year": "2021"
+				},
+				{
+					"name": "Pasquale Plays Charlie Parker",
+					"artist": "Pasquale Grasso",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Nearness of You",
+					"artist": "Veronica Swift",
+					"album": "This Bitter Earth"
 				}
 			]
 		},
@@ -2497,6 +2689,54 @@
 					"name": "The Breeze",
 					"artist": "La Luz",
 					"album": "Floating Features"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "White Reaper",
+					"album_count": 2
+				},
+				{
+					"name": "2nd Grade",
+					"album_count": 2
+				},
+				{
+					"name": "Bad Sounds",
+					"album_count": 1
+				},
+				{
+					"name": "The Beths",
+					"album_count": 1
+				},
+				{
+					"name": "Mo Troper",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "You Deserve Love",
+					"artist": "White Reaper",
+					"year": "2019"
+				},
+				{
+					"name": "Hit to Hit",
+					"artist": "2nd Grade",
+					"year": "2020"
+				},
+				{
+					"name": "Expert in a Dying Field",
+					"artist": "The Beths",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Real Estate",
+					"artist": "White Reaper",
+					"album": "You Deserve Love"
 				}
 			]
 		},
@@ -3742,6 +3982,102 @@
 					"name": "So Good",
 					"artist": "Machel Montano",
 					"album": "Road March 2020"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 3
+				},
+				{
+					"name": "Eddy Herrera",
+					"album_count": 2
+				},
+				{
+					"name": "Milly Quezada",
+					"album_count": 2
+				},
+				{
+					"name": "Gabriel Pagan",
+					"album_count": 2
+				},
+				{
+					"name": "Manny Cruz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Priv\u00e9",
+					"artist": "Juan Luis Guerra",
+					"year": "2020"
+				},
+				{
+					"name": "Love Dance Merengue",
+					"artist": "Manny Cruz",
+					"year": "2021"
+				},
+				{
+					"name": "Milenio",
+					"artist": "Milly Quezada",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pambiche de Novia",
+					"artist": "Juan Luis Guerra",
+					"album": "Priv\u00e9"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "Bebel Gilberto",
+					"album_count": 2
+				},
+				{
+					"name": "Ceu",
+					"album_count": 2
+				},
+				{
+					"name": "Eliane Elias",
+					"album_count": 1
+				},
+				{
+					"name": "Marisa Monte",
+					"album_count": 1
+				},
+				{
+					"name": "Liniker",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Agora",
+					"artist": "Bebel Gilberto",
+					"year": "2020"
+				},
+				{
+					"name": "Um Gosto de Sol",
+					"artist": "Ceu",
+					"year": "2021"
+				},
+				{
+					"name": "Indigo Borboleta Anil",
+					"artist": "Liniker",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Deixa",
+					"artist": "Bebel Gilberto",
+					"album": "Agora"
 				}
 			]
 		},

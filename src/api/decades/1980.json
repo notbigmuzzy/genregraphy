@@ -96,6 +96,54 @@
 				}
 			]
 		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "The Stray Cats",
+					"album_count": 5
+				},
+				{
+					"name": "The Cramps",
+					"album_count": 4
+				},
+				{
+					"name": "The Meteors",
+					"album_count": 4
+				},
+				{
+					"name": "Robert Gordon",
+					"album_count": 3
+				},
+				{
+					"name": "The Polecats",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Built for Speed",
+					"artist": "The Stray Cats",
+					"year": "1982"
+				},
+				{
+					"name": "Stay Sick!",
+					"artist": "The Cramps",
+					"year": "1990"
+				},
+				{
+					"name": "In Heaven",
+					"artist": "The Meteors",
+					"year": "1981"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rock This Town",
+					"artist": "The Stray Cats",
+					"album": "Built for Speed"
+				}
+			]
+		},
 		"grunge": {
 			"top_artists": [
 				{
@@ -1540,6 +1588,54 @@
 				}
 			]
 		},
+		"soul jazz": {
+			"top_artists": [
+				{
+					"name": "Grover Washington Jr.",
+					"album_count": 3
+				},
+				{
+					"name": "George Benson",
+					"album_count": 2
+				},
+				{
+					"name": "Donald Byrd",
+					"album_count": 1
+				},
+				{
+					"name": "Stanley Turrentine",
+					"album_count": 1
+				},
+				{
+					"name": "The Crusaders",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Winelight",
+					"artist": "Grover Washington Jr.",
+					"year": "1980"
+				},
+				{
+					"name": "Give Me the Night",
+					"artist": "George Benson",
+					"year": "1980"
+				},
+				{
+					"name": "Strawberry Moon",
+					"artist": "Grover Washington Jr.",
+					"year": "1987"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Just the Two of Us",
+					"artist": "Grover Washington Jr.",
+					"album": "Winelight"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{
@@ -1770,6 +1866,102 @@
 					"name": "Almost Blue",
 					"artist": "Chet Baker",
 					"album": "Let's Get Lost"
+				}
+			]
+		},
+		"hard bop": {
+			"top_artists": [
+				{
+					"name": "Wynton Marsalis",
+					"album_count": 5
+				},
+				{
+					"name": "Art Blakey",
+					"album_count": 5
+				},
+				{
+					"name": "Freddie Hubbard",
+					"album_count": 3
+				},
+				{
+					"name": "Sonny Rollins",
+					"album_count": 2
+				},
+				{
+					"name": "Tony Williams",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Codes (From the Underground)",
+					"artist": "Wynton Marsalis",
+					"year": "1985"
+				},
+				{
+					"name": "Album of the Year",
+					"artist": "Art Blakey",
+					"year": "1981"
+				},
+				{
+					"name": "Foreign Intrigue",
+					"artist": "Tony Williams",
+					"year": "1985"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Black Codes",
+					"artist": "Wynton Marsalis",
+					"album": "Black Codes (From the Underground)"
+				}
+			]
+		},
+		"bebop": {
+			"top_artists": [
+				{
+					"name": "Dizzy Gillespie",
+					"album_count": 2
+				},
+				{
+					"name": "James Moody",
+					"album_count": 1
+				},
+				{
+					"name": "Charles McPherson",
+					"album_count": 1
+				},
+				{
+					"name": "Jon Faddis",
+					"album_count": 1
+				},
+				{
+					"name": "Phil Woods",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Live at the Royal Festival Hall",
+					"artist": "Dizzy Gillespie",
+					"year": "1989"
+				},
+				{
+					"name": "Bebop Revisited!",
+					"artist": "Charles McPherson",
+					"year": "1982"
+				},
+				{
+					"name": "Legacy",
+					"artist": "Jon Faddis",
+					"year": "1985"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bebop",
+					"artist": "Dizzy Gillespie",
+					"album": "Live at the Royal Festival Hall"
 				}
 			]
 		},
@@ -2051,6 +2243,54 @@
 					"name": "Bloodstains",
 					"artist": "Agent Orange",
 					"album": "Living in Darkness"
+				}
+			]
+		},
+		"power pop": {
+			"top_artists": [
+				{
+					"name": "The Romantics",
+					"album_count": 2
+				},
+				{
+					"name": "The Knack",
+					"album_count": 2
+				},
+				{
+					"name": "The Smithereens",
+					"album_count": 2
+				},
+				{
+					"name": "Cheap Trick",
+					"album_count": 1
+				},
+				{
+					"name": "Shoes",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Romantics",
+					"artist": "The Romantics",
+					"year": "1980"
+				},
+				{
+					"name": "Get the Knack",
+					"artist": "The Knack",
+					"year": "1979"
+				},
+				{
+					"name": "Especially for You",
+					"artist": "The Smithereens",
+					"year": "1986"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "What I Like About You",
+					"artist": "The Romantics",
+					"album": "The Romantics"
 				}
 			]
 		},
@@ -3113,6 +3353,102 @@
 					"name": "Hot Hot Hot",
 					"artist": "Arrow",
 					"album": "Hot Hot Hot"
+				}
+			]
+		},
+		"merengue": {
+			"top_artists": [
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 5
+				},
+				{
+					"name": "Sergio Vargas",
+					"album_count": 4
+				},
+				{
+					"name": "Wilfrido Vargas",
+					"album_count": 4
+				},
+				{
+					"name": "Las Chicas del Can",
+					"album_count": 3
+				},
+				{
+					"name": "Los Hermanos Rosario",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ojal\u00e1 Que Llueva Caf\u00e9",
+					"artist": "Juan Luis Guerra",
+					"year": "1989"
+				},
+				{
+					"name": "El Jardinero",
+					"artist": "Wilfrido Vargas",
+					"year": "1984"
+				},
+				{
+					"name": "Sergio Vargas y los Hijos del Rey",
+					"artist": "Sergio Vargas",
+					"year": "1986"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Ojal\u00e1 Que Llueva Caf\u00e9",
+					"artist": "Juan Luis Guerra",
+					"album": "Ojal\u00e1 Que Llueva Caf\u00e9"
+				}
+			]
+		},
+		"bossa nova": {
+			"top_artists": [
+				{
+					"name": "Djavan",
+					"album_count": 5
+				},
+				{
+					"name": "Ivan Lins",
+					"album_count": 4
+				},
+				{
+					"name": "Gal Costa",
+					"album_count": 4
+				},
+				{
+					"name": "Caetano Veloso",
+					"album_count": 3
+				},
+				{
+					"name": "Marcos Valle",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Luz",
+					"artist": "Djavan",
+					"year": "1982"
+				},
+				{
+					"name": "Aos Vivos",
+					"artist": "Ivan Lins",
+					"year": "1981"
+				},
+				{
+					"name": "Baby Gal",
+					"artist": "Gal Costa",
+					"year": "1983"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Lil\u00e1s",
+					"artist": "Djavan",
+					"album": "Lil\u00e1s"
 				}
 			]
 		},
