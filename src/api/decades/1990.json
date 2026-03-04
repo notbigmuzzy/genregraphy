@@ -1250,6 +1250,54 @@
 				}
 			]
 		},
+		"lounge": {
+			"top_artists": [
+				{
+					"name": "Thievery Corporation",
+					"album_count": 3
+				},
+				{
+					"name": "Kruder & Dorfmeister",
+					"album_count": 2
+				},
+				{
+					"name": "Air",
+					"album_count": 2
+				},
+				{
+					"name": "St Germain",
+					"album_count": 2
+				},
+				{
+					"name": "Nightmares on Wax",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The K&D Sessions",
+					"artist": "Kruder & Dorfmeister",
+					"year": "1998"
+				},
+				{
+					"name": "Moon Safari",
+					"artist": "Air",
+					"year": "1998"
+				},
+				{
+					"name": "Carboot Soul",
+					"artist": "Nightmares on Wax",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "All That You Give",
+					"artist": "The Cinematic Orchestra",
+					"album": "Every Day"
+				}
+			]
+		},
 		"breakbeat": {
 			"top_artists": [
 				{

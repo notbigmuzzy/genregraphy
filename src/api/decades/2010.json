@@ -1189,6 +1189,50 @@
 				}
 			]
 		},
+		"lounge": {
+			"top_artists": [
+				{
+					"name": "Pink Martini",
+					"album_count": 3
+				},
+				{
+					"name": "Thievery Corporation",
+					"album_count": 2
+				},
+				{
+					"name": "Quantic",
+					"album_count": 2
+				},
+				{
+					"name": "Nouvelle Vague",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Je dis oui!",
+					"artist": "Pink Martini",
+					"year": "2016"
+				},
+				{
+					"name": "Culture of Fear",
+					"artist": "Thievery Corporation",
+					"year": "2011"
+				},
+				{
+					"name": "Magnetica",
+					"artist": "Quantic",
+					"year": "2014"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Amado Mio",
+					"artist": "Pink Martini",
+					"album": "Sympathique"
+				}
+			]
+		},
 		"trip hop": {
 			"top_artists": [
 				{

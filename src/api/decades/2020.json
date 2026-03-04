@@ -1184,6 +1184,50 @@
 				}
 			]
 		},
+		"lounge": {
+			"top_artists": [
+				{
+					"name": "Khruangbin",
+					"album_count": 3
+				},
+				{
+					"name": "Pink Martini",
+					"album_count": 2
+				},
+				{
+					"name": "Thievery Corporation",
+					"album_count": 1
+				},
+				{
+					"name": "Polo & Pan",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Mordechai",
+					"artist": "Khruangbin",
+					"year": "2020"
+				},
+				{
+					"name": "A la Sala",
+					"artist": "Khruangbin",
+					"year": "2024"
+				},
+				{
+					"name": "Cyclorama",
+					"artist": "Polo & Pan",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Time (You and I)",
+					"artist": "Khruangbin",
+					"album": "Mordechai"
+				}
+			]
+		},
 		"trip hop": {
 			"top_artists": [
 				{

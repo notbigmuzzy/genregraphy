@@ -1342,6 +1342,54 @@
 				}
 			]
 		},
+		"lounge": {
+			"top_artists": [
+				{
+					"name": "Thievery Corporation",
+					"album_count": 3
+				},
+				{
+					"name": "Hotel Costes",
+					"album_count": 3
+				},
+				{
+					"name": "Pink Martini",
+					"album_count": 2
+				},
+				{
+					"name": "Gotan Project",
+					"album_count": 2
+				},
+				{
+					"name": "De-Phazz",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Richest Man in Babylon",
+					"artist": "Thievery Corporation",
+					"year": "2002"
+				},
+				{
+					"name": "La Revancha del Tango",
+					"artist": "Gotan Project",
+					"year": "2001"
+				},
+				{
+					"name": "Hang On Little Tomato",
+					"artist": "Pink Martini",
+					"year": "2004"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Lebanese Blonde",
+					"artist": "Thievery Corporation",
+					"album": "The Mirror Conspiracy"
+				}
+			]
+		},
 		"industrial": {
 			"top_artists": [
 				{

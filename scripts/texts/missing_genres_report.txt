@@ -1,19 +1,34 @@
 50 60 70 80 90 00 10 20
 bossa nova
+
+50 60 70 80 90 00 10 20
 hard bop
+
+50 60 70 80 90 00 10 20
 merengue
+
+50 60 70 80 90 00 10 20
 rockabilly
+
+50 60 70 80 90 00 10 20
 soul jazz
+
+50 60 70 80 90 00 10 20
 motown
+
+50 60 70 80 90 00 10 20
 flamenco
 
-90 00 10 20
-lounge
+---
 
 80 90 00 10 20
 celtic
 
 70 80 90 00 10 20
 cool jazz
+
+70 80 90 00 10 20
 surf
+
+70 80 90 00 10 20
 modern classical
