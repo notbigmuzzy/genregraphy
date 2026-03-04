@@ -722,6 +722,45 @@
 				}
 			]
 		},
+		"eurodance": {
+			"top_artists": [
+				{
+					"name": "Calvin Harris",
+					"album_count": 2
+				},
+				{
+					"name": "David Guetta",
+					"album_count": 2
+				},
+				{
+					"name": "Ti\u00ebsto",
+					"album_count": 2
+				},
+				{
+					"name": "Bebe Rexha",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "7",
+					"artist": "David Guetta",
+					"year": "2018"
+				},
+				{
+					"name": "Funk Wav Bounces Vol. 2",
+					"artist": "Calvin Harris",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I'm Good (Blue)",
+					"artist": "David Guetta & Bebe Rexha",
+					"album": "I'm Good (Blue)"
+				}
+			]
+		},
 		"house": {
 			"top_artists": [
 				{

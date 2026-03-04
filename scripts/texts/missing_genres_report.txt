@@ -10,9 +10,6 @@ flamenco
 90 00 10 20
 lounge
 
-00 10 20
-eurodance
-
 80 90 00 10 20
 celtic
 

@@ -722,6 +722,45 @@
 				}
 			]
 		},
+		"eurodance": {
+			"top_artists": [
+				{
+					"name": "Cascada",
+					"album_count": 2
+				},
+				{
+					"name": "Basshunter",
+					"album_count": 1
+				},
+				{
+					"name": "ItaloBrothers",
+					"album_count": 1
+				},
+				{
+					"name": "Swedish House Mafia",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Original Me",
+					"artist": "Cascada",
+					"year": "2011"
+				},
+				{
+					"name": "Calling (Lose My Mind)",
+					"artist": "Sebastian Ingrosso",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Don't You Worry Child",
+					"artist": "Swedish House Mafia",
+					"album": "Until Now"
+				}
+			]
+		},
 		"house": {
 			"top_artists": [
 				{

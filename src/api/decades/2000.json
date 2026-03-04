@@ -722,6 +722,54 @@
 				}
 			]
 		},
+		"eurodance": {
+			"top_artists": [
+				{
+					"name": "Cascada",
+					"album_count": 3
+				},
+				{
+					"name": "Basshunter",
+					"album_count": 2
+				},
+				{
+					"name": "Groove Coverage",
+					"album_count": 2
+				},
+				{
+					"name": "Gigi D'Agostino",
+					"album_count": 2
+				},
+				{
+					"name": "Lasgo",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Everytime We Touch",
+					"artist": "Cascada",
+					"year": "2006"
+				},
+				{
+					"name": "LOL <(^^,)>",
+					"artist": "Basshunter",
+					"year": "2006"
+				},
+				{
+					"name": "L'Amour Toujours",
+					"artist": "Gigi D'Agostino",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Everytime We Touch",
+					"artist": "Cascada",
+					"album": "Everytime We Touch"
+				}
+			]
+		},
 		"house": {
 			"top_artists": [
 				{
