@@ -28,7 +28,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="wikipedia-iframe" :class="{ 'is-open': wikiOpen }" ref="wikiContainer"/>
+                <div class="wikipedia-iframe-wrap" :class="{ 'is-open': wikiOpen }" ref="wikiContainer"></div>
                 <hr />
                 <div class="detailspanel-section albums">
                     <h3>Top Albums — {{ decade }}s</h3>
@@ -64,7 +64,7 @@
 </template>
 
 <script setup>
-import { ref, watch, computed } from 'vue'
+import { ref, watch, computed, nextTick } from 'vue'
 
 const props = defineProps({
     genre: {
@@ -150,16 +150,40 @@ const getAudioUrl = async (artist) => {
 
 const wikiUrl = ref(null)
 const wikiOpen = ref(false)
+const wikiLoading = ref(false)
 const wikiContainer = ref(null)
 const activeWikiArtist = ref(null)
+const artistLinks = ref({})
+
+const fetchWikipediaLink = async (artistName) => {
+    if (artistLinks.value[artistName]) return;
+
+    try {
+        const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(artistName + ' band music')}&srlimit=1&format=json&origin=*`;
+        const res = await fetch(searchUrl);
+        const data = await res.json();
+        const results = data.query?.search;
+
+        if (results && results.length > 0) {
+            const title = results[0].title.replace(/ /g, '_');
+            artistLinks.value[artistName] = `https://en.m.wikipedia.org/wiki/${title}`;
+        } else {
+            artistLinks.value[artistName] = '#';
+        }
+    } catch (error) {
+        console.error("Wikipedia fetch error", error);
+        artistLinks.value[artistName] = '#';
+    }
+}
 
 const closeWiki = () => {
-    wikiContainer.value.innerHTML = ''
+	wikiContainer.value.innerHTML = ''
 	wikiOpen.value = false
+	wikiLoading.value = false
 	activeWikiArtist.value = null
 }
 
-const openWiki = (name) => {
+const openWiki = async (name) => {
 	if (!name) return
 
 	if (activeWikiArtist.value === name) {
@@ -167,25 +191,45 @@ const openWiki = (name) => {
 		return
 	}
 
-    const pageUrl = `https://en.m.wikipedia.org/wiki/${encodeURIComponent(name)}`
-    wikiUrl.value = pageUrl
 	wikiOpen.value = true
+	wikiLoading.value = true
 	activeWikiArtist.value = name
 
-	if (wikiContainer.value) {
-		wikiContainer.value.innerHTML = `<iframe src="${pageUrl}" style="width:100%;height:600px;border:none;" loading="lazy"></iframe>`
+	setTimeout(() => {
+		const scrollParent = wikiContainer.value?.closest('.details-area')
+		const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki ul')
+		if (scrollParent && wikiSection) {
+			scrollParent.scrollTo({
+				top: wikiSection.offsetTop - 30,
+				behavior: 'smooth'
+			})
+		}
+	}, 50)
 
-		setTimeout(() => {
-            const scrollParent = wikiContainer.value.closest('.details-area')
-            const wikiSection = scrollParent?.querySelector('.detailspanel-section.wiki ul')
-            if (scrollParent && wikiSection) {
-                scrollParent.scrollTo({
-                    top: wikiSection.offsetTop - 30,
-                    behavior: 'smooth'
-                })
-            }
-		}, 400)
+	const bar = document.createElement('div')
+	bar.className = 'wiki-progress-bar'
+	wikiContainer.value.innerHTML = ''
+	wikiContainer.value.appendChild(bar)
+
+	await fetchWikipediaLink(name)
+	const pageUrl = artistLinks.value[name]
+	if (!pageUrl || pageUrl === '#') {
+		wikiOpen.value = false
+		wikiLoading.value = false
+		activeWikiArtist.value = null
+		return
 	}
+
+	const iframe = document.createElement('iframe')
+    setTimeout(() => {
+        iframe.src = pageUrl
+        iframe.style.cssText = 'width:100%;height:600px;border:none;'
+        iframe.addEventListener('load', () => {
+            bar.remove()
+            wikiLoading.value = false
+        })
+        wikiContainer.value.appendChild(iframe)
+    }, 50)
 }
 
 watch([() => props.genre, () => props.year], loadDecadeData, { immediate: true })

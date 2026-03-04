@@ -95,22 +95,53 @@
         }
     }
 
-    .wikipedia-iframe {
+    .wikipedia-iframe-wrap {
+        position: relative;
         width: 100%;
         max-width: 860px;
         height: 0;
-        border: none;
         border-radius: 10px;
         background-color: #d6cdbe;
+
+        &.is-open {
+            min-height: 600px;
+        }
 
         iframe {
             filter: grayscale(1) sepia(0.3);
         }
+    }
 
-        &.is-open {
-            height: 600px;
+    .wiki-progress-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 0%;
+        background-color: #7a6a55;
+        border-radius: 2px;
+        z-index: 10;
+        animation: wiki-progress 2.5s ease-out forwards;
+    }
+
+    @keyframes wiki-progress {
+        0% {
+            width: 0%;
+        }
+
+        60% {
+            width: 75%;
+        }
+
+        90% {
+            width: 88%;
+        }
+
+        100% {
+            width: 88%;
         }
     }
+
 
     h2,
     h3,

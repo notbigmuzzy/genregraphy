@@ -107,7 +107,7 @@ const iframeLoading = ref(false)
 
 const openWiki = (url) => {
 	if (url && url !== '#') {
-		wikiUrl.value = url.replace('.wikipedia.org', '.m.wikipedia.org')
+		wikiUrl.value = url
 		iframeLoading.value = true
 	}
 }
@@ -188,24 +188,37 @@ const fetchWikipediaLink = async (artistName) => {
     if (artistLinks.value[artistName]) return;
 
     try {
-        const searchTerm = encodeURIComponent(artistName + " music band");
-        const url = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${searchTerm}&limit=1&namespace=0&format=json&origin=*`;
-        const response = await fetch(url);
-        const data = await response.json();
+        // Check common music disambiguation suffixes in parallel
+        const suffixes = ['(band)', '(music group)', '(musician)', '(rapper)', '(singer)', '(duo)'];
+        const results = await Promise.all(
+            suffixes.map(async (suffix) => {
+                const title = `${artistName} ${suffix}`;
+                const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&format=json&origin=*`;
+                const res = await fetch(url);
+                const data = await res.json();
+                const page = Object.values(data.query.pages)[0];
+                return page.pageid > 0
+                    ? `https://en.m.wikipedia.org/wiki/${encodeURIComponent(page.title)}`
+                    : null;
+            })
+        );
 
-        if (data[3] && data[3].length > 0) {
-            artistLinks.value[artistName] = data[3][0];
+        const found = results.find(r => r !== null);
+        if (found) {
+            artistLinks.value[artistName] = found;
+            return;
+        }
+
+        // Fall back to full-text search
+        const searchTerm = encodeURIComponent(artistName + ' musician');
+        const searchUrl = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${searchTerm}&limit=1&namespace=0&format=json&origin=*`;
+        const searchRes = await fetch(searchUrl);
+        const searchData = await searchRes.json();
+
+        if (searchData[3] && searchData[3].length > 0) {
+            artistLinks.value[artistName] = searchData[3][0].replace('en.wikipedia.org', 'en.m.wikipedia.org');
         } else {
-            const simpleSearch = encodeURIComponent(artistName);
-            const simpleUrl = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${simpleSearch}&limit=1&namespace=0&format=json&origin=*`;
-            const simpleRes = await fetch(simpleUrl);
-            const simpleData = await simpleRes.json();
-            
-             if (simpleData[3] && simpleData[3].length > 0) {
-                artistLinks.value[artistName] = simpleData[3][0];
-            } else {
-                artistLinks.value[artistName] = '#';
-            }
+            artistLinks.value[artistName] = '#';
         }
     } catch (error) {
         console.error("Wikipedia fetch error", error);
