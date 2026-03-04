@@ -1950,6 +1950,54 @@
 				}
 			]
 		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "Kem",
+					"album_count": 2
+				},
+				{
+					"name": "Tiana Major9",
+					"album_count": 1
+				},
+				{
+					"name": "Asiahn",
+					"album_count": 1
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 1
+				},
+				{
+					"name": "Smokey Robinson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Love Always Wins",
+					"artist": "Kem",
+					"year": "2020"
+				},
+				{
+					"name": "At Sixes and Sevens",
+					"artist": "Tiana Major9",
+					"year": "2020"
+				},
+				{
+					"name": "Gaslight",
+					"artist": "Smokey Robinson",
+					"year": "2023"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Live Out Your Love",
+					"artist": "Kem",
+					"album": "Love Always Wins"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

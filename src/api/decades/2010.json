@@ -1955,6 +1955,54 @@
 				}
 			]
 		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "Kem",
+					"album_count": 3
+				},
+				{
+					"name": "BJ the Chicago Kid",
+					"album_count": 2
+				},
+				{
+					"name": "Sebastian Kole",
+					"album_count": 1
+				},
+				{
+					"name": "Kevin Ross",
+					"album_count": 1
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Intimacy: Album III",
+					"artist": "Kem",
+					"year": "2010"
+				},
+				{
+					"name": "In My Mind",
+					"artist": "BJ the Chicago Kid",
+					"year": "2016"
+				},
+				{
+					"name": "The Game",
+					"artist": "Kevin Ross",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Share My Love",
+					"artist": "Kem",
+					"album": "Intimacy: Album III"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

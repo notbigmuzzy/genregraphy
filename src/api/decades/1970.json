@@ -724,6 +724,54 @@
 				}
 			]
 		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "Stevie Wonder",
+					"album_count": 3
+				},
+				{
+					"name": "Marvin Gaye",
+					"album_count": 3
+				},
+				{
+					"name": "The Jackson 5",
+					"album_count": 2
+				},
+				{
+					"name": "The Commodores",
+					"album_count": 2
+				},
+				{
+					"name": "Rick James",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Innervisions",
+					"artist": "Stevie Wonder",
+					"year": "1973"
+				},
+				{
+					"name": "What's Going On",
+					"artist": "Marvin Gaye",
+					"year": "1971"
+				},
+				{
+					"name": "ABC",
+					"artist": "The Jackson 5",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Superstition",
+					"artist": "Stevie Wonder",
+					"album": "Talking Book"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

@@ -2020,6 +2020,54 @@
 				}
 			]
 		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "Boyz II Men",
+					"album_count": 3
+				},
+				{
+					"name": "Erykah Badu",
+					"album_count": 2
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 1
+				},
+				{
+					"name": "Diana Ross",
+					"album_count": 1
+				},
+				{
+					"name": "Queen Latifah",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Cooleyhighharmony",
+					"artist": "Boyz II Men",
+					"year": "1991"
+				},
+				{
+					"name": "Baduizm",
+					"artist": "Erykah Badu",
+					"year": "1997"
+				},
+				{
+					"name": "II",
+					"artist": "Boyz II Men",
+					"year": "1994"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "End of the Road",
+					"artist": "Boyz II Men",
+					"album": "Cooleyhighharmony"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

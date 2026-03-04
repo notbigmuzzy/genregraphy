@@ -2016,6 +2016,54 @@
 				}
 			]
 		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "Kem",
+					"album_count": 2
+				},
+				{
+					"name": "India.Arie",
+					"album_count": 2
+				},
+				{
+					"name": "Erykah Badu",
+					"album_count": 1
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 1
+				},
+				{
+					"name": "Smokey Robinson",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Kemistry",
+					"artist": "Kem",
+					"year": "2003"
+				},
+				{
+					"name": "Voyage to India",
+					"artist": "India.Arie",
+					"year": "2002"
+				},
+				{
+					"name": "A Time to Love",
+					"artist": "Stevie Wonder",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Love Calls",
+					"artist": "Kem",
+					"album": "Kemistry"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

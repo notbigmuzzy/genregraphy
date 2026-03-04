@@ -1492,6 +1492,54 @@
 				}
 			]
 		},
+		"motown": {
+			"top_artists": [
+				{
+					"name": "Lionel Richie",
+					"album_count": 3
+				},
+				{
+					"name": "Stevie Wonder",
+					"album_count": 3
+				},
+				{
+					"name": "Rick James",
+					"album_count": 2
+				},
+				{
+					"name": "DeBarge",
+					"album_count": 1
+				},
+				{
+					"name": "Marvin Gaye",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Can't Slow Down",
+					"artist": "Lionel Richie",
+					"year": "1983"
+				},
+				{
+					"name": "In Square Circle",
+					"artist": "Stevie Wonder",
+					"year": "1985"
+				},
+				{
+					"name": "Street Songs",
+					"artist": "Rick James",
+					"year": "1981"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "All Night Long (All Night)",
+					"artist": "Lionel Richie",
+					"album": "Can't Slow Down"
+				}
+			]
+		},
 		"funk": {
 			"top_artists": [
 				{

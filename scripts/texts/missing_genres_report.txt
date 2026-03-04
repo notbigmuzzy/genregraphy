@@ -13,5 +13,4 @@ rockabilly
 70 80 90 00 10 20
 soul jazz
 
-70 80 90 00 10 20
-motown
+
