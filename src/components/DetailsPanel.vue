@@ -148,7 +148,6 @@ const getAudioUrl = async (artist) => {
     }
 }
 
-const wikiUrl = ref(null)
 const wikiOpen = ref(false)
 const wikiLoading = ref(false)
 const wikiContainer = ref(null)
@@ -159,7 +158,7 @@ const fetchWikipediaLink = async (artistName) => {
     if (artistLinks.value[artistName]) return;
 
     try {
-        const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(artistName + ' band music')}&srlimit=1&format=json&origin=*`;
+        const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(artistName + ' band')}&srlimit=1&format=json&origin=*`;
         const res = await fetch(searchUrl);
         const data = await res.json();
         const results = data.query?.search;
