@@ -4201,6 +4201,70 @@
 		}
 	},
 	"Reggae & Global Beats": {
+		"rocksteady": {
+			"top_artists": [
+				{
+					"name": "Chronixx",
+					"album_count": 1
+				},
+				{
+					"name": "Protoje",
+					"album_count": 2
+				},
+				{
+					"name": "Lila Iké",
+					"album_count": 2
+				},
+				{
+					"name": "Koffee",
+					"album_count": 2
+				},
+				{
+					"name": "Beres Hammond",
+					"album_count": 1
+				},
+				{
+					"name": "Etana",
+					"album_count": 2
+				},
+				{
+					"name": "Jah9",
+					"album_count": 1
+				},
+				{
+					"name": "Tarrus Riley",
+					"album_count": 1
+				},
+				{
+					"name": "In Search of Lost Time",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "In Search of Lost Time",
+					"artist": "Protoje",
+					"year": "2020"
+				},
+				{
+					"name": "The Experience",
+					"artist": "Lila Iké",
+					"year": "2020"
+				},
+				{
+					"name": "Gifted",
+					"artist": "Koffee",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I Spy",
+					"artist": "Lila Iké",
+					"album": "The Experience"
+				}
+			]
+		},
 		"reggae": {
 			"top_artists": [
 				{

@@ -2705,6 +2705,84 @@
 		}
 	},
 	"Reggae & Global Beats": {
+		"rocksteady": {
+			"top_artists": [
+				{
+					"name": "Alton Ellis",
+					"album_count": 4
+				},
+				{
+					"name": "The Paragons",
+					"album_count": 3
+				},
+				{
+					"name": "The Melodians",
+					"album_count": 4
+				},
+				{
+					"name": "The Heptones",
+					"album_count": 5
+				},
+				{
+					"name": "Ken Boothe",
+					"album_count": 5
+				},
+				{
+					"name": "John Holt",
+					"album_count": 6
+				},
+				{
+					"name": "Gregory Isaacs",
+					"album_count": 3
+				},
+				{
+					"name": "Delroy Wilson",
+					"album_count": 5
+				},
+				{
+					"name": "The Jamaicans",
+					"album_count": 2
+				},
+				{
+					"name": "The Techniques",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Best of the Melodians",
+					"artist": "The Melodians",
+					"year": "1977"
+				},
+				{
+					"name": "1,000 Volts of Holt",
+					"artist": "John Holt",
+					"year": "1973"
+				},
+				{
+					"name": "Many Moods of Alton Ellis",
+					"artist": "Alton Ellis",
+					"year": "1973"
+				},
+				{
+					"name": "Freedom Fighters",
+					"artist": "The Heptones",
+					"year": "1976"
+				},
+				{
+					"name": "Rock Steady With The Paragons",
+					"artist": "The Paragons",
+					"year": "1970"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Rivers of Babylon",
+					"artist": "The Melodians",
+					"album": "The Best of the Melodians"
+				}
+			]
+		},
 		"reggae": {
 			"top_artists": [
 				{

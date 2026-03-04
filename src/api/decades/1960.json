@@ -2456,23 +2456,43 @@
 			"top_artists": [
 				{
 					"name": "Alton Ellis",
-					"album_count": 3
+					"album_count": 5
 				},
 				{
 					"name": "The Paragons",
-					"album_count": 2
+					"album_count": 4
 				},
 				{
 					"name": "Ken Boothe",
-					"album_count": 2
-				},
-				{
-					"name": "Phyllis Dillon",
-					"album_count": 1
+					"album_count": 5
 				},
 				{
 					"name": "The Heptones",
-					"album_count": 1
+					"album_count": 5
+				},
+				{
+					"name": "Phyllis Dillon",
+					"album_count": 3
+				},
+				{
+					"name": "The Melodians",
+					"album_count": 4
+				},
+				{
+					"name": "The Gaylads",
+					"album_count": 4
+				},
+				{
+					"name": "The Techniques",
+					"album_count": 3
+				},
+				{
+					"name": "Delroy Wilson",
+					"album_count": 6
+				},
+				{
+					"name": "The Uniques",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -2490,6 +2510,16 @@
 					"name": "Mr. Rock Steady",
 					"artist": "Ken Boothe",
 					"year": "1968"
+				},
+				{
+					"name": "On Top",
+					"artist": "The Heptones",
+					"year": "1968"
+				},
+				{
+					"name": "Good Will for All",
+					"artist": "The Melodians",
+					"year": "1969"
 				}
 			],
 			"sample_tracks": [

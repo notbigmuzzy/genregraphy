@@ -3729,6 +3729,84 @@
 		}
 	},
 	"Reggae & Global Beats": {
+		"rocksteady": {
+			"top_artists": [
+				{
+					"name": "The Melodians",
+					"album_count": 2
+				},
+				{
+					"name": "Alton Ellis",
+					"album_count": 3
+				},
+				{
+					"name": "Ken Boothe",
+					"album_count": 3
+				},
+				{
+					"name": "The Paragons",
+					"album_count": 2
+				},
+				{
+					"name": "John Holt",
+					"album_count": 4
+				},
+				{
+					"name": "Gregory Isaacs",
+					"album_count": 8
+				},
+				{
+					"name": "Dennis Brown",
+					"album_count": 10
+				},
+				{
+					"name": "Sugar Minott",
+					"album_count": 8
+				},
+				{
+					"name": "The Heptones",
+					"album_count": 3
+				},
+				{
+					"name": "Delroy Wilson",
+					"album_count": 4
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Night Nurse",
+					"artist": "Gregory Isaacs",
+					"year": "1982"
+				},
+				{
+					"name": "Wolf & Leopards",
+					"artist": "Dennis Brown",
+					"year": "1980"
+				},
+				{
+					"name": "Dancehall Business",
+					"artist": "Sugar Minott",
+					"year": "1983"
+				},
+				{
+					"name": "Roots and Branches",
+					"artist": "Alton Ellis",
+					"year": "1982"
+				},
+				{
+					"name": "Showcase",
+					"artist": "The Techniques",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Night Nurse",
+					"artist": "Gregory Isaacs",
+					"album": "Night Nurse"
+				}
+			]
+		},
 		"reggae": {
 			"top_artists": [
 				{

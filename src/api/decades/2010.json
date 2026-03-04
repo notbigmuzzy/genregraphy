@@ -4227,6 +4227,84 @@
 		}
 	},
 	"Reggae & Global Beats": {
+		"rocksteady": {
+			"top_artists": [
+				{
+					"name": "Beres Hammond",
+					"album_count": 3
+				},
+				{
+					"name": "Tarrus Riley",
+					"album_count": 4
+				},
+				{
+					"name": "Chronixx",
+					"album_count": 2
+				},
+				{
+					"name": "Protoje",
+					"album_count": 4
+				},
+				{
+					"name": "Etana",
+					"album_count": 4
+				},
+				{
+					"name": "Jah9",
+					"album_count": 3
+				},
+				{
+					"name": "Christopher Martin",
+					"album_count": 3
+				},
+				{
+					"name": "Romain Virgo",
+					"album_count": 3
+				},
+				{
+					"name": "Marcia Griffiths",
+					"album_count": 2
+				},
+				{
+					"name": "Ken Boothe",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chronology",
+					"artist": "Chronixx",
+					"year": "2017"
+				},
+				{
+					"name": "Ancient Future",
+					"artist": "Protoje",
+					"year": "2015"
+				},
+				{
+					"name": "One: In the Spirit",
+					"artist": "Beres Hammond",
+					"year": "2012"
+				},
+				{
+					"name": "Love Situation",
+					"artist": "Tarrus Riley",
+					"year": "2014"
+				},
+				{
+					"name": "New Day Dawn",
+					"artist": "Etana",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Skankin' Sweet",
+					"artist": "Chronixx",
+					"album": "Chronology"
+				}
+			]
+		},
 		"reggae": {
 			"top_artists": [
 				{

@@ -4174,6 +4174,84 @@
 		}
 	},
 	"Reggae & Global Beats": {
+		"rocksteady": {
+			"top_artists": [
+				{
+					"name": "The Melodians",
+					"album_count": 1
+				},
+				{
+					"name": "Beres Hammond",
+					"album_count": 4
+				},
+				{
+					"name": "Sanchez",
+					"album_count": 6
+				},
+				{
+					"name": "Alton Ellis",
+					"album_count": 1
+				},
+				{
+					"name": "Ken Boothe",
+					"album_count": 2
+				},
+				{
+					"name": "Marcia Griffiths",
+					"album_count": 3
+				},
+				{
+					"name": "John Holt",
+					"album_count": 2
+				},
+				{
+					"name": "Tarrus Riley",
+					"album_count": 3
+				},
+				{
+					"name": "Etana",
+					"album_count": 2
+				},
+				{
+					"name": "Gregory Isaacs",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "A Moment in Time",
+					"artist": "Beres Hammond",
+					"year": "2008"
+				},
+				{
+					"name": "Parables",
+					"artist": "Tarrus Riley",
+					"year": "2006"
+				},
+				{
+					"name": "The Strong One",
+					"artist": "Etana",
+					"year": "2008"
+				},
+				{
+					"name": "Shining Star",
+					"artist": "Marcia Griffiths",
+					"year": "2005"
+				},
+				{
+					"name": "One Up",
+					"artist": "Sanchez",
+					"year": "2000"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "She's Royal",
+					"artist": "Tarrus Riley",
+					"album": "Parables"
+				}
+			]
+		},
 		"reggae": {
 			"top_artists": [
 				{
