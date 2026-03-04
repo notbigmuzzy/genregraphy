@@ -122,6 +122,111 @@
 				}
 			]
 		},
+		"psychedelic rock": {
+			"top_artists": [
+				{
+					"name": "The Flaming Lips",
+					"album_count": 3
+				},
+				{
+					"name": "Animal Collective",
+					"album_count": 3
+				},
+				{
+					"name": "MGMT",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Yoshimi Battles the Pink Robots",
+					"artist": "The Flaming Lips",
+					"year": "2002"
+				},
+				{
+					"name": "Merriweather Post Pavilion",
+					"artist": "Animal Collective",
+					"year": "2009"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Kids",
+					"artist": "MGMT",
+					"album": "Oracular Spectacular"
+				}
+			]
+		},
+		"britpop": {
+			"top_artists": [
+				{
+					"name": "Oasis",
+					"album_count": 3
+				},
+				{
+					"name": "Blur",
+					"album_count": 2
+				},
+				{
+					"name": "The Libertines",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Up the Bracket",
+					"artist": "The Libertines",
+					"year": "2002"
+				},
+				{
+					"name": "Think Tank",
+					"artist": "Blur",
+					"year": "2003"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Can't Stand Me Now",
+					"artist": "The Libertines",
+					"album": "The Libertines"
+				}
+			]
+		},
+		"hard rock": {
+			"top_artists": [
+				{
+					"name": "AC/DC",
+					"album_count": 2
+				},
+				{
+					"name": "Audioslave",
+					"album_count": 3
+				},
+				{
+					"name": "The Darkness",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Ice",
+					"artist": "AC/DC",
+					"year": "2008"
+				},
+				{
+					"name": "Audioslave",
+					"artist": "Audioslave",
+					"year": "2002"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Cochise",
+					"artist": "Audioslave",
+					"album": "Audioslave"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{

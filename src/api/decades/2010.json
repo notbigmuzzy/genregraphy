@@ -175,6 +175,107 @@
 				}
 			]
 		},
+		"psychedelic rock": {
+			"top_artists": [
+				{
+					"name": "Tame Impala",
+					"album_count": 3
+				},
+				{
+					"name": "King Gizzard & The Lizard Wizard",
+					"album_count": 10
+				},
+				{
+					"name": "Unknown Mortal Orchestra",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Lonerism",
+					"artist": "Tame Impala",
+					"year": "2012"
+				},
+				{
+					"name": "Nonagon Infinity",
+					"artist": "King Gizzard & The Lizard Wizard",
+					"year": "2016"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Feels Like We Only Go Backwards",
+					"artist": "Tame Impala",
+					"album": "Lonerism"
+				}
+			]
+		},
+		"britpop": {
+			"top_artists": [
+				{
+					"name": "Beady Eye",
+					"album_count": 2
+				},
+				{
+					"name": "Noel Gallagher's High Flying Birds",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Different Gear, Still Speeding",
+					"artist": "Beady Eye",
+					"year": "2011"
+				},
+				{
+					"name": "The Magic Whip",
+					"artist": "Blur",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Roller",
+					"artist": "Beady Eye",
+					"album": "Different Gear, Still Speeding"
+				}
+			]
+		},
+		"hard rock": {
+			"top_artists": [
+				{
+					"name": "Greta Van Fleet",
+					"album_count": 1
+				},
+				{
+					"name": "Slash",
+					"album_count": 4
+				},
+				{
+					"name": "AC/DC",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Anthem of the Peaceful Army",
+					"artist": "Greta Van Fleet",
+					"year": "2018"
+				},
+				{
+					"name": "Apocalyptic Love",
+					"artist": "Slash",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Highway Tune",
+					"artist": "Greta Van Fleet",
+					"album": "Black Smoke Rising"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{

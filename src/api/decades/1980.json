@@ -270,6 +270,41 @@
 				}
 			]
 		},
+		"psychedelic rock": {
+			"top_artists": [
+				{
+					"name": "Spacemen 3",
+					"album_count": 2
+				},
+				{
+					"name": "Echo & the Bunnymen",
+					"album_count": 2
+				},
+				{
+					"name": "The Soft Boys",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Perfect Prescription",
+					"artist": "Spacemen 3",
+					"year": "1987"
+				},
+				{
+					"name": "Ocean Rain",
+					"artist": "Echo & the Bunnymen",
+					"year": "1984"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "The Killing Moon",
+					"artist": "Echo & the Bunnymen",
+					"album": "Ocean Rain"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{

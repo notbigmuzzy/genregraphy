@@ -170,6 +170,76 @@
 				}
 			]
 		},
+		"psychedelic rock": {
+			"top_artists": [
+				{
+					"name": "Spiritualized",
+					"album_count": 2
+				},
+				{
+					"name": "The Flaming Lips",
+					"album_count": 3
+				},
+				{
+					"name": "The Brian Jonestown Massacre",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Ladies and Gentlemen We Are Floating in Space",
+					"artist": "Spiritualized",
+					"year": "1997"
+				},
+				{
+					"name": "The Soft Bulletin",
+					"artist": "The Flaming Lips",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Alright",
+					"artist": "Supergrass",
+					"album": "I Should Coco"
+				}
+			]
+		},
+		"hard rock": {
+			"top_artists": [
+				{
+					"name": "Guns N' Roses",
+					"album_count": 2
+				},
+				{
+					"name": "AC/DC",
+					"album_count": 2
+				},
+				{
+					"name": "Aerosmith",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Use Your Illusion I",
+					"artist": "Guns N' Roses",
+					"year": "1991"
+				},
+				{
+					"name": "The Razors Edge",
+					"artist": "AC/DC",
+					"year": "1990"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "November Rain",
+					"artist": "Guns N' Roses",
+					"album": "Use Your Illusion I"
+				}
+			]
+		},
 		"alternative rock": {
 			"top_artists": [
 				{
