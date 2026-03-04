@@ -39,7 +39,6 @@ const buildPath = (relativePoints, w, h, iterations, spread) => {
     return path + ' Z'
 }
 
-
 export const continentShape = (width, height) => buildPath([
     [0.06, 0.26],
     [0.02, 0.16],
