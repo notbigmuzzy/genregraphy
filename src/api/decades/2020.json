@@ -288,6 +288,54 @@
 				}
 			]
 		},
+		"grunge": {
+			"top_artists": [
+				{
+					"name": "Mudhoney",
+					"album_count": 2
+				},
+				{
+					"name": "Melvins",
+					"album_count": 2
+				},
+				{
+					"name": "Dinosaur Jr.",
+					"album_count": 2
+				},
+				{
+					"name": "Pearl Jam",
+					"album_count": 1
+				},
+				{
+					"name": "Alice in Chains",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Plastic Eternity",
+					"artist": "Mudhoney",
+					"year": "2023"
+				},
+				{
+					"name": "Bad Mood Rising",
+					"artist": "Melvins",
+					"year": "2022"
+				},
+				{
+					"name": "Sweep It Into Space",
+					"artist": "Dinosaur Jr.",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Almost Everything",
+					"artist": "Mudhoney",
+					"album": "Plastic Eternity"
+				}
+			]
+		},
 		"pop-punk": {
 			"top_artists": [
 				{

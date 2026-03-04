@@ -29,6 +29,3 @@ jungle
 cool jazz
 surf
 modern classical
-
-10 20
-grunge

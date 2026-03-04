@@ -48,6 +48,54 @@
 				}
 			]
 		},
+		"grunge": {
+			"top_artists": [
+				{
+					"name": "Alice in Chains",
+					"album_count": 2
+				},
+				{
+					"name": "Soundgarden",
+					"album_count": 2
+				},
+				{
+					"name": "Mudhoney",
+					"album_count": 2
+				},
+				{
+					"name": "Melvins",
+					"album_count": 1
+				},
+				{
+					"name": "Bush",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Black Gives Way to Blue",
+					"artist": "Alice in Chains",
+					"year": "2009"
+				},
+				{
+					"name": "King Animal",
+					"artist": "Soundgarden",
+					"year": "2012"
+				},
+				{
+					"name": "Vanishing Point",
+					"artist": "Mudhoney",
+					"year": "2013"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hollow",
+					"artist": "Alice in Chains",
+					"album": "Black Gives Way to Blue"
+				}
+			]
+		},
 		"indie rock": {
 			"top_artists": [
 				{

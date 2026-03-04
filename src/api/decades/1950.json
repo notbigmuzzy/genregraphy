@@ -143,6 +143,54 @@
 					"album": "Goodnight Irene"
 				}
 			]
+		},
+		"rockabilly": {
+			"top_artists": [
+				{
+					"name": "Elvis Presley",
+					"album_count": 2
+				},
+				{
+					"name": "Carl Perkins",
+					"album_count": 2
+				},
+				{
+					"name": "Gene Vincent",
+					"album_count": 1
+				},
+				{
+					"name": "Eddie Cochran",
+					"album_count": 1
+				},
+				{
+					"name": "Johnny Burnette",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Elvis Presley",
+					"artist": "Elvis Presley",
+					"year": "1956"
+				},
+				{
+					"name": "Blue Suede Shoes",
+					"artist": "Carl Perkins",
+					"year": "1956"
+				},
+				{
+					"name": "Be-Bop-A-Lula",
+					"artist": "Gene Vincent",
+					"year": "1956"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Blue Suede Shoes",
+					"artist": "Carl Perkins",
+					"album": "Blue Suede Shoes"
+				}
+			]
 		}
 	},
 	"Hip-Hop & Groove": {
