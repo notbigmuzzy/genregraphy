@@ -5,16 +5,17 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 20px;
+    padding: 20px 80px;
     background-color: #41585d;
     background-image: radial-gradient(#ffffff2e 1px, transparent 1px);
     background-size: 30px 30px;
 
     .close-panel {
         position: absolute;
-        top: 10px;
-        left: 10px;
-        padding: 0.75em 1.5em;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 0 10px 0 5px;
         font-size: 1em;
         color: #fff;
         border: 2px solid #fff;
@@ -22,6 +23,8 @@
         border-radius: 50px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        border: none;
+        border-radius: 0;
 
         &:hover {
             background-color: rgba(255, 255, 255, 0.15);
