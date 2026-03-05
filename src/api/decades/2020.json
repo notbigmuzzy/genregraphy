@@ -4955,6 +4955,36 @@
 					"album": "Motomami"
 				}
 			]
+		},
+		"soca": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 2
+				},
+				{
+					"name": "Kes",
+					"album_count": 2
+				},
+				{
+					"name": "Patrice Roberts",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Wedding Album",
+					"artist": "Machel Montano",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Liki Tiki",
+					"artist": "Kes",
+					"album": "Liki Tiki"
+				}
+			]
 		}
 	},
 	"Classical & Experimental": {

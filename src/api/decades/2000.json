@@ -6976,6 +6976,36 @@
 					"album": "We Broke the Rules"
 				}
 			]
+		},
+		"soca": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 6
+				},
+				{
+					"name": "Destra Garcia",
+					"album_count": 4
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 4
+				}
+			],
+			"top_albums": [
+				{
+					"name": "B.O.D.Y.",
+					"artist": "Machel Montano",
+					"year": "2006"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "One More Time",
+					"artist": "Machel Montano",
+					"album": "The Book of Angels"
+				}
+			]
 		}
 	},
 	"Classical & Experimental": {

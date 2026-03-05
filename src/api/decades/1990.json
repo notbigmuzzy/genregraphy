@@ -5372,6 +5372,36 @@
 					"album": "Bachata Rosa"
 				}
 			]
+		},
+		"soca": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 4
+				},
+				{
+					"name": "Alison Hinds",
+					"album_count": 2
+				},
+				{
+					"name": "Burning Flames",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Journey",
+					"artist": "Machel Montano",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Faluma",
+					"artist": "Alison Hinds",
+					"album": "Entice"
+				}
+			]
 		}
 	},
 	"Classical & Experimental": {

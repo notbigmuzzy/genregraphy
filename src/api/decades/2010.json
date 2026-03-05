@@ -6899,6 +6899,36 @@
 					"album": "Formula, Vol. 2"
 				}
 			]
+		},
+		"soca": {
+			"top_artists": [
+				{
+					"name": "Machel Montano",
+					"album_count": 8
+				},
+				{
+					"name": "Bunji Garlin",
+					"album_count": 5
+				},
+				{
+					"name": "Kes The Band",
+					"album_count": 4
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Monk Monte",
+					"artist": "Machel Montano",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Differentology",
+					"artist": "Bunji Garlin",
+					"album": "Differentology"
+				}
+			]
 		}
 	},
 	"Classical & Experimental": {

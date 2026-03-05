@@ -4414,6 +4414,36 @@
 					"album": "La Chupadera"
 				}
 			]
+		},
+		"soca": {
+			"top_artists": [
+				{
+					"name": "Lord Shorty",
+					"album_count": 2
+				},
+				{
+					"name": "Arrow",
+					"album_count": 3
+				},
+				{
+					"name": "Superblue",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hot Hot Hot",
+					"artist": "Arrow",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Hot Hot Hot",
+					"artist": "Arrow",
+					"album": "Hot Hot Hot"
+				}
+			]
 		}
 	},
 	"Classical & Experimental": {
