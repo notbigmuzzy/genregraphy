@@ -99,6 +99,26 @@
 				{
 					"name": "The Killers",
 					"album_count": 1
+				},
+				{
+					"name": "The Strokes",
+					"album_count": 3
+				},
+				{
+					"name": "Arctic Monkeys",
+					"album_count": 2
+				},
+				{
+					"name": "The White Stripes",
+					"album_count": 2
+				},
+				{
+					"name": "Linkin Park",
+					"album_count": 4
+				},
+				{
+					"name": "Coldplay",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -147,6 +167,26 @@
 				{
 					"name": "Modest Mouse",
 					"album_count": 1
+				},
+				{
+					"name": "The Libertines",
+					"album_count": 2
+				},
+				{
+					"name": "Interpol",
+					"album_count": 2
+				},
+				{
+					"name": "Franz Ferdinand",
+					"album_count": 2
+				},
+				{
+					"name": "Vampire Weekend",
+					"album_count": 1
+				},
+				{
+					"name": "The Postal Service",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -183,6 +223,38 @@
 				{
 					"name": "Wanda Jackson",
 					"album_count": 1
+				},
+				{
+					"name": "The Hellacopters",
+					"album_count": 3
+				},
+				{
+					"name": "The Jim Jones Revue",
+					"album_count": 1
+				},
+				{
+					"name": "The Datsuns",
+					"album_count": 2
+				},
+				{
+					"name": "The Hives",
+					"album_count": 3
+				},
+				{
+					"name": "Imperial State Electric",
+					"album_count": 1
+				},
+				{
+					"name": "JD McPherson",
+					"album_count": 0
+				},
+				{
+					"name": "Kings of Leon",
+					"album_count": 3
+				},
+				{
+					"name": "The Black Keys",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -212,6 +284,34 @@
 				},
 				{
 					"name": "MGMT",
+					"album_count": 1
+				},
+				{
+					"name": "Tame Impala",
+					"album_count": 0
+				},
+				{
+					"name": "The Mars Volta",
+					"album_count": 4
+				},
+				{
+					"name": "Dungen",
+					"album_count": 3
+				},
+				{
+					"name": "Black Mountain",
+					"album_count": 2
+				},
+				{
+					"name": "Wolfmother",
+					"album_count": 2
+				},
+				{
+					"name": "Pond",
+					"album_count": 1
+				},
+				{
+					"name": "Kula Shaker",
 					"album_count": 1
 				}
 			],
@@ -248,6 +348,34 @@
 				{
 					"name": "The Libertines",
 					"album_count": 2
+				},
+				{
+					"name": "Supergrass",
+					"album_count": 2
+				},
+				{
+					"name": "Suede",
+					"album_count": 1
+				},
+				{
+					"name": "The Coral",
+					"album_count": 4
+				},
+				{
+					"name": "Richard Hawley",
+					"album_count": 4
+				},
+				{
+					"name": "Primal Scream",
+					"album_count": 3
+				},
+				{
+					"name": "The Zutons",
+					"album_count": 2
+				},
+				{
+					"name": "The Fratellis",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -283,6 +411,34 @@
 				{
 					"name": "The Darkness",
 					"album_count": 2
+				},
+				{
+					"name": "Velvet Revolver",
+					"album_count": 2
+				},
+				{
+					"name": "Guns N' Roses",
+					"album_count": 1
+				},
+				{
+					"name": "Buckcherry",
+					"album_count": 3
+				},
+				{
+					"name": "Alter Bridge",
+					"album_count": 2
+				},
+				{
+					"name": "Wolfmother",
+					"album_count": 2
+				},
+				{
+					"name": "Airbourne",
+					"album_count": 1
+				},
+				{
+					"name": "Shinedown",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -326,6 +482,26 @@
 				{
 					"name": "TV on the Radio",
 					"album_count": 1
+				},
+				{
+					"name": "Interpol",
+					"album_count": 3
+				},
+				{
+					"name": "The National",
+					"album_count": 4
+				},
+				{
+					"name": "Death Cab for Cutie",
+					"album_count": 3
+				},
+				{
+					"name": "Grizzly Bear",
+					"album_count": 3
+				},
+				{
+					"name": "Spoon",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -374,6 +550,26 @@
 				{
 					"name": "JD McPherson",
 					"album_count": 1
+				},
+				{
+					"name": "The Living End",
+					"album_count": 3
+				},
+				{
+					"name": "Mad Sin",
+					"album_count": 2
+				},
+				{
+					"name": "The Meteors",
+					"album_count": 2
+				},
+				{
+					"name": "Stray Cats",
+					"album_count": 1
+				},
+				{
+					"name": "Kim Lenz",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -414,6 +610,34 @@
 				{
 					"name": "Bad Religion",
 					"album_count": 2
+				},
+				{
+					"name": "Rise Against",
+					"album_count": 4
+				},
+				{
+					"name": "Pennywise",
+					"album_count": 3
+				},
+				{
+					"name": "The Casualties",
+					"album_count": 3
+				},
+				{
+					"name": "NOFX",
+					"album_count": 3
+				},
+				{
+					"name": "The Lawrence Arms",
+					"album_count": 3
+				},
+				{
+					"name": "Bouncing Souls",
+					"album_count": 3
+				},
+				{
+					"name": "AFI",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -456,6 +680,26 @@
 				},
 				{
 					"name": "The Libertines",
+					"album_count": 1
+				},
+				{
+					"name": "The Von Bondies",
+					"album_count": 2
+				},
+				{
+					"name": "The Horrors",
+					"album_count": 2
+				},
+				{
+					"name": "Black Rebel Motorcycle Club",
+					"album_count": 4
+				},
+				{
+					"name": "The Kills",
+					"album_count": 3
+				},
+				{
+					"name": "The Dead Weather",
 					"album_count": 1
 				}
 			],
@@ -505,6 +749,26 @@
 				{
 					"name": "Gang of Four",
 					"album_count": 1
+				},
+				{
+					"name": "Editors",
+					"album_count": 2
+				},
+				{
+					"name": "White Lies",
+					"album_count": 1
+				},
+				{
+					"name": "She Wants Revenge",
+					"album_count": 2
+				},
+				{
+					"name": "The Futureheads",
+					"album_count": 2
+				},
+				{
+					"name": "Max\u00efmo Park",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -549,6 +813,30 @@
 				{
 					"name": "The Bravery",
 					"album_count": 2
+				},
+				{
+					"name": "Ladytron",
+					"album_count": 4
+				},
+				{
+					"name": "Goldfrapp",
+					"album_count": 3
+				},
+				{
+					"name": "Fischerspooner",
+					"album_count": 2
+				},
+				{
+					"name": "Cut Copy",
+					"album_count": 2
+				},
+				{
+					"name": "Hot Chip",
+					"album_count": 3
+				},
+				{
+					"name": "Yeah Yeah Yeahs",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -597,6 +885,26 @@
 				{
 					"name": "Mono",
 					"album_count": 1
+				},
+				{
+					"name": "65daysofstatic",
+					"album_count": 3
+				},
+				{
+					"name": "Caspian",
+					"album_count": 2
+				},
+				{
+					"name": "Russian Circles",
+					"album_count": 2
+				},
+				{
+					"name": "This Will Destroy You",
+					"album_count": 1
+				},
+				{
+					"name": "Red Sparowes",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -645,6 +953,26 @@
 				{
 					"name": "Taking Back Sunday",
 					"album_count": 1
+				},
+				{
+					"name": "The Used",
+					"album_count": 3
+				},
+				{
+					"name": "Brand New",
+					"album_count": 3
+				},
+				{
+					"name": "Jimmy Eat World",
+					"album_count": 4
+				},
+				{
+					"name": "Paramore",
+					"album_count": 3
+				},
+				{
+					"name": "Cute Is What We Aim For",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -693,6 +1021,26 @@
 				{
 					"name": "New Found Glory",
 					"album_count": 1
+				},
+				{
+					"name": "Simple Plan",
+					"album_count": 3
+				},
+				{
+					"name": "Yellowcard",
+					"album_count": 3
+				},
+				{
+					"name": "The All-American Rejects",
+					"album_count": 3
+				},
+				{
+					"name": "Bowling for Soup",
+					"album_count": 3
+				},
+				{
+					"name": "My Chemical Romance",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -740,6 +1088,26 @@
 				},
 				{
 					"name": "Madball",
+					"album_count": 1
+				},
+				{
+					"name": "The Dillinger Escape Plan",
+					"album_count": 3
+				},
+				{
+					"name": "Sick of It All",
+					"album_count": 3
+				},
+				{
+					"name": "Every Time I Die",
+					"album_count": 4
+				},
+				{
+					"name": "Modern Life Is War",
+					"album_count": 2
+				},
+				{
+					"name": "The Ghost Inside",
 					"album_count": 1
 				}
 			],
@@ -789,6 +1157,26 @@
 				{
 					"name": "Audioslave",
 					"album_count": 1
+				},
+				{
+					"name": "Seether",
+					"album_count": 4
+				},
+				{
+					"name": "Puddle of Mudd",
+					"album_count": 3
+				},
+				{
+					"name": "Silverchair",
+					"album_count": 2
+				},
+				{
+					"name": "Breaking Benjamin",
+					"album_count": 3
+				},
+				{
+					"name": "Staind",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -837,6 +1225,26 @@
 				{
 					"name": "High on Fire",
 					"album_count": 1
+				},
+				{
+					"name": "The Sword",
+					"album_count": 2
+				},
+				{
+					"name": "Electric Wizard",
+					"album_count": 3
+				},
+				{
+					"name": "Graveyard",
+					"album_count": 1
+				},
+				{
+					"name": "Clutch",
+					"album_count": 4
+				},
+				{
+					"name": "Dozer",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -885,6 +1293,26 @@
 				{
 					"name": "Ulrich Schnauss",
 					"album_count": 1
+				},
+				{
+					"name": "Amesoeurs",
+					"album_count": 1
+				},
+				{
+					"name": "Lantl\u00f4s",
+					"album_count": 2
+				},
+				{
+					"name": "The Radio Dept.",
+					"album_count": 2
+				},
+				{
+					"name": "Have a Nice Life",
+					"album_count": 1
+				},
+				{
+					"name": "Deerhunter",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -931,8 +1359,28 @@
 					"album_count": 2
 				},
 				{
+					"name": "Feist",
+					"album_count": 2
+				},
+				{
+					"name": "The New Pornographers",
+					"album_count": 3
+				},
+				{
 					"name": "Camera Obscura",
+					"album_count": 3
+				},
+				{
+					"name": "Peter Bjorn and John",
+					"album_count": 2
+				},
+				{
+					"name": "Lykke Li",
 					"album_count": 1
+				},
+				{
+					"name": "Architecture in Helsinki",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
