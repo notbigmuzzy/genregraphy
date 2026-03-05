@@ -3804,6 +3804,74 @@
 					"album": "Gothic"
 				}
 			]
+		},
+		"doom metal": {
+			"top_artists": [
+				{
+					"name": "Candlemass",
+					"album_count": 3
+				},
+				{
+					"name": "Saint Vitus",
+					"album_count": 4
+				},
+				{
+					"name": "Trouble",
+					"album_count": 3
+				},
+				{
+					"name": "Pentagram",
+					"album_count": 2
+				},
+				{
+					"name": "The Obsessed",
+					"album_count": 1
+				},
+				{
+					"name": "Cathedral",
+					"album_count": 1
+				},
+				{
+					"name": "Witchfinder General",
+					"album_count": 2
+				},
+				{
+					"name": "Pagan Altar",
+					"album_count": 1
+				},
+				{
+					"name": "Sleep",
+					"album_count": 1
+				},
+				{
+					"name": "Black Sabbath",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Epicus Doomicus Metallicus",
+					"artist": "Candlemass",
+					"year": "1986"
+				},
+				{
+					"name": "Born Too Late",
+					"artist": "Saint Vitus",
+					"year": "1986"
+				},
+				{
+					"name": "Psalm 9",
+					"artist": "Trouble",
+					"year": "1984"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Solitude",
+					"artist": "Candlemass",
+					"album": "Epicus Doomicus Metallicus"
+				}
+			]
 		}
 	},
 	"Reggae & Global Beats": {
