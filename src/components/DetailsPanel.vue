@@ -1,6 +1,8 @@
 <template>
     <div class="details-panel">
-        <button class="close-panel" @click="$emit('close')">← Back</button>
+        <button class="close-panel" @click="$emit('close')">
+            <span>←</span><span>←</span><span>←</span>
+        </button>
         <div class="details-area">
             <div class="detailspanel-section title">
                 <span><p>Genre <b>{{ genre }}</b> in the year <b>{{ year }}</b></p></span>
