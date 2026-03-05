@@ -4303,6 +4303,34 @@
 				{
 					"name": "Norah Jones",
 					"album_count": 3
+				},
+				{
+					"name": "Tony Bennett",
+					"album_count": 2
+				},
+				{
+					"name": "Barry Manilow",
+					"album_count": 2
+				},
+				{
+					"name": "Rod Stewart",
+					"album_count": 2
+				},
+				{
+					"name": "Bette Midler",
+					"album_count": 1
+				},
+				{
+					"name": "Harry Connick Jr.",
+					"album_count": 1
+				},
+				{
+					"name": "Il Divo",
+					"album_count": 2
+				},
+				{
+					"name": "Susan Boyle",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4351,6 +4379,26 @@
 				{
 					"name": "Lady Gaga",
 					"album_count": 1
+				},
+				{
+					"name": "Christina Aguilera",
+					"album_count": 2
+				},
+				{
+					"name": "Pink",
+					"album_count": 2
+				},
+				{
+					"name": "Katy Perry",
+					"album_count": 1
+				},
+				{
+					"name": "Kelly Clarkson",
+					"album_count": 2
+				},
+				{
+					"name": "Avril Lavigne",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -4395,6 +4443,30 @@
 				{
 					"name": "The Ghastly Ones",
 					"album_count": 1
+				},
+				{
+					"name": "Daikaiju",
+					"album_count": 2
+				},
+				{
+					"name": "The Messer Chups",
+					"album_count": 2
+				},
+				{
+					"name": "Satan's Pilgrims",
+					"album_count": 1
+				},
+				{
+					"name": "The Slackers",
+					"album_count": 1
+				},
+				{
+					"name": "Langhorns",
+					"album_count": 1
+				},
+				{
+					"name": "The Barbwire Boys",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4437,6 +4509,26 @@
 				},
 				{
 					"name": "OK Go",
+					"album_count": 1
+				},
+				{
+					"name": "Panic! At The Disco",
+					"album_count": 2
+				},
+				{
+					"name": "Motion City Soundtrack",
+					"album_count": 2
+				},
+				{
+					"name": "Plain White T's",
+					"album_count": 1
+				},
+				{
+					"name": "Relient K",
+					"album_count": 2
+				},
+				{
+					"name": "The Academy Is...",
 					"album_count": 1
 				}
 			],
@@ -4486,6 +4578,26 @@
 				{
 					"name": "Jesse McCartney",
 					"album_count": 1
+				},
+				{
+					"name": "Miley Cyrus",
+					"album_count": 2
+				},
+				{
+					"name": "Jonas Brothers",
+					"album_count": 2
+				},
+				{
+					"name": "Demi Lovato",
+					"album_count": 1
+				},
+				{
+					"name": "Selena Gomez",
+					"album_count": 1
+				},
+				{
+					"name": "Ashley Tisdale",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4528,8 +4640,32 @@
 					"album_count": 2
 				},
 				{
-					"name": "Aliz\u00e9e",
+					"name": "Cascada",
 					"album_count": 2
+				},
+				{
+					"name": "Inna",
+					"album_count": 1
+				},
+				{
+					"name": "Edward Maya",
+					"album_count": 1
+				},
+				{
+					"name": "Alexandra Stan",
+					"album_count": 1
+				},
+				{
+					"name": "Arash",
+					"album_count": 1
+				},
+				{
+					"name": "Elena Paparizou",
+					"album_count": 1
+				},
+				{
+					"name": "Sertab Erener",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4573,6 +4709,26 @@
 				{
 					"name": "Kesha",
 					"album_count": 1
+				},
+				{
+					"name": "Jennifer Lopez",
+					"album_count": 2
+				},
+				{
+					"name": "Gwen Stefani",
+					"album_count": 2
+				},
+				{
+					"name": "Nelly Furtado",
+					"album_count": 2
+				},
+				{
+					"name": "Fergie",
+					"album_count": 1
+				},
+				{
+					"name": "Nicole Scherzinger",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4607,11 +4763,11 @@
 					"album_count": 3
 				},
 				{
-					"name": "Big Bang",
+					"name": "BIGBANG",
 					"album_count": 3
 				},
 				{
-					"name": "Super Junior",
+					"name": "Wonder Girls",
 					"album_count": 2
 				},
 				{
@@ -4619,7 +4775,27 @@
 					"album_count": 2
 				},
 				{
-					"name": "Wonder Girls",
+					"name": "Super Junior",
+					"album_count": 2
+				},
+				{
+					"name": "Rain",
+					"album_count": 2
+				},
+				{
+					"name": "BoA",
+					"album_count": 2
+				},
+				{
+					"name": "SHINee",
+					"album_count": 1
+				},
+				{
+					"name": "2NE1",
+					"album_count": 1
+				},
+				{
+					"name": "Brown Eyed Girls",
 					"album_count": 1
 				}
 			],
@@ -4655,19 +4831,39 @@
 					"album_count": 3
 				},
 				{
-					"name": "Hikaru Utada",
+					"name": "Utada Hikaru",
 					"album_count": 3
-				},
-				{
-					"name": "Arashi",
-					"album_count": 2
 				},
 				{
 					"name": "Kumi Koda",
 					"album_count": 2
 				},
 				{
+					"name": "Namie Amuro",
+					"album_count": 2
+				},
+				{
+					"name": "Arashi",
+					"album_count": 2
+				},
+				{
 					"name": "Perfume",
+					"album_count": 2
+				},
+				{
+					"name": "Mika Nakashima",
+					"album_count": 1
+				},
+				{
+					"name": "Ken Hirai",
+					"album_count": 1
+				},
+				{
+					"name": "Exile",
+					"album_count": 2
+				},
+				{
+					"name": "SMAP",
 					"album_count": 1
 				}
 			],
@@ -4715,6 +4911,30 @@
 				{
 					"name": "Andy McKee",
 					"album_count": 1
+				},
+				{
+					"name": "Newton Faulkner",
+					"album_count": 2
+				},
+				{
+					"name": "John Butler Trio",
+					"album_count": 2
+				},
+				{
+					"name": "Donavon Frankenreiter",
+					"album_count": 2
+				},
+				{
+					"name": "Xavier Rudd",
+					"album_count": 1
+				},
+				{
+					"name": "Ray LaMontagne",
+					"album_count": 1
+				},
+				{
+					"name": "Damien Rice",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4757,6 +4977,26 @@
 				},
 				{
 					"name": "Devendra Banhart",
+					"album_count": 1
+				},
+				{
+					"name": "The Decemberists",
+					"album_count": 2
+				},
+				{
+					"name": "Andrew Bird",
+					"album_count": 2
+				},
+				{
+					"name": "Laura Marling",
+					"album_count": 2
+				},
+				{
+					"name": "Mumford & Sons",
+					"album_count": 1
+				},
+				{
+					"name": "The Tallest Man on Earth",
 					"album_count": 1
 				}
 			],
@@ -4806,6 +5046,26 @@
 				{
 					"name": "Rascal Flatts",
 					"album_count": 1
+				},
+				{
+					"name": "Brad Paisley",
+					"album_count": 2
+				},
+				{
+					"name": "Kenny Chesney",
+					"album_count": 2
+				},
+				{
+					"name": "Alan Jackson",
+					"album_count": 2
+				},
+				{
+					"name": "Garth Brooks",
+					"album_count": 1
+				},
+				{
+					"name": "Miranda Lambert",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -4850,6 +5110,30 @@
 				{
 					"name": "Julie Fowlis",
 					"album_count": 1
+				},
+				{
+					"name": "The Chieftains",
+					"album_count": 2
+				},
+				{
+					"name": "The Dubliners",
+					"album_count": 1
+				},
+				{
+					"name": "Clannad",
+					"album_count": 1
+				},
+				{
+					"name": "Altan",
+					"album_count": 2
+				},
+				{
+					"name": "Lunasa",
+					"album_count": 2
+				},
+				{
+					"name": "Solas",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -4892,6 +5176,26 @@
 				},
 				{
 					"name": "Norah Jones",
+					"album_count": 2
+				},
+				{
+					"name": "Elliott Smith",
+					"album_count": 2
+				},
+				{
+					"name": "Feist",
+					"album_count": 2
+				},
+				{
+					"name": "Fiona Apple",
+					"album_count": 2
+				},
+				{
+					"name": "Sufjan Stevens",
+					"album_count": 1
+				},
+				{
+					"name": "Ray LaMontagne",
 					"album_count": 1
 				}
 			],
@@ -4940,6 +5244,26 @@
 				},
 				{
 					"name": "Drive-By Truckers",
+					"album_count": 1
+				},
+				{
+					"name": "Old Crow Medicine Show",
+					"album_count": 2
+				},
+				{
+					"name": "Gillian Welch",
+					"album_count": 2
+				},
+				{
+					"name": "Jason Isbell",
+					"album_count": 1
+				},
+				{
+					"name": "Lucinda Williams",
+					"album_count": 1
+				},
+				{
+					"name": "The Felice Brothers",
 					"album_count": 1
 				}
 			],
@@ -4991,6 +5315,26 @@
 				{
 					"name": "Tool",
 					"album_count": 1
+				},
+				{
+					"name": "Machine Head",
+					"album_count": 2
+				},
+				{
+					"name": "Pantera",
+					"album_count": 1
+				},
+				{
+					"name": "Megadeth",
+					"album_count": 1
+				},
+				{
+					"name": "Sepultura",
+					"album_count": 1
+				},
+				{
+					"name": "Soulfly",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5038,6 +5382,26 @@
 				},
 				{
 					"name": "Saxon",
+					"album_count": 1
+				},
+				{
+					"name": "Motorhead",
+					"album_count": 4
+				},
+				{
+					"name": "Black Sabbath",
+					"album_count": 1
+				},
+				{
+					"name": "Heaven & Hell",
+					"album_count": 1
+				},
+				{
+					"name": "Halford",
+					"album_count": 2
+				},
+				{
+					"name": "Bruce Dickinson",
 					"album_count": 1
 				}
 			],
@@ -5087,6 +5451,26 @@
 				{
 					"name": "Kreator",
 					"album_count": 1
+				},
+				{
+					"name": "Anthrax",
+					"album_count": 2
+				},
+				{
+					"name": "Overkill",
+					"album_count": 4
+				},
+				{
+					"name": "Destruction",
+					"album_count": 4
+				},
+				{
+					"name": "Municipal Waste",
+					"album_count": 3
+				},
+				{
+					"name": "Vektor",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -5135,6 +5519,26 @@
 				{
 					"name": "Immortal",
 					"album_count": 1
+				},
+				{
+					"name": "Watain",
+					"album_count": 3
+				},
+				{
+					"name": "Enslaved",
+					"album_count": 5
+				},
+				{
+					"name": "Behemoth",
+					"album_count": 4
+				},
+				{
+					"name": "Gorgoroth",
+					"album_count": 3
+				},
+				{
+					"name": "Darkthrone",
+					"album_count": 6
 				}
 			],
 			"top_albums": [
@@ -5183,6 +5587,26 @@
 				{
 					"name": "Decapitated",
 					"album_count": 1
+				},
+				{
+					"name": "Vader",
+					"album_count": 4
+				},
+				{
+					"name": "Deicide",
+					"album_count": 3
+				},
+				{
+					"name": "Bloodbath",
+					"album_count": 2
+				},
+				{
+					"name": "Dying Fetus",
+					"album_count": 3
+				},
+				{
+					"name": "Amon Amarth",
+					"album_count": 5
 				}
 			],
 			"top_albums": [
@@ -5231,6 +5655,26 @@
 				{
 					"name": "Sunn O)))",
 					"album_count": 1
+				},
+				{
+					"name": "My Dying Bride",
+					"album_count": 5
+				},
+				{
+					"name": "Paradise Lost",
+					"album_count": 4
+				},
+				{
+					"name": "Draconian",
+					"album_count": 3
+				},
+				{
+					"name": "Katatonia",
+					"album_count": 4
+				},
+				{
+					"name": "Swallow the Sun",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -5279,6 +5723,26 @@
 				{
 					"name": "Korn",
 					"album_count": 1
+				},
+				{
+					"name": "Limp Bizkit",
+					"album_count": 3
+				},
+				{
+					"name": "Deftones",
+					"album_count": 3
+				},
+				{
+					"name": "Papa Roach",
+					"album_count": 3
+				},
+				{
+					"name": "Evanescence",
+					"album_count": 2
+				},
+				{
+					"name": "P.O.D.",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -5327,6 +5791,26 @@
 				{
 					"name": "August Burns Red",
 					"album_count": 1
+				},
+				{
+					"name": "Avenged Sevenfold",
+					"album_count": 3
+				},
+				{
+					"name": "The Dillinger Escape Plan",
+					"album_count": 3
+				},
+				{
+					"name": "Bullet for My Valentine",
+					"album_count": 2
+				},
+				{
+					"name": "Bring Me the Horizon",
+					"album_count": 2
+				},
+				{
+					"name": "Underoath",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -5375,6 +5859,26 @@
 				{
 					"name": "Crowbar",
 					"album_count": 1
+				},
+				{
+					"name": "Baroness",
+					"album_count": 2
+				},
+				{
+					"name": "High on Fire",
+					"album_count": 4
+				},
+				{
+					"name": "Kylesa",
+					"album_count": 4
+				},
+				{
+					"name": "Cult of Luna",
+					"album_count": 4
+				},
+				{
+					"name": "Pelican",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -5423,6 +5927,26 @@
 				{
 					"name": "Agoraphobic Nosebleed",
 					"album_count": 1
+				},
+				{
+					"name": "Rotten Sound",
+					"album_count": 3
+				},
+				{
+					"name": "Converge",
+					"album_count": 3
+				},
+				{
+					"name": "Ass\u00fcck",
+					"album_count": 1
+				},
+				{
+					"name": "Phobia",
+					"album_count": 2
+				},
+				{
+					"name": "Cattle Decapitation",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -5471,6 +5995,26 @@
 				{
 					"name": "Kamelot",
 					"album_count": 1
+				},
+				{
+					"name": "Sabaton",
+					"album_count": 5
+				},
+				{
+					"name": "HammerFall",
+					"album_count": 4
+				},
+				{
+					"name": "Stratovarius",
+					"album_count": 3
+				},
+				{
+					"name": "Edguy",
+					"album_count": 4
+				},
+				{
+					"name": "Powerwolf",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5519,6 +6063,26 @@
 				{
 					"name": "Paradise Lost",
 					"album_count": 1
+				},
+				{
+					"name": "Sirenia",
+					"album_count": 4
+				},
+				{
+					"name": "Tristania",
+					"album_count": 3
+				},
+				{
+					"name": "Moonspell",
+					"album_count": 4
+				},
+				{
+					"name": "Type O Negative",
+					"album_count": 2
+				},
+				{
+					"name": "Theatre of Tragedy",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5647,6 +6211,26 @@
 				{
 					"name": "Stephen Marley",
 					"album_count": 1
+				},
+				{
+					"name": "Burning Spear",
+					"album_count": 4
+				},
+				{
+					"name": "Sizzla",
+					"album_count": 8
+				},
+				{
+					"name": "Alborosie",
+					"album_count": 3
+				},
+				{
+					"name": "Groundation",
+					"album_count": 5
+				},
+				{
+					"name": "Jah Cure",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -5694,6 +6278,26 @@
 				},
 				{
 					"name": "Mavado",
+					"album_count": 1
+				},
+				{
+					"name": "Shaggy",
+					"album_count": 4
+				},
+				{
+					"name": "Buju Banton",
+					"album_count": 3
+				},
+				{
+					"name": "Mr. Vegas",
+					"album_count": 3
+				},
+				{
+					"name": "Capleton",
+					"album_count": 4
+				},
+				{
+					"name": "Popcaan",
 					"album_count": 1
 				}
 			],
@@ -5743,6 +6347,26 @@
 				{
 					"name": "Ivy Queen",
 					"album_count": 1
+				},
+				{
+					"name": "Arc\u00e1ngel",
+					"album_count": 2
+				},
+				{
+					"name": "Zion & Lennox",
+					"album_count": 2
+				},
+				{
+					"name": "Calle 13",
+					"album_count": 3
+				},
+				{
+					"name": "H\u00e9ctor el Father",
+					"album_count": 2
+				},
+				{
+					"name": "Voltio",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5791,6 +6415,26 @@
 				{
 					"name": "Westbound Train",
 					"album_count": 1
+				},
+				{
+					"name": "Big D and the Kids Table",
+					"album_count": 4
+				},
+				{
+					"name": "Catch 22",
+					"album_count": 2
+				},
+				{
+					"name": "Capdown",
+					"album_count": 2
+				},
+				{
+					"name": "Mad Caddies",
+					"album_count": 3
+				},
+				{
+					"name": "The King Blues",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5838,6 +6482,26 @@
 				},
 				{
 					"name": "Augustus Pablo",
+					"album_count": 1
+				},
+				{
+					"name": "Jahtari",
+					"album_count": 3
+				},
+				{
+					"name": "Deadbeat",
+					"album_count": 4
+				},
+				{
+					"name": "Twilight Circus",
+					"album_count": 5
+				},
+				{
+					"name": "Disrupt",
+					"album_count": 2
+				},
+				{
+					"name": "Panda Dub",
 					"album_count": 1
 				}
 			],
@@ -5887,6 +6551,26 @@
 				{
 					"name": "Davido",
 					"album_count": 1
+				},
+				{
+					"name": "Olamide",
+					"album_count": 1
+				},
+				{
+					"name": "Flavour",
+					"album_count": 2
+				},
+				{
+					"name": "Akani",
+					"album_count": 1
+				},
+				{
+					"name": "Don Jazzy",
+					"album_count": 1
+				},
+				{
+					"name": "Banky W.",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5935,6 +6619,26 @@
 				{
 					"name": "Patrice Roberts",
 					"album_count": 1
+				},
+				{
+					"name": "Kes the Band",
+					"album_count": 2
+				},
+				{
+					"name": "Shurwayne Winchester",
+					"album_count": 2
+				},
+				{
+					"name": "Denise Belfon",
+					"album_count": 1
+				},
+				{
+					"name": "Iwer George",
+					"album_count": 2
+				},
+				{
+					"name": "Claudette Peters",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -5982,6 +6686,26 @@
 				},
 				{
 					"name": "Elvis Crespo",
+					"album_count": 2
+				},
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 4
+				},
+				{
+					"name": "Sergio Vargas",
+					"album_count": 3
+				},
+				{
+					"name": "Kinito M\u00e9ndez",
+					"album_count": 2
+				},
+				{
+					"name": "Los Hermanos Rosario",
+					"album_count": 3
+				},
+				{
+					"name": "Joe Veras",
 					"album_count": 2
 				}
 			],
@@ -6031,6 +6755,26 @@
 				{
 					"name": "Vanessa da Mata",
 					"album_count": 2
+				},
+				{
+					"name": "Paula Morelenbaum",
+					"album_count": 2
+				},
+				{
+					"name": "Adriana Calcanhotto",
+					"album_count": 3
+				},
+				{
+					"name": "Eliane Elias",
+					"album_count": 4
+				},
+				{
+					"name": "Lisa Ono",
+					"album_count": 5
+				},
+				{
+					"name": "Marisa Monte",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -6079,6 +6823,26 @@
 				{
 					"name": "Calle 13",
 					"album_count": 1
+				},
+				{
+					"name": "Enrique Iglesias",
+					"album_count": 4
+				},
+				{
+					"name": "Ricky Martin",
+					"album_count": 3
+				},
+				{
+					"name": "Alejandro Sanz",
+					"album_count": 3
+				},
+				{
+					"name": "Julieta Venegas",
+					"album_count": 3
+				},
+				{
+					"name": "Mana",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -6125,8 +6889,28 @@
 					"album_count": 2
 				},
 				{
-					"name": "Miguel Poveda",
+					"name": "Estrella Morente",
 					"album_count": 1
+				},
+				{
+					"name": "Ojos de Brujo",
+					"album_count": 3
+				},
+				{
+					"name": "Ni\u00f1a Pastori",
+					"album_count": 4
+				},
+				{
+					"name": "Miguel Poveda",
+					"album_count": 3
+				},
+				{
+					"name": "Duquende",
+					"album_count": 2
+				},
+				{
+					"name": "Enrique Morente",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -6177,6 +6961,26 @@
 				{
 					"name": "Battles",
 					"album_count": 1
+				},
+				{
+					"name": "Grizzly Bear",
+					"album_count": 2
+				},
+				{
+					"name": "TV on the Radio",
+					"album_count": 3
+				},
+				{
+					"name": "Dirty Projectors",
+					"album_count": 4
+				},
+				{
+					"name": "Deerhunter",
+					"album_count": 3
+				},
+				{
+					"name": "Scott Walker",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -6225,6 +7029,26 @@
 				{
 					"name": "Pharmakon",
 					"album_count": 1
+				},
+				{
+					"name": "Whitehouse",
+					"album_count": 2
+				},
+				{
+					"name": "The Ritz",
+					"album_count": 1
+				},
+				{
+					"name": "Ben Frost",
+					"album_count": 3
+				},
+				{
+					"name": "Emeralds",
+					"album_count": 2
+				},
+				{
+					"name": "Fennesz",
+					"album_count": 4
 				}
 			],
 			"top_albums": [
@@ -6273,6 +7097,26 @@
 				{
 					"name": "Desiderii Marginis",
 					"album_count": 1
+				},
+				{
+					"name": "Cryo Chamber",
+					"album_count": 1
+				},
+				{
+					"name": "Thomas K\u00f6ner",
+					"album_count": 2
+				},
+				{
+					"name": "Kammarheit",
+					"album_count": 2
+				},
+				{
+					"name": "Northaunt",
+					"album_count": 2
+				},
+				{
+					"name": "Svartsinn",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -6321,6 +7165,26 @@
 				{
 					"name": "Barn Owl",
 					"album_count": 1
+				},
+				{
+					"name": "The For Carnation",
+					"album_count": 1
+				},
+				{
+					"name": "Natural Snow Buildings",
+					"album_count": 5
+				},
+				{
+					"name": "William Basinski",
+					"album_count": 4
+				},
+				{
+					"name": "Grouper",
+					"album_count": 3
+				},
+				{
+					"name": "Yellow Swans",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -6369,6 +7233,26 @@
 				{
 					"name": "Merzbow",
 					"album_count": 1
+				},
+				{
+					"name": "Comus",
+					"album_count": 1
+				},
+				{
+					"name": "Kayo Dot",
+					"album_count": 3
+				},
+				{
+					"name": "Secret Chiefs 3",
+					"album_count": 2
+				},
+				{
+					"name": "Zu",
+					"album_count": 2
+				},
+				{
+					"name": "Matmos",
+					"album_count": 3
 				}
 			],
 			"top_albums": [
@@ -6403,10 +7287,6 @@
 					"album_count": 3
 				},
 				{
-					"name": "Max Richter",
-					"album_count": 2
-				},
-				{
 					"name": "Arvo P\u00e4rt",
 					"album_count": 2
 				},
@@ -6417,6 +7297,30 @@
 				{
 					"name": "Nils Frahm",
 					"album_count": 1
+				},
+				{
+					"name": "\u00d3lafur Arnalds",
+					"album_count": 2
+				},
+				{
+					"name": "Dustin O'Halloran",
+					"album_count": 3
+				},
+				{
+					"name": "Hauschka",
+					"album_count": 3
+				},
+				{
+					"name": "Goldmund",
+					"album_count": 2
+				},
+				{
+					"name": "Sylvain Chauveau",
+					"album_count": 2
+				},
+				{
+					"name": "Peter Broderick",
+					"album_count": 2
 				}
 			],
 			"top_albums": [
@@ -6465,6 +7369,26 @@
 				{
 					"name": "Steve Reich",
 					"album_count": 2
+				},
+				{
+					"name": "Lubomyr Melnyk",
+					"album_count": 1
+				},
+				{
+					"name": "Charlemagne Palestine",
+					"album_count": 2
+				},
+				{
+					"name": "Ellen Arkbro",
+					"album_count": 1
+				},
+				{
+					"name": "Sarah Davachi",
+					"album_count": 1
+				},
+				{
+					"name": "Kali Malone",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -6513,6 +7437,26 @@
 				{
 					"name": "John Adams",
 					"album_count": 1
+				},
+				{
+					"name": "Krysztof Penderecki",
+					"album_count": 1
+				},
+				{
+					"name": "Gorecki",
+					"album_count": 1
+				},
+				{
+					"name": "Einojuhani Rautavaara",
+					"album_count": 1
+				},
+				{
+					"name": "Gavin Bryars",
+					"album_count": 1
+				},
+				{
+					"name": "Valentin Silvestrov",
+					"album_count": 1
 				}
 			],
 			"top_albums": [
@@ -6560,6 +7504,26 @@
 				},
 				{
 					"name": "Thomas Newman",
+					"album_count": 1
+				},
+				{
+					"name": "Michael Giacchino",
+					"album_count": 3
+				},
+				{
+					"name": "James Newton Howard",
+					"album_count": 2
+				},
+				{
+					"name": "Danny Elfman",
+					"album_count": 2
+				},
+				{
+					"name": "Ennio Morricone",
+					"album_count": 1
+				},
+				{
+					"name": "Clint Mansell",
 					"album_count": 1
 				}
 			],
