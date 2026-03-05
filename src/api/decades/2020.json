@@ -1096,7 +1096,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Ti\u00ebsto",
+					"name": "Tiësto",
 					"album_count": 2
 				},
 				{
@@ -1478,7 +1478,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "\u00d3lafur Arnalds",
+					"name": "Ólafur Arnalds",
 					"album_count": 3
 				},
 				{
@@ -1502,7 +1502,7 @@
 				},
 				{
 					"name": "some kind of peace",
-					"artist": "\u00d3lafur Arnalds",
+					"artist": "Ólafur Arnalds",
 					"year": "2020"
 				},
 				{
@@ -1514,7 +1514,7 @@
 			"sample_tracks": [
 				{
 					"name": "This Place Was a Shelter",
-					"artist": "\u00d3lafur Arnalds",
+					"artist": "Ólafur Arnalds",
 					"album": "some kind of peace"
 				}
 			]
@@ -1806,7 +1806,7 @@
 		"vaporwave": {
 			"top_artists": [
 				{
-					"name": "\u732b \u30b7 Corp.",
+					"name": "猫 シ Corp.",
 					"album_count": 3
 				},
 				{
@@ -1829,7 +1829,7 @@
 			"top_albums": [
 				{
 					"name": "Palm Mall",
-					"artist": "\u732b \u30b7 Corp.",
+					"artist": "猫 シ Corp.",
 					"year": "2014"
 				},
 				{
@@ -1846,7 +1846,7 @@
 			"sample_tracks": [
 				{
 					"name": "ECO VIRTUAL",
-					"artist": "\u732b \u30b7 Corp.",
+					"artist": "猫 シ Corp.",
 					"album": "Palm Mall"
 				}
 			]
@@ -2892,7 +2892,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Beno\u00eet \u00c9tienne",
+					"name": "Benoît Étienne",
 					"album_count": 1
 				}
 			],
@@ -3068,7 +3068,7 @@
 		"swing": {
 			"top_artists": [
 				{
-					"name": "Michael Bubl\u00e9",
+					"name": "Michael Bublé",
 					"album_count": 3
 				},
 				{
@@ -3080,7 +3080,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "C\u00e9cile McLorin Salvant",
+					"name": "Cécile McLorin Salvant",
 					"album_count": 2
 				},
 				{
@@ -3091,7 +3091,7 @@
 			"top_albums": [
 				{
 					"name": "Higher",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"year": "2022"
 				},
 				{
@@ -3101,14 +3101,14 @@
 				},
 				{
 					"name": "The Window",
-					"artist": "C\u00e9cile McLorin Salvant",
+					"artist": "Cécile McLorin Salvant",
 					"year": "2018"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Higher",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"album": "Higher"
 				}
 			]
@@ -3118,7 +3118,7 @@
 		"traditional pop": {
 			"top_artists": [
 				{
-					"name": "Michael Bubl\u00e9",
+					"name": "Michael Bublé",
 					"album_count": 2
 				},
 				{
@@ -3143,7 +3143,7 @@
 				},
 				{
 					"name": "Higher",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"year": "2022"
 				}
 			],
@@ -3345,11 +3345,11 @@
 					"album_count": 2
 				},
 				{
-					"name": "M\u00e5neskin",
+					"name": "Måneskin",
 					"album_count": 2
 				},
 				{
-					"name": "Rosal\u00eda",
+					"name": "Rosalía",
 					"album_count": 2
 				}
 			],
@@ -3361,7 +3361,7 @@
 				},
 				{
 					"name": "MOTOMAMI",
-					"artist": "Rosal\u00eda",
+					"artist": "Rosalía",
 					"year": "2022"
 				}
 			],
@@ -3938,7 +3938,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Hate \u00dcber Alles",
+					"name": "Hate Über Alles",
 					"artist": "Kreator",
 					"year": "2022"
 				},
@@ -3955,9 +3955,9 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Hate \u00dcber Alles",
+					"name": "Hate Über Alles",
 					"artist": "Kreator",
-					"album": "Hate \u00dcber Alles"
+					"album": "Hate Über Alles"
 				}
 			]
 		},
@@ -3968,7 +3968,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Mg\u0142a",
+					"name": "Mgła",
 					"album_count": 2
 				},
 				{
@@ -3992,7 +3992,7 @@
 				},
 				{
 					"name": "Age Of",
-					"artist": "Mg\u0142a",
+					"artist": "Mgła",
 					"year": "2019"
 				},
 				{
@@ -4532,7 +4532,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "El \u00daltimo Tour Del Mundo",
+					"name": "El Último Tour Del Mundo",
 					"artist": "Bad Bunny",
 					"year": "2020"
 				},
@@ -4551,7 +4551,7 @@
 				{
 					"name": "Dakiti",
 					"artist": "Bad Bunny",
-					"album": "El \u00daltimo Tour Del Mundo"
+					"album": "El Último Tour Del Mundo"
 				}
 			]
 		},
@@ -4759,7 +4759,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Priv\u00e9",
+					"name": "Privé",
 					"artist": "Juan Luis Guerra",
 					"year": "2020"
 				},
@@ -4778,7 +4778,7 @@
 				{
 					"name": "Pambiche de Novia",
 					"artist": "Juan Luis Guerra",
-					"album": "Priv\u00e9"
+					"album": "Privé"
 				}
 			]
 		},
@@ -4841,7 +4841,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Rosal\u00eda",
+					"name": "Rosalía",
 					"album_count": 2
 				},
 				{
@@ -4861,7 +4861,7 @@
 				},
 				{
 					"name": "Motomami",
-					"artist": "Rosal\u00eda",
+					"artist": "Rosalía",
 					"year": "2022"
 				},
 				{
@@ -4872,7 +4872,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Tit\u00ed Me Pregunt\u00f3",
+					"name": "Tití Me Preguntó",
 					"artist": "Bad Bunny",
 					"album": "Un Verano Sin Ti"
 				}
@@ -4881,7 +4881,7 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Rosal\u00eda",
+					"name": "Rosalía",
 					"album_count": 3
 				},
 				{
@@ -4897,18 +4897,18 @@
 					"album_count": 2
 				},
 				{
-					"name": "Ni\u00f1o de Elche",
+					"name": "Niño de Elche",
 					"album_count": 1
 				}
 			],
 			"top_albums": [
 				{
 					"name": "Motomami",
-					"artist": "Rosal\u00eda",
+					"artist": "Rosalía",
 					"year": "2022"
 				},
 				{
-					"name": "El Madrile\u00f1o",
+					"name": "El Madrileño",
 					"artist": "C. Tangana",
 					"year": "2021"
 				},
@@ -4921,7 +4921,37 @@
 			"sample_tracks": [
 				{
 					"name": "Hentai",
-					"artist": "Rosal\u00eda",
+					"artist": "Rosalía",
+					"album": "Motomami"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "Romeo Santos",
+					"album_count": 1
+				},
+				{
+					"name": "Rosalía",
+					"album_count": 1
+				},
+				{
+					"name": "Prince Royce",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Formula, Vol. 3",
+					"artist": "Romeo Santos",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "La Fama",
+					"artist": "Rosalía ft. The Weeknd",
 					"album": "Motomami"
 				}
 			]
@@ -5123,7 +5153,7 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 3
 				},
 				{
@@ -5146,7 +5176,7 @@
 			"top_albums": [
 				{
 					"name": "Fossora",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"year": "2022"
 				},
 				{
@@ -5163,7 +5193,7 @@
 			"sample_tracks": [
 				{
 					"name": "Atopos",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"album": "Fossora"
 				}
 			]
@@ -5175,7 +5205,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "\u00d3lafur Arnalds",
+					"name": "Ólafur Arnalds",
 					"album_count": 3
 				},
 				{
@@ -5187,14 +5217,14 @@
 					"album_count": 2
 				},
 				{
-					"name": "Hildur Gu\u00f0nad\u00f3ttir",
+					"name": "Hildur Guðnadóttir",
 					"album_count": 2
 				}
 			],
 			"top_albums": [
 				{
 					"name": "some kind of peace",
-					"artist": "\u00d3lafur Arnalds",
+					"artist": "Ólafur Arnalds",
 					"year": "2020"
 				},
 				{
@@ -5211,7 +5241,7 @@
 			"sample_tracks": [
 				{
 					"name": "Woven Song",
-					"artist": "\u00d3lafur Arnalds",
+					"artist": "Ólafur Arnalds",
 					"album": "some kind of peace"
 				}
 			]
@@ -5223,7 +5253,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "\u00d3lafur Arnalds",
+					"name": "Ólafur Arnalds",
 					"album_count": 2
 				},
 				{
@@ -5247,7 +5277,7 @@
 				},
 				{
 					"name": "some kind of peace",
-					"artist": "\u00d3lafur Arnalds",
+					"artist": "Ólafur Arnalds",
 					"year": "2020"
 				},
 				{
@@ -5271,11 +5301,11 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ludwig G\u00f6ransson",
+					"name": "Ludwig Göransson",
 					"album_count": 3
 				},
 				{
-					"name": "Hildur Gu\u00f0nad\u00f3ttir",
+					"name": "Hildur Guðnadóttir",
 					"album_count": 2
 				},
 				{
@@ -5295,12 +5325,12 @@
 				},
 				{
 					"name": "Black Panther",
-					"artist": "Ludwig G\u00f6ransson",
+					"artist": "Ludwig Göransson",
 					"year": "2018"
 				},
 				{
 					"name": "Joker",
-					"artist": "Hildur Gu\u00f0nad\u00f3ttir",
+					"artist": "Hildur Guðnadóttir",
 					"year": "2019"
 				}
 			],

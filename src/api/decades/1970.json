@@ -250,7 +250,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Blue \u00d6yster Cult",
+					"name": "Blue Öyster Cult",
 					"album_count": 3
 				},
 				{
@@ -302,7 +302,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Amon D\u00fc\u00fcl II",
+					"name": "Amon Düül II",
 					"album_count": 2
 				},
 				{
@@ -692,7 +692,7 @@
 					"year": "1974"
 				},
 				{
-					"name": "Oxyg\u00e8ne",
+					"name": "Oxygène",
 					"artist": "Jean-Michel Jarre",
 					"year": "1976"
 				}
@@ -832,7 +832,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Einst\u00fcrzende Neubauten",
+					"name": "Einstürzende Neubauten",
 					"album_count": 1
 				},
 				{
@@ -1364,7 +1364,7 @@
 					"year": "1973"
 				},
 				{
-					"name": "The K\u00f6ln Concert",
+					"name": "The Köln Concert",
 					"artist": "Keith Jarrett",
 					"year": "1975"
 				}
@@ -2428,7 +2428,7 @@
 					"year": "1973"
 				},
 				{
-					"name": "Li\u00e8ge & Lief",
+					"name": "Liège & Lief",
 					"artist": "Fairport Convention",
 					"year": "1969"
 				}
@@ -2448,7 +2448,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Andra\u00e9 Crouch",
+					"name": "Andraé Crouch",
 					"album_count": 2
 				},
 				{
@@ -2472,7 +2472,7 @@
 				},
 				{
 					"name": "Take Me Back",
-					"artist": "Andra\u00e9 Crouch",
+					"artist": "Andraé Crouch",
 					"year": "1975"
 				},
 				{
@@ -2562,7 +2562,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Mot\u00f6rhead",
+					"name": "Motörhead",
 					"album_count": 3
 				},
 				{
@@ -2570,7 +2570,7 @@
 					"album_count": 4
 				},
 				{
-					"name": "Blue \u00d6yster Cult",
+					"name": "Blue Öyster Cult",
 					"album_count": 3
 				},
 				{
@@ -2618,7 +2618,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Mot\u00f6rhead",
+					"name": "Motörhead",
 					"album_count": 2
 				},
 				{
@@ -2638,7 +2638,7 @@
 				},
 				{
 					"name": "Overkill",
-					"artist": "Mot\u00f6rhead",
+					"artist": "Motörhead",
 					"year": "1979"
 				},
 				{
@@ -3128,12 +3128,12 @@
 			],
 			"top_albums": [
 				{
-					"name": "\u00bfQu\u00e9 Pasa, Papo?",
+					"name": "¿Qué Pasa, Papo?",
 					"artist": "Johnny Ventura",
 					"year": "1971"
 				},
 				{
-					"name": "El B\u00e1rbaro del Ritmo",
+					"name": "El Bárbaro del Ritmo",
 					"artist": "Wilfrido Vargas",
 					"year": "1978"
 				},
@@ -3145,16 +3145,16 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Patac\u00f3n Pisao",
+					"name": "Patacón Pisao",
 					"artist": "Johnny Ventura",
-					"album": "\u00bfQu\u00e9 Pasa, Papo?"
+					"album": "¿Qué Pasa, Papo?"
 				}
 			]
 		},
 		"bossa nova": {
 			"top_artists": [
 				{
-					"name": "Ant\u00f4nio Carlos Jobim",
+					"name": "Antônio Carlos Jobim",
 					"album_count": 3
 				},
 				{
@@ -3166,7 +3166,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Jo\u00e3o Gilberto",
+					"name": "João Gilberto",
 					"album_count": 2
 				},
 				{
@@ -3177,24 +3177,24 @@
 			"top_albums": [
 				{
 					"name": "Elis & Tom",
-					"artist": "Elis Regina & Ant\u00f4nio Carlos Jobim",
+					"artist": "Elis Regina & Antônio Carlos Jobim",
 					"year": "1974"
 				},
 				{
-					"name": "A T\u00e1bua de Esmeralda",
+					"name": "A Tábua de Esmeralda",
 					"artist": "Jorge Ben",
 					"year": "1974"
 				},
 				{
-					"name": "Jo\u00e3o Gilberto",
-					"artist": "Jo\u00e3o Gilberto",
+					"name": "João Gilberto",
+					"artist": "João Gilberto",
 					"year": "1973"
 				}
 			],
 			"sample_tracks": [
 				{
-					"name": "Aguas de Mar\u00e7o",
-					"artist": "Elis Regina & Ant\u00f4nio Carlos Jobim",
+					"name": "Aguas de Março",
+					"artist": "Elis Regina & Antônio Carlos Jobim",
 					"album": "Elis & Tom"
 				}
 			]
@@ -3210,11 +3210,11 @@
 					"album_count": 3
 				},
 				{
-					"name": "Willie Col\u00f3n",
+					"name": "Willie Colón",
 					"album_count": 2
 				},
 				{
-					"name": "Rub\u00e9n Blades",
+					"name": "Rubén Blades",
 					"album_count": 2
 				},
 				{
@@ -3230,7 +3230,7 @@
 				},
 				{
 					"name": "Siembra",
-					"artist": "Willie Col\u00f3n & Rub\u00e9n Blades",
+					"artist": "Willie Colón & Rubén Blades",
 					"year": "1978"
 				},
 				{
@@ -3242,7 +3242,7 @@
 			"sample_tracks": [
 				{
 					"name": "Pedro Navaja",
-					"artist": "Rub\u00e9n Blades",
+					"artist": "Rubén Blades",
 					"album": "Siembra"
 				}
 			]
@@ -3250,11 +3250,11 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Luc\u00eda",
+					"name": "Paco de Lucía",
 					"album_count": 3
 				},
 				{
-					"name": "Camar\u00f3n de la Isla",
+					"name": "Camarón de la Isla",
 					"album_count": 3
 				},
 				{
@@ -3262,7 +3262,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Manolo Sanl\u00facar",
+					"name": "Manolo Sanlúcar",
 					"album_count": 2
 				},
 				{
@@ -3273,25 +3273,51 @@
 			"top_albums": [
 				{
 					"name": "Fuente y Caudal",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1973"
 				},
 				{
 					"name": "La Leyenda del Tiempo",
-					"artist": "Camar\u00f3n de la Isla",
+					"artist": "Camarón de la Isla",
 					"year": "1979"
 				},
 				{
 					"name": "Almoraima",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1976"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Entre Dos Aguas",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"album": "Fuente y Caudal"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "Leonardo Paniagua",
+					"album_count": 3
+				},
+				{
+					"name": "Luis Segura",
+					"album_count": 2
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Chiquitita",
+					"artist": "Leonardo Paniagua",
+					"year": "1979"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pena por ti",
+					"artist": "Luis Segura",
+					"album": "Pena por ti"
 				}
 			]
 		}
@@ -3432,7 +3458,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "\u00c9liane Radigue",
+					"name": "Éliane Radigue",
 					"album_count": 1
 				}
 			],
@@ -3476,7 +3502,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Gy\u00f6rgy Ligeti",
+					"name": "György Ligeti",
 					"album_count": 2
 				},
 				{
@@ -3524,7 +3550,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 2
 				},
 				{
@@ -3545,7 +3571,7 @@
 				},
 				{
 					"name": "Tabula Rasa",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1977"
 				}
 			],
@@ -3560,7 +3586,7 @@
 		"modern classical": {
 			"top_artists": [
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 3
 				},
 				{
@@ -3576,14 +3602,14 @@
 					"album_count": 2
 				},
 				{
-					"name": "Henryk G\u00f3recki",
+					"name": "Henryk Górecki",
 					"album_count": 1
 				}
 			],
 			"top_albums": [
 				{
 					"name": "Tabula Rasa",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1977"
 				},
 				{
@@ -3600,7 +3626,7 @@
 			"sample_tracks": [
 				{
 					"name": "Spiegel im Spiegel",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"album": "Tabula Rasa"
 				}
 			]
@@ -3624,7 +3650,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 1
 				}
 			],

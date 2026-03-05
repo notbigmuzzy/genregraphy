@@ -1435,7 +1435,7 @@
 		"bossa nova": {
 			"top_artists": [
 				{
-					"name": "Jo\u00e3o Gilberto",
+					"name": "João Gilberto",
 					"album_count": 3
 				},
 				{
@@ -1458,12 +1458,12 @@
 			"top_albums": [
 				{
 					"name": "Getz/Gilberto",
-					"artist": "Stan Getz & Jo\u00e3o Gilberto",
+					"artist": "Stan Getz & João Gilberto",
 					"year": "1964"
 				},
 				{
 					"name": "Chega de Saudade",
-					"artist": "Jo\u00e3o Gilberto",
+					"artist": "João Gilberto",
 					"year": "1959"
 				},
 				{
@@ -2301,7 +2301,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Blue \u00d6yster Cult",
+					"name": "Blue Öyster Cult",
 					"album_count": 1
 				},
 				{
@@ -2629,7 +2629,7 @@
 		"merengue": {
 			"top_artists": [
 				{
-					"name": "Jose\u00edto Mateo",
+					"name": "Joseíto Mateo",
 					"album_count": 3
 				},
 				{
@@ -2652,11 +2652,11 @@
 			"top_albums": [
 				{
 					"name": "El Rey del Merengue",
-					"artist": "Jose\u00edto Mateo",
+					"artist": "Joseíto Mateo",
 					"year": "1964"
 				},
 				{
-					"name": "Merengue T\u00edpico",
+					"name": "Merengue Típico",
 					"artist": "El Ciego de Nagua",
 					"year": "1966"
 				},
@@ -2668,8 +2668,8 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Ca\u00f1a Brava",
-					"artist": "Jose\u00edto Mateo",
+					"name": "Caña Brava",
+					"artist": "Joseíto Mateo",
 					"album": "El Rey del Merengue"
 				}
 			]
@@ -2685,7 +2685,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "P\u00e9rez Prado",
+					"name": "Pérez Prado",
 					"album_count": 2
 				},
 				{
@@ -2693,7 +2693,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Mongo Santamar\u00eda",
+					"name": "Mongo Santamaría",
 					"album_count": 1
 				}
 			],
@@ -2725,11 +2725,11 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Luc\u00eda",
+					"name": "Paco de Lucía",
 					"album_count": 2
 				},
 				{
-					"name": "Camar\u00f3n de la Isla",
+					"name": "Camarón de la Isla",
 					"album_count": 2
 				},
 				{
@@ -2737,11 +2737,11 @@
 					"album_count": 2
 				},
 				{
-					"name": "Manolo Sanl\u00facar",
+					"name": "Manolo Sanlúcar",
 					"album_count": 1
 				},
 				{
-					"name": "Ni\u00f1o Ricardo",
+					"name": "Niño Ricardo",
 					"album_count": 1
 				}
 			],
@@ -2753,20 +2753,46 @@
 				},
 				{
 					"name": "Arte y Majestad",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1967"
 				},
 				{
-					"name": "El Duende Flamenco de Camar\u00f3n",
-					"artist": "Camar\u00f3n de la Isla",
+					"name": "El Duende Flamenco de Camarón",
+					"artist": "Camarón de la Isla",
 					"year": "1969"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Entre Dos Aguas",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"album": "Arte y Majestad"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "José Manuel Calderón",
+					"album_count": 2
+				},
+				{
+					"name": "Rafael Encarnación",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Borracho de amor",
+					"artist": "José Manuel Calderón",
+					"year": "1962"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Condena",
+					"artist": "José Manuel Calderón",
+					"album": "Borracho de amor"
 				}
 			]
 		}
@@ -2835,7 +2861,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Gy\u00f6rgy Ligeti",
+					"name": "György Ligeti",
 					"album_count": 1
 				},
 				{
@@ -2845,26 +2871,26 @@
 			],
 			"top_albums": [
 				{
-					"name": "Gesang der J\u00fcnglinge",
+					"name": "Gesang der Jünglinge",
 					"artist": "Karlheinz Stockhausen",
 					"year": "1956"
 				},
 				{
-					"name": "Le Marteau sans ma\u00eetre",
+					"name": "Le Marteau sans maître",
 					"artist": "Pierre Boulez",
 					"year": "1957"
 				},
 				{
-					"name": "Atmosph\u00e8res",
-					"artist": "Gy\u00f6rgy Ligeti",
+					"name": "Atmosphères",
+					"artist": "György Ligeti",
 					"year": "1961"
 				}
 			],
 			"sample_tracks": [
 				{
-					"name": "Gesang der J\u00fcnglinge",
+					"name": "Gesang der Jünglinge",
 					"artist": "Karlheinz Stockhausen",
-					"album": "Gesang der J\u00fcnglinge"
+					"album": "Gesang der Jünglinge"
 				}
 			]
 		},
@@ -2931,7 +2957,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Edgard Var\u00e8se",
+					"name": "Edgard Varèse",
 					"album_count": 2
 				},
 				{
@@ -2946,13 +2972,13 @@
 					"year": "1958"
 				},
 				{
-					"name": "Le Marteau sans ma\u00eetre",
+					"name": "Le Marteau sans maître",
 					"artist": "Pierre Boulez",
 					"year": "1957"
 				},
 				{
-					"name": "D\u00e9serts",
-					"artist": "Edgard Var\u00e8se",
+					"name": "Déserts",
+					"artist": "Edgard Varèse",
 					"year": "1954"
 				}
 			],

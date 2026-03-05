@@ -767,7 +767,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Max\u00efmo Park",
+					"name": "Maxïmo Park",
 					"album_count": 2
 				}
 			],
@@ -879,7 +879,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Sigur R\u00f3s",
+					"name": "Sigur Rós",
 					"album_count": 2
 				},
 				{
@@ -914,8 +914,8 @@
 					"year": "2003"
 				},
 				{
-					"name": "\u00c1g\u00e6tis byrjun",
-					"artist": "Sigur R\u00f3s",
+					"name": "Ágætis byrjun",
+					"artist": "Sigur Rós",
 					"year": "1999"
 				},
 				{
@@ -1275,7 +1275,7 @@
 		"shoegaze": {
 			"top_artists": [
 				{
-					"name": "Sigur R\u00f3s",
+					"name": "Sigur Rós",
 					"album_count": 3
 				},
 				{
@@ -1299,7 +1299,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Lantl\u00f4s",
+					"name": "Lantlôs",
 					"album_count": 2
 				},
 				{
@@ -1317,8 +1317,8 @@
 			],
 			"top_albums": [
 				{
-					"name": "\u00c1g\u00e6tis byrjun",
-					"artist": "Sigur R\u00f3s",
+					"name": "Ágætis byrjun",
+					"artist": "Sigur Rós",
 					"year": "1999"
 				},
 				{
@@ -1335,8 +1335,8 @@
 			"sample_tracks": [
 				{
 					"name": "Svefn-g-englar",
-					"artist": "Sigur R\u00f3s",
-					"album": "\u00c1g\u00e6tis byrjun"
+					"artist": "Sigur Rós",
+					"album": "Ágætis byrjun"
 				}
 			]
 		},
@@ -1419,7 +1419,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Sigur R\u00f3s",
+					"name": "Sigur Rós",
 					"album_count": 2
 				},
 				{
@@ -1477,7 +1477,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "R\u00f6yksopp",
+					"name": "Röyksopp",
 					"album_count": 1
 				},
 				{
@@ -1508,7 +1508,7 @@
 					"year": "2001"
 				},
 				{
-					"name": "\u2020",
+					"name": "†",
 					"artist": "Justice",
 					"year": "2007"
 				},
@@ -1757,7 +1757,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Sven V\u00e4th",
+					"name": "Sven Väth",
 					"album_count": 2
 				},
 				{
@@ -1805,7 +1805,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ti\u00ebsto",
+					"name": "Tiësto",
 					"album_count": 3
 				},
 				{
@@ -1844,7 +1844,7 @@
 			"top_albums": [
 				{
 					"name": "Just Be",
-					"artist": "Ti\u00ebsto",
+					"artist": "Tiësto",
 					"year": "2004"
 				},
 				{
@@ -1861,7 +1861,7 @@
 			"sample_tracks": [
 				{
 					"name": "Adagio for Strings",
-					"artist": "Ti\u00ebsto",
+					"artist": "Tiësto",
 					"album": "Just Be"
 				}
 			]
@@ -2251,7 +2251,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "\u2020",
+					"name": "†",
 					"artist": "Justice",
 					"year": "2007"
 				},
@@ -2270,7 +2270,7 @@
 				{
 					"name": "D.A.N.C.E.",
 					"artist": "Justice",
-					"album": "\u2020"
+					"album": "†"
 				}
 			]
 		},
@@ -2573,7 +2573,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Einst\u00fcrzende Neubauten",
+					"name": "Einstürzende Neubauten",
 					"album_count": 2
 				},
 				{
@@ -2633,7 +2633,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "R\u00f6yksopp",
+					"name": "Röyksopp",
 					"album_count": 1
 				},
 				{
@@ -2670,7 +2670,7 @@
 				},
 				{
 					"name": "Melody A.M.",
-					"artist": "R\u00f6yksopp",
+					"artist": "Röyksopp",
 					"year": "2001"
 				}
 			],
@@ -3235,7 +3235,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Beyonc\u00e9",
+					"name": "Beyoncé",
 					"album_count": 3
 				},
 				{
@@ -3279,7 +3279,7 @@
 				},
 				{
 					"name": "Dangerously in Love",
-					"artist": "Beyonc\u00e9",
+					"artist": "Beyoncé",
 					"year": "2003"
 				},
 				{
@@ -4223,7 +4223,7 @@
 		"swing": {
 			"top_artists": [
 				{
-					"name": "Michael Bubl\u00e9",
+					"name": "Michael Bublé",
 					"album_count": 3
 				},
 				{
@@ -4266,7 +4266,7 @@
 			"top_albums": [
 				{
 					"name": "It's Time",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"year": "2005"
 				},
 				{
@@ -4283,7 +4283,7 @@
 			"sample_tracks": [
 				{
 					"name": "Feeling Good",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"album": "It's Time"
 				}
 			]
@@ -4293,7 +4293,7 @@
 		"traditional pop": {
 			"top_artists": [
 				{
-					"name": "Michael Bubl\u00e9",
+					"name": "Michael Bublé",
 					"album_count": 4
 				},
 				{
@@ -4336,7 +4336,7 @@
 			"top_albums": [
 				{
 					"name": "It's Time",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"year": "2005"
 				},
 				{
@@ -4353,7 +4353,7 @@
 			"sample_tracks": [
 				{
 					"name": "Home",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"album": "It's Time"
 				}
 			]
@@ -4361,7 +4361,7 @@
 		"pop": {
 			"top_artists": [
 				{
-					"name": "Beyonc\u00e9",
+					"name": "Beyoncé",
 					"album_count": 3
 				},
 				{
@@ -4409,7 +4409,7 @@
 				},
 				{
 					"name": "Dangerously in Love",
-					"artist": "Beyonc\u00e9",
+					"artist": "Beyoncé",
 					"year": "2003"
 				},
 				{
@@ -4483,7 +4483,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Malague\u00f1a",
+					"name": "Malagueña",
 					"artist": "The Bambi Molesters",
 					"album": "Sonic Rock and Roll"
 				}
@@ -4671,7 +4671,7 @@
 			"top_albums": [
 				{
 					"name": "Gourmandises",
-					"artist": "Aliz\u00e9e",
+					"artist": "Alizée",
 					"year": "2000"
 				},
 				{
@@ -5937,7 +5937,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ass\u00fcck",
+					"name": "Assück",
 					"album_count": 1
 				},
 				{
@@ -5968,7 +5968,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "\u041f\u0440\u0438\u0437\u0440\u0430\u043a",
+					"name": "Призрак",
 					"artist": "Pig Destroyer",
 					"album": "Prowler in the Yard"
 				}
@@ -6341,7 +6341,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tego Calder\u00f3n",
+					"name": "Tego Calderón",
 					"album_count": 2
 				},
 				{
@@ -6349,7 +6349,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Arc\u00e1ngel",
+					"name": "Arcángel",
 					"album_count": 2
 				},
 				{
@@ -6361,7 +6361,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "H\u00e9ctor el Father",
+					"name": "Héctor el Father",
 					"album_count": 2
 				},
 				{
@@ -6681,7 +6681,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "To\u00f1o Rosario",
+					"name": "Toño Rosario",
 					"album_count": 2
 				},
 				{
@@ -6697,7 +6697,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Kinito M\u00e9ndez",
+					"name": "Kinito Méndez",
 					"album_count": 2
 				},
 				{
@@ -6711,7 +6711,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "\u00c9xitos de Eddy Herrera",
+					"name": "Éxitos de Eddy Herrera",
 					"artist": "Eddy Herrera",
 					"year": "2005"
 				},
@@ -6728,7 +6728,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "P\u00e9game tu Vicio",
+					"name": "Pégame tu Vicio",
 					"artist": "Eddy Herrera",
 					"album": "Amor de Locos"
 				}
@@ -6784,7 +6784,7 @@
 					"year": "2004"
 				},
 				{
-					"name": "C\u00e9U",
+					"name": "CéU",
 					"artist": "Ceu",
 					"year": "2005"
 				},
@@ -6847,7 +6847,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Fijaci\u00f3n Oral Vol. 1",
+					"name": "Fijación Oral Vol. 1",
 					"artist": "Shakira",
 					"year": "2005"
 				},
@@ -6866,14 +6866,14 @@
 				{
 					"name": "La Tortura",
 					"artist": "Shakira",
-					"album": "Fijaci\u00f3n Oral Vol. 1"
+					"album": "Fijación Oral Vol. 1"
 				}
 			]
 		},
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Luc\u00eda",
+					"name": "Paco de Lucía",
 					"album_count": 2
 				},
 				{
@@ -6897,7 +6897,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ni\u00f1a Pastori",
+					"name": "Niña Pastori",
 					"album_count": 4
 				},
 				{
@@ -6916,11 +6916,11 @@
 			"top_albums": [
 				{
 					"name": "Cositas Buenas",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "2004"
 				},
 				{
-					"name": "L\u00e1grimas Negras",
+					"name": "Lágrimas Negras",
 					"artist": "Diego El Cigala",
 					"year": "2003"
 				},
@@ -6933,8 +6933,47 @@
 			"sample_tracks": [
 				{
 					"name": "Cositas Buenas",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"album": "Cositas Buenas"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "Aventura",
+					"album_count": 5
+				},
+				{
+					"name": "Romeo Santos",
+					"album_count": 2
+				},
+				{
+					"name": "Prince Royce",
+					"album_count": 1
+				},
+				{
+					"name": "Monchy & Alexandra",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Last",
+					"artist": "Aventura",
+					"year": "2009"
+				},
+				{
+					"name": "God's Project",
+					"artist": "Aventura",
+					"year": "2005"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Obsesión",
+					"artist": "Aventura",
+					"album": "We Broke the Rules"
 				}
 			]
 		}
@@ -6947,7 +6986,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 2
 				},
 				{
@@ -6991,7 +7030,7 @@
 				},
 				{
 					"name": "Vespertine",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"year": "2001"
 				},
 				{
@@ -7087,7 +7126,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Raison d'\u00eatre",
+					"name": "Raison d'être",
 					"album_count": 2
 				},
 				{
@@ -7103,7 +7142,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Thomas K\u00f6ner",
+					"name": "Thomas Köner",
 					"album_count": 2
 				},
 				{
@@ -7215,7 +7254,7 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 3
 				},
 				{
@@ -7223,7 +7262,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Diamanda Gal\u00e1s",
+					"name": "Diamanda Galás",
 					"album_count": 2
 				},
 				{
@@ -7257,8 +7296,8 @@
 			],
 			"top_albums": [
 				{
-					"name": "Med\u00falla",
-					"artist": "Bj\u00f6rk",
+					"name": "Medúlla",
+					"artist": "Björk",
 					"year": "2004"
 				},
 				{
@@ -7268,15 +7307,15 @@
 				},
 				{
 					"name": "Defixiones",
-					"artist": "Diamanda Gal\u00e1s",
+					"artist": "Diamanda Galás",
 					"year": "2003"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Oceania",
-					"artist": "Bj\u00f6rk",
-					"album": "Med\u00falla"
+					"artist": "Björk",
+					"album": "Medúlla"
 				}
 			]
 		},
@@ -7287,7 +7326,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 2
 				},
 				{
@@ -7299,7 +7338,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "\u00d3lafur Arnalds",
+					"name": "Ólafur Arnalds",
 					"album_count": 2
 				},
 				{
@@ -7335,8 +7374,8 @@
 					"year": "2006"
 				},
 				{
-					"name": "V\u00edtri\u00f0",
-					"artist": "\u00d3lafur Arnalds",
+					"name": "Vítrið",
+					"artist": "Ólafur Arnalds",
 					"year": "2007"
 				}
 			],
@@ -7423,7 +7462,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 2
 				},
 				{
@@ -7467,7 +7506,7 @@
 				},
 				{
 					"name": "Alina",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1999"
 				},
 				{
@@ -7539,7 +7578,7 @@
 					"year": "2000"
 				},
 				{
-					"name": "Am\u00e9lie",
+					"name": "Amélie",
 					"artist": "Yann Tiersen",
 					"year": "2001"
 				}

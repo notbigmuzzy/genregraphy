@@ -50,7 +50,7 @@
 					"year": "1992"
 				},
 				{
-					"name": "\u00c6nima",
+					"name": "Ænima",
 					"artist": "Tool",
 					"year": "1996"
 				},
@@ -715,7 +715,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Sigur R\u00f3s",
+					"name": "Sigur Rós",
 					"album_count": 2
 				},
 				{
@@ -751,7 +751,7 @@
 					"year": "1996"
 				},
 				{
-					"name": "F\u266f A\u266f \u221e",
+					"name": "F♯ A♯ ∞",
 					"artist": "Godspeed You! Black Emperor",
 					"year": "1997"
 				},
@@ -761,8 +761,8 @@
 					"year": "1997"
 				},
 				{
-					"name": "\u00c1g\u00e6tis byrjun",
-					"artist": "Sigur R\u00f3s",
+					"name": "Ágætis byrjun",
+					"artist": "Sigur Rós",
 					"year": "1999"
 				}
 			],
@@ -1985,7 +1985,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Caf\u00e9 del Mar",
+					"name": "Café del Mar",
 					"album_count": 1
 				}
 			],
@@ -2159,7 +2159,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 1
 				}
 			],
@@ -2176,7 +2176,7 @@
 				},
 				{
 					"name": "Debut",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"year": "1993"
 				}
 			],
@@ -2727,7 +2727,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tony! Toni! Ton\u00e9!",
+					"name": "Tony! Toni! Toné!",
 					"album_count": 2
 				},
 				{
@@ -2967,7 +2967,7 @@
 					"year": "1995"
 				},
 				{
-					"name": "The K\u00f6ln Concert",
+					"name": "The Köln Concert",
 					"artist": "Keith Jarrett",
 					"year": "1975"
 				}
@@ -4087,7 +4087,7 @@
 					"year": "1991"
 				},
 				{
-					"name": "\u00c6nima",
+					"name": "Ænima",
 					"artist": "Tool",
 					"year": "1996"
 				}
@@ -4586,7 +4586,7 @@
 					"year": "1990"
 				},
 				{
-					"name": "Necroticism \u2013 Descanting the Insalubrious",
+					"name": "Necroticism – Descanting the Insalubrious",
 					"artist": "Carcass",
 					"year": "1991"
 				},
@@ -5031,7 +5031,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Tego Calder\u00f3n",
+					"name": "Tego Calderón",
 					"album_count": 2
 				},
 				{
@@ -5056,7 +5056,7 @@
 				},
 				{
 					"name": "El Abayarde",
-					"artist": "Tego Calder\u00f3n",
+					"artist": "Tego Calderón",
 					"year": "2002"
 				}
 			],
@@ -5135,7 +5135,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Kinito M\u00e9ndez",
+					"name": "Kinito Méndez",
 					"album_count": 1
 				}
 			],
@@ -5179,11 +5179,11 @@
 					"album_count": 3
 				},
 				{
-					"name": "Vinicius Cantu\u00e1ria",
+					"name": "Vinicius Cantuária",
 					"album_count": 2
 				},
 				{
-					"name": "Jo\u00e3o Gilberto",
+					"name": "João Gilberto",
 					"album_count": 2
 				}
 			],
@@ -5194,7 +5194,7 @@
 					"year": "2000"
 				},
 				{
-					"name": "Verde, Anil, Amarelo, Cor-de-Rosa e Carv\u00e3o",
+					"name": "Verde, Anil, Amarelo, Cor-de-Rosa e Carvão",
 					"artist": "Marisa Monte",
 					"year": "1994"
 				},
@@ -5263,7 +5263,7 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Luc\u00eda",
+					"name": "Paco de Lucía",
 					"album_count": 5
 				},
 				{
@@ -5283,7 +5283,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Ni\u00f1a Pastori",
+					"name": "Niña Pastori",
 					"album_count": 3
 				},
 				{
@@ -5299,14 +5299,14 @@
 					"album_count": 3
 				},
 				{
-					"name": "Camar\u00f3n de la Isla",
+					"name": "Camarón de la Isla",
 					"album_count": 2
 				}
 			],
 			"top_albums": [
 				{
 					"name": "Zyryab",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1990"
 				},
 				{
@@ -5315,7 +5315,7 @@
 					"year": "1991"
 				},
 				{
-					"name": "De Mi Coraz\u00f3n al Aire",
+					"name": "De Mi Corazón al Aire",
 					"artist": "Vicente Amigo",
 					"year": "1991"
 				},
@@ -5326,15 +5326,50 @@
 				},
 				{
 					"name": "Entre dos aguas",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1973"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Zyryab",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"album": "Zyryab"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "Antony Santos",
+					"album_count": 5
+				},
+				{
+					"name": "Juan Luis Guerra",
+					"album_count": 2
+				},
+				{
+					"name": "Raulin Rodriguez",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Bachata Rosa",
+					"artist": "Juan Luis Guerra",
+					"year": "1990"
+				},
+				{
+					"name": "La Chupadera",
+					"artist": "Antony Santos",
+					"year": "1992"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Burbujas de Amor",
+					"artist": "Juan Luis Guerra",
+					"album": "Bachata Rosa"
 				}
 			]
 		}
@@ -5343,7 +5378,7 @@
 		"experimental": {
 			"top_artists": [
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 4
 				},
 				{
@@ -5371,7 +5406,7 @@
 					"album_count": 12
 				},
 				{
-					"name": "Diamanda Gal\u00e1s",
+					"name": "Diamanda Galás",
 					"album_count": 4
 				},
 				{
@@ -5386,7 +5421,7 @@
 			"top_albums": [
 				{
 					"name": "Homogenic",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"year": "1997"
 				},
 				{
@@ -5412,8 +5447,8 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "J\u00f3ga",
-					"artist": "Bj\u00f6rk",
+					"name": "Jóga",
+					"artist": "Björk",
 					"album": "Homogenic"
 				}
 			]
@@ -5481,7 +5516,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Raison d'\u00eatre",
+					"name": "Raison d'être",
 					"album_count": 2
 				},
 				{
@@ -5502,7 +5537,7 @@
 				},
 				{
 					"name": "Within the Depths of Silence and Phormations",
-					"artist": "Raison d'\u00eatre",
+					"artist": "Raison d'être",
 					"year": "1995"
 				}
 			],
@@ -5549,7 +5584,7 @@
 					"year": "2001"
 				},
 				{
-					"name": "G\u266d\u2192A",
+					"name": "G♭→A",
 					"artist": "Phill Niblock",
 					"year": "1995"
 				}
@@ -5569,7 +5604,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Diamanda Gal\u00e1s",
+					"name": "Diamanda Galás",
 					"album_count": 2
 				},
 				{
@@ -5581,7 +5616,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 1
 				}
 			],
@@ -5593,7 +5628,7 @@
 				},
 				{
 					"name": "The Singer",
-					"artist": "Diamanda Gal\u00e1s",
+					"artist": "Diamanda Galás",
 					"year": "1992"
 				},
 				{
@@ -5613,7 +5648,7 @@
 		"modern classical": {
 			"top_artists": [
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 3
 				},
 				{
@@ -5621,7 +5656,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Henryk G\u00f3recki",
+					"name": "Henryk Górecki",
 					"album_count": 2
 				},
 				{
@@ -5636,12 +5671,12 @@
 			"top_albums": [
 				{
 					"name": "Te Deum",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1993"
 				},
 				{
 					"name": "Symphony No. 3",
-					"artist": "Henryk G\u00f3recki",
+					"artist": "Henryk Górecki",
 					"year": "1976"
 				},
 				{
@@ -5653,7 +5688,7 @@
 			"sample_tracks": [
 				{
 					"name": "Te Deum",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"album": "Te Deum"
 				}
 			]
@@ -5669,7 +5704,7 @@
 					"album_count": 6
 				},
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 5
 				},
 				{
@@ -5739,11 +5774,11 @@
 		"classical": {
 			"top_artists": [
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 6
 				},
 				{
-					"name": "Henryk G\u00f3recki",
+					"name": "Henryk Górecki",
 					"album_count": 4
 				},
 				{
@@ -5782,12 +5817,12 @@
 			"top_albums": [
 				{
 					"name": "Symphony No. 3",
-					"artist": "Henryk G\u00f3recki",
+					"artist": "Henryk Górecki",
 					"year": "1976"
 				},
 				{
 					"name": "Te Deum",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1993"
 				},
 				{
@@ -5802,14 +5837,14 @@
 				},
 				{
 					"name": "Vasks: Distant Light",
-					"artist": "P\u0113teris Vasks",
+					"artist": "Pēteris Vasks",
 					"year": "1997"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Symphony of Sorrowful Songs",
-					"artist": "Henryk G\u00f3recki",
+					"artist": "Henryk Górecki",
 					"album": "Symphony No. 3"
 				}
 			]

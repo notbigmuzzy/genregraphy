@@ -35,7 +35,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Queensr\u00ffche",
+					"name": "Queensrÿche",
 					"album_count": 3
 				},
 				{
@@ -61,7 +61,7 @@
 				},
 				{
 					"name": "Operation: Mindcrime",
-					"artist": "Queensr\u00ffche",
+					"artist": "Queensrÿche",
 					"year": "1988"
 				},
 				{
@@ -177,7 +177,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "H\u00fcsker D\u00fc",
+					"name": "Hüsker Dü",
 					"album_count": 6
 				},
 				{
@@ -208,7 +208,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "California \u00dcber Alles",
+					"name": "California Über Alles",
 					"artist": "Dead Kennedys",
 					"album": "Fresh Fruit for Rotting Vegetables"
 				}
@@ -375,7 +375,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "M\u00f6tley Cr\u00fce",
+					"name": "Mötley Crüe",
 					"album_count": 5
 				},
 				{
@@ -482,7 +482,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "H\u00fcsker D\u00fc",
+					"name": "Hüsker Dü",
 					"album_count": 6
 				}
 			],
@@ -658,7 +658,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "H\u00fcsker D\u00fc",
+					"name": "Hüsker Dü",
 					"album_count": 2
 				},
 				{
@@ -678,7 +678,7 @@
 				},
 				{
 					"name": "Zen Arcade",
-					"artist": "H\u00fcsker D\u00fc",
+					"artist": "Hüsker Dü",
 					"year": "1984"
 				},
 				{
@@ -954,7 +954,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "H\u00fcsker D\u00fc",
+					"name": "Hüsker Dü",
 					"album_count": 1
 				}
 			],
@@ -1378,7 +1378,7 @@
 					"album_count": 4
 				},
 				{
-					"name": "Einst\u00fcrzende Neubauten",
+					"name": "Einstürzende Neubauten",
 					"album_count": 5
 				},
 				{
@@ -1424,7 +1424,7 @@
 				},
 				{
 					"name": "Halber Mensch",
-					"artist": "Einst\u00fcrzende Neubauten",
+					"artist": "Einstürzende Neubauten",
 					"year": "1985"
 				},
 				{
@@ -2099,7 +2099,7 @@
 					"album_count": 1
 				},
 				{
-					"name": "Tony! Toni! Ton\u00e9!",
+					"name": "Tony! Toni! Toné!",
 					"album_count": 1
 				},
 				{
@@ -4218,7 +4218,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Ojal\u00e1 Que Llueva Caf\u00e9",
+					"name": "Ojalá Que Llueva Café",
 					"artist": "Juan Luis Guerra",
 					"year": "1989"
 				},
@@ -4235,9 +4235,9 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Ojal\u00e1 Que Llueva Caf\u00e9",
+					"name": "Ojalá Que Llueva Café",
 					"artist": "Juan Luis Guerra",
-					"album": "Ojal\u00e1 Que Llueva Caf\u00e9"
+					"album": "Ojalá Que Llueva Café"
 				}
 			]
 		},
@@ -4283,16 +4283,16 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Lil\u00e1s",
+					"name": "Lilás",
 					"artist": "Djavan",
-					"album": "Lil\u00e1s"
+					"album": "Lilás"
 				}
 			]
 		},
 		"latin": {
 			"top_artists": [
 				{
-					"name": "Rub\u00e9n Blades",
+					"name": "Rubén Blades",
 					"album_count": 3
 				},
 				{
@@ -4300,7 +4300,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Willie Col\u00f3n",
+					"name": "Willie Colón",
 					"album_count": 2
 				},
 				{
@@ -4314,8 +4314,8 @@
 			],
 			"top_albums": [
 				{
-					"name": "Buscando Am\u00e9rica",
-					"artist": "Rub\u00e9n Blades",
+					"name": "Buscando América",
+					"artist": "Rubén Blades",
 					"year": "1984"
 				},
 				{
@@ -4331,20 +4331,20 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "Buscando Am\u00e9rica",
-					"artist": "Rub\u00e9n Blades",
-					"album": "Buscando Am\u00e9rica"
+					"name": "Buscando América",
+					"artist": "Rubén Blades",
+					"album": "Buscando América"
 				}
 			]
 		},
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Luc\u00eda",
+					"name": "Paco de Lucía",
 					"album_count": 3
 				},
 				{
-					"name": "Camar\u00f3n de la Isla",
+					"name": "Camarón de la Isla",
 					"album_count": 3
 				},
 				{
@@ -4356,32 +4356,62 @@
 					"album_count": 2
 				},
 				{
-					"name": "Manolo Sanl\u00facar",
+					"name": "Manolo Sanlúcar",
 					"album_count": 1
 				}
 			],
 			"top_albums": [
 				{
 					"name": "Friday Night in San Francisco",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1981"
 				},
 				{
 					"name": "Como el Agua",
-					"artist": "Camar\u00f3n de la Isla",
+					"artist": "Camarón de la Isla",
 					"year": "1981"
 				},
 				{
 					"name": "Siroco",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"year": "1987"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Mediterranean Sundance",
-					"artist": "Paco de Luc\u00eda",
+					"artist": "Paco de Lucía",
 					"album": "Friday Night in San Francisco"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "Luis Segura",
+					"album_count": 4
+				},
+				{
+					"name": "Leonardo Paniagua",
+					"album_count": 3
+				},
+				{
+					"name": "Antony Santos",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Pena por ti",
+					"artist": "Luis Segura",
+					"year": "1982"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Voy pa' allá",
+					"artist": "Antony Santos",
+					"album": "La Chupadera"
 				}
 			]
 		}
@@ -4398,7 +4428,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Einst\u00fcrzende Neubauten",
+					"name": "Einstürzende Neubauten",
 					"album_count": 2
 				},
 				{
@@ -4423,7 +4453,7 @@
 				},
 				{
 					"name": "Halber Mensch",
-					"artist": "Einst\u00fcrzende Neubauten",
+					"artist": "Einstürzende Neubauten",
 					"year": "1985"
 				}
 			],
@@ -4498,7 +4528,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Raison d'\u00eatre",
+					"name": "Raison d'être",
 					"album_count": 1
 				},
 				{
@@ -4590,7 +4620,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 3
 				},
 				{
@@ -4611,7 +4641,7 @@
 				},
 				{
 					"name": "Cantus in Memoriam Benjamin Britten",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1980"
 				}
 			],
@@ -4704,7 +4734,7 @@
 		"classical": {
 			"top_artists": [
 				{
-					"name": "Arvo P\u00e4rt",
+					"name": "Arvo Pärt",
 					"album_count": 3
 				},
 				{
@@ -4712,7 +4742,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Henryk G\u00f3recki",
+					"name": "Henryk Górecki",
 					"album_count": 2
 				},
 				{
@@ -4727,12 +4757,12 @@
 			"top_albums": [
 				{
 					"name": "Symphony No. 3",
-					"artist": "Henryk G\u00f3recki",
+					"artist": "Henryk Górecki",
 					"year": "1976"
 				},
 				{
 					"name": "Tabula Rasa",
-					"artist": "Arvo P\u00e4rt",
+					"artist": "Arvo Pärt",
 					"year": "1977"
 				},
 				{
@@ -4744,7 +4774,7 @@
 			"sample_tracks": [
 				{
 					"name": "Symphony of Sorrowful Songs",
-					"artist": "Henryk G\u00f3recki",
+					"artist": "Henryk Górecki",
 					"album": "Symphony No. 3"
 				}
 			]

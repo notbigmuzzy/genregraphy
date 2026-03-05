@@ -961,7 +961,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "Touch\u00e9 Amor\u00e9",
+					"name": "Touché Amoré",
 					"album_count": 1
 				},
 				{
@@ -2169,7 +2169,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "\u00d3lafur Arnalds",
+					"name": "Ólafur Arnalds",
 					"album_count": 2
 				},
 				{
@@ -2545,7 +2545,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "ESPRIT \u7a7a\u60f3",
+					"name": "ESPRIT 空想",
 					"album_count": 2
 				},
 				{
@@ -2592,7 +2592,7 @@
 			],
 			"sample_tracks": [
 				{
-					"name": "\u30ea\u30b5\u30d5\u30e9\u30f3\u30af420 / \u73fe\u4ee3\u306e\u30b3\u30f3\u30d4\u30e5\u30fc",
+					"name": "リサフランク420 / 現代のコンピュー",
 					"artist": "Macintosh Plus",
 					"album": "Floral Shoppe"
 				}
@@ -2789,7 +2789,7 @@
 					"year": "2010"
 				},
 				{
-					"name": "E=NC\u00b2",
+					"name": "E=NC²",
 					"artist": "Noisecontrollers",
 					"year": "2013"
 				}
@@ -3189,7 +3189,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Pi\u00f1ata",
+					"name": "Piñata",
 					"artist": "Freddie Gibbs & Madlib",
 					"year": "2014"
 				},
@@ -3267,7 +3267,7 @@
 					"year": "2015"
 				},
 				{
-					"name": "Pi\u00f1ata",
+					"name": "Piñata",
 					"artist": "Freddie Gibbs & Madlib",
 					"year": "2014"
 				}
@@ -3291,7 +3291,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Beyonc\u00e9",
+					"name": "Beyoncé",
 					"album_count": 2
 				},
 				{
@@ -4039,7 +4039,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "C\u00e9cile McLorin Salvant",
+					"name": "Cécile McLorin Salvant",
 					"album_count": 2
 				},
 				{
@@ -4338,7 +4338,7 @@
 		"swing": {
 			"top_artists": [
 				{
-					"name": "Michael Bubl\u00e9",
+					"name": "Michael Bublé",
 					"album_count": 3
 				},
 				{
@@ -4381,7 +4381,7 @@
 			"top_albums": [
 				{
 					"name": "Crazy Love",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"year": "2009"
 				},
 				{
@@ -4398,7 +4398,7 @@
 			"sample_tracks": [
 				{
 					"name": "Haven't Met You Yet",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"album": "Crazy Love"
 				}
 			]
@@ -4408,7 +4408,7 @@
 		"traditional pop": {
 			"top_artists": [
 				{
-					"name": "Michael Bubl\u00e9",
+					"name": "Michael Bublé",
 					"album_count": 4
 				},
 				{
@@ -4456,14 +4456,14 @@
 				},
 				{
 					"name": "To Be Loved",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"year": "2013"
 				}
 			],
 			"sample_tracks": [
 				{
 					"name": "Feeling Good",
-					"artist": "Michael Bubl\u00e9",
+					"artist": "Michael Bublé",
 					"album": "To Be Loved"
 				}
 			]
@@ -4523,7 +4523,7 @@
 					"year": "2010"
 				},
 				{
-					"name": "\u00f7",
+					"name": "÷",
 					"artist": "Ed Sheeran",
 					"year": "2017"
 				}
@@ -4726,7 +4726,7 @@
 					"year": "2010"
 				},
 				{
-					"name": "Racine carr\u00e9e",
+					"name": "Racine carrée",
 					"artist": "Stromae",
 					"year": "2013"
 				}
@@ -5090,7 +5090,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "B\u00e9la Fleck",
+					"name": "Béla Fleck",
 					"album_count": 2
 				},
 				{
@@ -5102,7 +5102,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "C\u00f9ig",
+					"name": "Cùig",
 					"album_count": 2
 				},
 				{
@@ -5110,7 +5110,7 @@
 					"album_count": 2
 				},
 				{
-					"name": "L\u00fanasa",
+					"name": "Lúnasa",
 					"album_count": 1
 				},
 				{
@@ -5563,7 +5563,7 @@
 					"album_count": 3
 				},
 				{
-					"name": "Mg\u0142a",
+					"name": "Mgła",
 					"album_count": 2
 				},
 				{
@@ -5608,7 +5608,7 @@
 				},
 				{
 					"name": "Exercises in Futility",
-					"artist": "Mg\u0142a",
+					"artist": "Mgła",
 					"year": "2015"
 				}
 			],
@@ -6317,7 +6317,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Energ\u00eda",
+					"name": "Energía",
 					"artist": "J Balvin",
 					"year": "2016"
 				},
@@ -6336,7 +6336,7 @@
 				{
 					"name": "Ginza",
 					"artist": "J Balvin",
-					"album": "Energ\u00eda"
+					"album": "Energía"
 				}
 			]
 		},
@@ -6663,7 +6663,7 @@
 					"year": "2010"
 				},
 				{
-					"name": "Aqu\u00ed Estoy Yo",
+					"name": "Aquí Estoy Yo",
 					"artist": "Milly Quezada",
 					"year": "2011"
 				},
@@ -6794,7 +6794,7 @@
 			],
 			"top_albums": [
 				{
-					"name": "Energ\u00eda",
+					"name": "Energía",
 					"artist": "J Balvin",
 					"year": "2016"
 				},
@@ -6820,7 +6820,7 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Rosal\u00eda",
+					"name": "Rosalía",
 					"album_count": 2
 				},
 				{
@@ -6842,8 +6842,8 @@
 			],
 			"top_albums": [
 				{
-					"name": "Los \u00c1ngeles",
-					"artist": "Rosal\u00eda",
+					"name": "Los Ángeles",
+					"artist": "Rosalía",
 					"year": "2017"
 				},
 				{
@@ -6860,8 +6860,43 @@
 			"sample_tracks": [
 				{
 					"name": "Catalina",
-					"artist": "Rosal\u00eda",
-					"album": "Los \u00c1ngeles"
+					"artist": "Rosalía",
+					"album": "Los Ángeles"
+				}
+			]
+		},
+		"bachata": {
+			"top_artists": [
+				{
+					"name": "Romeo Santos",
+					"album_count": 4
+				},
+				{
+					"name": "Prince Royce",
+					"album_count": 3
+				},
+				{
+					"name": "Aventura",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Formula, Vol. 1",
+					"artist": "Romeo Santos",
+					"year": "2011"
+				},
+				{
+					"name": "Phase II",
+					"artist": "Prince Royce",
+					"year": "2012"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Propuesta Indecente",
+					"artist": "Romeo Santos",
+					"album": "Formula, Vol. 2"
 				}
 			]
 		}
@@ -7062,7 +7097,7 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "Bj\u00f6rk",
+					"name": "Björk",
 					"album_count": 4
 				},
 				{
@@ -7105,7 +7140,7 @@
 			"top_albums": [
 				{
 					"name": "Biophilia",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"year": "2011"
 				},
 				{
@@ -7122,7 +7157,7 @@
 			"sample_tracks": [
 				{
 					"name": "Crystalline",
-					"artist": "Bj\u00f6rk",
+					"artist": "Björk",
 					"album": "Biophilia"
 				}
 			]
@@ -7138,7 +7173,7 @@
 					"album_count": 4
 				},
 				{
-					"name": "\u00d3lafur Arnalds",
+					"name": "Ólafur Arnalds",
 					"album_count": 4
 				},
 				{
