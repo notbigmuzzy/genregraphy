@@ -1268,6 +1268,74 @@
 				}
 			]
 		},
+		"electro": {
+			"top_artists": [
+				{
+					"name": "Jensen Interceptor",
+					"album_count": 3
+				},
+				{
+					"name": "Helena Hauff",
+					"album_count": 2
+				},
+				{
+					"name": "The Hacker",
+					"album_count": 2
+				},
+				{
+					"name": "DMX Krew",
+					"album_count": 4
+				},
+				{
+					"name": "Locked Groove",
+					"album_count": 1
+				},
+				{
+					"name": "Privacy",
+					"album_count": 1
+				},
+				{
+					"name": "Cyan85",
+					"album_count": 3
+				},
+				{
+					"name": "Lake Haze",
+					"album_count": 2
+				},
+				{
+					"name": "Steffi",
+					"album_count": 2
+				},
+				{
+					"name": "Stingray 313",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Softest Focus",
+					"artist": "Steffi",
+					"year": "2022"
+				},
+				{
+					"name": "Sun Go Down",
+					"artist": "Lake Haze",
+					"year": "2021"
+				},
+				{
+					"name": "Lucid Systems",
+					"artist": "Cyan85",
+					"year": "2020"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pulse Zero",
+					"artist": "Jensen Interceptor",
+					"album": "The Last Of Us"
+				}
+			]
+		},
 		"dubstep": {
 			"top_artists": [
 				{

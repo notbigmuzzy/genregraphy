@@ -1886,6 +1886,74 @@
 				}
 			]
 		},
+		"electro": {
+			"top_artists": [
+				{
+					"name": "Drexciya",
+					"album_count": 2
+				},
+				{
+					"name": "Anthony Rother",
+					"album_count": 3
+				},
+				{
+					"name": "Jensen Interceptor",
+					"album_count": 4
+				},
+				{
+					"name": "The Hacker",
+					"album_count": 3
+				},
+				{
+					"name": "Helena Hauff",
+					"album_count": 3
+				},
+				{
+					"name": "Stingray 313",
+					"album_count": 3
+				},
+				{
+					"name": "Cortex",
+					"album_count": 1
+				},
+				{
+					"name": "Vatican Shadow",
+					"album_count": 2
+				},
+				{
+					"name": "Cygnus",
+					"album_count": 2
+				},
+				{
+					"name": "Versalife",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Discreet Desires",
+					"artist": "Helena Hauff",
+					"year": "2015"
+				},
+				{
+					"name": "Qualm",
+					"artist": "Helena Hauff",
+					"year": "2018"
+				},
+				{
+					"name": "The Advent",
+					"artist": "The Advent",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Spur",
+					"artist": "Helena Hauff",
+					"album": "Discreet Desires"
+				}
+			]
+		},
 		"dubstep": {
 			"top_artists": [
 				{

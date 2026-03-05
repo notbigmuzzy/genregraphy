@@ -1394,6 +1394,74 @@
 				}
 			]
 		},
+		"electro": {
+			"top_artists": [
+				{
+					"name": "Drexciya",
+					"album_count": 4
+				},
+				{
+					"name": "Anthony Rother",
+					"album_count": 3
+				},
+				{
+					"name": "Aux 88",
+					"album_count": 3
+				},
+				{
+					"name": "The Advent",
+					"album_count": 2
+				},
+				{
+					"name": "Model 500",
+					"album_count": 2
+				},
+				{
+					"name": "DMX Krew",
+					"album_count": 4
+				},
+				{
+					"name": "Dopplereffekt",
+					"album_count": 2
+				},
+				{
+					"name": "I-f",
+					"album_count": 2
+				},
+				{
+					"name": "Le Car",
+					"album_count": 2
+				},
+				{
+					"name": "Ectomorph",
+					"album_count": 1
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Neptune's Lair",
+					"artist": "Drexciya",
+					"year": "1999"
+				},
+				{
+					"name": "Sex with the Machines",
+					"artist": "Anthony Rother",
+					"year": "1997"
+				},
+				{
+					"name": "Is It Electro?",
+					"artist": "Aux 88",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Andreaen Sand Dunes",
+					"artist": "Drexciya",
+					"album": "Neptune's Lair"
+				}
+			]
+		},
 		"drum and bass": {
 			"top_artists": [
 				{
