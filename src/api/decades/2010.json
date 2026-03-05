@@ -1,5 +1,83 @@
 {
 	"Rock & Overdrive": {
+		"progressive rock": {
+			"top_artists": [
+				{
+					"name": "Steven Wilson",
+					"album_count": 5
+				},
+				{
+					"name": "Haken",
+					"album_count": 5
+				},
+				{
+					"name": "Leprous",
+					"album_count": 5
+				},
+				{
+					"name": "Opeth",
+					"album_count": 3
+				},
+				{
+					"name": "Tame Impala",
+					"album_count": 3
+				},
+				{
+					"name": "The Dear Hunter",
+					"album_count": 6
+				},
+				{
+					"name": "Bent Knee",
+					"album_count": 4
+				},
+				{
+					"name": "Thank You Scientist",
+					"album_count": 3
+				},
+				{
+					"name": "TesseracT",
+					"album_count": 4
+				},
+				{
+					"name": "Riverside",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Hand. Cannot. Erase.",
+					"artist": "Steven Wilson",
+					"year": "2015"
+				},
+				{
+					"name": "The Raven That Refused to Sing",
+					"artist": "Steven Wilson",
+					"year": "2013"
+				},
+				{
+					"name": "The Mountain",
+					"artist": "Haken",
+					"year": "2013"
+				},
+				{
+					"name": "Pale Communion",
+					"artist": "Opeth",
+					"year": "2014"
+				},
+				{
+					"name": "Malina",
+					"artist": "Leprous",
+					"year": "2017"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Routine",
+					"artist": "Steven Wilson",
+					"album": "Hand. Cannot. Erase."
+				}
+			]
+		},
 		"rock": {
 			"top_artists": [
 				{

@@ -1,5 +1,83 @@
 {
 	"Rock & Overdrive": {
+		"progressive rock": {
+			"top_artists": [
+				{
+					"name": "Dream Theater",
+					"album_count": 5
+				},
+				{
+					"name": "Tool",
+					"album_count": 2
+				},
+				{
+					"name": "Porcupine Tree",
+					"album_count": 5
+				},
+				{
+					"name": "The Flower Kings",
+					"album_count": 4
+				},
+				{
+					"name": "Spock's Beard",
+					"album_count": 4
+				},
+				{
+					"name": "Opeth",
+					"album_count": 4
+				},
+				{
+					"name": "Anathema",
+					"album_count": 4
+				},
+				{
+					"name": "Pain of Salvation",
+					"album_count": 2
+				},
+				{
+					"name": "Anglagard",
+					"album_count": 2
+				},
+				{
+					"name": "Ayreon",
+					"album_count": 3
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Images and Words",
+					"artist": "Dream Theater",
+					"year": "1992"
+				},
+				{
+					"name": "\u00c6nima",
+					"artist": "Tool",
+					"year": "1996"
+				},
+				{
+					"name": "Stupid Dream",
+					"artist": "Porcupine Tree",
+					"year": "1999"
+				},
+				{
+					"name": "Still Life",
+					"artist": "Opeth",
+					"year": "1999"
+				},
+				{
+					"name": "The Sky Moves Sideways",
+					"artist": "Porcupine Tree",
+					"year": "1995"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Pull Me Under",
+					"artist": "Dream Theater",
+					"album": "Images and Words"
+				}
+			]
+		},
 		"rock": {
 			"top_artists": [
 				{
