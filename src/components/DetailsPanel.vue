@@ -19,13 +19,13 @@
                 <div class="detailspanel-section wiki">
                     <h3>Top Artists for {{ decade }}s in {{ genre }}</h3>
                     <ul>
-                        <li v-for="artist in genreData.top_artists" :key="artist.name">
+                        <li v-for="artistName in genreData.top_artists[0].name.split(', ')" :key="artistName">
                             <button
-                                @click.prevent="openWiki(artist.name)"
-                                :class="{ 'is-active': activeWikiArtist === artist.name }"
+                                @click.prevent="openWiki(artistName)"
+                                :class="{ 'is-active': activeWikiArtist === artistName }"
                             >
-                                {{ artist.name }}
-                                <span v-if="activeWikiArtist === artist.name"> ✕</span>
+                                {{ artistName }}
+                                <span v-if="activeWikiArtist === artistName"> ✕</span>
                             </button>
                         </li>
                     </ul>

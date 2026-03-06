@@ -3,34 +3,7 @@
 		"rock": {
 			"top_artists": [
 				{
-					"name": "The Beatles"
-				},
-				{
-					"name": "The Rolling Stones"
-				},
-				{
-					"name": "The Who"
-				},
-				{
-					"name": "The Kinks"
-				},
-				{
-					"name": "Cream"
-				},
-				{
-					"name": "The Yardbirds"
-				},
-				{
-					"name": "The Animals"
-				},
-				{
-					"name": "The Byrds"
-				},
-				{
-					"name": "Steppenwolf"
-				},
-				{
-					"name": "The Guess Who"
+					"name": "The Beatles, The Rolling Stones, The Who, The Kinks, Cream, The Yardbirds, The Animals, The Byrds, Steppenwolf, The Guess Who"
 				}
 			],
 			"top_albums": [
@@ -61,34 +34,7 @@
 		"rock & roll": {
 			"top_artists": [
 				{
-					"name": "Chuck Berry"
-				},
-				{
-					"name": "Little Richard"
-				},
-				{
-					"name": "Jerry Lee Lewis"
-				},
-				{
-					"name": "Gene Vincent"
-				},
-				{
-					"name": "Eddie Cochran"
-				},
-				{
-					"name": "Bo Diddley"
-				},
-				{
-					"name": "Brenda Lee"
-				},
-				{
-					"name": "Roy Orbison"
-				},
-				{
-					"name": "The Everly Brothers"
-				},
-				{
-					"name": "Fats Domino"
+					"name": "Chuck Berry, Little Richard, Jerry Lee Lewis, Gene Vincent, Eddie Cochran, Bo Diddley, Brenda Lee, Roy Orbison, The Everly Brothers, Fats Domino"
 				}
 			],
 			"top_albums": [
@@ -119,34 +65,7 @@
 		"rockabilly": {
 			"top_artists": [
 				{
-					"name": "Carl Perkins"
-				},
-				{
-					"name": "Gene Vincent"
-				},
-				{
-					"name": "Eddie Cochran"
-				},
-				{
-					"name": "Wanda Jackson"
-				},
-				{
-					"name": "Johnny Burnette"
-				},
-				{
-					"name": "Link Wray"
-				},
-				{
-					"name": "Dale Hawkins"
-				},
-				{
-					"name": "Charlie Feathers"
-				},
-				{
-					"name": "Billy Riley"
-				},
-				{
-					"name": "Conway Twitty"
+					"name": "Carl Perkins, Gene Vincent, Eddie Cochran, Wanda Jackson, Johnny Burnette, Link Wray, Dale Hawkins, Charlie Feathers, Billy Riley, Conway Twitty"
 				}
 			],
 			"top_albums": [
@@ -177,34 +96,7 @@
 		"surf": {
 			"top_artists": [
 				{
-					"name": "The Beach Boys"
-				},
-				{
-					"name": "Dick Dale"
-				},
-				{
-					"name": "The Ventures"
-				},
-				{
-					"name": "Jan and Dean"
-				},
-				{
-					"name": "The Surfaris"
-				},
-				{
-					"name": "The Chantays"
-				},
-				{
-					"name": "The Astronauts"
-				},
-				{
-					"name": "The Trashmen"
-				},
-				{
-					"name": "The Rivieras"
-				},
-				{
-					"name": "The Bel-Airs"
+					"name": "The Beach Boys, Dick Dale, The Ventures, Jan and Dean, The Surfaris, The Chantays, The Astronauts, The Trashmen, The Rivieras, The Bel-Airs"
 				}
 			],
 			"top_albums": [
@@ -235,34 +127,7 @@
 		"garage rock": {
 			"top_artists": [
 				{
-					"name": "The Sonics"
-				},
-				{
-					"name": "The Kingsmen"
-				},
-				{
-					"name": "The Standells"
-				},
-				{
-					"name": "The Seeds"
-				},
-				{
-					"name": "The 13th Floor Elevators"
-				},
-				{
-					"name": "The Monks"
-				},
-				{
-					"name": "The Music Machine"
-				},
-				{
-					"name": "The Troggs"
-				},
-				{
-					"name": "Count Five"
-				},
-				{
-					"name": "Question Mark & the Mysterians"
+					"name": "The Sonics, The Kingsmen, The Standells, The Seeds, The 13th Floor Elevators, The Monks, The Music Machine, The Troggs, Count Five, Question Mark & the Mysterians"
 				}
 			],
 			"top_albums": [
@@ -293,34 +158,7 @@
 		"psychedelic rock": {
 			"top_artists": [
 				{
-					"name": "Pink Floyd"
-				},
-				{
-					"name": "The Jimi Hendrix Experience"
-				},
-				{
-					"name": "Jefferson Airplane"
-				},
-				{
-					"name": "The Doors"
-				},
-				{
-					"name": "Grateful Dead"
-				},
-				{
-					"name": "Cream"
-				},
-				{
-					"name": "Love"
-				},
-				{
-					"name": "The Velvet Underground"
-				},
-				{
-					"name": "Quicksilver Messenger Service"
-				},
-				{
-					"name": "Iron Butterfly"
+					"name": "Pink Floyd, The Jimi Hendrix Experience, Jefferson Airplane, The Doors, Grateful Dead, Cream, Love, The Velvet Underground, Quicksilver Messenger Service, Iron Butterfly"
 				}
 			],
 			"top_albums": [
@@ -351,34 +189,7 @@
 		"hard rock": {
 			"top_artists": [
 				{
-					"name": "Led Zeppelin"
-				},
-				{
-					"name": "Cream"
-				},
-				{
-					"name": "The Jimi Hendrix Experience"
-				},
-				{
-					"name": "Steppenwolf"
-				},
-				{
-					"name": "Blue Cheer"
-				},
-				{
-					"name": "Deep Purple"
-				},
-				{
-					"name": "Iron Butterfly"
-				},
-				{
-					"name": "Vanilla Fudge"
-				},
-				{
-					"name": "Grand Funk Railroad"
-				},
-				{
-					"name": "The Jeff Beck Group"
+					"name": "Led Zeppelin, Cream, The Jimi Hendrix Experience, Steppenwolf, Blue Cheer, Deep Purple, Iron Butterfly, Vanilla Fudge, Grand Funk Railroad, The Jeff Beck Group"
 				}
 			],
 			"top_albums": [
@@ -409,34 +220,7 @@
 		"progressive rock": {
 			"top_artists": [
 				{
-					"name": "King Crimson"
-				},
-				{
-					"name": "Pink Floyd"
-				},
-				{
-					"name": "The Moody Blues"
-				},
-				{
-					"name": "Procol Harum"
-				},
-				{
-					"name": "The Nice"
-				},
-				{
-					"name": "Soft Machine"
-				},
-				{
-					"name": "Frank Zappa"
-				},
-				{
-					"name": "Yes"
-				},
-				{
-					"name": "Genesis"
-				},
-				{
-					"name": "Jethro Tull"
+					"name": "King Crimson, Pink Floyd, The Moody Blues, Procol Harum, The Nice, Soft Machine, Frank Zappa, Yes, Genesis, Jethro Tull"
 				}
 			],
 			"top_albums": [
@@ -467,34 +251,7 @@
 		"indie": {
 			"top_artists": [
 				{
-					"name": "The Velvet Underground"
-				},
-				{
-					"name": "The Monks"
-				},
-				{
-					"name": "The 13th Floor Elevators"
-				},
-				{
-					"name": "The Seeds"
-				},
-				{
-					"name": "Love"
-				},
-				{
-					"name": "The Silver Apples"
-				},
-				{
-					"name": "The Shaggs"
-				},
-				{
-					"name": "The United States of America"
-				},
-				{
-					"name": "The Fugs"
-				},
-				{
-					"name": "The Holy Modal Rounders"
+					"name": "The Velvet Underground, The Monks, The 13th Floor Elevators, The Seeds, Love, The Silver Apples, The Shaggs, The United States of America, The Fugs, The Holy Modal Rounders"
 				}
 			],
 			"top_albums": [
@@ -527,34 +284,7 @@
 		"r&b": {
 			"top_artists": [
 				{
-					"name": "Aretha Franklin"
-				},
-				{
-					"name": "Ray Charles"
-				},
-				{
-					"name": "James Brown"
-				},
-				{
-					"name": "Stevie Wonder"
-				},
-				{
-					"name": "Marvin Gaye"
-				},
-				{
-					"name": "Otis Redding"
-				},
-				{
-					"name": "Sam Cooke"
-				},
-				{
-					"name": "Wilson Pickett"
-				},
-				{
-					"name": "Etta James"
-				},
-				{
-					"name": "Ike & Tina Turner"
+					"name": "Aretha Franklin, Ray Charles, James Brown, Stevie Wonder, Marvin Gaye, Otis Redding, Sam Cooke, Wilson Pickett, Etta James, Ike & Tina Turner"
 				}
 			],
 			"top_albums": [
@@ -585,34 +315,7 @@
 		"soul": {
 			"top_artists": [
 				{
-					"name": "Otis Redding"
-				},
-				{
-					"name": "Sam Cooke"
-				},
-				{
-					"name": "Aretha Franklin"
-				},
-				{
-					"name": "Wilson Pickett"
-				},
-				{
-					"name": "Curtis Mayfield"
-				},
-				{
-					"name": "The Impressions"
-				},
-				{
-					"name": "Dusty Springfield"
-				},
-				{
-					"name": "Solomon Burke"
-				},
-				{
-					"name": "Percy Sledge"
-				},
-				{
-					"name": "Al Green"
+					"name": "Otis Redding, Sam Cooke, Aretha Franklin, Wilson Pickett, Curtis Mayfield, The Impressions, Dusty Springfield, Solomon Burke, Percy Sledge, Al Green"
 				}
 			],
 			"top_albums": [
@@ -643,34 +346,7 @@
 		"funk": {
 			"top_artists": [
 				{
-					"name": "James Brown"
-				},
-				{
-					"name": "Sly and the Family Stone"
-				},
-				{
-					"name": "The Meters"
-				},
-				{
-					"name": "Dyke & the Blazers"
-				},
-				{
-					"name": "The J.B.'s"
-				},
-				{
-					"name": "The Bar-Kays"
-				},
-				{
-					"name": "Isley Brothers"
-				},
-				{
-					"name": "Tower of Power"
-				},
-				{
-					"name": "The Watts 103rd Street Rhythm Band"
-				},
-				{
-					"name": "Eddie Bo"
+					"name": "James Brown, Sly and the Family Stone, The Meters, Dyke & the Blazers, The J.B.'s, The Bar-Kays, Isley Brothers, Tower of Power, The Watts 103rd Street Rhythm Band, Eddie Bo"
 				}
 			],
 			"top_albums": [
@@ -701,34 +377,7 @@
 		"motown": {
 			"top_artists": [
 				{
-					"name": "The Supremes"
-				},
-				{
-					"name": "The Temptations"
-				},
-				{
-					"name": "Marvin Gaye"
-				},
-				{
-					"name": "Smokey Robinson & The Miracles"
-				},
-				{
-					"name": "The Four Tops"
-				},
-				{
-					"name": "Stevie Wonder"
-				},
-				{
-					"name": "Martha and the Vandellas"
-				},
-				{
-					"name": "The Jackson 5"
-				},
-				{
-					"name": "Mary Wells"
-				},
-				{
-					"name": "Edwin Starr"
+					"name": "The Supremes, The Temptations, Marvin Gaye, Smokey Robinson & The Miracles, The Four Tops, Stevie Wonder, Martha and the Vandellas, The Jackson 5, Mary Wells, Edwin Starr"
 				}
 			],
 			"top_albums": [
@@ -761,34 +410,7 @@
 		"jazz": {
 			"top_artists": [
 				{
-					"name": "John Coltrane"
-				},
-				{
-					"name": "Miles Davis"
-				},
-				{
-					"name": "Ornette Coleman"
-				},
-				{
-					"name": "Charles Mingus"
-				},
-				{
-					"name": "Thelonious Monk"
-				},
-				{
-					"name": "Herbie Hancock"
-				},
-				{
-					"name": "Bill Evans"
-				},
-				{
-					"name": "Archie Shepp"
-				},
-				{
-					"name": "Sun Ra"
-				},
-				{
-					"name": "Pharoah Sanders"
+					"name": "John Coltrane, Miles Davis, Ornette Coleman, Charles Mingus, Thelonious Monk, Herbie Hancock, Bill Evans, Archie Shepp, Sun Ra, Pharoah Sanders"
 				}
 			],
 			"top_albums": [
@@ -819,34 +441,7 @@
 		"blues": {
 			"top_artists": [
 				{
-					"name": "B.B. King"
-				},
-				{
-					"name": "Muddy Waters"
-				},
-				{
-					"name": "Albert King"
-				},
-				{
-					"name": "Freddie King"
-				},
-				{
-					"name": "John Lee Hooker"
-				},
-				{
-					"name": "Howlin' Wolf"
-				},
-				{
-					"name": "Buddy Guy"
-				},
-				{
-					"name": "Junior Wells"
-				},
-				{
-					"name": "Otis Rush"
-				},
-				{
-					"name": "Magic Sam"
+					"name": "B.B. King, Muddy Waters, Albert King, Freddie King, John Lee Hooker, Howlin' Wolf, Buddy Guy, Junior Wells, Otis Rush, Magic Sam"
 				}
 			],
 			"top_albums": [
@@ -877,34 +472,7 @@
 		"bebop": {
 			"top_artists": [
 				{
-					"name": "Art Blakey"
-				},
-				{
-					"name": "Cannonball Adderley"
-				},
-				{
-					"name": "Sonny Rollins"
-				},
-				{
-					"name": "Horace Silver"
-				},
-				{
-					"name": "Lee Morgan"
-				},
-				{
-					"name": "Dizzy Gillespie"
-				},
-				{
-					"name": "Dexter Gordon"
-				},
-				{
-					"name": "Freddie Hubbard"
-				},
-				{
-					"name": "Jackie McLean"
-				},
-				{
-					"name": "Wayne Shorter"
+					"name": "Art Blakey, Cannonball Adderley, Sonny Rollins, Horace Silver, Lee Morgan, Dizzy Gillespie, Dexter Gordon, Freddie Hubbard, Jackie McLean, Wayne Shorter"
 				}
 			],
 			"top_albums": [
@@ -935,34 +503,7 @@
 		"cool jazz": {
 			"top_artists": [
 				{
-					"name": "Dave Brubeck"
-				},
-				{
-					"name": "Stan Getz"
-				},
-				{
-					"name": "Bill Evans"
-				},
-				{
-					"name": "Chet Baker"
-				},
-				{
-					"name": "Paul Desmond"
-				},
-				{
-					"name": "Jim Hall"
-				},
-				{
-					"name": "The Modern Jazz Quartet"
-				},
-				{
-					"name": "Gerry Mulligan"
-				},
-				{
-					"name": "Astrud Gilberto"
-				},
-				{
-					"name": "Vince Guaraldi"
+					"name": "Dave Brubeck, Stan Getz, Bill Evans, Chet Baker, Paul Desmond, Jim Hall, The Modern Jazz Quartet, Gerry Mulligan, Astrud Gilberto, Vince Guaraldi"
 				}
 			],
 			"top_albums": [
@@ -993,34 +534,7 @@
 		"hard bop": {
 			"top_artists": [
 				{
-					"name": "Art Blakey & The Jazz Messengers"
-				},
-				{
-					"name": "Lee Morgan"
-				},
-				{
-					"name": "Freddie Hubbard"
-				},
-				{
-					"name": "Wayne Shorter"
-				},
-				{
-					"name": "Joe Henderson"
-				},
-				{
-					"name": "Hank Mobley"
-				},
-				{
-					"name": "Grant Green"
-				},
-				{
-					"name": "McCoy Tyner"
-				},
-				{
-					"name": "Bobby Hutcherson"
-				},
-				{
-					"name": "Donald Byrd"
+					"name": "Art Blakey & The Jazz Messengers, Lee Morgan, Freddie Hubbard, Wayne Shorter, Joe Henderson, Hank Mobley, Grant Green, McCoy Tyner, Bobby Hutcherson, Donald Byrd"
 				}
 			],
 			"top_albums": [
@@ -1051,34 +565,7 @@
 		"fusion": {
 			"top_artists": [
 				{
-					"name": "Miles Davis"
-				},
-				{
-					"name": "Tony Williams"
-				},
-				{
-					"name": "Larry Coryell"
-				},
-				{
-					"name": "Gary Burton"
-				},
-				{
-					"name": "Soft Machine"
-				},
-				{
-					"name": "Frank Zappa"
-				},
-				{
-					"name": "John McLaughlin"
-				},
-				{
-					"name": "Chick Corea"
-				},
-				{
-					"name": "The Free Spirits"
-				},
-				{
-					"name": "Jeremy Steig"
+					"name": "Miles Davis, Tony Williams, Larry Coryell, Gary Burton, Soft Machine, Frank Zappa, John McLaughlin, Chick Corea, The Free Spirits, Jeremy Steig"
 				}
 			],
 			"top_albums": [
@@ -1109,34 +596,7 @@
 		"chicago blues": {
 			"top_artists": [
 				{
-					"name": "Muddy Waters"
-				},
-				{
-					"name": "Howlin' Wolf"
-				},
-				{
-					"name": "Buddy Guy"
-				},
-				{
-					"name": "Junior Wells"
-				},
-				{
-					"name": "Otis Rush"
-				},
-				{
-					"name": "Magic Sam"
-				},
-				{
-					"name": "Paul Butterfield"
-				},
-				{
-					"name": "Little Walter"
-				},
-				{
-					"name": "Willie Dixon"
-				},
-				{
-					"name": "Koko Taylor"
+					"name": "Muddy Waters, Howlin' Wolf, Buddy Guy, Junior Wells, Otis Rush, Magic Sam, Paul Butterfield, Little Walter, Willie Dixon, Koko Taylor"
 				}
 			],
 			"top_albums": [
@@ -1167,34 +627,7 @@
 		"soul jazz": {
 			"top_artists": [
 				{
-					"name": "Jimmy Smith"
-				},
-				{
-					"name": "Cannonball Adderley"
-				},
-				{
-					"name": "Grant Green"
-				},
-				{
-					"name": "Lou Donaldson"
-				},
-				{
-					"name": "Ramsey Lewis"
-				},
-				{
-					"name": "Eddie Harris"
-				},
-				{
-					"name": "Les McCann"
-				},
-				{
-					"name": "Shirley Scott"
-				},
-				{
-					"name": "Jack McDuff"
-				},
-				{
-					"name": "Richard 'Groove' Holmes"
+					"name": "Jimmy Smith, Cannonball Adderley, Grant Green, Lou Donaldson, Ramsey Lewis, Eddie Harris, Les McCann, Shirley Scott, Jack McDuff, Richard 'Groove' Holmes"
 				}
 			],
 			"top_albums": [
@@ -1225,19 +658,7 @@
 		"bossa nova": {
 			"top_artists": [
 				{
-					"name": "João Gilberto"
-				},
-				{
-					"name": "Stan Getz"
-				},
-				{
-					"name": "Antonio Carlos Jobim"
-				},
-				{
-					"name": "Astrud Gilberto"
-				},
-				{
-					"name": "Sergio Mendes"
+					"name": "João Gilberto, Stan Getz, Antonio Carlos Jobim, Astrud Gilberto, Sergio Mendes"
 				}
 			],
 			"top_albums": [
@@ -1268,19 +689,7 @@
 		"delta blues": {
 			"top_artists": [
 				{
-					"name": "John Lee Hooker"
-				},
-				{
-					"name": "Lightnin' Hopkins"
-				},
-				{
-					"name": "Son House"
-				},
-				{
-					"name": "Mississippi Fred McDowell"
-				},
-				{
-					"name": "Skip James"
+					"name": "John Lee Hooker, Lightnin' Hopkins, Son House, Mississippi Fred McDowell, Skip James"
 				}
 			],
 			"top_albums": [
@@ -1311,19 +720,7 @@
 		"ragtime": {
 			"top_artists": [
 				{
-					"name": "Max Morath"
-				},
-				{
-					"name": "Joshua Rifkin"
-				},
-				{
-					"name": "Dick Hyman"
-				},
-				{
-					"name": "Eubie Blake"
-				},
-				{
-					"name": "William Bolcom"
+					"name": "Max Morath, Joshua Rifkin, Dick Hyman, Eubie Blake, William Bolcom"
 				}
 			],
 			"top_albums": [
@@ -1354,19 +751,7 @@
 		"swing": {
 			"top_artists": [
 				{
-					"name": "Count Basie"
-				},
-				{
-					"name": "Duke Ellington"
-				},
-				{
-					"name": "Benny Goodman"
-				},
-				{
-					"name": "Ella Fitzgerald"
-				},
-				{
-					"name": "Frank Sinatra"
+					"name": "Count Basie, Duke Ellington, Benny Goodman, Ella Fitzgerald, Frank Sinatra"
 				}
 			],
 			"top_albums": [
@@ -1399,19 +784,7 @@
 		"pop": {
 			"top_artists": [
 				{
-					"name": "The Beatles"
-				},
-				{
-					"name": "The Beach Boys"
-				},
-				{
-					"name": "Elvis Presley"
-				},
-				{
-					"name": "Roy Orbison"
-				},
-				{
-					"name": "The Everly Brothers"
+					"name": "The Beatles, The Beach Boys, Elvis Presley, Roy Orbison, The Everly Brothers"
 				}
 			],
 			"top_albums": [
@@ -1442,19 +815,7 @@
 		"traditional pop": {
 			"top_artists": [
 				{
-					"name": "Frank Sinatra"
-				},
-				{
-					"name": "Tony Bennett"
-				},
-				{
-					"name": "Nat King Cole"
-				},
-				{
-					"name": "Dean Martin"
-				},
-				{
-					"name": "Ella Fitzgerald"
+					"name": "Frank Sinatra, Tony Bennett, Nat King Cole, Dean Martin, Ella Fitzgerald"
 				}
 			],
 			"top_albums": [
@@ -1485,19 +846,7 @@
 		"power pop": {
 			"top_artists": [
 				{
-					"name": "The Who"
-				},
-				{
-					"name": "The Byrds"
-				},
-				{
-					"name": "The Zombies"
-				},
-				{
-					"name": "The Small Faces"
-				},
-				{
-					"name": "The Easybeats"
+					"name": "The Who, The Byrds, The Zombies, The Small Faces, The Easybeats"
 				}
 			],
 			"top_albums": [
@@ -1528,19 +877,7 @@
 		"bubblegum pop": {
 			"top_artists": [
 				{
-					"name": "The Archies"
-				},
-				{
-					"name": "The 1910 Fruitgum Company"
-				},
-				{
-					"name": "Ohio Express"
-				},
-				{
-					"name": "The Monkees"
-				},
-				{
-					"name": "Tommy James and the Shondells"
+					"name": "The Archies, The 1910 Fruitgum Company, Ohio Express, The Monkees, Tommy James and the Shondells"
 				}
 			],
 			"top_albums": [
@@ -1573,34 +910,7 @@
 		"folk": {
 			"top_artists": [
 				{
-					"name": "Bob Dylan"
-				},
-				{
-					"name": "Joan Baez"
-				},
-				{
-					"name": "Pete Seeger"
-				},
-				{
-					"name": "Judy Collins"
-				},
-				{
-					"name": "Donovan"
-				},
-				{
-					"name": "Phil Ochs"
-				},
-				{
-					"name": "The Kingston Trio"
-				},
-				{
-					"name": "Peter, Paul and Mary"
-				},
-				{
-					"name": "Simon & Garfunkel"
-				},
-				{
-					"name": "Fairport Convention"
+					"name": "Bob Dylan, Joan Baez, Pete Seeger, Judy Collins, Donovan, Phil Ochs, The Kingston Trio, Peter, Paul and Mary, Simon & Garfunkel, Fairport Convention"
 				}
 			],
 			"top_albums": [
@@ -1631,34 +941,7 @@
 		"country": {
 			"top_artists": [
 				{
-					"name": "Johnny Cash"
-				},
-				{
-					"name": "Merle Haggard"
-				},
-				{
-					"name": "Loretta Lynn"
-				},
-				{
-					"name": "Buck Owens"
-				},
-				{
-					"name": "Patsy Cline"
-				},
-				{
-					"name": "Tammy Wynette"
-				},
-				{
-					"name": "George Jones"
-				},
-				{
-					"name": "Glen Campbell"
-				},
-				{
-					"name": "Roger Miller"
-				},
-				{
-					"name": "Dolly Parton"
+					"name": "Johnny Cash, Merle Haggard, Loretta Lynn, Buck Owens, Patsy Cline, Tammy Wynette, George Jones, Glen Campbell, Roger Miller, Dolly Parton"
 				}
 			],
 			"top_albums": [
@@ -1689,19 +972,7 @@
 		"bluegrass": {
 			"top_artists": [
 				{
-					"name": "Bill Monroe"
-				},
-				{
-					"name": "Flatt & Scruggs"
-				},
-				{
-					"name": "The Stanley Brothers"
-				},
-				{
-					"name": "Del McCoury"
-				},
-				{
-					"name": "Jim & Jesse"
+					"name": "Bill Monroe, Flatt & Scruggs, The Stanley Brothers, Del McCoury, Jim & Jesse"
 				}
 			],
 			"top_albums": [
@@ -1732,34 +1003,7 @@
 		"acoustic": {
 			"top_artists": [
 				{
-					"name": "Nick Drake"
-				},
-				{
-					"name": "Bert Jansch"
-				},
-				{
-					"name": "John Fahey"
-				},
-				{
-					"name": "Davy Graham"
-				},
-				{
-					"name": "Jackson C. Frank"
-				},
-				{
-					"name": "The Incredible String Band"
-				},
-				{
-					"name": "Tim Buckley"
-				},
-				{
-					"name": "Pentangle"
-				},
-				{
-					"name": "John Renbourn"
-				},
-				{
-					"name": "Dave Van Ronk"
+					"name": "Nick Drake, Bert Jansch, John Fahey, Davy Graham, Jackson C. Frank, The Incredible String Band, Tim Buckley, Pentangle, John Renbourn, Dave Van Ronk"
 				}
 			],
 			"top_albums": [
@@ -1790,34 +1034,7 @@
 		"singer-songwriter": {
 			"top_artists": [
 				{
-					"name": "Bob Dylan"
-				},
-				{
-					"name": "Joni Mitchell"
-				},
-				{
-					"name": "Leonard Cohen"
-				},
-				{
-					"name": "Tim Buckley"
-				},
-				{
-					"name": "Nick Drake"
-				},
-				{
-					"name": "Fred Neil"
-				},
-				{
-					"name": "Phil Ochs"
-				},
-				{
-					"name": "Laura Nyro"
-				},
-				{
-					"name": "Randy Newman"
-				},
-				{
-					"name": "Van Morrison"
+					"name": "Bob Dylan, Joni Mitchell, Leonard Cohen, Tim Buckley, Nick Drake, Fred Neil, Phil Ochs, Laura Nyro, Randy Newman, Van Morrison"
 				}
 			],
 			"top_albums": [
@@ -1848,19 +1065,7 @@
 		"gospel": {
 			"top_artists": [
 				{
-					"name": "Mahalia Jackson"
-				},
-				{
-					"name": "The Staple Singers"
-				},
-				{
-					"name": "Aretha Franklin"
-				},
-				{
-					"name": "Sister Rosetta Tharpe"
-				},
-				{
-					"name": "The Edwin Hawkins Singers"
+					"name": "Mahalia Jackson, The Staple Singers, Aretha Franklin, Sister Rosetta Tharpe, The Edwin Hawkins Singers"
 				}
 			],
 			"top_albums": [
@@ -1891,19 +1096,7 @@
 		"afrobeat": {
 			"top_artists": [
 				{
-					"name": "Fela Kuti"
-				},
-				{
-					"name": "Tony Allen"
-				},
-				{
-					"name": "Ebo Taylor"
-				},
-				{
-					"name": "Orlando Julius"
-				},
-				{
-					"name": "Geraldo Pino"
+					"name": "Fela Kuti, Tony Allen, Ebo Taylor, Orlando Julius, Geraldo Pino"
 				}
 			],
 			"top_albums": [
@@ -1936,19 +1129,7 @@
 		"metal": {
 			"top_artists": [
 				{
-					"name": "Black Sabbath"
-				},
-				{
-					"name": "Led Zeppelin"
-				},
-				{
-					"name": "Deep Purple"
-				},
-				{
-					"name": "Blue Cheer"
-				},
-				{
-					"name": "Iron Butterfly"
+					"name": "Black Sabbath, Led Zeppelin, Deep Purple, Blue Cheer, Iron Butterfly"
 				}
 			],
 			"top_albums": [
@@ -1979,19 +1160,7 @@
 		"heavy metal": {
 			"top_artists": [
 				{
-					"name": "Black Sabbath"
-				},
-				{
-					"name": "Led Zeppelin"
-				},
-				{
-					"name": "Deep Purple"
-				},
-				{
-					"name": "Blue Öyster Cult"
-				},
-				{
-					"name": "Steppenwolf"
+					"name": "Black Sabbath, Led Zeppelin, Deep Purple, Blue Öyster Cult, Steppenwolf"
 				}
 			],
 			"top_albums": [
@@ -2024,34 +1193,7 @@
 		"reggae": {
 			"top_artists": [
 				{
-					"name": "Bob Marley & The Wailers"
-				},
-				{
-					"name": "Toots and the Maytals"
-				},
-				{
-					"name": "Desmond Dekker"
-				},
-				{
-					"name": "The Pioneers"
-				},
-				{
-					"name": "Jimmy Cliff"
-				},
-				{
-					"name": "Prince Buster"
-				},
-				{
-					"name": "Alton Ellis"
-				},
-				{
-					"name": "The Abyssinians"
-				},
-				{
-					"name": "The Melodians"
-				},
-				{
-					"name": "The Heptones"
+					"name": "Bob Marley & The Wailers, Toots and the Maytals, Desmond Dekker, The Pioneers, Jimmy Cliff, Prince Buster, Alton Ellis, The Abyssinians, The Melodians, The Heptones"
 				}
 			],
 			"top_albums": [
@@ -2082,19 +1224,7 @@
 		"ska": {
 			"top_artists": [
 				{
-					"name": "The Skatalites"
-				},
-				{
-					"name": "Prince Buster"
-				},
-				{
-					"name": "Desmond Dekker"
-				},
-				{
-					"name": "The Maytals"
-				},
-				{
-					"name": "Laurel Aitken"
+					"name": "The Skatalites, Prince Buster, Desmond Dekker, The Maytals, Laurel Aitken"
 				}
 			],
 			"top_albums": [
@@ -2125,34 +1255,7 @@
 		"rocksteady": {
 			"top_artists": [
 				{
-					"name": "Alton Ellis"
-				},
-				{
-					"name": "The Paragons"
-				},
-				{
-					"name": "Ken Boothe"
-				},
-				{
-					"name": "The Heptones"
-				},
-				{
-					"name": "Phyllis Dillon"
-				},
-				{
-					"name": "The Melodians"
-				},
-				{
-					"name": "The Gaylads"
-				},
-				{
-					"name": "The Techniques"
-				},
-				{
-					"name": "Delroy Wilson"
-				},
-				{
-					"name": "The Uniques"
+					"name": "Alton Ellis, The Paragons, Ken Boothe, The Heptones, Phyllis Dillon, The Melodians, The Gaylads, The Techniques, Delroy Wilson, The Uniques"
 				}
 			],
 			"top_albums": [
@@ -2193,19 +1296,7 @@
 		"dub": {
 			"top_artists": [
 				{
-					"name": "King Tubby"
-				},
-				{
-					"name": "Lee \"Scratch\" Perry"
-				},
-				{
-					"name": "Augustus Pablo"
-				},
-				{
-					"name": "The Upsetters"
-				},
-				{
-					"name": "Scientist"
+					"name": "King Tubby, Lee \"Scratch\" Perry, Augustus Pablo, The Upsetters, Scientist"
 				}
 			],
 			"top_albums": [
@@ -2236,19 +1327,7 @@
 		"calypso": {
 			"top_artists": [
 				{
-					"name": "Mighty Sparrow"
-				},
-				{
-					"name": "Lord Kitchener"
-				},
-				{
-					"name": "Harry Belafonte"
-				},
-				{
-					"name": "Lord Melody"
-				},
-				{
-					"name": "Roaring Lion"
+					"name": "Mighty Sparrow, Lord Kitchener, Harry Belafonte, Lord Melody, Roaring Lion"
 				}
 			],
 			"top_albums": [
@@ -2279,19 +1358,7 @@
 		"merengue": {
 			"top_artists": [
 				{
-					"name": "Joseíto Mateo"
-				},
-				{
-					"name": "El Ciego de Nagua"
-				},
-				{
-					"name": "Luis Alberti"
-				},
-				{
-					"name": "Dioris Valladares"
-				},
-				{
-					"name": "Rafael Solano"
+					"name": "Joseíto Mateo, El Ciego de Nagua, Luis Alberti, Dioris Valladares, Rafael Solano"
 				}
 			],
 			"top_albums": [
@@ -2322,19 +1389,7 @@
 		"latin": {
 			"top_artists": [
 				{
-					"name": "Tito Puente"
-				},
-				{
-					"name": "Celia Cruz"
-				},
-				{
-					"name": "Pérez Prado"
-				},
-				{
-					"name": "Eddie Palmieri"
-				},
-				{
-					"name": "Mongo Santamaría"
+					"name": "Tito Puente, Celia Cruz, Pérez Prado, Eddie Palmieri, Mongo Santamaría"
 				}
 			],
 			"top_albums": [
@@ -2365,19 +1420,7 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Lucía"
-				},
-				{
-					"name": "Camarón de la Isla"
-				},
-				{
-					"name": "Sabicas"
-				},
-				{
-					"name": "Manolo Sanlúcar"
-				},
-				{
-					"name": "Niño Ricardo"
+					"name": "Paco de Lucía, Camarón de la Isla, Sabicas, Manolo Sanlúcar, Niño Ricardo"
 				}
 			],
 			"top_albums": [
@@ -2408,10 +1451,7 @@
 		"bachata": {
 			"top_artists": [
 				{
-					"name": "José Manuel Calderón"
-				},
-				{
-					"name": "Rafael Encarnación"
+					"name": "José Manuel Calderón, Rafael Encarnación"
 				}
 			],
 			"top_albums": [
@@ -2434,19 +1474,7 @@
 		"experimental": {
 			"top_artists": [
 				{
-					"name": "The Velvet Underground"
-				},
-				{
-					"name": "Frank Zappa"
-				},
-				{
-					"name": "Captain Beefheart"
-				},
-				{
-					"name": "The Residents"
-				},
-				{
-					"name": "Silver Apples"
+					"name": "The Velvet Underground, Frank Zappa, Captain Beefheart, The Residents, Silver Apples"
 				}
 			],
 			"top_albums": [
@@ -2477,19 +1505,7 @@
 		"modern classical": {
 			"top_artists": [
 				{
-					"name": "Karlheinz Stockhausen"
-				},
-				{
-					"name": "Pierre Boulez"
-				},
-				{
-					"name": "John Cage"
-				},
-				{
-					"name": "György Ligeti"
-				},
-				{
-					"name": "Luciano Berio"
+					"name": "Karlheinz Stockhausen, Pierre Boulez, John Cage, György Ligeti, Luciano Berio"
 				}
 			],
 			"top_albums": [
@@ -2520,19 +1536,7 @@
 		"minimalism": {
 			"top_artists": [
 				{
-					"name": "Terry Riley"
-				},
-				{
-					"name": "Steve Reich"
-				},
-				{
-					"name": "La Monte Young"
-				},
-				{
-					"name": "Philip Glass"
-				},
-				{
-					"name": "Tony Conrad"
+					"name": "Terry Riley, Steve Reich, La Monte Young, Philip Glass, Tony Conrad"
 				}
 			],
 			"top_albums": [
@@ -2563,19 +1567,7 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "John Cage"
-				},
-				{
-					"name": "Karlheinz Stockhausen"
-				},
-				{
-					"name": "Pierre Boulez"
-				},
-				{
-					"name": "Edgard Varèse"
-				},
-				{
-					"name": "Olivier Messiaen"
+					"name": "John Cage, Karlheinz Stockhausen, Pierre Boulez, Edgard Varèse, Olivier Messiaen"
 				}
 			],
 			"top_albums": [
@@ -2606,19 +1598,7 @@
 		"classical": {
 			"top_artists": [
 				{
-					"name": "Igor Stravinsky"
-				},
-				{
-					"name": "Leonard Bernstein"
-				},
-				{
-					"name": "Benjamin Britten"
-				},
-				{
-					"name": "Dmitri Shostakovich"
-				},
-				{
-					"name": "Aaron Copland"
+					"name": "Igor Stravinsky, Leonard Bernstein, Benjamin Britten, Dmitri Shostakovich, Aaron Copland"
 				}
 			],
 			"top_albums": [
@@ -2649,19 +1629,7 @@
 		"soundtrack": {
 			"top_artists": [
 				{
-					"name": "Ennio Morricone"
-				},
-				{
-					"name": "Henry Mancini"
-				},
-				{
-					"name": "John Barry"
-				},
-				{
-					"name": "Elmer Bernstein"
-				},
-				{
-					"name": "Jerry Goldsmith"
+					"name": "Ennio Morricone, Henry Mancini, John Barry, Elmer Bernstein, Jerry Goldsmith"
 				}
 			],
 			"top_albums": [
