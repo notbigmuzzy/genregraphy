@@ -20,6 +20,10 @@ const props = defineProps({
     allowedGroups: {
         type: Array,
         default: null
+    },
+    options: {
+        type: Object,
+        default: () => ({ genreNames: true, groupNames: false })
     }
 })
 
@@ -47,7 +51,8 @@ const draw = () => {
         cache,
         props.allowedGroups,
         getGlobalTotal(),
-        (genreName) => emit('genre-click', genreName)
+        (genreName) => emit('genre-click', genreName),
+        props.options
     )
 }
 
@@ -73,5 +78,5 @@ onUnmounted(() => {
     }
 })
 
-watch([() => props.genres, () => props.year], draw, { deep: true })
+watch([() => props.genres, () => props.year, () => props.options], draw, { deep: true })
 </script>

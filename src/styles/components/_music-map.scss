@@ -33,6 +33,11 @@
             .shape-outline {
                 stroke-width: 1px;
             }
+
+            .group-label {
+                transform: scale(0.5);
+                transform-origin: center;
+            }
         }
 
         .shape-blob {
@@ -77,20 +82,6 @@
                 font-style: italic;
                 font-size: 8px !important;
                 letter-spacing: 0.12em;
-            }
-        }
-
-        .peak-genre {
-            &.shape-internal {
-                stroke: rgb(255, 255, 255);
-                fill: rgb(255, 255, 255);
-                opacity: 0.5 !important;
-                filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
-            }
-
-            &.genre-label {
-                font-size: 11px !important;
-                fill: #000;
             }
         }
 
@@ -142,6 +133,26 @@
             margin: 0 auto;
             height: 30%;
             width: 15%;
+        }
+    }
+}
+
+.world-map.showing-genre-names {
+    .music-map-wrapper {
+        .music-map {
+            .peak-genre {
+                &.shape-internal {
+                    stroke: rgb(255, 255, 255);
+                    fill: rgb(255, 255, 255);
+                    opacity: 0.5 !important;
+                    filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
+                }
+
+                &.genre-label {
+                    font-size: 11px !important;
+                    fill: #000;
+                }
+            }
         }
     }
 }

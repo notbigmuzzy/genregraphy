@@ -13,6 +13,7 @@
                 :genres="genres"
                 :currentYear="currentYear"
                 :continents="continents"
+                :options="options"
                 @genre-click="selectedGenre = $event; showDetails = true"
                 @wheel.prevent="onMapScroll"
             />
@@ -44,7 +45,9 @@ const genres = ref(null)
 const loaded = ref(true)
 const selectedGenre = ref(null)
 const showDetails = ref(false)
-const options = ref({
+
+const savedOptions = localStorage.getItem('genregraphy_options')
+const options = ref(savedOptions ? JSON.parse(savedOptions) : {
     genreNames: true,
     groupNames: false
 })
@@ -56,6 +59,7 @@ const updateOption = (key, val) => {
     } else if (key === 'groupNames') {
         options.value.genreNames = !val
     }
+    localStorage.setItem('genregraphy_options', JSON.stringify(options.value))
 }
 
 const getYearFromUrl = () => {

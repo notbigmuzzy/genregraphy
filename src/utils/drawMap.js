@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 import { interpolatePath } from 'd3-interpolate-path'
 import { continentShape, continentShapeEast, continentShapeNorth, continentShapeSouth } from './defaultContinent.js'
 
-export const drawMap = (genres, year, container, cache, allowedGroups, globalTotal, onGenreClick) => {
+export const drawMap = (genres, year, container, cache, allowedGroups, globalTotal, onGenreClick, options) => {
     if (!genres || !container) return
 
     const yearData = genres[year.toString()]
@@ -244,6 +244,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                 g.append('g').attr('class', 'layer-blob')
                 g.append('g').attr('class', 'layer-internal')
                 g.append('g').attr('class', 'genre-texts-layer')
+                g.append('g').attr('class', 'group-texts-layer')
 
                 return g
             },
@@ -338,96 +339,141 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0 : (d.data.isDummy ? 0.1 : 1))
 
     const textsLayer = groupContainers.select('.genre-texts-layer')
-    const textCells = textsLayer.selectAll('.genre-label')
-        .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
-        .join(
-            enter => {
-                const textEl = enter.append('text')
-                    .attr('class', 'genre-label')
+
+    if (options && options.genreNames === false) {
+        textsLayer.selectAll('.genre-label').transition().duration(500).style('opacity', 0).remove()
+    } else {
+        const textCells = textsLayer.selectAll('.genre-label')
+            .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
+            .join(
+                enter => {
+                    const textEl = enter.append('text')
+                        .attr('class', 'genre-label')
+                        .attr('text-anchor', 'middle')
+                        .attr('dominant-baseline', 'central')
+                        .style('opacity', 0)
+                        .attr('x', d => {
+                            const polygon = voronoi.cellPolygon(nodes.indexOf(d))
+                            if (!polygon) return d.x
+                            const centroid = d3.polygonCentroid(polygon)
+                            return centroid[0] * 0.4 + d.x * 0.6
+                        })
+                        .attr('y', d => {
+                            const polygon = voronoi.cellPolygon(nodes.indexOf(d))
+                            if (!polygon) return d.y
+                            const centroid = d3.polygonCentroid(polygon)
+                            return centroid[1] * 0.4 + d.y * 0.6
+                        })
+
+                    textEl.each(function (d) {
+                        const el = d3.select(this)
+                        const label = d.data.isEmpty ? 'TERRA INCOGNITA' : (d.data.isDummy ? d.data.group : d.data.name)
+                        if (!label) return
+
+                        const polygon = voronoi.cellPolygon(nodes.indexOf(d))
+                        let centerX = d.x
+                        if (polygon) {
+                            const centroid = d3.polygonCentroid(polygon)
+                            centerX = centroid[0] * 0.4 + d.x * 0.6
+                        }
+
+                        const words = label.split(/\s+/)
+                        if (words.length > 1) {
+                            const mid = Math.ceil(words.length / 2)
+                            const line1 = words.slice(0, mid).join(' ')
+                            const line2 = words.slice(mid).join(' ')
+
+                            el.append('tspan').text(line1).attr('x', centerX).attr('dy', '-0.5em')
+                            el.append('tspan').text(line2).attr('x', centerX).attr('dy', '1em')
+                        } else {
+                            el.append('tspan').text(words[0]).attr('x', centerX).attr('dy', '0')
+                        }
+                    })
+
+                    return textEl
+                },
+                update => update,
+                exit => exit.transition().duration(500).style('opacity', 0).remove()
+            )
+
+        svgGroup.selectAll('.genre-label').classed('peak-genre', d => peakGenres.has(d.data.name))
+
+        const textsToUpdate = svgGroup.selectAll('.genre-label').data(nodes, d => d.data.name)
+
+        textsToUpdate
+            .classed('terra-incognita', d => d.data.isEmpty)
+            .transition()
+            .duration(750)
+            .attr('x', d => {
+                const polygon = voronoi.cellPolygon(nodes.indexOf(d))
+                if (!polygon) return d.x
+                const centroid = d3.polygonCentroid(polygon)
+                return centroid[0] * 0.4 + d.x * 0.6
+            })
+            .attr('y', d => {
+                const polygon = voronoi.cellPolygon(nodes.indexOf(d))
+                if (!polygon) return d.y
+                const centroid = d3.polygonCentroid(polygon)
+                return centroid[1] * 0.4 + d.y * 0.6
+            })
+            .style('opacity', d => d.data.isEmpty ? 0.7 : (d.data.isDummy ? 0.3 : 1))
+            .on('start', function (d) {
+                const polygon = voronoi.cellPolygon(nodes.indexOf(d))
+                let centerX = d.x
+                if (polygon) {
+                    const centroid = d3.polygonCentroid(polygon)
+                    centerX = centroid[0] * 0.4 + d.x * 0.6
+                }
+                d3.select(this).selectAll('tspan').attr('x', centerX)
+            })
+            .end().then(() => {
+                textsToUpdate.each(function (d) {
+                    let textWidth = this.getBBox().width
+                    let availableWidth = d.r * 2 - 4
+                    if (textWidth > availableWidth && availableWidth > 0) {
+                        d3.select(this).style('font-size', `${Math.max(6, availableWidth / textWidth * 10)}px`)
+                    }
+                })
+            }).catch(() => { })
+    }
+
+    const groupTextsLayer = groupContainers.select('.group-texts-layer')
+
+    if (options && options.groupNames === true) {
+        const groupLabels = groupTextsLayer.selectAll('.group-label')
+            .data(groupName => {
+                const groupNodes = nodes.filter(n => n.data.group === groupName && !n.data.isEmpty)
+                if (!groupNodes.length) return []
+                const cx = d3.mean(groupNodes, d => d.x)
+                const cy = d3.mean(groupNodes, d => d.y)
+                const minX = d3.min(groupNodes, d => d.x - d.r)
+                const maxX = d3.max(groupNodes, d => d.x + d.r)
+                return [{ name: groupName, x: cx, y: cy, w: maxX - minX }]
+            }, d => d.name)
+            .join(
+                enter => enter.append('text')
+                    .attr('class', 'group-label')
                     .attr('text-anchor', 'middle')
                     .attr('dominant-baseline', 'central')
                     .style('opacity', 0)
-                    .attr('x', d => {
-                        const polygon = voronoi.cellPolygon(nodes.indexOf(d))
-                        if (!polygon) return d.x
-                        const centroid = d3.polygonCentroid(polygon)
-                        return centroid[0] * 0.4 + d.x * 0.6
-                    })
-                    .attr('y', d => {
-                        const polygon = voronoi.cellPolygon(nodes.indexOf(d))
-                        if (!polygon) return d.y
-                        const centroid = d3.polygonCentroid(polygon)
-                        return centroid[1] * 0.4 + d.y * 0.6
-                    })
+                    .style('pointer-events', 'none')
+                    .style('fill', 'rgba(255, 255, 255, 0.4)')
+                    .style('font-weight', 'bold')
+                    .style('font-size', d => `${Math.max(12, Math.min(d.w * 1.2 / d.name.length, 60))}px`)
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y)
+                    .text(d => d.name),
+                update => update,
+                exit => exit.transition().duration(500).style('opacity', 0).remove()
+            )
 
-                textEl.each(function (d) {
-                    const el = d3.select(this)
-                    const label = d.data.isEmpty ? 'TERRA INCOGNITA' : (d.data.isDummy ? d.data.group : d.data.name)
-                    if (!label) return
-
-                    const polygon = voronoi.cellPolygon(nodes.indexOf(d))
-                    let centerX = d.x
-                    if (polygon) {
-                        const centroid = d3.polygonCentroid(polygon)
-                        centerX = centroid[0] * 0.4 + d.x * 0.6
-                    }
-
-                    const words = label.split(/\s+/)
-                    if (words.length > 1) {
-                        const mid = Math.ceil(words.length / 2)
-                        const line1 = words.slice(0, mid).join(' ')
-                        const line2 = words.slice(mid).join(' ')
-
-                        el.append('tspan').text(line1).attr('x', centerX).attr('dy', '-0.5em')
-                        el.append('tspan').text(line2).attr('x', centerX).attr('dy', '1em')
-                    } else {
-                        el.append('tspan').text(words[0]).attr('x', centerX).attr('dy', '0')
-                    }
-                })
-
-                return textEl
-            },
-            update => update,
-            exit => exit.transition().duration(500).style('opacity', 0).remove()
-        )
-
-    svgGroup.selectAll('.genre-label').classed('peak-genre', d => peakGenres.has(d.data.name))
-
-    const textsToUpdate = svgGroup.selectAll('.genre-label').data(nodes, d => d.data.name)
-
-    textsToUpdate
-        .classed('terra-incognita', d => d.data.isEmpty)
-        .transition()
-        .duration(750)
-        .attr('x', d => {
-            const polygon = voronoi.cellPolygon(nodes.indexOf(d))
-            if (!polygon) return d.x
-            const centroid = d3.polygonCentroid(polygon)
-            return centroid[0] * 0.4 + d.x * 0.6
-        })
-        .attr('y', d => {
-            const polygon = voronoi.cellPolygon(nodes.indexOf(d))
-            if (!polygon) return d.y
-            const centroid = d3.polygonCentroid(polygon)
-            return centroid[1] * 0.4 + d.y * 0.6
-        })
-        .style('opacity', d => d.data.isEmpty ? 0.7 : (d.data.isDummy ? 0.3 : 1))
-        .on('start', function (d) {
-            const polygon = voronoi.cellPolygon(nodes.indexOf(d))
-            let centerX = d.x
-            if (polygon) {
-                const centroid = d3.polygonCentroid(polygon)
-                centerX = centroid[0] * 0.4 + d.x * 0.6
-            }
-            d3.select(this).selectAll('tspan').attr('x', centerX)
-        })
-        .end().then(() => {
-            textsToUpdate.each(function (d) {
-                let textWidth = this.getBBox().width
-                let availableWidth = d.r * 2 - 4
-                if (textWidth > availableWidth && availableWidth > 0) {
-                    d3.select(this).style('font-size', `${Math.max(6, availableWidth / textWidth * 10)}px`)
-                }
-            })
-        }).catch(() => { })
+        groupLabels.transition()
+            .duration(750)
+            .style('opacity', 1)
+            .attr('x', d => d.x)
+            .attr('y', d => d.y)
+            .style('font-size', d => `${Math.max(12, Math.min(d.w * 1.2 / d.name.length, 60))}px`)
+    } else {
+        groupTextsLayer.selectAll('.group-label').transition().duration(500).style('opacity', 0).remove()
+    }
 }
