@@ -71,17 +71,27 @@
         }
 
         .genre-label {
-            fill: #fff;
+            fill: rgba(255, 255, 255, 0.75);
             pointer-events: none;
             font-weight: bold;
             font-size: 10px !important;
             opacity: 0;
+            transition: opacity 0.3s ease;
 
             &.terra-incognita {
                 fill: #2b1f0e;
                 font-style: italic;
                 font-size: 8px !important;
                 letter-spacing: 0.12em;
+            }
+        }
+
+        .group-texts-layer {
+            .group-label {
+                pointer-events: none;
+                fill: rgba(255, 255, 255, 0.75);
+                font-weight: bold;
+                transition: opacity 0.3s ease;
             }
         }
 
@@ -151,6 +161,26 @@
                 &.genre-label {
                     font-size: 11px !important;
                     fill: #000;
+                }
+            }
+        }
+    }
+}
+
+.world-map.showing-group-names {
+    .music-map-wrapper {
+        .music-map {
+            .genre-label:not(.terra-incognita) {
+                opacity: 0 !important;
+            }
+
+            .genre-group-container:hover {
+                .genre-label:not(.terra-incognita) {
+                    opacity: 1 !important;
+                }
+
+                .group-label {
+                    opacity: 0 !important;
                 }
             }
         }

@@ -48,8 +48,8 @@ const showDetails = ref(false)
 
 const savedOptions = localStorage.getItem('genregraphy_options')
 const options = ref(savedOptions ? JSON.parse(savedOptions) : {
-    genreNames: true,
-    groupNames: false
+    genreNames: false,
+    groupNames: true
 })
 
 const updateOption = (key, val) => {
@@ -71,8 +71,8 @@ const getYearFromUrl = () => {
 const currentYear = ref(getYearFromUrl())
 
 const continents = {
-    west:  ['Electronic & Synth', 'Hip-Hop & Groove', 'Pop & Melodies'],
-    east:  ['Rock & Overdrive', 'Jazz, Blues & Soul', 'Folk & Acoustics', 'Classical & Experimental'],
+    west:  ['Electronic & Synth', 'Rhythm & Groove', 'Pop & Melodies'],
+    east:  ['Rock & Overdrive', 'Jazz & Blues', 'Folk & Acoustics', 'Classical & Experimental'],
     north: ['Metal & Heavy'],
     south: ['Reggae & Global Beats'],
 }

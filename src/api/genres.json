@@ -58,7 +58,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -76,7 +76,7 @@
         "total": 14
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 135,
           "blues": 45,
@@ -241,7 +241,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -259,7 +259,7 @@
         "total": 8
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 111,
           "blues": 27,
@@ -427,7 +427,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -445,7 +445,7 @@
         "total": 5
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 137,
           "blues": 22,
@@ -613,7 +613,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -631,7 +631,7 @@
         "total": 6
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 143,
           "blues": 15,
@@ -800,7 +800,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -818,7 +818,7 @@
         "total": 5
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 137,
           "blues": 25,
@@ -986,7 +986,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -1004,7 +1004,7 @@
         "total": 15
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 127,
           "blues": 24,
@@ -1172,7 +1172,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -1190,7 +1190,7 @@
         "total": 16
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 146,
           "blues": 23,
@@ -1358,7 +1358,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -1376,7 +1376,7 @@
         "total": 15
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 125,
           "blues": 22,
@@ -1544,7 +1544,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -1562,7 +1562,7 @@
         "total": 22
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 147,
           "blues": 23,
@@ -1727,7 +1727,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -1745,7 +1745,7 @@
         "total": 19
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 132,
           "blues": 23,
@@ -1910,7 +1910,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -1928,7 +1928,7 @@
         "total": 21
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 166,
           "blues": 26,
@@ -2097,7 +2097,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -2115,7 +2115,7 @@
         "total": 30
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 153,
           "blues": 20,
@@ -2282,7 +2282,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -2300,7 +2300,7 @@
         "total": 29
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 150,
           "blues": 25,
@@ -2465,7 +2465,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -2483,7 +2483,7 @@
         "total": 27
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 153,
           "blues": 30,
@@ -2650,7 +2650,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -2668,7 +2668,7 @@
         "total": 25
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 147,
           "blues": 44,
@@ -2837,7 +2837,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -2855,7 +2855,7 @@
         "total": 53
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 145,
           "blues": 42,
@@ -3023,7 +3023,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -3041,7 +3041,7 @@
         "total": 59
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 142,
           "blues": 40,
@@ -3208,7 +3208,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -3226,7 +3226,7 @@
         "total": 70
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 137,
           "blues": 37,
@@ -3396,7 +3396,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -3414,7 +3414,7 @@
         "total": 82
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 126,
           "blues": 59,
@@ -3583,7 +3583,7 @@
         "total": 0
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -3601,7 +3601,7 @@
         "total": 64
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 152,
           "blues": 78,
@@ -3770,7 +3770,7 @@
         "total": 264
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -3788,7 +3788,7 @@
         "total": 71
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 144,
           "blues": 86,
@@ -3953,7 +3953,7 @@
         "total": 261
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -3971,7 +3971,7 @@
         "total": 90
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 131,
           "blues": 50,
@@ -4136,7 +4136,7 @@
         "total": 267
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -4154,7 +4154,7 @@
         "total": 101
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 143,
           "blues": 49,
@@ -4322,7 +4322,7 @@
         "total": 268
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -4340,7 +4340,7 @@
         "total": 99
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 139,
           "blues": 43,
@@ -4507,7 +4507,7 @@
         "total": 281
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -4525,7 +4525,7 @@
         "total": 102
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 140,
           "blues": 41,
@@ -4690,7 +4690,7 @@
         "total": 301
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -4708,7 +4708,7 @@
         "total": 99
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 145,
           "blues": 47,
@@ -4873,7 +4873,7 @@
         "total": 297
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -4891,7 +4891,7 @@
         "total": 140
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 155,
           "blues": 43,
@@ -5060,7 +5060,7 @@
         "total": 310
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -5078,7 +5078,7 @@
         "total": 96
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 140,
           "blues": 40,
@@ -5245,7 +5245,7 @@
         "total": 349
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 0,
           "trap": 0,
@@ -5263,7 +5263,7 @@
         "total": 102
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 150,
           "blues": 47,
@@ -5430,7 +5430,7 @@
         "total": 417
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 41,
           "trap": 0,
@@ -5448,7 +5448,7 @@
         "total": 157
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 139,
           "blues": 39,
@@ -5616,7 +5616,7 @@
         "total": 466
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 43,
           "trap": 0,
@@ -5634,7 +5634,7 @@
         "total": 171
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 149,
           "blues": 34,
@@ -5802,7 +5802,7 @@
         "total": 438
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 39,
           "trap": 0,
@@ -5820,7 +5820,7 @@
         "total": 147
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 141,
           "blues": 31,
@@ -5985,7 +5985,7 @@
         "total": 499
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 50,
           "trap": 0,
@@ -6003,7 +6003,7 @@
         "total": 154
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 134,
           "blues": 26,
@@ -6168,7 +6168,7 @@
         "total": 492
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 47,
           "trap": 0,
@@ -6186,7 +6186,7 @@
         "total": 151
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 123,
           "blues": 24,
@@ -6351,7 +6351,7 @@
         "total": 606
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 41,
           "trap": 0,
@@ -6369,7 +6369,7 @@
         "total": 136
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 123,
           "blues": 26,
@@ -6536,7 +6536,7 @@
         "total": 587
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 43,
           "trap": 0,
@@ -6554,7 +6554,7 @@
         "total": 119
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 124,
           "blues": 29,
@@ -6719,7 +6719,7 @@
         "total": 598
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 46,
           "trap": 0,
@@ -6737,7 +6737,7 @@
         "total": 129
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 118,
           "blues": 29,
@@ -6902,7 +6902,7 @@
         "total": 594
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 49,
           "trap": 0,
@@ -6920,7 +6920,7 @@
         "total": 145
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 119,
           "blues": 32,
@@ -7085,7 +7085,7 @@
         "total": 559
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 52,
           "trap": 0,
@@ -7103,7 +7103,7 @@
         "total": 150
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 116,
           "blues": 30,
@@ -7271,7 +7271,7 @@
         "total": 594
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 52,
           "trap": 0,
@@ -7289,7 +7289,7 @@
         "total": 132
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 125,
           "blues": 32,
@@ -7454,7 +7454,7 @@
         "total": 693
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 66,
           "trap": 0,
@@ -7472,7 +7472,7 @@
         "total": 159
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 109,
           "blues": 39,
@@ -7639,7 +7639,7 @@
         "total": 702
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 71,
           "trap": 0,
@@ -7657,7 +7657,7 @@
         "total": 158
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 123,
           "blues": 28,
@@ -7825,7 +7825,7 @@
         "total": 713
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 58,
           "trap": 0,
@@ -7843,7 +7843,7 @@
         "total": 132
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 118,
           "blues": 30,
@@ -8008,7 +8008,7 @@
         "total": 687
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 66,
           "trap": 0,
@@ -8026,7 +8026,7 @@
         "total": 147
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 113,
           "blues": 23,
@@ -8193,7 +8193,7 @@
         "total": 808
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 82,
           "trap": 0,
@@ -8211,7 +8211,7 @@
         "total": 171
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 134,
           "blues": 41,
@@ -8378,7 +8378,7 @@
         "total": 806
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 83,
           "trap": 0,
@@ -8396,7 +8396,7 @@
         "total": 166
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 149,
           "blues": 30,
@@ -8565,7 +8565,7 @@
         "total": 821
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 89,
           "trap": 0,
@@ -8583,7 +8583,7 @@
         "total": 175
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 128,
           "blues": 26,
@@ -8750,7 +8750,7 @@
         "total": 852
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 89,
           "trap": 0,
@@ -8768,7 +8768,7 @@
         "total": 163
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 134,
           "blues": 28,
@@ -8936,7 +8936,7 @@
         "total": 906
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 95,
           "trap": 0,
@@ -8954,7 +8954,7 @@
         "total": 182
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 124,
           "blues": 30,
@@ -9122,7 +9122,7 @@
         "total": 1053
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 114,
           "trap": 0,
@@ -9140,7 +9140,7 @@
         "total": 256
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 127,
           "blues": 25,
@@ -9309,7 +9309,7 @@
         "total": 1551
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 160,
           "trap": 0,
@@ -9327,7 +9327,7 @@
         "total": 296
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 99,
           "blues": 39,
@@ -9498,7 +9498,7 @@
         "total": 1800
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 162,
           "trap": 0,
@@ -9516,7 +9516,7 @@
         "total": 281
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 160,
           "blues": 39,
@@ -9686,7 +9686,7 @@
         "total": 1741
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 149,
           "trap": 0,
@@ -9704,7 +9704,7 @@
         "total": 264
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 165,
           "blues": 49,
@@ -9872,7 +9872,7 @@
         "total": 1618
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 154,
           "trap": 8,
@@ -9890,7 +9890,7 @@
         "total": 267
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 147,
           "blues": 38,
@@ -10057,7 +10057,7 @@
         "total": 1480
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 153,
           "trap": 7,
@@ -10075,7 +10075,7 @@
         "total": 261
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 147,
           "blues": 44,
@@ -10240,7 +10240,7 @@
         "total": 1638
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 165,
           "trap": 6,
@@ -10258,7 +10258,7 @@
         "total": 292
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 134,
           "blues": 42,
@@ -10426,7 +10426,7 @@
         "total": 1485
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 135,
           "trap": 6,
@@ -10444,7 +10444,7 @@
         "total": 260
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 170,
           "blues": 37,
@@ -10611,7 +10611,7 @@
         "total": 1499
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 139,
           "trap": 6,
@@ -10629,7 +10629,7 @@
         "total": 265
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 161,
           "blues": 44,
@@ -10794,7 +10794,7 @@
         "total": 1602
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 140,
           "trap": 7,
@@ -10812,7 +10812,7 @@
         "total": 262
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 141,
           "blues": 38,
@@ -10979,7 +10979,7 @@
         "total": 1653
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 124,
           "trap": 6,
@@ -10997,7 +10997,7 @@
         "total": 253
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 143,
           "blues": 33,
@@ -11164,7 +11164,7 @@
         "total": 1747
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 120,
           "trap": 8,
@@ -11182,7 +11182,7 @@
         "total": 283
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 127,
           "blues": 40,
@@ -11350,7 +11350,7 @@
         "total": 1559
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 114,
           "trap": 6,
@@ -11368,7 +11368,7 @@
         "total": 262
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 135,
           "blues": 39,
@@ -11535,7 +11535,7 @@
         "total": 1646
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 111,
           "trap": 8,
@@ -11553,7 +11553,7 @@
         "total": 254
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 133,
           "blues": 43,
@@ -11720,7 +11720,7 @@
         "total": 1527
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 106,
           "trap": 11,
@@ -11738,7 +11738,7 @@
         "total": 251
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 131,
           "blues": 41,
@@ -11905,7 +11905,7 @@
         "total": 1411
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 103,
           "trap": 12,
@@ -11923,7 +11923,7 @@
         "total": 252
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 120,
           "blues": 35,
@@ -12088,7 +12088,7 @@
         "total": 1404
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 97,
           "trap": 9,
@@ -12106,7 +12106,7 @@
         "total": 216
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 121,
           "blues": 33,
@@ -12273,7 +12273,7 @@
         "total": 1513
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 100,
           "trap": 16,
@@ -12291,7 +12291,7 @@
         "total": 252
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 145,
           "blues": 32,
@@ -12461,7 +12461,7 @@
         "total": 1323
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 92,
           "trap": 10,
@@ -12479,7 +12479,7 @@
         "total": 222
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 131,
           "blues": 28,
@@ -12644,7 +12644,7 @@
         "total": 1290
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 109,
           "trap": 17,
@@ -12662,7 +12662,7 @@
         "total": 277
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 142,
           "blues": 42,
@@ -12832,7 +12832,7 @@
         "total": 1224
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 82,
           "trap": 11,
@@ -12850,7 +12850,7 @@
         "total": 224
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 127,
           "blues": 33,
@@ -13021,7 +13021,7 @@
         "total": 1249
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 84,
           "trap": 16,
@@ -13039,7 +13039,7 @@
         "total": 257
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 115,
           "blues": 52,
@@ -13209,7 +13209,7 @@
         "total": 1146
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 95,
           "trap": 15,
@@ -13227,7 +13227,7 @@
         "total": 294
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 143,
           "blues": 35,
@@ -13395,7 +13395,7 @@
         "total": 1010
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 104,
           "trap": 13,
@@ -13413,7 +13413,7 @@
         "total": 327
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 117,
           "blues": 29,
@@ -13583,7 +13583,7 @@
         "total": 992
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 116,
           "trap": 13,
@@ -13601,7 +13601,7 @@
         "total": 317
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 124,
           "blues": 35,
@@ -13769,7 +13769,7 @@
         "total": 957
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 96,
           "trap": 14,
@@ -13787,7 +13787,7 @@
         "total": 264
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 115,
           "blues": 33,
@@ -13958,7 +13958,7 @@
         "total": 688
       },
       {
-        "name": "Hip-Hop & Groove",
+        "name": "Rhythm & Groove",
         "genres": {
           "hip hop": 46,
           "trap": 6,
@@ -13976,7 +13976,7 @@
         "total": 145
       },
       {
-        "name": "Jazz, Blues & Soul",
+        "name": "Jazz & Blues",
         "genres": {
           "jazz": 103,
           "blues": 19,

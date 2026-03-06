@@ -5,18 +5,30 @@
             <ul class="options-menu">
                 <li>
                     <label class="toggle-label">
-                        <span>Show genre names</span>
+                        <span>Main Categories</span>
                         <div class="toggle-switch">
-                            <input name="show-genre-names" type="checkbox" :checked="options.genreNames" @change="$emit('update:option', 'genreNames', $event.target.checked)"/>
+                            <input
+                                name="show-genre-groups"
+                                type="checkbox"
+                                :checked="options.groupNames"
+                                @click="options.groupNames ? $event.preventDefault() : null"
+                                @change="$emit('update:option', 'groupNames', true)"
+                            />
                             <span class="slider round"></span>
                         </div>
                     </label>
                 </li>
                 <li>
                     <label class="toggle-label">
-                        <span>Show genre groups</span>
+                        <span>All Subgenres</span>
                         <div class="toggle-switch">
-                            <input name="show-genre-groups" type="checkbox" :checked="options.groupNames" @change="$emit('update:option', 'groupNames', $event.target.checked)"/>
+                            <input
+                                name="show-genre-names"
+                                type="checkbox"
+                                :checked="options.genreNames"
+                                @click="options.genreNames ? $event.preventDefault() : null"
+                                @change="$emit('update:option', 'genreNames', true)"
+                            />
                             <span class="slider round"></span>
                         </div>
                     </label>
@@ -30,8 +42,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-
 const props = defineProps({
     options: {
         type: Object,
