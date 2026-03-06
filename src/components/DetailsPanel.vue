@@ -5,19 +5,15 @@
         </button>
         <div class="details-area">
             <div class="detailspanel-section title">
-                <span><p>Genre <b>{{ genre }}</b> in the year <b>{{ year }}</b></p></span>
+                <h2>The {{ year }} {{ formattedGenre }} Scene</h2>
             </div>
-            <div class="detailspanel-section">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias, saepe distinctio numquam voluptas pariatur, voluptatem, sequi molestias ex corrupti architecto eius. Minima quos, totam necessitatibus quidem enim fugiat ipsam?</p>
-                <p>Sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas . Voluptatibus dignissimos autem nihil consequatur!</p>
-            </div>
-            <div class="detailspanel-section">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias, saepe distinctio numquam voluptas pariatur, voluptatem, sequi molestias ex corrupti architecto eius. Minima quos, totam necessitatibus quidem enim fugiat ipsam?</p>
+            <div class="detailspanel-section" v-if="genreDescription">
+                <p>{{ genreDescription }}</p>
             </div>
             <hr />
             <template v-if="genreData">
                 <div class="detailspanel-section wiki">
-                    <h3>Top Artists for {{ decade }}s in {{ genre }}</h3>
+                    <h3>Defining Voices of the {{ decade }}s in {{ formattedGenre }}</h3>
                     <ul>
                         <li v-for="artistName in genreData.top_artists[0].name.split(', ')" :key="artistName">
                             <button
@@ -33,7 +29,7 @@
                 <div class="wikipedia-iframe-wrap" :class="{ 'is-open': wikiOpen }" ref="wikiContainer"></div>
                 <hr />
                 <div class="detailspanel-section albums">
-                    <h3>Top Albums for {{ decade }}s</h3>
+                    <h3>Must-Hear Albums</h3>
                     <ul>
                         <li v-for="album in genreData.top_albums" :key="album.name + album.artist">
                             <button @click="openYoutube(album.name, album.artist)" :class="{ 'is-active': activeYoutubeAlbum === album.name }">
@@ -47,7 +43,7 @@
                 <div class="video-iframe-wrap" :class="{ 'is-open': youtubeOpen }" ref="youtubeContainer"></div>
                 <hr />
                 <div class="detailspanel-section preview">
-                    <h3>Sample tracks</h3>
+                    <h3>Listen to the Sound</h3>
                     <div class="player-wrap">
                         <button @click="handleRecordClick(genreData.sample_tracks[0]?.artist)">
                             Play Sample Track
@@ -69,6 +65,7 @@
 
 <script setup>
 import { ref, watch, computed, nextTick } from 'vue'
+import genreDescriptions from '../api/genre_descriptions.json'
 
 const props = defineProps({
     genre: {
@@ -84,6 +81,22 @@ const props = defineProps({
 defineEmits(['close'])
 
 const decade = computed(() => props.year ? Math.floor(props.year / 10) * 10 : null)
+
+const formattedGenre = computed(() => {
+    if (!props.genre) return ''
+    return props.genre.split(' ').map(word => word ? word[0].toUpperCase() + word.substring(1) : '').join(' ')
+})
+
+const genreDescription = computed(() => {
+    if (!props.genre) return ''
+
+    const lookupKey = Object.keys(genreDescriptions).find(
+        k => k.toLowerCase() === props.genre.toLowerCase()
+    )
+    
+    return lookupKey ? genreDescriptions[lookupKey] : ''
+})
+
 const loading = ref(false)
 const genreData = ref(null)
 
