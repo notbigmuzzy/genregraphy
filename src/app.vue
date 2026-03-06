@@ -1,5 +1,5 @@
 <template>
-    <PageTitle />
+    <PageTitle :options="options" @update:option="updateOption" />
     <div class="the-frame">
         <Transition name="frame" mode="out-in">
             <LoadPagePanel
@@ -44,6 +44,19 @@ const genres = ref(null)
 const loaded = ref(true)
 const selectedGenre = ref(null)
 const showDetails = ref(false)
+const options = ref({
+    genreNames: true,
+    groupNames: false
+})
+
+const updateOption = (key, val) => {
+    options.value[key] = val
+    if (key === 'genreNames') {
+        options.value.groupNames = !val
+    } else if (key === 'groupNames') {
+        options.value.genreNames = !val
+    }
+}
 
 const getYearFromUrl = () => {
     const params = new URLSearchParams(window.location.search)

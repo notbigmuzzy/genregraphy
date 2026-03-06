@@ -7,7 +7,7 @@
                     <label class="toggle-label">
                         <span>Show genre names</span>
                         <div class="toggle-switch">
-                            <input name="show-genre-names" type="checkbox"/>
+                            <input name="show-genre-names" type="checkbox" :checked="options.genreNames" @change="$emit('update:option', 'genreNames', $event.target.checked)"/>
                             <span class="slider round"></span>
                         </div>
                     </label>
@@ -16,7 +16,7 @@
                     <label class="toggle-label">
                         <span>Show genre groups</span>
                         <div class="toggle-switch">
-                            <input name="show-genre-groups" type="checkbox"/>
+                            <input name="show-genre-groups" type="checkbox" :checked="options.groupNames" @change="$emit('update:option', 'groupNames', $event.target.checked)"/>
                             <span class="slider round"></span>
                         </div>
                     </label>
@@ -32,4 +32,12 @@
 <script setup>
 import { ref } from 'vue'
 
+const props = defineProps({
+    options: {
+        type: Object,
+        required: true
+    }
+})
+
+defineEmits(['update:option'])
 </script>
