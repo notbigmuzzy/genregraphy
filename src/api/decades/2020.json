@@ -3,44 +3,34 @@
 		"progressive rock": {
 			"top_artists": [
 				{
-					"name": "Porcupine Tree",
-					"album_count": 1
+					"name": "Porcupine Tree"
 				},
 				{
-					"name": "Steven Wilson",
-					"album_count": 2
+					"name": "Steven Wilson"
 				},
 				{
-					"name": "Haken",
-					"album_count": 2
+					"name": "Haken"
 				},
 				{
-					"name": "Leprous",
-					"album_count": 2
+					"name": "Leprous"
 				},
 				{
-					"name": "The Mars Volta",
-					"album_count": 1
+					"name": "The Mars Volta"
 				},
 				{
-					"name": "The Smile",
-					"album_count": 2
+					"name": "The Smile"
 				},
 				{
-					"name": "Wobbler",
-					"album_count": 1
+					"name": "Wobbler"
 				},
 				{
-					"name": "Jethro Tull",
-					"album_count": 2
+					"name": "Jethro Tull"
 				},
 				{
-					"name": "Black Midi",
-					"album_count": 2
+					"name": "Black Midi"
 				},
 				{
-					"name": "White Moth Black Butterfly",
-					"album_count": 1
+					"name": "White Moth Black Butterfly"
 				}
 			],
 			"top_albums": [
@@ -81,24 +71,19 @@
 		"rock": {
 			"top_artists": [
 				{
-					"name": "Greta Van Fleet",
-					"album_count": 3
+					"name": "Greta Van Fleet"
 				},
 				{
-					"name": "The War on Drugs",
-					"album_count": 2
+					"name": "The War on Drugs"
 				},
 				{
-					"name": "Fontaines D.C.",
-					"album_count": 2
+					"name": "Fontaines D.C."
 				},
 				{
-					"name": "King Gizzard & the Lizard Wizard",
-					"album_count": 2
+					"name": "King Gizzard & the Lizard Wizard"
 				},
 				{
-					"name": "Wet Leg",
-					"album_count": 1
+					"name": "Wet Leg"
 				}
 			],
 			"top_albums": [
@@ -129,24 +114,19 @@
 		"indie rock": {
 			"top_artists": [
 				{
-					"name": "Phoebe Bridgers",
-					"album_count": 3
+					"name": "Phoebe Bridgers"
 				},
 				{
-					"name": "The 1975",
-					"album_count": 2
+					"name": "The 1975"
 				},
 				{
-					"name": "boygenius",
-					"album_count": 2
+					"name": "boygenius"
 				},
 				{
-					"name": "Fontaines D.C.",
-					"album_count": 2
+					"name": "Fontaines D.C."
 				},
 				{
-					"name": "Dry Cleaning",
-					"album_count": 1
+					"name": "Dry Cleaning"
 				}
 			],
 			"top_albums": [
@@ -177,12 +157,10 @@
 		"rock & roll": {
 			"top_artists": [
 				{
-					"name": "J.D. McPherson",
-					"album_count": 1
+					"name": "J.D. McPherson"
 				},
 				{
-					"name": "The Detroit Cobras",
-					"album_count": 1
+					"name": "The Detroit Cobras"
 				}
 			],
 			"top_albums": [
@@ -203,16 +181,13 @@
 		"psychedelic rock": {
 			"top_artists": [
 				{
-					"name": "King Gizzard & The Lizard Wizard",
-					"album_count": 5
+					"name": "King Gizzard & The Lizard Wizard"
 				},
 				{
-					"name": "Tame Impala",
-					"album_count": 1
+					"name": "Tame Impala"
 				},
 				{
-					"name": "Kikagaku Moyo",
-					"album_count": 1
+					"name": "Kikagaku Moyo"
 				}
 			],
 			"top_albums": [
@@ -238,12 +213,10 @@
 		"britpop": {
 			"top_artists": [
 				{
-					"name": "Liam Gallagher",
-					"album_count": 2
+					"name": "Liam Gallagher"
 				},
 				{
-					"name": "Blur",
-					"album_count": 1
+					"name": "Blur"
 				}
 			],
 			"top_albums": [
@@ -269,16 +242,13 @@
 		"hard rock": {
 			"top_artists": [
 				{
-					"name": "AC/DC",
-					"album_count": 1
+					"name": "AC/DC"
 				},
 				{
-					"name": "The Cult",
-					"album_count": 1
+					"name": "The Cult"
 				},
 				{
-					"name": "Måneskin",
-					"album_count": 1
+					"name": "Måneskin"
 				}
 			],
 			"top_albums": [
@@ -304,24 +274,19 @@
 		"alternative rock": {
 			"top_artists": [
 				{
-					"name": "Twenty One Pilots",
-					"album_count": 3
+					"name": "Twenty One Pilots"
 				},
 				{
-					"name": "Imagine Dragons",
-					"album_count": 2
+					"name": "Imagine Dragons"
 				},
 				{
-					"name": "Wallows",
-					"album_count": 2
+					"name": "Wallows"
 				},
 				{
-					"name": "Glass Animals",
-					"album_count": 2
+					"name": "Glass Animals"
 				},
 				{
-					"name": "Arctic Monkeys",
-					"album_count": 1
+					"name": "Arctic Monkeys"
 				}
 			],
 			"top_albums": [
@@ -352,24 +317,19 @@
 		"post-punk": {
 			"top_artists": [
 				{
-					"name": "IDLES",
-					"album_count": 3
+					"name": "IDLES"
 				},
 				{
-					"name": "Fontaines D.C.",
-					"album_count": 3
+					"name": "Fontaines D.C."
 				},
 				{
-					"name": "Shame",
-					"album_count": 2
+					"name": "Shame"
 				},
 				{
-					"name": "Dry Cleaning",
-					"album_count": 2
+					"name": "Dry Cleaning"
 				},
 				{
-					"name": "Squid",
-					"album_count": 1
+					"name": "Squid"
 				}
 			],
 			"top_albums": [
@@ -400,16 +360,13 @@
 		"new wave": {
 			"top_artists": [
 				{
-					"name": "The Killers",
-					"album_count": 2
+					"name": "The Killers"
 				},
 				{
-					"name": "Nation of Language",
-					"album_count": 2
+					"name": "Nation of Language"
 				},
 				{
-					"name": "Dayglow",
-					"album_count": 1
+					"name": "Dayglow"
 				}
 			],
 			"top_albums": [
@@ -435,24 +392,19 @@
 		"post-rock": {
 			"top_artists": [
 				{
-					"name": "Godspeed You! Black Emperor",
-					"album_count": 3
+					"name": "Godspeed You! Black Emperor"
 				},
 				{
-					"name": "Mogwai",
-					"album_count": 2
+					"name": "Mogwai"
 				},
 				{
-					"name": "Explosions in the Sky",
-					"album_count": 2
+					"name": "Explosions in the Sky"
 				},
 				{
-					"name": "MONO",
-					"album_count": 2
+					"name": "MONO"
 				},
 				{
-					"name": "Caspian",
-					"album_count": 1
+					"name": "Caspian"
 				}
 			],
 			"top_albums": [
@@ -483,24 +435,19 @@
 		"emo": {
 			"top_artists": [
 				{
-					"name": "oso oso",
-					"album_count": 3
+					"name": "oso oso"
 				},
 				{
-					"name": "Home Is Where",
-					"album_count": 2
+					"name": "Home Is Where"
 				},
 				{
-					"name": "Prince Daddy & The Hyena",
-					"album_count": 2
+					"name": "Prince Daddy & The Hyena"
 				},
 				{
-					"name": "Jail Socks",
-					"album_count": 2
+					"name": "Jail Socks"
 				},
 				{
-					"name": "Origami Angel",
-					"album_count": 1
+					"name": "Origami Angel"
 				}
 			],
 			"top_albums": [
@@ -531,24 +478,19 @@
 		"grunge": {
 			"top_artists": [
 				{
-					"name": "Mudhoney",
-					"album_count": 2
+					"name": "Mudhoney"
 				},
 				{
-					"name": "Melvins",
-					"album_count": 2
+					"name": "Melvins"
 				},
 				{
-					"name": "Dinosaur Jr.",
-					"album_count": 2
+					"name": "Dinosaur Jr."
 				},
 				{
-					"name": "Pearl Jam",
-					"album_count": 1
+					"name": "Pearl Jam"
 				},
 				{
-					"name": "Alice in Chains",
-					"album_count": 1
+					"name": "Alice in Chains"
 				}
 			],
 			"top_albums": [
@@ -579,24 +521,19 @@
 		"pop-punk": {
 			"top_artists": [
 				{
-					"name": "Machine Gun Kelly",
-					"album_count": 3
+					"name": "Machine Gun Kelly"
 				},
 				{
-					"name": "YUNGBLUD",
-					"album_count": 2
+					"name": "YUNGBLUD"
 				},
 				{
-					"name": "Waterparks",
-					"album_count": 2
+					"name": "Waterparks"
 				},
 				{
-					"name": "Stand Atlantic",
-					"album_count": 2
+					"name": "Stand Atlantic"
 				},
 				{
-					"name": "Meet Me @ the Altar",
-					"album_count": 1
+					"name": "Meet Me @ the Altar"
 				}
 			],
 			"top_albums": [
@@ -627,24 +564,19 @@
 		"hardcore": {
 			"top_artists": [
 				{
-					"name": "Knocked Loose",
-					"album_count": 3
+					"name": "Knocked Loose"
 				},
 				{
-					"name": "Turnstile",
-					"album_count": 2
+					"name": "Turnstile"
 				},
 				{
-					"name": "Code Orange",
-					"album_count": 2
+					"name": "Code Orange"
 				},
 				{
-					"name": "Gulch",
-					"album_count": 2
+					"name": "Gulch"
 				},
 				{
-					"name": "Jesus Piece",
-					"album_count": 1
+					"name": "Jesus Piece"
 				}
 			],
 			"top_albums": [
@@ -675,24 +607,19 @@
 		"shoegaze": {
 			"top_artists": [
 				{
-					"name": "Slowdive",
-					"album_count": 3
+					"name": "Slowdive"
 				},
 				{
-					"name": "Whirr",
-					"album_count": 2
+					"name": "Whirr"
 				},
 				{
-					"name": "Gleemer",
-					"album_count": 2
+					"name": "Gleemer"
 				},
 				{
-					"name": "Duster",
-					"album_count": 2
+					"name": "Duster"
 				},
 				{
-					"name": "Narrow Head",
-					"album_count": 1
+					"name": "Narrow Head"
 				}
 			],
 			"top_albums": [
@@ -723,24 +650,19 @@
 		"indie pop": {
 			"top_artists": [
 				{
-					"name": "Clairo",
-					"album_count": 3
+					"name": "Clairo"
 				},
 				{
-					"name": "HAIM",
-					"album_count": 2
+					"name": "HAIM"
 				},
 				{
-					"name": "Wallows",
-					"album_count": 2
+					"name": "Wallows"
 				},
 				{
-					"name": "beabadoobee",
-					"album_count": 2
+					"name": "beabadoobee"
 				},
 				{
-					"name": "Remi Wolf",
-					"album_count": 1
+					"name": "Remi Wolf"
 				}
 			],
 			"top_albums": [
@@ -771,24 +693,19 @@
 		"dream pop": {
 			"top_artists": [
 				{
-					"name": "Beach House",
-					"album_count": 3
+					"name": "Beach House"
 				},
 				{
-					"name": "Cigarettes After Sex",
-					"album_count": 2
+					"name": "Cigarettes After Sex"
 				},
 				{
-					"name": "Men I Trust",
-					"album_count": 2
+					"name": "Men I Trust"
 				},
 				{
-					"name": "The Marias",
-					"album_count": 2
+					"name": "The Marias"
 				},
 				{
-					"name": "Japanese Breakfast",
-					"album_count": 1
+					"name": "Japanese Breakfast"
 				}
 			],
 			"top_albums": [
@@ -819,16 +736,13 @@
 		"punk": {
 			"top_artists": [
 				{
-					"name": "The Chats",
-					"album_count": 1
+					"name": "The Chats"
 				},
 				{
-					"name": "Amyl and the Sniffers",
-					"album_count": 1
+					"name": "Amyl and the Sniffers"
 				},
 				{
-					"name": "IDLES",
-					"album_count": 1
+					"name": "IDLES"
 				}
 			],
 			"top_albums": [
@@ -854,24 +768,19 @@
 		"garage rock": {
 			"top_artists": [
 				{
-					"name": "King Gizzard & the Lizard Wizard",
-					"album_count": 3
+					"name": "King Gizzard & the Lizard Wizard"
 				},
 				{
-					"name": "Ty Segall",
-					"album_count": 3
+					"name": "Ty Segall"
 				},
 				{
-					"name": "Black Midi",
-					"album_count": 2
+					"name": "Black Midi"
 				},
 				{
-					"name": "Osees",
-					"album_count": 2
+					"name": "Osees"
 				},
 				{
-					"name": "Wet Leg",
-					"album_count": 1
+					"name": "Wet Leg"
 				}
 			],
 			"top_albums": [
@@ -902,24 +811,19 @@
 		"rockabilly": {
 			"top_artists": [
 				{
-					"name": "The Delta Bombers",
-					"album_count": 2
+					"name": "The Delta Bombers"
 				},
 				{
-					"name": "JD McPherson",
-					"album_count": 1
+					"name": "JD McPherson"
 				},
 				{
-					"name": "Imelda May",
-					"album_count": 1
+					"name": "Imelda May"
 				},
 				{
-					"name": "The Surfrajettes",
-					"album_count": 1
+					"name": "The Surfrajettes"
 				},
 				{
-					"name": "The Deslondes",
-					"album_count": 1
+					"name": "The Deslondes"
 				}
 			],
 			"top_albums": [
@@ -950,24 +854,19 @@
 		"stoner rock": {
 			"top_artists": [
 				{
-					"name": "All Them Witches",
-					"album_count": 3
+					"name": "All Them Witches"
 				},
 				{
-					"name": "Elder",
-					"album_count": 2
+					"name": "Elder"
 				},
 				{
-					"name": "King Buffalo",
-					"album_count": 2
+					"name": "King Buffalo"
 				},
 				{
-					"name": "Khruangbin",
-					"album_count": 2
+					"name": "Khruangbin"
 				},
 				{
-					"name": "Uncle Acid & the Deadbeats",
-					"album_count": 1
+					"name": "Uncle Acid & the Deadbeats"
 				}
 			],
 			"top_albums": [
@@ -1000,24 +899,19 @@
 		"electronic": {
 			"top_artists": [
 				{
-					"name": "Disclosure",
-					"album_count": 3
+					"name": "Disclosure"
 				},
 				{
-					"name": "Flume",
-					"album_count": 2
+					"name": "Flume"
 				},
 				{
-					"name": "ODESZA",
-					"album_count": 2
+					"name": "ODESZA"
 				},
 				{
-					"name": "Kaytranada",
-					"album_count": 2
+					"name": "Kaytranada"
 				},
 				{
-					"name": "Fred again..",
-					"album_count": 1
+					"name": "Fred again.."
 				}
 			],
 			"top_albums": [
@@ -1048,16 +942,13 @@
 		"synth-pop": {
 			"top_artists": [
 				{
-					"name": "The Weeknd",
-					"album_count": 2
+					"name": "The Weeknd"
 				},
 				{
-					"name": "Magdalena Bay",
-					"album_count": 2
+					"name": "Magdalena Bay"
 				},
 				{
-					"name": "Nation of Language",
-					"album_count": 2
+					"name": "Nation of Language"
 				}
 			],
 			"top_albums": [
@@ -1088,20 +979,16 @@
 		"eurodance": {
 			"top_artists": [
 				{
-					"name": "Calvin Harris",
-					"album_count": 2
+					"name": "Calvin Harris"
 				},
 				{
-					"name": "David Guetta",
-					"album_count": 2
+					"name": "David Guetta"
 				},
 				{
-					"name": "Tiësto",
-					"album_count": 2
+					"name": "Tiësto"
 				},
 				{
-					"name": "Bebe Rexha",
-					"album_count": 1
+					"name": "Bebe Rexha"
 				}
 			],
 			"top_albums": [
@@ -1127,24 +1014,19 @@
 		"house": {
 			"top_artists": [
 				{
-					"name": "Disclosure",
-					"album_count": 3
+					"name": "Disclosure"
 				},
 				{
-					"name": "Fred again..",
-					"album_count": 3
+					"name": "Fred again.."
 				},
 				{
-					"name": "The Blessed Madonna",
-					"album_count": 2
+					"name": "The Blessed Madonna"
 				},
 				{
-					"name": "Nora En Pure",
-					"album_count": 2
+					"name": "Nora En Pure"
 				},
 				{
-					"name": "Purple Disco Machine",
-					"album_count": 1
+					"name": "Purple Disco Machine"
 				}
 			],
 			"top_albums": [
@@ -1175,24 +1057,19 @@
 		"techno": {
 			"top_artists": [
 				{
-					"name": "Charlotte de Witte",
-					"album_count": 3
+					"name": "Charlotte de Witte"
 				},
 				{
-					"name": "Amelie Lens",
-					"album_count": 2
+					"name": "Amelie Lens"
 				},
 				{
-					"name": "I Hate Models",
-					"album_count": 2
+					"name": "I Hate Models"
 				},
 				{
-					"name": "ANNA",
-					"album_count": 2
+					"name": "ANNA"
 				},
 				{
-					"name": "Adam Beyer",
-					"album_count": 1
+					"name": "Adam Beyer"
 				}
 			],
 			"top_albums": [
@@ -1223,24 +1100,19 @@
 		"trance": {
 			"top_artists": [
 				{
-					"name": "Armin van Buuren",
-					"album_count": 3
+					"name": "Armin van Buuren"
 				},
 				{
-					"name": "Above & Beyond",
-					"album_count": 2
+					"name": "Above & Beyond"
 				},
 				{
-					"name": "Ferry Corsten",
-					"album_count": 2
+					"name": "Ferry Corsten"
 				},
 				{
-					"name": "Paul van Dyk",
-					"album_count": 2
+					"name": "Paul van Dyk"
 				},
 				{
-					"name": "Aly & Fila",
-					"album_count": 1
+					"name": "Aly & Fila"
 				}
 			],
 			"top_albums": [
@@ -1271,44 +1143,34 @@
 		"electro": {
 			"top_artists": [
 				{
-					"name": "Jensen Interceptor",
-					"album_count": 3
+					"name": "Jensen Interceptor"
 				},
 				{
-					"name": "Helena Hauff",
-					"album_count": 2
+					"name": "Helena Hauff"
 				},
 				{
-					"name": "The Hacker",
-					"album_count": 2
+					"name": "The Hacker"
 				},
 				{
-					"name": "DMX Krew",
-					"album_count": 4
+					"name": "DMX Krew"
 				},
 				{
-					"name": "Locked Groove",
-					"album_count": 1
+					"name": "Locked Groove"
 				},
 				{
-					"name": "Privacy",
-					"album_count": 1
+					"name": "Privacy"
 				},
 				{
-					"name": "Cyan85",
-					"album_count": 3
+					"name": "Cyan85"
 				},
 				{
-					"name": "Lake Haze",
-					"album_count": 2
+					"name": "Lake Haze"
 				},
 				{
-					"name": "Steffi",
-					"album_count": 2
+					"name": "Steffi"
 				},
 				{
-					"name": "Stingray 313",
-					"album_count": 1
+					"name": "Stingray 313"
 				}
 			],
 			"top_albums": [
@@ -1339,24 +1201,19 @@
 		"dubstep": {
 			"top_artists": [
 				{
-					"name": "Skrillex",
-					"album_count": 3
+					"name": "Skrillex"
 				},
 				{
-					"name": "Excision",
-					"album_count": 2
+					"name": "Excision"
 				},
 				{
-					"name": "Virtual Riot",
-					"album_count": 2
+					"name": "Virtual Riot"
 				},
 				{
-					"name": "Subtronics",
-					"album_count": 2
+					"name": "Subtronics"
 				},
 				{
-					"name": "SVDDEN DEATH",
-					"album_count": 1
+					"name": "SVDDEN DEATH"
 				}
 			],
 			"top_albums": [
@@ -1387,24 +1244,19 @@
 		"drum and bass": {
 			"top_artists": [
 				{
-					"name": "Netsky",
-					"album_count": 3
+					"name": "Netsky"
 				},
 				{
-					"name": "Pendulum",
-					"album_count": 2
+					"name": "Pendulum"
 				},
 				{
-					"name": "Sub Focus",
-					"album_count": 2
+					"name": "Sub Focus"
 				},
 				{
-					"name": "Wilkinson",
-					"album_count": 2
+					"name": "Wilkinson"
 				},
 				{
-					"name": "Hybrid Minds",
-					"album_count": 1
+					"name": "Hybrid Minds"
 				}
 			],
 			"top_albums": [
@@ -1435,20 +1287,16 @@
 		"jungle": {
 			"top_artists": [
 				{
-					"name": "Nia Archives",
-					"album_count": 3
+					"name": "Nia Archives"
 				},
 				{
-					"name": "Coco Bryce",
-					"album_count": 2
+					"name": "Coco Bryce"
 				},
 				{
-					"name": "Tim Reaper",
-					"album_count": 2
+					"name": "Tim Reaper"
 				},
 				{
-					"name": "Sherelle",
-					"album_count": 1
+					"name": "Sherelle"
 				}
 			],
 			"top_albums": [
@@ -1474,24 +1322,19 @@
 		"ambient": {
 			"top_artists": [
 				{
-					"name": "Tim Hecker",
-					"album_count": 3
+					"name": "Tim Hecker"
 				},
 				{
-					"name": "Ólafur Arnalds",
-					"album_count": 3
+					"name": "Ólafur Arnalds"
 				},
 				{
-					"name": "Nils Frahm",
-					"album_count": 2
+					"name": "Nils Frahm"
 				},
 				{
-					"name": "Brian Eno",
-					"album_count": 2
+					"name": "Brian Eno"
 				},
 				{
-					"name": "Midori Takada",
-					"album_count": 1
+					"name": "Midori Takada"
 				}
 			],
 			"top_albums": [
@@ -1522,24 +1365,19 @@
 		"idm": {
 			"top_artists": [
 				{
-					"name": "Aphex Twin",
-					"album_count": 3
+					"name": "Aphex Twin"
 				},
 				{
-					"name": "Four Tet",
-					"album_count": 3
+					"name": "Four Tet"
 				},
 				{
-					"name": "Autechre",
-					"album_count": 2
+					"name": "Autechre"
 				},
 				{
-					"name": "Floating Points",
-					"album_count": 2
+					"name": "Floating Points"
 				},
 				{
-					"name": "Arca",
-					"album_count": 1
+					"name": "Arca"
 				}
 			],
 			"top_albums": [
@@ -1570,24 +1408,19 @@
 		"downtempo": {
 			"top_artists": [
 				{
-					"name": "Bonobo",
-					"album_count": 3
+					"name": "Bonobo"
 				},
 				{
-					"name": "Tycho",
-					"album_count": 2
+					"name": "Tycho"
 				},
 				{
-					"name": "Emancipator",
-					"album_count": 2
+					"name": "Emancipator"
 				},
 				{
-					"name": "Kiasmos",
-					"album_count": 2
+					"name": "Kiasmos"
 				},
 				{
-					"name": "Little People",
-					"album_count": 1
+					"name": "Little People"
 				}
 			],
 			"top_albums": [
@@ -1618,20 +1451,16 @@
 		"lounge": {
 			"top_artists": [
 				{
-					"name": "Khruangbin",
-					"album_count": 3
+					"name": "Khruangbin"
 				},
 				{
-					"name": "Pink Martini",
-					"album_count": 2
+					"name": "Pink Martini"
 				},
 				{
-					"name": "Thievery Corporation",
-					"album_count": 1
+					"name": "Thievery Corporation"
 				},
 				{
-					"name": "Polo & Pan",
-					"album_count": 1
+					"name": "Polo & Pan"
 				}
 			],
 			"top_albums": [
@@ -1662,24 +1491,19 @@
 		"trip hop": {
 			"top_artists": [
 				{
-					"name": "Massive Attack",
-					"album_count": 2
+					"name": "Massive Attack"
 				},
 				{
-					"name": "Portishead",
-					"album_count": 2
+					"name": "Portishead"
 				},
 				{
-					"name": "Sneaker Pimps",
-					"album_count": 2
+					"name": "Sneaker Pimps"
 				},
 				{
-					"name": "Thievery Corporation",
-					"album_count": 2
+					"name": "Thievery Corporation"
 				},
 				{
-					"name": "Morcheeba",
-					"album_count": 1
+					"name": "Morcheeba"
 				}
 			],
 			"top_albums": [
@@ -1710,24 +1534,19 @@
 		"industrial": {
 			"top_artists": [
 				{
-					"name": "Nine Inch Nails",
-					"album_count": 3
+					"name": "Nine Inch Nails"
 				},
 				{
-					"name": "HEALTH",
-					"album_count": 3
+					"name": "HEALTH"
 				},
 				{
-					"name": "3TEETH",
-					"album_count": 2
+					"name": "3TEETH"
 				},
 				{
-					"name": "Youth Code",
-					"album_count": 2
+					"name": "Youth Code"
 				},
 				{
-					"name": "Perturbator",
-					"album_count": 1
+					"name": "Perturbator"
 				}
 			],
 			"top_albums": [
@@ -1758,24 +1577,19 @@
 		"synthwave": {
 			"top_artists": [
 				{
-					"name": "Perturbator",
-					"album_count": 3
+					"name": "Perturbator"
 				},
 				{
-					"name": "Carpenter Brut",
-					"album_count": 2
+					"name": "Carpenter Brut"
 				},
 				{
-					"name": "Gunship",
-					"album_count": 2
+					"name": "Gunship"
 				},
 				{
-					"name": "The Midnight",
-					"album_count": 2
+					"name": "The Midnight"
 				},
 				{
-					"name": "Timecop1983",
-					"album_count": 1
+					"name": "Timecop1983"
 				}
 			],
 			"top_albums": [
@@ -1806,24 +1620,19 @@
 		"vaporwave": {
 			"top_artists": [
 				{
-					"name": "猫 シ Corp.",
-					"album_count": 3
+					"name": "猫 シ Corp."
 				},
 				{
-					"name": "Blank Banshee",
-					"album_count": 2
+					"name": "Blank Banshee"
 				},
 				{
-					"name": "Saint Pepsi",
-					"album_count": 2
+					"name": "Saint Pepsi"
 				},
 				{
-					"name": "George Clanton",
-					"album_count": 2
+					"name": "George Clanton"
 				},
 				{
-					"name": "Windows96",
-					"album_count": 1
+					"name": "Windows96"
 				}
 			],
 			"top_albums": [
@@ -1854,24 +1663,19 @@
 		"chillout": {
 			"top_artists": [
 				{
-					"name": "Tycho",
-					"album_count": 3
+					"name": "Tycho"
 				},
 				{
-					"name": "Bonobo",
-					"album_count": 2
+					"name": "Bonobo"
 				},
 				{
-					"name": "Ott",
-					"album_count": 2
+					"name": "Ott"
 				},
 				{
-					"name": "Shpongle",
-					"album_count": 2
+					"name": "Shpongle"
 				},
 				{
-					"name": "Carbon Based Lifeforms",
-					"album_count": 1
+					"name": "Carbon Based Lifeforms"
 				}
 			],
 			"top_albums": [
@@ -1902,24 +1706,19 @@
 		"glitch": {
 			"top_artists": [
 				{
-					"name": "Arca",
-					"album_count": 3
+					"name": "Arca"
 				},
 				{
-					"name": "Oneohtrix Point Never",
-					"album_count": 3
+					"name": "Oneohtrix Point Never"
 				},
 				{
-					"name": "Tim Hecker",
-					"album_count": 2
+					"name": "Tim Hecker"
 				},
 				{
-					"name": "Alva Noto",
-					"album_count": 2
+					"name": "Alva Noto"
 				},
 				{
-					"name": "Fennesz",
-					"album_count": 1
+					"name": "Fennesz"
 				}
 			],
 			"top_albums": [
@@ -1950,24 +1749,19 @@
 		"hardstyle": {
 			"top_artists": [
 				{
-					"name": "Headhunterz",
-					"album_count": 3
+					"name": "Headhunterz"
 				},
 				{
-					"name": "Brennan Heart",
-					"album_count": 2
+					"name": "Brennan Heart"
 				},
 				{
-					"name": "Wildstylez",
-					"album_count": 2
+					"name": "Wildstylez"
 				},
 				{
-					"name": "D-Block & S-te-Fan",
-					"album_count": 2
+					"name": "D-Block & S-te-Fan"
 				},
 				{
-					"name": "Sub Zero Project",
-					"album_count": 1
+					"name": "Sub Zero Project"
 				}
 			],
 			"top_albums": [
@@ -1998,24 +1792,19 @@
 		"chiptune": {
 			"top_artists": [
 				{
-					"name": "Anamanaguchi",
-					"album_count": 3
+					"name": "Anamanaguchi"
 				},
 				{
-					"name": "Chipzel",
-					"album_count": 2
+					"name": "Chipzel"
 				},
 				{
-					"name": "Disasterpeace",
-					"album_count": 2
+					"name": "Disasterpeace"
 				},
 				{
-					"name": "Kubbi",
-					"album_count": 2
+					"name": "Kubbi"
 				},
 				{
-					"name": "Kommisar",
-					"album_count": 1
+					"name": "Kommisar"
 				}
 			],
 			"top_albums": [
@@ -2046,20 +1835,16 @@
 		"breakbeat": {
 			"top_artists": [
 				{
-					"name": "Overmono",
-					"album_count": 2
+					"name": "Overmono"
 				},
 				{
-					"name": "Bicep",
-					"album_count": 1
+					"name": "Bicep"
 				},
 				{
-					"name": "Skee Mask",
-					"album_count": 1
+					"name": "Skee Mask"
 				},
 				{
-					"name": "Special Request",
-					"album_count": 1
+					"name": "Special Request"
 				}
 			],
 			"top_albums": [
@@ -2092,24 +1877,19 @@
 		"g-funk": {
 			"top_artists": [
 				{
-					"name": "Dâm-Funk",
-					"album_count": 1
+					"name": "Dâm-Funk"
 				},
 				{
-					"name": "Snoop Dogg",
-					"album_count": 1
+					"name": "Snoop Dogg"
 				},
 				{
-					"name": "Kokane",
-					"album_count": 1
+					"name": "Kokane"
 				},
 				{
-					"name": "Warren G",
-					"album_count": 1
+					"name": "Warren G"
 				},
 				{
-					"name": "DJ Quik",
-					"album_count": 1
+					"name": "DJ Quik"
 				}
 			],
 			"top_albums": [
@@ -2140,24 +1920,19 @@
 		"hip hop": {
 			"top_artists": [
 				{
-					"name": "Tyler, the Creator",
-					"album_count": 3
+					"name": "Tyler, the Creator"
 				},
 				{
-					"name": "Kendrick Lamar",
-					"album_count": 3
+					"name": "Kendrick Lamar"
 				},
 				{
-					"name": "J. Cole",
-					"album_count": 2
+					"name": "J. Cole"
 				},
 				{
-					"name": "Baby Keem",
-					"album_count": 2
+					"name": "Baby Keem"
 				},
 				{
-					"name": "Denzel Curry",
-					"album_count": 1
+					"name": "Denzel Curry"
 				}
 			],
 			"top_albums": [
@@ -2188,24 +1963,19 @@
 		"trap": {
 			"top_artists": [
 				{
-					"name": "Playboi Carti",
-					"album_count": 3
+					"name": "Playboi Carti"
 				},
 				{
-					"name": "Lil Uzi Vert",
-					"album_count": 3
+					"name": "Lil Uzi Vert"
 				},
 				{
-					"name": "Young Thug",
-					"album_count": 2
+					"name": "Young Thug"
 				},
 				{
-					"name": "Gunna",
-					"album_count": 2
+					"name": "Gunna"
 				},
 				{
-					"name": "Lil Baby",
-					"album_count": 1
+					"name": "Lil Baby"
 				}
 			],
 			"top_albums": [
@@ -2236,20 +2006,16 @@
 		"gangsta rap": {
 			"top_artists": [
 				{
-					"name": "Freddie Gibbs",
-					"album_count": 2
+					"name": "Freddie Gibbs"
 				},
 				{
-					"name": "Benny the Butcher",
-					"album_count": 3
+					"name": "Benny the Butcher"
 				},
 				{
-					"name": "21 Savage",
-					"album_count": 2
+					"name": "21 Savage"
 				},
 				{
-					"name": "Pusha T",
-					"album_count": 1
+					"name": "Pusha T"
 				}
 			],
 			"top_albums": [
@@ -2280,24 +2046,19 @@
 		"boom bap": {
 			"top_artists": [
 				{
-					"name": "Griselda",
-					"album_count": 3
+					"name": "Griselda"
 				},
 				{
-					"name": "Freddie Gibbs",
-					"album_count": 3
+					"name": "Freddie Gibbs"
 				},
 				{
-					"name": "Conway the Machine",
-					"album_count": 2
+					"name": "Conway the Machine"
 				},
 				{
-					"name": "Westside Gunn",
-					"album_count": 2
+					"name": "Westside Gunn"
 				},
 				{
-					"name": "Boldy James",
-					"album_count": 1
+					"name": "Boldy James"
 				}
 			],
 			"top_albums": [
@@ -2328,24 +2089,19 @@
 		"r&b": {
 			"top_artists": [
 				{
-					"name": "The Weeknd",
-					"album_count": 3
+					"name": "The Weeknd"
 				},
 				{
-					"name": "SZA",
-					"album_count": 3
+					"name": "SZA"
 				},
 				{
-					"name": "Brent Faiyaz",
-					"album_count": 2
+					"name": "Brent Faiyaz"
 				},
 				{
-					"name": "Summer Walker",
-					"album_count": 2
+					"name": "Summer Walker"
 				},
 				{
-					"name": "Giveon",
-					"album_count": 1
+					"name": "Giveon"
 				}
 			],
 			"top_albums": [
@@ -2376,24 +2132,19 @@
 		"neo soul": {
 			"top_artists": [
 				{
-					"name": "Anderson .Paak",
-					"album_count": 3
+					"name": "Anderson .Paak"
 				},
 				{
-					"name": "H.E.R.",
-					"album_count": 2
+					"name": "H.E.R."
 				},
 				{
-					"name": "Lucky Daye",
-					"album_count": 2
+					"name": "Lucky Daye"
 				},
 				{
-					"name": "Ari Lennox",
-					"album_count": 2
+					"name": "Ari Lennox"
 				},
 				{
-					"name": "Jazmine Sullivan",
-					"album_count": 1
+					"name": "Jazmine Sullivan"
 				}
 			],
 			"top_albums": [
@@ -2424,24 +2175,19 @@
 		"soul": {
 			"top_artists": [
 				{
-					"name": "Leon Bridges",
-					"album_count": 3
+					"name": "Leon Bridges"
 				},
 				{
-					"name": "Michael Kiwanuka",
-					"album_count": 2
+					"name": "Michael Kiwanuka"
 				},
 				{
-					"name": "Celeste",
-					"album_count": 2
+					"name": "Celeste"
 				},
 				{
-					"name": "Durand Bernarr",
-					"album_count": 2
+					"name": "Durand Bernarr"
 				},
 				{
-					"name": "Curtis Harding",
-					"album_count": 1
+					"name": "Curtis Harding"
 				}
 			],
 			"top_albums": [
@@ -2472,24 +2218,19 @@
 		"motown": {
 			"top_artists": [
 				{
-					"name": "Kem",
-					"album_count": 2
+					"name": "Kem"
 				},
 				{
-					"name": "Tiana Major9",
-					"album_count": 1
+					"name": "Tiana Major9"
 				},
 				{
-					"name": "Asiahn",
-					"album_count": 1
+					"name": "Asiahn"
 				},
 				{
-					"name": "Stevie Wonder",
-					"album_count": 1
+					"name": "Stevie Wonder"
 				},
 				{
-					"name": "Smokey Robinson",
-					"album_count": 1
+					"name": "Smokey Robinson"
 				}
 			],
 			"top_albums": [
@@ -2520,24 +2261,19 @@
 		"soul jazz": {
 			"top_artists": [
 				{
-					"name": "Sault",
-					"album_count": 3
+					"name": "Sault"
 				},
 				{
-					"name": "Nubya Garcia",
-					"album_count": 2
+					"name": "Nubya Garcia"
 				},
 				{
-					"name": "Butcher Brown",
-					"album_count": 2
+					"name": "Butcher Brown"
 				},
 				{
-					"name": "Robert Glasper",
-					"album_count": 2
+					"name": "Robert Glasper"
 				},
 				{
-					"name": "Yussef Dayes",
-					"album_count": 1
+					"name": "Yussef Dayes"
 				}
 			],
 			"top_albums": [
@@ -2568,16 +2304,13 @@
 		"disco": {
 			"top_artists": [
 				{
-					"name": "Dua Lipa",
-					"album_count": 2
+					"name": "Dua Lipa"
 				},
 				{
-					"name": "Jessie Ware",
-					"album_count": 2
+					"name": "Jessie Ware"
 				},
 				{
-					"name": "Kylie Minogue",
-					"album_count": 2
+					"name": "Kylie Minogue"
 				}
 			],
 			"top_albums": [
@@ -2603,24 +2336,19 @@
 		"funk": {
 			"top_artists": [
 				{
-					"name": "Anderson .Paak",
-					"album_count": 3
+					"name": "Anderson .Paak"
 				},
 				{
-					"name": "Silk Sonic",
-					"album_count": 2
+					"name": "Silk Sonic"
 				},
 				{
-					"name": "Vulfpeck",
-					"album_count": 2
+					"name": "Vulfpeck"
 				},
 				{
-					"name": "Thundercat",
-					"album_count": 2
+					"name": "Thundercat"
 				},
 				{
-					"name": "Tom Misch",
-					"album_count": 1
+					"name": "Tom Misch"
 				}
 			],
 			"top_albums": [
@@ -2651,24 +2379,19 @@
 		"lo-fi": {
 			"top_artists": [
 				{
-					"name": "Jinsang",
-					"album_count": 3
+					"name": "Jinsang"
 				},
 				{
-					"name": "Idealism",
-					"album_count": 2
+					"name": "Idealism"
 				},
 				{
-					"name": "Tomppabeats",
-					"album_count": 2
+					"name": "Tomppabeats"
 				},
 				{
-					"name": "SwuM",
-					"album_count": 2
+					"name": "SwuM"
 				},
 				{
-					"name": "Kupla",
-					"album_count": 1
+					"name": "Kupla"
 				}
 			],
 			"top_albums": [
@@ -2701,24 +2424,19 @@
 		"jazz": {
 			"top_artists": [
 				{
-					"name": "Kamasi Washington",
-					"album_count": 3
+					"name": "Kamasi Washington"
 				},
 				{
-					"name": "Robert Glasper",
-					"album_count": 3
+					"name": "Robert Glasper"
 				},
 				{
-					"name": "Thundercat",
-					"album_count": 2
+					"name": "Thundercat"
 				},
 				{
-					"name": "Shabaka Hutchings",
-					"album_count": 2
+					"name": "Shabaka Hutchings"
 				},
 				{
-					"name": "Makaya McCraven",
-					"album_count": 1
+					"name": "Makaya McCraven"
 				}
 			],
 			"top_albums": [
@@ -2749,24 +2467,19 @@
 		"blues": {
 			"top_artists": [
 				{
-					"name": "Gary Clark Jr.",
-					"album_count": 3
+					"name": "Gary Clark Jr."
 				},
 				{
-					"name": "Christone \"Kingfish\" Ingram",
-					"album_count": 2
+					"name": "Christone \"Kingfish\" Ingram"
 				},
 				{
-					"name": "Fantastic Negrito",
-					"album_count": 2
+					"name": "Fantastic Negrito"
 				},
 				{
-					"name": "Marcus King",
-					"album_count": 2
+					"name": "Marcus King"
 				},
 				{
-					"name": "Larkin Poe",
-					"album_count": 1
+					"name": "Larkin Poe"
 				}
 			],
 			"top_albums": [
@@ -2797,12 +2510,10 @@
 		"cool jazz": {
 			"top_artists": [
 				{
-					"name": "Chet Baker",
-					"album_count": 2
+					"name": "Chet Baker"
 				},
 				{
-					"name": "Stan Getz",
-					"album_count": 2
+					"name": "Stan Getz"
 				}
 			],
 			"top_albums": [
@@ -2828,24 +2539,19 @@
 		"hard bop": {
 			"top_artists": [
 				{
-					"name": "Christian McBride",
-					"album_count": 3
+					"name": "Christian McBride"
 				},
 				{
-					"name": "Immanuel Wilkins",
-					"album_count": 2
+					"name": "Immanuel Wilkins"
 				},
 				{
-					"name": "Makaya McCraven",
-					"album_count": 2
+					"name": "Makaya McCraven"
 				},
 				{
-					"name": "Joel Ross",
-					"album_count": 2
+					"name": "Joel Ross"
 				},
 				{
-					"name": "Nubya Garcia",
-					"album_count": 2
+					"name": "Nubya Garcia"
 				}
 			],
 			"top_albums": [
@@ -2876,24 +2582,19 @@
 		"bebop": {
 			"top_artists": [
 				{
-					"name": "Christian McBride",
-					"album_count": 2
+					"name": "Christian McBride"
 				},
 				{
-					"name": "Immanuel Wilkins",
-					"album_count": 1
+					"name": "Immanuel Wilkins"
 				},
 				{
-					"name": "Veronica Swift",
-					"album_count": 1
+					"name": "Veronica Swift"
 				},
 				{
-					"name": "Pasquale Grasso",
-					"album_count": 1
+					"name": "Pasquale Grasso"
 				},
 				{
-					"name": "Benoît Étienne",
-					"album_count": 1
+					"name": "Benoît Étienne"
 				}
 			],
 			"top_albums": [
@@ -2924,24 +2625,19 @@
 		"fusion": {
 			"top_artists": [
 				{
-					"name": "Snarky Puppy",
-					"album_count": 3
+					"name": "Snarky Puppy"
 				},
 				{
-					"name": "Thundercat",
-					"album_count": 3
+					"name": "Thundercat"
 				},
 				{
-					"name": "GoGo Penguin",
-					"album_count": 2
+					"name": "GoGo Penguin"
 				},
 				{
-					"name": "Kamaal Williams",
-					"album_count": 2
+					"name": "Kamaal Williams"
 				},
 				{
-					"name": "Alfa Mist",
-					"album_count": 1
+					"name": "Alfa Mist"
 				}
 			],
 			"top_albums": [
@@ -2972,24 +2668,19 @@
 		"delta blues": {
 			"top_artists": [
 				{
-					"name": "Cedric Burnside",
-					"album_count": 3
+					"name": "Cedric Burnside"
 				},
 				{
-					"name": "Lightnin' Malcolm",
-					"album_count": 2
+					"name": "Lightnin' Malcolm"
 				},
 				{
-					"name": "Sharde Thomas",
-					"album_count": 2
+					"name": "Sharde Thomas"
 				},
 				{
-					"name": "Jimbo Mathus",
-					"album_count": 2
+					"name": "Jimbo Mathus"
 				},
 				{
-					"name": "Cameron Kimbrough",
-					"album_count": 1
+					"name": "Cameron Kimbrough"
 				}
 			],
 			"top_albums": [
@@ -3020,24 +2711,19 @@
 		"ragtime": {
 			"top_artists": [
 				{
-					"name": "Adam Swanson",
-					"album_count": 2
+					"name": "Adam Swanson"
 				},
 				{
-					"name": "Frederick Hodges",
-					"album_count": 2
+					"name": "Frederick Hodges"
 				},
 				{
-					"name": "Reginald Robinson",
-					"album_count": 2
+					"name": "Reginald Robinson"
 				},
 				{
-					"name": "Brian Holland",
-					"album_count": 1
+					"name": "Brian Holland"
 				},
 				{
-					"name": "Virginia Eskin",
-					"album_count": 1
+					"name": "Virginia Eskin"
 				}
 			],
 			"top_albums": [
@@ -3068,24 +2754,19 @@
 		"swing": {
 			"top_artists": [
 				{
-					"name": "Michael Bublé",
-					"album_count": 3
+					"name": "Michael Bublé"
 				},
 				{
-					"name": "Postmodern Jukebox",
-					"album_count": 2
+					"name": "Postmodern Jukebox"
 				},
 				{
-					"name": "Gregory Porter",
-					"album_count": 2
+					"name": "Gregory Porter"
 				},
 				{
-					"name": "Cécile McLorin Salvant",
-					"album_count": 2
+					"name": "Cécile McLorin Salvant"
 				},
 				{
-					"name": "Diana Krall",
-					"album_count": 1
+					"name": "Diana Krall"
 				}
 			],
 			"top_albums": [
@@ -3118,16 +2799,13 @@
 		"traditional pop": {
 			"top_artists": [
 				{
-					"name": "Michael Bublé",
-					"album_count": 2
+					"name": "Michael Bublé"
 				},
 				{
-					"name": "Laufey",
-					"album_count": 2
+					"name": "Laufey"
 				},
 				{
-					"name": "Samara Joy",
-					"album_count": 2
+					"name": "Samara Joy"
 				}
 			],
 			"top_albums": [
@@ -3158,24 +2836,19 @@
 		"pop": {
 			"top_artists": [
 				{
-					"name": "Taylor Swift",
-					"album_count": 3
+					"name": "Taylor Swift"
 				},
 				{
-					"name": "Billie Eilish",
-					"album_count": 3
+					"name": "Billie Eilish"
 				},
 				{
-					"name": "Olivia Rodrigo",
-					"album_count": 2
+					"name": "Olivia Rodrigo"
 				},
 				{
-					"name": "Dua Lipa",
-					"album_count": 2
+					"name": "Dua Lipa"
 				},
 				{
-					"name": "Harry Styles",
-					"album_count": 1
+					"name": "Harry Styles"
 				}
 			],
 			"top_albums": [
@@ -3206,16 +2879,13 @@
 		"surf": {
 			"top_artists": [
 				{
-					"name": "La Luz",
-					"album_count": 2
+					"name": "La Luz"
 				},
 				{
-					"name": "Khruangbin",
-					"album_count": 2
+					"name": "Khruangbin"
 				},
 				{
-					"name": "The Surfrajettes",
-					"album_count": 1
+					"name": "The Surfrajettes"
 				}
 			],
 			"top_albums": [
@@ -3241,24 +2911,19 @@
 		"power pop": {
 			"top_artists": [
 				{
-					"name": "White Reaper",
-					"album_count": 2
+					"name": "White Reaper"
 				},
 				{
-					"name": "2nd Grade",
-					"album_count": 2
+					"name": "2nd Grade"
 				},
 				{
-					"name": "Bad Sounds",
-					"album_count": 1
+					"name": "Bad Sounds"
 				},
 				{
-					"name": "The Beths",
-					"album_count": 1
+					"name": "The Beths"
 				},
 				{
-					"name": "Mo Troper",
-					"album_count": 1
+					"name": "Mo Troper"
 				}
 			],
 			"top_albums": [
@@ -3289,24 +2954,19 @@
 		"teen pop": {
 			"top_artists": [
 				{
-					"name": "Olivia Rodrigo",
-					"album_count": 3
+					"name": "Olivia Rodrigo"
 				},
 				{
-					"name": "Billie Eilish",
-					"album_count": 2
+					"name": "Billie Eilish"
 				},
 				{
-					"name": "Conan Gray",
-					"album_count": 2
+					"name": "Conan Gray"
 				},
 				{
-					"name": "Sabrina Carpenter",
-					"album_count": 2
+					"name": "Sabrina Carpenter"
 				},
 				{
-					"name": "Gracie Abrams",
-					"album_count": 1
+					"name": "Gracie Abrams"
 				}
 			],
 			"top_albums": [
@@ -3337,20 +2997,16 @@
 		"europop": {
 			"top_artists": [
 				{
-					"name": "Dua Lipa",
-					"album_count": 2
+					"name": "Dua Lipa"
 				},
 				{
-					"name": "Kim Petras",
-					"album_count": 2
+					"name": "Kim Petras"
 				},
 				{
-					"name": "Måneskin",
-					"album_count": 2
+					"name": "Måneskin"
 				},
 				{
-					"name": "Rosalía",
-					"album_count": 2
+					"name": "Rosalía"
 				}
 			],
 			"top_albums": [
@@ -3376,24 +3032,19 @@
 		"dance-pop": {
 			"top_artists": [
 				{
-					"name": "Dua Lipa",
-					"album_count": 3
+					"name": "Dua Lipa"
 				},
 				{
-					"name": "Lady Gaga",
-					"album_count": 2
+					"name": "Lady Gaga"
 				},
 				{
-					"name": "Doja Cat",
-					"album_count": 2
+					"name": "Doja Cat"
 				},
 				{
-					"name": "Charli XCX",
-					"album_count": 2
+					"name": "Charli XCX"
 				},
 				{
-					"name": "Rina Sawayama",
-					"album_count": 1
+					"name": "Rina Sawayama"
 				}
 			],
 			"top_albums": [
@@ -3424,24 +3075,19 @@
 		"k-pop": {
 			"top_artists": [
 				{
-					"name": "BTS",
-					"album_count": 3
+					"name": "BTS"
 				},
 				{
-					"name": "BLACKPINK",
-					"album_count": 3
+					"name": "BLACKPINK"
 				},
 				{
-					"name": "TWICE",
-					"album_count": 2
+					"name": "TWICE"
 				},
 				{
-					"name": "Stray Kids",
-					"album_count": 2
+					"name": "Stray Kids"
 				},
 				{
-					"name": "NewJeans",
-					"album_count": 1
+					"name": "NewJeans"
 				}
 			],
 			"top_albums": [
@@ -3472,24 +3118,19 @@
 		"j-pop": {
 			"top_artists": [
 				{
-					"name": "YOASOBI",
-					"album_count": 3
+					"name": "YOASOBI"
 				},
 				{
-					"name": "Official HIGE DANdism",
-					"album_count": 2
+					"name": "Official HIGE DANdism"
 				},
 				{
-					"name": "Ado",
-					"album_count": 2
+					"name": "Ado"
 				},
 				{
-					"name": "King Gnu",
-					"album_count": 2
+					"name": "King Gnu"
 				},
 				{
-					"name": "LiSA",
-					"album_count": 1
+					"name": "LiSA"
 				}
 			],
 			"top_albums": [
@@ -3522,12 +3163,10 @@
 		"acoustic": {
 			"top_artists": [
 				{
-					"name": "Sungha Jung",
-					"album_count": 2
+					"name": "Sungha Jung"
 				},
 				{
-					"name": "Ichika Nito",
-					"album_count": 1
+					"name": "Ichika Nito"
 				}
 			],
 			"top_albums": [
@@ -3548,24 +3187,19 @@
 		"folk": {
 			"top_artists": [
 				{
-					"name": "Bon Iver",
-					"album_count": 3
+					"name": "Bon Iver"
 				},
 				{
-					"name": "Fleet Foxes",
-					"album_count": 2
+					"name": "Fleet Foxes"
 				},
 				{
-					"name": "Big Thief",
-					"album_count": 2
+					"name": "Big Thief"
 				},
 				{
-					"name": "The Lumineers",
-					"album_count": 2
+					"name": "The Lumineers"
 				},
 				{
-					"name": "Lord Huron",
-					"album_count": 1
+					"name": "Lord Huron"
 				}
 			],
 			"top_albums": [
@@ -3596,24 +3230,19 @@
 		"country": {
 			"top_artists": [
 				{
-					"name": "Morgan Wallen",
-					"album_count": 3
+					"name": "Morgan Wallen"
 				},
 				{
-					"name": "Chris Stapleton",
-					"album_count": 3
+					"name": "Chris Stapleton"
 				},
 				{
-					"name": "Luke Combs",
-					"album_count": 2
+					"name": "Luke Combs"
 				},
 				{
-					"name": "Kacey Musgraves",
-					"album_count": 2
+					"name": "Kacey Musgraves"
 				},
 				{
-					"name": "Zach Bryan",
-					"album_count": 1
+					"name": "Zach Bryan"
 				}
 			],
 			"top_albums": [
@@ -3644,20 +3273,16 @@
 		"celtic": {
 			"top_artists": [
 				{
-					"name": "Talisk",
-					"album_count": 2
+					"name": "Talisk"
 				},
 				{
-					"name": "Elephant Sessions",
-					"album_count": 2
+					"name": "Elephant Sessions"
 				},
 				{
-					"name": "Nia Archives",
-					"album_count": 1
+					"name": "Nia Archives"
 				},
 				{
-					"name": "Julie Fowlis",
-					"album_count": 1
+					"name": "Julie Fowlis"
 				}
 			],
 			"top_albums": [
@@ -3683,24 +3308,19 @@
 		"singer-songwriter": {
 			"top_artists": [
 				{
-					"name": "Phoebe Bridgers",
-					"album_count": 3
+					"name": "Phoebe Bridgers"
 				},
 				{
-					"name": "Sufjan Stevens",
-					"album_count": 2
+					"name": "Sufjan Stevens"
 				},
 				{
-					"name": "boygenius",
-					"album_count": 2
+					"name": "boygenius"
 				},
 				{
-					"name": "Julien Baker",
-					"album_count": 2
+					"name": "Julien Baker"
 				},
 				{
-					"name": "Lucy Dacus",
-					"album_count": 1
+					"name": "Lucy Dacus"
 				}
 			],
 			"top_albums": [
@@ -3731,24 +3351,19 @@
 		"americana": {
 			"top_artists": [
 				{
-					"name": "Jason Isbell",
-					"album_count": 3
+					"name": "Jason Isbell"
 				},
 				{
-					"name": "Sturgill Simpson",
-					"album_count": 3
+					"name": "Sturgill Simpson"
 				},
 				{
-					"name": "Tyler Childers",
-					"album_count": 2
+					"name": "Tyler Childers"
 				},
 				{
-					"name": "Colter Wall",
-					"album_count": 2
+					"name": "Colter Wall"
 				},
 				{
-					"name": "Zach Bryan",
-					"album_count": 1
+					"name": "Zach Bryan"
 				}
 			],
 			"top_albums": [
@@ -3781,20 +3396,16 @@
 		"nu metal": {
 			"top_artists": [
 				{
-					"name": "Korn",
-					"album_count": 1
+					"name": "Korn"
 				},
 				{
-					"name": "Deftones",
-					"album_count": 1
+					"name": "Deftones"
 				},
 				{
-					"name": "Nova Twins",
-					"album_count": 1
+					"name": "Nova Twins"
 				},
 				{
-					"name": "Spiritbox",
-					"album_count": 1
+					"name": "Spiritbox"
 				}
 			],
 			"top_albums": [
@@ -3820,24 +3431,19 @@
 		"metal": {
 			"top_artists": [
 				{
-					"name": "Gojira",
-					"album_count": 3
+					"name": "Gojira"
 				},
 				{
-					"name": "Mastodon",
-					"album_count": 2
+					"name": "Mastodon"
 				},
 				{
-					"name": "Tool",
-					"album_count": 2
+					"name": "Tool"
 				},
 				{
-					"name": "Opeth",
-					"album_count": 2
+					"name": "Opeth"
 				},
 				{
-					"name": "Spiritbox",
-					"album_count": 1
+					"name": "Spiritbox"
 				}
 			],
 			"top_albums": [
@@ -3868,24 +3474,19 @@
 		"heavy metal": {
 			"top_artists": [
 				{
-					"name": "Iron Maiden",
-					"album_count": 3
+					"name": "Iron Maiden"
 				},
 				{
-					"name": "Judas Priest",
-					"album_count": 2
+					"name": "Judas Priest"
 				},
 				{
-					"name": "Ghost",
-					"album_count": 2
+					"name": "Ghost"
 				},
 				{
-					"name": "Unleash the Archers",
-					"album_count": 2
+					"name": "Unleash the Archers"
 				},
 				{
-					"name": "Visigoth",
-					"album_count": 1
+					"name": "Visigoth"
 				}
 			],
 			"top_albums": [
@@ -3916,24 +3517,19 @@
 		"thrash metal": {
 			"top_artists": [
 				{
-					"name": "Kreator",
-					"album_count": 3
+					"name": "Kreator"
 				},
 				{
-					"name": "Testament",
-					"album_count": 2
+					"name": "Testament"
 				},
 				{
-					"name": "Overkill",
-					"album_count": 2
+					"name": "Overkill"
 				},
 				{
-					"name": "Power Trip",
-					"album_count": 2
+					"name": "Power Trip"
 				},
 				{
-					"name": "Havok",
-					"album_count": 1
+					"name": "Havok"
 				}
 			],
 			"top_albums": [
@@ -3964,24 +3560,19 @@
 		"black metal": {
 			"top_artists": [
 				{
-					"name": "Deafheaven",
-					"album_count": 3
+					"name": "Deafheaven"
 				},
 				{
-					"name": "Mgła",
-					"album_count": 2
+					"name": "Mgła"
 				},
 				{
-					"name": "Alcest",
-					"album_count": 2
+					"name": "Alcest"
 				},
 				{
-					"name": "Oranssi Pazuzu",
-					"album_count": 2
+					"name": "Oranssi Pazuzu"
 				},
 				{
-					"name": "Wolves in the Throne Room",
-					"album_count": 1
+					"name": "Wolves in the Throne Room"
 				}
 			],
 			"top_albums": [
@@ -4012,24 +3603,19 @@
 		"death metal": {
 			"top_artists": [
 				{
-					"name": "Blood Incantation",
-					"album_count": 3
+					"name": "Blood Incantation"
 				},
 				{
-					"name": "Tomb Mold",
-					"album_count": 2
+					"name": "Tomb Mold"
 				},
 				{
-					"name": "Gatecreeper",
-					"album_count": 2
+					"name": "Gatecreeper"
 				},
 				{
-					"name": "200 Stab Wounds",
-					"album_count": 2
+					"name": "200 Stab Wounds"
 				},
 				{
-					"name": "Undeath",
-					"album_count": 1
+					"name": "Undeath"
 				}
 			],
 			"top_albums": [
@@ -4060,24 +3646,19 @@
 		"doom metal": {
 			"top_artists": [
 				{
-					"name": "Pallbearer",
-					"album_count": 3
+					"name": "Pallbearer"
 				},
 				{
-					"name": "Bell Witch",
-					"album_count": 2
+					"name": "Bell Witch"
 				},
 				{
-					"name": "Khemmis",
-					"album_count": 2
+					"name": "Khemmis"
 				},
 				{
-					"name": "Spirit Adrift",
-					"album_count": 2
+					"name": "Spirit Adrift"
 				},
 				{
-					"name": "Sleep",
-					"album_count": 1
+					"name": "Sleep"
 				}
 			],
 			"top_albums": [
@@ -4108,24 +3689,19 @@
 		"metalcore": {
 			"top_artists": [
 				{
-					"name": "Architects",
-					"album_count": 3
+					"name": "Architects"
 				},
 				{
-					"name": "Knocked Loose",
-					"album_count": 3
+					"name": "Knocked Loose"
 				},
 				{
-					"name": "Spiritbox",
-					"album_count": 2
+					"name": "Spiritbox"
 				},
 				{
-					"name": "Bad Omens",
-					"album_count": 2
+					"name": "Bad Omens"
 				},
 				{
-					"name": "Lorna Shore",
-					"album_count": 1
+					"name": "Lorna Shore"
 				}
 			],
 			"top_albums": [
@@ -4156,24 +3732,19 @@
 		"sludge": {
 			"top_artists": [
 				{
-					"name": "Mastodon",
-					"album_count": 3
+					"name": "Mastodon"
 				},
 				{
-					"name": "Baroness",
-					"album_count": 2
+					"name": "Baroness"
 				},
 				{
-					"name": "Yob",
-					"album_count": 2
+					"name": "Yob"
 				},
 				{
-					"name": "The Ocean",
-					"album_count": 2
+					"name": "The Ocean"
 				},
 				{
-					"name": "Neurosis",
-					"album_count": 1
+					"name": "Neurosis"
 				}
 			],
 			"top_albums": [
@@ -4204,24 +3775,19 @@
 		"grindcore": {
 			"top_artists": [
 				{
-					"name": "Full of Hell",
-					"album_count": 3
+					"name": "Full of Hell"
 				},
 				{
-					"name": "Napalm Death",
-					"album_count": 2
+					"name": "Napalm Death"
 				},
 				{
-					"name": "Pig Destroyer",
-					"album_count": 2
+					"name": "Pig Destroyer"
 				},
 				{
-					"name": "Cloud Rat",
-					"album_count": 2
+					"name": "Cloud Rat"
 				},
 				{
-					"name": "Gridlink",
-					"album_count": 1
+					"name": "Gridlink"
 				}
 			],
 			"top_albums": [
@@ -4252,24 +3818,19 @@
 		"power metal": {
 			"top_artists": [
 				{
-					"name": "Sabaton",
-					"album_count": 3
+					"name": "Sabaton"
 				},
 				{
-					"name": "Powerwolf",
-					"album_count": 3
+					"name": "Powerwolf"
 				},
 				{
-					"name": "Gloryhammer",
-					"album_count": 2
+					"name": "Gloryhammer"
 				},
 				{
-					"name": "Unleash the Archers",
-					"album_count": 2
+					"name": "Unleash the Archers"
 				},
 				{
-					"name": "Beast in Black",
-					"album_count": 1
+					"name": "Beast in Black"
 				}
 			],
 			"top_albums": [
@@ -4300,24 +3861,19 @@
 		"gothic metal": {
 			"top_artists": [
 				{
-					"name": "Nightwish",
-					"album_count": 3
+					"name": "Nightwish"
 				},
 				{
-					"name": "Epica",
-					"album_count": 2
+					"name": "Epica"
 				},
 				{
-					"name": "Lacuna Coil",
-					"album_count": 2
+					"name": "Lacuna Coil"
 				},
 				{
-					"name": "Delain",
-					"album_count": 2
+					"name": "Delain"
 				},
 				{
-					"name": "Within Temptation",
-					"album_count": 1
+					"name": "Within Temptation"
 				}
 			],
 			"top_albums": [
@@ -4350,40 +3906,31 @@
 		"rocksteady": {
 			"top_artists": [
 				{
-					"name": "Chronixx",
-					"album_count": 1
+					"name": "Chronixx"
 				},
 				{
-					"name": "Protoje",
-					"album_count": 2
+					"name": "Protoje"
 				},
 				{
-					"name": "Lila Iké",
-					"album_count": 2
+					"name": "Lila Iké"
 				},
 				{
-					"name": "Koffee",
-					"album_count": 2
+					"name": "Koffee"
 				},
 				{
-					"name": "Beres Hammond",
-					"album_count": 1
+					"name": "Beres Hammond"
 				},
 				{
-					"name": "Etana",
-					"album_count": 2
+					"name": "Etana"
 				},
 				{
-					"name": "Jah9",
-					"album_count": 1
+					"name": "Jah9"
 				},
 				{
-					"name": "Tarrus Riley",
-					"album_count": 1
+					"name": "Tarrus Riley"
 				},
 				{
-					"name": "In Search of Lost Time",
-					"album_count": 1
+					"name": "In Search of Lost Time"
 				}
 			],
 			"top_albums": [
@@ -4414,24 +3961,19 @@
 		"reggae": {
 			"top_artists": [
 				{
-					"name": "Chronixx",
-					"album_count": 3
+					"name": "Chronixx"
 				},
 				{
-					"name": "Protoje",
-					"album_count": 2
+					"name": "Protoje"
 				},
 				{
-					"name": "Koffee",
-					"album_count": 2
+					"name": "Koffee"
 				},
 				{
-					"name": "Buju Banton",
-					"album_count": 2
+					"name": "Buju Banton"
 				},
 				{
-					"name": "Stick Figure",
-					"album_count": 1
+					"name": "Stick Figure"
 				}
 			],
 			"top_albums": [
@@ -4462,24 +4004,19 @@
 		"dancehall": {
 			"top_artists": [
 				{
-					"name": "Popcaan",
-					"album_count": 3
+					"name": "Popcaan"
 				},
 				{
-					"name": "Skillibeng",
-					"album_count": 2
+					"name": "Skillibeng"
 				},
 				{
-					"name": "Shenseea",
-					"album_count": 2
+					"name": "Shenseea"
 				},
 				{
-					"name": "Intence",
-					"album_count": 2
+					"name": "Intence"
 				},
 				{
-					"name": "Vybz Kartel",
-					"album_count": 1
+					"name": "Vybz Kartel"
 				}
 			],
 			"top_albums": [
@@ -4510,24 +4047,19 @@
 		"reggaeton": {
 			"top_artists": [
 				{
-					"name": "Bad Bunny",
-					"album_count": 3
+					"name": "Bad Bunny"
 				},
 				{
-					"name": "J Balvin",
-					"album_count": 3
+					"name": "J Balvin"
 				},
 				{
-					"name": "Daddy Yankee",
-					"album_count": 2
+					"name": "Daddy Yankee"
 				},
 				{
-					"name": "Ozuna",
-					"album_count": 2
+					"name": "Ozuna"
 				},
 				{
-					"name": "Rauw Alejandro",
-					"album_count": 1
+					"name": "Rauw Alejandro"
 				}
 			],
 			"top_albums": [
@@ -4558,16 +4090,13 @@
 		"ska": {
 			"top_artists": [
 				{
-					"name": "The Interrupters",
-					"album_count": 1
+					"name": "The Interrupters"
 				},
 				{
-					"name": "Bad Operation",
-					"album_count": 1
+					"name": "Bad Operation"
 				},
 				{
-					"name": "The Slackers",
-					"album_count": 1
+					"name": "The Slackers"
 				}
 			],
 			"top_albums": [
@@ -4593,24 +4122,19 @@
 		"dub": {
 			"top_artists": [
 				{
-					"name": "Mad Professor",
-					"album_count": 3
+					"name": "Mad Professor"
 				},
 				{
-					"name": "Radikal Guru",
-					"album_count": 2
+					"name": "Radikal Guru"
 				},
 				{
-					"name": "Iration Steppas",
-					"album_count": 2
+					"name": "Iration Steppas"
 				},
 				{
-					"name": "Vibronics",
-					"album_count": 2
+					"name": "Vibronics"
 				},
 				{
-					"name": "Halcyonic",
-					"album_count": 1
+					"name": "Halcyonic"
 				}
 			],
 			"top_albums": [
@@ -4641,24 +4165,19 @@
 		"afrobeats": {
 			"top_artists": [
 				{
-					"name": "Burna Boy",
-					"album_count": 3
+					"name": "Burna Boy"
 				},
 				{
-					"name": "Wizkid",
-					"album_count": 3
+					"name": "Wizkid"
 				},
 				{
-					"name": "Davido",
-					"album_count": 2
+					"name": "Davido"
 				},
 				{
-					"name": "Tems",
-					"album_count": 2
+					"name": "Tems"
 				},
 				{
-					"name": "Rema",
-					"album_count": 1
+					"name": "Rema"
 				}
 			],
 			"top_albums": [
@@ -4689,24 +4208,19 @@
 		"calypso": {
 			"top_artists": [
 				{
-					"name": "Machel Montano",
-					"album_count": 3
+					"name": "Machel Montano"
 				},
 				{
-					"name": "Nailah Blackman",
-					"album_count": 2
+					"name": "Nailah Blackman"
 				},
 				{
-					"name": "Bunji Garlin",
-					"album_count": 2
+					"name": "Bunji Garlin"
 				},
 				{
-					"name": "Patrice Roberts",
-					"album_count": 2
+					"name": "Patrice Roberts"
 				},
 				{
-					"name": "Skinny Fabulous",
-					"album_count": 1
+					"name": "Skinny Fabulous"
 				}
 			],
 			"top_albums": [
@@ -4737,24 +4251,19 @@
 		"merengue": {
 			"top_artists": [
 				{
-					"name": "Juan Luis Guerra",
-					"album_count": 3
+					"name": "Juan Luis Guerra"
 				},
 				{
-					"name": "Eddy Herrera",
-					"album_count": 2
+					"name": "Eddy Herrera"
 				},
 				{
-					"name": "Milly Quezada",
-					"album_count": 2
+					"name": "Milly Quezada"
 				},
 				{
-					"name": "Gabriel Pagan",
-					"album_count": 2
+					"name": "Gabriel Pagan"
 				},
 				{
-					"name": "Manny Cruz",
-					"album_count": 1
+					"name": "Manny Cruz"
 				}
 			],
 			"top_albums": [
@@ -4785,24 +4294,19 @@
 		"bossa nova": {
 			"top_artists": [
 				{
-					"name": "Bebel Gilberto",
-					"album_count": 2
+					"name": "Bebel Gilberto"
 				},
 				{
-					"name": "Ceu",
-					"album_count": 2
+					"name": "Ceu"
 				},
 				{
-					"name": "Eliane Elias",
-					"album_count": 1
+					"name": "Eliane Elias"
 				},
 				{
-					"name": "Marisa Monte",
-					"album_count": 1
+					"name": "Marisa Monte"
 				},
 				{
-					"name": "Liniker",
-					"album_count": 1
+					"name": "Liniker"
 				}
 			],
 			"top_albums": [
@@ -4833,24 +4337,19 @@
 		"latin": {
 			"top_artists": [
 				{
-					"name": "Bad Bunny",
-					"album_count": 3
+					"name": "Bad Bunny"
 				},
 				{
-					"name": "J Balvin",
-					"album_count": 3
+					"name": "J Balvin"
 				},
 				{
-					"name": "Rosalía",
-					"album_count": 2
+					"name": "Rosalía"
 				},
 				{
-					"name": "Karol G",
-					"album_count": 2
+					"name": "Karol G"
 				},
 				{
-					"name": "Rauw Alejandro",
-					"album_count": 1
+					"name": "Rauw Alejandro"
 				}
 			],
 			"top_albums": [
@@ -4881,24 +4380,19 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Rosalía",
-					"album_count": 3
+					"name": "Rosalía"
 				},
 				{
-					"name": "C. Tangana",
-					"album_count": 2
+					"name": "C. Tangana"
 				},
 				{
-					"name": "Diego El Cigala",
-					"album_count": 2
+					"name": "Diego El Cigala"
 				},
 				{
-					"name": "Vicente Amigo",
-					"album_count": 2
+					"name": "Vicente Amigo"
 				},
 				{
-					"name": "Niño de Elche",
-					"album_count": 1
+					"name": "Niño de Elche"
 				}
 			],
 			"top_albums": [
@@ -4929,16 +4423,13 @@
 		"bachata": {
 			"top_artists": [
 				{
-					"name": "Romeo Santos",
-					"album_count": 1
+					"name": "Romeo Santos"
 				},
 				{
-					"name": "Rosalía",
-					"album_count": 1
+					"name": "Rosalía"
 				},
 				{
-					"name": "Prince Royce",
-					"album_count": 1
+					"name": "Prince Royce"
 				}
 			],
 			"top_albums": [
@@ -4959,16 +4450,13 @@
 		"soca": {
 			"top_artists": [
 				{
-					"name": "Machel Montano",
-					"album_count": 2
+					"name": "Machel Montano"
 				},
 				{
-					"name": "Kes",
-					"album_count": 2
+					"name": "Kes"
 				},
 				{
-					"name": "Patrice Roberts",
-					"album_count": 2
+					"name": "Patrice Roberts"
 				}
 			],
 			"top_albums": [
@@ -4991,24 +4479,19 @@
 		"experimental": {
 			"top_artists": [
 				{
-					"name": "100 gecs",
-					"album_count": 3
+					"name": "100 gecs"
 				},
 				{
-					"name": "Arca",
-					"album_count": 3
+					"name": "Arca"
 				},
 				{
-					"name": "black midi",
-					"album_count": 2
+					"name": "black midi"
 				},
 				{
-					"name": "Swans",
-					"album_count": 2
+					"name": "Swans"
 				},
 				{
-					"name": "JPEGMAFIA",
-					"album_count": 1
+					"name": "JPEGMAFIA"
 				}
 			],
 			"top_albums": [
@@ -5039,24 +4522,19 @@
 		"noise": {
 			"top_artists": [
 				{
-					"name": "Merzbow",
-					"album_count": 3
+					"name": "Merzbow"
 				},
 				{
-					"name": "Pharmakon",
-					"album_count": 2
+					"name": "Pharmakon"
 				},
 				{
-					"name": "The Body",
-					"album_count": 2
+					"name": "The Body"
 				},
 				{
-					"name": "Full of Hell",
-					"album_count": 2
+					"name": "Full of Hell"
 				},
 				{
-					"name": "Lingua Ignota",
-					"album_count": 1
+					"name": "Lingua Ignota"
 				}
 			],
 			"top_albums": [
@@ -5087,24 +4565,19 @@
 		"dark ambient": {
 			"top_artists": [
 				{
-					"name": "Lustmord",
-					"album_count": 3
+					"name": "Lustmord"
 				},
 				{
-					"name": "Atrium Carceri",
-					"album_count": 2
+					"name": "Atrium Carceri"
 				},
 				{
-					"name": "Northaunt",
-					"album_count": 2
+					"name": "Northaunt"
 				},
 				{
-					"name": "Kammarheit",
-					"album_count": 2
+					"name": "Kammarheit"
 				},
 				{
-					"name": "Ugasanie",
-					"album_count": 1
+					"name": "Ugasanie"
 				}
 			],
 			"top_albums": [
@@ -5135,24 +4608,19 @@
 		"drone": {
 			"top_artists": [
 				{
-					"name": "Sunn O)))",
-					"album_count": 3
+					"name": "Sunn O)))"
 				},
 				{
-					"name": "Earth",
-					"album_count": 2
+					"name": "Earth"
 				},
 				{
-					"name": "The Haxan Cloak",
-					"album_count": 2
+					"name": "The Haxan Cloak"
 				},
 				{
-					"name": "Grouper",
-					"album_count": 2
+					"name": "Grouper"
 				},
 				{
-					"name": "Tim Hecker",
-					"album_count": 1
+					"name": "Tim Hecker"
 				}
 			],
 			"top_albums": [
@@ -5183,24 +4651,19 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "Björk",
-					"album_count": 3
+					"name": "Björk"
 				},
 				{
-					"name": "Laurie Anderson",
-					"album_count": 2
+					"name": "Laurie Anderson"
 				},
 				{
-					"name": "Holly Herndon",
-					"album_count": 2
+					"name": "Holly Herndon"
 				},
 				{
-					"name": "Oneohtrix Point Never",
-					"album_count": 2
+					"name": "Oneohtrix Point Never"
 				},
 				{
-					"name": "Arca",
-					"album_count": 1
+					"name": "Arca"
 				}
 			],
 			"top_albums": [
@@ -5231,24 +4694,19 @@
 		"modern classical": {
 			"top_artists": [
 				{
-					"name": "Max Richter",
-					"album_count": 3
+					"name": "Max Richter"
 				},
 				{
-					"name": "Ólafur Arnalds",
-					"album_count": 3
+					"name": "Ólafur Arnalds"
 				},
 				{
-					"name": "Nils Frahm",
-					"album_count": 3
+					"name": "Nils Frahm"
 				},
 				{
-					"name": "Anna Thorvaldsdottir",
-					"album_count": 2
+					"name": "Anna Thorvaldsdottir"
 				},
 				{
-					"name": "Hildur Guðnadóttir",
-					"album_count": 2
+					"name": "Hildur Guðnadóttir"
 				}
 			],
 			"top_albums": [
@@ -5279,24 +4737,19 @@
 		"classical": {
 			"top_artists": [
 				{
-					"name": "Max Richter",
-					"album_count": 3
+					"name": "Max Richter"
 				},
 				{
-					"name": "Ólafur Arnalds",
-					"album_count": 2
+					"name": "Ólafur Arnalds"
 				},
 				{
-					"name": "Nils Frahm",
-					"album_count": 2
+					"name": "Nils Frahm"
 				},
 				{
-					"name": "Ludovico Einaudi",
-					"album_count": 2
+					"name": "Ludovico Einaudi"
 				},
 				{
-					"name": "Anna Thorvaldsdottir",
-					"album_count": 1
+					"name": "Anna Thorvaldsdottir"
 				}
 			],
 			"top_albums": [
@@ -5327,24 +4780,19 @@
 		"soundtrack": {
 			"top_artists": [
 				{
-					"name": "Hans Zimmer",
-					"album_count": 3
+					"name": "Hans Zimmer"
 				},
 				{
-					"name": "Ludwig Göransson",
-					"album_count": 3
+					"name": "Ludwig Göransson"
 				},
 				{
-					"name": "Hildur Guðnadóttir",
-					"album_count": 2
+					"name": "Hildur Guðnadóttir"
 				},
 				{
-					"name": "Alexandre Desplat",
-					"album_count": 2
+					"name": "Alexandre Desplat"
 				},
 				{
-					"name": "Trent Reznor & Atticus Ross",
-					"album_count": 1
+					"name": "Trent Reznor & Atticus Ross"
 				}
 			],
 			"top_albums": [

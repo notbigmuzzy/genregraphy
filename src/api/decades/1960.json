@@ -3,44 +3,34 @@
 		"rock": {
 			"top_artists": [
 				{
-					"name": "The Beatles",
-					"album_count": 3
+					"name": "The Beatles"
 				},
 				{
-					"name": "The Rolling Stones",
-					"album_count": 3
+					"name": "The Rolling Stones"
 				},
 				{
-					"name": "The Who",
-					"album_count": 3
+					"name": "The Who"
 				},
 				{
-					"name": "The Kinks",
-					"album_count": 3
+					"name": "The Kinks"
 				},
 				{
-					"name": "Cream",
-					"album_count": 2
+					"name": "Cream"
 				},
 				{
-					"name": "The Yardbirds",
-					"album_count": 2
+					"name": "The Yardbirds"
 				},
 				{
-					"name": "The Animals",
-					"album_count": 2
+					"name": "The Animals"
 				},
 				{
-					"name": "The Byrds",
-					"album_count": 2
+					"name": "The Byrds"
 				},
 				{
-					"name": "Steppenwolf",
-					"album_count": 1
+					"name": "Steppenwolf"
 				},
 				{
-					"name": "The Guess Who",
-					"album_count": 1
+					"name": "The Guess Who"
 				}
 			],
 			"top_albums": [
@@ -71,44 +61,34 @@
 		"rock & roll": {
 			"top_artists": [
 				{
-					"name": "Chuck Berry",
-					"album_count": 3
+					"name": "Chuck Berry"
 				},
 				{
-					"name": "Little Richard",
-					"album_count": 3
+					"name": "Little Richard"
 				},
 				{
-					"name": "Jerry Lee Lewis",
-					"album_count": 2
+					"name": "Jerry Lee Lewis"
 				},
 				{
-					"name": "Gene Vincent",
-					"album_count": 2
+					"name": "Gene Vincent"
 				},
 				{
-					"name": "Eddie Cochran",
-					"album_count": 2
+					"name": "Eddie Cochran"
 				},
 				{
-					"name": "Bo Diddley",
-					"album_count": 2
+					"name": "Bo Diddley"
 				},
 				{
-					"name": "Brenda Lee",
-					"album_count": 2
+					"name": "Brenda Lee"
 				},
 				{
-					"name": "Roy Orbison",
-					"album_count": 2
+					"name": "Roy Orbison"
 				},
 				{
-					"name": "The Everly Brothers",
-					"album_count": 1
+					"name": "The Everly Brothers"
 				},
 				{
-					"name": "Fats Domino",
-					"album_count": 1
+					"name": "Fats Domino"
 				}
 			],
 			"top_albums": [
@@ -139,44 +119,34 @@
 		"rockabilly": {
 			"top_artists": [
 				{
-					"name": "Carl Perkins",
-					"album_count": 3
+					"name": "Carl Perkins"
 				},
 				{
-					"name": "Gene Vincent",
-					"album_count": 2
+					"name": "Gene Vincent"
 				},
 				{
-					"name": "Eddie Cochran",
-					"album_count": 2
+					"name": "Eddie Cochran"
 				},
 				{
-					"name": "Wanda Jackson",
-					"album_count": 2
+					"name": "Wanda Jackson"
 				},
 				{
-					"name": "Johnny Burnette",
-					"album_count": 2
+					"name": "Johnny Burnette"
 				},
 				{
-					"name": "Link Wray",
-					"album_count": 1
+					"name": "Link Wray"
 				},
 				{
-					"name": "Dale Hawkins",
-					"album_count": 1
+					"name": "Dale Hawkins"
 				},
 				{
-					"name": "Charlie Feathers",
-					"album_count": 1
+					"name": "Charlie Feathers"
 				},
 				{
-					"name": "Billy Riley",
-					"album_count": 1
+					"name": "Billy Riley"
 				},
 				{
-					"name": "Conway Twitty",
-					"album_count": 1
+					"name": "Conway Twitty"
 				}
 			],
 			"top_albums": [
@@ -207,44 +177,34 @@
 		"surf": {
 			"top_artists": [
 				{
-					"name": "The Beach Boys",
-					"album_count": 3
+					"name": "The Beach Boys"
 				},
 				{
-					"name": "Dick Dale",
-					"album_count": 3
+					"name": "Dick Dale"
 				},
 				{
-					"name": "The Ventures",
-					"album_count": 3
+					"name": "The Ventures"
 				},
 				{
-					"name": "Jan and Dean",
-					"album_count": 2
+					"name": "Jan and Dean"
 				},
 				{
-					"name": "The Surfaris",
-					"album_count": 2
+					"name": "The Surfaris"
 				},
 				{
-					"name": "The Chantays",
-					"album_count": 1
+					"name": "The Chantays"
 				},
 				{
-					"name": "The Astronauts",
-					"album_count": 1
+					"name": "The Astronauts"
 				},
 				{
-					"name": "The Trashmen",
-					"album_count": 1
+					"name": "The Trashmen"
 				},
 				{
-					"name": "The Rivieras",
-					"album_count": 1
+					"name": "The Rivieras"
 				},
 				{
-					"name": "The Bel-Airs",
-					"album_count": 1
+					"name": "The Bel-Airs"
 				}
 			],
 			"top_albums": [
@@ -275,44 +235,34 @@
 		"garage rock": {
 			"top_artists": [
 				{
-					"name": "The Sonics",
-					"album_count": 3
+					"name": "The Sonics"
 				},
 				{
-					"name": "The Kingsmen",
-					"album_count": 3
+					"name": "The Kingsmen"
 				},
 				{
-					"name": "The Standells",
-					"album_count": 3
+					"name": "The Standells"
 				},
 				{
-					"name": "The Seeds",
-					"album_count": 2
+					"name": "The Seeds"
 				},
 				{
-					"name": "The 13th Floor Elevators",
-					"album_count": 2
+					"name": "The 13th Floor Elevators"
 				},
 				{
-					"name": "The Monks",
-					"album_count": 2
+					"name": "The Monks"
 				},
 				{
-					"name": "The Music Machine",
-					"album_count": 1
+					"name": "The Music Machine"
 				},
 				{
-					"name": "The Troggs",
-					"album_count": 1
+					"name": "The Troggs"
 				},
 				{
-					"name": "Count Five",
-					"album_count": 1
+					"name": "Count Five"
 				},
 				{
-					"name": "Question Mark & the Mysterians",
-					"album_count": 1
+					"name": "Question Mark & the Mysterians"
 				}
 			],
 			"top_albums": [
@@ -343,44 +293,34 @@
 		"psychedelic rock": {
 			"top_artists": [
 				{
-					"name": "Pink Floyd",
-					"album_count": 3
+					"name": "Pink Floyd"
 				},
 				{
-					"name": "The Jimi Hendrix Experience",
-					"album_count": 3
+					"name": "The Jimi Hendrix Experience"
 				},
 				{
-					"name": "Jefferson Airplane",
-					"album_count": 3
+					"name": "Jefferson Airplane"
 				},
 				{
-					"name": "The Doors",
-					"album_count": 3
+					"name": "The Doors"
 				},
 				{
-					"name": "Grateful Dead",
-					"album_count": 2
+					"name": "Grateful Dead"
 				},
 				{
-					"name": "Cream",
-					"album_count": 2
+					"name": "Cream"
 				},
 				{
-					"name": "Love",
-					"album_count": 2
+					"name": "Love"
 				},
 				{
-					"name": "The Velvet Underground",
-					"album_count": 2
+					"name": "The Velvet Underground"
 				},
 				{
-					"name": "Quicksilver Messenger Service",
-					"album_count": 1
+					"name": "Quicksilver Messenger Service"
 				},
 				{
-					"name": "Iron Butterfly",
-					"album_count": 1
+					"name": "Iron Butterfly"
 				}
 			],
 			"top_albums": [
@@ -411,44 +351,34 @@
 		"hard rock": {
 			"top_artists": [
 				{
-					"name": "Led Zeppelin",
-					"album_count": 3
+					"name": "Led Zeppelin"
 				},
 				{
-					"name": "Cream",
-					"album_count": 3
+					"name": "Cream"
 				},
 				{
-					"name": "The Jimi Hendrix Experience",
-					"album_count": 3
+					"name": "The Jimi Hendrix Experience"
 				},
 				{
-					"name": "Steppenwolf",
-					"album_count": 2
+					"name": "Steppenwolf"
 				},
 				{
-					"name": "Blue Cheer",
-					"album_count": 2
+					"name": "Blue Cheer"
 				},
 				{
-					"name": "Deep Purple",
-					"album_count": 1
+					"name": "Deep Purple"
 				},
 				{
-					"name": "Iron Butterfly",
-					"album_count": 1
+					"name": "Iron Butterfly"
 				},
 				{
-					"name": "Vanilla Fudge",
-					"album_count": 1
+					"name": "Vanilla Fudge"
 				},
 				{
-					"name": "Grand Funk Railroad",
-					"album_count": 1
+					"name": "Grand Funk Railroad"
 				},
 				{
-					"name": "The Jeff Beck Group",
-					"album_count": 1
+					"name": "The Jeff Beck Group"
 				}
 			],
 			"top_albums": [
@@ -479,44 +409,34 @@
 		"progressive rock": {
 			"top_artists": [
 				{
-					"name": "King Crimson",
-					"album_count": 3
+					"name": "King Crimson"
 				},
 				{
-					"name": "Pink Floyd",
-					"album_count": 3
+					"name": "Pink Floyd"
 				},
 				{
-					"name": "The Moody Blues",
-					"album_count": 3
+					"name": "The Moody Blues"
 				},
 				{
-					"name": "Procol Harum",
-					"album_count": 2
+					"name": "Procol Harum"
 				},
 				{
-					"name": "The Nice",
-					"album_count": 2
+					"name": "The Nice"
 				},
 				{
-					"name": "Soft Machine",
-					"album_count": 2
+					"name": "Soft Machine"
 				},
 				{
-					"name": "Frank Zappa",
-					"album_count": 2
+					"name": "Frank Zappa"
 				},
 				{
-					"name": "Yes",
-					"album_count": 1
+					"name": "Yes"
 				},
 				{
-					"name": "Genesis",
-					"album_count": 1
+					"name": "Genesis"
 				},
 				{
-					"name": "Jethro Tull",
-					"album_count": 1
+					"name": "Jethro Tull"
 				}
 			],
 			"top_albums": [
@@ -547,44 +467,34 @@
 		"indie": {
 			"top_artists": [
 				{
-					"name": "The Velvet Underground",
-					"album_count": 3
+					"name": "The Velvet Underground"
 				},
 				{
-					"name": "The Monks",
-					"album_count": 2
+					"name": "The Monks"
 				},
 				{
-					"name": "The 13th Floor Elevators",
-					"album_count": 2
+					"name": "The 13th Floor Elevators"
 				},
 				{
-					"name": "The Seeds",
-					"album_count": 2
+					"name": "The Seeds"
 				},
 				{
-					"name": "Love",
-					"album_count": 2
+					"name": "Love"
 				},
 				{
-					"name": "The Silver Apples",
-					"album_count": 1
+					"name": "The Silver Apples"
 				},
 				{
-					"name": "The Shaggs",
-					"album_count": 1
+					"name": "The Shaggs"
 				},
 				{
-					"name": "The United States of America",
-					"album_count": 1
+					"name": "The United States of America"
 				},
 				{
-					"name": "The Fugs",
-					"album_count": 1
+					"name": "The Fugs"
 				},
 				{
-					"name": "The Holy Modal Rounders",
-					"album_count": 1
+					"name": "The Holy Modal Rounders"
 				}
 			],
 			"top_albums": [
@@ -617,44 +527,34 @@
 		"r&b": {
 			"top_artists": [
 				{
-					"name": "Aretha Franklin",
-					"album_count": 3
+					"name": "Aretha Franklin"
 				},
 				{
-					"name": "Ray Charles",
-					"album_count": 3
+					"name": "Ray Charles"
 				},
 				{
-					"name": "James Brown",
-					"album_count": 3
+					"name": "James Brown"
 				},
 				{
-					"name": "Stevie Wonder",
-					"album_count": 2
+					"name": "Stevie Wonder"
 				},
 				{
-					"name": "Marvin Gaye",
-					"album_count": 2
+					"name": "Marvin Gaye"
 				},
 				{
-					"name": "Otis Redding",
-					"album_count": 2
+					"name": "Otis Redding"
 				},
 				{
-					"name": "Sam Cooke",
-					"album_count": 2
+					"name": "Sam Cooke"
 				},
 				{
-					"name": "Wilson Pickett",
-					"album_count": 1
+					"name": "Wilson Pickett"
 				},
 				{
-					"name": "Etta James",
-					"album_count": 1
+					"name": "Etta James"
 				},
 				{
-					"name": "Ike & Tina Turner",
-					"album_count": 1
+					"name": "Ike & Tina Turner"
 				}
 			],
 			"top_albums": [
@@ -685,44 +585,34 @@
 		"soul": {
 			"top_artists": [
 				{
-					"name": "Otis Redding",
-					"album_count": 3
+					"name": "Otis Redding"
 				},
 				{
-					"name": "Sam Cooke",
-					"album_count": 3
+					"name": "Sam Cooke"
 				},
 				{
-					"name": "Aretha Franklin",
-					"album_count": 3
+					"name": "Aretha Franklin"
 				},
 				{
-					"name": "Wilson Pickett",
-					"album_count": 2
+					"name": "Wilson Pickett"
 				},
 				{
-					"name": "Curtis Mayfield",
-					"album_count": 2
+					"name": "Curtis Mayfield"
 				},
 				{
-					"name": "The Impressions",
-					"album_count": 2
+					"name": "The Impressions"
 				},
 				{
-					"name": "Dusty Springfield",
-					"album_count": 2
+					"name": "Dusty Springfield"
 				},
 				{
-					"name": "Solomon Burke",
-					"album_count": 1
+					"name": "Solomon Burke"
 				},
 				{
-					"name": "Percy Sledge",
-					"album_count": 1
+					"name": "Percy Sledge"
 				},
 				{
-					"name": "Al Green",
-					"album_count": 1
+					"name": "Al Green"
 				}
 			],
 			"top_albums": [
@@ -753,44 +643,34 @@
 		"funk": {
 			"top_artists": [
 				{
-					"name": "James Brown",
-					"album_count": 3
+					"name": "James Brown"
 				},
 				{
-					"name": "Sly and the Family Stone",
-					"album_count": 3
+					"name": "Sly and the Family Stone"
 				},
 				{
-					"name": "The Meters",
-					"album_count": 2
+					"name": "The Meters"
 				},
 				{
-					"name": "Dyke & the Blazers",
-					"album_count": 2
+					"name": "Dyke & the Blazers"
 				},
 				{
-					"name": "The J.B.'s",
-					"album_count": 2
+					"name": "The J.B.'s"
 				},
 				{
-					"name": "The Bar-Kays",
-					"album_count": 1
+					"name": "The Bar-Kays"
 				},
 				{
-					"name": "Isley Brothers",
-					"album_count": 1
+					"name": "Isley Brothers"
 				},
 				{
-					"name": "Tower of Power",
-					"album_count": 1
+					"name": "Tower of Power"
 				},
 				{
-					"name": "The Watts 103rd Street Rhythm Band",
-					"album_count": 1
+					"name": "The Watts 103rd Street Rhythm Band"
 				},
 				{
-					"name": "Eddie Bo",
-					"album_count": 1
+					"name": "Eddie Bo"
 				}
 			],
 			"top_albums": [
@@ -821,44 +701,34 @@
 		"motown": {
 			"top_artists": [
 				{
-					"name": "The Supremes",
-					"album_count": 3
+					"name": "The Supremes"
 				},
 				{
-					"name": "The Temptations",
-					"album_count": 3
+					"name": "The Temptations"
 				},
 				{
-					"name": "Marvin Gaye",
-					"album_count": 3
+					"name": "Marvin Gaye"
 				},
 				{
-					"name": "Smokey Robinson & The Miracles",
-					"album_count": 2
+					"name": "Smokey Robinson & The Miracles"
 				},
 				{
-					"name": "The Four Tops",
-					"album_count": 2
+					"name": "The Four Tops"
 				},
 				{
-					"name": "Stevie Wonder",
-					"album_count": 2
+					"name": "Stevie Wonder"
 				},
 				{
-					"name": "Martha and the Vandellas",
-					"album_count": 2
+					"name": "Martha and the Vandellas"
 				},
 				{
-					"name": "The Jackson 5",
-					"album_count": 1
+					"name": "The Jackson 5"
 				},
 				{
-					"name": "Mary Wells",
-					"album_count": 1
+					"name": "Mary Wells"
 				},
 				{
-					"name": "Edwin Starr",
-					"album_count": 1
+					"name": "Edwin Starr"
 				}
 			],
 			"top_albums": [
@@ -891,44 +761,34 @@
 		"jazz": {
 			"top_artists": [
 				{
-					"name": "John Coltrane",
-					"album_count": 3
+					"name": "John Coltrane"
 				},
 				{
-					"name": "Miles Davis",
-					"album_count": 3
+					"name": "Miles Davis"
 				},
 				{
-					"name": "Ornette Coleman",
-					"album_count": 3
+					"name": "Ornette Coleman"
 				},
 				{
-					"name": "Charles Mingus",
-					"album_count": 2
+					"name": "Charles Mingus"
 				},
 				{
-					"name": "Thelonious Monk",
-					"album_count": 2
+					"name": "Thelonious Monk"
 				},
 				{
-					"name": "Herbie Hancock",
-					"album_count": 2
+					"name": "Herbie Hancock"
 				},
 				{
-					"name": "Bill Evans",
-					"album_count": 2
+					"name": "Bill Evans"
 				},
 				{
-					"name": "Archie Shepp",
-					"album_count": 1
+					"name": "Archie Shepp"
 				},
 				{
-					"name": "Sun Ra",
-					"album_count": 1
+					"name": "Sun Ra"
 				},
 				{
-					"name": "Pharoah Sanders",
-					"album_count": 1
+					"name": "Pharoah Sanders"
 				}
 			],
 			"top_albums": [
@@ -959,44 +819,34 @@
 		"blues": {
 			"top_artists": [
 				{
-					"name": "B.B. King",
-					"album_count": 3
+					"name": "B.B. King"
 				},
 				{
-					"name": "Muddy Waters",
-					"album_count": 3
+					"name": "Muddy Waters"
 				},
 				{
-					"name": "Albert King",
-					"album_count": 2
+					"name": "Albert King"
 				},
 				{
-					"name": "Freddie King",
-					"album_count": 2
+					"name": "Freddie King"
 				},
 				{
-					"name": "John Lee Hooker",
-					"album_count": 2
+					"name": "John Lee Hooker"
 				},
 				{
-					"name": "Howlin' Wolf",
-					"album_count": 2
+					"name": "Howlin' Wolf"
 				},
 				{
-					"name": "Buddy Guy",
-					"album_count": 2
+					"name": "Buddy Guy"
 				},
 				{
-					"name": "Junior Wells",
-					"album_count": 1
+					"name": "Junior Wells"
 				},
 				{
-					"name": "Otis Rush",
-					"album_count": 1
+					"name": "Otis Rush"
 				},
 				{
-					"name": "Magic Sam",
-					"album_count": 1
+					"name": "Magic Sam"
 				}
 			],
 			"top_albums": [
@@ -1027,44 +877,34 @@
 		"bebop": {
 			"top_artists": [
 				{
-					"name": "Art Blakey",
-					"album_count": 3
+					"name": "Art Blakey"
 				},
 				{
-					"name": "Cannonball Adderley",
-					"album_count": 3
+					"name": "Cannonball Adderley"
 				},
 				{
-					"name": "Sonny Rollins",
-					"album_count": 3
+					"name": "Sonny Rollins"
 				},
 				{
-					"name": "Horace Silver",
-					"album_count": 2
+					"name": "Horace Silver"
 				},
 				{
-					"name": "Lee Morgan",
-					"album_count": 2
+					"name": "Lee Morgan"
 				},
 				{
-					"name": "Dizzy Gillespie",
-					"album_count": 2
+					"name": "Dizzy Gillespie"
 				},
 				{
-					"name": "Dexter Gordon",
-					"album_count": 2
+					"name": "Dexter Gordon"
 				},
 				{
-					"name": "Freddie Hubbard",
-					"album_count": 1
+					"name": "Freddie Hubbard"
 				},
 				{
-					"name": "Jackie McLean",
-					"album_count": 1
+					"name": "Jackie McLean"
 				},
 				{
-					"name": "Wayne Shorter",
-					"album_count": 1
+					"name": "Wayne Shorter"
 				}
 			],
 			"top_albums": [
@@ -1095,44 +935,34 @@
 		"cool jazz": {
 			"top_artists": [
 				{
-					"name": "Dave Brubeck",
-					"album_count": 3
+					"name": "Dave Brubeck"
 				},
 				{
-					"name": "Stan Getz",
-					"album_count": 3
+					"name": "Stan Getz"
 				},
 				{
-					"name": "Bill Evans",
-					"album_count": 3
+					"name": "Bill Evans"
 				},
 				{
-					"name": "Chet Baker",
-					"album_count": 2
+					"name": "Chet Baker"
 				},
 				{
-					"name": "Paul Desmond",
-					"album_count": 2
+					"name": "Paul Desmond"
 				},
 				{
-					"name": "Jim Hall",
-					"album_count": 2
+					"name": "Jim Hall"
 				},
 				{
-					"name": "The Modern Jazz Quartet",
-					"album_count": 2
+					"name": "The Modern Jazz Quartet"
 				},
 				{
-					"name": "Gerry Mulligan",
-					"album_count": 1
+					"name": "Gerry Mulligan"
 				},
 				{
-					"name": "Astrud Gilberto",
-					"album_count": 1
+					"name": "Astrud Gilberto"
 				},
 				{
-					"name": "Vince Guaraldi",
-					"album_count": 1
+					"name": "Vince Guaraldi"
 				}
 			],
 			"top_albums": [
@@ -1163,44 +993,34 @@
 		"hard bop": {
 			"top_artists": [
 				{
-					"name": "Art Blakey & The Jazz Messengers",
-					"album_count": 5
+					"name": "Art Blakey & The Jazz Messengers"
 				},
 				{
-					"name": "Lee Morgan",
-					"album_count": 4
+					"name": "Lee Morgan"
 				},
 				{
-					"name": "Freddie Hubbard",
-					"album_count": 4
+					"name": "Freddie Hubbard"
 				},
 				{
-					"name": "Wayne Shorter",
-					"album_count": 3
+					"name": "Wayne Shorter"
 				},
 				{
-					"name": "Joe Henderson",
-					"album_count": 3
+					"name": "Joe Henderson"
 				},
 				{
-					"name": "Hank Mobley",
-					"album_count": 3
+					"name": "Hank Mobley"
 				},
 				{
-					"name": "Grant Green",
-					"album_count": 2
+					"name": "Grant Green"
 				},
 				{
-					"name": "McCoy Tyner",
-					"album_count": 2
+					"name": "McCoy Tyner"
 				},
 				{
-					"name": "Bobby Hutcherson",
-					"album_count": 2
+					"name": "Bobby Hutcherson"
 				},
 				{
-					"name": "Donald Byrd",
-					"album_count": 2
+					"name": "Donald Byrd"
 				}
 			],
 			"top_albums": [
@@ -1231,44 +1051,34 @@
 		"fusion": {
 			"top_artists": [
 				{
-					"name": "Miles Davis",
-					"album_count": 3
+					"name": "Miles Davis"
 				},
 				{
-					"name": "Tony Williams",
-					"album_count": 3
+					"name": "Tony Williams"
 				},
 				{
-					"name": "Larry Coryell",
-					"album_count": 2
+					"name": "Larry Coryell"
 				},
 				{
-					"name": "Gary Burton",
-					"album_count": 2
+					"name": "Gary Burton"
 				},
 				{
-					"name": "Soft Machine",
-					"album_count": 2
+					"name": "Soft Machine"
 				},
 				{
-					"name": "Frank Zappa",
-					"album_count": 2
+					"name": "Frank Zappa"
 				},
 				{
-					"name": "John McLaughlin",
-					"album_count": 2
+					"name": "John McLaughlin"
 				},
 				{
-					"name": "Chick Corea",
-					"album_count": 1
+					"name": "Chick Corea"
 				},
 				{
-					"name": "The Free Spirits",
-					"album_count": 1
+					"name": "The Free Spirits"
 				},
 				{
-					"name": "Jeremy Steig",
-					"album_count": 1
+					"name": "Jeremy Steig"
 				}
 			],
 			"top_albums": [
@@ -1299,44 +1109,34 @@
 		"chicago blues": {
 			"top_artists": [
 				{
-					"name": "Muddy Waters",
-					"album_count": 3
+					"name": "Muddy Waters"
 				},
 				{
-					"name": "Howlin' Wolf",
-					"album_count": 2
+					"name": "Howlin' Wolf"
 				},
 				{
-					"name": "Buddy Guy",
-					"album_count": 2
+					"name": "Buddy Guy"
 				},
 				{
-					"name": "Junior Wells",
-					"album_count": 2
+					"name": "Junior Wells"
 				},
 				{
-					"name": "Otis Rush",
-					"album_count": 2
+					"name": "Otis Rush"
 				},
 				{
-					"name": "Magic Sam",
-					"album_count": 2
+					"name": "Magic Sam"
 				},
 				{
-					"name": "Paul Butterfield",
-					"album_count": 2
+					"name": "Paul Butterfield"
 				},
 				{
-					"name": "Little Walter",
-					"album_count": 1
+					"name": "Little Walter"
 				},
 				{
-					"name": "Willie Dixon",
-					"album_count": 1
+					"name": "Willie Dixon"
 				},
 				{
-					"name": "Koko Taylor",
-					"album_count": 1
+					"name": "Koko Taylor"
 				}
 			],
 			"top_albums": [
@@ -1367,44 +1167,34 @@
 		"soul jazz": {
 			"top_artists": [
 				{
-					"name": "Jimmy Smith",
-					"album_count": 3
+					"name": "Jimmy Smith"
 				},
 				{
-					"name": "Cannonball Adderley",
-					"album_count": 3
+					"name": "Cannonball Adderley"
 				},
 				{
-					"name": "Grant Green",
-					"album_count": 2
+					"name": "Grant Green"
 				},
 				{
-					"name": "Lou Donaldson",
-					"album_count": 2
+					"name": "Lou Donaldson"
 				},
 				{
-					"name": "Ramsey Lewis",
-					"album_count": 2
+					"name": "Ramsey Lewis"
 				},
 				{
-					"name": "Eddie Harris",
-					"album_count": 1
+					"name": "Eddie Harris"
 				},
 				{
-					"name": "Les McCann",
-					"album_count": 1
+					"name": "Les McCann"
 				},
 				{
-					"name": "Shirley Scott",
-					"album_count": 1
+					"name": "Shirley Scott"
 				},
 				{
-					"name": "Jack McDuff",
-					"album_count": 1
+					"name": "Jack McDuff"
 				},
 				{
-					"name": "Richard 'Groove' Holmes",
-					"album_count": 1
+					"name": "Richard 'Groove' Holmes"
 				}
 			],
 			"top_albums": [
@@ -1435,24 +1225,19 @@
 		"bossa nova": {
 			"top_artists": [
 				{
-					"name": "João Gilberto",
-					"album_count": 3
+					"name": "João Gilberto"
 				},
 				{
-					"name": "Stan Getz",
-					"album_count": 2
+					"name": "Stan Getz"
 				},
 				{
-					"name": "Antonio Carlos Jobim",
-					"album_count": 2
+					"name": "Antonio Carlos Jobim"
 				},
 				{
-					"name": "Astrud Gilberto",
-					"album_count": 2
+					"name": "Astrud Gilberto"
 				},
 				{
-					"name": "Sergio Mendes",
-					"album_count": 1
+					"name": "Sergio Mendes"
 				}
 			],
 			"top_albums": [
@@ -1483,24 +1268,19 @@
 		"delta blues": {
 			"top_artists": [
 				{
-					"name": "John Lee Hooker",
-					"album_count": 3
+					"name": "John Lee Hooker"
 				},
 				{
-					"name": "Lightnin' Hopkins",
-					"album_count": 3
+					"name": "Lightnin' Hopkins"
 				},
 				{
-					"name": "Son House",
-					"album_count": 2
+					"name": "Son House"
 				},
 				{
-					"name": "Mississippi Fred McDowell",
-					"album_count": 2
+					"name": "Mississippi Fred McDowell"
 				},
 				{
-					"name": "Skip James",
-					"album_count": 1
+					"name": "Skip James"
 				}
 			],
 			"top_albums": [
@@ -1531,24 +1311,19 @@
 		"ragtime": {
 			"top_artists": [
 				{
-					"name": "Max Morath",
-					"album_count": 2
+					"name": "Max Morath"
 				},
 				{
-					"name": "Joshua Rifkin",
-					"album_count": 2
+					"name": "Joshua Rifkin"
 				},
 				{
-					"name": "Dick Hyman",
-					"album_count": 2
+					"name": "Dick Hyman"
 				},
 				{
-					"name": "Eubie Blake",
-					"album_count": 1
+					"name": "Eubie Blake"
 				},
 				{
-					"name": "William Bolcom",
-					"album_count": 1
+					"name": "William Bolcom"
 				}
 			],
 			"top_albums": [
@@ -1579,24 +1354,19 @@
 		"swing": {
 			"top_artists": [
 				{
-					"name": "Count Basie",
-					"album_count": 3
+					"name": "Count Basie"
 				},
 				{
-					"name": "Duke Ellington",
-					"album_count": 3
+					"name": "Duke Ellington"
 				},
 				{
-					"name": "Benny Goodman",
-					"album_count": 2
+					"name": "Benny Goodman"
 				},
 				{
-					"name": "Ella Fitzgerald",
-					"album_count": 2
+					"name": "Ella Fitzgerald"
 				},
 				{
-					"name": "Frank Sinatra",
-					"album_count": 1
+					"name": "Frank Sinatra"
 				}
 			],
 			"top_albums": [
@@ -1629,24 +1399,19 @@
 		"pop": {
 			"top_artists": [
 				{
-					"name": "The Beatles",
-					"album_count": 3
+					"name": "The Beatles"
 				},
 				{
-					"name": "The Beach Boys",
-					"album_count": 2
+					"name": "The Beach Boys"
 				},
 				{
-					"name": "Elvis Presley",
-					"album_count": 2
+					"name": "Elvis Presley"
 				},
 				{
-					"name": "Roy Orbison",
-					"album_count": 2
+					"name": "Roy Orbison"
 				},
 				{
-					"name": "The Everly Brothers",
-					"album_count": 1
+					"name": "The Everly Brothers"
 				}
 			],
 			"top_albums": [
@@ -1677,24 +1442,19 @@
 		"traditional pop": {
 			"top_artists": [
 				{
-					"name": "Frank Sinatra",
-					"album_count": 3
+					"name": "Frank Sinatra"
 				},
 				{
-					"name": "Tony Bennett",
-					"album_count": 2
+					"name": "Tony Bennett"
 				},
 				{
-					"name": "Nat King Cole",
-					"album_count": 2
+					"name": "Nat King Cole"
 				},
 				{
-					"name": "Dean Martin",
-					"album_count": 2
+					"name": "Dean Martin"
 				},
 				{
-					"name": "Ella Fitzgerald",
-					"album_count": 1
+					"name": "Ella Fitzgerald"
 				}
 			],
 			"top_albums": [
@@ -1725,24 +1485,19 @@
 		"power pop": {
 			"top_artists": [
 				{
-					"name": "The Who",
-					"album_count": 3
+					"name": "The Who"
 				},
 				{
-					"name": "The Byrds",
-					"album_count": 2
+					"name": "The Byrds"
 				},
 				{
-					"name": "The Zombies",
-					"album_count": 2
+					"name": "The Zombies"
 				},
 				{
-					"name": "The Small Faces",
-					"album_count": 1
+					"name": "The Small Faces"
 				},
 				{
-					"name": "The Easybeats",
-					"album_count": 1
+					"name": "The Easybeats"
 				}
 			],
 			"top_albums": [
@@ -1773,24 +1528,19 @@
 		"bubblegum pop": {
 			"top_artists": [
 				{
-					"name": "The Archies",
-					"album_count": 2
+					"name": "The Archies"
 				},
 				{
-					"name": "The 1910 Fruitgum Company",
-					"album_count": 2
+					"name": "The 1910 Fruitgum Company"
 				},
 				{
-					"name": "Ohio Express",
-					"album_count": 2
+					"name": "Ohio Express"
 				},
 				{
-					"name": "The Monkees",
-					"album_count": 1
+					"name": "The Monkees"
 				},
 				{
-					"name": "Tommy James and the Shondells",
-					"album_count": 1
+					"name": "Tommy James and the Shondells"
 				}
 			],
 			"top_albums": [
@@ -1823,44 +1573,34 @@
 		"folk": {
 			"top_artists": [
 				{
-					"name": "Bob Dylan",
-					"album_count": 3
+					"name": "Bob Dylan"
 				},
 				{
-					"name": "Joan Baez",
-					"album_count": 3
+					"name": "Joan Baez"
 				},
 				{
-					"name": "Pete Seeger",
-					"album_count": 3
+					"name": "Pete Seeger"
 				},
 				{
-					"name": "Judy Collins",
-					"album_count": 2
+					"name": "Judy Collins"
 				},
 				{
-					"name": "Donovan",
-					"album_count": 2
+					"name": "Donovan"
 				},
 				{
-					"name": "Phil Ochs",
-					"album_count": 2
+					"name": "Phil Ochs"
 				},
 				{
-					"name": "The Kingston Trio",
-					"album_count": 2
+					"name": "The Kingston Trio"
 				},
 				{
-					"name": "Peter, Paul and Mary",
-					"album_count": 2
+					"name": "Peter, Paul and Mary"
 				},
 				{
-					"name": "Simon & Garfunkel",
-					"album_count": 1
+					"name": "Simon & Garfunkel"
 				},
 				{
-					"name": "Fairport Convention",
-					"album_count": 1
+					"name": "Fairport Convention"
 				}
 			],
 			"top_albums": [
@@ -1891,44 +1631,34 @@
 		"country": {
 			"top_artists": [
 				{
-					"name": "Johnny Cash",
-					"album_count": 3
+					"name": "Johnny Cash"
 				},
 				{
-					"name": "Merle Haggard",
-					"album_count": 3
+					"name": "Merle Haggard"
 				},
 				{
-					"name": "Loretta Lynn",
-					"album_count": 3
+					"name": "Loretta Lynn"
 				},
 				{
-					"name": "Buck Owens",
-					"album_count": 2
+					"name": "Buck Owens"
 				},
 				{
-					"name": "Patsy Cline",
-					"album_count": 2
+					"name": "Patsy Cline"
 				},
 				{
-					"name": "Tammy Wynette",
-					"album_count": 2
+					"name": "Tammy Wynette"
 				},
 				{
-					"name": "George Jones",
-					"album_count": 2
+					"name": "George Jones"
 				},
 				{
-					"name": "Glen Campbell",
-					"album_count": 2
+					"name": "Glen Campbell"
 				},
 				{
-					"name": "Roger Miller",
-					"album_count": 1
+					"name": "Roger Miller"
 				},
 				{
-					"name": "Dolly Parton",
-					"album_count": 1
+					"name": "Dolly Parton"
 				}
 			],
 			"top_albums": [
@@ -1959,24 +1689,19 @@
 		"bluegrass": {
 			"top_artists": [
 				{
-					"name": "Bill Monroe",
-					"album_count": 3
+					"name": "Bill Monroe"
 				},
 				{
-					"name": "Flatt & Scruggs",
-					"album_count": 2
+					"name": "Flatt & Scruggs"
 				},
 				{
-					"name": "The Stanley Brothers",
-					"album_count": 2
+					"name": "The Stanley Brothers"
 				},
 				{
-					"name": "Del McCoury",
-					"album_count": 1
+					"name": "Del McCoury"
 				},
 				{
-					"name": "Jim & Jesse",
-					"album_count": 1
+					"name": "Jim & Jesse"
 				}
 			],
 			"top_albums": [
@@ -2007,44 +1732,34 @@
 		"acoustic": {
 			"top_artists": [
 				{
-					"name": "Nick Drake",
-					"album_count": 3
+					"name": "Nick Drake"
 				},
 				{
-					"name": "Bert Jansch",
-					"album_count": 3
+					"name": "Bert Jansch"
 				},
 				{
-					"name": "John Fahey",
-					"album_count": 3
+					"name": "John Fahey"
 				},
 				{
-					"name": "Davy Graham",
-					"album_count": 2
+					"name": "Davy Graham"
 				},
 				{
-					"name": "Jackson C. Frank",
-					"album_count": 2
+					"name": "Jackson C. Frank"
 				},
 				{
-					"name": "The Incredible String Band",
-					"album_count": 2
+					"name": "The Incredible String Band"
 				},
 				{
-					"name": "Tim Buckley",
-					"album_count": 2
+					"name": "Tim Buckley"
 				},
 				{
-					"name": "Pentangle",
-					"album_count": 1
+					"name": "Pentangle"
 				},
 				{
-					"name": "John Renbourn",
-					"album_count": 1
+					"name": "John Renbourn"
 				},
 				{
-					"name": "Dave Van Ronk",
-					"album_count": 1
+					"name": "Dave Van Ronk"
 				}
 			],
 			"top_albums": [
@@ -2075,44 +1790,34 @@
 		"singer-songwriter": {
 			"top_artists": [
 				{
-					"name": "Bob Dylan",
-					"album_count": 3
+					"name": "Bob Dylan"
 				},
 				{
-					"name": "Joni Mitchell",
-					"album_count": 3
+					"name": "Joni Mitchell"
 				},
 				{
-					"name": "Leonard Cohen",
-					"album_count": 3
+					"name": "Leonard Cohen"
 				},
 				{
-					"name": "Tim Buckley",
-					"album_count": 2
+					"name": "Tim Buckley"
 				},
 				{
-					"name": "Nick Drake",
-					"album_count": 2
+					"name": "Nick Drake"
 				},
 				{
-					"name": "Fred Neil",
-					"album_count": 2
+					"name": "Fred Neil"
 				},
 				{
-					"name": "Phil Ochs",
-					"album_count": 2
+					"name": "Phil Ochs"
 				},
 				{
-					"name": "Laura Nyro",
-					"album_count": 1
+					"name": "Laura Nyro"
 				},
 				{
-					"name": "Randy Newman",
-					"album_count": 1
+					"name": "Randy Newman"
 				},
 				{
-					"name": "Van Morrison",
-					"album_count": 1
+					"name": "Van Morrison"
 				}
 			],
 			"top_albums": [
@@ -2143,24 +1848,19 @@
 		"gospel": {
 			"top_artists": [
 				{
-					"name": "Mahalia Jackson",
-					"album_count": 3
+					"name": "Mahalia Jackson"
 				},
 				{
-					"name": "The Staple Singers",
-					"album_count": 2
+					"name": "The Staple Singers"
 				},
 				{
-					"name": "Aretha Franklin",
-					"album_count": 2
+					"name": "Aretha Franklin"
 				},
 				{
-					"name": "Sister Rosetta Tharpe",
-					"album_count": 2
+					"name": "Sister Rosetta Tharpe"
 				},
 				{
-					"name": "The Edwin Hawkins Singers",
-					"album_count": 1
+					"name": "The Edwin Hawkins Singers"
 				}
 			],
 			"top_albums": [
@@ -2191,24 +1891,19 @@
 		"afrobeat": {
 			"top_artists": [
 				{
-					"name": "Fela Kuti",
-					"album_count": 3
+					"name": "Fela Kuti"
 				},
 				{
-					"name": "Tony Allen",
-					"album_count": 2
+					"name": "Tony Allen"
 				},
 				{
-					"name": "Ebo Taylor",
-					"album_count": 1
+					"name": "Ebo Taylor"
 				},
 				{
-					"name": "Orlando Julius",
-					"album_count": 1
+					"name": "Orlando Julius"
 				},
 				{
-					"name": "Geraldo Pino",
-					"album_count": 1
+					"name": "Geraldo Pino"
 				}
 			],
 			"top_albums": [
@@ -2241,24 +1936,19 @@
 		"metal": {
 			"top_artists": [
 				{
-					"name": "Black Sabbath",
-					"album_count": 2
+					"name": "Black Sabbath"
 				},
 				{
-					"name": "Led Zeppelin",
-					"album_count": 2
+					"name": "Led Zeppelin"
 				},
 				{
-					"name": "Deep Purple",
-					"album_count": 2
+					"name": "Deep Purple"
 				},
 				{
-					"name": "Blue Cheer",
-					"album_count": 1
+					"name": "Blue Cheer"
 				},
 				{
-					"name": "Iron Butterfly",
-					"album_count": 1
+					"name": "Iron Butterfly"
 				}
 			],
 			"top_albums": [
@@ -2289,24 +1979,19 @@
 		"heavy metal": {
 			"top_artists": [
 				{
-					"name": "Black Sabbath",
-					"album_count": 2
+					"name": "Black Sabbath"
 				},
 				{
-					"name": "Led Zeppelin",
-					"album_count": 2
+					"name": "Led Zeppelin"
 				},
 				{
-					"name": "Deep Purple",
-					"album_count": 2
+					"name": "Deep Purple"
 				},
 				{
-					"name": "Blue Öyster Cult",
-					"album_count": 1
+					"name": "Blue Öyster Cult"
 				},
 				{
-					"name": "Steppenwolf",
-					"album_count": 1
+					"name": "Steppenwolf"
 				}
 			],
 			"top_albums": [
@@ -2339,44 +2024,34 @@
 		"reggae": {
 			"top_artists": [
 				{
-					"name": "Bob Marley & The Wailers",
-					"album_count": 3
+					"name": "Bob Marley & The Wailers"
 				},
 				{
-					"name": "Toots and the Maytals",
-					"album_count": 3
+					"name": "Toots and the Maytals"
 				},
 				{
-					"name": "Desmond Dekker",
-					"album_count": 3
+					"name": "Desmond Dekker"
 				},
 				{
-					"name": "The Pioneers",
-					"album_count": 2
+					"name": "The Pioneers"
 				},
 				{
-					"name": "Jimmy Cliff",
-					"album_count": 2
+					"name": "Jimmy Cliff"
 				},
 				{
-					"name": "Prince Buster",
-					"album_count": 2
+					"name": "Prince Buster"
 				},
 				{
-					"name": "Alton Ellis",
-					"album_count": 2
+					"name": "Alton Ellis"
 				},
 				{
-					"name": "The Abyssinians",
-					"album_count": 1
+					"name": "The Abyssinians"
 				},
 				{
-					"name": "The Melodians",
-					"album_count": 1
+					"name": "The Melodians"
 				},
 				{
-					"name": "The Heptones",
-					"album_count": 1
+					"name": "The Heptones"
 				}
 			],
 			"top_albums": [
@@ -2407,24 +2082,19 @@
 		"ska": {
 			"top_artists": [
 				{
-					"name": "The Skatalites",
-					"album_count": 3
+					"name": "The Skatalites"
 				},
 				{
-					"name": "Prince Buster",
-					"album_count": 2
+					"name": "Prince Buster"
 				},
 				{
-					"name": "Desmond Dekker",
-					"album_count": 2
+					"name": "Desmond Dekker"
 				},
 				{
-					"name": "The Maytals",
-					"album_count": 2
+					"name": "The Maytals"
 				},
 				{
-					"name": "Laurel Aitken",
-					"album_count": 1
+					"name": "Laurel Aitken"
 				}
 			],
 			"top_albums": [
@@ -2455,44 +2125,34 @@
 		"rocksteady": {
 			"top_artists": [
 				{
-					"name": "Alton Ellis",
-					"album_count": 5
+					"name": "Alton Ellis"
 				},
 				{
-					"name": "The Paragons",
-					"album_count": 4
+					"name": "The Paragons"
 				},
 				{
-					"name": "Ken Boothe",
-					"album_count": 5
+					"name": "Ken Boothe"
 				},
 				{
-					"name": "The Heptones",
-					"album_count": 5
+					"name": "The Heptones"
 				},
 				{
-					"name": "Phyllis Dillon",
-					"album_count": 3
+					"name": "Phyllis Dillon"
 				},
 				{
-					"name": "The Melodians",
-					"album_count": 4
+					"name": "The Melodians"
 				},
 				{
-					"name": "The Gaylads",
-					"album_count": 4
+					"name": "The Gaylads"
 				},
 				{
-					"name": "The Techniques",
-					"album_count": 3
+					"name": "The Techniques"
 				},
 				{
-					"name": "Delroy Wilson",
-					"album_count": 6
+					"name": "Delroy Wilson"
 				},
 				{
-					"name": "The Uniques",
-					"album_count": 3
+					"name": "The Uniques"
 				}
 			],
 			"top_albums": [
@@ -2533,24 +2193,19 @@
 		"dub": {
 			"top_artists": [
 				{
-					"name": "King Tubby",
-					"album_count": 2
+					"name": "King Tubby"
 				},
 				{
-					"name": "Lee \"Scratch\" Perry",
-					"album_count": 2
+					"name": "Lee \"Scratch\" Perry"
 				},
 				{
-					"name": "Augustus Pablo",
-					"album_count": 1
+					"name": "Augustus Pablo"
 				},
 				{
-					"name": "The Upsetters",
-					"album_count": 1
+					"name": "The Upsetters"
 				},
 				{
-					"name": "Scientist",
-					"album_count": 1
+					"name": "Scientist"
 				}
 			],
 			"top_albums": [
@@ -2581,24 +2236,19 @@
 		"calypso": {
 			"top_artists": [
 				{
-					"name": "Mighty Sparrow",
-					"album_count": 3
+					"name": "Mighty Sparrow"
 				},
 				{
-					"name": "Lord Kitchener",
-					"album_count": 3
+					"name": "Lord Kitchener"
 				},
 				{
-					"name": "Harry Belafonte",
-					"album_count": 2
+					"name": "Harry Belafonte"
 				},
 				{
-					"name": "Lord Melody",
-					"album_count": 2
+					"name": "Lord Melody"
 				},
 				{
-					"name": "Roaring Lion",
-					"album_count": 1
+					"name": "Roaring Lion"
 				}
 			],
 			"top_albums": [
@@ -2629,24 +2279,19 @@
 		"merengue": {
 			"top_artists": [
 				{
-					"name": "Joseíto Mateo",
-					"album_count": 3
+					"name": "Joseíto Mateo"
 				},
 				{
-					"name": "El Ciego de Nagua",
-					"album_count": 2
+					"name": "El Ciego de Nagua"
 				},
 				{
-					"name": "Luis Alberti",
-					"album_count": 2
+					"name": "Luis Alberti"
 				},
 				{
-					"name": "Dioris Valladares",
-					"album_count": 2
+					"name": "Dioris Valladares"
 				},
 				{
-					"name": "Rafael Solano",
-					"album_count": 1
+					"name": "Rafael Solano"
 				}
 			],
 			"top_albums": [
@@ -2677,24 +2322,19 @@
 		"latin": {
 			"top_artists": [
 				{
-					"name": "Tito Puente",
-					"album_count": 3
+					"name": "Tito Puente"
 				},
 				{
-					"name": "Celia Cruz",
-					"album_count": 3
+					"name": "Celia Cruz"
 				},
 				{
-					"name": "Pérez Prado",
-					"album_count": 2
+					"name": "Pérez Prado"
 				},
 				{
-					"name": "Eddie Palmieri",
-					"album_count": 2
+					"name": "Eddie Palmieri"
 				},
 				{
-					"name": "Mongo Santamaría",
-					"album_count": 1
+					"name": "Mongo Santamaría"
 				}
 			],
 			"top_albums": [
@@ -2725,24 +2365,19 @@
 		"flamenco": {
 			"top_artists": [
 				{
-					"name": "Paco de Lucía",
-					"album_count": 2
+					"name": "Paco de Lucía"
 				},
 				{
-					"name": "Camarón de la Isla",
-					"album_count": 2
+					"name": "Camarón de la Isla"
 				},
 				{
-					"name": "Sabicas",
-					"album_count": 2
+					"name": "Sabicas"
 				},
 				{
-					"name": "Manolo Sanlúcar",
-					"album_count": 1
+					"name": "Manolo Sanlúcar"
 				},
 				{
-					"name": "Niño Ricardo",
-					"album_count": 1
+					"name": "Niño Ricardo"
 				}
 			],
 			"top_albums": [
@@ -2773,12 +2408,10 @@
 		"bachata": {
 			"top_artists": [
 				{
-					"name": "José Manuel Calderón",
-					"album_count": 2
+					"name": "José Manuel Calderón"
 				},
 				{
-					"name": "Rafael Encarnación",
-					"album_count": 1
+					"name": "Rafael Encarnación"
 				}
 			],
 			"top_albums": [
@@ -2801,24 +2434,19 @@
 		"experimental": {
 			"top_artists": [
 				{
-					"name": "The Velvet Underground",
-					"album_count": 3
+					"name": "The Velvet Underground"
 				},
 				{
-					"name": "Frank Zappa",
-					"album_count": 2
+					"name": "Frank Zappa"
 				},
 				{
-					"name": "Captain Beefheart",
-					"album_count": 2
+					"name": "Captain Beefheart"
 				},
 				{
-					"name": "The Residents",
-					"album_count": 1
+					"name": "The Residents"
 				},
 				{
-					"name": "Silver Apples",
-					"album_count": 1
+					"name": "Silver Apples"
 				}
 			],
 			"top_albums": [
@@ -2849,24 +2477,19 @@
 		"modern classical": {
 			"top_artists": [
 				{
-					"name": "Karlheinz Stockhausen",
-					"album_count": 2
+					"name": "Karlheinz Stockhausen"
 				},
 				{
-					"name": "Pierre Boulez",
-					"album_count": 2
+					"name": "Pierre Boulez"
 				},
 				{
-					"name": "John Cage",
-					"album_count": 2
+					"name": "John Cage"
 				},
 				{
-					"name": "György Ligeti",
-					"album_count": 1
+					"name": "György Ligeti"
 				},
 				{
-					"name": "Luciano Berio",
-					"album_count": 1
+					"name": "Luciano Berio"
 				}
 			],
 			"top_albums": [
@@ -2897,24 +2520,19 @@
 		"minimalism": {
 			"top_artists": [
 				{
-					"name": "Terry Riley",
-					"album_count": 2
+					"name": "Terry Riley"
 				},
 				{
-					"name": "Steve Reich",
-					"album_count": 2
+					"name": "Steve Reich"
 				},
 				{
-					"name": "La Monte Young",
-					"album_count": 2
+					"name": "La Monte Young"
 				},
 				{
-					"name": "Philip Glass",
-					"album_count": 1
+					"name": "Philip Glass"
 				},
 				{
-					"name": "Tony Conrad",
-					"album_count": 1
+					"name": "Tony Conrad"
 				}
 			],
 			"top_albums": [
@@ -2945,24 +2563,19 @@
 		"avant-garde": {
 			"top_artists": [
 				{
-					"name": "John Cage",
-					"album_count": 3
+					"name": "John Cage"
 				},
 				{
-					"name": "Karlheinz Stockhausen",
-					"album_count": 2
+					"name": "Karlheinz Stockhausen"
 				},
 				{
-					"name": "Pierre Boulez",
-					"album_count": 2
+					"name": "Pierre Boulez"
 				},
 				{
-					"name": "Edgard Varèse",
-					"album_count": 2
+					"name": "Edgard Varèse"
 				},
 				{
-					"name": "Olivier Messiaen",
-					"album_count": 1
+					"name": "Olivier Messiaen"
 				}
 			],
 			"top_albums": [
@@ -2993,24 +2606,19 @@
 		"classical": {
 			"top_artists": [
 				{
-					"name": "Igor Stravinsky",
-					"album_count": 3
+					"name": "Igor Stravinsky"
 				},
 				{
-					"name": "Leonard Bernstein",
-					"album_count": 3
+					"name": "Leonard Bernstein"
 				},
 				{
-					"name": "Benjamin Britten",
-					"album_count": 2
+					"name": "Benjamin Britten"
 				},
 				{
-					"name": "Dmitri Shostakovich",
-					"album_count": 2
+					"name": "Dmitri Shostakovich"
 				},
 				{
-					"name": "Aaron Copland",
-					"album_count": 1
+					"name": "Aaron Copland"
 				}
 			],
 			"top_albums": [
@@ -3041,24 +2649,19 @@
 		"soundtrack": {
 			"top_artists": [
 				{
-					"name": "Ennio Morricone",
-					"album_count": 3
+					"name": "Ennio Morricone"
 				},
 				{
-					"name": "Henry Mancini",
-					"album_count": 3
+					"name": "Henry Mancini"
 				},
 				{
-					"name": "John Barry",
-					"album_count": 2
+					"name": "John Barry"
 				},
 				{
-					"name": "Elmer Bernstein",
-					"album_count": 2
+					"name": "Elmer Bernstein"
 				},
 				{
-					"name": "Jerry Goldsmith",
-					"album_count": 1
+					"name": "Jerry Goldsmith"
 				}
 			],
 			"top_albums": [
