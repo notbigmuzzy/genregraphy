@@ -9,7 +9,6 @@
     </div>
 </template>
 
-
 <script setup>
 import Sextant from '../icons/Sextant.vue'
 import Fish from '../icons/Fish.vue'
