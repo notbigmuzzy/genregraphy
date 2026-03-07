@@ -13,7 +13,7 @@
             <hr />
             <template v-if="genreData">
                 <div class="detailspanel-section wiki">
-                    <h3>Defining Voices of the {{ decade }}s in {{ formattedGenre }}</h3>
+                    <h3>Defining Voices of the {{ decade.toString().substring(2, 3) }}0s in {{ formattedGenre }}</h3>
                     <ul>
                         <li v-for="artistName in genreData.top_artists[0].name.split(', ')" :key="artistName">
                             <button
@@ -43,10 +43,13 @@
                 <div class="video-iframe-wrap" :class="{ 'is-open': youtubeOpen }" ref="youtubeContainer"></div>
                 <hr />
                 <div class="detailspanel-section preview">
-                    <h3>Listen to the Sound</h3>
-                    <div class="player-wrap">
-                        <button @click="handleRecordClick(genreData.sample_tracks[0]?.artist)">
-                            Play Sample Track
+                    <h3>Check out the Vibes</h3>
+                    <div class="player-wrap" :class="isPlaying ? 'playing' : null">
+                        <button @click="handleRecordClick(genreData.sample_tracks[0]?.artist)" :disabled="isAudioLoading || isPlaying">
+                            {{ currentTrackName || 'Play Sample Track' }}
+                        </button>
+                        <button v-if="isAudioLoading || isPlaying" @click="stopAudio" class="stop-btn">
+                            {{ isAudioLoading ? 'Loading...' : 'Stop' }}
                         </button>
                         <audio controls id="samplePlayer">
                             <source src="#" type="audio/mpeg">
@@ -126,15 +129,78 @@ const loadDecadeData = async () => {
     }
 }
 
+const isPlaying = ref(false)
+const isAudioLoading = ref(false)
+const currentTrackName = ref(null)
+
+const formatTrackName = (url) => {
+    let path = url;
+    if (path.includes('/items/')) {
+        path = path.split('/items/')[1];
+    } else if (path.includes('/download/')) {
+        path = path.split('/download/')[1];
+    }
+    
+    path = path.replace(/\.[a-zA-Z0-9]+$/, '');
+    path = decodeURIComponent(path);
+    path = path.replace(/[-/]/g, ' ');
+    path = path.replace(/\s+/g, ' ').trim();
+    
+    return path.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
 const handleRecordClick = async (name) => {
+    isAudioLoading.value = true;
     const url = await getAudioUrl(name);
+    
+    if (!isAudioLoading.value) return; 
+
     if (url) {
+        currentTrackName.value = formatTrackName(url);
         const audio = document.getElementById('samplePlayer');
+        
+        audio.oncanplaythrough = null;
+        audio.onended = null;
+        audio.onerror = null;
+
         audio.src = url;
-        audio.play();
-		audio.classList.add('playing');
+        audio.play().then(() => {
+            if (!isAudioLoading.value) { 
+                audio.pause();
+                return;
+            }
+            isAudioLoading.value = false;
+            isPlaying.value = true;
+            audio.classList.add('playing');
+        }).catch(err => {
+            isAudioLoading.value = false;
+            isPlaying.value = false;
+            console.error("Error playing audio.", err);
+        });
+
+        audio.onended = () => {
+            isPlaying.value = false;
+            currentTrackName.value = null;
+            audio.classList.remove('playing');
+        };
     } else {
+        isAudioLoading.value = false;
+        currentTrackName.value = null;
         console.log("No audio found for " + name);
+    }
+}
+
+const stopAudio = () => {
+    isAudioLoading.value = false;
+    isPlaying.value = false;
+    currentTrackName.value = null;
+    
+    const audio = document.getElementById('samplePlayer');
+    if (audio) {
+        audio.pause();
+        audio.removeAttribute('src'); 
+        audio.load();
+        audio.classList.remove('playing');
     }
 }
 
