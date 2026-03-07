@@ -442,11 +442,36 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             .data(groupName => {
                 const groupNodes = nodes.filter(n => n.data.group === groupName && !n.data.isEmpty)
                 if (!groupNodes.length) return []
-                const cx = d3.mean(groupNodes, d => d.x)
-                const cy = d3.mean(groupNodes, d => d.y)
+
                 const minX = d3.min(groupNodes, d => d.x - d.r)
                 const maxX = d3.max(groupNodes, d => d.x + d.r)
-                return [{ name: groupName, x: cx, y: cy, w: maxX - minX }]
+
+                let cx = d3.mean(groupNodes, d => d.x)
+                let cy = d3.mean(groupNodes, d => d.y)
+                let w = maxX - minX
+
+                if (groupName === 'Rhythm & Groove') {
+                    let minPx = Infinity, maxPx = -Infinity, minPy = Infinity, maxPy = -Infinity;
+                    groupNodes.forEach(n => {
+                        const index = nodes.indexOf(n);
+                        const polygon = voronoi.cellPolygon(index);
+                        if (polygon) {
+                            polygon.forEach(p => {
+                                if (p[0] < minPx) minPx = p[0];
+                                if (p[0] > maxPx) maxPx = p[0];
+                                if (p[1] < minPy) minPy = p[1];
+                                if (p[1] > maxPy) maxPy = p[1];
+                            });
+                        }
+                    });
+                    if (minPx !== Infinity) {
+                        cx = (minPx + maxPx) / 2;
+                        cy = (minPy + maxPy) / 1.75;
+                        w = maxPx - minPx;
+                    }
+                }
+
+                return [{ name: groupName, x: cx, y: cy, w: w }]
             }, d => d.name)
             .join(
                 enter => enter.append('text')

@@ -58,7 +58,7 @@
             <template v-else>
                 <div class="detailspanel-section"><p>No data available for the {{ decade }}s.</p></div>
             </template>
-            <hr />
+            <br />
         </div>
     </div>
 </template>

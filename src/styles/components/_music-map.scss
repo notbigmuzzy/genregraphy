@@ -40,6 +40,13 @@
             }
         }
 
+        .genre-group-rhythm-groove {
+            .group-label {
+                transform: scale(0.6);
+                transform-origin: center;
+            }
+        }
+
         .shape-blob {
             stroke-width: 0px;
             stroke-linejoin: round;
