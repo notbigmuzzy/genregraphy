@@ -1841,6 +1841,37 @@
 				}
 			]
 		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Buddy Guy, Junior Wells, Koko Taylor, Lonnie Brooks, Shemekia Copeland, Magic Slim & The Teardrops, James Cotton, Charlie Musselwhite"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Damn Right, I've Got the Blues",
+					"artist": "Buddy Guy",
+					"year": "1991"
+				},
+				{
+					"name": "Force of Nature",
+					"artist": "Koko Taylor",
+					"year": "1993"
+				},
+				{
+					"name": "Turn the Heat Up!",
+					"artist": "Shemekia Copeland",
+					"year": "1998"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Damn Right, I've Got the Blues",
+					"artist": "Buddy Guy",
+					"album": "Damn Right, I've Got the Blues"
+				}
+			]
+		},
 		"cool jazz": {
 			"top_artists": [
 				{
@@ -2331,6 +2362,37 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "Kirk Franklin, Fred Hammond, CeCe Winans, Yolanda Adams, Donnie McClurkin, Mary Mary, Hezekiah Walker, John P. Kee, Jars of Clay, Michael W. Smith"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Kirk Franklin and the Family",
+					"artist": "Kirk Franklin",
+					"year": "1993"
+				},
+				{
+					"name": "Pages of Life - Chapters I & II",
+					"artist": "Fred Hammond",
+					"year": "1998"
+				},
+				{
+					"name": "Mountain High... Valley Low",
+					"artist": "Yolanda Adams",
+					"year": "1999"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Stomp",
+					"artist": "Kirk Franklin",
+					"album": "God's Property"
+				}
+			]
+		},
 		"acoustic": {
 			"top_artists": [
 				{

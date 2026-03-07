@@ -1,7 +1,9 @@
 <template>
     <div class="details-panel">
         <button class="close-panel" @click="$emit('close')">
-            <span>←</span><span>←</span><span>←</span>
+            <div>
+                <span>←</span><span>←</span><span>←</span>
+            </div>
         </button>
         <div class="details-area">
             <div class="detailspanel-section title">

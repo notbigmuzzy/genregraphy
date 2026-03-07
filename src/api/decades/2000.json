@@ -1748,6 +1748,37 @@
 				}
 			]
 		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Buddy Guy, Koko Taylor, Lonnie Brooks, Shemekia Copeland, Magic Slim, Lil' Ed & The Blues Imperials, Eddy Clearwater, Lurrie Bell"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Sweet Tea",
+					"artist": "Buddy Guy",
+					"year": "2001"
+				},
+				{
+					"name": "The Wicked Messenger",
+					"artist": "Shemekia Copeland",
+					"year": "2002"
+				},
+				{
+					"name": "Old School",
+					"artist": "Koko Taylor",
+					"year": "2007"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Done Got Old",
+					"artist": "Buddy Guy",
+					"album": "Sweet Tea"
+				}
+			]
+		},
 		"cool jazz": {
 			"top_artists": [
 				{
@@ -2233,6 +2264,37 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "Kirk Franklin, Mary Mary, Donnie McClurkin, Marvin Sapp, Israel Houghton, Tye Tribbett, Smokie Norful, Byron Cage, Casting Crowns, Chris Tomlin"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Rebirth of Kirk Franklin",
+					"artist": "Kirk Franklin",
+					"year": "2002"
+				},
+				{
+					"name": "Thankful",
+					"artist": "Mary Mary",
+					"year": "2000"
+				},
+				{
+					"name": "Never Would Have Made It",
+					"artist": "Marvin Sapp",
+					"year": "2007"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Shackles (Praise You)",
+					"artist": "Mary Mary",
+					"album": "Thankful"
+				}
+			]
+		},
 		"acoustic": {
 			"top_artists": [
 				{

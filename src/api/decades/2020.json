@@ -1826,6 +1826,37 @@
 				}
 			]
 		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Buddy Guy, Shemekia Copeland, Christone 'Kingfish' Ingram, Rick Estrin & The Nightcats, The Cash Box Kings"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Blues Don't Lie",
+					"artist": "Buddy Guy",
+					"year": "2022"
+				},
+				{
+					"name": "Done Come Too Far",
+					"artist": "Shemekia Copeland",
+					"year": "2022"
+				},
+				{
+					"name": "662",
+					"artist": "Christone \"Kingfish\" Ingram",
+					"year": "2021"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Gunsmoke Blues",
+					"artist": "Buddy Guy",
+					"album": "The Blues Don't Lie"
+				}
+			]
+		},
 		"cool jazz": {
 			"top_artists": [
 				{
@@ -2311,6 +2342,37 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "Maverick City Music, Elevation Worship, Tye Tribbett, CeCe Winans, Tasha Cobbs Leonard, DOE, Jonathan McReynolds"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Old Church Basement",
+					"artist": "Elevation Worship & Maverick City Music",
+					"year": "2021"
+				},
+				{
+					"name": "Believe For It",
+					"artist": "CeCe Winans",
+					"year": "2021"
+				},
+				{
+					"name": "All Things New",
+					"artist": "Tye Tribbett",
+					"year": "2022"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Jireh",
+					"artist": "Elevation Worship & Maverick City Music",
+					"album": "Old Church Basement"
+				}
+			]
+		},
 		"acoustic": {
 			"top_artists": [
 				{

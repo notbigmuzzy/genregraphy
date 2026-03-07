@@ -1358,6 +1358,37 @@
 				}
 			]
 		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Buddy Guy, Junior Wells, Koko Taylor, Son Seals, Lonnie Brooks, Albert Collins, James Cotton, Lil' Ed & The Blues Imperials, Magic Slim, Carey Bell"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Stone Crazy!",
+					"artist": "Buddy Guy",
+					"year": "1981"
+				},
+				{
+					"name": "Queen of the Blues",
+					"artist": "Koko Taylor",
+					"year": "1985"
+				},
+				{
+					"name": "Bad Axe",
+					"artist": "Son Seals",
+					"year": "1984"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "I'm a Blues Man",
+					"artist": "Buddy Guy",
+					"album": "Stone Crazy!"
+				}
+			]
+		},
 		"cool jazz": {
 			"top_artists": [
 				{
@@ -1822,6 +1853,37 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "The Winans, Amy Grant, Sandi Patty, BeBe & CeCe Winans, Commissioned, Take 6, Tramaine Hawkins, Larnelle Harris, Shirley Caesar, Petra"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Let My People Go",
+					"artist": "The Winans",
+					"year": "1985"
+				},
+				{
+					"name": "Age to Age",
+					"artist": "Amy Grant",
+					"year": "1982"
+				},
+				{
+					"name": "Heaven",
+					"artist": "BeBe & CeCe Winans",
+					"year": "1988"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Tomorrow",
+					"artist": "The Winans",
+					"album": "Let My People Go"
+				}
+			]
+		},
 		"acoustic": {
 			"top_artists": [
 				{

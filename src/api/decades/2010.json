@@ -1841,6 +1841,37 @@
 				}
 			]
 		},
+		"chicago blues": {
+			"top_artists": [
+				{
+					"name": "Buddy Guy, Shemekia Copeland, Toronzo Cannon, Lil' Ed & The Blues Imperials, Ronnie Baker Brooks, Billy Branch"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Blues Is Alive and Well",
+					"artist": "Buddy Guy",
+					"year": "2018"
+				},
+				{
+					"name": "The Chicago Way",
+					"artist": "Toronzo Cannon",
+					"year": "2016"
+				},
+				{
+					"name": "Outskirts of Love",
+					"artist": "Shemekia Copeland",
+					"year": "2015"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Cognac",
+					"artist": "Buddy Guy",
+					"album": "The Blues Is Alive and Well"
+				}
+			]
+		},
 		"cool jazz": {
 			"top_artists": [
 				{
@@ -2321,6 +2352,37 @@
 		}
 	},
 	"Folk & Acoustics": {
+		"gospel": {
+			"top_artists": [
+				{
+					"name": "Lecrae, Tasha Cobbs Leonard, Travis Greene, Tamela Mann, Anthony Brown, Jonathan McReynolds, Elevation Worship, Hillsong United, Maverick City Music, Kanye West"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Anomaly",
+					"artist": "Lecrae",
+					"year": "2014"
+				},
+				{
+					"name": "Grace",
+					"artist": "Tasha Cobbs",
+					"year": "2013"
+				},
+				{
+					"name": "Jesus Is King",
+					"artist": "Kanye West",
+					"year": "2019"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Break Every Chain",
+					"artist": "Tasha Cobbs Leonard",
+					"album": "Grace"
+				}
+			]
+		},
 		"acoustic": {
 			"top_artists": [
 				{
