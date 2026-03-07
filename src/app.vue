@@ -15,7 +15,7 @@
                 :continents="continents"
                 :options="options"
                 @genre-click="selectedGenre = $event; showDetails = true"
-                @wheel.prevent="onMapScroll"
+                @wheel="onMapScroll"
             />
             <DetailsPanel
                 v-else-if="showDetails"
@@ -79,11 +79,15 @@ const continents = {
 
 let lastScrollTime = 0
 const onMapScroll = (e) => {
-    const now = Date.now()
-    if (now - lastScrollTime < 750) return
-    lastScrollTime = now
-    const dir = e.deltaY > 0 ? 1 : -1
-    currentYear.value = Math.min(2025, Math.max(1950, currentYear.value + dir))
+    if (window.innerWidth > 820) {
+        e.preventDefault()
+        
+        const now = Date.now()
+        if (now - lastScrollTime < 750) return
+        lastScrollTime = now
+        const dir = e.deltaY > 0 ? 1 : -1
+        currentYear.value = Math.min(2025, Math.max(1950, currentYear.value + dir))
+    }
 }
 
 watch(currentYear, (y) => {

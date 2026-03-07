@@ -2,7 +2,7 @@
     <div class="year-slider-container" :class="{ disabled: !loaded || showDetails }">
         <Slider
             v-model="internalYear"
-            orientation="vertical"
+            :orientation="sliderOrientation"
             :min="1950"
             :max="2025"
             :step="1"
@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, onMounted, onUnmounted, computed } from 'vue'
 import Slider from '@vueform/slider'
 
 const props = defineProps({
@@ -42,6 +42,21 @@ watch(internalYear, (newValue) => {
 watch(() => props.modelValue, (newValue) => {
     internalYear.value = newValue
 })
+
+const windowWidth = ref(window.innerWidth)
+const handleResize = () => {
+    windowWidth.value = window.innerWidth
+}
+
+onMounted(() => {
+    window.addEventListener('resize', handleResize)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('resize', handleResize)
+})
+
+const sliderOrientation = computed(() => windowWidth.value < 820 ? 'horizontal' : 'vertical')
 
 const sliderOptions = {
     pips: {

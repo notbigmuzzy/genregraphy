@@ -107,6 +107,14 @@
             top: 7.5%;
             height: 87.5%;
             width: 32.5%;
+
+            @media (max-width: 820px) {
+                height: 800px;
+                width: 100%;
+                left: initial;
+                right: initial;
+                top: 1600px;
+            }
         }
 
         &.continent-east {
@@ -116,6 +124,14 @@
             top: 10%;
             height: 80%;
             width: 45%;
+
+            @media (max-width: 820px) {
+                height: 800px;
+                width: 100%;
+                top: 300px;
+                left: initial;
+                right: initial;
+            }
         }
 
         &.continent-north {
@@ -127,6 +143,11 @@
             margin: 0 auto;
             height: 10%;
             width: 70%;
+
+            @media (max-width: 820px) {
+                top: 0;
+                width: 90%;
+            }
         }
 
         &.continent-south {
@@ -138,6 +159,18 @@
             margin: 0 auto;
             height: 30%;
             width: 15%;
+
+            @media (max-width: 820px) {
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: initial;
+                margin: 0 auto;
+                height: 30%;
+                width: 70%;
+                top: 1200px;
+            }
         }
     }
 }
