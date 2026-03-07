@@ -47,6 +47,12 @@
             }
         }
 
+        .genre-group-classical-experimental {
+            .group-label {
+                transform: translate(-20px, 20px);
+            }
+        }
+
         .shape-blob {
             stroke-width: 0px;
             stroke-linejoin: round;
