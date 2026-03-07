@@ -274,11 +274,11 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                 .attr('id', makeId)
                 .attr('d', initialPath),
             update => update,
-            exit => exit.transition().duration(500).attr('d', initialPath).remove()
+            exit => exit.transition().duration(window.innerWidth < 820 ? 0 : 500).attr('d', initialPath).remove()
         )
 
     defPaths.transition()
-        .duration(750)
+        .duration(window.innerWidth < 820 ? 0 : 750)
         .attrTween("d", function (d) {
             let previous = d3.select(this).attr("d")
             if (!previous || previous === '' || previous.indexOf('M0,') >= 0 || previous.includes('NaN')) {
@@ -402,7 +402,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
     textsToUpdate
         .classed('terra-incognita', d => d.data.isEmpty)
         .transition()
-        .duration(750)
+        .duration(window.innerWidth < 820 ? 0 : 750)
         .attr('x', d => {
             const polygon = voronoi.cellPolygon(nodes.indexOf(d))
             if (!polygon) return d.x
@@ -529,7 +529,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             )
 
         groupLabels.transition()
-            .duration(750)
+            .duration(window.innerWidth < 820 ? 0 : 750)
             .style('opacity', 1)
             .attr('transform', d => {
                 if (d.name === 'Pop & Melodies') return `translate(${d.x - 20}, ${d.y}) rotate(280)`;
