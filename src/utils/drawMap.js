@@ -464,11 +464,22 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                             });
                         }
                     });
-                    if (minPx !== Infinity) {
-                        cx = (minPx + maxPx) / 2;
-                        cy = (minPy + maxPy) / 1.75;
-                        w = maxPx - minPx;
+
+                    if (year < 1970) {
+                        if (minPx !== Infinity) {
+                            cx = (minPx + maxPx) / 5;
+                            cy = (minPy + maxPy) / 1.75;
+                            w = maxPx - minPx;
+                        }
+                    } else {
+                        if (minPx !== Infinity) {
+                            cx = (minPx + maxPx) / 2;
+                            cy = (minPy + maxPy) / 1.75;
+                            w = maxPx - minPx;
+                        }
                     }
+
+
                 }
 
                 return [{ name: groupName, x: cx, y: cy, w: w }]
@@ -482,6 +493,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                     .style('font-size', d => `${Math.max(12, Math.min(d.w * 1.2 / d.name.length, 60))}px`)
                     .attr('x', d => d.x)
                     .attr('y', d => d.y)
+                    .attr('transform', d => d.name === 'Pop & Melodies' ? `rotate(280, ${d.x - 20}, ${d.y})` : null)
                     .text(d => d.name),
                 update => update,
                 exit => exit.transition().duration(500).style('opacity', 0).remove()
@@ -492,6 +504,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
             .style('opacity', 1)
             .attr('x', d => d.x)
             .attr('y', d => d.y)
+            .attr('transform', d => d.name === 'Pop & Melodies' ? `rotate(280, ${d.x - 20}, ${d.y})` : null)
             .style('font-size', d => `${Math.max(12, Math.min(d.w * 1.2 / d.name.length, 60))}px`)
     } else {
         groupTextsLayer.selectAll('.group-label').transition().duration(500).style('opacity', 0).remove()
