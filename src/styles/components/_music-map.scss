@@ -33,24 +33,6 @@
             .shape-outline {
                 stroke-width: 1px;
             }
-
-            .group-label {
-                transform: scale(0.33);
-                transform-origin: center;
-            }
-        }
-
-        .genre-group-rhythm-groove {
-            .group-label {
-                transform: scale(0.6);
-                transform-origin: center;
-            }
-        }
-
-        .genre-group-classical-experimental {
-            .group-label {
-                transform: translate(-20px, 20px);
-            }
         }
 
         .shape-blob {

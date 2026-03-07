@@ -26,7 +26,7 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
 
     const allGroups = allowedGroups || [
         "Classical & Experimental", "Electronic & Synth", "Folk & Acoustics",
-        "Hip-Hop & Groove", "Jazz, Blues & Soul", "Metal & Heavy",
+        "Rhythm & Groove", "Jazz, Blues & Soul", "Metal & Heavy",
         "Pop & Melodies", "Reggae & Global Beats", "Rock & Overdrive"
     ]
 
@@ -465,21 +465,44 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                         }
                     });
 
-                    if (year < 1970) {
+                    let rotation = null;
+                    let scaleValue = null;
+                    if (year < 1965) {
                         if (minPx !== Infinity) {
-                            cx = (minPx + maxPx) / 5;
-                            cy = (minPy + maxPy) / 1.75;
+                            cx = (minPx + maxPx) / 2.5;
+                            cy = (minPy + maxPy) / 2;
                             w = maxPx - minPx;
+                            rotation = 60;
+                        }
+                    } else if (year >= 1965 && year < 1970) {
+                        if (minPx !== Infinity) {
+                            cx = (minPx + maxPx) / 3;
+                            cy = (minPy + maxPy) / 1.5;
+                            w = maxPx - minPx;
+                            rotation = 60;
                         }
                     } else {
                         if (minPx !== Infinity) {
                             cx = (minPx + maxPx) / 2;
-                            cy = (minPy + maxPy) / 1.75;
+                            cy = (minPy + maxPy) / 2;
                             w = maxPx - minPx;
+                            scaleValue = 0.8;
                         }
                     }
 
+                    return [{ name: groupName, x: cx, y: cy, w: w, rotation: rotation, scale: scaleValue }]
+                }
 
+                if (groupName === 'Reggae & Global Beats') {
+                    return [{ name: groupName, x: cx, y: cy + 20, w: w }];
+                }
+
+                if (groupName === 'Classical & Experimental') {
+                    return [{ name: groupName, x: cx - 20, y: cy + 20, w: w }];
+                }
+
+                if (groupName === 'Metal & Heavy') {
+                    return [{ name: groupName, x: cx, y: cy, w: w, scale: 0.4 }];
                 }
 
                 return [{ name: groupName, x: cx, y: cy, w: w }]
@@ -491,9 +514,15 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
                     .attr('dominant-baseline', 'central')
                     .style('opacity', 0)
                     .style('font-size', d => `${Math.max(12, Math.min(d.w * 1.2 / d.name.length, 60))}px`)
-                    .attr('x', d => d.x)
-                    .attr('y', d => d.y)
-                    .attr('transform', d => d.name === 'Pop & Melodies' ? `rotate(280, ${d.x - 20}, ${d.y})` : null)
+                    .attr('transform', d => {
+                        if (d.name === 'Pop & Melodies') return `translate(${d.x - 20}, ${d.y}) rotate(280)`;
+                        let t = `translate(${d.x}, ${d.y})`;
+                        if (d.rotation) t += ` rotate(${d.rotation})`;
+                        if (d.scale) t += ` scale(${d.scale})`;
+                        return t;
+                    })
+                    .attr('x', 0)
+                    .attr('y', 0)
                     .text(d => d.name),
                 update => update,
                 exit => exit.transition().duration(500).style('opacity', 0).remove()
@@ -502,9 +531,13 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         groupLabels.transition()
             .duration(750)
             .style('opacity', 1)
-            .attr('x', d => d.x)
-            .attr('y', d => d.y)
-            .attr('transform', d => d.name === 'Pop & Melodies' ? `rotate(280, ${d.x - 20}, ${d.y})` : null)
+            .attr('transform', d => {
+                if (d.name === 'Pop & Melodies') return `translate(${d.x - 20}, ${d.y}) rotate(280)`;
+                let t = `translate(${d.x}, ${d.y})`;
+                if (d.rotation) t += ` rotate(${d.rotation})`;
+                if (d.scale) t += ` scale(${d.scale})`;
+                return t;
+            })
             .style('font-size', d => `${Math.max(12, Math.min(d.w * 1.2 / d.name.length, 60))}px`)
     } else {
         groupTextsLayer.selectAll('.group-label').transition().duration(500).style('opacity', 0).remove()

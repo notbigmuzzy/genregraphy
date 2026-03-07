@@ -3029,7 +3029,7 @@
           "trap": 0,
           "boom bap": 0,
           "gangsta rap": 0,
-          "r&b": 7,
+          "r&b": 11,
           "soul": 32,
           "funk": 20,
           "disco": 0,
@@ -3038,7 +3038,7 @@
           "g-funk": 0,
           "lo-fi": 0
         },
-        "total": 59
+        "total": 63
       },
       {
         "name": "Jazz & Blues",
