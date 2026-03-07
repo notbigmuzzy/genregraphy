@@ -62,6 +62,37 @@
 				}
 			]
 		},
+		"garage rock": {
+			"top_artists": [
+				{
+					"name": "The Modern Lovers, The Cramps, The Flamin' Groovies, Radio Birdman, The Stooges, MC5, Death, The Saints, The Dictators, Rocket from the Tombs"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "The Modern Lovers",
+					"artist": "The Modern Lovers",
+					"year": "1976"
+				},
+				{
+					"name": "Shake Some Action",
+					"artist": "The Flamin' Groovies",
+					"year": "1976"
+				},
+				{
+					"name": "Radios Appear",
+					"artist": "Radio Birdman",
+					"year": "1977"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Roadrunner",
+					"artist": "The Modern Lovers",
+					"album": "The Modern Lovers"
+				}
+			]
+		},
 		"rockabilly": {
 			"top_artists": [
 				{

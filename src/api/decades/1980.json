@@ -72,6 +72,37 @@
 				}
 			]
 		},
+		"garage rock": {
+			"top_artists": [
+				{
+					"name": "The Fuzztones, The Chesterfield Kings, Lyres, The Cynics, The Pandoras, The Prisoners, Gravedigger V, The Nomads, The Stems, Thee Mighty Caesars"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Lysergic Emanations",
+					"artist": "The Fuzztones",
+					"year": "1985"
+				},
+				{
+					"name": "On the Seventh Day",
+					"artist": "Lyres",
+					"year": "1984"
+				},
+				{
+					"name": "Blue Chip",
+					"artist": "The Cynics",
+					"year": "1986"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Strychnine",
+					"artist": "The Fuzztones",
+					"album": "Lysergic Emanations"
+				}
+			]
+		},
 		"punk": {
 			"top_artists": [
 				{

@@ -72,6 +72,37 @@
 				}
 			]
 		},
+		"garage rock": {
+			"top_artists": [
+				{
+					"name": "The Jon Spencer Blues Explosion, Guitar Wolf, The Mummies, Teengenerate, New Bomb Turks, The Gories, Dead Moon, Oblivians, The Makers, Man or Astro-man?"
+				}
+			],
+			"top_albums": [
+				{
+					"name": "Orange",
+					"artist": "The Jon Spencer Blues Explosion",
+					"year": "1994"
+				},
+				{
+					"name": "Wolf Guitar",
+					"artist": "Guitar Wolf",
+					"year": "1993"
+				},
+				{
+					"name": "Never Been Caught",
+					"artist": "The Mummies",
+					"year": "1992"
+				}
+			],
+			"sample_tracks": [
+				{
+					"name": "Bellbottoms",
+					"artist": "The Jon Spencer Blues Explosion",
+					"album": "Orange"
+				}
+			]
+		},
 		"grunge": {
 			"top_artists": [
 				{
