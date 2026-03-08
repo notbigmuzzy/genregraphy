@@ -1,5 +1,5 @@
 <template>
-    <div class="year-slider-container" :class="{ disabled: !loaded || showDetails }">
+    <div class="year-slider-container" :class="{ disabled: !loaded || showDetails }" @click="handleSliderClick">
         <Slider
             v-model="internalYear"
             :orientation="sliderOrientation"
@@ -58,15 +58,51 @@ onUnmounted(() => {
 
 const sliderOrientation = computed(() => windowWidth.value < 820 ? 'horizontal' : 'vertical')
 
+const handleSliderClick = (e) => {
+    const el = e.target.closest('.special-label')
+    if (el && el.dataset.value) {
+        internalYear.value = Number(el.dataset.value)
+    }
+}
+
+const specialYears = {
+    1951: "Rock n' Roll Birth",
+    1964: "British Invasion",
+    1968: "Heavy Metal Genesis",
+    1977: "Punk & Disco",
+    1983: "Synth-Pop Dominance",
+    1991: "The Grunge Takeover",
+    2001: "Nu-Metal Peak",
+    2011: "EDM Explosion",
+    2018: "Hip-Hop Hegemony"
+}
+
 const sliderOptions = {
     pips: {
         mode: 'steps',
         density: 2,
         filter: (value) => {
-            if (value % 10 === 0) return 1   // MEGA — label + velika crtica
-            if (value % 5 === 0) return 2    // mini — mala crtica, bez labele
+            if (specialYears[value]) return 1
+            if (value % 10 === 0) return 1
+            if (value % 5 === 0) return 2
             return 0
+        },
+        format: {
+            to: (value) => {
+                if (specialYears[value]) {
+                    return `<span class="special-label" data-value="${value}">${specialYears[value]}</span>`
+                } else {
+                    return `<span class="common-label" data-value="${value}">${value}</span>`
+                }
+            }
         }
     }
 }
 </script>
+
+<style lang="scss">
+/* Sakriva sistemske markere (crtice) za specijalne labele */
+.slider-marker:has(+ .slider-value .special-label) {
+    display: none !important;
+}
+</style>

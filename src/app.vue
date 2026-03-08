@@ -65,7 +65,7 @@ const updateOption = (key, val) => {
 const getYearFromUrl = () => {
     const params = new URLSearchParams(window.location.search)
     const y = parseInt(params.get('year'))
-    return y >= 1950 && y <= 2025 ? y : 1950
+    return y >= 1950 && y <= 2025 ? y : 1983
 }
 
 const currentYear = ref(getYearFromUrl())

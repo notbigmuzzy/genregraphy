@@ -92,7 +92,11 @@
 }
 
 .slider-horizontal {
-    height: var(--slider-height, 6px)
+    height: var(--slider-height, 6px);
+
+    .special-label {
+        display: none;
+    }
 }
 
 .slider-horizontal .slider-handle {
@@ -344,11 +348,93 @@
         position: absolute;
         top: 0;
         height: 100%;
-        left: -68px;
-        width: 64px;
+        left: -56px;
+        width: 60px;
         box-sizing: border-box;
-        pointer-events: none;
         opacity: 0.7;
+        overflow: hidden;
+
+        .common-label,
+        .slider-marker {
+            transition: opacity 0.25s ease-out;
+        }
+
+        .special-label {
+            display: block;
+            color: #fff;
+            background-color: #b8860b;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            visibility: hidden;
+            opacity: 0;
+            pointer-events: none;
+            right: -30px;
+            transition: transform 0.25s ease-out, opacity 0.25s ease-out;
+
+            &[data-value="1951"],
+            &[data-value="1983"] {
+                transition-delay: 0.05s;
+            }
+
+            &[data-value="1964"],
+            &[data-value="2001"] {
+                transition-delay: 0.075s;
+            }
+
+            &[data-value="1991"],
+            &[data-value="1968"],
+            &[data-value="2011"] {
+                transition-delay: 0.1s;
+            }
+
+            &[data-value="1977"],
+            &[data-value="2018"] {
+                transition-delay: 0.125s;
+            }
+
+            &:hover {
+                opacity: 1 !important;
+            }
+        }
+
+        &:hover {
+            opacity: 1;
+            overflow: visible;
+
+            .common-label,
+            .slider-marker {
+                opacity: 0;
+            }
+
+            .special-label {
+                visibility: visible;
+                opacity: 0.75;
+                pointer-events: all;
+                transform: translateX(-30px);
+            }
+        }
+    }
+
+    .slider-base {
+        &:hover+.slider-pips-vertical {
+            opacity: 1;
+            overflow: visible;
+
+            .common-label,
+            .slider-marker {
+                opacity: 0;
+            }
+
+            .special-label {
+                visibility: visible;
+                opacity: 0.75;
+                pointer-events: all;
+                transform: translateX(-30px);
+            }
+        }
     }
 
     .slider-pips-horizontal {
@@ -391,7 +477,13 @@
         color: transparent;
     }
 
-    .slider-value-horizontal.slider-value-large {
+    .slider-value {
+        &[data-value="1950"] {
+            top: 2px !important;
+        }
+    }
+
+    .slider-value .slider-value-horizontal.slider-value-large {
         color: #644905;
         font-size: 11px;
         font-weight: bold;

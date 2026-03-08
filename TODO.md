@@ -40,10 +40,10 @@
 [*] Responsive Design: Ensure the SVG map scales correctly for different screen sizes. -->
 
 # EXTRA
-1. Vizuelni Identitet
+<!-- 1. Vizuelni Identitet HARD NOUP
     Default Year (1983): Maksimalan "decay". Implementacija SVG/Canvas filtera za desaturaciju (crno-belo), feTurbulence za šum (grain) i blagu hromatsku aberaciju na ivicama polja.
     Evolucija (1983 ➔ 2026): Linearni prelaz ka kristalno čistoj, visokokontrastnoj modernoj estetici (Retina-ready).
-    Vignette: Blago zatamnjenje uglova ekrana za starije godine koje fokusira pogled na centar mape.
+    Vignette: Blago zatamnjenje uglova ekrana za starije godine koje fokusira pogled na centar mape. -->
 
 2. Navigacija Lore Scrollbar
     Snap Points: Desetak markera na scrollbar-u za ključne istorijske momente (npr. Birth of Metal, Synth Pop Explosion, Grunge Rupture).
