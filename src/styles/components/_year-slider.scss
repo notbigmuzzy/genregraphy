@@ -329,6 +329,10 @@
         .slider-tooltip {
             opacity: 0;
             transform: translateX(80px) translateY(-50%);
+
+            @media (max-width: 820px) {
+                transform: translateX(-20px) translateY(40px);
+            }
         }
     }
 

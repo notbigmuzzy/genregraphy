@@ -21,6 +21,12 @@
         left: -12%;
         right: 0;
         top: 32.5%;
+
+        @media (max-width: 820px) {
+            left: 0;
+            right: 0;
+            top: 11%;
+        }
     }
 
     .sextant-year {
@@ -39,6 +45,12 @@
         text-align: center;
         margin-top: 150px;
         letter-spacing: 5px;
+
+        @media (max-width: 820px) {
+            left: 0;
+            right: 0;
+            top: 11%;
+        }
     }
 
     .icon-ship {
@@ -52,12 +64,20 @@
         right: 0px;
         bottom: 0px;
         transform: rotate(10deg);
+
+        @media (max-width: 820px) {
+            top: 1100px;
+        }
     }
 
     .icon-shrimps {
         width: 90px;
         left: 10px;
         bottom: 0px;
+
+        @media (max-width: 820px) {
+            top: 1100px;
+        }
     }
 
     .icon-seahorse {
@@ -65,10 +85,18 @@
         top: 0px;
         left: 0px;
         transform: rotate(30deg);
+
+        @media (max-width: 820px) {
+            top: 1500px;
+        }
     }
 
     .icon-bottle {
         top: 10px;
         right: 20px;
+
+        @media (max-width: 820px) {
+            top: 1500px;
+        }
     }
 }
