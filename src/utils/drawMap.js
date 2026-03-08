@@ -339,9 +339,6 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
         .transition().duration(750).style('opacity', d => d.data.isEmpty ? 0 : (d.data.isDummy ? 0.1 : 1))
 
     const textsLayer = groupContainers.select('.genre-texts-layer')
-
-    const showGenres = !(options && options.genreNames === false)
-
     textsLayer.selectAll('.genre-label')
         .data(groupName => nodes.filter(n => n.data.group === groupName), d => d.data.name)
         .join(
@@ -366,8 +363,10 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
 
                 textEl.each(function (d) {
                     const el = d3.select(this)
-                    const label = d.data.isEmpty ? 'TERRA INCOGNITA' : (d.data.isDummy ? d.data.group : d.data.name)
+                    let label = d.data.isEmpty ? 'TERRA INCOGNITA' : (d.data.isDummy ? d.data.group : d.data.name)
+
                     if (!label) return
+                    label = label.replace(/-/g, ' ')
 
                     const polygon = voronoi.cellPolygon(nodes.indexOf(d))
                     let centerX = d.x
@@ -398,7 +397,6 @@ export const drawMap = (genres, year, container, cache, allowedGroups, globalTot
     svgGroup.selectAll('.genre-label').classed('peak-genre', d => peakGenres.has(d.data.name))
 
     const textsToUpdate = svgGroup.selectAll('.genre-label').data(nodes, d => d.data.name)
-
     textsToUpdate
         .classed('terra-incognita', d => d.data.isEmpty)
         .transition()
