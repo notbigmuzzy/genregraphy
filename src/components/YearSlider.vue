@@ -70,7 +70,7 @@ const specialYears = {
     1964: "British Invasion",
     1968: "Heavy Metal Genesis",
     1977: "Punk & Disco",
-    1983: "Synth-Pop Dominance",
+    1984: "Synth-Pop Dominance",
     1991: "The Grunge Takeover",
     2001: "Nu-Metal Peak",
     2011: "EDM Explosion",
