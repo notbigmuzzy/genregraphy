@@ -38,3 +38,24 @@
 [*] Randomized Discovery: Inside the sidebar, use a shuffle function to display 5–10 random entries for the active year from your pre-scraped data.
 [*] Visual "Continents": Apply color palettes based on genre families (e.g., shades of blue for Electronic, reds for Rock) to help user orientation.
 [*] Responsive Design: Ensure the SVG map scales correctly for different screen sizes. -->
+
+# EXTRA
+1. Vizuelni Identitet
+    Default Year (1983): Maksimalan "decay". Implementacija SVG/Canvas filtera za desaturaciju (crno-belo), feTurbulence za šum (grain) i blagu hromatsku aberaciju na ivicama polja.
+    Evolucija (1983 ➔ 2026): Linearni prelaz ka kristalno čistoj, visokokontrastnoj modernoj estetici (Retina-ready).
+    Vignette: Blago zatamnjenje uglova ekrana za starije godine koje fokusira pogled na centar mape.
+
+2. Navigacija Lore Scrollbar
+    Snap Points: Desetak markera na scrollbar-u za ključne istorijske momente (npr. Birth of Metal, Synth Pop Explosion, Grunge Rupture).
+    Visual Feedback: Ti podeoci su deblji ili drugačije boje; na hover/snap se aktivira kratak, ciničan naslov (bez marketing slopa).
+    State Persistence: Svaki pomeraj scrollbar-a ažurira URL parametar (?year=XXXX), tako da je svaka godina "shareable" link.
+
+3. Interakcija Autoplay + Keyboard controls
+    Autoplay Mode: Opciona funkcija koja automatski "vozi" kroz decenije uz glatke D3 transitions.
+    Interactive Override: Autoplay se trenutno gasi čim korisnik dotakne mapu ili scrollbar (poštovanje namere korisnika).
+    Transition Logic: Novi žanrovi fizički "guraju" stare polja, simulirajući pritisak i promenu u muzičkom ekosistemu.
+
+4. Share & Export: "Cartographic Snapshots"
+    SVG Snapshot: Dugme za eksport trenutnog stanja mape u visokoj rezoluciji.
+    Snapshot Metadata: Na dnu eksporta diskretno piše godina i možda tvoj potpis (npr. "Cartographic Record: 1983").
+    Direct Sharing: Pošto URL prati godinu, share dugme samo kopira link koji otvara mapu tačno u tom momentu.
