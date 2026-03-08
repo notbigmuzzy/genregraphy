@@ -50,7 +50,7 @@
             @media (max-width: 820px) {
                 top: 20px;
                 left: auto;
-                right: 0px;
+                right: 10px;
                 padding-left: 0;
                 transform: translateX(10px);
             }
@@ -168,7 +168,8 @@
                 transition: opacity 0.25s ease-out, transform 0.25s ease-out;
 
                 @media (max-width: 820px) {
-                    transform: translate(0px, 20px);
+                    transform: translate(10px, 20px);
+                    //right: 20px;
                 }
             }
         }
