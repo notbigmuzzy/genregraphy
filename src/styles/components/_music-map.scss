@@ -175,29 +175,28 @@
     }
 }
 
-// .showing-genre-names
-.world-map {
+.world-map.showing-genre-names {
     .music-map-wrapper {
         .music-map {
             .peak-genre {
                 &.shape-internal {
-                    stroke: rgb(255, 255, 255);
-                    fill: rgb(255, 255, 255);
+                    stroke: #c9a835;
+                    fill: #222;
+                    stroke-width: 3px;
                     opacity: 0.5 !important;
                     filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
                 }
 
                 &.genre-label {
                     font-size: 11px !important;
-                    fill: #000;
+                    fill: #fff;
                 }
             }
         }
     }
 }
 
-// .showing-group-names
-.world-map {
+.world-map.showing-group-names {
     .music-map-wrapper {
         .music-map {
             .genre-label:not(.terra-incognita) {
@@ -206,7 +205,7 @@
 
             .genre-group-container:hover {
                 .genre-label:not(.terra-incognita) {
-                    opacity: 1 !important;
+                    opacity: 0.9 !important;
                 }
 
                 .group-label {
