@@ -9,6 +9,13 @@
             <div class="detailspanel-section title">
                 <h2>The {{ year }} {{ formattedGenre }} Scene</h2>
             </div>
+            <hr v-if="isPeak" />
+            <div class="detailspanel-section detailspanel-section-peakyear" v-if="isPeak">
+                <p>
+                    <strong>Historical Peak!</strong> This year represents the commercial and cultural zenith for this genre, marking its highest ever concentration of album releases (<strong>{{ albums }}</strong> albums).
+                </p>
+            </div>
+            <hr v-if="isPeak" />
             <div class="detailspanel-section" v-if="genreDescription">
                 <p>{{ genreDescription }}</p>
             </div>
@@ -80,6 +87,14 @@ const props = defineProps({
     year: {
         type: Number,
         required: true
+    },
+    isPeak: {
+        type: Boolean,
+        default: false
+    },
+    albums: {
+        type: Number,
+        default: 0
     }
 })
 

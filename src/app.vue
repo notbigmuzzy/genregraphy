@@ -22,6 +22,8 @@
                 key="details-panel"
                 :genre="selectedGenre"
                 :year="currentYear"
+                :isPeak="genres?.[currentYear]?.metadata?.peak_genres?.includes(selectedGenre) || false"
+                :albums="selectedGenreAlbums"
                 @close="showDetails = false"
             />
         </Transition>
@@ -34,7 +36,7 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted, onUnmounted } from 'vue'
+import { ref, watch, onMounted, onUnmounted, computed } from 'vue'
 import PageTitle from './components/PageTitle.vue'
 import WorldMap from './components/WorldMap.vue'
 import YearSlider from './components/YearSlider.vue'
@@ -69,6 +71,19 @@ const getYearFromUrl = () => {
 }
 
 const currentYear = ref(getYearFromUrl())
+
+const selectedGenreAlbums = computed(() => {
+    let count = 0
+    if (genres.value?.[currentYear.value]?.genre_group && selectedGenre.value) {
+        for (const group of genres.value[currentYear.value].genre_group) {
+            if (group.genres?.[selectedGenre.value]) {
+                count = group.genres[selectedGenre.value]
+                break
+            }
+        }
+    }
+    return count
+})
 
 const continents = {
     west:  ['Electronic & Synth', 'Rhythm & Groove', 'Pop & Melodies'],
