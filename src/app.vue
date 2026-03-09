@@ -34,7 +34,7 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted } from 'vue'
+import { ref, watch, onMounted, onUnmounted } from 'vue'
 import PageTitle from './components/PageTitle.vue'
 import WorldMap from './components/WorldMap.vue'
 import YearSlider from './components/YearSlider.vue'
@@ -96,9 +96,32 @@ watch(currentYear, (y) => {
     history.replaceState(null, '', '?' + params.toString())
 })
 
+const onKeyDown = (e) => {
+    if (e.target && e.target.closest && e.target.closest('[class*="slider"]')) return
+
+    if (e.key === 'ArrowDown') {
+        currentYear.value = Math.min(2025, currentYear.value + 1)
+    } else if (e.key === 'ArrowUp') {
+        currentYear.value = Math.max(1950, currentYear.value - 1)
+    } else if (e.key === 'PageDown') {
+        currentYear.value = Math.min(2025, currentYear.value + 5)
+    } else if (e.key === 'PageUp') {
+        currentYear.value = Math.max(1950, currentYear.value - 5)
+    } else if (e.key === 'Home') {
+        currentYear.value = 1950
+    } else if (e.key === 'End') {
+        currentYear.value = 2025
+    }
+}
+
 onMounted(async () => {
+    window.addEventListener('keydown', onKeyDown)
     const response = await import('./api/genres.json')
     genres.value = response.default
+})
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', onKeyDown)
 })
 
 </script>
