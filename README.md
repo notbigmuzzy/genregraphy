@@ -25,6 +25,7 @@ The underlying data was assembled from **MusicBrainz** and **Last.fm** via a set
 
 ---
 
-<img width="1304" height="802" alt="image" src="https://github.com/user-attachments/assets/609111b2-0b0b-4881-a622-256ef7e1a8ef" />
+<img width="1301" height="803" alt="image" src="https://github.com/user-attachments/assets/9f6acea4-47ba-4ac7-a87f-1f605895c963" />
+
 
 ---
