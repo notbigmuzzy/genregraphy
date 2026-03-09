@@ -12,8 +12,8 @@ from tqdm import tqdm
 from pathlib import Path
 
 # Configuration - ADD YOUR API KEY HERE
-API_KEY = "8b962327fc2137d86986845f9c046e02"
-API_SECRET = "ee3cd3e0701109b3e43c0dedd68598e2"
+# API_KEY = ""
+# API_SECRET = ""
 
 # MusicBrainz setup
 musicbrainzngs.set_useragent("Genregraphy", "0.1", "notbigmuzzy@gmail.com")
