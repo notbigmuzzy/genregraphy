@@ -1,6 +1,6 @@
 <template>
     <div class="ocean-overlay">
-        <Sextant :year="props.year" />
+        <Sextant :year="props.year" :albums="props.albums" :genres="props.genres" />
         <Fish />
         <Shrimps />
         <Seahorse />
@@ -21,6 +21,14 @@ const props = defineProps({
     year: {
         type: Number,
         required: true
+    },
+    albums: {
+        type: Number,
+        default: 0
+    },
+    genres: {
+        type: Number,
+        default: 0
     }
 })
 

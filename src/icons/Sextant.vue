@@ -96,6 +96,10 @@
 </svg>
 <p class="sextant-info">
 	<span class="sextant-year">{{ props.year }}</span>
+	<span class="sextant-stats">
+		ALBUMS: <strong>{{ props.albums }}</strong><br>
+		GENRES: <strong>{{ props.genres }}</strong>
+	</span>
 </p>
 
 </template>
@@ -105,6 +109,14 @@ const props = defineProps({
     year: {
         type: Number,
         required: true
+    },
+    albums: {
+        type: Number,
+        default: 0
+    },
+    genres: {
+        type: Number,
+        default: 0
     }
 })
 </script>
