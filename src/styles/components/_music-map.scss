@@ -182,7 +182,7 @@
                 &.shape-internal {
                     stroke: #c9a835;
                     fill: #222;
-                    stroke-width: 3px;
+                    stroke-width: 2px;
                     opacity: 0.5 !important;
                     filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
                 }
@@ -190,6 +190,15 @@
                 &.genre-label {
                     font-size: 11px !important;
                     fill: #fff;
+                }
+
+                &:hover {
+                    &.shape-internal {
+                        fill: #111;
+                        opacity: 0.75 !important;
+                        filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.75));
+                        transition: fill 0.25s ease, stroke-width 0.25s ease, opacity 0.25s ease;
+                    }
                 }
             }
         }

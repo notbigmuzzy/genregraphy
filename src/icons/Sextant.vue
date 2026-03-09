@@ -94,7 +94,10 @@
 	</g>
 </g>
 </svg>
-<span class="sextant-year">{{ props.year }}</span>
+<p class="sextant-info">
+	<span class="sextant-year">{{ props.year }}</span>
+</p>
+
 </template>
 
 <script setup>
