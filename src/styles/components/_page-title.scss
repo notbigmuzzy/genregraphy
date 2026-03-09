@@ -51,12 +51,29 @@
             pointer-events: none;
             transition: opacity 0.1s ease-out, transform 0.1s ease-out;
 
+            &:after {
+                content: '';
+                position: absolute;
+                top: 10px;
+                left: 4px;
+                width: 0;
+                height: 0;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                border-right: 6px solid #b8860b;
+
+            }
+
             @media (max-width: 820px) {
                 top: 20px;
                 left: auto;
                 right: 10px;
                 padding-left: 0;
                 transform: translateX(10px);
+
+                &:after {
+                    display: none;
+                }
             }
 
             li {
@@ -132,6 +149,11 @@
                 &:first-child {
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
+
+                    @media (max-width: 820px) {
+                        border-top-left-radius: 0;
+                        border-top-right-radius: 0;
+                    }
                 }
 
                 &:last-child {
@@ -143,19 +165,6 @@
                     background-color: #644905;
                     color: #fff;
                 }
-            }
-
-            &:after {
-                content: '';
-                position: absolute;
-                top: 10px;
-                left: 4px;
-                width: 0;
-                height: 0;
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-                border-right: 6px solid #b8860b;
-
             }
         }
 
@@ -173,7 +182,6 @@
 
                 @media (max-width: 820px) {
                     transform: translate(10px, 20px);
-                    //right: 20px;
                 }
             }
         }
@@ -185,6 +193,64 @@
         bottom: 0;
         height: 40px;
         width: 40px;
+
+        .options-about-menu {
+            flex-direction: column;
+            position: absolute;
+            bottom: 5px;
+            left: 20px;
+            padding-left: 10px;
+            visibility: hidden;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.1s ease-out, transform 0.1s ease-out;
+
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: 10px;
+                left: 4px;
+                width: 0;
+                height: 0;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                border-right: 6px solid #b8860b;
+
+            }
+
+            @media (max-width: 820px) {
+                top: 20px;
+                left: 0;
+                right: auto;
+                padding-left: 0;
+                transform: translateX(0);
+
+                &:after {
+                    display: none;
+                }
+            }
+
+            .about-section {
+                width: 160px;
+                padding: 10px;
+                background-color: #b8860b;
+                color: #fff;
+                border-radius: 5px;
+                font-size: 12px;
+                line-height: 1.5;
+                font-weight: 600;
+
+                @media (max-width: 820px) {
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                }
+            }
+
+            a {
+                color: #fff;
+                text-decoration: underline;
+            }
+        }
 
         @media (max-width: 820px) {
             position: relative;
@@ -206,8 +272,19 @@
             button {
                 background-color: #b8860b;
             }
-        }
 
+            .options-about-menu {
+                visibility: visible;
+                opacity: 1;
+                pointer-events: auto;
+                transform: translateX(20px);
+                transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+
+                @media (max-width: 820px) {
+                    transform: translate(0, 20px);
+                }
+            }
+        }
     }
 
     h1 {

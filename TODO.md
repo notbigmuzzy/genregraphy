@@ -45,10 +45,10 @@
     Evolucija (1983 ➔ 2026): Linearni prelaz ka kristalno čistoj, visokokontrastnoj modernoj estetici (Retina-ready).
     Vignette: Blago zatamnjenje uglova ekrana za starije godine koje fokusira pogled na centar mape. -->
 
-2. Navigacija Lore Scrollbar
+<!-- 2. Navigacija Lore Scrollbar
     Snap Points: Desetak markera na scrollbar-u za ključne istorijske momente (npr. Birth of Metal, Synth Pop Explosion, Grunge Rupture).
     Visual Feedback: Ti podeoci su deblji ili drugačije boje; na hover/snap se aktivira kratak, ciničan naslov (bez marketing slopa).
-    State Persistence: Svaki pomeraj scrollbar-a ažurira URL parametar (?year=XXXX), tako da je svaka godina "shareable" link.
+    State Persistence: Svaki pomeraj scrollbar-a ažurira URL parametar (?year=XXXX), tako da je svaka godina "shareable" link. -->
 
 3. Interakcija Autoplay + Keyboard controls
     Autoplay Mode: Opciona funkcija koja automatski "vozi" kroz decenije uz glatke D3 transitions.

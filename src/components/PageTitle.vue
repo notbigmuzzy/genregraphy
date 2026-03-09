@@ -46,6 +46,17 @@
                     <line x1="12" y1="8" x2="12.01" y2="8"></line>
                 </svg>
             </button>
+            <div class="options-about-menu">
+                <div class="about-section">
+                    <p>
+                        Created with 🎼 by <a href="https://notbigmuzzy.github.io" target="_blank" rel="noopener noreferrer">NBM</a>
+                    </p>
+                    <hr />
+                    <p>
+                        Data sourced from <a href="https://musicbrainz.org/doc/MusicBrainz_API" target="_blank" rel="noopener noreferrer">MusicBrainz API</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
