@@ -35,6 +35,7 @@
                 key="stats-screen"
                 @showStats="showStatsScreen = $event"
                 :stats="yearlyStats"
+                :allData="genres"
             />
         </Transition>
     </div>

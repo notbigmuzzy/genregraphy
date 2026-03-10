@@ -207,6 +207,35 @@
 
 .world-map.showing-group-names {
     .music-map-wrapper {
+        .music-map .genre-group-container:hover {
+            .peak-genre {
+                &.shape-internal {
+                    stroke: #c9a835;
+                    fill: #222;
+                    stroke-width: 2px;
+                    opacity: 0.5 !important;
+                    filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.5));
+                }
+
+                &.genre-label {
+                    font-size: 11px !important;
+                    fill: #fff;
+                }
+
+                &:hover {
+                    &.shape-internal {
+                        fill: #111;
+                        opacity: 0.75 !important;
+                        filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.75));
+                    }
+                }
+            }
+        }
+    }
+}
+
+.world-map.showing-group-names {
+    .music-map-wrapper {
         .music-map {
             .genre-label:not(.terra-incognita) {
                 opacity: 0 !important;
