@@ -1,5 +1,5 @@
 <template>
-    <div class="year-slider-container" :class="{ disabled: !loaded || showDetails }" @click="handleSliderClick">
+    <div class="year-slider-container" :class="{ disabled: !loaded || showDetails || showStats }" @click="handleSliderClick">
         <Slider
             v-model="internalYear"
             :orientation="sliderOrientation"
@@ -26,6 +26,10 @@ const props = defineProps({
         default: false
     },
     showDetails: {
+        type: Boolean,
+        default: false
+    },
+    showStats: {
         type: Boolean,
         default: false
     }
@@ -101,7 +105,6 @@ const sliderOptions = {
 </script>
 
 <style lang="scss">
-/* Sakriva sistemske markere (crtice) za specijalne labele */
 .slider-marker:has(+ .slider-value .special-label) {
     display: none !important;
 }

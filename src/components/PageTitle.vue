@@ -55,6 +55,10 @@
                     <p>
                         Data sourced from <a href="https://musicbrainz.org/doc/MusicBrainz_API" target="_blank" rel="noopener noreferrer">MusicBrainz API</a>
                     </p>
+                    <hr />
+                    <p>
+                        <button @click="showStatsScreen">Album / Genre Stats</button>
+                    </p>
                 </div>
             </div>
         </div>
@@ -69,5 +73,10 @@ const props = defineProps({
     }
 })
 
-defineEmits(['update:option'])
+const emit = defineEmits(['update:option', 'showStats'])
+
+const showStatsScreen = () => {
+    emit('showStats', true);
+}
+
 </script>

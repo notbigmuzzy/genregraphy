@@ -1,5 +1,9 @@
 <template>
-    <PageTitle :options="options" @update:option="updateOption" />
+    <PageTitle
+        :options="options"
+        @update:option="updateOption"
+        @showStats="showStatsScreen = $event"
+    />
     <div class="the-frame">
         <Transition name="frame" mode="out-in">
             <LoadPagePanel
@@ -8,7 +12,7 @@
                 @loaded="loaded = $event"
             />
             <WorldMap
-                v-else-if="genres && !showDetails"
+                v-else-if="genres && !showDetails && !showStatsScreen"
                 key="world-map"
                 :genres="genres"
                 :currentYear="currentYear"
@@ -18,7 +22,7 @@
                 @wheel="onMapScroll"
             />
             <DetailsPanel
-                v-else-if="showDetails"
+                v-else-if="showDetails && !showStatsScreen"
                 key="details-panel"
                 :genre="selectedGenre"
                 :year="currentYear"
@@ -26,11 +30,18 @@
                 :albums="selectedGenreAlbums"
                 @close="showDetails = false"
             />
+            <StatsScreen
+                v-else-if="showStatsScreen"
+                key="stats-screen"
+                @showStats="showStatsScreen = $event"
+                :stats="yearlyStats"
+            />
         </Transition>
     </div>
     <YearSlider
         v-model="currentYear"
         :loaded="loaded"
+        :showStats="showStatsScreen"
         :showDetails="showDetails"
     />
 </template>
@@ -42,11 +53,13 @@ import WorldMap from './components/WorldMap.vue'
 import YearSlider from './components/YearSlider.vue'
 import LoadPagePanel from './components/LoadPagePanel.vue'
 import DetailsPanel from './components/DetailsPanel.vue'
+import StatsScreen from './components/StatsScreen.vue'
 
 const genres = ref(null)
 const loaded = ref(true)
 const selectedGenre = ref(null)
 const showDetails = ref(false)
+const showStatsScreen = ref(false)
 
 const savedOptions = localStorage.getItem('genregraphy_options')
 const options = ref(savedOptions ? JSON.parse(savedOptions) : {
@@ -85,6 +98,29 @@ const selectedGenreAlbums = computed(() => {
     return count
 })
 
+const yearlyStats = computed(() => {
+    if (!genres.value) return []
+    const stats = []
+    for (let y = 1950; y <= 2025; y++) {
+        let genreCount = 0
+        let albumCount = 0
+        if (genres.value[y]?.genre_group) {
+            for (const group of genres.value[y].genre_group) {
+                if (group.genres) {
+                    for (const count of Object.values(group.genres)) {
+                        if (count > 0) {
+                            genreCount++
+                            albumCount += count
+                        }
+                    }
+                }
+            }
+        }
+        stats.push({ year: y, genres: genreCount, albums: albumCount })
+    }
+    return stats
+})
+
 const continents = {
     west:  ['Electronic & Synth', 'Rhythm & Groove', 'Pop & Melodies'],
     east:  ['Rock & Overdrive', 'Jazz & Blues', 'Folk & Acoustics', 'Classical & Experimental'],
@@ -114,18 +150,25 @@ watch(currentYear, (y) => {
 const onKeyDown = (e) => {
     if (e.target && e.target.closest && e.target.closest('[class*="slider"]')) return
 
-    if (e.key === 'ArrowDown') {
-        currentYear.value = Math.min(2025, currentYear.value + 1)
-    } else if (e.key === 'ArrowUp') {
-        currentYear.value = Math.max(1950, currentYear.value - 1)
-    } else if (e.key === 'PageDown') {
-        currentYear.value = Math.min(2025, currentYear.value + 5)
-    } else if (e.key === 'PageUp') {
-        currentYear.value = Math.max(1950, currentYear.value - 5)
-    } else if (e.key === 'Home') {
-        currentYear.value = 1950
-    } else if (e.key === 'End') {
-        currentYear.value = 2025
+    switch (e.key) {
+        case 'ArrowDown':
+            currentYear.value = Math.min(2025, currentYear.value + 1)
+            break
+        case 'ArrowUp':
+            currentYear.value = Math.max(1950, currentYear.value - 1)
+            break
+        case 'PageDown':
+            currentYear.value = Math.min(2025, currentYear.value + 5)
+            break
+        case 'PageUp':
+            currentYear.value = Math.max(1950, currentYear.value - 5)
+            break
+        case 'Home':
+            currentYear.value = 1950
+            break
+        case 'End':
+            currentYear.value = 2025
+            break
     }
 }
 
