@@ -29,10 +29,10 @@ The underlying data was assembled from **MusicBrainz** and **Last.fm** via a set
 
 ---
 
-<img width="1309" height="802" alt="image" src="https://github.com/user-attachments/assets/5da3831c-3ce7-4de1-ac06-6a73c11cfa3f" />
+<img width="1309" height="801" alt="image" src="https://github.com/user-attachments/assets/ead8e7f3-9a9a-4f57-8fa3-4e718819edb6" />
 
 ---
 
-<img width="1309" height="801" alt="image" src="https://github.com/user-attachments/assets/ead8e7f3-9a9a-4f57-8fa3-4e718819edb6" />
+<img width="1309" height="802" alt="image" src="https://github.com/user-attachments/assets/5da3831c-3ce7-4de1-ac06-6a73c11cfa3f" />
 
 ---
