@@ -89,8 +89,7 @@
           "delta blues": 1,
           "chicago blues": 1,
           "soul jazz": 0,
-          "bossa nova": 0,
-          "blues-rock": 2
+          "bossa nova": 0
         },
         "total": 217
       },
@@ -273,8 +272,7 @@
           "delta blues": 2,
           "chicago blues": 3,
           "soul jazz": 0,
-          "bossa nova": 0,
-          "blues-rock": 1
+          "bossa nova": 0
         },
         "total": 166
       },
@@ -460,8 +458,7 @@
           "delta blues": 1,
           "chicago blues": 1,
           "soul jazz": 0,
-          "bossa nova": 0,
-          "blues-rock": 1
+          "bossa nova": 0
         },
         "total": 198
       },
@@ -647,8 +644,7 @@
           "delta blues": 0,
           "chicago blues": 1,
           "soul jazz": 0,
-          "bossa nova": 0,
-          "blues-rock": 1
+          "bossa nova": 0
         },
         "total": 192
       },
@@ -835,8 +831,7 @@
           "delta blues": 0,
           "chicago blues": 3,
           "soul jazz": 0,
-          "bossa nova": 0,
-          "blues-rock": 1
+          "bossa nova": 0
         },
         "total": 196
       },
@@ -1022,8 +1017,7 @@
           "delta blues": 0,
           "chicago blues": 1,
           "soul jazz": 2,
-          "bossa nova": 0,
-          "blues-rock": 2
+          "bossa nova": 0
         },
         "total": 185
       },
@@ -1209,8 +1203,7 @@
           "delta blues": 1,
           "chicago blues": 0,
           "soul jazz": 2,
-          "bossa nova": 0,
-          "blues-rock": 1
+          "bossa nova": 0
         },
         "total": 207
       },
@@ -1396,8 +1389,7 @@
           "delta blues": 0,
           "chicago blues": 0,
           "soul jazz": 2,
-          "bossa nova": 0,
-          "blues-rock": 3
+          "bossa nova": 0
         },
         "total": 176
       },
@@ -1583,8 +1575,7 @@
           "delta blues": 1,
           "chicago blues": 1,
           "soul jazz": 3,
-          "bossa nova": 1,
-          "blues-rock": 2
+          "bossa nova": 1
         },
         "total": 216
       },
@@ -1767,8 +1758,7 @@
           "delta blues": 2,
           "chicago blues": 0,
           "soul jazz": 2,
-          "bossa nova": 2,
-          "blues-rock": 1
+          "bossa nova": 2
         },
         "total": 189
       },
@@ -1951,8 +1941,7 @@
           "delta blues": 0,
           "chicago blues": 1,
           "soul jazz": 4,
-          "bossa nova": 2,
-          "blues-rock": 3
+          "bossa nova": 2
         },
         "total": 255
       },
@@ -2139,8 +2128,7 @@
           "delta blues": 0,
           "chicago blues": 0,
           "soul jazz": 4,
-          "bossa nova": 2,
-          "blues-rock": 1
+          "bossa nova": 2
         },
         "total": 227
       },
@@ -2325,8 +2313,7 @@
           "delta blues": 1,
           "chicago blues": 2,
           "soul jazz": 3,
-          "bossa nova": 3,
-          "blues-rock": 3
+          "bossa nova": 3
         },
         "total": 224
       },
@@ -2509,8 +2496,7 @@
           "delta blues": 2,
           "chicago blues": 3,
           "soul jazz": 2,
-          "bossa nova": 4,
-          "blues-rock": 6
+          "bossa nova": 4
         },
         "total": 232
       },
@@ -2696,7 +2682,7 @@
           "chicago blues": 5,
           "soul jazz": 2,
           "bossa nova": 4,
-          "blues-rock": 9
+          "blues-rock": 2
         },
         "total": 238
       },
@@ -2884,7 +2870,7 @@
           "chicago blues": 1,
           "soul jazz": 4,
           "bossa nova": 1,
-          "blues-rock": 10
+          "blues-rock": 4
         },
         "total": 232
       },
