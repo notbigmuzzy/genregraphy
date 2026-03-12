@@ -16,8 +16,12 @@
                 </p>
             </div>
             <hr v-if="isPeak" />
-            <div class="detailspanel-section" v-if="genreDescription">
-                <p>{{ genreDescription }}</p>
+            <div class="detailspanel-section description" v-if="genreDescription">
+                <template v-for="paragraph in genreDescription.split('.')" :key="paragraph">
+                    <p v-if="Boolean(paragraph.trim().length)">
+                        {{ paragraph.trim() }}
+                    </p>
+                </template>
             </div>
             <hr />
             <template v-if="genreData">

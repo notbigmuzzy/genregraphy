@@ -105,6 +105,16 @@
         max-width: 860px;
         margin-bottom: 20px;
 
+        &.description {
+            p {
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
         &:last-child {
             margin-bottom: 0;
         }

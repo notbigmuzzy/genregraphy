@@ -1,5 +1,2 @@
-GENRES TO ADD:
-blues-rock
+# GENRES TO ADD
 
-ALBUM:
-Rory Gallagher - A Million Miles Away
