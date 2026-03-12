@@ -782,7 +782,7 @@
     "blues-rock": {
       "top_artists": [
         {
-          "name": "Cream, The Jimi Hendrix Experience, The Rolling Stones, The Yardbirds, Fleetwood Mac, Ten Years After, The Animals, The Paul Butterfield Blues Band, Canned Heat, Jeff Beck Group"
+          "name": "Cream, The Jimi Hendrix Experience, The Rolling Stones, The Yardbirds, Fleetwood Mac, Janis Joplin, Ten Years After, The Animals, The Paul Butterfield Blues Band, Canned Heat, Jeff Beck Group"
         }
       ],
       "top_albums": [
@@ -804,6 +804,11 @@
         {
           "name": "Fleetwood Mac",
           "artist": "Fleetwood Mac",
+          "year": "1968"
+        },
+        {
+          "name": "Cheap Thrills",
+          "artist": "Janis Joplin",
           "year": "1968"
         },
         {
