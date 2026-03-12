@@ -189,6 +189,11 @@
 			],
 			"top_albums": [
 				{
+					"name": "The Dark Side of the Moon",
+					"artist": "Pink Floyd",
+					"year": "1973"
+				},
+				{
 					"name": "Space Ritual",
 					"artist": "Hawkwind",
 					"year": "1973"
