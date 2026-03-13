@@ -540,6 +540,42 @@
           "album": "The Best of Muddy Waters"
         }
       ]
+    },
+    "bossa nova": {
+      "top_artists": [
+        {
+          "name": "João Gilberto, Antonio Carlos Jobim, Elizeth Cardoso, Vinicius de Moraes, Luiz Bonfá, Sylvia Telles, Maysa, Agostinho dos Santos, Os Cariocas, Newton Mendonça"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Chega de Saudade",
+          "artist": "João Gilberto",
+          "year": "1959"
+        },
+        {
+          "name": "Canção do Amor Demais",
+          "artist": "Elizeth Cardoso",
+          "year": "1958"
+        },
+        {
+          "name": "Amor de gente moça",
+          "artist": "Sylvia Telles",
+          "year": "1959"
+        },
+        {
+          "name": "Convite para ouvir Maysa",
+          "artist": "Maysa",
+          "year": "1956"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Chega de Saudade",
+          "artist": "João Gilberto",
+          "album": "Chega de Saudade"
+        }
+      ]
     }
   },
   "Reggae & Global Beats": {
