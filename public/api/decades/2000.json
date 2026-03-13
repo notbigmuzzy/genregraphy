@@ -1,0 +1,3602 @@
+{
+  "Rock & Overdrive": {
+    "progressive rock": {
+      "top_artists": [
+        {
+          "name": "Porcupine Tree, The Mars Volta, Opeth, Dream Theater, Tool, Riverside, Mastodon, Coheed and Cambria, Gazpacho, Steven Wilson"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "In Absentia",
+          "artist": "Porcupine Tree",
+          "year": "2002"
+        },
+        {
+          "name": "Lateralus",
+          "artist": "Tool",
+          "year": "2001"
+        },
+        {
+          "name": "De-Loused in the Comatorium",
+          "artist": "The Mars Volta",
+          "year": "2003"
+        },
+        {
+          "name": "Blackwater Park",
+          "artist": "Opeth",
+          "year": "2001"
+        },
+        {
+          "name": "Fear of a Blank Planet",
+          "artist": "Porcupine Tree",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Trains",
+          "artist": "Porcupine Tree",
+          "album": "In Absentia"
+        }
+      ]
+    },
+    "rock": {
+      "top_artists": [
+        {
+          "name": "Foo Fighters, Queens of the Stone Age, Muse, Radiohead, The Killers, The Strokes, Arctic Monkeys, The White Stripes, Linkin Park, Coldplay"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "In Your Honor",
+          "artist": "Foo Fighters",
+          "year": "2005"
+        },
+        {
+          "name": "Songs for the Deaf",
+          "artist": "Queens of the Stone Age",
+          "year": "2002"
+        },
+        {
+          "name": "Absolution",
+          "artist": "Muse",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Best of You",
+          "artist": "Foo Fighters",
+          "album": "In Your Honor"
+        }
+      ]
+    },
+    "indie rock": {
+      "top_artists": [
+        {
+          "name": "The Strokes, Arcade Fire, The White Stripes, Arctic Monkeys, Modest Mouse, The Libertines, Interpol, Franz Ferdinand, Vampire Weekend, The Postal Service"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Is This It",
+          "artist": "The Strokes",
+          "year": "2001"
+        },
+        {
+          "name": "Funeral",
+          "artist": "Arcade Fire",
+          "year": "2004"
+        },
+        {
+          "name": "White Blood Cells",
+          "artist": "The White Stripes",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Last Nite",
+          "artist": "The Strokes",
+          "album": "Is This It"
+        }
+      ]
+    },
+    "rock & roll": {
+      "top_artists": [
+        {
+          "name": "The Detroit Cobras, Wanda Jackson, The Hellacopters, The Jim Jones Revue, The Datsuns, The Hives, Imperial State Electric, JD McPherson, Kings of Leon, The Black Keys"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Mink, Rat or Rabbit",
+          "artist": "The Detroit Cobras",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Shakin' All Over",
+          "artist": "The Detroit Cobras",
+          "album": "Mink, Rat or Rabbit"
+        }
+      ]
+    },
+    "psychedelic rock": {
+      "top_artists": [
+        {
+          "name": "The Flaming Lips, Animal Collective, MGMT, Tame Impala, The Mars Volta, Dungen, Black Mountain, Wolfmother, Pond, Kula Shaker"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Yoshimi Battles the Pink Robots",
+          "artist": "The Flaming Lips",
+          "year": "2002"
+        },
+        {
+          "name": "Merriweather Post Pavilion",
+          "artist": "Animal Collective",
+          "year": "2009"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Kids",
+          "artist": "MGMT",
+          "album": "Oracular Spectacular"
+        }
+      ]
+    },
+    "britpop": {
+      "top_artists": [
+        {
+          "name": "Oasis, Blur, The Libertines, Supergrass, Suede, The Coral, Richard Hawley, Primal Scream, The Zutons, The Fratellis"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Up the Bracket",
+          "artist": "The Libertines",
+          "year": "2002"
+        },
+        {
+          "name": "Think Tank",
+          "artist": "Blur",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Can't Stand Me Now",
+          "artist": "The Libertines",
+          "album": "The Libertines"
+        }
+      ]
+    },
+    "hard rock": {
+      "top_artists": [
+        {
+          "name": "AC/DC, Audioslave, The Darkness, Velvet Revolver, Guns N' Roses, Buckcherry, Alter Bridge, Wolfmother, Airbourne, Shinedown"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Black Ice",
+          "artist": "AC/DC",
+          "year": "2008"
+        },
+        {
+          "name": "Audioslave",
+          "artist": "Audioslave",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Cochise",
+          "artist": "Audioslave",
+          "album": "Audioslave"
+        }
+      ]
+    },
+    "alternative rock": {
+      "top_artists": [
+        {
+          "name": "Radiohead, Beck, The Flaming Lips, Wilco, TV on the Radio, Interpol, The National, Death Cab for Cutie, Grizzly Bear, Spoon"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Kid A",
+          "artist": "Radiohead",
+          "year": "2000"
+        },
+        {
+          "name": "Yankee Hotel Foxtrot",
+          "artist": "Wilco",
+          "year": "2002"
+        },
+        {
+          "name": "Yoshimi Battles the Pink Robots",
+          "artist": "The Flaming Lips",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Everything in Its Right Place",
+          "artist": "Radiohead",
+          "album": "Kid A"
+        }
+      ]
+    },
+    "rockabilly": {
+      "top_artists": [
+        {
+          "name": "The HorrorPops, Nekromantix, Imelda May, Tiger Army, JD McPherson, The Living End, Mad Sin, The Meteors, Stray Cats, Kim Lenz"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Hell Yeah!",
+          "artist": "The HorrorPops",
+          "year": "2004"
+        },
+        {
+          "name": "Lovehound",
+          "artist": "Imelda May",
+          "year": "2008"
+        },
+        {
+          "name": "Return of the Loving Dead",
+          "artist": "Nekromantix",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Julia",
+          "artist": "The HorrorPops",
+          "album": "Hell Yeah!"
+        }
+      ]
+    },
+    "punk": {
+      "top_artists": [
+        {
+          "name": "The Distillers, Against Me!, Bad Religion, Rise Against, Pennywise, The Casualties, NOFX, The Lawrence Arms, Bouncing Souls, AFI"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sing Sing Death House",
+          "artist": "The Distillers",
+          "year": "2002"
+        },
+        {
+          "name": "Searching for a Former Clarity",
+          "artist": "Against Me!",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "City of Angels",
+          "artist": "The Distillers",
+          "album": "Sing Sing Death House"
+        }
+      ]
+    },
+    "garage rock": {
+      "top_artists": [
+        {
+          "name": "The White Stripes, The Hives, The Strokes, The Vines, The Libertines, The Von Bondies, The Horrors, Black Rebel Motorcycle Club, The Kills, The Dead Weather"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Elephant",
+          "artist": "The White Stripes",
+          "year": "2003"
+        },
+        {
+          "name": "Veni Vidi Vicious",
+          "artist": "The Hives",
+          "year": "2000"
+        },
+        {
+          "name": "Up the Bracket",
+          "artist": "The Libertines",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Seven Nation Army",
+          "artist": "The White Stripes",
+          "album": "Elephant"
+        }
+      ]
+    },
+    "post-punk": {
+      "top_artists": [
+        {
+          "name": "Interpol, Bloc Party, Franz Ferdinand, The Rapture, Gang of Four, Editors, White Lies, She Wants Revenge, The Futureheads, Maxïmo Park"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Turn On the Bright Lights",
+          "artist": "Interpol",
+          "year": "2002"
+        },
+        {
+          "name": "Silent Alarm",
+          "artist": "Bloc Party",
+          "year": "2005"
+        },
+        {
+          "name": "Franz Ferdinand",
+          "artist": "Franz Ferdinand",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Obstacle 1",
+          "artist": "Interpol",
+          "album": "Turn On the Bright Lights"
+        }
+      ]
+    },
+    "new wave": {
+      "top_artists": [
+        {
+          "name": "The Killers, Metric, Shiny Toy Guns, The Bravery, Ladytron, Goldfrapp, Fischerspooner, Cut Copy, Hot Chip, Yeah Yeah Yeahs"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Hot Fuss",
+          "artist": "The Killers",
+          "year": "2004"
+        },
+        {
+          "name": "Old World Underground, Where Are You Now?",
+          "artist": "Metric",
+          "year": "2003"
+        },
+        {
+          "name": "We Are Pilots",
+          "artist": "Shiny Toy Guns",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Mr. Brightside",
+          "artist": "The Killers",
+          "album": "Hot Fuss"
+        }
+      ]
+    },
+    "post-rock": {
+      "top_artists": [
+        {
+          "name": "Explosions in the Sky, Godspeed You! Black Emperor, Mogwai, Sigur Rós, Mono, 65daysofstatic, Caspian, Russian Circles, This Will Destroy You, Red Sparowes"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Earth Is Not a Cold Dead Place",
+          "artist": "Explosions in the Sky",
+          "year": "2003"
+        },
+        {
+          "name": "Ágætis byrjun",
+          "artist": "Sigur Rós",
+          "year": "1999"
+        },
+        {
+          "name": "Lift Your Skinny Fists Like Antennas to Heaven",
+          "artist": "Godspeed You! Black Emperor",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "First Breath After Coma",
+          "artist": "Explosions in the Sky",
+          "album": "The Earth Is Not a Cold Dead Place"
+        }
+      ]
+    },
+    "emo": {
+      "top_artists": [
+        {
+          "name": "My Chemical Romance, Fall Out Boy, Panic! at the Disco, Dashboard Confessional, Taking Back Sunday, The Used, Brand New, Jimmy Eat World, Paramore, Cute Is What We Aim For"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Black Parade",
+          "artist": "My Chemical Romance",
+          "year": "2006"
+        },
+        {
+          "name": "From Under the Cork Tree",
+          "artist": "Fall Out Boy",
+          "year": "2005"
+        },
+        {
+          "name": "A Fever You Can't Sweat Out",
+          "artist": "Panic! at the Disco",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Welcome to the Black Parade",
+          "artist": "My Chemical Romance",
+          "album": "The Black Parade"
+        }
+      ]
+    },
+    "pop-punk": {
+      "top_artists": [
+        {
+          "name": "Blink-182, Green Day, Sum 41, Good Charlotte, New Found Glory, Simple Plan, Yellowcard, The All-American Rejects, Bowling for Soup, My Chemical Romance"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Enema of the State",
+          "artist": "Blink-182",
+          "year": "1999"
+        },
+        {
+          "name": "American Idiot",
+          "artist": "Green Day",
+          "year": "2004"
+        },
+        {
+          "name": "All Killer No Filler",
+          "artist": "Sum 41",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "All the Small Things",
+          "artist": "Blink-182",
+          "album": "Enema of the State"
+        }
+      ]
+    },
+    "hardcore": {
+      "top_artists": [
+        {
+          "name": "Converge, Hatebreed, Terror, Comeback Kid, Madball, The Dillinger Escape Plan, Sick of It All, Every Time I Die, Modern Life Is War, The Ghost Inside"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Jane Doe",
+          "artist": "Converge",
+          "year": "2001"
+        },
+        {
+          "name": "Perseverance",
+          "artist": "Hatebreed",
+          "year": "2002"
+        },
+        {
+          "name": "One with the Underdogs",
+          "artist": "Terror",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Concubine",
+          "artist": "Converge",
+          "album": "Jane Doe"
+        }
+      ]
+    },
+    "grunge": {
+      "top_artists": [
+        {
+          "name": "Pearl Jam, Soundgarden, Queens of the Stone Age, Alice in Chains, Audioslave, Seether, Puddle of Mudd, Silverchair, Breaking Benjamin, Staind"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Riot Act",
+          "artist": "Pearl Jam",
+          "year": "2002"
+        },
+        {
+          "name": "Audioslave",
+          "artist": "Audioslave",
+          "year": "2002"
+        },
+        {
+          "name": "Rated R",
+          "artist": "Queens of the Stone Age",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "I Am Mine",
+          "artist": "Pearl Jam",
+          "album": "Riot Act"
+        }
+      ]
+    },
+    "stoner rock": {
+      "top_artists": [
+        {
+          "name": "Queens of the Stone Age, Kyuss, Fu Manchu, Mastodon, High on Fire, The Sword, Electric Wizard, Graveyard, Clutch, Dozer"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Songs for the Deaf",
+          "artist": "Queens of the Stone Age",
+          "year": "2002"
+        },
+        {
+          "name": "Leviathan",
+          "artist": "Mastodon",
+          "year": "2004"
+        },
+        {
+          "name": "Blessed Black Wings",
+          "artist": "High on Fire",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "No One Knows",
+          "artist": "Queens of the Stone Age",
+          "album": "Songs for the Deaf"
+        }
+      ]
+    },
+    "shoegaze": {
+      "top_artists": [
+        {
+          "name": "Sigur Rós, M83, Alcest, Blonde Redhead, Ulrich Schnauss, Amesoeurs, Lantlôs, The Radio Dept., Have a Nice Life, Deerhunter"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Ágætis byrjun",
+          "artist": "Sigur Rós",
+          "year": "1999"
+        },
+        {
+          "name": "Before the Dawn Heals Us",
+          "artist": "M83",
+          "year": "2005"
+        },
+        {
+          "name": "Souvenirs d'un autre monde",
+          "artist": "Alcest",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Svefn-g-englar",
+          "artist": "Sigur Rós",
+          "album": "Ágætis byrjun"
+        }
+      ]
+    },
+    "indie pop": {
+      "top_artists": [
+        {
+          "name": "Belle and Sebastian, The Shins, Death Cab for Cutie, Of Montreal, Feist, The New Pornographers, Camera Obscura, Peter Bjorn and John, Lykke Li, Architecture in Helsinki"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Transatlanticism",
+          "artist": "Death Cab for Cutie",
+          "year": "2003"
+        },
+        {
+          "name": "Chutes Too Narrow",
+          "artist": "The Shins",
+          "year": "2003"
+        },
+        {
+          "name": "Hissing Fauna, Are You the Destroyer?",
+          "artist": "Of Montreal",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "New Slang",
+          "artist": "The Shins",
+          "album": "Chutes Too Narrow"
+        }
+      ]
+    },
+    "dream pop": {
+      "top_artists": [
+        {
+          "name": "Beach House, M83, Sigur Rós, Low, Blonde Redhead"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Before the Dawn Heals Us",
+          "artist": "M83",
+          "year": "2005"
+        },
+        {
+          "name": "Beach House",
+          "artist": "Beach House",
+          "year": "2006"
+        },
+        {
+          "name": "Things We Lost in the Fire",
+          "artist": "Low",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Run Into Flowers",
+          "artist": "M83",
+          "album": "Before the Dawn Heals Us"
+        }
+      ]
+    }
+  },
+  "The Electronic Frontier": {
+    "electronic": {
+      "top_artists": [
+        {
+          "name": "Daft Punk, The Chemical Brothers, Justice, LCD Soundsystem, Röyksopp, Air, Moby, Goldfrapp, Groove Armada, Thievery Corporation"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Discovery",
+          "artist": "Daft Punk",
+          "year": "2001"
+        },
+        {
+          "name": "†",
+          "artist": "Justice",
+          "year": "2007"
+        },
+        {
+          "name": "Sound of Silver",
+          "artist": "LCD Soundsystem",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "One More Time",
+          "artist": "Daft Punk",
+          "album": "Discovery"
+        }
+      ]
+    },
+    "synth-pop": {
+      "top_artists": [
+        {
+          "name": "Ladytron, La Roux, Cut Copy, Goldfrapp, Shiny Toy Guns, Metric, The Postal Service, Hot Chip, Little Boots, Empire of the Sun"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Witching Hour",
+          "artist": "Ladytron",
+          "year": "2005"
+        },
+        {
+          "name": "La Roux",
+          "artist": "La Roux",
+          "year": "2009"
+        },
+        {
+          "name": "In Ghost Colours",
+          "artist": "Cut Copy",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bulletproof",
+          "artist": "La Roux",
+          "album": "La Roux"
+        }
+      ]
+    },
+    "eurodance": {
+      "top_artists": [
+        {
+          "name": "Cascada, Basshunter, Groove Coverage, Gigi D'Agostino, Lasgo, Scooter, Sylver, Milk Inc., Special D., Kate Ryan"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Everytime We Touch",
+          "artist": "Cascada",
+          "year": "2006"
+        },
+        {
+          "name": "LOL <(^^,)>",
+          "artist": "Basshunter",
+          "year": "2006"
+        },
+        {
+          "name": "L'Amour Toujours",
+          "artist": "Gigi D'Agostino",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Everytime We Touch",
+          "artist": "Cascada",
+          "album": "Everytime We Touch"
+        }
+      ]
+    },
+    "house": {
+      "top_artists": [
+        {
+          "name": "Daft Punk, Eric Prydz, Deadmau5, Swedish House Mafia, Kaskade, Bob Sinclar, David Guetta, Armand Van Helden, Deep Dish, Fedde Le Grand"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Discovery",
+          "artist": "Daft Punk",
+          "year": "2001"
+        },
+        {
+          "name": "Random Album Title",
+          "artist": "Deadmau5",
+          "year": "2008"
+        },
+        {
+          "name": "Pryda",
+          "artist": "Eric Prydz",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Harder, Better, Faster, Stronger",
+          "artist": "Daft Punk",
+          "album": "Discovery"
+        }
+      ]
+    },
+    "techno": {
+      "top_artists": [
+        {
+          "name": "Richie Hawtin, Jeff Mills, Adam Beyer, Ben Klock, Chris Liebing, Carl Cox, Sven Väth, Ellen Allien, Ricardo Villalobos, Dave Clarke"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "DE9: Closer to the Edit",
+          "artist": "Richie Hawtin",
+          "year": "2001"
+        },
+        {
+          "name": "Blue Potential",
+          "artist": "Jeff Mills",
+          "year": "2006"
+        },
+        {
+          "name": "One",
+          "artist": "Ben Klock",
+          "year": "2009"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Spastik",
+          "artist": "Plastikman",
+          "album": "DE9: Closer to the Edit"
+        }
+      ]
+    },
+    "trance": {
+      "top_artists": [
+        {
+          "name": "Armin van Buuren, Tiësto, Paul van Dyk, Above & Beyond, Ferry Corsten, ATB, Markus Schulz, Gareth Emery, OceanLab, Sander van Doorn"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Just Be",
+          "artist": "Tiësto",
+          "year": "2004"
+        },
+        {
+          "name": "76",
+          "artist": "Armin van Buuren",
+          "year": "2003"
+        },
+        {
+          "name": "Tri-State",
+          "artist": "Above & Beyond",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Adagio for Strings",
+          "artist": "Tiësto",
+          "album": "Just Be"
+        }
+      ]
+    },
+    "dubstep": {
+      "top_artists": [
+        {
+          "name": "Burial, Skream, Benga, Digital Mystikz, Kode9, Loefah, Rusko, Caspa, Distance, Mala"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Burial",
+          "artist": "Burial",
+          "year": "2006"
+        },
+        {
+          "name": "Untrue",
+          "artist": "Burial",
+          "year": "2007"
+        },
+        {
+          "name": "Skream!",
+          "artist": "Skream",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Archangel",
+          "artist": "Burial",
+          "album": "Untrue"
+        }
+      ]
+    },
+    "drum and bass": {
+      "top_artists": [
+        {
+          "name": "Pendulum, Noisia, High Contrast, Netsky, Chase & Status, London Elektricity, DJ Marky, Sub Focus, Andy C, Bad Company UK"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Hold Your Colour",
+          "artist": "Pendulum",
+          "year": "2005"
+        },
+        {
+          "name": "True Colours",
+          "artist": "High Contrast",
+          "year": "2002"
+        },
+        {
+          "name": "Netsky",
+          "artist": "Netsky",
+          "year": "2010"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Tarantula",
+          "artist": "Pendulum",
+          "album": "Hold Your Colour"
+        }
+      ]
+    },
+    "jungle": {
+      "top_artists": [
+        {
+          "name": "Congo Natty, Shy FX, LTJ Bukem, Aphrodite, Roni Size, Potential Badboy, 4hero, Source Direct, Goldie, Breakage"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Diary of a Digital Soundboy",
+          "artist": "Shy FX",
+          "year": "2005"
+        },
+        {
+          "name": "Journey Inwards",
+          "artist": "LTJ Bukem",
+          "year": "2000"
+        },
+        {
+          "name": "Aftershock",
+          "artist": "Aphrodite",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Feeling U",
+          "artist": "Shy FX",
+          "album": "Diary of a Digital Soundboy"
+        }
+      ]
+    },
+    "idm": {
+      "top_artists": [
+        {
+          "name": "Aphex Twin, Boards of Canada, Autechre, Squarepusher, Flying Lotus, Venetian Snares, Four Tet, Moderat, Apparat, Clark"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Drukqs",
+          "artist": "Aphex Twin",
+          "year": "2001"
+        },
+        {
+          "name": "Geogaddi",
+          "artist": "Boards of Canada",
+          "year": "2002"
+        },
+        {
+          "name": "Untilted",
+          "artist": "Autechre",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Avril 14th",
+          "artist": "Aphex Twin",
+          "album": "Drukqs"
+        }
+      ]
+    },
+    "ambient": {
+      "top_artists": [
+        {
+          "name": "Brian Eno, Boards of Canada, Tim Hecker, Stars of the Lid, William Basinski, Eluvium, Grouper, Biosphere, The Orb, Gas"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Disintegration Loops",
+          "artist": "William Basinski",
+          "year": "2002"
+        },
+        {
+          "name": "Harmony in Ultraviolet",
+          "artist": "Tim Hecker",
+          "year": "2006"
+        },
+        {
+          "name": "And Their Refinement of the Decline",
+          "artist": "Stars of the Lid",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "dlp 1.1",
+          "artist": "William Basinski",
+          "album": "The Disintegration Loops"
+        }
+      ]
+    },
+    "electro": {
+      "top_artists": [
+        {
+          "name": "Justice, MSTRKRFT, Simian Mobile Disco, Boys Noize, Digitalism, Soulwax, Miss Kittin, The Hacker, Peaches, Vitalic"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "†",
+          "artist": "Justice",
+          "year": "2007"
+        },
+        {
+          "name": "The Fist of God",
+          "artist": "MSTRKRFT",
+          "year": "2006"
+        },
+        {
+          "name": "Attack Decay Sustain Release",
+          "artist": "Simian Mobile Disco",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "D.A.N.C.E.",
+          "artist": "Justice",
+          "album": "†"
+        }
+      ]
+    },
+    "breakbeat": {
+      "top_artists": [
+        {
+          "name": "The Prodigy, The Chemical Brothers, Fatboy Slim, Hybrid, Plump DJs, The Crystal Method, Stanton Warriors, Krafty Kuts, Adam Freeland, Freestylers"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Always Outnumbered, Never Outgunned",
+          "artist": "The Prodigy",
+          "year": "2004"
+        },
+        {
+          "name": "Push the Button",
+          "artist": "The Chemical Brothers",
+          "year": "2005"
+        },
+        {
+          "name": "Palookaville",
+          "artist": "Fatboy Slim",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Girls",
+          "artist": "The Prodigy",
+          "album": "Always Outnumbered, Never Outgunned"
+        }
+      ]
+    },
+    "trip hop": {
+      "top_artists": [
+        {
+          "name": "Massive Attack, Portishead, DJ Shadow, RJD2, Unkle, Wax Tailor, Emancipator, Blockhead, Morcheeba, Tricky"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "100th Window",
+          "artist": "Massive Attack",
+          "year": "2003"
+        },
+        {
+          "name": "Deadringer",
+          "artist": "RJD2",
+          "year": "2002"
+        },
+        {
+          "name": "The Private Press",
+          "artist": "DJ Shadow",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Future Proof",
+          "artist": "Massive Attack",
+          "album": "100th Window"
+        }
+      ]
+    },
+    "downtempo": {
+      "top_artists": [
+        {
+          "name": "Bonobo, Thievery Corporation, Air, Zero 7, Nightmares on Wax, Quantic, Lemon Jelly, Kruder & Dorfmeister, Fila Brazillia, Jazzanova"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Black Sands",
+          "artist": "Bonobo",
+          "year": "2010"
+        },
+        {
+          "name": "Dial 'M' for Monkey",
+          "artist": "Bonobo",
+          "year": "2003"
+        },
+        {
+          "name": "Simple Things",
+          "artist": "Zero 7",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Kiara",
+          "artist": "Bonobo",
+          "album": "Black Sands"
+        }
+      ]
+    },
+    "lounge": {
+      "top_artists": [
+        {
+          "name": "Thievery Corporation, Hotel Costes, Pink Martini, Gotan Project, De-Phazz, St Germain, Nicola Conte, Koop, Belleruche, Nouvelle Vague"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Richest Man in Babylon",
+          "artist": "Thievery Corporation",
+          "year": "2002"
+        },
+        {
+          "name": "La Revancha del Tango",
+          "artist": "Gotan Project",
+          "year": "2001"
+        },
+        {
+          "name": "Hang On Little Tomato",
+          "artist": "Pink Martini",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Lebanese Blonde",
+          "artist": "Thievery Corporation",
+          "album": "The Mirror Conspiracy"
+        }
+      ]
+    },
+    "industrial": {
+      "top_artists": [
+        {
+          "name": "Nine Inch Nails, Ministry, Combichrist, God Module, VNV Nation, Hocico, Einstürzende Neubauten, Front 242, Skinny Puppy, KMFDM"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "With Teeth",
+          "artist": "Nine Inch Nails",
+          "year": "2005"
+        },
+        {
+          "name": "Year Zero",
+          "artist": "Nine Inch Nails",
+          "year": "2007"
+        },
+        {
+          "name": "What the Fuck Is Wrong with You People?",
+          "artist": "Combichrist",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Hand That Feeds",
+          "artist": "Nine Inch Nails",
+          "album": "With Teeth"
+        }
+      ]
+    },
+    "chillout": {
+      "top_artists": [
+        {
+          "name": "Moby, Air, Groove Armada, Thievery Corporation, Röyksopp, Bonobo, Zero 7, William Orbit, Telepopmusik, Bent"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "18",
+          "artist": "Moby",
+          "year": "2002"
+        },
+        {
+          "name": "Talkie Walkie",
+          "artist": "Air",
+          "year": "2004"
+        },
+        {
+          "name": "Melody A.M.",
+          "artist": "Röyksopp",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "We Are All Made of Stars",
+          "artist": "Moby",
+          "album": "18"
+        }
+      ]
+    },
+    "glitch": {
+      "top_artists": [
+        {
+          "name": "Oval, Fennesz, Alva Noto, Tim Hecker, Autechre, Vladislav Delay, Pansonic, Ryoji Ikeda, Matmos, Prefuse 73"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Endless Summer",
+          "artist": "Fennesz",
+          "year": "2001"
+        },
+        {
+          "name": "Ovalprocess",
+          "artist": "Oval",
+          "year": "2000"
+        },
+        {
+          "name": "Transform",
+          "artist": "Alva Noto",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Endless Summer",
+          "artist": "Fennesz",
+          "album": "Endless Summer"
+        }
+      ]
+    },
+    "hardstyle": {
+      "top_artists": [
+        {
+          "name": "Headhunterz, Showtek, Noisecontrollers, Wildstylez, Brennan Heart, Technoboy, The Prophet, Zany, Lady Dana, Deepack"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sacrifice",
+          "artist": "Headhunterz",
+          "year": "2012"
+        },
+        {
+          "name": "Today Is Tomorrow",
+          "artist": "Showtek",
+          "year": "2007"
+        },
+        {
+          "name": "Scantraxx Rootz",
+          "artist": "Headhunterz",
+          "year": "2009"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Power of the Mind",
+          "artist": "Headhunterz",
+          "album": "Sacrifice"
+        }
+      ]
+    },
+    "chiptune": {
+      "top_artists": [
+        {
+          "name": "Anamanaguchi, Nullsleep, Bit Shifter, YMCK, Chipzel, Sabin Williams, Dubmood, GOTO80, Sabrepulse, LSDJ"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Power Supply",
+          "artist": "Anamanaguchi",
+          "year": "2009"
+        },
+        {
+          "name": "Delusional",
+          "artist": "Nullsleep",
+          "year": "2005"
+        },
+        {
+          "name": "Information Chase",
+          "artist": "Bit Shifter",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Helix Nebula",
+          "artist": "Anamanaguchi",
+          "album": "Power Supply"
+        }
+      ]
+    }
+  },
+  "Hip-Hop & Groove": {
+    "hip hop": {
+      "top_artists": [
+        {
+          "name": "Kanye West, Eminem, OutKast, Jay-Z, Lil Wayne, 50 Cent, The Roots, Common, T.I., Ludacris"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Marshall Mathers LP",
+          "artist": "Eminem",
+          "year": "2000"
+        },
+        {
+          "name": "The College Dropout",
+          "artist": "Kanye West",
+          "year": "2004"
+        },
+        {
+          "name": "Stankonia",
+          "artist": "OutKast",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Stan",
+          "artist": "Eminem",
+          "album": "The Marshall Mathers LP"
+        }
+      ]
+    },
+    "gangsta rap": {
+      "top_artists": [
+        {
+          "name": "50 Cent, The Game, Ice Cube, Dr. Dre, Snoop Dogg, Rick Ross, Young Jeezy, T.I., Cam'ron, Ja Rule"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Get Rich or Die Tryin'",
+          "artist": "50 Cent",
+          "year": "2003"
+        },
+        {
+          "name": "The Documentary",
+          "artist": "The Game",
+          "year": "2005"
+        },
+        {
+          "name": "2001",
+          "artist": "Dr. Dre",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "In da Club",
+          "artist": "50 Cent",
+          "album": "Get Rich or Die Tryin'"
+        }
+      ]
+    },
+    "g-funk": {
+      "top_artists": [
+        {
+          "name": "Dr. Dre, Snoop Dogg, Warren G, DJ Quik, Xzibit, Nate Dogg, The Game, Daz Dillinger, Kurupt, Tha Dogg Pound"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "2001",
+          "artist": "Dr. Dre",
+          "year": "1999"
+        },
+        {
+          "name": "The Last Meal",
+          "artist": "Snoop Dogg",
+          "year": "2000"
+        },
+        {
+          "name": "Restless",
+          "artist": "Xzibit",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Still D.R.E.",
+          "artist": "Dr. Dre",
+          "album": "2001"
+        }
+      ]
+    },
+    "trap": {
+      "top_artists": [
+        {
+          "name": "T.I., Gucci Mane, Young Jeezy, Three 6 Mafia, Lil Jon, Rick Ross, Waka Flocka Flame, Project Pat, Z-Ro, Killer Mike"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Trap Muzik",
+          "artist": "T.I.",
+          "year": "2003"
+        },
+        {
+          "name": "Let's Get It: Thug Motivation 101",
+          "artist": "Young Jeezy",
+          "year": "2005"
+        },
+        {
+          "name": "Trap House",
+          "artist": "Gucci Mane",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "24's",
+          "artist": "T.I.",
+          "album": "Trap Muzik"
+        }
+      ]
+    },
+    "boom bap": {
+      "top_artists": [
+        {
+          "name": "MF DOOM, Madlib, Nas, Ghostface Killah, J Dilla, Common, Talib Kweli, Mos Def, Evidence, Little Brother"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Madvillainy",
+          "artist": "Madvillain",
+          "year": "2004"
+        },
+        {
+          "name": "Mm..Food",
+          "artist": "MF DOOM",
+          "year": "2004"
+        },
+        {
+          "name": "Donuts",
+          "artist": "J Dilla",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "All Caps",
+          "artist": "Madvillain",
+          "album": "Madvillainy"
+        }
+      ]
+    },
+    "r&b": {
+      "top_artists": [
+        {
+          "name": "Usher, Beyoncé, Alicia Keys, John Legend, Ne-Yo, Mary J. Blige, Chris Brown, Ciara, Trey Songz, Kelly Rowland"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Confessions",
+          "artist": "Usher",
+          "year": "2004"
+        },
+        {
+          "name": "Dangerously in Love",
+          "artist": "Beyoncé",
+          "year": "2003"
+        },
+        {
+          "name": "Songs in A Minor",
+          "artist": "Alicia Keys",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Yeah!",
+          "artist": "Usher",
+          "album": "Confessions"
+        }
+      ]
+    },
+    "neo soul": {
+      "top_artists": [
+        {
+          "name": "Jill Scott, Erykah Badu, India.Arie, D'Angelo, Musiq Soulchild, Maxwell, Anthony Hamilton, Floetry, Angie Stone, Raheem DeVaughn"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Who Is Jill Scott?",
+          "artist": "Jill Scott",
+          "year": "2000"
+        },
+        {
+          "name": "Voodoo",
+          "artist": "D'Angelo",
+          "year": "2000"
+        },
+        {
+          "name": "Mama's Gun",
+          "artist": "Erykah Badu",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "A Long Walk",
+          "artist": "Jill Scott",
+          "album": "Who Is Jill Scott?"
+        }
+      ]
+    },
+    "soul": {
+      "top_artists": [
+        {
+          "name": "John Legend, Alicia Keys, Anthony Hamilton, Amy Winehouse, Sharon Jones & The Dap-Kings, Joss Stone, Duffy, Adele, Raphael Saadiq, Corinne Bailey Rae"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Get Lifted",
+          "artist": "John Legend",
+          "year": "2004"
+        },
+        {
+          "name": "Back to Black",
+          "artist": "Amy Winehouse",
+          "year": "2006"
+        },
+        {
+          "name": "Comin' from Where I'm From",
+          "artist": "Anthony Hamilton",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Ordinary People",
+          "artist": "John Legend",
+          "album": "Get Lifted"
+        }
+      ]
+    },
+    "motown": {
+      "top_artists": [
+        {
+          "name": "Kem, India.Arie, Erykah Badu, Stevie Wonder, Smokey Robinson, The Temptations, Diana Ross, Lionel Richie, The Isley Brothers, Teena Marie"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Kemistry",
+          "artist": "Kem",
+          "year": "2003"
+        },
+        {
+          "name": "Voyage to India",
+          "artist": "India.Arie",
+          "year": "2002"
+        },
+        {
+          "name": "A Time to Love",
+          "artist": "Stevie Wonder",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Love Calls",
+          "artist": "Kem",
+          "album": "Kemistry"
+        }
+      ]
+    },
+    "soul jazz": {
+      "top_artists": [
+        {
+          "name": "The RH Factor, Robert Glasper, Christian McBride, Terence Blanchard, Charlie Hunter, Soulive, Maceo Parker, Pee Wee Ellis, Fred Wesley, Karl Denson's Tiny Universe"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Hard Groove",
+          "artist": "The RH Factor",
+          "year": "2003"
+        },
+        {
+          "name": "Canvas",
+          "artist": "Robert Glasper",
+          "year": "2005"
+        },
+        {
+          "name": "Soulive",
+          "artist": "Soulive",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Forget Regret",
+          "artist": "The RH Factor",
+          "album": "Hard Groove"
+        }
+      ]
+    },
+    "disco": {
+      "top_artists": [
+        {
+          "name": "Daft Punk, Scissor Sisters, Madonna, Jamiroquai, Hercules & Love Affair, Mika, Sophie Ellis-Bextor, The Shapeshifters, Spiller, Modjo"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Discovery",
+          "artist": "Daft Punk",
+          "year": "2001"
+        },
+        {
+          "name": "Confessions on a Dance Floor",
+          "artist": "Madonna",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "One More Time",
+          "artist": "Daft Punk",
+          "album": "Discovery"
+        }
+      ]
+    },
+    "funk": {
+      "top_artists": [
+        {
+          "name": "OutKast, Jamiroquai, N.E.R.D, Prince, Parliament-Funkadelic"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Speakerboxxx/The Love Below",
+          "artist": "OutKast",
+          "year": "2003"
+        },
+        {
+          "name": "A Funk Odyssey",
+          "artist": "Jamiroquai",
+          "year": "2001"
+        },
+        {
+          "name": "In Search Of...",
+          "artist": "N.E.R.D",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Hey Ya!",
+          "artist": "OutKast",
+          "album": "Speakerboxxx/The Love Below"
+        }
+      ]
+    }
+  },
+  "Jazz, Blues & Soul": {
+    "jazz": {
+      "top_artists": [
+        {
+          "name": "Norah Jones, Esperanza Spalding, Brad Mehldau, Kamasi Washington, Robert Glasper, Diana Krall, Jamie Cullum, The Bad Plus, Hiromi, Chris Botti"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Come Away with Me",
+          "artist": "Norah Jones",
+          "year": "2002"
+        },
+        {
+          "name": "Esperanza",
+          "artist": "Esperanza Spalding",
+          "year": "2008"
+        },
+        {
+          "name": "Art of the Trio",
+          "artist": "Brad Mehldau",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Don't Know Why",
+          "artist": "Norah Jones",
+          "album": "Come Away with Me"
+        }
+      ]
+    },
+    "blues": {
+      "top_artists": [
+        {
+          "name": "The White Stripes, The Black Keys, John Mayer, Buddy Guy, B.B. King, Gary Clark Jr., Joe Bonamassa, Derek Trucks Band, Gov't Mule, Keb' Mo'"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Elephant",
+          "artist": "The White Stripes",
+          "year": "2003"
+        },
+        {
+          "name": "Brothers",
+          "artist": "The Black Keys",
+          "year": "2010"
+        },
+        {
+          "name": "Continuum",
+          "artist": "John Mayer",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Ball and Biscuit",
+          "artist": "The White Stripes",
+          "album": "Elephant"
+        }
+      ]
+    },
+    "chicago blues": {
+      "top_artists": [
+        {
+          "name": "Buddy Guy, Koko Taylor, Lonnie Brooks, Shemekia Copeland, Magic Slim, Lil' Ed & The Blues Imperials, Eddy Clearwater, Lurrie Bell"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sweet Tea",
+          "artist": "Buddy Guy",
+          "year": "2001"
+        },
+        {
+          "name": "The Wicked Messenger",
+          "artist": "Shemekia Copeland",
+          "year": "2002"
+        },
+        {
+          "name": "Old School",
+          "artist": "Koko Taylor",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Done Got Old",
+          "artist": "Buddy Guy",
+          "album": "Sweet Tea"
+        }
+      ]
+    },
+    "cool jazz": {
+      "top_artists": [
+        {
+          "name": "Chet Baker, Stan Getz, Bill Evans, Dave Brubeck, Miles Davis, Modern Jazz Quartet, Gerry Mulligan, Paul Desmond, Jim Hall, Lee Konitz"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Thrill Is Gone",
+          "artist": "Chet Baker",
+          "year": "2002"
+        },
+        {
+          "name": "Bossas & Ballads",
+          "artist": "Stan Getz",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bluebird",
+          "artist": "Stan Getz",
+          "album": "The Best of the Roumanian Years"
+        }
+      ]
+    },
+    "hard bop": {
+      "top_artists": [
+        {
+          "name": "Roy Hargrove, The SFJAZZ Collective, Terence Blanchard, Christian McBride, Eric Alexander, Nicholas Payton, Wynton Marsalis, Joshua Redman, Benny Golson, Cedar Walton"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Earfood",
+          "artist": "Roy Hargrove",
+          "year": "2008"
+        },
+        {
+          "name": "A Tale of God's Will (A Requiem for Katrina)",
+          "artist": "Terence Blanchard",
+          "year": "2007"
+        },
+        {
+          "name": "The Christian McBride Band: Live at Tonic",
+          "artist": "Christian McBride",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Strasbourg/St. Denis",
+          "artist": "Roy Hargrove",
+          "album": "Earfood"
+        }
+      ]
+    },
+    "bebop": {
+      "top_artists": [
+        {
+          "name": "Roy Hargrove, The Dizzy Gillespie All-Star Big Band, James Moody, Antonio Hart, Roberta Gambarini, Cecil Brooks III, Vincent Herring, Eric Harland, Greg Hutchinson, Karriem Riggins"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Nothing Serious",
+          "artist": "Roy Hargrove",
+          "year": "2006"
+        },
+        {
+          "name": "Dizzy's Business",
+          "artist": "The Dizzy Gillespie All-Star Big Band",
+          "year": "2006"
+        },
+        {
+          "name": "Easy to Love",
+          "artist": "Roberta Gambarini",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Nothing Serious",
+          "artist": "Roy Hargrove",
+          "album": "Nothing Serious"
+        }
+      ]
+    },
+    "fusion": {
+      "top_artists": [
+        {
+          "name": "Snarky Puppy, Robert Glasper, Medeski Martin & Wood, The Bad Plus, GoGo Penguin, John McLaughlin, Chick Corea, Herbie Hancock, Vulfpeck, Kamasi Washington"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Black Radio",
+          "artist": "Robert Glasper Experiment",
+          "year": "2012"
+        },
+        {
+          "name": "We Like It Here",
+          "artist": "Snarky Puppy",
+          "year": "2014"
+        },
+        {
+          "name": "Give",
+          "artist": "The Bad Plus",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Afro Blue",
+          "artist": "Robert Glasper Experiment",
+          "album": "Black Radio"
+        }
+      ]
+    },
+    "delta blues": {
+      "top_artists": [
+        {
+          "name": "R.L. Burnside, Junior Kimbrough, T-Model Ford, Cedric Burnside, Lightnin' Malcolm, North Mississippi Allstars, Super Chikan, Paul 'Wine' Jones, Kenny Brown, Robert Belfour"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Wish I Was in Heaven Sitting Down",
+          "artist": "R.L. Burnside",
+          "year": "2000"
+        },
+        {
+          "name": "First Recordings",
+          "artist": "Junior Kimbrough",
+          "year": "1998"
+        },
+        {
+          "name": "Bad Man",
+          "artist": "T-Model Ford",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Poor Black Mattie",
+          "artist": "R.L. Burnside",
+          "album": "Wish I Was in Heaven Sitting Down"
+        }
+      ]
+    },
+    "ragtime": {
+      "top_artists": [
+        {
+          "name": "Reginald Robinson, Frederick Hodges, Brian Holland, Butch Thompson, Carl Sonny Leyland, Terry Waldo, Mimi Blais, Adam Swanson, Stephanie Trick, Tom Brier"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Strongman",
+          "artist": "Reginald Robinson",
+          "year": "1997"
+        },
+        {
+          "name": "Echoes of the Ragtime Era",
+          "artist": "Frederick Hodges",
+          "year": "2000"
+        },
+        {
+          "name": "Classic Ragtime",
+          "artist": "Brian Holland",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Strongman",
+          "artist": "Reginald Robinson",
+          "album": "The Strongman"
+        }
+      ]
+    },
+    "swing": {
+      "top_artists": [
+        {
+          "name": "Michael Bublé, Diana Krall, Harry Connick Jr., Tony Bennett, Robbie Williams, Jamie Cullum, Seth MacFarlane, Cherry Poppin' Daddies, Big Bad Voodoo Daddy, The Brian Setzer Orchestra"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "It's Time",
+          "artist": "Michael Bublé",
+          "year": "2005"
+        },
+        {
+          "name": "The Look of Love",
+          "artist": "Diana Krall",
+          "year": "2001"
+        },
+        {
+          "name": "Duets: An American Classic",
+          "artist": "Tony Bennett",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Feeling Good",
+          "artist": "Michael Bublé",
+          "album": "It's Time"
+        }
+      ]
+    },
+    "blues-rock": {
+      "top_artists": [
+        {
+          "name": "The White Stripes, The Black Keys, John Mayer Trio, Joe Bonamassa, The Raconteurs, Derek Trucks Band, Gov't Mule, Clutch, The Jon Spencer Blues Explosion, North Mississippi Allstars"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Elephant",
+          "artist": "The White Stripes",
+          "year": "2003"
+        },
+        {
+          "name": "Thickfreakness",
+          "artist": "The Black Keys",
+          "year": "2003"
+        },
+        {
+          "name": "Try!",
+          "artist": "John Mayer Trio",
+          "year": "2005"
+        },
+        {
+          "name": "The Ballad of John Henry",
+          "artist": "Joe Bonamassa",
+          "year": "2009"
+        },
+        {
+          "name": "Consolers of the Lonely",
+          "artist": "The Raconteurs",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Seven Nation Army",
+          "artist": "The White Stripes",
+          "album": "Elephant"
+        }
+      ]
+    }
+  },
+  "Pop & Melodies": {
+    "traditional pop": {
+      "top_artists": [
+        {
+          "name": "Michael Bublé, Josh Groban, Norah Jones, Tony Bennett, Barry Manilow, Rod Stewart, Bette Midler, Harry Connick Jr., Il Divo, Susan Boyle"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "It's Time",
+          "artist": "Michael Bublé",
+          "year": "2005"
+        },
+        {
+          "name": "Come Away with Me",
+          "artist": "Norah Jones",
+          "year": "2002"
+        },
+        {
+          "name": "Closer",
+          "artist": "Josh Groban",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Home",
+          "artist": "Michael Bublé",
+          "album": "It's Time"
+        }
+      ]
+    },
+    "pop": {
+      "top_artists": [
+        {
+          "name": "Beyoncé, Justin Timberlake, Rihanna, Britney Spears, Lady Gaga, Christina Aguilera, Pink, Katy Perry, Kelly Clarkson, Avril Lavigne"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Justified",
+          "artist": "Justin Timberlake",
+          "year": "2002"
+        },
+        {
+          "name": "Dangerously in Love",
+          "artist": "Beyoncé",
+          "year": "2003"
+        },
+        {
+          "name": "The Fame",
+          "artist": "Lady Gaga",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Cry Me a River",
+          "artist": "Justin Timberlake",
+          "album": "Justified"
+        }
+      ]
+    },
+    "surf": {
+      "top_artists": [
+        {
+          "name": "Man or Astro-man?, Los Straitjackets, The Bambi Molesters, The Ghastly Ones, Daikaiju, The Messer Chups, Satan's Pilgrims, The Slackers, Langhorns, The Barbwire Boys"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sonic Rock and Roll",
+          "artist": "The Bambi Molesters",
+          "year": "2001"
+        },
+        {
+          "name": "The Velvet Touch of Los Straitjackets",
+          "artist": "Los Straitjackets",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Malagueña",
+          "artist": "The Bambi Molesters",
+          "album": "Sonic Rock and Roll"
+        }
+      ]
+    },
+    "power pop": {
+      "top_artists": [
+        {
+          "name": "The New Pornographers, Fountains of Wayne, The Shins, The All-American Rejects, OK Go, Panic! At The Disco, Motion City Soundtrack, Plain White T's, Relient K, The Academy Is..."
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Mass Romantic",
+          "artist": "The New Pornographers",
+          "year": "2000"
+        },
+        {
+          "name": "Welcome Interstate Managers",
+          "artist": "Fountains of Wayne",
+          "year": "2003"
+        },
+        {
+          "name": "Oh, Inverted World",
+          "artist": "The Shins",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Stacy's Mom",
+          "artist": "Fountains of Wayne",
+          "album": "Welcome Interstate Managers"
+        }
+      ]
+    },
+    "teen pop": {
+      "top_artists": [
+        {
+          "name": "Britney Spears, Justin Timberlake, Christina Aguilera, Hilary Duff, Jesse McCartney, Miley Cyrus, Jonas Brothers, Demi Lovato, Selena Gomez, Ashley Tisdale"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Oops!... I Did It Again",
+          "artist": "Britney Spears",
+          "year": "2000"
+        },
+        {
+          "name": "Stripped",
+          "artist": "Christina Aguilera",
+          "year": "2002"
+        },
+        {
+          "name": "Metamorphosis",
+          "artist": "Hilary Duff",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Oops!... I Did It Again",
+          "artist": "Britney Spears",
+          "album": "Oops!... I Did It Again"
+        }
+      ]
+    },
+    "europop": {
+      "top_artists": [
+        {
+          "name": "O-Zone, Basshunter, September, Cascada, Inna, Edward Maya, Alexandra Stan, Arash, Elena Paparizou, Sertab Erener"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Gourmandises",
+          "artist": "Alizée",
+          "year": "2000"
+        },
+        {
+          "name": "DiscO-Zone",
+          "artist": "O-Zone",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Dragostea Din Tei",
+          "artist": "O-Zone",
+          "album": "DiscO-Zone"
+        }
+      ]
+    },
+    "dance-pop": {
+      "top_artists": [
+        {
+          "name": "Lady Gaga, Kylie Minogue, Rihanna, Katy Perry, Kesha, Jennifer Lopez, Gwen Stefani, Nelly Furtado, Fergie, Nicole Scherzinger"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Fame",
+          "artist": "Lady Gaga",
+          "year": "2008"
+        },
+        {
+          "name": "Fever",
+          "artist": "Kylie Minogue",
+          "year": "2001"
+        },
+        {
+          "name": "Good Girl Gone Bad",
+          "artist": "Rihanna",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Just Dance",
+          "artist": "Lady Gaga",
+          "album": "The Fame"
+        }
+      ]
+    },
+    "k-pop": {
+      "top_artists": [
+        {
+          "name": "TVXQ, BIGBANG, Wonder Girls, Girls' Generation, Super Junior, Rain, BoA, SHINee, 2NE1, Brown Eyed Girls"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "O-Jung.Ban.Hap",
+          "artist": "TVXQ",
+          "year": "2006"
+        },
+        {
+          "name": "Always",
+          "artist": "Big Bang",
+          "year": "2007"
+        },
+        {
+          "name": "Gee",
+          "artist": "Girls' Generation",
+          "year": "2009"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Haru Haru",
+          "artist": "Big Bang",
+          "album": "Always"
+        }
+      ]
+    },
+    "j-pop": {
+      "top_artists": [
+        {
+          "name": "Ayumi Hamasaki, Utada Hikaru, Kumi Koda, Namie Amuro, Arashi, Perfume, Mika Nakashima, Ken Hirai, Exile, SMAP"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "I am...",
+          "artist": "Ayumi Hamasaki",
+          "year": "2002"
+        },
+        {
+          "name": "Deep River",
+          "artist": "Hikaru Utada",
+          "year": "2002"
+        },
+        {
+          "name": "Game",
+          "artist": "Perfume",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Beautiful World",
+          "artist": "Hikaru Utada",
+          "album": "Deep River"
+        }
+      ]
+    }
+  },
+  "Folk & Acoustics": {
+    "gospel": {
+      "top_artists": [
+        {
+          "name": "Kirk Franklin, Mary Mary, Donnie McClurkin, Marvin Sapp, Israel Houghton, Tye Tribbett, Smokie Norful, Byron Cage, Casting Crowns, Chris Tomlin"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Rebirth of Kirk Franklin",
+          "artist": "Kirk Franklin",
+          "year": "2002"
+        },
+        {
+          "name": "Thankful",
+          "artist": "Mary Mary",
+          "year": "2000"
+        },
+        {
+          "name": "Never Would Have Made It",
+          "artist": "Marvin Sapp",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Shackles (Praise You)",
+          "artist": "Mary Mary",
+          "album": "Thankful"
+        }
+      ]
+    },
+    "acoustic": {
+      "top_artists": [
+        {
+          "name": "Jack Johnson, Jason Mraz, Jose Gonzalez, Andy McKee, Newton Faulkner, John Butler Trio, Donavon Frankenreiter, Xavier Rudd, Ray LaMontagne, Damien Rice"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Brushfire Fairytales",
+          "artist": "Jack Johnson",
+          "year": "2001"
+        },
+        {
+          "name": "Veneer",
+          "artist": "Jose Gonzalez",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Better Together",
+          "artist": "Jack Johnson",
+          "album": "In Between Dreams"
+        }
+      ]
+    },
+    "folk": {
+      "top_artists": [
+        {
+          "name": "Sufjan Stevens, Iron & Wine, Bon Iver, Fleet Foxes, Devendra Banhart, The Decemberists, Andrew Bird, Laura Marling, Mumford & Sons, The Tallest Man on Earth"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Illinois",
+          "artist": "Sufjan Stevens",
+          "year": "2005"
+        },
+        {
+          "name": "For Emma, Forever Ago",
+          "artist": "Bon Iver",
+          "year": "2007"
+        },
+        {
+          "name": "Fleet Foxes",
+          "artist": "Fleet Foxes",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Chicago",
+          "artist": "Sufjan Stevens",
+          "album": "Illinois"
+        }
+      ]
+    },
+    "country": {
+      "top_artists": [
+        {
+          "name": "Taylor Swift, Carrie Underwood, Keith Urban, Tim McGraw, Rascal Flatts, Brad Paisley, Kenny Chesney, Alan Jackson, Garth Brooks, Miranda Lambert"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Fearless",
+          "artist": "Taylor Swift",
+          "year": "2008"
+        },
+        {
+          "name": "Some Hearts",
+          "artist": "Carrie Underwood",
+          "year": "2005"
+        },
+        {
+          "name": "Golden Road",
+          "artist": "Keith Urban",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Love Story",
+          "artist": "Taylor Swift",
+          "album": "Fearless"
+        }
+      ]
+    },
+    "celtic": {
+      "top_artists": [
+        {
+          "name": "Celtic Woman, Celtic Thunder, The High Kings, Julie Fowlis, The Chieftains, The Dubliners, Clannad, Altan, Lunasa, Solas"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Celtic Woman",
+          "artist": "Celtic Woman",
+          "year": "2005"
+        },
+        {
+          "name": "The High Kings",
+          "artist": "The High Kings",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "You Raise Me Up",
+          "artist": "Celtic Woman",
+          "album": "Celtic Woman"
+        }
+      ]
+    },
+    "singer-songwriter": {
+      "top_artists": [
+        {
+          "name": "John Mayer, Jack Johnson, Damien Rice, Jason Mraz, Norah Jones, Elliott Smith, Feist, Fiona Apple, Sufjan Stevens, Ray LaMontagne"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Continuum",
+          "artist": "John Mayer",
+          "year": "2006"
+        },
+        {
+          "name": "In Between Dreams",
+          "artist": "Jack Johnson",
+          "year": "2005"
+        },
+        {
+          "name": "O",
+          "artist": "Damien Rice",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Gravity",
+          "artist": "John Mayer",
+          "album": "Continuum"
+        }
+      ]
+    },
+    "americana": {
+      "top_artists": [
+        {
+          "name": "Wilco, Ryan Adams, The Avett Brothers, My Morning Jacket, Drive-By Truckers, Old Crow Medicine Show, Gillian Welch, Jason Isbell, Lucinda Williams, The Felice Brothers"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Yankee Hotel Foxtrot",
+          "artist": "Wilco",
+          "year": "2002"
+        },
+        {
+          "name": "Gold",
+          "artist": "Ryan Adams",
+          "year": "2001"
+        },
+        {
+          "name": "Z",
+          "artist": "My Morning Jacket",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Jesus, Etc.",
+          "artist": "Wilco",
+          "album": "Yankee Hotel Foxtrot"
+        }
+      ]
+    }
+  },
+  "The Metal Peaks": {
+    "metal": {
+      "top_artists": [
+        {
+          "name": "Mastodon, Lamb of God, Opeth, Gojira, Tool, Machine Head, Pantera, Megadeth, Sepultura, Soulfly"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Leviathan",
+          "artist": "Mastodon",
+          "year": "2004"
+        },
+        {
+          "name": "Ashes of the Wake",
+          "artist": "Lamb of God",
+          "year": "2004"
+        },
+        {
+          "name": "Blackwater Park",
+          "artist": "Opeth",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Blood and Thunder",
+          "artist": "Mastodon",
+          "album": "Leviathan"
+        }
+      ]
+    },
+    "heavy metal": {
+      "top_artists": [
+        {
+          "name": "Iron Maiden, Judas Priest, Dio, Accept, Saxon, Motorhead, Black Sabbath, Heaven & Hell, Halford, Bruce Dickinson"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Brave New World",
+          "artist": "Iron Maiden",
+          "year": "2000"
+        },
+        {
+          "name": "Angel of Retribution",
+          "artist": "Judas Priest",
+          "year": "2005"
+        },
+        {
+          "name": "Killing the Dragon",
+          "artist": "Dio",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Wicker Man",
+          "artist": "Iron Maiden",
+          "album": "Brave New World"
+        }
+      ]
+    },
+    "thrash metal": {
+      "top_artists": [
+        {
+          "name": "Slayer, Megadeth, Testament, Exodus, Kreator, Anthrax, Overkill, Destruction, Municipal Waste, Vektor"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "God Hates Us All",
+          "artist": "Slayer",
+          "year": "2001"
+        },
+        {
+          "name": "The System Has Failed",
+          "artist": "Megadeth",
+          "year": "2004"
+        },
+        {
+          "name": "The Formation of Damnation",
+          "artist": "Testament",
+          "year": "2008"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Disciple",
+          "artist": "Slayer",
+          "album": "God Hates Us All"
+        }
+      ]
+    },
+    "black metal": {
+      "top_artists": [
+        {
+          "name": "Dimmu Borgir, Emperor, Satyricon, Mayhem, Immortal, Watain, Enslaved, Behemoth, Gorgoroth, Darkthrone"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Puritanical Euphoric Misanthropia",
+          "artist": "Dimmu Borgir",
+          "year": "2001"
+        },
+        {
+          "name": "Prometheus: The Discipline of Fire & Demise",
+          "artist": "Emperor",
+          "year": "2001"
+        },
+        {
+          "name": "Now, Diabolical",
+          "artist": "Satyricon",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Progenies of the Great Apocalypse",
+          "artist": "Dimmu Borgir",
+          "album": "Puritanical Euphoric Misanthropia"
+        }
+      ]
+    },
+    "death metal": {
+      "top_artists": [
+        {
+          "name": "Opeth, Cannibal Corpse, Nile, Morbid Angel, Decapitated, Vader, Deicide, Bloodbath, Dying Fetus, Amon Amarth"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blackwater Park",
+          "artist": "Opeth",
+          "year": "2001"
+        },
+        {
+          "name": "The Wretched Spawn",
+          "artist": "Cannibal Corpse",
+          "year": "2004"
+        },
+        {
+          "name": "Annihilation of the Wicked",
+          "artist": "Nile",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bleak",
+          "artist": "Opeth",
+          "album": "Blackwater Park"
+        }
+      ]
+    },
+    "doom metal": {
+      "top_artists": [
+        {
+          "name": "Electric Wizard, Cathedral, Candlemass, Sleep, Sunn O))), My Dying Bride, Paradise Lost, Draconian, Katatonia, Swallow the Sun"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Dopethrone",
+          "artist": "Electric Wizard",
+          "year": "2000"
+        },
+        {
+          "name": "The Endorama",
+          "artist": "Cathedral",
+          "year": "2001"
+        },
+        {
+          "name": "White1",
+          "artist": "Sunn O)))",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Funeralopolis",
+          "artist": "Electric Wizard",
+          "album": "Dopethrone"
+        }
+      ]
+    },
+    "nu metal": {
+      "top_artists": [
+        {
+          "name": "Linkin Park, Slipknot, System of a Down, Disturbed, Korn, Limp Bizkit, Deftones, Papa Roach, Evanescence, P.O.D."
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Hybrid Theory",
+          "artist": "Linkin Park",
+          "year": "2000"
+        },
+        {
+          "name": "Iowa",
+          "artist": "Slipknot",
+          "year": "2001"
+        },
+        {
+          "name": "Toxicity",
+          "artist": "System of a Down",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "In the End",
+          "artist": "Linkin Park",
+          "album": "Hybrid Theory"
+        }
+      ]
+    },
+    "metalcore": {
+      "top_artists": [
+        {
+          "name": "Killswitch Engage, As I Lay Dying, Trivium, Parkway Drive, August Burns Red, Avenged Sevenfold, The Dillinger Escape Plan, Bullet for My Valentine, Bring Me the Horizon, Underoath"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Alive or Just Breathing",
+          "artist": "Killswitch Engage",
+          "year": "2002"
+        },
+        {
+          "name": "Shadows Are Security",
+          "artist": "As I Lay Dying",
+          "year": "2005"
+        },
+        {
+          "name": "Ascendancy",
+          "artist": "Trivium",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "My Curse",
+          "artist": "Killswitch Engage",
+          "album": "Alive or Just Breathing"
+        }
+      ]
+    },
+    "sludge": {
+      "top_artists": [
+        {
+          "name": "Mastodon, Neurosis, Isis, Eyehategod, Crowbar, Baroness, High on Fire, Kylesa, Cult of Luna, Pelican"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Remission",
+          "artist": "Mastodon",
+          "year": "2002"
+        },
+        {
+          "name": "Oceanic",
+          "artist": "Isis",
+          "year": "2002"
+        },
+        {
+          "name": "The Eye of Every Storm",
+          "artist": "Neurosis",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "March of the Fire Ants",
+          "artist": "Mastodon",
+          "album": "Remission"
+        }
+      ]
+    },
+    "grindcore": {
+      "top_artists": [
+        {
+          "name": "Napalm Death, Pig Destroyer, Nasum, Brutal Truth, Agoraphobic Nosebleed, Rotten Sound, Converge, Assück, Phobia, Cattle Decapitation"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Enemy of the Music Business",
+          "artist": "Napalm Death",
+          "year": "2000"
+        },
+        {
+          "name": "Prowler in the Yard",
+          "artist": "Pig Destroyer",
+          "year": "2001"
+        },
+        {
+          "name": "Helvete",
+          "artist": "Nasum",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Призрак",
+          "artist": "Pig Destroyer",
+          "album": "Prowler in the Yard"
+        }
+      ]
+    },
+    "power metal": {
+      "top_artists": [
+        {
+          "name": "DragonForce, Blind Guardian, Sonata Arctica, Rhapsody of Fire, Kamelot, Sabaton, HammerFall, Stratovarius, Edguy, Powerwolf"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Inhuman Rampage",
+          "artist": "DragonForce",
+          "year": "2006"
+        },
+        {
+          "name": "A Night at the Opera",
+          "artist": "Blind Guardian",
+          "year": "2002"
+        },
+        {
+          "name": "The Black Halo",
+          "artist": "Kamelot",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Through the Fire and Flames",
+          "artist": "DragonForce",
+          "album": "Inhuman Rampage"
+        }
+      ]
+    },
+    "gothic metal": {
+      "top_artists": [
+        {
+          "name": "Lacuna Coil, Nightwish, Within Temptation, Epica, Paradise Lost, Sirenia, Tristania, Moonspell, Type O Negative, Theatre of Tragedy"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Comalies",
+          "artist": "Lacuna Coil",
+          "year": "2002"
+        },
+        {
+          "name": "Once",
+          "artist": "Nightwish",
+          "year": "2004"
+        },
+        {
+          "name": "The Silent Force",
+          "artist": "Within Temptation",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Heaven's a Lie",
+          "artist": "Lacuna Coil",
+          "album": "Comalies"
+        }
+      ]
+    }
+  },
+  "Reggae & Global Beats": {
+    "rocksteady": {
+      "top_artists": [
+        {
+          "name": "The Melodians, Beres Hammond, Sanchez, Alton Ellis, Ken Boothe, Marcia Griffiths, John Holt, Tarrus Riley, Etana, Gregory Isaacs"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "A Moment in Time",
+          "artist": "Beres Hammond",
+          "year": "2008"
+        },
+        {
+          "name": "Parables",
+          "artist": "Tarrus Riley",
+          "year": "2006"
+        },
+        {
+          "name": "The Strong One",
+          "artist": "Etana",
+          "year": "2008"
+        },
+        {
+          "name": "Shining Star",
+          "artist": "Marcia Griffiths",
+          "year": "2005"
+        },
+        {
+          "name": "One Up",
+          "artist": "Sanchez",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "She's Royal",
+          "artist": "Tarrus Riley",
+          "album": "Parables"
+        }
+      ]
+    },
+    "reggae": {
+      "top_artists": [
+        {
+          "name": "Damian Marley, Gentleman, Protoje, Chronixx, Stephen Marley, Burning Spear, Sizzla, Alborosie, Groundation, Jah Cure"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Welcome to Jamrock",
+          "artist": "Damian Marley",
+          "year": "2005"
+        },
+        {
+          "name": "Confidence",
+          "artist": "Gentleman",
+          "year": "2004"
+        },
+        {
+          "name": "Mind Control",
+          "artist": "Stephen Marley",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Welcome to Jamrock",
+          "artist": "Damian Marley",
+          "album": "Welcome to Jamrock"
+        }
+      ]
+    },
+    "dancehall": {
+      "top_artists": [
+        {
+          "name": "Sean Paul, Vybz Kartel, Beenie Man, Elephant Man, Mavado, Shaggy, Buju Banton, Mr. Vegas, Capleton, Popcaan"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Dutty Rock",
+          "artist": "Sean Paul",
+          "year": "2002"
+        },
+        {
+          "name": "Pon di Gaza",
+          "artist": "Vybz Kartel",
+          "year": "2007"
+        },
+        {
+          "name": "Let's Get It On",
+          "artist": "Elephant Man",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Get Busy",
+          "artist": "Sean Paul",
+          "album": "Dutty Rock"
+        }
+      ]
+    },
+    "reggaeton": {
+      "top_artists": [
+        {
+          "name": "Daddy Yankee, Don Omar, Wisin & Yandel, Tego Calderón, Ivy Queen, Arcángel, Zion & Lennox, Calle 13, Héctor el Father, Voltio"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Barrio Fino",
+          "artist": "Daddy Yankee",
+          "year": "2004"
+        },
+        {
+          "name": "The Last Don",
+          "artist": "Don Omar",
+          "year": "2003"
+        },
+        {
+          "name": "Pa'l Mundo",
+          "artist": "Wisin & Yandel",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Gasolina",
+          "artist": "Daddy Yankee",
+          "album": "Barrio Fino"
+        }
+      ]
+    },
+    "ska": {
+      "top_artists": [
+        {
+          "name": "Streetlight Manifesto, The Aggrolites, The Slackers, The Planet Smashers, Westbound Train, Big D and the Kids Table, Catch 22, Capdown, Mad Caddies, The King Blues"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Everything Goes Numb",
+          "artist": "Streetlight Manifesto",
+          "year": "2003"
+        },
+        {
+          "name": "The Aggrolites",
+          "artist": "The Aggrolites",
+          "year": "2006"
+        },
+        {
+          "name": "Peculiar",
+          "artist": "The Slackers",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Point/Counterpoint",
+          "artist": "Streetlight Manifesto",
+          "album": "Everything Goes Numb"
+        }
+      ]
+    },
+    "dub": {
+      "top_artists": [
+        {
+          "name": "King Tubby, Mad Professor, Lee \"Scratch\" Perry, Scientist, Augustus Pablo, Jahtari, Deadbeat, Twilight Circus, Disrupt, Panda Dub"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Dub Landing Vol. 2",
+          "artist": "Mad Professor",
+          "year": "2003"
+        },
+        {
+          "name": "Version Like Rain",
+          "artist": "King Tubby",
+          "year": "2005"
+        },
+        {
+          "name": "Dub Syndicate",
+          "artist": "Adrian Sherwood",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Dub Them Down",
+          "artist": "Mad Professor",
+          "album": "Dub Landing Vol. 2"
+        }
+      ]
+    },
+    "afrobeats": {
+      "top_artists": [
+        {
+          "name": "D'banj, P-Square, 2face Idibia, Wizkid, Davido, Olamide, Flavour, Akani, Don Jazzy, Banky W."
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "No Long Thing",
+          "artist": "D'banj",
+          "year": "2005"
+        },
+        {
+          "name": "Get Squared",
+          "artist": "P-Square",
+          "year": "2005"
+        },
+        {
+          "name": "Face 2 Face",
+          "artist": "2face Idibia",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "African Queen",
+          "artist": "2face Idibia",
+          "album": "Face 2 Face"
+        }
+      ]
+    },
+    "calypso": {
+      "top_artists": [
+        {
+          "name": "Machel Montano, Bunji Garlin, Fay-Ann Lyons, Destra Garcia, Patrice Roberts, Kes the Band, Shurwayne Winchester, Denise Belfon, Iwer George, Claudette Peters"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Charge",
+          "artist": "Machel Montano",
+          "year": "2007"
+        },
+        {
+          "name": "Global",
+          "artist": "Bunji Garlin",
+          "year": "2007"
+        },
+        {
+          "name": "Heavy T Bumpa",
+          "artist": "Fay-Ann Lyons",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Footsteps",
+          "artist": "Machel Montano",
+          "album": "Charge"
+        }
+      ]
+    },
+    "merengue": {
+      "top_artists": [
+        {
+          "name": "Eddy Herrera, Tito El Bambino, Milly Quezada, Toño Rosario, Elvis Crespo, Juan Luis Guerra, Sergio Vargas, Kinito Méndez, Los Hermanos Rosario, Joe Veras"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Éxitos de Eddy Herrera",
+          "artist": "Eddy Herrera",
+          "year": "2005"
+        },
+        {
+          "name": "Pienso en Ti",
+          "artist": "Milly Quezada",
+          "year": "2002"
+        },
+        {
+          "name": "En Vivo desde El Auditorio Nacional",
+          "artist": "Elvis Crespo",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Pégame tu Vicio",
+          "artist": "Eddy Herrera",
+          "album": "Amor de Locos"
+        }
+      ]
+    },
+    "bossa nova": {
+      "top_artists": [
+        {
+          "name": "Bebel Gilberto, Ceu, Sergio Mendes, Nouvelle Vague, Vanessa da Mata, Paula Morelenbaum, Adriana Calcanhotto, Eliane Elias, Lisa Ono, Marisa Monte"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Bebel Gilberto",
+          "artist": "Bebel Gilberto",
+          "year": "2004"
+        },
+        {
+          "name": "CéU",
+          "artist": "Ceu",
+          "year": "2005"
+        },
+        {
+          "name": "Timeless",
+          "artist": "Sergio Mendes",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Baby",
+          "artist": "Bebel Gilberto",
+          "album": "Bebel Gilberto"
+        }
+      ]
+    },
+    "latin": {
+      "top_artists": [
+        {
+          "name": "Shakira, Marc Anthony, Juan Luis Guerra, Juanes, Calle 13, Enrique Iglesias, Ricky Martin, Alejandro Sanz, Julieta Venegas, Mana"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Fijación Oral Vol. 1",
+          "artist": "Shakira",
+          "year": "2005"
+        },
+        {
+          "name": "Amar Sin Mentiras",
+          "artist": "Marc Anthony",
+          "year": "2004"
+        },
+        {
+          "name": "Mi Sangre",
+          "artist": "Juanes",
+          "year": "2004"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "La Tortura",
+          "artist": "Shakira",
+          "album": "Fijación Oral Vol. 1"
+        }
+      ]
+    },
+    "flamenco": {
+      "top_artists": [
+        {
+          "name": "Paco de Lucía, Vicente Amigo, Diego El Cigala, Tomatito, Estrella Morente, Ojos de Brujo, Niña Pastori, Miguel Poveda, Duquende, Enrique Morente"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Cositas Buenas",
+          "artist": "Paco de Lucía",
+          "year": "2004"
+        },
+        {
+          "name": "Lágrimas Negras",
+          "artist": "Diego El Cigala",
+          "year": "2003"
+        },
+        {
+          "name": "Ciudad de las Ideas",
+          "artist": "Vicente Amigo",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Cositas Buenas",
+          "artist": "Paco de Lucía",
+          "album": "Cositas Buenas"
+        }
+      ]
+    },
+    "bachata": {
+      "top_artists": [
+        {
+          "name": "Aventura, Romeo Santos, Prince Royce, Monchy & Alexandra"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Last",
+          "artist": "Aventura",
+          "year": "2009"
+        },
+        {
+          "name": "God's Project",
+          "artist": "Aventura",
+          "year": "2005"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Obsesión",
+          "artist": "Aventura",
+          "album": "We Broke the Rules"
+        }
+      ]
+    },
+    "soca": {
+      "top_artists": [
+        {
+          "name": "Machel Montano, Destra Garcia, Bunji Garlin"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "B.O.D.Y.",
+          "artist": "Machel Montano",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "One More Time",
+          "artist": "Machel Montano",
+          "album": "The Book of Angels"
+        }
+      ]
+    }
+  },
+  "Classical & Experimental": {
+    "experimental": {
+      "top_artists": [
+        {
+          "name": "Radiohead, Björk, Animal Collective, The Mars Volta, Battles, Grizzly Bear, TV on the Radio, Dirty Projectors, Deerhunter, Scott Walker"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Kid A",
+          "artist": "Radiohead",
+          "year": "2000"
+        },
+        {
+          "name": "Vespertine",
+          "artist": "Björk",
+          "year": "2001"
+        },
+        {
+          "name": "Merriweather Post Pavilion",
+          "artist": "Animal Collective",
+          "year": "2009"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Everything in Its Right Place",
+          "artist": "Radiohead",
+          "album": "Kid A"
+        }
+      ]
+    },
+    "noise": {
+      "top_artists": [
+        {
+          "name": "Merzbow, Prurient, Wolf Eyes, The Haxan Cloak, Pharmakon, Whitehouse, The Ritz, Ben Frost, Emeralds, Fennesz"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Merzbeat",
+          "artist": "Merzbow",
+          "year": "2002"
+        },
+        {
+          "name": "Burned Mind",
+          "artist": "Wolf Eyes",
+          "year": "2004"
+        },
+        {
+          "name": "Black Vase",
+          "artist": "Prurient",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Prelude",
+          "artist": "Merzbow",
+          "album": "Merzbeat"
+        }
+      ]
+    },
+    "dark ambient": {
+      "top_artists": [
+        {
+          "name": "Lustmord, Atrium Carceri, Raison d'être, Biosphere, Desiderii Marginis, Cryo Chamber, Thomas Köner, Kammarheit, Northaunt, Svartsinn"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "[Other]",
+          "artist": "Lustmord",
+          "year": "2008"
+        },
+        {
+          "name": "Cellblock",
+          "artist": "Atrium Carceri",
+          "year": "2003"
+        },
+        {
+          "name": "Autosphere",
+          "artist": "Biosphere",
+          "year": "2006"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Subspace",
+          "artist": "Lustmord",
+          "album": "[Other]"
+        }
+      ]
+    },
+    "drone": {
+      "top_artists": [
+        {
+          "name": "Sunn O))), Earth, Stars of the Lid, Tim Hecker, Barn Owl, The For Carnation, Natural Snow Buildings, William Basinski, Grouper, Yellow Swans"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Black One",
+          "artist": "Sunn O)))",
+          "year": "2005"
+        },
+        {
+          "name": "Hex; Or Printing in the Infernal Method",
+          "artist": "Earth",
+          "year": "2005"
+        },
+        {
+          "name": "And Their Refinement of the Decline",
+          "artist": "Stars of the Lid",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Cursed Realms (Of the Winterdemons)",
+          "artist": "Sunn O)))",
+          "album": "Black One"
+        }
+      ]
+    },
+    "avant-garde": {
+      "top_artists": [
+        {
+          "name": "Björk, John Zorn, Diamanda Galás, Laurie Anderson, Merzbow, Comus, Kayo Dot, Secret Chiefs 3, Zu, Matmos"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Medúlla",
+          "artist": "Björk",
+          "year": "2004"
+        },
+        {
+          "name": "The Book of Angels",
+          "artist": "John Zorn",
+          "year": "2005"
+        },
+        {
+          "name": "Defixiones",
+          "artist": "Diamanda Galás",
+          "year": "2003"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Oceania",
+          "artist": "Björk",
+          "album": "Medúlla"
+        }
+      ]
+    },
+    "modern classical": {
+      "top_artists": [
+        {
+          "name": "Max Richter, Arvo Pärt, Johann Johannsson, Nils Frahm, Ólafur Arnalds, Dustin O'Halloran, Hauschka, Goldmund, Sylvain Chauveau, Peter Broderick"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Blue Notebooks",
+          "artist": "Max Richter",
+          "year": "2004"
+        },
+        {
+          "name": "IBM 1401, A User's Manual",
+          "artist": "Johann Johannsson",
+          "year": "2006"
+        },
+        {
+          "name": "Vítrið",
+          "artist": "Ólafur Arnalds",
+          "year": "2007"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "On the Nature of Daylight",
+          "artist": "Max Richter",
+          "album": "The Blue Notebooks"
+        }
+      ]
+    },
+    "minimalism": {
+      "top_artists": [
+        {
+          "name": "Max Richter, Johann Johannsson, Nils Frahm, Philip Glass, Steve Reich, Lubomyr Melnyk, Charlemagne Palestine, Ellen Arkbro, Sarah Davachi, Kali Malone"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Blue Notebooks",
+          "artist": "Max Richter",
+          "year": "2004"
+        },
+        {
+          "name": "Fordlandia",
+          "artist": "Johann Johannsson",
+          "year": "2008"
+        },
+        {
+          "name": "Different Trains (Live)",
+          "artist": "Steve Reich",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "On the Nature of Daylight",
+          "artist": "Max Richter",
+          "album": "The Blue Notebooks"
+        }
+      ]
+    },
+    "classical": {
+      "top_artists": [
+        {
+          "name": "Max Richter, Arvo Pärt, Philip Glass, Steve Reich, John Adams, Krysztof Penderecki, Gorecki, Einojuhani Rautavaara, Gavin Bryars, Valentin Silvestrov"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Blue Notebooks",
+          "artist": "Max Richter",
+          "year": "2004"
+        },
+        {
+          "name": "Alina",
+          "artist": "Arvo Pärt",
+          "year": "1999"
+        },
+        {
+          "name": "Music in Twelve Parts",
+          "artist": "Philip Glass",
+          "year": "1974"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "On the Nature of Daylight",
+          "artist": "Max Richter",
+          "album": "The Blue Notebooks"
+        }
+      ]
+    },
+    "soundtrack": {
+      "top_artists": [
+        {
+          "name": "Hans Zimmer, Howard Shore, John Williams, Alexandre Desplat, Thomas Newman, Michael Giacchino, James Newton Howard, Danny Elfman, Ennio Morricone, Clint Mansell"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Lord of the Rings",
+          "artist": "Howard Shore",
+          "year": "2001"
+        },
+        {
+          "name": "Gladiator",
+          "artist": "Hans Zimmer",
+          "year": "2000"
+        },
+        {
+          "name": "Amélie",
+          "artist": "Yann Tiersen",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Now We Are Free",
+          "artist": "Hans Zimmer",
+          "album": "Gladiator"
+        }
+      ]
+    }
+  }
+}

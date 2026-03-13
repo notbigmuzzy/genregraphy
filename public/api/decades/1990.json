@@ -1,0 +1,3759 @@
+{
+  "Rock & Overdrive": {
+    "progressive rock": {
+      "top_artists": [
+        {
+          "name": "Dream Theater, Tool, Porcupine Tree, The Flower Kings, Spock's Beard, Opeth, Anathema, Pain of Salvation, Anglagard, Ayreon"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Images and Words",
+          "artist": "Dream Theater",
+          "year": "1992"
+        },
+        {
+          "name": "Ænima",
+          "artist": "Tool",
+          "year": "1996"
+        },
+        {
+          "name": "Stupid Dream",
+          "artist": "Porcupine Tree",
+          "year": "1999"
+        },
+        {
+          "name": "Still Life",
+          "artist": "Opeth",
+          "year": "1999"
+        },
+        {
+          "name": "The Sky Moves Sideways",
+          "artist": "Porcupine Tree",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Pull Me Under",
+          "artist": "Dream Theater",
+          "album": "Images and Words"
+        }
+      ]
+    },
+    "rock": {
+      "top_artists": [
+        {
+          "name": "Radiohead, Pearl Jam, Oasis, Foo Fighters, Red Hot Chili Peppers"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "OK Computer",
+          "artist": "Radiohead",
+          "year": "1997"
+        },
+        {
+          "name": "Ten",
+          "artist": "Pearl Jam",
+          "year": "1991"
+        },
+        {
+          "name": "(What's the Story) Morning Glory?",
+          "artist": "Oasis",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Paranoid Android",
+          "artist": "Radiohead",
+          "album": "OK Computer"
+        }
+      ]
+    },
+    "garage rock": {
+      "top_artists": [
+        {
+          "name": "The Jon Spencer Blues Explosion, Guitar Wolf, The Mummies, Teengenerate, New Bomb Turks, The Gories, Dead Moon, Oblivians, The Makers, Man or Astro-man?"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Orange",
+          "artist": "The Jon Spencer Blues Explosion",
+          "year": "1994"
+        },
+        {
+          "name": "Wolf Guitar",
+          "artist": "Guitar Wolf",
+          "year": "1993"
+        },
+        {
+          "name": "Never Been Caught",
+          "artist": "The Mummies",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bellbottoms",
+          "artist": "The Jon Spencer Blues Explosion",
+          "album": "Orange"
+        }
+      ]
+    },
+    "grunge": {
+      "top_artists": [
+        {
+          "name": "Nirvana, Pearl Jam, Soundgarden, Alice in Chains, Stone Temple Pilots, Mudhoney, Screaming Trees, Melvins, L7, The Smashing Pumpkins"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Nevermind",
+          "artist": "Nirvana",
+          "year": "1991"
+        },
+        {
+          "name": "Ten",
+          "artist": "Pearl Jam",
+          "year": "1991"
+        },
+        {
+          "name": "Dirt",
+          "artist": "Alice in Chains",
+          "year": "1992"
+        },
+        {
+          "name": "Superunknown",
+          "artist": "Soundgarden",
+          "year": "1994"
+        },
+        {
+          "name": "Purple",
+          "artist": "Stone Temple Pilots",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "album": "Nevermind"
+        }
+      ]
+    },
+    "rockabilly": {
+      "top_artists": [
+        {
+          "name": "The Brian Setzer Orchestra, The Reverend Horton Heat, Social Distortion, Southern Culture on the Skids, The Living End"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Dirty Boogie",
+          "artist": "The Brian Setzer Orchestra",
+          "year": "1998"
+        },
+        {
+          "name": "Liquor in the Front",
+          "artist": "The Reverend Horton Heat",
+          "year": "1994"
+        },
+        {
+          "name": "Somewhere Between Heaven and Hell",
+          "artist": "Social Distortion",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Jump, Jive an' Wail",
+          "artist": "The Brian Setzer Orchestra",
+          "album": "The Dirty Boogie"
+        }
+      ]
+    },
+    "rock & roll": {
+      "top_artists": [
+        {
+          "name": "Little Richard, Chuck Berry"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Dirty Boogie",
+          "artist": "The Brian Setzer Orchestra",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Great Balls of Fire (Live)",
+          "artist": "Jerry Lee Lewis",
+          "album": "Live at the Vredenburg"
+        }
+      ]
+    },
+    "psychedelic rock": {
+      "top_artists": [
+        {
+          "name": "Spiritualized, The Flaming Lips, The Brian Jonestown Massacre"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Ladies and Gentlemen We Are Floating in Space",
+          "artist": "Spiritualized",
+          "year": "1997"
+        },
+        {
+          "name": "The Soft Bulletin",
+          "artist": "The Flaming Lips",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Alright",
+          "artist": "Supergrass",
+          "album": "I Should Coco"
+        }
+      ]
+    },
+    "hard rock": {
+      "top_artists": [
+        {
+          "name": "Guns N' Roses, AC/DC, Aerosmith"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Use Your Illusion I",
+          "artist": "Guns N' Roses",
+          "year": "1991"
+        },
+        {
+          "name": "The Razors Edge",
+          "artist": "AC/DC",
+          "year": "1990"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "November Rain",
+          "artist": "Guns N' Roses",
+          "album": "Use Your Illusion I"
+        }
+      ]
+    },
+    "alternative rock": {
+      "top_artists": [
+        {
+          "name": "Radiohead, R.E.M., Beck, Smashing Pumpkins, Pavement, Sonic Youth, Pixies, The Cure, PJ Harvey, Björk"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "OK Computer",
+          "artist": "Radiohead",
+          "year": "1997"
+        },
+        {
+          "name": "Automatic for the People",
+          "artist": "R.E.M.",
+          "year": "1992"
+        },
+        {
+          "name": "Mellon Collie and the Infinite Sadness",
+          "artist": "Smashing Pumpkins",
+          "year": "1995"
+        },
+        {
+          "name": "Odelay",
+          "artist": "Beck",
+          "year": "1996"
+        },
+        {
+          "name": "Crooked Rain, Crooked Rain",
+          "artist": "Pavement",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Karma Police",
+          "artist": "Radiohead",
+          "album": "OK Computer"
+        }
+      ]
+    },
+    "britpop": {
+      "top_artists": [
+        {
+          "name": "Oasis, Blur, Pulp, Suede, Elastica, The Verve, Supergrass, Manic Street Preachers, The Stone Roses, Ocean Colour Scene"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "(What's the Story) Morning Glory?",
+          "artist": "Oasis",
+          "year": "1995"
+        },
+        {
+          "name": "Parklife",
+          "artist": "Blur",
+          "year": "1994"
+        },
+        {
+          "name": "Different Class",
+          "artist": "Pulp",
+          "year": "1995"
+        },
+        {
+          "name": "Urban Hymns",
+          "artist": "The Verve",
+          "year": "1997"
+        },
+        {
+          "name": "Dog Man Star",
+          "artist": "Suede",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Wonderwall",
+          "artist": "Oasis",
+          "album": "(What's the Story) Morning Glory?"
+        }
+      ]
+    },
+    "indie rock": {
+      "top_artists": [
+        {
+          "name": "Pavement, Built to Spill, Modest Mouse, Guided by Voices, Sebadoh"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Slanted and Enchanted",
+          "artist": "Pavement",
+          "year": "1992"
+        },
+        {
+          "name": "Perfect from Now On",
+          "artist": "Built to Spill",
+          "year": "1997"
+        },
+        {
+          "name": "The Lonesome Crowded West",
+          "artist": "Modest Mouse",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Summer Babe",
+          "artist": "Pavement",
+          "album": "Slanted and Enchanted"
+        }
+      ]
+    },
+    "punk": {
+      "top_artists": [
+        {
+          "name": "Rancid, NOFX, Bad Religion, The Offspring, Pennywise"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "...And Out Come the Wolves",
+          "artist": "Rancid",
+          "year": "1995"
+        },
+        {
+          "name": "Punk in Drublic",
+          "artist": "NOFX",
+          "year": "1994"
+        },
+        {
+          "name": "Stranger Than Fiction",
+          "artist": "Bad Religion",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Time Bomb",
+          "artist": "Rancid",
+          "album": "...And Out Come the Wolves"
+        }
+      ]
+    },
+    "pop-punk": {
+      "top_artists": [
+        {
+          "name": "Green Day, The Offspring, Blink-182, Weezer, MxPx"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Dookie",
+          "artist": "Green Day",
+          "year": "1994"
+        },
+        {
+          "name": "Smash",
+          "artist": "The Offspring",
+          "year": "1994"
+        },
+        {
+          "name": "Pinkerton",
+          "artist": "Weezer",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Basket Case",
+          "artist": "Green Day",
+          "album": "Dookie"
+        }
+      ]
+    },
+    "post-punk": {
+      "top_artists": [
+        {
+          "name": "Sonic Youth, Fugazi, Wire, Girls Against Boys, Unwound"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Goo",
+          "artist": "Sonic Youth",
+          "year": "1990"
+        },
+        {
+          "name": "Repeater",
+          "artist": "Fugazi",
+          "year": "1990"
+        },
+        {
+          "name": "In on the Kill Taker",
+          "artist": "Fugazi",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Kool Thing",
+          "artist": "Sonic Youth",
+          "album": "Goo"
+        }
+      ]
+    },
+    "post-rock": {
+      "top_artists": [
+        {
+          "name": "Slint, Tortoise, Godspeed You! Black Emperor, Mogwai, Sigur Rós, Bark Psychosis, Talk Talk, Labradford, Dirty Three, Low"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Spiderland",
+          "artist": "Slint",
+          "year": "1991"
+        },
+        {
+          "name": "Millions Now Living Will Never Die",
+          "artist": "Tortoise",
+          "year": "1996"
+        },
+        {
+          "name": "F♯ A♯ ∞",
+          "artist": "Godspeed You! Black Emperor",
+          "year": "1997"
+        },
+        {
+          "name": "Young Team",
+          "artist": "Mogwai",
+          "year": "1997"
+        },
+        {
+          "name": "Ágætis byrjun",
+          "artist": "Sigur Rós",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Breadcrumb Trail",
+          "artist": "Slint",
+          "album": "Spiderland"
+        }
+      ]
+    },
+    "shoegaze": {
+      "top_artists": [
+        {
+          "name": "My Bloody Valentine, Slowdive, Ride, Lush, Swervedriver, Catherine Wheel, Chapterhouse, Pale Saints, The Verve, Medicine"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Loveless",
+          "artist": "My Bloody Valentine",
+          "year": "1991"
+        },
+        {
+          "name": "Souvlaki",
+          "artist": "Slowdive",
+          "year": "1993"
+        },
+        {
+          "name": "Nowhere",
+          "artist": "Ride",
+          "year": "1990"
+        },
+        {
+          "name": "Ferment",
+          "artist": "Catherine Wheel",
+          "year": "1992"
+        },
+        {
+          "name": "Spooky",
+          "artist": "Lush",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Only Shallow",
+          "artist": "My Bloody Valentine",
+          "album": "Loveless"
+        }
+      ]
+    },
+    "emo": {
+      "top_artists": [
+        {
+          "name": "Sunny Day Real Estate, Jawbreaker, The Get Up Kids, Texas Is the Reason, Cap'n Jazz"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Diary",
+          "artist": "Sunny Day Real Estate",
+          "year": "1994"
+        },
+        {
+          "name": "24 Hour Revenge Therapy",
+          "artist": "Jawbreaker",
+          "year": "1994"
+        },
+        {
+          "name": "Analphabetapolothology",
+          "artist": "Cap'n Jazz",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Seven",
+          "artist": "Sunny Day Real Estate",
+          "album": "Diary"
+        }
+      ]
+    },
+    "hardcore": {
+      "top_artists": [
+        {
+          "name": "Refused, Converge, Earth Crisis, Integrity, Snapcase, Sick of It All, Madball, Strife, Agnostic Front, Hatebreed"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Shape of Punk to Come",
+          "artist": "Refused",
+          "year": "1998"
+        },
+        {
+          "name": "When Forever Comes Crashing",
+          "artist": "Converge",
+          "year": "1998"
+        },
+        {
+          "name": "Destroy the Machines",
+          "artist": "Earth Crisis",
+          "year": "1995"
+        },
+        {
+          "name": "Scratch the Surface",
+          "artist": "Sick of It All",
+          "year": "1994"
+        },
+        {
+          "name": "Set It Off",
+          "artist": "Madball",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "New Noise",
+          "artist": "Refused",
+          "album": "The Shape of Punk to Come"
+        }
+      ]
+    },
+    "stoner rock": {
+      "top_artists": [
+        {
+          "name": "Kyuss, Sleep, Fu Manchu, Monster Magnet, Nebula"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blues for the Red Sun",
+          "artist": "Kyuss",
+          "year": "1992"
+        },
+        {
+          "name": "Dopesmoker",
+          "artist": "Sleep",
+          "year": "1999"
+        },
+        {
+          "name": "Dopes to Infinity",
+          "artist": "Monster Magnet",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Green Machine",
+          "artist": "Kyuss",
+          "album": "Blues for the Red Sun"
+        }
+      ]
+    },
+    "indie pop": {
+      "top_artists": [
+        {
+          "name": "Belle and Sebastian, The Magnetic Fields, Stereolab, Yo La Tengo, The Softies"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "If You're Feeling Sinister",
+          "artist": "Belle and Sebastian",
+          "year": "1996"
+        },
+        {
+          "name": "69 Love Songs",
+          "artist": "The Magnetic Fields",
+          "year": "1999"
+        },
+        {
+          "name": "I Can Hear the Heart Beating as One",
+          "artist": "Yo La Tengo",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Boy with the Arab Strap",
+          "artist": "Belle and Sebastian",
+          "album": "If You're Feeling Sinister"
+        }
+      ]
+    },
+    "dream pop": {
+      "top_artists": [
+        {
+          "name": "Cocteau Twins, Mazzy Star, Slowdive, Galaxie 500, Low"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Heaven or Las Vegas",
+          "artist": "Cocteau Twins",
+          "year": "1990"
+        },
+        {
+          "name": "So Tonight That I Might See",
+          "artist": "Mazzy Star",
+          "year": "1993"
+        },
+        {
+          "name": "I Could Live in Hope",
+          "artist": "Low",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Fade Into You",
+          "artist": "Mazzy Star",
+          "album": "So Tonight That I Might See"
+        }
+      ]
+    },
+    "new wave": {
+      "top_artists": [
+        {
+          "name": "Depeche Mode, New Order, The Cure, Morrissey, Duran Duran"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Violator",
+          "artist": "Depeche Mode",
+          "year": "1990"
+        },
+        {
+          "name": "Technique",
+          "artist": "New Order",
+          "year": "1989"
+        },
+        {
+          "name": "Wish",
+          "artist": "The Cure",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Personal Jesus",
+          "artist": "Depeche Mode",
+          "album": "Violator"
+        }
+      ]
+    }
+  },
+  "The Electronic Frontier": {
+    "electronic": {
+      "top_artists": [
+        {
+          "name": "The Prodigy, The Chemical Brothers, Underworld, Fatboy Slim, Orbital"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Fat of the Land",
+          "artist": "The Prodigy",
+          "year": "1997"
+        },
+        {
+          "name": "Dig Your Own Hole",
+          "artist": "The Chemical Brothers",
+          "year": "1997"
+        },
+        {
+          "name": "Dubnobasswithmyheadman",
+          "artist": "Underworld",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Firestarter",
+          "artist": "The Prodigy",
+          "album": "The Fat of the Land"
+        }
+      ]
+    },
+    "techno": {
+      "top_artists": [
+        {
+          "name": "Jeff Mills, Plastikman, Carl Craig, Robert Hood, Joey Beltram"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Waveform Transmission Vol. 3",
+          "artist": "Jeff Mills",
+          "year": "1994"
+        },
+        {
+          "name": "Sheet One",
+          "artist": "Plastikman",
+          "year": "1993"
+        },
+        {
+          "name": "Landcruising",
+          "artist": "Carl Craig",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Bells",
+          "artist": "Jeff Mills",
+          "album": "Waveform Transmission Vol. 3"
+        }
+      ]
+    },
+    "house": {
+      "top_artists": [
+        {
+          "name": "Daft Punk, Masters at Work, Armand Van Helden, Todd Terry, Roger Sanchez"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Homework",
+          "artist": "Daft Punk",
+          "year": "1997"
+        },
+        {
+          "name": "Nuyorican Soul",
+          "artist": "Masters at Work",
+          "year": "1997"
+        },
+        {
+          "name": "Old School Junkies",
+          "artist": "Armand Van Helden",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Around the World",
+          "artist": "Daft Punk",
+          "album": "Homework"
+        }
+      ]
+    },
+    "trance": {
+      "top_artists": [
+        {
+          "name": "Paul van Dyk, Tiësto, Sven Väth, Robert Miles, Ferry Corsten, Armin van Buuren, BT, Chicane, Paul Oakenfold, Astral Projection"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Seven Ways",
+          "artist": "Paul van Dyk",
+          "year": "1996"
+        },
+        {
+          "name": "Dreamland",
+          "artist": "Robert Miles",
+          "year": "1996"
+        },
+        {
+          "name": "Accident in Paradise",
+          "artist": "Sven Väth",
+          "year": "1992"
+        },
+        {
+          "name": "Ima",
+          "artist": "BT",
+          "year": "1995"
+        },
+        {
+          "name": "Trust in Trance",
+          "artist": "Astral Projection",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "For an Angel",
+          "artist": "Paul van Dyk",
+          "album": "Seven Ways"
+        }
+      ]
+    },
+    "electro": {
+      "top_artists": [
+        {
+          "name": "Drexciya, Anthony Rother, Aux 88, The Advent, Model 500, DMX Krew, Dopplereffekt, I-f, Le Car, Ectomorph"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Neptune's Lair",
+          "artist": "Drexciya",
+          "year": "1999"
+        },
+        {
+          "name": "Sex with the Machines",
+          "artist": "Anthony Rother",
+          "year": "1997"
+        },
+        {
+          "name": "Is It Electro?",
+          "artist": "Aux 88",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Andreaen Sand Dunes",
+          "artist": "Drexciya",
+          "album": "Neptune's Lair"
+        }
+      ]
+    },
+    "drum and bass": {
+      "top_artists": [
+        {
+          "name": "Goldie, Roni Size, LTJ Bukem, Photek, 4 Hero, Bad Company UK, Adam F, Ed Rush, Optical, Grooverider"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Timeless",
+          "artist": "Goldie",
+          "year": "1995"
+        },
+        {
+          "name": "New Forms",
+          "artist": "Roni Size & Reprazent",
+          "year": "1997"
+        },
+        {
+          "name": "Modus Operandi",
+          "artist": "Photek",
+          "year": "1997"
+        },
+        {
+          "name": "Wormhole",
+          "artist": "Ed Rush & Optical",
+          "year": "1998"
+        },
+        {
+          "name": "Logical Progression",
+          "artist": "LTJ Bukem",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Inner City Life",
+          "artist": "Goldie",
+          "album": "Timeless"
+        }
+      ]
+    },
+    "jungle": {
+      "top_artists": [
+        {
+          "name": "Goldie, Shy FX, Omni Trio, Congo Natty, LTJ Bukem, Roni Size, DJ Zinc, Photek, Source Direct, 4hero"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Timeless",
+          "artist": "Goldie",
+          "year": "1995"
+        },
+        {
+          "name": "New Forms",
+          "artist": "Roni Size / Reprazent",
+          "year": "1997"
+        },
+        {
+          "name": "Logical Progression",
+          "artist": "LTJ Bukem",
+          "year": "1996"
+        },
+        {
+          "name": "Don't Hold Back",
+          "artist": "Shy FX",
+          "year": "1995"
+        },
+        {
+          "name": "Modus Operandi",
+          "artist": "Photek",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Original Nuttah",
+          "artist": "Shy FX & UK Apache",
+          "album": "Don't Hold Back"
+        }
+      ]
+    },
+    "trip hop": {
+      "top_artists": [
+        {
+          "name": "Massive Attack, Portishead, Tricky, DJ Shadow, Morcheeba, Nightmares on Wax, Sneaker Pimps, Archive, Hooverphonic, Lamb"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blue Lines",
+          "artist": "Massive Attack",
+          "year": "1991"
+        },
+        {
+          "name": "Mezzanine",
+          "artist": "Massive Attack",
+          "year": "1998"
+        },
+        {
+          "name": "Dummy",
+          "artist": "Portishead",
+          "year": "1994"
+        },
+        {
+          "name": "Maxinquaye",
+          "artist": "Tricky",
+          "year": "1995"
+        },
+        {
+          "name": "Endtroducing.....",
+          "artist": "DJ Shadow",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Sour Times",
+          "artist": "Portishead",
+          "album": "Dummy"
+        }
+      ]
+    },
+    "idm": {
+      "top_artists": [
+        {
+          "name": "Aphex Twin, Autechre, Boards of Canada, Squarepusher, µ-Ziq, The Orb, Plaid, Mouse on Mars, Luke Vibert, LFO"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Selected Ambient Works 85-92",
+          "artist": "Aphex Twin",
+          "year": "1992"
+        },
+        {
+          "name": "Music Has the Right to Children",
+          "artist": "Boards of Canada",
+          "year": "1998"
+        },
+        {
+          "name": "Tri Repetae",
+          "artist": "Autechre",
+          "year": "1995"
+        },
+        {
+          "name": "Richard D. James Album",
+          "artist": "Aphex Twin",
+          "year": "1996"
+        },
+        {
+          "name": "Feed Me Weird Things",
+          "artist": "Squarepusher",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Xtal",
+          "artist": "Aphex Twin",
+          "album": "Selected Ambient Works 85-92"
+        }
+      ]
+    },
+    "ambient": {
+      "top_artists": [
+        {
+          "name": "Brian Eno, Aphex Twin, The Orb, Biosphere, Harold Budd"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Neroli",
+          "artist": "Brian Eno",
+          "year": "1993"
+        },
+        {
+          "name": "Selected Ambient Works Volume II",
+          "artist": "Aphex Twin",
+          "year": "1994"
+        },
+        {
+          "name": "Substrata",
+          "artist": "Biosphere",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Stone in Focus",
+          "artist": "Aphex Twin",
+          "album": "Selected Ambient Works Volume II"
+        }
+      ]
+    },
+    "downtempo": {
+      "top_artists": [
+        {
+          "name": "Massive Attack, Air, Kruder & Dorfmeister, Thievery Corporation, Zero 7"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blue Lines",
+          "artist": "Massive Attack",
+          "year": "1991"
+        },
+        {
+          "name": "Moon Safari",
+          "artist": "Air",
+          "year": "1998"
+        },
+        {
+          "name": "The Mirror Conspiracy",
+          "artist": "Thievery Corporation",
+          "year": "2000"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Unfinished Sympathy",
+          "artist": "Massive Attack",
+          "album": "Blue Lines"
+        }
+      ]
+    },
+    "lounge": {
+      "top_artists": [
+        {
+          "name": "Thievery Corporation, Kruder & Dorfmeister, Air, St Germain, Nightmares on Wax"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The K&D Sessions",
+          "artist": "Kruder & Dorfmeister",
+          "year": "1998"
+        },
+        {
+          "name": "Moon Safari",
+          "artist": "Air",
+          "year": "1998"
+        },
+        {
+          "name": "Carboot Soul",
+          "artist": "Nightmares on Wax",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "All That You Give",
+          "artist": "The Cinematic Orchestra",
+          "album": "Every Day"
+        }
+      ]
+    },
+    "breakbeat": {
+      "top_artists": [
+        {
+          "name": "The Prodigy, The Chemical Brothers, Fatboy Slim, Propellerheads, Basement Jaxx"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Music for the Jilted Generation",
+          "artist": "The Prodigy",
+          "year": "1994"
+        },
+        {
+          "name": "Exit Planet Dust",
+          "artist": "The Chemical Brothers",
+          "year": "1995"
+        },
+        {
+          "name": "You've Come a Long Way, Baby",
+          "artist": "Fatboy Slim",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Voodoo People",
+          "artist": "The Prodigy",
+          "album": "Music for the Jilted Generation"
+        }
+      ]
+    },
+    "chillout": {
+      "top_artists": [
+        {
+          "name": "Moby, The Orb, Air, Enigma, Café del Mar"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Play",
+          "artist": "Moby",
+          "year": "1999"
+        },
+        {
+          "name": "Adventures Beyond the Ultraworld",
+          "artist": "The Orb",
+          "year": "1991"
+        },
+        {
+          "name": "Moon Safari",
+          "artist": "Air",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Porcelain",
+          "artist": "Moby",
+          "album": "Play"
+        }
+      ]
+    },
+    "industrial": {
+      "top_artists": [
+        {
+          "name": "Nine Inch Nails, Ministry, Skinny Puppy, KMFDM, Front Line Assembly"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Downward Spiral",
+          "artist": "Nine Inch Nails",
+          "year": "1994"
+        },
+        {
+          "name": "Psalm 69",
+          "artist": "Ministry",
+          "year": "1992"
+        },
+        {
+          "name": "The Fragile",
+          "artist": "Nine Inch Nails",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Closer",
+          "artist": "Nine Inch Nails",
+          "album": "The Downward Spiral"
+        }
+      ]
+    },
+    "eurodance": {
+      "top_artists": [
+        {
+          "name": "2 Unlimited, Snap!, Haddaway, Culture Beat, Corona, Ace of Base, La Bouche, Real McCoy, Captain Hollywood Project, E-Type"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Sign",
+          "artist": "Ace of Base",
+          "year": "1993"
+        },
+        {
+          "name": "Get Ready!",
+          "artist": "2 Unlimited",
+          "year": "1992"
+        },
+        {
+          "name": "The Album",
+          "artist": "Haddaway",
+          "year": "1993"
+        },
+        {
+          "name": "Serenity",
+          "artist": "Culture Beat",
+          "year": "1993"
+        },
+        {
+          "name": "Sweet Dreams",
+          "artist": "La Bouche",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "No Limit",
+          "artist": "2 Unlimited",
+          "album": "Get Ready!"
+        }
+      ]
+    },
+    "synth-pop": {
+      "top_artists": [
+        {
+          "name": "Depeche Mode, Pet Shop Boys, Erasure, New Order, Björk"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Violator",
+          "artist": "Depeche Mode",
+          "year": "1990"
+        },
+        {
+          "name": "Very",
+          "artist": "Pet Shop Boys",
+          "year": "1993"
+        },
+        {
+          "name": "Debut",
+          "artist": "Björk",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Enjoy the Silence",
+          "artist": "Depeche Mode",
+          "album": "Violator"
+        }
+      ]
+    },
+    "glitch": {
+      "top_artists": [
+        {
+          "name": "Oval, Fennesz, Alva Noto, Pan Sonic, Ryoji Ikeda"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "94diskont",
+          "artist": "Oval",
+          "year": "1995"
+        },
+        {
+          "name": "Hotel Paral.lel",
+          "artist": "Fennesz",
+          "year": "1997"
+        },
+        {
+          "name": "Endless Summer",
+          "artist": "Fennesz",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Do While",
+          "artist": "Oval",
+          "album": "94diskont"
+        }
+      ]
+    },
+    "dubstep": {
+      "top_artists": [
+        {
+          "name": "El-B, Horsepower Productions, Zed Bias, Steve Gurley, Groove Chronicles"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Stone Cold (EP)",
+          "artist": "Groove Chronicles",
+          "year": "1997"
+        },
+        {
+          "name": "Classic Horsepower",
+          "artist": "Horsepower Productions",
+          "year": "2000"
+        },
+        {
+          "name": "Sound of the 2-Step",
+          "artist": "Zed Bias",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Stone Cold",
+          "artist": "Groove Chronicles",
+          "album": "Stone Cold (EP)"
+        }
+      ]
+    },
+    "hardstyle": {
+      "top_artists": [
+        {
+          "name": "The Prophet, DJ Isaac, Lady Dana, Technoboy, DJ Pavo"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "In The Mix",
+          "artist": "The Prophet",
+          "year": "1996"
+        },
+        {
+          "name": "Face of a Killer",
+          "artist": "DJ Isaac",
+          "year": "1999"
+        },
+        {
+          "name": "Thunderdome '96",
+          "artist": "Various Artists",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bad Dreams",
+          "artist": "DJ Isaac",
+          "album": "Face of a Killer"
+        }
+      ]
+    }
+  },
+  "Hip-Hop & Groove": {
+    "hip hop": {
+      "top_artists": [
+        {
+          "name": "Wu-Tang Clan, Nas, 2Pac, The Notorious B.I.G., A Tribe Called Quest, Jay-Z, OutKast, Mobb Deep, Dr. Dre, Snoop Dogg"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Enter the Wu-Tang (36 Chambers)",
+          "artist": "Wu-Tang Clan",
+          "year": "1993"
+        },
+        {
+          "name": "Illmatic",
+          "artist": "Nas",
+          "year": "1994"
+        },
+        {
+          "name": "The Don Killuminati: The 7 Day Theory",
+          "artist": "2Pac",
+          "year": "1996"
+        },
+        {
+          "name": "Ready to Die",
+          "artist": "The Notorious B.I.G.",
+          "year": "1994"
+        },
+        {
+          "name": "The Low End Theory",
+          "artist": "A Tribe Called Quest",
+          "year": "1991"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "C.R.E.A.M.",
+          "artist": "Wu-Tang Clan",
+          "album": "Enter the Wu-Tang (36 Chambers)"
+        }
+      ]
+    },
+    "boom bap": {
+      "top_artists": [
+        {
+          "name": "Gang Starr, Pete Rock & CL Smooth, Black Moon, Jeru the Damaja, The Roots, Redman, KRS-One, O.C., Big L, Showbiz & AG"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Moment of Truth",
+          "artist": "Gang Starr",
+          "year": "1998"
+        },
+        {
+          "name": "Mecca and the Soul Brother",
+          "artist": "Pete Rock & CL Smooth",
+          "year": "1992"
+        },
+        {
+          "name": "The Sun Rises in the East",
+          "artist": "Jeru the Damaja",
+          "year": "1994"
+        },
+        {
+          "name": "Enta da Stage",
+          "artist": "Black Moon",
+          "year": "1993"
+        },
+        {
+          "name": "Word...Life",
+          "artist": "O.C.",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "They Reminisce Over You (T.R.O.Y.)",
+          "artist": "Pete Rock & CL Smooth",
+          "album": "Mecca and the Soul Brother"
+        }
+      ]
+    },
+    "gangsta rap": {
+      "top_artists": [
+        {
+          "name": "2Pac, The Notorious B.I.G., Dr. Dre, Snoop Dogg, Ice Cube"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "All Eyez on Me",
+          "artist": "2Pac",
+          "year": "1996"
+        },
+        {
+          "name": "The Chronic",
+          "artist": "Dr. Dre",
+          "year": "1992"
+        },
+        {
+          "name": "Ready to Die",
+          "artist": "The Notorious B.I.G.",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Nuthin' but a 'G' Thang",
+          "artist": "Dr. Dre",
+          "album": "The Chronic"
+        }
+      ]
+    },
+    "g-funk": {
+      "top_artists": [
+        {
+          "name": "Dr. Dre, Snoop Dogg, Warren G, Nate Dogg, DJ Quik, Tha Dogg Pound, Eazy-E, Above the Law, Kurupt, Daz Dillinger"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Chronic",
+          "artist": "Dr. Dre",
+          "year": "1992"
+        },
+        {
+          "name": "Doggystyle",
+          "artist": "Snoop Dogg",
+          "year": "1993"
+        },
+        {
+          "name": "Regulate...G Funk Era",
+          "artist": "Warren G",
+          "year": "1994"
+        },
+        {
+          "name": "G-Funk Classics, Vol. 1 & 2",
+          "artist": "Nate Dogg",
+          "year": "1998"
+        },
+        {
+          "name": "Safe + Sound",
+          "artist": "DJ Quik",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Regulate",
+          "artist": "Warren G & Nate Dogg",
+          "album": "Regulate...G Funk Era"
+        }
+      ]
+    },
+    "r&b": {
+      "top_artists": [
+        {
+          "name": "R. Kelly, Boyz II Men, Janet Jackson, Mary J. Blige, Aaliyah"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "janet.",
+          "artist": "Janet Jackson",
+          "year": "1993"
+        },
+        {
+          "name": "II",
+          "artist": "Boyz II Men",
+          "year": "1994"
+        },
+        {
+          "name": "My Life",
+          "artist": "Mary J. Blige",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "End of the Road",
+          "artist": "Boyz II Men",
+          "album": "II"
+        }
+      ]
+    },
+    "neo soul": {
+      "top_artists": [
+        {
+          "name": "D'Angelo, Erykah Badu, Maxwell, Lauryn Hill, Jill Scott"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Brown Sugar",
+          "artist": "D'Angelo",
+          "year": "1995"
+        },
+        {
+          "name": "Baduizm",
+          "artist": "Erykah Badu",
+          "year": "1997"
+        },
+        {
+          "name": "The Miseducation of Lauryn Hill",
+          "artist": "Lauryn Hill",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Brown Sugar",
+          "artist": "D'Angelo",
+          "album": "Brown Sugar"
+        }
+      ]
+    },
+    "soul": {
+      "top_artists": [
+        {
+          "name": "Maxwell, D'Angelo, Sade, Tony! Toni! Toné!, Seal"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Maxwell's Urban Hang Suite",
+          "artist": "Maxwell",
+          "year": "1996"
+        },
+        {
+          "name": "Voodoo",
+          "artist": "D'Angelo",
+          "year": "2000"
+        },
+        {
+          "name": "Love Deluxe",
+          "artist": "Sade",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Ascension (Don't Ever Wonder)",
+          "artist": "Maxwell",
+          "album": "Maxwell's Urban Hang Suite"
+        }
+      ]
+    },
+    "motown": {
+      "top_artists": [
+        {
+          "name": "Boyz II Men, Erykah Badu, Stevie Wonder, Diana Ross, Queen Latifah"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Cooleyhighharmony",
+          "artist": "Boyz II Men",
+          "year": "1991"
+        },
+        {
+          "name": "Baduizm",
+          "artist": "Erykah Badu",
+          "year": "1997"
+        },
+        {
+          "name": "II",
+          "artist": "Boyz II Men",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "End of the Road",
+          "artist": "Boyz II Men",
+          "album": "Cooleyhighharmony"
+        }
+      ]
+    },
+    "soul jazz": {
+      "top_artists": [
+        {
+          "name": "Buckshot LeFonque, The Brand New Heavies, Incognito, Grover Washington Jr., George Benson"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Buckshot LeFonque",
+          "artist": "Buckshot LeFonque",
+          "year": "1994"
+        },
+        {
+          "name": "Brother Sitting on a Corner",
+          "artist": "The Brand New Heavies",
+          "year": "1994"
+        },
+        {
+          "name": "Poseidon",
+          "artist": "Incognito",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Breakfast @ Denny's",
+          "artist": "Buckshot LeFonque",
+          "album": "Buckshot LeFonque"
+        }
+      ]
+    },
+    "disco": {
+      "top_artists": [
+        {
+          "name": "Jamiroquai, Brand New Heavies"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Travelling Without Moving",
+          "artist": "Jamiroquai",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Cosmic Girl",
+          "artist": "Jamiroquai",
+          "album": "Travelling Without Moving"
+        }
+      ]
+    },
+    "funk": {
+      "top_artists": [
+        {
+          "name": "Red Hot Chili Peppers, Jamiroquai, George Clinton, Meshell Ndegeocello, The Brand New Heavies"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blood Sugar Sex Magik",
+          "artist": "Red Hot Chili Peppers",
+          "year": "1991"
+        },
+        {
+          "name": "Travelling Without Moving",
+          "artist": "Jamiroquai",
+          "year": "1996"
+        },
+        {
+          "name": "The Return of the Space Cowboy",
+          "artist": "Jamiroquai",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Give It Away",
+          "artist": "Red Hot Chili Peppers",
+          "album": "Blood Sugar Sex Magik"
+        }
+      ]
+    }
+  },
+  "Jazz, Blues & Soul": {
+    "jazz": {
+      "top_artists": [
+        {
+          "name": "Wynton Marsalis, Pat Metheny, Keith Jarrett, Branford Marsalis, Joshua Redman"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blood on the Fields",
+          "artist": "Wynton Marsalis",
+          "year": "1997"
+        },
+        {
+          "name": "We Live Here",
+          "artist": "Pat Metheny Group",
+          "year": "1995"
+        },
+        {
+          "name": "The Köln Concert",
+          "artist": "Keith Jarrett",
+          "year": "1975"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Have You Heard",
+          "artist": "Pat Metheny Group",
+          "album": "We Live Here"
+        }
+      ]
+    },
+    "blues": {
+      "top_artists": [
+        {
+          "name": "Stevie Ray Vaughan, Robert Cray, Keb' Mo', Buddy Guy, Eric Clapton"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Unplugged",
+          "artist": "Eric Clapton",
+          "year": "1992"
+        },
+        {
+          "name": "Damn Right, I've Got the Blues",
+          "artist": "Buddy Guy",
+          "year": "1991"
+        },
+        {
+          "name": "Keb' Mo'",
+          "artist": "Keb' Mo'",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Tears in Heaven",
+          "artist": "Eric Clapton",
+          "album": "Unplugged"
+        }
+      ]
+    },
+    "chicago blues": {
+      "top_artists": [
+        {
+          "name": "Buddy Guy, Junior Wells, Koko Taylor, Lonnie Brooks, Shemekia Copeland, Magic Slim & The Teardrops, James Cotton, Charlie Musselwhite"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Damn Right, I've Got the Blues",
+          "artist": "Buddy Guy",
+          "year": "1991"
+        },
+        {
+          "name": "Force of Nature",
+          "artist": "Koko Taylor",
+          "year": "1993"
+        },
+        {
+          "name": "Turn the Heat Up!",
+          "artist": "Shemekia Copeland",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Damn Right, I've Got the Blues",
+          "artist": "Buddy Guy",
+          "album": "Damn Right, I've Got the Blues"
+        }
+      ]
+    },
+    "cool jazz": {
+      "top_artists": [
+        {
+          "name": "Chet Baker, Stan Getz"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Thrill Is Gone",
+          "artist": "Chet Baker",
+          "year": "1994"
+        },
+        {
+          "name": "Bluebird",
+          "artist": "Stan Getz",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bluebird",
+          "artist": "Stan Getz",
+          "album": "Bluebird"
+        }
+      ]
+    },
+    "hard bop": {
+      "top_artists": [
+        {
+          "name": "Joe Henderson, Wynton Marsalis, Joshua Redman, Christian McBride, Kenny Garrett"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Lush Life: The Music of Billy Strayhorn",
+          "artist": "Joe Henderson",
+          "year": "1992"
+        },
+        {
+          "name": "Live at the Village Vanguard",
+          "artist": "Wynton Marsalis",
+          "year": "1999"
+        },
+        {
+          "name": "MoodSwing",
+          "artist": "Joshua Redman",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Lush Life",
+          "artist": "Joe Henderson",
+          "album": "Lush Life"
+        }
+      ]
+    },
+    "bebop": {
+      "top_artists": [
+        {
+          "name": "Dizzy Gillespie, James Moody, Jon Faddis, Nicholas Payton, Antonio Hart"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "To Bird with Love",
+          "artist": "Dizzy Gillespie",
+          "year": "1992"
+        },
+        {
+          "name": "Young Lions & Old Masters",
+          "artist": "Various Artists",
+          "year": "1992"
+        },
+        {
+          "name": "The Fire Continued",
+          "artist": "Jon Faddis",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Confirmation",
+          "artist": "Dizzy Gillespie",
+          "album": "To Bird with Love"
+        }
+      ]
+    },
+    "fusion": {
+      "top_artists": [
+        {
+          "name": "Pat Metheny, John Scofield, Tribal Tech, Medeski Martin & Wood, Mike Stern"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Still Life (Talking)",
+          "artist": "Pat Metheny Group",
+          "year": "1987"
+        },
+        {
+          "name": "Hand Jive",
+          "artist": "John Scofield",
+          "year": "1994"
+        },
+        {
+          "name": "Combustication",
+          "artist": "Medeski Martin & Wood",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Shaker Song",
+          "artist": "Medeski Martin & Wood",
+          "album": "Combustication"
+        }
+      ]
+    },
+    "delta blues": {
+      "top_artists": [
+        {
+          "name": "R.L. Burnside, Junior Kimbrough, T-Model Ford, Jessie Mae Hemphill, Cedric Burnside"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Too Bad Jim",
+          "artist": "R.L. Burnside",
+          "year": "1994"
+        },
+        {
+          "name": "Sad Days, Lonely Nights",
+          "artist": "Junior Kimbrough",
+          "year": "1994"
+        },
+        {
+          "name": "Pork Salad",
+          "artist": "T-Model Ford",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Goin' Down South",
+          "artist": "R.L. Burnside",
+          "album": "Too Bad Jim"
+        }
+      ]
+    },
+    "ragtime": {
+      "top_artists": [
+        {
+          "name": "Reginald Robinson, William Bolcom, Joshua Rifkin, Max Morath, Trebor Tichenor"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Strongman",
+          "artist": "Reginald Robinson",
+          "year": "1997"
+        },
+        {
+          "name": "Euphonic Sounds",
+          "artist": "William Bolcom",
+          "year": "1971"
+        },
+        {
+          "name": "Scott Joplin Rags",
+          "artist": "Joshua Rifkin",
+          "year": "1970"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Strongman",
+          "artist": "Reginald Robinson",
+          "album": "The Strongman"
+        }
+      ]
+    },
+    "swing": {
+      "top_artists": [
+        {
+          "name": "Harry Connick Jr., Tony Bennett, Diana Krall, Big Bad Voodoo Daddy, Squirrel Nut Zippers"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "When Harry Met Sally",
+          "artist": "Harry Connick Jr.",
+          "year": "1989"
+        },
+        {
+          "name": "Stepping Out",
+          "artist": "Tony Bennett",
+          "year": "1993"
+        },
+        {
+          "name": "All for You",
+          "artist": "Diana Krall",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "It Had to Be You",
+          "artist": "Harry Connick Jr.",
+          "album": "When Harry Met Sally"
+        }
+      ]
+    },
+    "blues-rock": {
+      "top_artists": [
+        {
+          "name": "Jonny Lang, Kenny Wayne Shepherd Band, The Black Crowes, Gov't Mule, Gary Moore, Susan Tedeschi, Blues Traveler, Ben Harper, The White Stripes, Joe Bonamassa"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Still Got the Blues",
+          "artist": "Gary Moore",
+          "year": "1990"
+        },
+        {
+          "name": "Shake Your Money Maker",
+          "artist": "The Black Crowes",
+          "year": "1990"
+        },
+        {
+          "name": "Ledbetter Heights",
+          "artist": "Kenny Wayne Shepherd Band",
+          "year": "1995"
+        },
+        {
+          "name": "Lie to Me",
+          "artist": "Jonny Lang",
+          "year": "1997"
+        },
+        {
+          "name": "Gov't Mule",
+          "artist": "Gov't Mule",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Still Got the Blues",
+          "artist": "Gary Moore",
+          "album": "Still Got the Blues"
+        }
+      ]
+    }
+  },
+  "Pop & Melodies": {
+    "traditional pop": {
+      "top_artists": [
+        {
+          "name": "Harry Connick Jr., Tony Bennett, Diana Krall, Natalie Cole"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Unforgettable... with Love",
+          "artist": "Natalie Cole",
+          "year": "1991"
+        },
+        {
+          "name": "MTV Unplugged",
+          "artist": "Tony Bennett",
+          "year": "1994"
+        },
+        {
+          "name": "When I Look in Your Eyes",
+          "artist": "Diana Krall",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Unforgettable",
+          "artist": "Natalie Cole",
+          "album": "Unforgettable... with Love"
+        }
+      ]
+    },
+    "pop": {
+      "top_artists": [
+        {
+          "name": "Michael Jackson, Madonna, Mariah Carey, Celine Dion, Whitney Houston"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Dangerous",
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "name": "Ray of Light",
+          "artist": "Madonna",
+          "year": "1998"
+        },
+        {
+          "name": "Music Box",
+          "artist": "Mariah Carey",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Black or White",
+          "artist": "Michael Jackson",
+          "album": "Dangerous"
+        }
+      ]
+    },
+    "surf": {
+      "top_artists": [
+        {
+          "name": "The Mermen, Man or Astro-man?, Dick Dale, The Trashmen"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "A Glorious Chorus",
+          "artist": "The Mermen",
+          "year": "1995"
+        },
+        {
+          "name": "Pulp Fiction (Music from the Motion Picture)",
+          "artist": "Various Artists",
+          "year": "1994"
+        },
+        {
+          "name": "Tribal Thunder",
+          "artist": "Dick Dale",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Misirlou",
+          "artist": "Dick Dale & His Del-Tones",
+          "album": "Pulp Fiction"
+        }
+      ]
+    },
+    "power pop": {
+      "top_artists": [
+        {
+          "name": "The Posies, Teenage Fanclub, Matthew Sweet, Gigolo Aunts, The Gin Blossoms"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Bandwagonesque",
+          "artist": "Teenage Fanclub",
+          "year": "1991"
+        },
+        {
+          "name": "Girlfriend",
+          "artist": "Matthew Sweet",
+          "year": "1991"
+        },
+        {
+          "name": "Frosting on the Beater",
+          "artist": "The Posies",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Girlfriend",
+          "artist": "Matthew Sweet",
+          "album": "Girlfriend"
+        }
+      ]
+    },
+    "teen pop": {
+      "top_artists": [
+        {
+          "name": "Backstreet Boys, Britney Spears, *NSYNC, Spice Girls, Christina Aguilera"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Millennium",
+          "artist": "Backstreet Boys",
+          "year": "1999"
+        },
+        {
+          "name": "...Baby One More Time",
+          "artist": "Britney Spears",
+          "year": "1999"
+        },
+        {
+          "name": "Spice",
+          "artist": "Spice Girls",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "...Baby One More Time",
+          "artist": "Britney Spears",
+          "album": "...Baby One More Time"
+        }
+      ]
+    },
+    "europop": {
+      "top_artists": [
+        {
+          "name": "Ace of Base, Aqua, E-Type, Vengaboys"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Happy Nation",
+          "artist": "Ace of Base",
+          "year": "1992"
+        },
+        {
+          "name": "Aquarium",
+          "artist": "Aqua",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "All That She Wants",
+          "artist": "Ace of Base",
+          "album": "Happy Nation"
+        }
+      ]
+    },
+    "dance-pop": {
+      "top_artists": [
+        {
+          "name": "Madonna, Janet Jackson, Kylie Minogue, Ace of Base, Aqua"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Ray of Light",
+          "artist": "Madonna",
+          "year": "1998"
+        },
+        {
+          "name": "The Sign",
+          "artist": "Ace of Base",
+          "year": "1993"
+        },
+        {
+          "name": "Aquarium",
+          "artist": "Aqua",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Ray of Light",
+          "artist": "Madonna",
+          "album": "Ray of Light"
+        }
+      ]
+    },
+    "k-pop": {
+      "top_artists": [
+        {
+          "name": "Seo Taiji and Boys, H.O.T., S.E.S., g.o.d, Fin.K.L"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Seo Taiji and Boys IV",
+          "artist": "Seo Taiji and Boys",
+          "year": "1995"
+        },
+        {
+          "name": "Age of Peace",
+          "artist": "H.O.T.",
+          "year": "1996"
+        },
+        {
+          "name": "I'm Your Girl",
+          "artist": "S.E.S.",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Come Back Home",
+          "artist": "Seo Taiji and Boys",
+          "album": "Seo Taiji and Boys IV"
+        }
+      ]
+    },
+    "j-pop": {
+      "top_artists": [
+        {
+          "name": "Namie Amuro, Mr. Children, Hikaru Utada, B'z, SMAP"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sweet 19 Blues",
+          "artist": "Namie Amuro",
+          "year": "1996"
+        },
+        {
+          "name": "First Love",
+          "artist": "Hikaru Utada",
+          "year": "1999"
+        },
+        {
+          "name": "Atomic Heart",
+          "artist": "Mr. Children",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Can You Celebrate?",
+          "artist": "Namie Amuro",
+          "album": "Sweet 19 Blues"
+        }
+      ]
+    }
+  },
+  "Folk & Acoustics": {
+    "gospel": {
+      "top_artists": [
+        {
+          "name": "Kirk Franklin, Fred Hammond, CeCe Winans, Yolanda Adams, Donnie McClurkin, Mary Mary, Hezekiah Walker, John P. Kee, Jars of Clay, Michael W. Smith"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Kirk Franklin and the Family",
+          "artist": "Kirk Franklin",
+          "year": "1993"
+        },
+        {
+          "name": "Pages of Life - Chapters I & II",
+          "artist": "Fred Hammond",
+          "year": "1998"
+        },
+        {
+          "name": "Mountain High... Valley Low",
+          "artist": "Yolanda Adams",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Stomp",
+          "artist": "Kirk Franklin",
+          "album": "God's Property"
+        }
+      ]
+    },
+    "acoustic": {
+      "top_artists": [
+        {
+          "name": "Jeff Buckley, Elliott Smith, Dave Matthews Band, Jewel"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Grace",
+          "artist": "Jeff Buckley",
+          "year": "1994"
+        },
+        {
+          "name": "Either/Or",
+          "artist": "Elliott Smith",
+          "year": "1997"
+        },
+        {
+          "name": "Pieces of You",
+          "artist": "Jewel",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Hallelujah",
+          "artist": "Jeff Buckley",
+          "album": "Grace"
+        }
+      ]
+    },
+    "folk": {
+      "top_artists": [
+        {
+          "name": "Ani DiFranco, Nick Drake, Beck, Jeff Buckley, Elliott Smith"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Grace",
+          "artist": "Jeff Buckley",
+          "year": "1994"
+        },
+        {
+          "name": "Either/Or",
+          "artist": "Elliott Smith",
+          "year": "1997"
+        },
+        {
+          "name": "Little Plastic Castle",
+          "artist": "Ani DiFranco",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Hallelujah",
+          "artist": "Jeff Buckley",
+          "album": "Grace"
+        }
+      ]
+    },
+    "country": {
+      "top_artists": [
+        {
+          "name": "Garth Brooks, Shania Twain, George Strait, Alan Jackson, Brooks & Dunn"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "No Fences",
+          "artist": "Garth Brooks",
+          "year": "1990"
+        },
+        {
+          "name": "Come On Over",
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "name": "Common Thread: The Songs of the Eagles",
+          "artist": "Various Artists",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Friends in Low Places",
+          "artist": "Garth Brooks",
+          "album": "No Fences"
+        }
+      ]
+    },
+    "celtic": {
+      "top_artists": [
+        {
+          "name": "The Corrs, Enya, The Cranberries, Loreena McKennitt, Riverdance"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Talk on Corners",
+          "artist": "The Corrs",
+          "year": "1997"
+        },
+        {
+          "name": "The Memory of Trees",
+          "artist": "Enya",
+          "year": "1995"
+        },
+        {
+          "name": "The Visit",
+          "artist": "Loreena McKennitt",
+          "year": "1991"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Breathless",
+          "artist": "The Corrs",
+          "album": "In Blue"
+        }
+      ]
+    },
+    "singer-songwriter": {
+      "top_artists": [
+        {
+          "name": "Alanis Morissette, Tori Amos, Jeff Buckley, PJ Harvey, Elliott Smith"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Jagged Little Pill",
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "name": "Little Earthquakes",
+          "artist": "Tori Amos",
+          "year": "1992"
+        },
+        {
+          "name": "Grace",
+          "artist": "Jeff Buckley",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "You Oughta Know",
+          "artist": "Alanis Morissette",
+          "album": "Jagged Little Pill"
+        }
+      ]
+    },
+    "americana": {
+      "top_artists": [
+        {
+          "name": "Wilco, Uncle Tupelo, Ryan Adams, Son Volt, Lucinda Williams"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Being There",
+          "artist": "Wilco",
+          "year": "1996"
+        },
+        {
+          "name": "Anodyne",
+          "artist": "Uncle Tupelo",
+          "year": "1993"
+        },
+        {
+          "name": "Car Wheels on a Gravel Road",
+          "artist": "Lucinda Williams",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "I'm the Man Who Loves You",
+          "artist": "Wilco",
+          "album": "Being There"
+        }
+      ]
+    }
+  },
+  "The Metal Peaks": {
+    "metal": {
+      "top_artists": [
+        {
+          "name": "Pantera, Metallica, Iron Maiden, Tool, Sepultura"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Vulgar Display of Power",
+          "artist": "Pantera",
+          "year": "1992"
+        },
+        {
+          "name": "Metallica",
+          "artist": "Metallica",
+          "year": "1991"
+        },
+        {
+          "name": "Ænima",
+          "artist": "Tool",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Walk",
+          "artist": "Pantera",
+          "album": "Vulgar Display of Power"
+        }
+      ]
+    },
+    "heavy metal": {
+      "top_artists": [
+        {
+          "name": "Iron Maiden, Judas Priest, Dio, Bruce Dickinson, Ozzy Osbourne"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Fear of the Dark",
+          "artist": "Iron Maiden",
+          "year": "1992"
+        },
+        {
+          "name": "Painkiller",
+          "artist": "Judas Priest",
+          "year": "1990"
+        },
+        {
+          "name": "The Chemical Wedding",
+          "artist": "Bruce Dickinson",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Fear of the Dark",
+          "artist": "Iron Maiden",
+          "album": "Fear of the Dark"
+        }
+      ]
+    },
+    "thrash metal": {
+      "top_artists": [
+        {
+          "name": "Metallica, Slayer, Megadeth, Pantera, Testament"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Metallica",
+          "artist": "Metallica",
+          "year": "1991"
+        },
+        {
+          "name": "Seasons in the Abyss",
+          "artist": "Slayer",
+          "year": "1990"
+        },
+        {
+          "name": "Rust in Peace",
+          "artist": "Megadeth",
+          "year": "1990"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Enter Sandman",
+          "artist": "Metallica",
+          "album": "Metallica"
+        }
+      ]
+    },
+    "black metal": {
+      "top_artists": [
+        {
+          "name": "Mayhem, Darkthrone, Burzum, Emperor, Immortal, Enslaved, Satyricon, Dissection, Cradle of Filth, Dimmu Borgir"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "De Mysteriis Dom Sathanas",
+          "artist": "Mayhem",
+          "year": "1994"
+        },
+        {
+          "name": "A Blaze in the Northern Sky",
+          "artist": "Darkthrone",
+          "year": "1992"
+        },
+        {
+          "name": "In the Nightside Eclipse",
+          "artist": "Emperor",
+          "year": "1994"
+        },
+        {
+          "name": "Pure Holocaust",
+          "artist": "Immortal",
+          "year": "1993"
+        },
+        {
+          "name": "Storm of the Light's Bane",
+          "artist": "Dissection",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Freezing Moon",
+          "artist": "Mayhem",
+          "album": "De Mysteriis Dom Sathanas"
+        }
+      ]
+    },
+    "death metal": {
+      "top_artists": [
+        {
+          "name": "Death, Cannibal Corpse, Morbid Angel, Obituary, Deicide, Carcass, At the Gates, In Flames, Dark Tranquillity, Entombed"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Symbolic",
+          "artist": "Death",
+          "year": "1995"
+        },
+        {
+          "name": "Tomb of the Mutilated",
+          "artist": "Cannibal Corpse",
+          "year": "1992"
+        },
+        {
+          "name": "Covenant",
+          "artist": "Morbid Angel",
+          "year": "1993"
+        },
+        {
+          "name": "Slaughter of the Soul",
+          "artist": "At the Gates",
+          "year": "1995"
+        },
+        {
+          "name": "Left Hand Path",
+          "artist": "Entombed",
+          "year": "1990"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Crystal Mountain",
+          "artist": "Death",
+          "album": "Symbolic"
+        }
+      ]
+    },
+    "doom metal": {
+      "top_artists": [
+        {
+          "name": "Cathedral, Electric Wizard, Sleep, My Dying Bride, Paradise Lost, Anathema, Type O Negative, Saint Vitus, Candlemass, Katatonia"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Forest of Equilibrium",
+          "artist": "Cathedral",
+          "year": "1991"
+        },
+        {
+          "name": "Dopethrone",
+          "artist": "Electric Wizard",
+          "year": "2000"
+        },
+        {
+          "name": "Turn Loose the Swans",
+          "artist": "My Dying Bride",
+          "year": "1993"
+        },
+        {
+          "name": "August and Everything After",
+          "artist": "Paradise Lost",
+          "year": "1991"
+        },
+        {
+          "name": "Bloody Kisses",
+          "artist": "Type O Negative",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Commiserating the Celebration",
+          "artist": "Cathedral",
+          "album": "Forest of Equilibrium"
+        }
+      ]
+    },
+    "nu metal": {
+      "top_artists": [
+        {
+          "name": "Korn, Deftones, Limp Bizkit, System of a Down, Slipknot, Coal Chamber, Static-X, Incubus, P.O.D., Orgy"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Korn",
+          "artist": "Korn",
+          "year": "1994"
+        },
+        {
+          "name": "Around the Fur",
+          "artist": "Deftones",
+          "year": "1997"
+        },
+        {
+          "name": "Slipknot",
+          "artist": "Slipknot",
+          "year": "1999"
+        },
+        {
+          "name": "Significant Other",
+          "artist": "Limp Bizkit",
+          "year": "1999"
+        },
+        {
+          "name": "System of a Down",
+          "artist": "System of a Down",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Blind",
+          "artist": "Korn",
+          "album": "Korn"
+        }
+      ]
+    },
+    "sludge": {
+      "top_artists": [
+        {
+          "name": "Melvins, Eyehategod, Crowbar, Acid Bath, Down"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Houdini",
+          "artist": "Melvins",
+          "year": "1993"
+        },
+        {
+          "name": "When the Kite String Pops",
+          "artist": "Acid Bath",
+          "year": "1994"
+        },
+        {
+          "name": "NOLA",
+          "artist": "Down",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Honey Bucket",
+          "artist": "Melvins",
+          "album": "Houdini"
+        }
+      ]
+    },
+    "grindcore": {
+      "top_artists": [
+        {
+          "name": "Napalm Death, Carcass, Brutal Truth, Pig Destroyer, Discordance Axis"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Harmony Corruption",
+          "artist": "Napalm Death",
+          "year": "1990"
+        },
+        {
+          "name": "Necroticism – Descanting the Insalubrious",
+          "artist": "Carcass",
+          "year": "1991"
+        },
+        {
+          "name": "Extreme Conditions Demand Extreme Responses",
+          "artist": "Brutal Truth",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Suffer the Children",
+          "artist": "Napalm Death",
+          "album": "Harmony Corruption"
+        }
+      ]
+    },
+    "power metal": {
+      "top_artists": [
+        {
+          "name": "Helloween, Blind Guardian, Stratovarius, Gamma Ray, Rhapsody"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Imaginations from the Other Side",
+          "artist": "Blind Guardian",
+          "year": "1995"
+        },
+        {
+          "name": "Visions",
+          "artist": "Stratovarius",
+          "year": "1997"
+        },
+        {
+          "name": "Legendary Tales",
+          "artist": "Rhapsody",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "A Past and Future Secret",
+          "artist": "Blind Guardian",
+          "album": "Imaginations from the Other Side"
+        }
+      ]
+    },
+    "gothic metal": {
+      "top_artists": [
+        {
+          "name": "Paradise Lost, Type O Negative, Theatre of Tragedy, My Dying Bride, The Gathering"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Draconian Times",
+          "artist": "Paradise Lost",
+          "year": "1995"
+        },
+        {
+          "name": "October Rust",
+          "artist": "Type O Negative",
+          "year": "1996"
+        },
+        {
+          "name": "Velvet Darkness They Fear",
+          "artist": "Theatre of Tragedy",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Last Time",
+          "artist": "Paradise Lost",
+          "album": "Draconian Times"
+        }
+      ]
+    },
+    "metalcore": {
+      "top_artists": [
+        {
+          "name": "Earth Crisis, Integrity, Converge, Hatebreed, Shai Hulud"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Destroy the Machines",
+          "artist": "Earth Crisis",
+          "year": "1995"
+        },
+        {
+          "name": "Those Who Fear Tomorrow",
+          "artist": "Integrity",
+          "year": "1991"
+        },
+        {
+          "name": "Petitioning the Empty Sky",
+          "artist": "Converge",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Firestorm",
+          "artist": "Earth Crisis",
+          "album": "Firestorm (EP)"
+        }
+      ]
+    }
+  },
+  "Reggae & Global Beats": {
+    "rocksteady": {
+      "top_artists": [
+        {
+          "name": "The Melodians, Alton Ellis, Ken Boothe, Beres Hammond, Sanchez, John Holt, The Heptones, Marcia Griffiths, Wayne Wonder, Gregory Isaacs"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Love From a Distance",
+          "artist": "Beres Hammond",
+          "year": "1996"
+        },
+        {
+          "name": "The Collection",
+          "artist": "The Melodians",
+          "year": "1992"
+        },
+        {
+          "name": "One Up",
+          "artist": "Sanchez",
+          "year": "1996"
+        },
+        {
+          "name": "Pure Delight",
+          "artist": "Ken Boothe",
+          "year": "1994"
+        },
+        {
+          "name": "Indiscretion",
+          "artist": "Marcia Griffiths",
+          "year": "1993"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Stepping Out",
+          "artist": "Beres Hammond",
+          "album": "Love From a Distance"
+        }
+      ]
+    },
+    "reggae": {
+      "top_artists": [
+        {
+          "name": "Buju Banton, Burning Spear, Sizzla, Capleton, Luciano"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Til Shiloh",
+          "artist": "Buju Banton",
+          "year": "1995"
+        },
+        {
+          "name": "Black Woman & Child",
+          "artist": "Sizzla",
+          "year": "1997"
+        },
+        {
+          "name": "Prophecy",
+          "artist": "Capleton",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Untold Stories",
+          "artist": "Buju Banton",
+          "album": "Til Shiloh"
+        }
+      ]
+    },
+    "ska": {
+      "top_artists": [
+        {
+          "name": "The Mighty Mighty Bosstones, Reel Big Fish, No Doubt, Save Ferris, Less Than Jake"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Let's Face It",
+          "artist": "The Mighty Mighty Bosstones",
+          "year": "1997"
+        },
+        {
+          "name": "Turn the Radio Off",
+          "artist": "Reel Big Fish",
+          "year": "1996"
+        },
+        {
+          "name": "Tragic Kingdom",
+          "artist": "No Doubt",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Impression That I Get",
+          "artist": "The Mighty Mighty Bosstones",
+          "album": "Let's Face It"
+        }
+      ]
+    },
+    "dub": {
+      "top_artists": [
+        {
+          "name": "Mad Professor, Scientist, Lee \"Scratch\" Perry, Adrian Sherwood, Iration Steppas"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "No Protection",
+          "artist": "Mad Professor & Massive Attack",
+          "year": "1995"
+        },
+        {
+          "name": "Time Boom X De Devil Dead",
+          "artist": "Lee Perry",
+          "year": "1987"
+        },
+        {
+          "name": "Dub Landing",
+          "artist": "Mad Professor",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Radiation Ruling the Nation",
+          "artist": "Mad Professor & Massive Attack",
+          "album": "No Protection"
+        }
+      ]
+    },
+    "dancehall": {
+      "top_artists": [
+        {
+          "name": "Shabba Ranks, Beenie Man, Bounty Killer, Super Cat, Buju Banton"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "X-tra Naked",
+          "artist": "Shabba Ranks",
+          "year": "1992"
+        },
+        {
+          "name": "Many Moods of Moses",
+          "artist": "Beenie Man",
+          "year": "1997"
+        },
+        {
+          "name": "My Xperience",
+          "artist": "Bounty Killer",
+          "year": "1996"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Mr. Loverman",
+          "artist": "Shabba Ranks",
+          "album": "X-tra Naked"
+        }
+      ]
+    },
+    "reggaeton": {
+      "top_artists": [
+        {
+          "name": "Daddy Yankee, Don Omar, Tego Calderón, Ivy Queen, Wisin & Yandel"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "El Cartel",
+          "artist": "Daddy Yankee",
+          "year": "1997"
+        },
+        {
+          "name": "The Last Don",
+          "artist": "Don Omar",
+          "year": "2003"
+        },
+        {
+          "name": "El Abayarde",
+          "artist": "Tego Calderón",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Gasolina",
+          "artist": "Daddy Yankee",
+          "album": "El Cartel"
+        }
+      ]
+    },
+    "calypso": {
+      "top_artists": [
+        {
+          "name": "David Rudder, Calypso Rose, Machel Montano, Mighty Sparrow, Shadow"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "1990",
+          "artist": "David Rudder",
+          "year": "1990"
+        },
+        {
+          "name": "Soca Dance Party",
+          "artist": "Calypso Rose",
+          "year": "1995"
+        },
+        {
+          "name": "Too Young to Soca",
+          "artist": "Machel Montano",
+          "year": "1991"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Bahia Girl",
+          "artist": "David Rudder",
+          "album": "1990"
+        }
+      ]
+    },
+    "merengue": {
+      "top_artists": [
+        {
+          "name": "Juan Luis Guerra, Elvis Crespo, Milly Quezada, Wilfrido Vargas, Kinito Méndez"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Bachata Rosa",
+          "artist": "Juan Luis Guerra",
+          "year": "1990"
+        },
+        {
+          "name": "Suavemente",
+          "artist": "Elvis Crespo",
+          "year": "1998"
+        },
+        {
+          "name": "Vive",
+          "artist": "Milly Quezada",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Suavemente",
+          "artist": "Elvis Crespo",
+          "album": "Suavemente"
+        }
+      ]
+    },
+    "bossa nova": {
+      "top_artists": [
+        {
+          "name": "Bebel Gilberto, Marisa Monte, Caetano Veloso, Vinicius Cantuária, João Gilberto"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Tanto Tempo",
+          "artist": "Bebel Gilberto",
+          "year": "2000"
+        },
+        {
+          "name": "Verde, Anil, Amarelo, Cor-de-Rosa e Carvão",
+          "artist": "Marisa Monte",
+          "year": "1994"
+        },
+        {
+          "name": "Livro",
+          "artist": "Caetano Veloso",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Samba e Amor",
+          "artist": "Bebel Gilberto",
+          "album": "Tanto Tempo"
+        }
+      ]
+    },
+    "latin": {
+      "top_artists": [
+        {
+          "name": "Juan Luis Guerra, Celia Cruz, Marc Anthony, Buena Vista Social Club, Tito Puente"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Bachata Rosa",
+          "artist": "Juan Luis Guerra",
+          "year": "1990"
+        },
+        {
+          "name": "Buena Vista Social Club",
+          "artist": "Buena Vista Social Club",
+          "year": "1997"
+        },
+        {
+          "name": "Contra la Corriente",
+          "artist": "Marc Anthony",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Burbujas de Amor",
+          "artist": "Juan Luis Guerra",
+          "album": "Bachata Rosa"
+        }
+      ]
+    },
+    "flamenco": {
+      "top_artists": [
+        {
+          "name": "Paco de Lucía, Tomatito, Vicente Amigo, Enrique Morente, Diego El Cigala, Niña Pastori, Ketama, Pata Negra, Duquende, Camarón de la Isla"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Zyryab",
+          "artist": "Paco de Lucía",
+          "year": "1990"
+        },
+        {
+          "name": "Barrio Negro",
+          "artist": "Tomatito",
+          "year": "1991"
+        },
+        {
+          "name": "De Mi Corazón al Aire",
+          "artist": "Vicente Amigo",
+          "year": "1991"
+        },
+        {
+          "name": "Omega",
+          "artist": "Enrique Morente",
+          "year": "1996"
+        },
+        {
+          "name": "Entre dos aguas",
+          "artist": "Paco de Lucía",
+          "year": "1973"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Zyryab",
+          "artist": "Paco de Lucía",
+          "album": "Zyryab"
+        }
+      ]
+    },
+    "bachata": {
+      "top_artists": [
+        {
+          "name": "Antony Santos, Juan Luis Guerra, Raulin Rodriguez"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Bachata Rosa",
+          "artist": "Juan Luis Guerra",
+          "year": "1990"
+        },
+        {
+          "name": "La Chupadera",
+          "artist": "Antony Santos",
+          "year": "1992"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Burbujas de Amor",
+          "artist": "Juan Luis Guerra",
+          "album": "Bachata Rosa"
+        }
+      ]
+    },
+    "soca": {
+      "top_artists": [
+        {
+          "name": "Machel Montano, Alison Hinds, Burning Flames"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Journey",
+          "artist": "Machel Montano",
+          "year": "1999"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Faluma",
+          "artist": "Alison Hinds",
+          "album": "Entice"
+        }
+      ]
+    }
+  },
+  "Classical & Experimental": {
+    "experimental": {
+      "top_artists": [
+        {
+          "name": "Björk, Radiohead, Aphex Twin, Portishead, Talk Talk, Sonic Youth, John Zorn, Diamanda Galás, Nurse With Wound, Merzbow"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Homogenic",
+          "artist": "Björk",
+          "year": "1997"
+        },
+        {
+          "name": "OK Computer",
+          "artist": "Radiohead",
+          "year": "1997"
+        },
+        {
+          "name": "Spirit of Eden",
+          "artist": "Talk Talk",
+          "year": "1988"
+        },
+        {
+          "name": "Selected Ambient Works Volume II",
+          "artist": "Aphex Twin",
+          "year": "1994"
+        },
+        {
+          "name": "Dummy",
+          "artist": "Portishead",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Jóga",
+          "artist": "Björk",
+          "album": "Homogenic"
+        }
+      ]
+    },
+    "noise": {
+      "top_artists": [
+        {
+          "name": "Merzbow, Masonna, Whitehouse, The Haters, Prurient"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Venereology",
+          "artist": "Merzbow",
+          "year": "1994"
+        },
+        {
+          "name": "Pulse Demon",
+          "artist": "Merzbow",
+          "year": "1996"
+        },
+        {
+          "name": "Cruise",
+          "artist": "Whitehouse",
+          "year": "2001"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Autopsy",
+          "artist": "Merzbow",
+          "album": "Pulse Demon"
+        }
+      ]
+    },
+    "dark ambient": {
+      "top_artists": [
+        {
+          "name": "Lustmord, Coil, Biosphere, Raison d'être, Atrium Carceri"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Place Where the Black Stars Hang",
+          "artist": "Lustmord",
+          "year": "1994"
+        },
+        {
+          "name": "Substrata",
+          "artist": "Biosphere",
+          "year": "1997"
+        },
+        {
+          "name": "Within the Depths of Silence and Phormations",
+          "artist": "Raison d'être",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Sublunar",
+          "artist": "Lustmord",
+          "album": "The Place Where the Black Stars Hang"
+        }
+      ]
+    },
+    "drone": {
+      "top_artists": [
+        {
+          "name": "Earth, Sunn O))), Stars of the Lid, Earth, Phill Niblock"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Earth 2",
+          "artist": "Earth",
+          "year": "1993"
+        },
+        {
+          "name": "The Tired Sounds of Stars of the Lid",
+          "artist": "Stars of the Lid",
+          "year": "2001"
+        },
+        {
+          "name": "G♭→A",
+          "artist": "Phill Niblock",
+          "year": "1995"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Seven Angels",
+          "artist": "Earth",
+          "album": "Earth 2"
+        }
+      ]
+    },
+    "avant-garde": {
+      "top_artists": [
+        {
+          "name": "John Zorn, Diamanda Galás, Laurie Anderson, Meredith Monk, Björk"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Naked City",
+          "artist": "John Zorn",
+          "year": "1990"
+        },
+        {
+          "name": "The Singer",
+          "artist": "Diamanda Galás",
+          "year": "1992"
+        },
+        {
+          "name": "Bright Red",
+          "artist": "Laurie Anderson",
+          "year": "1994"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Batman",
+          "artist": "John Zorn",
+          "album": "Naked City"
+        }
+      ]
+    },
+    "modern classical": {
+      "top_artists": [
+        {
+          "name": "Arvo Pärt, Philip Glass, Henryk Górecki, John Adams, Steve Reich"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Te Deum",
+          "artist": "Arvo Pärt",
+          "year": "1993"
+        },
+        {
+          "name": "Symphony No. 3",
+          "artist": "Henryk Górecki",
+          "year": "1976"
+        },
+        {
+          "name": "The Hours",
+          "artist": "Philip Glass",
+          "year": "1998"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Te Deum",
+          "artist": "Arvo Pärt",
+          "album": "Te Deum"
+        }
+      ]
+    },
+    "minimalism": {
+      "top_artists": [
+        {
+          "name": "Philip Glass, Steve Reich, Arvo Pärt, John Adams, Michael Nyman, Terry Riley, Max Richter, Gavin Bryars, Wim Mertens, La Monte Young"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Piano",
+          "artist": "Michael Nyman",
+          "year": "1993"
+        },
+        {
+          "name": "Heroes Symphony",
+          "artist": "Philip Glass",
+          "year": "1996"
+        },
+        {
+          "name": "City Life",
+          "artist": "Steve Reich",
+          "year": "1995"
+        },
+        {
+          "name": "Jesus' Blood Never Failed Me Yet",
+          "artist": "Gavin Bryars",
+          "year": "1993"
+        },
+        {
+          "name": "Naqoyqatsi",
+          "artist": "Philip Glass",
+          "year": "2002"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Heart Asks Pleasure First",
+          "artist": "Michael Nyman",
+          "album": "The Piano"
+        }
+      ]
+    },
+    "classical": {
+      "top_artists": [
+        {
+          "name": "Arvo Pärt, Henryk Górecki, John Adams, Philip Glass, Steve Reich, Krzysztof Penderecki, Giya Kancheli, Alfred Schnittke, Einojuhani Rautavaara, Sofia Gubaidulina"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Symphony No. 3",
+          "artist": "Henryk Górecki",
+          "year": "1976"
+        },
+        {
+          "name": "Te Deum",
+          "artist": "Arvo Pärt",
+          "year": "1993"
+        },
+        {
+          "name": "The Hours",
+          "artist": "Philip Glass",
+          "year": "1998"
+        },
+        {
+          "name": "Angel of Light",
+          "artist": "Einojuhani Rautavaara",
+          "year": "1994"
+        },
+        {
+          "name": "Vasks: Distant Light",
+          "artist": "Pēteris Vasks",
+          "year": "1997"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Symphony of Sorrowful Songs",
+          "artist": "Henryk Górecki",
+          "album": "Symphony No. 3"
+        }
+      ]
+    },
+    "soundtrack": {
+      "top_artists": [
+        {
+          "name": "Hans Zimmer, John Williams, Danny Elfman, James Horner, Howard Shore"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Lion King",
+          "artist": "Hans Zimmer",
+          "year": "1994"
+        },
+        {
+          "name": "Jurassic Park",
+          "artist": "John Williams",
+          "year": "1993"
+        },
+        {
+          "name": "Edward Scissorhands",
+          "artist": "Danny Elfman",
+          "year": "1990"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Circle of Life",
+          "artist": "Hans Zimmer",
+          "album": "The Lion King"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "Rock & Overdrive": {
+    "rock": {
+      "top_artists": [
+        {
+          "name": "Fats Domino, Muddy Waters, Howlin' Wolf, John Lee Hooker, Little Walter, Elmore James, Jackie Brenston, Sonny Boy Williamson II, Willie Dixon, Big Mama Thornton"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Fat Man",
+          "artist": "Fats Domino",
+          "year": "1950"
+        },
+        {
+          "name": "Rollin' Stone",
+          "artist": "Muddy Waters",
+          "year": "1950"
+        },
+        {
+          "name": "Moanin' at Midnight",
+          "artist": "Howlin' Wolf",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Fat Man",
+          "artist": "Fats Domino",
+          "album": "The Fat Man"
+        }
+      ]
+    },
+    "rock & roll": {
+      "top_artists": [
+        {
+          "name": "Fats Domino, Little Richard, Chuck Berry, Bo Diddley, Big Joe Turner, Elvis Presley, Jerry Lee Lewis, Buddy Holly, Carl Perkins, Bill Haley & His Comets"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Rocket 88",
+          "artist": "Jackie Brenston and his Delta Cats",
+          "year": "1951"
+        },
+        {
+          "name": "Shake, Rattle and Roll",
+          "artist": "Big Joe Turner",
+          "year": "1954"
+        },
+        {
+          "name": "Rock Around the Clock",
+          "artist": "Bill Haley & His Comets",
+          "year": "1954"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Rocket 88",
+          "artist": "Jackie Brenston and his Delta Cats",
+          "album": "Rocket 88"
+        }
+      ]
+    },
+    "indie": {
+      "top_artists": [
+        {
+          "name": "The Weavers, Woody Guthrie, Pete Seeger, Leadbelly, Cisco Houston, Jean Ritchie, Odetta, Harry Belafonte, Paul Robeson, The Gateway Singers"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Goodnight Irene",
+          "artist": "The Weavers",
+          "year": "1950"
+        },
+        {
+          "name": "Dust Bowl Ballads",
+          "artist": "Woody Guthrie",
+          "year": "1950"
+        },
+        {
+          "name": "Goofing-Off Suite",
+          "artist": "Pete Seeger",
+          "year": "1954"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Goodnight Irene",
+          "artist": "The Weavers",
+          "album": "Goodnight Irene"
+        }
+      ]
+    },
+    "rockabilly": {
+      "top_artists": [
+        {
+          "name": "Elvis Presley, Carl Perkins, Gene Vincent, Eddie Cochran, Johnny Burnette, Wanda Jackson, Brenda Lee, Buddy Holly, Bill Haley, Ricky Nelson"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Elvis Presley",
+          "artist": "Elvis Presley",
+          "year": "1956"
+        },
+        {
+          "name": "Blue Suede Shoes",
+          "artist": "Carl Perkins",
+          "year": "1956"
+        },
+        {
+          "name": "Be-Bop-A-Lula",
+          "artist": "Gene Vincent",
+          "year": "1956"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Blue Suede Shoes",
+          "artist": "Carl Perkins",
+          "album": "Blue Suede Shoes"
+        }
+      ]
+    }
+  },
+  "Hip-Hop & Groove": {
+    "r&b": {
+      "top_artists": [
+        {
+          "name": "Ruth Brown, Etta James, Ray Charles, Little Willie John, The Dominoes, Big Joe Turner, Clyde McPhatter, LaVern Baker, The Drifters, Jackie Wilson"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Teardrops from My Eyes",
+          "artist": "Ruth Brown",
+          "year": "1950"
+        },
+        {
+          "name": "I Got a Woman",
+          "artist": "Ray Charles",
+          "year": "1954"
+        },
+        {
+          "name": "The Wallflower",
+          "artist": "Etta James",
+          "year": "1955"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Teardrops from My Eyes",
+          "artist": "Ruth Brown",
+          "album": "Teardrops from My Eyes"
+        }
+      ]
+    },
+    "soul": {
+      "top_artists": [
+        {
+          "name": "Ray Charles, Sam Cooke, James Brown, Jackie Wilson, The Soul Stirrers, The 5 Royales, Little Willie John, Hank Ballard"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "I Got a Woman",
+          "artist": "Ray Charles",
+          "year": "1954"
+        },
+        {
+          "name": "You Send Me",
+          "artist": "Sam Cooke",
+          "year": "1957"
+        },
+        {
+          "name": "Please Please Please",
+          "artist": "James Brown",
+          "year": "1956"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "I Got a Woman",
+          "artist": "Ray Charles",
+          "album": "I Got a Woman"
+        }
+      ]
+    }
+  },
+  "Jazz, Blues & Soul": {
+    "jazz": {
+      "top_artists": [
+        {
+          "name": "Miles Davis, Charlie Parker, Dizzy Gillespie, Thelonious Monk, Art Blakey, Charles Mingus, John Coltrane, Bill Evans, Chet Baker, Cannonball Adderley"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Birth of the Cool",
+          "artist": "Miles Davis",
+          "year": "1950"
+        },
+        {
+          "name": "Charlie Parker with Strings",
+          "artist": "Charlie Parker",
+          "year": "1950"
+        },
+        {
+          "name": "Genius of Modern Music",
+          "artist": "Thelonious Monk",
+          "year": "1951"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Move",
+          "artist": "Miles Davis",
+          "album": "Birth of the Cool"
+        }
+      ]
+    },
+    "blues": {
+      "top_artists": [
+        {
+          "name": "Muddy Waters, Howlin' Wolf, John Lee Hooker, B.B. King, Elmore James, T-Bone Walker, Little Walter, Sonny Boy Williamson II, Lightnin' Hopkins, Big Mama Thornton"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Rollin' Stone",
+          "artist": "Muddy Waters",
+          "year": "1950"
+        },
+        {
+          "name": "Moanin' at Midnight",
+          "artist": "Howlin' Wolf",
+          "year": "1951"
+        },
+        {
+          "name": "Three O'Clock Blues",
+          "artist": "B.B. King",
+          "year": "1951"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Rollin' Stone",
+          "artist": "Muddy Waters",
+          "album": "Rollin' Stone"
+        }
+      ]
+    },
+    "bebop": {
+      "top_artists": [
+        {
+          "name": "Charlie Parker, Dizzy Gillespie, Thelonious Monk, Bud Powell, Max Roach, Kenny Clarke, J.J. Johnson, Dexter Gordon, Sonny Stitt, Fats Navarro"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Charlie Parker with Strings",
+          "artist": "Charlie Parker",
+          "year": "1950"
+        },
+        {
+          "name": "The Amazing Bud Powell",
+          "artist": "Bud Powell",
+          "year": "1951"
+        },
+        {
+          "name": "Genius of Modern Music",
+          "artist": "Thelonious Monk",
+          "year": "1951"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Just Friends",
+          "artist": "Charlie Parker",
+          "album": "Charlie Parker with Strings"
+        }
+      ]
+    },
+    "cool jazz": {
+      "top_artists": [
+        {
+          "name": "Miles Davis, Chet Baker, Dave Brubeck, Gerry Mulligan, Stan Getz, Lester Young, The Modern Jazz Quartet, Lee Konitz, Paul Desmond, Gil Evans"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Birth of the Cool",
+          "artist": "Miles Davis",
+          "year": "1950"
+        },
+        {
+          "name": "Chet Baker Sings",
+          "artist": "Chet Baker",
+          "year": "1954"
+        },
+        {
+          "name": "Jazz at Oberlin",
+          "artist": "Dave Brubeck",
+          "year": "1953"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Jeru",
+          "artist": "Miles Davis",
+          "album": "Birth of the Cool"
+        }
+      ]
+    },
+    "hard bop": {
+      "top_artists": [
+        {
+          "name": "Art Blakey & The Jazz Messengers, Horace Silver, Sonny Rollins, Clifford Brown, Miles Davis, John Coltrane, Lee Morgan, Cannonball Adderley, Wes Montgomery, Donald Byrd"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Moanin'",
+          "artist": "Art Blakey & The Jazz Messengers",
+          "year": "1958"
+        },
+        {
+          "name": "Saxophone Colossus",
+          "artist": "Sonny Rollins",
+          "year": "1956"
+        },
+        {
+          "name": "Song for My Father",
+          "artist": "Horace Silver",
+          "year": "1964"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Moanin'",
+          "artist": "Art Blakey & The Jazz Messengers",
+          "album": "Moanin'"
+        }
+      ]
+    },
+    "soul jazz": {
+      "top_artists": [
+        {
+          "name": "Jimmy Smith, Cannonball Adderley, Horace Silver, Ramsey Lewis, Lou Donaldson, Hank Crawford, Brother Jack McDuff, Shirley Scott, Stanley Turrentine, Gene Harris"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Sermon!",
+          "artist": "Jimmy Smith",
+          "year": "1959"
+        },
+        {
+          "name": "Somethin' Else",
+          "artist": "Cannonball Adderley",
+          "year": "1958"
+        },
+        {
+          "name": "Finger Poppin'",
+          "artist": "Horace Silver",
+          "year": "1959"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Sermon",
+          "artist": "Jimmy Smith",
+          "album": "The Sermon!"
+        }
+      ]
+    },
+    "chicago blues": {
+      "top_artists": [
+        {
+          "name": "Muddy Waters, Howlin' Wolf, Little Walter, Willie Dixon, Sonny Boy Williamson II"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Rollin' Stone",
+          "artist": "Muddy Waters",
+          "year": "1950"
+        },
+        {
+          "name": "Moanin' at Midnight",
+          "artist": "Howlin' Wolf",
+          "year": "1951"
+        },
+        {
+          "name": "Juke",
+          "artist": "Little Walter",
+          "year": "1952"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Rollin' Stone",
+          "artist": "Muddy Waters",
+          "album": "Rollin' Stone"
+        }
+      ]
+    },
+    "delta blues": {
+      "top_artists": [
+        {
+          "name": "John Lee Hooker, Robert Johnson, Son House, Skip James, Charley Patton"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Boogie Chillen",
+          "artist": "John Lee Hooker",
+          "year": "1949"
+        },
+        {
+          "name": "King of the Delta Blues Singers",
+          "artist": "Robert Johnson",
+          "year": "1936"
+        },
+        {
+          "name": "Father of the Delta Blues",
+          "artist": "Son House",
+          "year": "1941"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Boogie Chillen",
+          "artist": "John Lee Hooker",
+          "album": "Boogie Chillen"
+        }
+      ]
+    },
+    "ragtime": {
+      "top_artists": [
+        {
+          "name": "Scott Joplin, Eubie Blake, Joseph Lamb, James Scott, Tom Turpin"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Entertainer",
+          "artist": "Scott Joplin",
+          "year": "1902"
+        },
+        {
+          "name": "Maple Leaf Rag",
+          "artist": "Scott Joplin",
+          "year": "1899"
+        },
+        {
+          "name": "Charleston Rag",
+          "artist": "Eubie Blake",
+          "year": "1899"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Entertainer",
+          "artist": "Scott Joplin",
+          "album": "The Entertainer"
+        }
+      ]
+    },
+    "swing": {
+      "top_artists": [
+        {
+          "name": "Duke Ellington, Count Basie, Benny Goodman, Glenn Miller, Tommy Dorsey, Artie Shaw, Louis Jordan, Ella Fitzgerald, Nat King Cole, Frank Sinatra"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Masterpieces by Ellington",
+          "artist": "Duke Ellington",
+          "year": "1951"
+        },
+        {
+          "name": "The Complete Decca Recordings",
+          "artist": "Count Basie",
+          "year": "1950"
+        },
+        {
+          "name": "The Famous 1938 Carnegie Hall Jazz Concert",
+          "artist": "Benny Goodman",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Take the 'A' Train",
+          "artist": "Duke Ellington",
+          "album": "Masterpieces by Ellington"
+        }
+      ]
+    },
+    "blues-rock": {
+      "top_artists": [
+        {
+          "name": "Muddy Waters, Howlin' Wolf, B.B. King, Bo Diddley, Elmore James, John Lee Hooker, Jimmy Reed, Buddy Guy, T-Bone Walker, Chuck Berry"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Best of Muddy Waters",
+          "artist": "Muddy Waters",
+          "year": "1958"
+        },
+        {
+          "name": "Moanin' in the Moonlight",
+          "artist": "Howlin' Wolf",
+          "year": "1959"
+        },
+        {
+          "name": "Bo Diddley",
+          "artist": "Bo Diddley",
+          "year": "1958"
+        },
+        {
+          "name": "Sing and Play the Blues",
+          "artist": "B.B. King",
+          "year": "1959"
+        },
+        {
+          "name": "I'm John Lee Hooker",
+          "artist": "John Lee Hooker",
+          "year": "1959"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Hoochie Coochie Man",
+          "artist": "Muddy Waters",
+          "album": "The Best of Muddy Waters"
+        }
+      ]
+    },
+    "bossa nova": {
+      "top_artists": [
+        {
+          "name": "João Gilberto, Antonio Carlos Jobim, Elizeth Cardoso, Vinicius de Moraes, Luiz Bonfá, Sylvia Telles, Maysa, Agostinho dos Santos, Os Cariocas, Newton Mendonça"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Chega de Saudade",
+          "artist": "João Gilberto",
+          "year": "1959"
+        },
+        {
+          "name": "Canção do Amor Demais",
+          "artist": "Elizeth Cardoso",
+          "year": "1958"
+        },
+        {
+          "name": "Amor de gente moça",
+          "artist": "Sylvia Telles",
+          "year": "1959"
+        },
+        {
+          "name": "Convite para ouvir Maysa",
+          "artist": "Maysa",
+          "year": "1956"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Chega de Saudade",
+          "artist": "João Gilberto",
+          "album": "Chega de Saudade"
+        }
+      ]
+    }
+  },
+  "Reggae & Global Beats": {
+    "calypso": {
+      "top_artists": [
+        {
+          "name": "Lord Kitchener, Mighty Sparrow, Lord Invader, Roaring Lion, Attila the Hun, Lord Flea, Harry Belafonte, Wilmoth Houdini, Lord Beginner, The Duke of Iron"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Kitch",
+          "artist": "Lord Kitchener",
+          "year": "1950"
+        },
+        {
+          "name": "Rum and Coca-Cola",
+          "artist": "Lord Invader",
+          "year": "1943"
+        },
+        {
+          "name": "Calypso at Midnight",
+          "artist": "Lord Kitchener",
+          "year": "1954"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Kitch",
+          "artist": "Lord Kitchener",
+          "album": "Kitch"
+        }
+      ]
+    },
+    "merengue": {
+      "top_artists": [
+        {
+          "name": "Joseíto Mateo, Luis Alberti, Tona la Negra, Dioris Valladares, Angel Viloria y su Conjunto Típico Cibaeño, Alberico Sadel, Vinicio Franco, Papa Molina, Nicolas Casimiro, Elgran Fellove"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Merengues",
+          "artist": "Angel Viloria y su Conjunto Típico Cibaeño",
+          "year": "1954"
+        },
+        {
+          "name": "Caña Brava",
+          "artist": "Joseíto Mateo",
+          "year": "1955"
+        },
+        {
+          "name": "Luis Alberti y su Orquesta",
+          "artist": "Luis Alberti",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Caña Brava",
+          "artist": "Joseíto Mateo",
+          "album": "Caña Brava"
+        }
+      ]
+    },
+    "latin": {
+      "top_artists": [
+        {
+          "name": "Tito Puente, Machito, Pérez Prado, Celia Cruz, Tito Rodríguez, Mongo Santamaría, Beny Moré, Xavier Cugat, Vicente Fernández, Lola Beltrán"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Cuban Carnival",
+          "artist": "Tito Puente",
+          "year": "1956"
+        },
+        {
+          "name": "Mambo Mania",
+          "artist": "Pérez Prado",
+          "year": "1954"
+        },
+        {
+          "name": "Afro-Cuban Jazz",
+          "artist": "Machito",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Cherry Pink and Apple Blossom White",
+          "artist": "Pérez Prado",
+          "album": "Mambo Mania"
+        }
+      ]
+    }
+  },
+  "Classical & Experimental": {
+    "experimental": {
+      "top_artists": [
+        {
+          "name": "John Cage, Karlheinz Stockhausen, Pierre Schaeffer, Edgard Varèse, Pierre Boulez, Iannis Xenakis, Luciano Berio, Gyorgy Ligeti, Olivier Messiaen, Harry Partch"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sonatas and Interludes",
+          "artist": "John Cage",
+          "year": "1948"
+        },
+        {
+          "name": "Étude aux chemins de fer",
+          "artist": "Pierre Schaeffer",
+          "year": "1948"
+        },
+        {
+          "name": "Musique Concrète",
+          "artist": "Pierre Schaeffer",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Sonata V",
+          "artist": "John Cage",
+          "album": "Sonatas and Interludes"
+        }
+      ]
+    },
+    "avant-garde": {
+      "top_artists": [
+        {
+          "name": "John Cage, Karlheinz Stockhausen, Pierre Boulez, Edgard Varèse, Olivier Messiaen, Morton Feldman, Earle Brown, Christian Wolff, Bruno Maderna, Luigi Nono"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sonatas and Interludes",
+          "artist": "John Cage",
+          "year": "1948"
+        },
+        {
+          "name": "Le Marteau sans maître",
+          "artist": "Pierre Boulez",
+          "year": "1955"
+        },
+        {
+          "name": "Déserts",
+          "artist": "Edgard Varèse",
+          "year": "1954"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Déserts",
+          "artist": "Edgard Varèse",
+          "album": "Déserts"
+        }
+      ]
+    },
+    "classical": {
+      "top_artists": [
+        {
+          "name": "Igor Stravinsky, Leonard Bernstein, Aaron Copland, Benjamin Britten, Dmitri Shostakovich, Samuel Barber, Francis Poulenc, Gian Carlo Menotti, Ralph Vaughan Williams, Sergei Prokofiev"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "The Rake's Progress",
+          "artist": "Igor Stravinsky",
+          "year": "1951"
+        },
+        {
+          "name": "Appalachian Spring",
+          "artist": "Aaron Copland",
+          "year": "1944"
+        },
+        {
+          "name": "Peter Grimes",
+          "artist": "Benjamin Britten",
+          "year": "1945"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Fanfare for the Common Man",
+          "artist": "Aaron Copland",
+          "album": "Appalachian Spring"
+        }
+      ]
+    },
+    "soundtrack": {
+      "top_artists": [
+        {
+          "name": "Max Steiner, Dimitri Tiomkin, Bernard Herrmann, Alfred Newman, Franz Waxman, Alex North, Miklos Rozsa, Victor Young, Malcolm Arnold, George Duning"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Sunset Boulevard",
+          "artist": "Franz Waxman",
+          "year": "1950"
+        },
+        {
+          "name": "All About Eve",
+          "artist": "Alfred Newman",
+          "year": "1950"
+        },
+        {
+          "name": "High Noon",
+          "artist": "Dimitri Tiomkin",
+          "year": "1952"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "The Ballad of High Noon",
+          "artist": "Dimitri Tiomkin",
+          "album": "High Noon"
+        }
+      ]
+    }
+  },
+  "Pop & Melodies": {
+    "pop": {
+      "top_artists": [
+        {
+          "name": "Nat King Cole, Frank Sinatra, Dean Martin, Perry Como, Doris Day, Patti Page, Eddie Fisher, Kay Starr, Rosemary Clooney, The McGuire Sisters"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Mona Lisa",
+          "artist": "Nat King Cole",
+          "year": "1950"
+        },
+        {
+          "name": "Sing and Dance with Frank Sinatra",
+          "artist": "Frank Sinatra",
+          "year": "1950"
+        },
+        {
+          "name": "Secret Love",
+          "artist": "Doris Day",
+          "year": "1953"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Mona Lisa",
+          "artist": "Nat King Cole",
+          "album": "Mona Lisa"
+        }
+      ]
+    },
+    "traditional pop": {
+      "top_artists": [
+        {
+          "name": "Frank Sinatra, Bing Crosby, Nat King Cole, Tony Bennett, Ella Fitzgerald, Louis Armstrong, Judy Garland, Johnny Mathis, Bobby Darin, Pat Boone"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Songs for Young Lovers",
+          "artist": "Frank Sinatra",
+          "year": "1954"
+        },
+        {
+          "name": "White Christmas",
+          "artist": "Bing Crosby",
+          "year": "1950"
+        },
+        {
+          "name": "The Nat King Cole Story",
+          "artist": "Nat King Cole",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Young at Heart",
+          "artist": "Frank Sinatra",
+          "album": "Songs for Young Lovers"
+        }
+      ]
+    }
+  },
+  "Folk & Acoustics": {
+    "folk": {
+      "top_artists": [
+        {
+          "name": "Woody Guthrie, Pete Seeger, The Weavers, Leadbelly, Burl Ives, The Kingston Trio, Odetta, Harry Belafonte, Jean Ritchie, Paul Robeson"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Goodnight Irene",
+          "artist": "The Weavers",
+          "year": "1950"
+        },
+        {
+          "name": "Dust Bowl Ballads",
+          "artist": "Woody Guthrie",
+          "year": "1950"
+        },
+        {
+          "name": "Goofing-Off Suite",
+          "artist": "Pete Seeger",
+          "year": "1954"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Goodnight Irene",
+          "artist": "The Weavers",
+          "album": "Goodnight Irene"
+        }
+      ]
+    },
+    "country": {
+      "top_artists": [
+        {
+          "name": "Hank Williams, Lefty Frizzell, Johnny Cash, Marty Robbins, Patsy Cline, Kitty Wells, Chet Atkins, Webb Pierce, Ernest Tubb, Ray Price"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "I'm So Lonesome I Could Cry",
+          "artist": "Hank Williams",
+          "year": "1949"
+        },
+        {
+          "name": "If You've Got the Money I've Got the Time",
+          "artist": "Lefty Frizzell",
+          "year": "1950"
+        },
+        {
+          "name": "It Wasn't God Who Made Honky Tonk Angels",
+          "artist": "Kitty Wells",
+          "year": "1952"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "If You've Got the Money I've Got the Time",
+          "artist": "Lefty Frizzell",
+          "album": "If You've Got the Money I've Got the Time"
+        }
+      ]
+    },
+    "bluegrass": {
+      "top_artists": [
+        {
+          "name": "Bill Monroe, Flatt & Scruggs, The Stanley Brothers, Jimmy Martin, Reno & Smiley"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Blue Moon of Kentucky",
+          "artist": "Bill Monroe",
+          "year": "1947"
+        },
+        {
+          "name": "Foggy Mountain Breakdown",
+          "artist": "Flatt & Scruggs",
+          "year": "1950"
+        },
+        {
+          "name": "The Fields Have Turned Brown",
+          "artist": "The Stanley Brothers",
+          "year": "1951"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Foggy Mountain Breakdown",
+          "artist": "Flatt & Scruggs",
+          "album": "Foggy Mountain Breakdown"
+        }
+      ]
+    },
+    "acoustic": {
+      "top_artists": [
+        {
+          "name": "Woody Guthrie, Pete Seeger, The Weavers, Leadbelly, Bill Monroe"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Goodnight Irene",
+          "artist": "The Weavers",
+          "year": "1950"
+        },
+        {
+          "name": "Dust Bowl Ballads",
+          "artist": "Woody Guthrie",
+          "year": "1950"
+        },
+        {
+          "name": "Foggy Mountain Breakdown",
+          "artist": "Flatt & Scruggs",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Goodnight Irene",
+          "artist": "The Weavers",
+          "album": "Goodnight Irene"
+        }
+      ]
+    },
+    "gospel": {
+      "top_artists": [
+        {
+          "name": "Mahalia Jackson, Sister Rosetta Tharpe, The Soul Stirrers, The Blackwood Brothers, Clara Ward"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Move On Up a Little Higher",
+          "artist": "Mahalia Jackson",
+          "year": "1947"
+        },
+        {
+          "name": "Strange Things Happening Every Day",
+          "artist": "Sister Rosetta Tharpe",
+          "year": "1945"
+        },
+        {
+          "name": "Jesus Gave Me Water",
+          "artist": "The Soul Stirrers",
+          "year": "1951"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Move On Up a Little Higher",
+          "artist": "Mahalia Jackson",
+          "album": "Move On Up a Little Higher"
+        }
+      ]
+    },
+    "flamenco": {
+      "top_artists": [
+        {
+          "name": "Paco de Lucía, Camarón de la Isla, Sabicas, Manolo Sanlúcar, Pepe Marchena"
+        }
+      ],
+      "top_albums": [
+        {
+          "name": "Flamenco Puro",
+          "artist": "Sabicas",
+          "year": "1956"
+        },
+        {
+          "name": "The Art of Flamenco",
+          "artist": "Sabicas",
+          "year": "1958"
+        },
+        {
+          "name": "Grandes Cantaores del Flamenco",
+          "artist": "Pepe Marchena",
+          "year": "1950"
+        }
+      ],
+      "sample_tracks": [
+        {
+          "name": "Zapateado",
+          "artist": "Sabicas",
+          "album": "Flamenco Puro"
+        }
+      ]
+    }
+  }
+}
